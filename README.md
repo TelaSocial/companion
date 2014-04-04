@@ -3,6 +3,8 @@ companion
 
 ## Releasing an APK
 
+This should probably live in a script in our framework. 
+
     cordova release
 
 The above command will generate an APK file, unsigned, in the ./platforms/android/ant-build/ directory. 
@@ -19,4 +21,4 @@ For the key, which you should keep in a safe directory. And then you can sign th
     $ jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.keystore
     my_application.apk alias_name
 
-
+Then you can copy to Android with adb push filename-signed.apk /sdcard/path-in-device/file.adk — or push to a market, etc. 
