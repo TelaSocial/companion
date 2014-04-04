@@ -1,6 +1,20 @@
 companion
 =========
 
+## Related plugins 
+
+For calendar interoperation: 
+
+    cordova plugin add https://github.com/EddyVerbruggen/Calendar-PhoneGap-Plugin.git
+
+For background service to JS 
+
+    cordova plugin add [directory||https://github.com/Red-Folder/bgs-core]
+
+This last plugin asks for another plugin to be used, which instantiates the above, 
+
+    https://github.com/Red-Folder/bgs-sample
+
 ## Releasing an APK
 
 This should probably live in a script in our framework. 
