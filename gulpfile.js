@@ -46,6 +46,8 @@ gulp.task('createBuildDir', function(cb){
 var cordovaLog = function(msg){
     console.log('[' + blue('cordova')+ '] ', msg);
 };
+cordova.on('log', cordovaLog);
+cordova.on('verbose', cordovaLog);
 
 //creates a cordova folder for the app
 gulp.task('cordova:create', ['createBuildDir'], function(cb){
@@ -55,8 +57,6 @@ gulp.task('cordova:create', ['createBuildDir'], function(cb){
         cfg = pkg.cordovaConfig.extra,
         promise;
 
-    cordova.on('log', cordovaLog);
-    cordova.on('verbose', cordovaLog);
     promise = new Q(cordova.create(dir, id, name, cfg));
     promise.then(function(){
         gutil.log('cordova create finished.');
@@ -66,7 +66,6 @@ gulp.task('cordova:create', ['createBuildDir'], function(cb){
 
 gulp.task('cordova:addAndroid', ['cordova:create'], function(){
     process.env.PWD = path.join(process.env.PWD, paths.build.cordova);
-    console.log('process.env.PWD', process.env.PWD);
     cordova.platform('add', 'android');
 });
 
