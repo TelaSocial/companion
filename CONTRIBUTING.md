@@ -1,6 +1,7 @@
 ## requirements
 
-The build system was tested with node.js version v0.10.15.
+* The build system was tested with node.js version v0.10.15.
+* You will need to have android sdk (./tools) in your PATH. 
 
 ## install dependencies
 
