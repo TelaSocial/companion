@@ -12,6 +12,7 @@ var pkg = require('./package.json'),
 
 //paths
 var paths = {
+        root: __dirname,
         sources: {
             layouts: 'src/templates/layouts/',
             partials: 'src/templates/partials/*.hbs',
@@ -50,7 +51,7 @@ cordova.on('log', cordovaLog);
 cordova.on('verbose', cordovaLog);
 
 var cordovaCdToRoot = function(){
-    process.env.PWD = path.join(process.env.PWD, paths.build.cordova);
+    process.env.PWD = path.join(paths.root, paths.build.cordova);
 };
 
 //creates a cordova folder for the app
@@ -96,7 +97,8 @@ gulp.task('default', function() {
 //catch CordovaErrors
 process.on('uncaughtException', function(err){
     var harmlessErrors = [
-            /Path already exists and is not empty/g
+            /Path already exists and is not empty/g,
+            /Platform android already added/g
         ],
         shouldExit = true;
     if (err instanceof CordovaError) {

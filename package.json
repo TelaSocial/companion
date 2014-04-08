@@ -35,6 +35,7 @@
   "jshintConfig": {
     "globals": {
       "process": true,
+      "__dirname": true,
       "console": true,
       "require": true
     }
