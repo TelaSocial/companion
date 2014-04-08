@@ -1,0 +1,44 @@
+{
+  "name": "companion",
+  "version": "0.1.0",
+  "description": "Companion is a mobile application to track schedules of conferences and events.",
+  "scripts": {
+    "cordova-setup": "./node_modules/.bin/gulp cordova:setup"
+  },
+  "author": "Tela Social",
+  "contributors": [
+    {
+      "name": "Marcio Galli"
+    },
+    {
+      "name": "Fabricio C Zuardi"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TelaSocial/companion/issues"
+  },
+  "homepage": "https://github.com/TelaSocial/companion",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TelaSocial/companion.git"
+  },
+  "private": true,
+  "devDependencies": {
+    "cordova": "^3.4.0-0.1.3",
+    "gulp": "^3.6.0",
+    "gulp-util": "^2.2.14"
+  },
+  "jshintConfig": {
+    "globals": {
+      "process": true,
+      "console": true,
+      "require": true
+    }
+  },
+  "cordovaConfig": {
+    "id": "com.telasocial.companion",
+    "extra": {}
+  }
+}
