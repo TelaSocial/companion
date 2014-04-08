@@ -49,6 +49,10 @@ var cordovaLog = function(msg){
 cordova.on('log', cordovaLog);
 cordova.on('verbose', cordovaLog);
 
+var cordovaCdToRoot = function(){
+    process.env.PWD = path.join(process.env.PWD, paths.build.cordova);
+};
+
 //creates a cordova folder for the app
 gulp.task('cordova:create', ['createBuildDir'], function(cb){
     var name = pkg.name,
@@ -58,15 +62,14 @@ gulp.task('cordova:create', ['createBuildDir'], function(cb){
         promise;
 
     promise = new Q(cordova.create(dir, id, name, cfg));
-    promise.then(function(){
-        gutil.log('cordova create finished.');
-        cb(null);
-    });
+    promise.then(cb);
 });
 
-gulp.task('cordova:addAndroid', ['cordova:create'], function(){
-    process.env.PWD = path.join(process.env.PWD, paths.build.cordova);
-    cordova.platform('add', 'android');
+gulp.task('cordova:addAndroid', ['cordova:create'], function(cb){
+    var promise;
+    cordovaCdToRoot();
+    promise = new Q(cordova.platform('add', 'android'));
+    promise.then(cb);
 });
 
 //run all the initial cordova-related tasks
@@ -79,17 +82,35 @@ gulp.task('cordova:setup',
     ]
 );
 
+gulp.task('cordova:build', function(cb){
+    var promise;
+    cordovaCdToRoot();
+    promise = new Q(cordova.build());
+    promise.then(cb);
+});
+
 //default
 gulp.task('default', function() {
 });
 
 //catch CordovaErrors
 process.on('uncaughtException', function(err){
+    var harmlessErrors = [
+            /Path already exists and is not empty/g
+        ],
+        shouldExit = true;
     if (err instanceof CordovaError) {
-        gutil.log(red(err.message));
+        cordovaLog(red(err.message));
     } else {
         console.error(err.stack);
     }
-    process.exit(1);
+    harmlessErrors.forEach(function(pattern){
+        if (pattern.test(err.message)){
+            shouldExit = false;
+        }
+    });
+    if (shouldExit) {
+        process.exit(1);
+    }
 });
 
