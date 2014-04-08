@@ -24,6 +24,7 @@ var paths = {
             root: 'dist',
             www: 'dist/www/',
             cordova: 'dist/cordova/',
+            cordova_www: 'dist/cordova/www/'
         }
     };
 
@@ -45,6 +46,7 @@ gulp.task('createBuildDir', function(cb){
     });
 });
 
+//web
 gulp.task('web:build', function(){
     var options = {
         layoutdir: paths.sources.layouts,
@@ -60,6 +62,7 @@ gulp.task('web:build', function(){
 });
 
 
+//cordova
 var cordovaLog = function(msg){
     console.log('[' + blue('cordova')+ '] ', msg);
 };
@@ -99,7 +102,21 @@ gulp.task('cordova:setup',
     ]
 );
 
-gulp.task('cordova:build', function(cb){
+gulp.task('cordova:copyWeb', function(){
+    return gulp.src([
+                        './**/*.html',
+                        './js/**/*.js',
+                        './css/**/*.css',
+                        './img/**/*.*'
+                    ], {
+                        cwd: paths.build.www + '**'
+                    })
+                .pipe(gulp.dest(
+                    paths.build.cordova_www
+                ));
+});
+
+gulp.task('cordova:build', ['cordova:copyWeb'], function(cb){
     var promise;
     cordovaCdToRoot();
     promise = new Q(cordova.build());

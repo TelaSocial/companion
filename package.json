@@ -31,6 +31,7 @@
     "gulp-assemble": "git://github.com/assemble/gulp-assemble.git",
     "gulp-util": "^2.2.14",
     "handlebars-helpers": "git://github.com/assemble/handlebars-helpers.git#v0.6.0",
+    "lodash": "^2.4.1",
     "mkdirp": "^0.3.5",
     "q": "^1.0.1"
   },
