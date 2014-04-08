@@ -1,0 +1,2262 @@
+{
+  "foo":"bar",
+  "days": {
+    "day-9": [
+      {
+        "title": "Performance analysis at Facebook scale",
+        "author": "Marlon Dutra",
+        "area": "Administração de Sistemas e VoIP",
+        "day": 9,
+        "start": "10:00",
+        "zone": 13,
+        "duration": 1,
+        "room": {
+          "name": "40T",
+          "chairs": "506 lugares"
+        }
+      },
+      {
+        "title": "Going Mobile and surviving",
+        "author": "Ophelia Van Campenhout",
+        "area": "Visual/GUI",
+        "day": 9,
+        "start": "11:00",
+        "zone": 14,
+        "duration": 1,
+        "room": {
+          "name": "40T",
+          "chairs": "506 lugares"
+        }
+      },
+      {
+        "title": "O dia a dia do centro de competência em software livre",
+        "author": "Alfredo Goldman",
+        "area": "Ecossistema / Cultura",
+        "day": 9,
+        "start": "12:00",
+        "zone": 16,
+        "duration": 1,
+        "room": {
+          "name": "40T",
+          "chairs": "506 lugares"
+        }
+      },
+      {
+        "title": "Forense em memória com volatility, LiME e outras ferramentas",
+        "author": "João Eriberto Mota Filho",
+        "area": "Segurança",
+        "day": 9,
+        "start": "15:00",
+        "zone": 13,
+        "duration": 1,
+        "room": {
+          "name": "40T",
+          "chairs": "506 lugares"
+        }
+      },
+      {
+        "title": "Possíveis futuros para o último bastião da liberdade digital: as Criptomoedas",
+        "author": "pedro rezende",
+        "area": "Tópicos Emergentes",
+        "day": 9,
+        "start": "17:00",
+        "zone": 19,
+        "duration": 1,
+        "room": {
+          "name": "40T",
+          "chairs": "506 lugares"
+        }
+      },
+      {
+        "title": "I don't want to miss a thing... where is the memory going?",
+        "author": "Rafael Aquini",
+        "area": "Kernel, Sistemas de Arquivos e Sistemas Operacionais",
+        "day": 9,
+        "start": "9:00",
+        "zone": 13,
+        "duration": 1,
+        "room": {
+          "name": "41A",
+          "chairs": "351 lugares"
+        }
+      },
+      {
+        "title": "Ciência e Software Livre, ou Lá e de Volta Outra Vez",
+        "author": "Alexandre Hannud Abdo",
+        "area": "Ecossistema / Cultura",
+        "day": 9,
+        "start": "10:00",
+        "zone": 16,
+        "duration": 1,
+        "room": {
+          "name": "41A",
+          "chairs": "351 lugares"
+        }
+      },
+      {
+        "title": "1984+30: GNU contra a e-Novilíngua",
+        "author": "Alexandre Oliva",
+        "area": "Ecossistema / Cultura",
+        "day": 9,
+        "start": "15:00",
+        "zone": 16,
+        "duration": 1,
+        "room": {
+          "name": "41A",
+          "chairs": "351 lugares"
+        }
+      },
+      {
+        "title": "PHP na Tela Escura: Aplicações Poderosas em Linha de Comando",
+        "author": "Rafael Jaques",
+        "area": "PHP e Java",
+        "day": 9,
+        "start": "9:00",
+        "zone": 14,
+        "duration": 1,
+        "room": {
+          "name": "41B",
+          "chairs": "350 lugares"
+        }
+      },
+      {
+        "title": "Construindo suporte a TV digital no Linux",
+        "author": "Mauro Carvalho Chehab",
+        "area": "Kernel, Sistemas de Arquivos e Sistemas Operacionais",
+        "day": 9,
+        "start": "10:00",
+        "zone": 13,
+        "duration": 1,
+        "room": {
+          "name": "41B",
+          "chairs": "350 lugares"
+        }
+      },
+      {
+        "title": "Soberania Política e Tecnológica brasileria em um mundo cibernético",
+        "author": "Fr3d Vázquez",
+        "area": "Tópicos Emergentes",
+        "day": 9,
+        "start": "11:00",
+        "zone": 19,
+        "duration": 1,
+        "room": {
+          "name": "41B",
+          "chairs": "350 lugares"
+        }
+      },
+      {
+        "title": "A história do GNU: 30 anos de criação do software livre",
+        "author": "Aracele Torres",
+        "area": "Ecossistema / Cultura",
+        "day": 9,
+        "start": "14:00",
+        "zone": 16,
+        "duration": 1,
+        "room": {
+          "name": "41B",
+          "chairs": "350 lugares"
+        }
+      },
+      {
+        "title": "Samanaú.SAT: Plataforma open source para coleta de dados por satélite",
+        "author": "Moisés Souto",
+        "area": "Hardware, Sistemas Embarcados e Robótica",
+        "day": 9,
+        "start": "16:00",
+        "zone": 13,
+        "duration": 1,
+        "room": {
+          "name": "41B",
+          "chairs": "350 lugares"
+        }
+      },
+      {
+        "title": "Água Livre - Estação de tratamento de água com Severino",
+        "author": "Douglas Pinho de Avila",
+        "area": "Hardware, Sistemas Embarcados e Robótica",
+        "day": 9,
+        "start": "17:00",
+        "zone": 13,
+        "duration": 1,
+        "room": {
+          "name": "41B",
+          "chairs": "350 lugares"
+        }
+      },
+      {
+        "title": "Encontro Comunitário dos LibrePlanets do Brasil",
+        "author": "Raniere Gaia Costa da Silva",
+        "area": "Eventos Comunitários",
+        "day": 9,
+        "start": "9:00",
+        "zone": 18,
+        "duration": 1,
+        "room": {
+          "name": "41C",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "As ondas tecnológicas e o Open Source",
+        "author": "Cezar Taurion",
+        "area": "Negócios, Implementações e Casos",
+        "day": 9,
+        "start": "11:00",
+        "zone": 16,
+        "duration": 1,
+        "room": {
+          "name": "41C",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Painel: Dá pra ganhar dinheiro com Software Livre? SIM! (edição: mulheres)",
+        "author": "Luiz Rauber",
+        "area": "Negócios, Implementações e Casos",
+        "day": 9,
+        "start": "12:00",
+        "zone": 16,
+        "duration": 1,
+        "room": {
+          "name": "41C",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Como ser um Empreendedor em T.I. e ter sucesso na carreira profissional",
+        "author": "Neri Aldoir Neitzke",
+        "area": "Educação e Inclusão Digital",
+        "day": 9,
+        "start": "13:00",
+        "zone": 17,
+        "duration": 1,
+        "room": {
+          "name": "41C",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "oVirt Community Update",
+        "author": "Amador Pahim",
+        "area": "Eventos Comunitários",
+        "day": 9,
+        "start": "9:00",
+        "zone": 18,
+        "duration": 2,
+        "room": {
+          "name": "41D",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Streaming de Vídeo ao Vivo na globo.com",
+        "author": "Juarez Bochi",
+        "area": "Jogos, Multimídia e Streaming",
+        "day": 9,
+        "start": "11:00",
+        "zone": 15,
+        "duration": 1,
+        "room": {
+          "name": "41D",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Parceria SEEDUC/PRODERJ: o SCG na gestão de processos administrativos.",
+        "author": "Ana Cristina Geyer de Moraes",
+        "area": "Negócios, Implementações e Casos",
+        "day": 9,
+        "start": "12:00",
+        "zone": 16,
+        "duration": 1,
+        "room": {
+          "name": "41D",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Construindo a sua própria distribuição Linux para RaspBerry PI e BeableBone.",
+        "author": "Carlos Roberto Moratelli",
+        "area": "Hardware, Sistemas Embarcados e Robótica",
+        "day": 9,
+        "start": "16:00",
+        "zone": 13,
+        "duration": 1,
+        "room": {
+          "name": "41D",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Comunidade ZABBIX BRASIL",
+        "author": "Alessandro Silva",
+        "area": "Eventos Comunitários",
+        "day": 9,
+        "start": "9:00",
+        "zone": 18,
+        "duration": 2,
+        "room": {
+          "name": "41E",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Capturando o agora com APIs de Streaming do Twitter",
+        "author": "Luis Cipriani",
+        "area": "Gerência de Conteúdo",
+        "day": 9,
+        "start": "11:00",
+        "zone": 14,
+        "duration": 1,
+        "room": {
+          "name": "41E",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "INTERNET - PRIORIDADE DOS GOVERNOS NACIONAIS",
+        "author": "Carlos Alberto Jacques de Castro",
+        "area": "Ecossistema / Cultura",
+        "day": 9,
+        "start": "12:00",
+        "zone": 16,
+        "duration": 1,
+        "room": {
+          "name": "41E",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Palestra: e-petição - portal de petições on-line com certificação digital.",
+        "author": "Everton Melo",
+        "area": "Tópicos Emergentes",
+        "day": 9,
+        "start": "15:00",
+        "zone": 19,
+        "duration": 1,
+        "room": {
+          "name": "41E",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Criptografia e privacidade: Como proteger suas informações usando software livre",
+        "author": "Muriel Figueredo Franco",
+        "area": "Segurança",
+        "day": 9,
+        "start": "16:00",
+        "zone": 13,
+        "duration": 1,
+        "room": {
+          "name": "41E",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Real-Time Linux: Da Teoria ao SCHED_DEADLINE",
+        "author": "Daniel Bristot de Oliveira",
+        "area": "Kernel, Sistemas de Arquivos e Sistemas Operacionais",
+        "day": 9,
+        "start": "17:00",
+        "zone": 13,
+        "duration": 1,
+        "room": {
+          "name": "41E",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Encontros Comunitários GU Mobile-RS - FISL 15",
+        "author": "Morvana Bonin",
+        "area": "Eventos Comunitários",
+        "day": 9,
+        "start": "9:00",
+        "zone": 18,
+        "duration": 1,
+        "room": {
+          "name": "41F",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Inteligência Artificial na prática - Criando uma Rede Neural",
+        "author": "Luiz Blanes",
+        "area": "Hardware, Sistemas Embarcados e Robótica",
+        "day": 9,
+        "start": "11:00",
+        "zone": 13,
+        "duration": 1,
+        "room": {
+          "name": "41F",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Boot para a Web com Gecko: Desktop, dispositivos móveis, TVs e mais",
+        "author": "Marcio Galli",
+        "area": "Tópicos Emergentes",
+        "day": 9,
+        "start": "12:00",
+        "zone": 19,
+        "duration": 1,
+        "room": {
+          "name": "41F",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Servo: O web engine paralelo",
+        "author": "Bruno de Oliveira Abinader",
+        "area": "Tópicos Emergentes",
+        "day": 9,
+        "start": "13:00",
+        "zone": 19,
+        "duration": 1,
+        "room": {
+          "name": "41F",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Voto Como Vamos: Como Melhoramos a Campanha Política de Porto Alegre em 2012",
+        "author": "Nelice",
+        "area": "Negócios, Implementações e Casos",
+        "day": 9,
+        "start": "15:00",
+        "zone": 16,
+        "duration": 1,
+        "room": {
+          "name": "41F",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Policy Based Routing: roteadores mais flexíveis/inteligentes",
+        "author": "Marcelo Ricardo Leitner",
+        "area": "Administração de Sistemas e VoIP",
+        "day": 9,
+        "start": "12:00",
+        "zone": 13,
+        "duration": 1,
+        "room": {
+          "name": "40A",
+          "chairs": "110 lugares"
+        }
+      },
+      {
+        "title": "Aprenda a ensinar a web com Webmaker",
+        "author": "Ricardo Panaggio",
+        "area": "Oficinas",
+        "day": 9,
+        "start": "9:00",
+        "zone": 21,
+        "duration": 3,
+        "room": {
+          "name": "702 - OF2",
+          "chairs": "40 lugares"
+        }
+      },
+      {
+        "title": "Webmaker: Faça algo incrível com a Web!",
+        "author": "Coragem",
+        "area": "Educação e Inclusão Digital",
+        "day": 9,
+        "start": "12:00",
+        "zone": 17,
+        "duration": 1,
+        "room": {
+          "name": "F12",
+          "chairs": "50 lugares"
+        }
+      },
+      {
+        "title": "GNU/Linux, como funciona esta fera?",
+        "author": "Samuel Flores Moraes",
+        "area": "Kernel, Sistemas de Arquivos e Sistemas Operacionais",
+        "day": 9,
+        "start": "14:00",
+        "zone": 13,
+        "duration": 1,
+        "room": {
+          "name": "F12",
+          "chairs": "50 lugares"
+        }
+      }
+    ],
+    "day-8": [
+      {
+        "title": "Technology that controls, technology that liberates \\ A call to action",
+        "author": "Jeremie Zimmermann",
+        "area": "Ecossistema / Cultura",
+        "day": 8,
+        "start": "11:00",
+        "zone": 16,
+        "duration": 1,
+        "room": {
+          "name": "40T",
+          "chairs": "506 lugares"
+        }
+      },
+      {
+        "title": "KDE Frameworks: Made with love for all Qt developers",
+        "author": "Kevin Ottens",
+        "area": "Ferramentas, Metodologias e Padrões",
+        "day": 8,
+        "start": "13:00",
+        "zone": 14,
+        "duration": 1,
+        "room": {
+          "name": "40T",
+          "chairs": "506 lugares"
+        }
+      },
+      {
+        "title": "Quebrando o Android no Meio",
+        "author": "Matheus Carvalho",
+        "area": "Segurança",
+        "day": 8,
+        "start": "9:00",
+        "zone": 13,
+        "duration": 1,
+        "room": {
+          "name": "41A",
+          "chairs": "351 lugares"
+        }
+      },
+      {
+        "title": "Morreu o Movimento Software Livre no Brasil?",
+        "author": "Alexandre Oliva",
+        "area": "Ecossistema / Cultura",
+        "day": 8,
+        "start": "10:00",
+        "zone": 16,
+        "duration": 2,
+        "room": {
+          "name": "41A",
+          "chairs": "351 lugares"
+        }
+      },
+      {
+        "title": "Assim na Terra como no Shell",
+        "author": "Julio Neves",
+        "area": "Outras linguagens",
+        "day": 8,
+        "start": "14:00",
+        "zone": 14,
+        "duration": 1,
+        "room": {
+          "name": "41A",
+          "chairs": "351 lugares"
+        }
+      },
+      {
+        "title": "Como (e por quê) colaborar com o Debian",
+        "author": "Antonio Terceiro",
+        "area": "Desktop e Distribuições",
+        "day": 8,
+        "start": "15:00",
+        "zone": 15,
+        "duration": 1,
+        "room": {
+          "name": "41A",
+          "chairs": "351 lugares"
+        }
+      },
+      {
+        "title": "Sailor - um framework MVC em Lua",
+        "author": "Etiene da Cruz Dalcol",
+        "area": "Outras linguagens",
+        "day": 8,
+        "start": "16:00",
+        "zone": 14,
+        "duration": 1,
+        "room": {
+          "name": "41A",
+          "chairs": "351 lugares"
+        }
+      },
+      {
+        "title": "Ataques Super Eficientes de Negação de Serviço: Camada 7, Android, Cluster-Bomb",
+        "author": "Jan Seidl",
+        "area": "Segurança",
+        "day": 8,
+        "start": "17:00",
+        "zone": 13,
+        "duration": 1,
+        "room": {
+          "name": "41A",
+          "chairs": "351 lugares"
+        }
+      },
+      {
+        "title": "GIMP: O projeto de software! O processamento de imagens nas próximas décadas.",
+        "author": "João S. O. Bueno",
+        "area": "Outras linguagens",
+        "day": 8,
+        "start": "10:00",
+        "zone": 14,
+        "duration": 1,
+        "room": {
+          "name": "41B",
+          "chairs": "350 lugares"
+        }
+      },
+      {
+        "title": "Evoluindo uma arquitetura legada: ferramentas e métodos.",
+        "author": "Guilherme Nogueira",
+        "area": "Ferramentas, Metodologias e Padrões",
+        "day": 8,
+        "start": "11:00",
+        "zone": 14,
+        "duration": 1,
+        "room": {
+          "name": "41B",
+          "chairs": "350 lugares"
+        }
+      },
+      {
+        "title": "Música Livre - Pessoas usando software livre para libertar a música!",
+        "author": "Lucas Fialho Zawacki",
+        "area": "Ecossistema / Cultura",
+        "day": 8,
+        "start": "12:00",
+        "zone": 16,
+        "duration": 1,
+        "room": {
+          "name": "41B",
+          "chairs": "350 lugares"
+        }
+      },
+      {
+        "title": "Cirurgia Plástica e Maquiagem Digital com o GIMP",
+        "author": "Carlos Cartola",
+        "area": "Jogos, Multimídia e Streaming",
+        "day": 8,
+        "start": "13:00",
+        "zone": 15,
+        "duration": 1,
+        "room": {
+          "name": "41B",
+          "chairs": "350 lugares"
+        }
+      },
+      {
+        "title": "Replicação de bancos de dados MySQL",
+        "author": "Fernando Laudares Camargos",
+        "area": "Gerenciamento de Dados",
+        "day": 8,
+        "start": "14:00",
+        "zone": 13,
+        "duration": 1,
+        "room": {
+          "name": "41B",
+          "chairs": "350 lugares"
+        }
+      },
+      {
+        "title": "Neurotecnologia: sua mente no controle na plataforma Linux",
+        "author": "Alessandro de Oliveira Faria (A.K.A. CABELO)",
+        "area": "Tópicos Emergentes",
+        "day": 8,
+        "start": "15:00",
+        "zone": 19,
+        "duration": 1,
+        "room": {
+          "name": "41B",
+          "chairs": "350 lugares"
+        }
+      },
+      {
+        "title": "O perigo dos softwares não-livres em Dispositivos Médicos Implantáveis",
+        "author": "Marcel Ribeiro Dantas",
+        "area": "Segurança",
+        "day": 8,
+        "start": "16:00",
+        "zone": 13,
+        "duration": 1,
+        "room": {
+          "name": "41B",
+          "chairs": "350 lugares"
+        }
+      },
+      {
+        "title": "Controle de Versão - Mantendo seu trabalho a salvo com Git",
+        "author": "Davi Duarte e Matheus Pereira",
+        "area": "Ferramentas, Metodologias e Padrões",
+        "day": 8,
+        "start": "17:00",
+        "zone": 14,
+        "duration": 1,
+        "room": {
+          "name": "41B",
+          "chairs": "350 lugares"
+        }
+      },
+      {
+        "title": "Ecossistema de Colaboração no Governo: O caso do Legislativo",
+        "author": "Jean Ferri",
+        "area": "Ferramentas, Metodologias e Padrões",
+        "day": 8,
+        "start": "11:00",
+        "zone": 14,
+        "duration": 1,
+        "room": {
+          "name": "41C",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "O que está escondido atrás do Business Model e Lean Canvas",
+        "author": "João Machini",
+        "area": "Negócios, Implementações e Casos",
+        "day": 8,
+        "start": "12:00",
+        "zone": 16,
+        "duration": 1,
+        "room": {
+          "name": "41C",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Construindo scripts para testes de segurança com Python",
+        "author": "Eduardo Alves Silva",
+        "area": "Segurança",
+        "day": 8,
+        "start": "14:00",
+        "zone": 13,
+        "duration": 1,
+        "room": {
+          "name": "41C",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Mesa: Empoderamento de Mulheres no Software Livre",
+        "author": "Mônica Paz",
+        "area": "Ecossistema / Cultura",
+        "day": 8,
+        "start": "15:00",
+        "zone": 16,
+        "duration": 1,
+        "room": {
+          "name": "41C",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Mulheres, Software Livre e Educação",
+        "author": "Camila Achutti",
+        "area": "Educação e Inclusão Digital",
+        "day": 8,
+        "start": "17:00",
+        "zone": 17,
+        "duration": 1,
+        "room": {
+          "name": "41C",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Encontro Comunitário do KDE Brasil no FISL 15",
+        "author": "Filipe de Oliveira Saraiva",
+        "area": "Eventos Comunitários",
+        "day": 8,
+        "start": "9:00",
+        "zone": 18,
+        "duration": 1,
+        "room": {
+          "name": "41D",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Escrevendo seu primeiro módulo de kernel",
+        "author": "Diego Ramos Ruggeri",
+        "area": "Kernel, Sistemas de Arquivos e Sistemas Operacionais",
+        "day": 8,
+        "start": "11:00",
+        "zone": 13,
+        "duration": 1,
+        "room": {
+          "name": "41D",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Programa Onda Digital: difundindo o Software Livre",
+        "author": "Juliana Maria Oliveira dos Santos",
+        "area": "Negócios, Implementações e Casos",
+        "day": 8,
+        "start": "12:00",
+        "zone": 16,
+        "duration": 1,
+        "room": {
+          "name": "41D",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Openbrew: Cerveja artesanal livre",
+        "author": "Thiago Garcia da Silva",
+        "area": "Negócios, Implementações e Casos",
+        "day": 8,
+        "start": "13:00",
+        "zone": 16,
+        "duration": 1,
+        "room": {
+          "name": "41D",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Adeus BI, Seja Bem Vindo A Era do Analytics!",
+        "author": "Mauricio Cesar Santos da Purificação",
+        "area": "Negócios, Implementações e Casos",
+        "day": 8,
+        "start": "15:00",
+        "zone": 16,
+        "duration": 1,
+        "room": {
+          "name": "41D",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Bitcoin: a Revolução Digital chegou à economia",
+        "author": "Wladimir Crippa",
+        "area": "Tópicos Emergentes",
+        "day": 8,
+        "start": "16:00",
+        "zone": 19,
+        "duration": 1,
+        "room": {
+          "name": "41D",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "SpeechRTC, reconhecimento de voz cross-browser para a Web e FirefoxOS",
+        "author": "Andre Natal",
+        "area": "Tópicos Emergentes",
+        "day": 8,
+        "start": "17:00",
+        "zone": 19,
+        "duration": 1,
+        "room": {
+          "name": "41D",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Encontro Comunitário do Noosfero",
+        "author": "Daniela Feitosa",
+        "area": "Eventos Comunitários",
+        "day": 8,
+        "start": "9:00",
+        "zone": 18,
+        "duration": 2,
+        "room": {
+          "name": "41E",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Programando Jogos Multiplataforma - Para Leigos",
+        "author": "Lucas R. Martins",
+        "area": "Jogos, Multimídia e Streaming",
+        "day": 8,
+        "start": "12:00",
+        "zone": 15,
+        "duration": 1,
+        "room": {
+          "name": "41E",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Node.js - Javascript além do navegador",
+        "author": "Romulo Santos",
+        "area": "Outras linguagens",
+        "day": 8,
+        "start": "13:00",
+        "zone": 14,
+        "duration": 1,
+        "room": {
+          "name": "41E",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Distribuições GNU/Linux - entenda como funciona",
+        "author": "Paulo Henrique de Lima Santana",
+        "area": "Desktop e Distribuições",
+        "day": 8,
+        "start": "17:00",
+        "zone": 15,
+        "duration": 1,
+        "room": {
+          "name": "41E",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "III Encontro de usuários do Openstack Brasil no FISL",
+        "author": "Marcelo Dieder",
+        "area": "Eventos Comunitários",
+        "day": 8,
+        "start": "9:00",
+        "zone": 18,
+        "duration": 2,
+        "room": {
+          "name": "41F",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Projeto de Adaptação ao Software Livre - Mozilla Firefox e LibreOffice em EaD",
+        "author": "Emerson Luiz Florentino Borges",
+        "area": "Educação e Inclusão Digital",
+        "day": 8,
+        "start": "12:00",
+        "zone": 17,
+        "duration": 1,
+        "room": {
+          "name": "41F",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Software Livre na Educação no RS, Resgatando ações e Resultados",
+        "author": "José Francisco Nunes Fernandez",
+        "area": "Educação e Inclusão Digital",
+        "day": 8,
+        "start": "15:00",
+        "zone": 17,
+        "duration": 1,
+        "room": {
+          "name": "41F",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Mate seu rato e dome seu shell, uma introdução do terminal do Linux",
+        "author": "Gabriel de Souza Fedel",
+        "area": "Oficinas",
+        "day": 8,
+        "start": "12:00",
+        "zone": 21,
+        "duration": 3,
+        "room": {
+          "name": "701 OF1",
+          "chairs": "40 lugares"
+        }
+      },
+      {
+        "title": "Oficina de Desenvolvimento de Jogos em Blender",
+        "author": "Laurent Le Avner Quevedo",
+        "area": "Oficinas",
+        "day": 8,
+        "start": "15:00",
+        "zone": 21,
+        "duration": 3,
+        "room": {
+          "name": "701 OF1",
+          "chairs": "40 lugares"
+        }
+      },
+      {
+        "title": "Oficina - Quem São os Proprietários do Brasil",
+        "author": "Alan Tygel",
+        "area": "Oficinas",
+        "day": 8,
+        "start": "9:00",
+        "zone": 21,
+        "duration": 3,
+        "room": {
+          "name": "702 - OF2",
+          "chairs": "40 lugares"
+        }
+      },
+      {
+        "title": "Oficina de Iniciação a Desenvolvimento Mobile com Android",
+        "author": "leandroid",
+        "area": "Oficinas",
+        "day": 8,
+        "start": "12:00",
+        "zone": 21,
+        "duration": 3,
+        "room": {
+          "name": "702 - OF2",
+          "chairs": "40 lugares"
+        }
+      },
+      {
+        "title": "Mineração de Texto com Python e NLTK",
+        "author": "Vitória Vasconcelos",
+        "area": "Oficinas",
+        "day": 8,
+        "start": "15:00",
+        "zone": 21,
+        "duration": 3,
+        "room": {
+          "name": "702 - OF2",
+          "chairs": "40 lugares"
+        }
+      },
+      {
+        "title": "Reunião Comcet",
+        "author": "ORGANIZAÇÃO",
+        "area": "Organização",
+        "day": 8,
+        "start": "16:00",
+        "zone": 20,
+        "duration": 2,
+        "room": {
+          "name": "Reuniões 710",
+          "chairs": "40 lugares"
+        }
+      },
+      {
+        "title": "Guidelines Open-souce de Interfaces para a inclusão sociodigital de autistas",
+        "author": "Talita Pagani",
+        "area": "Educação e Inclusão Digital",
+        "day": 8,
+        "start": "13:00",
+        "zone": 17,
+        "duration": 1,
+        "room": {
+          "name": "F12",
+          "chairs": "50 lugares"
+        }
+      }
+    ],
+    "day-7": [
+      {
+        "title": "ORGANIZAÇÃO",
+        "author": "ORGANIZAÇÃO",
+        "area": "Organização",
+        "day": 7,
+        "start": "9:00",
+        "zone": 20,
+        "duration": 1,
+        "room": {
+          "name": "40T",
+          "chairs": "506 lugares"
+        }
+      },
+      {
+        "title": "From Zero to Cloud: Revolutionize your Application LifeCycle with PaaS",
+        "author": "Diane Carol Mueller",
+        "area": "Ferramentas, Metodologias e Padrões",
+        "day": 7,
+        "start": "10:00",
+        "zone": 14,
+        "duration": 1,
+        "room": {
+          "name": "40T",
+          "chairs": "506 lugares"
+        }
+      },
+      {
+        "title": "Reservado Organização",
+        "author": "ORGANIZAÇÃO",
+        "area": "Organização",
+        "day": 7,
+        "start": "15:00",
+        "zone": 20,
+        "duration": 1,
+        "room": {
+          "name": "40T",
+          "chairs": "506 lugares"
+        }
+      },
+      {
+        "title": "Abertura Oficial",
+        "author": "ORGANIZAÇÃO",
+        "area": "Organização",
+        "day": 7,
+        "start": "16:00",
+        "zone": 20,
+        "duration": 2,
+        "room": {
+          "name": "40T",
+          "chairs": "506 lugares"
+        }
+      },
+      {
+        "title": "Facilitando a vida com Raspberry Pi e Arduino",
+        "author": "Thiago Garcia da Silva",
+        "area": "Hardware, Sistemas Embarcados e Robótica",
+        "day": 7,
+        "start": "9:00",
+        "zone": 13,
+        "duration": 1,
+        "room": {
+          "name": "41A",
+          "chairs": "351 lugares"
+        }
+      },
+      {
+        "title": "Elastic Overkill: Is Cloud Really The Holy Grail?",
+        "author": "Brian Proffitt",
+        "area": "Administração de Sistemas e VoIP",
+        "day": 7,
+        "start": "10:00",
+        "zone": 13,
+        "duration": 1,
+        "room": {
+          "name": "41A",
+          "chairs": "351 lugares"
+        }
+      },
+      {
+        "title": "Gluster for sysadmins",
+        "author": "Niels de Vos",
+        "area": "Kernel, Sistemas de Arquivos e Sistemas Operacionais",
+        "day": 7,
+        "start": "11:00",
+        "zone": 13,
+        "duration": 1,
+        "room": {
+          "name": "41A",
+          "chairs": "351 lugares"
+        }
+      },
+      {
+        "title": "Understanding Software Collections",
+        "author": "Joe Brockmeier",
+        "area": "Tópicos Emergentes",
+        "day": 7,
+        "start": "12:00",
+        "zone": 19,
+        "duration": 1,
+        "room": {
+          "name": "41A",
+          "chairs": "351 lugares"
+        }
+      },
+      {
+        "title": "Professor hacker - desafio para a docência",
+        "author": "Nelson Pretto",
+        "area": "Educação e Inclusão Digital",
+        "day": 7,
+        "start": "14:00",
+        "zone": 17,
+        "duration": 1,
+        "room": {
+          "name": "41A",
+          "chairs": "351 lugares"
+        }
+      },
+      {
+        "title": "Crear un Cartridge para Openshift",
+        "author": "Alex Oviedo",
+        "area": "Ferramentas, Metodologias e Padrões",
+        "day": 7,
+        "start": "15:00",
+        "zone": 14,
+        "duration": 1,
+        "room": {
+          "name": "41A",
+          "chairs": "351 lugares"
+        }
+      },
+      {
+        "title": "NSA-proof communications",
+        "author": "Jan Seidl",
+        "area": "Segurança",
+        "day": 7,
+        "start": "17:00",
+        "zone": 13,
+        "duration": 1,
+        "room": {
+          "name": "41A",
+          "chairs": "351 lugares"
+        }
+      },
+      {
+        "title": "Blue Green Deploy: Entrega continua e rollback imediato",
+        "author": "Rafael Biriba",
+        "area": "Ferramentas, Metodologias e Padrões",
+        "day": 7,
+        "start": "9:00",
+        "zone": 14,
+        "duration": 1,
+        "room": {
+          "name": "41B",
+          "chairs": "350 lugares"
+        }
+      },
+      {
+        "title": "Privacidade e Segurança da informação em Dispositivos Móveis",
+        "author": "Gilberto Sudre",
+        "area": "Segurança",
+        "day": 7,
+        "start": "10:00",
+        "zone": 13,
+        "duration": 1,
+        "room": {
+          "name": "41B",
+          "chairs": "350 lugares"
+        }
+      },
+      {
+        "title": "Criação automática de aplicativos móveis Android",
+        "author": "Arlindo Flavio da Conceição",
+        "area": "Tópicos Emergentes",
+        "day": 7,
+        "start": "12:00",
+        "zone": 19,
+        "duration": 1,
+        "room": {
+          "name": "41B",
+          "chairs": "350 lugares"
+        }
+      },
+      {
+        "title": "Usabilidade + produtividade = ? qual ambiente gráfico usar?",
+        "author": "Samuel Flores Moraes",
+        "area": "Visual/GUI",
+        "day": 7,
+        "start": "13:00",
+        "zone": 14,
+        "duration": 1,
+        "room": {
+          "name": "41B",
+          "chairs": "350 lugares"
+        }
+      },
+      {
+        "title": "import brasil: dados abertos de forma fácil",
+        "author": "Álvaro Justen",
+        "area": "Python, Ruby e Perl",
+        "day": 7,
+        "start": "14:00",
+        "zone": 14,
+        "duration": 1,
+        "room": {
+          "name": "41B",
+          "chairs": "350 lugares"
+        }
+      },
+      {
+        "title": "Como criar seu próprio Hackerspace em 42 passos simples",
+        "author": "Guilherme",
+        "area": "Ecossistema / Cultura",
+        "day": 7,
+        "start": "15:00",
+        "zone": 16,
+        "duration": 1,
+        "room": {
+          "name": "41B",
+          "chairs": "350 lugares"
+        }
+      },
+      {
+        "title": "SAdE: Sistema Administrativa Escolar - um sistema livre",
+        "author": "Ole Peter Smith",
+        "area": "Negócios, Implementações e Casos",
+        "day": 7,
+        "start": "16:00",
+        "zone": 16,
+        "duration": 1,
+        "room": {
+          "name": "41B",
+          "chairs": "350 lugares"
+        }
+      },
+      {
+        "title": "GoboLinux 015",
+        "author": "Lucas C. Villa Real",
+        "area": "Desktop e Distribuições",
+        "day": 7,
+        "start": "10:00",
+        "zone": 15,
+        "duration": 1,
+        "room": {
+          "name": "41C",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Tecnologias Open Source para alta disponibilidade e segurança de aplicações Web",
+        "author": "Alexandro Silva",
+        "area": "Segurança",
+        "day": 7,
+        "start": "11:00",
+        "zone": 13,
+        "duration": 1,
+        "room": {
+          "name": "41C",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Muitos mestres, um escravo: MariaDB replicação multi source",
+        "author": "Carlos Pirez",
+        "area": "Gerenciamento de Dados",
+        "day": 7,
+        "start": "13:00",
+        "zone": 13,
+        "duration": 1,
+        "room": {
+          "name": "41C",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Got Zot? Usando e desenvolvendo para a RedMatrix",
+        "author": "Alexandre Hannud Abdo",
+        "area": "Tópicos Emergentes",
+        "day": 7,
+        "start": "15:00",
+        "zone": 19,
+        "duration": 1,
+        "room": {
+          "name": "41C",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Bitcoin: o futuro do dinheiro é open source (e livre)",
+        "author": "Kemel Zaidan",
+        "area": "Tópicos Emergentes",
+        "day": 7,
+        "start": "16:00",
+        "zone": 19,
+        "duration": 1,
+        "room": {
+          "name": "41C",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "QtModeling: metamodelagem e model-driven software engineering com Qt5",
+        "author": "Sandro S. Andrade",
+        "area": "Ferramentas, Metodologias e Padrões",
+        "day": 7,
+        "start": "17:00",
+        "zone": 14,
+        "duration": 1,
+        "room": {
+          "name": "41C",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Pra que serve Python? Tudo!",
+        "author": "João S. O. Bueno",
+        "area": "Python, Ruby e Perl",
+        "day": 7,
+        "start": "11:00",
+        "zone": 14,
+        "duration": 1,
+        "room": {
+          "name": "41D",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Raspberry Pi e Beaglebone Black: utilizando GPIOs com Python",
+        "author": "Sergio Cioban Filho",
+        "area": "Hardware, Sistemas Embarcados e Robótica",
+        "day": 7,
+        "start": "12:00",
+        "zone": 13,
+        "duration": 1,
+        "room": {
+          "name": "41D",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Explorando as APIs do HTML5",
+        "author": "Raphael Amorim",
+        "area": "Tópicos Emergentes",
+        "day": 7,
+        "start": "13:00",
+        "zone": 19,
+        "duration": 1,
+        "room": {
+          "name": "41D",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Uruguai já tem Lei de uso do Software Livre na Administração Pública!",
+        "author": "Ismael Castagnet Lacuesta",
+        "area": "Ecossistema / Cultura",
+        "day": 7,
+        "start": "14:00",
+        "zone": 16,
+        "duration": 1,
+        "room": {
+          "name": "41D",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "O Bootstrap 3 é Mobile First",
+        "author": "Alexandre Magno Teles Zimerer",
+        "area": "Ferramentas, Metodologias e Padrões",
+        "day": 7,
+        "start": "15:00",
+        "zone": 14,
+        "duration": 1,
+        "room": {
+          "name": "41D",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Encontro Comunitário Debian Brasil no FISL 15",
+        "author": "André Felipe Machado",
+        "area": "Eventos Comunitários",
+        "day": 7,
+        "start": "9:00",
+        "zone": 18,
+        "duration": 2,
+        "room": {
+          "name": "41E",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Fotografia Panorâmica Imersiva 360x180º com Software Livre",
+        "author": "Carlos Cartola",
+        "area": "Jogos, Multimídia e Streaming",
+        "day": 7,
+        "start": "15:00",
+        "zone": 15,
+        "duration": 1,
+        "room": {
+          "name": "41E",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Cycles Para TODOS!",
+        "author": "Guilherme RazGriz",
+        "area": "Jogos, Multimídia e Streaming",
+        "day": 7,
+        "start": "17:00",
+        "zone": 15,
+        "duration": 1,
+        "room": {
+          "name": "41E",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "DrupalCamp Porto Alegre",
+        "author": "Renato",
+        "area": "Eventos Comunitários",
+        "day": 7,
+        "start": "9:00",
+        "zone": 18,
+        "duration": 2,
+        "room": {
+          "name": "41F",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Criptografia Aplicada -- Chaves Assimétricas + MACs",
+        "author": "aiman",
+        "area": "Segurança",
+        "day": 7,
+        "start": "12:00",
+        "zone": 13,
+        "duration": 1,
+        "room": {
+          "name": "41F",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Assinatura digital de documentos eletrônicos",
+        "author": "Dhiego Tosatti",
+        "area": "PHP e Java",
+        "day": 7,
+        "start": "15:00",
+        "zone": 14,
+        "duration": 1,
+        "room": {
+          "name": "41F",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Workflow para proyectos web sin morir en el intento",
+        "author": "JM Guaimas",
+        "area": "Ferramentas, Metodologias e Padrões",
+        "day": 7,
+        "start": "17:00",
+        "zone": 14,
+        "duration": 1,
+        "room": {
+          "name": "41F",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "BemTV: Modelo híbrido para transmissão de vídeos ao vivo utilizando peer-to-peer",
+        "author": "Flávio Ribeiro Nogueira Barbosa",
+        "area": "Jogos, Multimídia e Streaming",
+        "day": 7,
+        "start": "14:00",
+        "zone": 15,
+        "duration": 1,
+        "room": {
+          "name": "40A",
+          "chairs": "110 lugares"
+        }
+      },
+      {
+        "title": "Gestão colaborativa de moedas sociais digitais utilizando a plataforma CORAIS",
+        "author": "Jatobá",
+        "area": "Ecossistema / Cultura",
+        "day": 7,
+        "start": "16:00",
+        "zone": 16,
+        "duration": 1,
+        "room": {
+          "name": "40A",
+          "chairs": "110 lugares"
+        }
+      },
+      {
+        "title": "MozEdu: Mozilla na educaçao e no codigo",
+        "author": "Eduardo Urcullu, Rocio Meza",
+        "area": "Educação e Inclusão Digital",
+        "day": 7,
+        "start": "17:00",
+        "zone": 17,
+        "duration": 1,
+        "room": {
+          "name": "40A",
+          "chairs": "110 lugares"
+        }
+      },
+      {
+        "title": "Oficina de instalação, configuração e utilização do CKAN",
+        "author": "Gustavo Rocha Pereira de Souza",
+        "area": "Oficinas",
+        "day": 7,
+        "start": "12:00",
+        "zone": 21,
+        "duration": 3,
+        "room": {
+          "name": "701 OF1",
+          "chairs": "40 lugares"
+        }
+      },
+      {
+        "title": "Appmaker Party",
+        "author": "Ricardo Panaggio",
+        "area": "Oficinas",
+        "day": 7,
+        "start": "9:00",
+        "zone": 21,
+        "duration": 3,
+        "room": {
+          "name": "702 - OF2",
+          "chairs": "40 lugares"
+        }
+      },
+      {
+        "title": "webtv.tar.gz - Um estúdio de webTV que cabe na sua mochila",
+        "author": "Eduardo Lucas",
+        "area": "Oficinas",
+        "day": 7,
+        "start": "12:00",
+        "zone": 21,
+        "duration": 3,
+        "room": {
+          "name": "702 - OF2",
+          "chairs": "40 lugares"
+        }
+      },
+      {
+        "title": "AWS VPC/Ansible/VPN workshop: Datacenter na nuvem",
+        "author": "Ignacio Nin",
+        "area": "Oficinas",
+        "day": 7,
+        "start": "15:00",
+        "zone": 21,
+        "duration": 3,
+        "room": {
+          "name": "702 - OF2",
+          "chairs": "40 lugares"
+        }
+      },
+      {
+        "title": "Conhecendo e Desmistificando a Acessibilidade na Web",
+        "author": "Lael Nervis",
+        "area": "Educação e Inclusão Digital",
+        "day": 7,
+        "start": "12:00",
+        "zone": 17,
+        "duration": 1,
+        "room": {
+          "name": "F12",
+          "chairs": "50 lugares"
+        }
+      },
+      {
+        "title": "Robótica libre en ambientes educativos",
+        "author": "menoni",
+        "area": "Hardware, Sistemas Embarcados e Robótica",
+        "day": 7,
+        "start": "13:00",
+        "zone": 13,
+        "duration": 1,
+        "room": {
+          "name": "F12",
+          "chairs": "50 lugares"
+        }
+      },
+      {
+        "title": "Robotica pedagógica en el ámbito escolar usando software y hardware libre",
+        "author": "valentin basel",
+        "area": "Educação e Inclusão Digital",
+        "day": 7,
+        "start": "14:00",
+        "zone": 17,
+        "duration": 1,
+        "room": {
+          "name": "F12",
+          "chairs": "50 lugares"
+        }
+      }
+    ],
+    "day-10": [
+      {
+        "title": "Debugging GlusterFS with Wireshark and Systemtap",
+        "author": "Niels de Vos",
+        "area": "Kernel, Sistemas de Arquivos e Sistemas Operacionais",
+        "day": 10,
+        "start": "11:00",
+        "zone": 13,
+        "duration": 1,
+        "room": {
+          "name": "40T",
+          "chairs": "506 lugares"
+        }
+      },
+      {
+        "title": "Special Interest Groups: Current state, getting involved, and building your own",
+        "author": "Jim Perrin",
+        "area": "Tópicos Emergentes",
+        "day": 10,
+        "start": "14:00",
+        "zone": 19,
+        "duration": 1,
+        "room": {
+          "name": "40T",
+          "chairs": "506 lugares"
+        }
+      },
+      {
+        "title": "FOSS Multimedia - Long story short",
+        "author": "Reynaldo Verdejo",
+        "area": "Jogos, Multimídia e Streaming",
+        "day": 10,
+        "start": "10:00",
+        "zone": 15,
+        "duration": 1,
+        "room": {
+          "name": "41A",
+          "chairs": "351 lugares"
+        }
+      },
+      {
+        "title": "Duda I/O: Scalable Web Services for GNU/Linux",
+        "author": "Eduardo Silva",
+        "area": "Tópicos Emergentes",
+        "day": 10,
+        "start": "11:00",
+        "zone": 19,
+        "duration": 1,
+        "room": {
+          "name": "41A",
+          "chairs": "351 lugares"
+        }
+      },
+      {
+        "title": "Como podemos e devemos monitorar nosso código fonte?",
+        "author": "Rafael Reggiani Manzo",
+        "area": "Ferramentas, Metodologias e Padrões",
+        "day": 10,
+        "start": "12:00",
+        "zone": 14,
+        "duration": 1,
+        "room": {
+          "name": "41A",
+          "chairs": "351 lugares"
+        }
+      },
+      {
+        "title": "Openstack => Cloud computing at your fingertips!",
+        "author": "Luan Cestari",
+        "area": "Tópicos Emergentes",
+        "day": 10,
+        "start": "13:00",
+        "zone": 19,
+        "duration": 1,
+        "room": {
+          "name": "41A",
+          "chairs": "351 lugares"
+        }
+      },
+      {
+        "title": "Git para quem gosta de Git",
+        "author": "Karlisson Bezerra",
+        "area": "Ferramentas, Metodologias e Padrões",
+        "day": 10,
+        "start": "14:00",
+        "zone": 14,
+        "duration": 1,
+        "room": {
+          "name": "41A",
+          "chairs": "351 lugares"
+        }
+      },
+      {
+        "title": "Software Livre e Segurança Eleitoral",
+        "author": "Diego de Freitas Aranha",
+        "area": "Segurança",
+        "day": 10,
+        "start": "15:00",
+        "zone": 13,
+        "duration": 1,
+        "room": {
+          "name": "41A",
+          "chairs": "351 lugares"
+        }
+      },
+      {
+        "title": "HTML5 na prática",
+        "author": "Alan Velasques Santos",
+        "area": "Outras linguagens",
+        "day": 10,
+        "start": "9:00",
+        "zone": 14,
+        "duration": 1,
+        "room": {
+          "name": "41B",
+          "chairs": "350 lugares"
+        }
+      },
+      {
+        "title": "Quem precisa de RVM? Suporte a Ruby nativo no Debian",
+        "author": "Antonio Terceiro",
+        "area": "Python, Ruby e Perl",
+        "day": 10,
+        "start": "10:00",
+        "zone": 14,
+        "duration": 1,
+        "room": {
+          "name": "41B",
+          "chairs": "350 lugares"
+        }
+      },
+      {
+        "title": "CCSL-IFRN: Educação colaborativa no IFRN",
+        "author": "Moisés Souto",
+        "area": "Educação e Inclusão Digital",
+        "day": 10,
+        "start": "12:00",
+        "zone": 17,
+        "duration": 1,
+        "room": {
+          "name": "41B",
+          "chairs": "350 lugares"
+        }
+      },
+      {
+        "title": "Bancos NoSQL e Persistência Poliglota",
+        "author": "Christiano Anderson",
+        "area": "Tópicos Emergentes",
+        "day": 10,
+        "start": "13:00",
+        "zone": 19,
+        "duration": 1,
+        "room": {
+          "name": "41B",
+          "chairs": "350 lugares"
+        }
+      },
+      {
+        "title": "balde - desenvolvendo aplicações web em C",
+        "author": "Rafael Martins",
+        "area": "Outras linguagens",
+        "day": 10,
+        "start": "15:00",
+        "zone": 14,
+        "duration": 1,
+        "room": {
+          "name": "41B",
+          "chairs": "350 lugares"
+        }
+      },
+      {
+        "title": "Kernel Linux - Onde podemos encontrá-lo? Onde você nem imagina!",
+        "author": "David Jourdain",
+        "area": "Kernel, Sistemas de Arquivos e Sistemas Operacionais",
+        "day": 10,
+        "start": "16:00",
+        "zone": 13,
+        "duration": 1,
+        "room": {
+          "name": "41B",
+          "chairs": "350 lugares"
+        }
+      },
+      {
+        "title": "Encontro comunitário do PHPRS",
+        "author": "Rafael Jaques",
+        "area": "Eventos Comunitários",
+        "day": 10,
+        "start": "9:00",
+        "zone": 18,
+        "duration": 1,
+        "room": {
+          "name": "41C",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Introdução ao Git",
+        "author": "Hanneli Tavante",
+        "area": "Ferramentas, Metodologias e Padrões",
+        "day": 10,
+        "start": "11:00",
+        "zone": 14,
+        "duration": 1,
+        "room": {
+          "name": "41C",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Usando e abusando roteadores com OpenWRT",
+        "author": "Marcelo Mallmann Dias",
+        "area": "Hardware, Sistemas Embarcados e Robótica",
+        "day": 10,
+        "start": "12:00",
+        "zone": 13,
+        "duration": 1,
+        "room": {
+          "name": "41C",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Criando plataformas na velocidade da luz - uma introdução ao Meteor.js",
+        "author": "Mauricio Piacentini",
+        "area": "Outras linguagens",
+        "day": 10,
+        "start": "13:00",
+        "zone": 14,
+        "duration": 1,
+        "room": {
+          "name": "41C",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Esqueceram de Mim, Se tudo funciona, ninguem me chama.",
+        "author": "Diego Neves",
+        "area": "Administração de Sistemas e VoIP",
+        "day": 10,
+        "start": "15:00",
+        "zone": 13,
+        "duration": 1,
+        "room": {
+          "name": "41C",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Programação para não programadores com Python e Web2py",
+        "author": "Relsi Maron",
+        "area": "Python, Ruby e Perl",
+        "day": 10,
+        "start": "17:00",
+        "zone": 14,
+        "duration": 1,
+        "room": {
+          "name": "41C",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Oficina - Tecnologia da Informação e Movimentos Sociais",
+        "author": "Alan Tygel",
+        "area": "Eventos Comunitários",
+        "day": 10,
+        "start": "9:00",
+        "zone": 18,
+        "duration": 1,
+        "room": {
+          "name": "41D",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Raul Hacker Club, o início de um Hacker Space",
+        "author": "Antonio Fernando Santos Ladeia",
+        "area": "Negócios, Implementações e Casos",
+        "day": 10,
+        "start": "16:00",
+        "zone": 16,
+        "duration": 1,
+        "room": {
+          "name": "41D",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Real-time APIs com Web Sockets em PHP",
+        "author": "Ricardo Coelho",
+        "area": "PHP e Java",
+        "day": 10,
+        "start": "17:00",
+        "zone": 14,
+        "duration": 1,
+        "room": {
+          "name": "41D",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Envolva-se: Como você pode contribuir com a Mozilla Brasil.",
+        "author": "Ricardo Pontes",
+        "area": "Eventos Comunitários",
+        "day": 10,
+        "start": "9:00",
+        "zone": 18,
+        "duration": 1,
+        "room": {
+          "name": "41E",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Call Centers Livres e Simples com Elastix",
+        "author": "Helius Ferreira",
+        "area": "Administração de Sistemas e VoIP",
+        "day": 10,
+        "start": "11:00",
+        "zone": 13,
+        "duration": 1,
+        "room": {
+          "name": "41E",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Mobile First, um novo paradigma",
+        "author": "Alexandre Magno Teles Zimerer",
+        "area": "Visual/GUI",
+        "day": 10,
+        "start": "12:00",
+        "zone": 14,
+        "duration": 1,
+        "room": {
+          "name": "41E",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "IPv6: Você está preparado para ele?",
+        "author": "Gilberto Sudre",
+        "area": "Tópicos Emergentes",
+        "day": 10,
+        "start": "13:00",
+        "zone": 19,
+        "duration": 1,
+        "room": {
+          "name": "41E",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "NGiNX, o motor da sua aplicação web",
+        "author": "Ernani Azevedo",
+        "area": "Tópicos Emergentes",
+        "day": 10,
+        "start": "15:00",
+        "zone": 19,
+        "duration": 1,
+        "room": {
+          "name": "41E",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "O futuro do Openstack, NFV, SDN e Cloud Computing",
+        "author": "Marcelo Dieder",
+        "area": "Administração de Sistemas e VoIP",
+        "day": 10,
+        "start": "16:00",
+        "zone": 13,
+        "duration": 1,
+        "room": {
+          "name": "41E",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Openshift - diversidade no Cloud",
+        "author": "Hanneli Tavante",
+        "area": "Administração de Sistemas e VoIP",
+        "day": 10,
+        "start": "17:00",
+        "zone": 13,
+        "duration": 1,
+        "room": {
+          "name": "41E",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Workshop IoT (Internet of Things)",
+        "author": "Morvana Bonin",
+        "area": "Eventos Comunitários",
+        "day": 10,
+        "start": "9:00",
+        "zone": 18,
+        "duration": 1,
+        "room": {
+          "name": "41F",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "MusicTable, fazendo música com imagens.",
+        "author": "Leonardo Gemelli Machado",
+        "area": "Jogos, Multimídia e Streaming",
+        "day": 10,
+        "start": "10:00",
+        "zone": 15,
+        "duration": 1,
+        "room": {
+          "name": "41F",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Bitcoin - a moeda digital! Transações e consequências",
+        "author": "Marciano Tagliani",
+        "area": "Tópicos Emergentes",
+        "day": 10,
+        "start": "12:00",
+        "zone": 19,
+        "duration": 1,
+        "room": {
+          "name": "41F",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "TDD com Clean Code: chega de amadorismo!",
+        "author": "Alison Rodrigues de Souza",
+        "area": "Ferramentas, Metodologias e Padrões",
+        "day": 10,
+        "start": "13:00",
+        "zone": 14,
+        "duration": 1,
+        "room": {
+          "name": "41F",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Introdução a Programação Julia",
+        "author": "Salete Farias",
+        "area": "Outras linguagens",
+        "day": 10,
+        "start": "15:00",
+        "zone": 14,
+        "duration": 1,
+        "room": {
+          "name": "41F",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "DIYbio hackeando o software da vida",
+        "author": "Paulo Castro",
+        "area": "Tópicos Emergentes",
+        "day": 10,
+        "start": "16:00",
+        "zone": 19,
+        "duration": 1,
+        "room": {
+          "name": "41F",
+          "chairs": "250 lugares"
+        }
+      },
+      {
+        "title": "Laboratório Hacker",
+        "author": "Roger Campos Godoy",
+        "area": "Eventos Comunitários",
+        "day": 10,
+        "start": "9:00",
+        "zone": 18,
+        "duration": 1,
+        "room": {
+          "name": "40A",
+          "chairs": "110 lugares"
+        }
+      },
+      {
+        "title": "Interface para Humanos: facilite para as pessoas e faça do mundo um lugar melhor",
+        "author": "Juliana Fernandes",
+        "area": "Ferramentas, Metodologias e Padrões",
+        "day": 10,
+        "start": "11:00",
+        "zone": 14,
+        "duration": 1,
+        "room": {
+          "name": "40A",
+          "chairs": "110 lugares"
+        }
+      },
+      {
+        "title": "Criar software livre não é um bicho de 7 cabeças: GoboLinux, htop, LuaRocks",
+        "author": "Hisham Muhammad",
+        "area": "Ecossistema / Cultura",
+        "day": 10,
+        "start": "12:00",
+        "zone": 16,
+        "duration": 1,
+        "room": {
+          "name": "40A",
+          "chairs": "110 lugares"
+        }
+      },
+      {
+        "title": "Os Perseguidos da Guerra pela Informação e Privacidade vs. Espionagem",
+        "author": "Francisco Prates Junior",
+        "area": "Tópicos Emergentes",
+        "day": 10,
+        "start": "13:00",
+        "zone": 19,
+        "duration": 1,
+        "room": {
+          "name": "40A",
+          "chairs": "110 lugares"
+        }
+      },
+      {
+        "title": "PhoneGap: porque você não precisa fazer o seu app mobile nativo",
+        "author": "Diego Moreira Guimarães",
+        "area": "Outras linguagens",
+        "day": 10,
+        "start": "14:00",
+        "zone": 14,
+        "duration": 1,
+        "room": {
+          "name": "40A",
+          "chairs": "110 lugares"
+        }
+      },
+      {
+        "title": "Use e colabore com o OpenStreetMap",
+        "author": "Wille Marcel Lima Malheiro",
+        "area": "Tópicos Emergentes",
+        "day": 10,
+        "start": "15:00",
+        "zone": 19,
+        "duration": 1,
+        "room": {
+          "name": "40A",
+          "chairs": "110 lugares"
+        }
+      },
+      {
+        "title": "Responsivo na prática",
+        "author": "bruno azevedo",
+        "area": "Ferramentas, Metodologias e Padrões",
+        "day": 10,
+        "start": "17:00",
+        "zone": 14,
+        "duration": 1,
+        "room": {
+          "name": "40A",
+          "chairs": "110 lugares"
+        }
+      },
+      {
+        "title": "Oficina de construção de aplicativos para Firefox OS",
+        "author": "Andre Alves Garzia",
+        "area": "Oficinas",
+        "day": 10,
+        "start": "9:00",
+        "zone": 21,
+        "duration": 3,
+        "room": {
+          "name": "701 OF1",
+          "chairs": "40 lugares"
+        }
+      },
+      {
+        "title": "KVM Workshop on Fedora",
+        "author": "villadalmine",
+        "area": "Kernel, Sistemas de Arquivos e Sistemas Operacionais",
+        "day": 10,
+        "start": "15:00",
+        "zone": 13,
+        "duration": 3,
+        "room": {
+          "name": "701 OF1",
+          "chairs": "40 lugares"
+        }
+      },
+      {
+        "title": "Sistemas para Eventos ASL",
+        "author": "ORGANIZAÇÃO",
+        "area": "Organização",
+        "day": 10,
+        "start": "15:00",
+        "zone": 20,
+        "duration": 2,
+        "room": {
+          "name": "Reuniões 710",
+          "chairs": "40 lugares"
+        }
+      },
+      {
+        "title": "Pythonificando a Universidade",
+        "author": "Matheus Pereira",
+        "area": "Python, Ruby e Perl",
+        "day": 10,
+        "start": "12:00",
+        "zone": 14,
+        "duration": 1,
+        "room": {
+          "name": "F12",
+          "chairs": "50 lugares"
+        }
+      },
+      {
+        "title": "Hardware Livre Nas Universidades Brasileiras",
+        "author": "Cleiton Galvão Santana",
+        "area": "Educação e Inclusão Digital",
+        "day": 10,
+        "start": "13:00",
+        "zone": 17,
+        "duration": 1,
+        "room": {
+          "name": "F12",
+          "chairs": "50 lugares"
+        }
+      }
+    ]
+  }
+}

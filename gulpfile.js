@@ -6,6 +6,7 @@ var pkg = require('./package.json'),
     mkdirp = require('mkdirp'),
     gulp = require('gulp'),
     gutil = require('gulp-util'),
+    assemble = require('gulp-assemble'),
     cordova = require('cordova'),
     CordovaError = require('cordova/src/CordovaError'),
     Q = require('q');
@@ -43,6 +44,21 @@ gulp.task('createBuildDir', function(cb){
         cb(null);
     });
 });
+
+gulp.task('web:build', function(){
+    var options = {
+        layoutdir: paths.sources.layouts,
+        partials: paths.sources.partials,
+        data: paths.sources.data,
+        log: {
+            level: 'error' // verbose, debug, info, warning, error, critical
+        }
+    };
+    gulp.src(paths.sources.pages)
+        .pipe(assemble('www', options))
+        .pipe(gulp.dest(paths.build.www));
+});
+
 
 var cordovaLog = function(msg){
     console.log('[' + blue('cordova')+ '] ', msg);
