@@ -18,11 +18,13 @@ var paths = {
             layouts: 'src/templates/layouts/',
             partials: 'src/templates/partials/*.hbs',
             pages: 'src/templates/pages/*.hbs',
-            data: 'src/data/*.json'
+            data: 'src/data/*.json',
+            scripts: 'src/scripts/**/*.js'
         },
         build: {
             root: 'dist',
             www: 'dist/www/',
+            js: 'dist/www/js',
             cordova: 'dist/cordova/',
             cordova_www: 'dist/cordova/www/'
         }
@@ -47,7 +49,13 @@ gulp.task('createBuildDir', function(cb){
 });
 
 //web
-gulp.task('web:build', function(){
+gulp.task('web:buildScripts', function(){
+    return gulp.src(paths.sources.scripts)
+                .pipe(gulp.dest(
+                    paths.build.js
+                ));
+});
+gulp.task('web:buildPages', function(){
     var options = {
         layoutdir: paths.sources.layouts,
         partials: paths.sources.partials,
@@ -56,9 +64,15 @@ gulp.task('web:build', function(){
             level: 'error' // verbose, debug, info, warning, error, critical
         }
     };
-    gulp.src(paths.sources.pages)
+    return gulp.src(paths.sources.pages)
         .pipe(assemble('www', options))
         .pipe(gulp.dest(paths.build.www));
+});
+gulp.task(  'web:build', [
+                'web:buildScripts',
+                'web:buildPages'
+            ], function(){
+    return true;
 });
 
 
