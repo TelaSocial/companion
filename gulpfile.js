@@ -116,7 +116,7 @@ gulp.task('cordova:setup',
     ]
 );
 
-gulp.task('cordova:copyWeb', function(){
+gulp.task('cordova:copyWeb', ['web:build'], function(){
     return gulp.src([
                         './**/*.html',
                         './js/**/*.js',
