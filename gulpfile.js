@@ -106,15 +106,21 @@ gulp.task('cordova:addAndroid', ['cordova:create'], function(cb){
     promise.then(cb);
 });
 
+//install 3 plugins
+gulp.task('cordova:addPlugins', ['cordova:addAndroid'], function(cb){
+    var promise,
+        pluginsToInstall = [
+            'https://github.com/EddyVerbruggen/Calendar-PhoneGap-Plugin.git',
+            'https://github.com/Red-Folder/bgs-core.git',
+            'https://github.com/Red-Folder/bgs-sample.git'
+        ];
+    cordovaCdToRoot();
+    promise = new Q(cordova.plugin('add', pluginsToInstall));
+    promise.then(cb);
+});
+
 //run all the initial cordova-related tasks
-gulp.task('cordova:setup',
-    [
-        'cordova:addAndroid'
-// - cordova plugin add https://github.com/EddyVerbruggen/Calendar-PhoneGap-Plugin.git
-// - cordova plugin add https://github.com/Red-Folder/bgs-core
-// - cordova plugin add https://github.com/Red-Folder/bgs-sample
-    ]
-);
+gulp.task('cordova:setup',['cordova:addPlugins']);
 
 gulp.task('cordova:copyWeb', ['web:build'], function(){
     return gulp.src([
