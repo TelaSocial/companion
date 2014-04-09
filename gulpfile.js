@@ -14,12 +14,15 @@ var paths = {
             partials: 'src/templates/partials/*.hbs',
             pages: 'src/templates/pages/*.hbs',
             data: 'src/data/*.json',
-            scripts: ['src/scripts/**/*.js', '!src/scripts/gulp-tasks/**/*.js']
+            scripts: ['src/scripts/**/*.js', '!src/scripts/gulp-tasks/**/*.js'],
+            styles: 'src/styles/'
         },
         build: {
             root: 'dist',
             www: 'dist/www/',
             js: 'dist/www/js',
+            css: 'dist/www/css',
+            scss: 'dist/www/css/src/styles/',
             cordova: 'dist/cordova/',
             cordova_www: 'dist/cordova/www/'
         }
@@ -44,8 +47,9 @@ gulp.task('createBuildDir', function(cb){
 
 //web
 gulp.task('web:buildScripts', tasks.web.buildScripts);
+gulp.task('web:buildStyles', tasks.web.buildStyles);
 gulp.task('web:buildPages', tasks.web.buildPages);
-gulp.task('web:build', ['web:buildScripts','web:buildPages']);
+gulp.task('web:build', ['web:buildScripts', 'web:buildStyles', 'web:buildPages']);
 
 
 //cordova

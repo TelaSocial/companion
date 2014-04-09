@@ -82,6 +82,7 @@ module.exports = function(paths, pkg){
                             './**/*.html',
                             './js/**/*.js',
                             './css/**/*.css',
+                            '!./css/src/**/*.*', //no need for sourcemap on the app build
                             './img/**/*.*'
                         ], {
                             cwd: paths.build.www + '**'
