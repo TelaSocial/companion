@@ -40,7 +40,8 @@
       "process": true,
       "__dirname": true,
       "console": true,
-      "require": true
+      "require": true,
+      "module": true
     }
   },
   "cordovaConfig": {
