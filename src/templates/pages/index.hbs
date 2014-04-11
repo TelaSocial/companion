@@ -2,17 +2,19 @@
 layout: html_page.hbs
 #layout: simple.hbs
 title: Companion App
+js:
+    - cordova.js
+    - js/index.js
 ---
 <div class="app">
     <h1>{{title}}</h1>
+    <ul>
+        <li><a href="ajax.html">Ajax Load Experiments</a></li>
+        <li><a href="schedule.html">Static Schedule Experiments</a></li>
+        <li><a href="">link aqui</a></li>
+    <ul>
     <div id="deviceready" class="blink">
         <p class="event listening">Connecting to Device</p>
         <p class="event received">Device is Ready</p>
     </div>
-    {{>schedule}}
 </div>
-<script type="text/javascript" src="cordova.js"></script>
-<script type="text/javascript" src="js/index.js"></script>
-<script type="text/javascript">
-    app.initialize();
-</script>

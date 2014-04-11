@@ -5,12 +5,23 @@
         <meta name="format-detection" content="telephone=no" />
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        {{#if css}}
+            {{#each css}}
+                <link rel="stylesheet" type="text/css" href="{{this}}" />
+            {{/each}}
+        {{else}}
+            <link rel="stylesheet" type="text/css" href="css/index.css" />
+        {{/if}}
         <title>{{title}}</title>
         <meta name="viewport" content="width=device-width, initial-scale=0.8">
         <meta name="apple-mobile-web-app-capable" content="yes" />
     </head>
     <body class="{{body_classes}}">
         {{>body}}
+        {{#if js}}
+            {{#each js}}
+                <script type="text/javascript" src="{{this}}"></script>
+            {{/each}}
+        {{/if}}
     </body>
 </html>
