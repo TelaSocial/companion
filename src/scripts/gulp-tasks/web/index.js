@@ -1,16 +1,14 @@
 'use strict';
 var gulp = require('gulp'),
     assemble = require('gulp-assemble'),
+    yfm = require('assemble-front-matter'),
+    glob = require('glob'),
+    _ = require ('lodash'),
     sass = require('gulp-sass'),
     through = require('through2'),
     browserify = require('browserify');
 
 module.exports = function(paths){
-
-    this.buildData = function(){
-        return  gulp.src(paths.sources.data + '**/*.*')
-                    .pipe(gulp.dest(paths.build.data));
-    };
 
     //to make browserify compatible with gulp streams
     //see https://github.com/gulpjs/plugins/issues/47#issuecomment-38038638
@@ -25,7 +23,39 @@ module.exports = function(paths){
       });
     }
 
-    this.buildScripts = function(){
+    // Sometimes whe want to mix browserify bundled libs with cdn-available
+    // libraries (such as jquery, etc), those libs that goes on extra
+    // <script> tags are defined in the YAML front matter of the page
+    // template files.
+    //
+    // This function runs through all pages, collect all js paths that are libs
+    // from their frontmatter setups, and then copy them to the dist folder
+    this.copyExtraLibraries = function(){
+        glob(paths.sources.pages, {}, function (er, files) {
+            var jsFiles = [],
+                libPattern = 'js/lib/';
+            files.forEach(function(filename){
+                var data = yfm.extract(filename).context;
+                jsFiles = _.union(
+                                jsFiles,
+                                _.map(data.js, function(filepath){
+                                        return filepath;
+                                    }
+                                )
+                            );
+            });
+            _.remove(jsFiles, function(filename){
+                return filename.substring(0, libPattern.length) !== libPattern;
+            });
+            jsFiles = _.map(jsFiles, function(filename){
+                return filename.replace(/js\//,'');
+            });
+            gulp.src(jsFiles, { cwd: paths.sources.scripts + '**'})
+                .pipe(gulp.dest(paths.build.js));
+        });
+    };
+
+    this.bundleScripts = function(){
         var options = {
                 browserify: {
                     debug: false
@@ -64,4 +94,11 @@ module.exports = function(paths){
             .pipe(assemble('www', options))
             .pipe(gulp.dest(paths.build.www));
     };
+
+    this.buildData = function(){
+        return  gulp.src(paths.sources.data + '**/*.*')
+                    .pipe(gulp.dest(paths.build.data));
+    };
+
+
 };

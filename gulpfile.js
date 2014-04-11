@@ -53,7 +53,14 @@ gulp.task('t', function(){
 
 //web
 gulp.task('web:buildData', tasks.web.buildData);
-gulp.task('web:buildScripts', tasks.web.buildScripts);
+gulp.task('web:bundleScripts', tasks.web.bundleScripts);
+gulp.task('web:copyExtraLibraries', tasks.web.copyExtraLibraries);
+gulp.task('web:buildScripts',
+    [
+        'web:bundleScripts',
+        'web:copyExtraLibraries'
+    ]
+);
 gulp.task('web:buildStyles', tasks.web.buildStyles);
 gulp.task('web:buildPages', tasks.web.buildPages);
 gulp.task('web:build',
