@@ -1,7 +1,9 @@
 'use strict';
 var gulp = require('gulp'),
     assemble = require('gulp-assemble'),
-    sass = require('gulp-sass');
+    sass = require('gulp-sass'),
+    through = require('through2'),
+    browserify = require('browserify');
 
 module.exports = function(paths){
 
@@ -10,9 +12,29 @@ module.exports = function(paths){
                     .pipe(gulp.dest(paths.build.data));
     };
 
+    //to make browserify compatible with gulp streams
+    //see https://github.com/gulpjs/plugins/issues/47#issuecomment-38038638
+    function bundle(options) {
+      return through.obj(function(file, encoding, callback) {
+        var bundle = browserify()
+          .require(file, { entry: file.path })
+          .bundle(options);
+        file.contents = bundle;
+        this.push(file);
+        callback();
+      });
+    }
+
     this.buildScripts = function(){
-        return  gulp.src(paths.sources.scripts)
-                    .pipe(gulp.dest(paths.build.js));
+        var options = {
+                browserify: {
+                    debug: false
+                }
+            };
+
+        return gulp.src(paths.sources.scripts + '*.js')
+                .pipe(bundle(options.browserify))
+                .pipe(gulp.dest(paths.build.js));
     };
 
     this.buildStyles = function(){

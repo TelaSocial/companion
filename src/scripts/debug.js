@@ -1,4 +1,5 @@
 'use strict';
+var jQuery = require('jquery');
 
 var debugApp = function($){
     var isCordova = document.URL.substring(0,4) === 'file';

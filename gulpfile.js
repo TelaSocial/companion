@@ -14,14 +14,14 @@ var paths = {
             partials: 'src/templates/partials/*.hbs',
             pages: 'src/templates/pages/*.hbs',
             data: 'src/data/',
-            scripts: ['src/scripts/**/*.js', '!src/scripts/gulp-tasks/**/*.js'],
+            scripts: 'src/scripts/',
             styles: 'src/styles/'
         },
         build: {
             root: 'dist',
             www: 'dist/www/',
             data: 'dist/www/data',
-            js: 'dist/www/js',
+            js: 'dist/www/js/',
             css: 'dist/www/css',
             scss: 'dist/www/css/src/styles/',
             cordova: 'dist/cordova/',
@@ -44,6 +44,11 @@ gulp.task('createBuildDir', function(cb){
         if(err){ throw err; }
         cb(null);
     });
+});
+
+gulp.task('t', function(){
+    var i = gulp.src(paths.sources.scripts);
+    console.log(i);
 });
 
 //web
