@@ -1,0 +1,1 @@
+- the script tag loading cordova.js doesn't need to exist in the web distribution
