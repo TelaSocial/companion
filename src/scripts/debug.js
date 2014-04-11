@@ -1,21 +1,23 @@
 'use strict';
 
 var debugApp = function($){
+    var isCordova = document.URL.substring(0,4) === 'file';
     var loadXML = function(){
         // var url = 'http://papers.softwarelivre.org/papers_ng/public/fast_grid?event_id=4',
         var button = $('#load-ajax-button'),
             url = button.data('url');
-        console.log('Getting url', url);
-        $.get(url, {dataType: 'xml'}, function(data){
-            console.log('Load was performed [1]:', data);
+        console.log('Getting url ' + url);
+        $.ajax(url, {
+            dataType: 'text'
         })
         .done(function(data) {
+            console.log('Load was performed [1]: ' + (typeof data));
             var textArea = $('#payload'),
-                response = $(data).find('response').first(),
-                raw = response.html();
-            console.log('Load was performed:', data);
-            console.log('Response:', $(data).find('response').first().html());
-            textArea.val(raw.length > 1 ? raw : 'empty response');
+                $xml = $(data),
+                eventId = $xml.find('event_id').text();
+            console.log('Load was performed [2]:' + $xml);
+            console.log('Load was performed [3]:' + eventId);
+            textArea.val(data);
         }).fail(function() {
             console.log('error');
         }).always(function() {
@@ -27,7 +29,6 @@ var debugApp = function($){
         $('#load-ajax-button').click(loadXML);
     };
     $(document).ready(function() {
-        var isCordova = document.URL.substring(0,4) === 'file';
         if (isCordova) {
             document.addEventListener('deviceready', onDeviceReady, false);
         } else {
