@@ -3,10 +3,11 @@
 var debugApp = function($){
     var isCordova = document.URL.substring(0,4) === 'file';
     var loadXML = function(){
-        // var url = 'http://papers.softwarelivre.org/papers_ng/public/fast_grid?event_id=4',
-        var button = $('#load-ajax-button'),
+        var button = $(this),
+            textArea = $('#payload'),
             url = button.data('url');
         console.log('Getting url ' + url);
+        textArea.val('Getting url ' + url);
         $.ajax(url, {
             dataType: 'text'
         })
@@ -26,7 +27,7 @@ var debugApp = function($){
     };
     var onDeviceReady = function(){
         //bind events
-        $('#load-ajax-button').click(loadXML);
+        $('.load-ajax-button').click(loadXML);
     };
     $(document).ready(function() {
         if (isCordova) {
