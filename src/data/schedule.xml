@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="/papers_ng/media/xsl/pt/old_grid.xsl" type="text/xsl"?>
+<response base="http://papers.softwarelivre.org/papers_ng" path="/papers_ng/public/fast_grid" query="event_id=4" lang="pt">
+  <query>
+    <event_id>4</event_id>
+  </query>
+  <grouped-summary type="start_date">
+    <summary id="2014-05-07">
+      <start count="6"/>
+    </summary>
+    <summary id="2014-05-10">
+      <start count="4"/>
+    </summary>
+    <summary id="2014-05-08">
+      <start count="6"/>
+    </summary>
+    <summary id="2014-05-09">
+      <start count="5"/>
+    </summary>
+  </grouped-summary>
+  <hours minimum_interval="20">
+    <hour>09</hour>
+    <hour>10</hour>
+    <hour>11</hour>
+    <hour>12</hour>
+    <hour>13</hour>
+    <hour>14</hour>
+    <hour>15</hour>
+    <hour>16</hour>
+    <hour>17</hour>
+  </hours>
+  <minutes>
+    <minute>00</minute>
+    <minute>20</minute>
+    <minute>40</minute>
+  </minutes>
+  <event id="4" evaluation_by_area="False">
+    <name>FISL15</name>
+    <evaluation value="swiss_tournament">torneio su&#237;&#231;o</evaluation>
+    <status value="first_call">primeira chamada</status>
+    <default_venue id="1">
+      <name>Centro de Eventos PUCRS</name>
+      <latitude>-30.059632129</latitude>
+      <longitude>-51.1763226986</longitude>
+      <address>Av. Ipiranga, 6681</address>
+      <city_name>Porto Alegre-RS</city_name>
+    </default_venue>
+  </event>
+  <slots>
+    <slot id="197" date="2014-05-08" hour="16" minute="00" room="5" candidate="630" area="38" title="Sustentabilidade e Software Livre no Banco do Brasil" value="0" colspan="3" color="FFE5C9" abstract="O Banco do Brasil j&#225; se consagrou como um dos maiores cases mundiais de uso de softwares livres. Hoje os mais de 120.000 funcion&#225;rios da empresa trabalham diariamente com solu&#231;&#245;es baseadas em softwares livres, plataformas est&#225;veis, seguras e funcionais que geram produtividade e economia. Inserimos neste contexto operacional o conceito da TI Verde, contribu&#237;ndo ainda mais com a gest&#227;o sustent&#225;vel dos neg&#243;cios BB.  " level="" zone="13"/>
+    <slot id="12" date="2014-05-08" hour="12" minute="00" room="8" candidate="634" area="38" title="Causing a Commotion: The Coming Information Liberation Revolution" value="0" colspan="3" color="FFE5C9" abstract="Commotion is a free, open-source communication tool that uses mobile phones, computers, and other wireless devices to create decentralized networks.&#13;&#10;Commotion can spread available Internet connectivity as well as create community Intranets that share local services and applications.  With Commotion, anyone can download and begin building a 21st century communications infrastructure -- just point your browser to www.commotionwireless.net to get started" level="" zone="13"/>
+    <slot id="274" date="2014-05-09" hour="12" minute="00" room="7" candidate="474" area="38" title="Policy Based Routing: roteadores mais flex&#237;veis/inteligentes" value="0" colspan="3" color="FFE5C9" abstract="Esta palestra visa evidenciar os benef&#237;cios que pol&#237;ticas de roteamento mais flex&#237;veis trazem e tamb&#233;m introduzir o conceito de virtualiza&#231;&#227;o da rede." level="intermediate" zone="13"/>
+    <slot id="38" date="2014-05-07" hour="10" minute="00" room="1" candidate="490" area="38" title="Elastic Overkill: Is Cloud Really The Holy Grail?" value="0" colspan="3" color="FFE5C9" abstract="Cloud is everywhere. But is it an everything solution for IT managers? Cloud is great for what it can do, but there may be times when it is not needed." level="intermediate" zone="13"/>
+    <slot id="215" date="2014-05-10" hour="16" minute="00" room="5" candidate="369" area="38" title="O futuro do Openstack, NFV, SDN e Cloud Computing " value="0" colspan="3" color="FFE5C9" abstract="A Computa&#231;&#227;o em Nuvem deixou de ser uma aposta para finalmente ser uma realidade no mundo tecnol&#243;gico atual. A demanda por servi&#231;os de TI cresce vertiginosamente, e as plataformas de servi&#231;os precisam estar preparadas para a entrega imediata de recursos computacionais. Esta palestra ir&#225; apresentar o cen&#225;rio atual do Openstack no mundo e como ele est&#225; integrado com as atuais solu&#231;&#245;es de NFV e SDN para a cria&#231;&#227;o de nuvens p&#250;blicas e privadas." level="intermediate" zone="13"/>
+    <slot id="216" date="2014-05-10" hour="17" minute="00" room="5" candidate="326" area="38" title="Openshift - diversidade no Cloud" value="0" colspan="3" color="FFE5C9" abstract="Quer um cloud gratuito para rodar Jara, Ruby, Python, PHP usando MySQL ou Mongo? Openshift pode ser a solu&#231;&#227;o!&#13;&#10;" level="intermediate" zone="13"/>
+    <slot id="243" date="2014-05-09" hour="17" minute="00" room="6" candidate="192" area="38" title="Cloud sem Cloud" value="0" colspan="3" color="FFE5C9" abstract="Como ter uma cloud sem cloud, usando apenas um gerenciador de infraestrutura (Hypervisor) como ponto central de sua infra" level="advanced" zone="13"/>
+    <slot id="18" date="2014-05-09" hour="10" minute="00" room="8" candidate="180" area="38" title="Performance analysis at Facebook scale" value="0" colspan="3" color="FFE5C9" abstract="Aprenda como investigar problemas de performance quando um sistema &#233; composto por v&#225;rios servidores e servi&#231;os diferentes. Uma investiga&#231;&#227;o de sucesso precisa de foco. Um bom administrador n&#227;o pode perder tempo com o que n&#227;o interessa. Veja boas dicas de como um grande servi&#231;o como o Facebook resolve esse problema." level="intermediate" zone="13"/>
+    <slot id="210" date="2014-05-10" hour="11" minute="00" room="5" candidate="9" area="38" title="Call Centers Livres e Simples com Elastix" value="0" colspan="3" color="FFE5C9" abstract="Elastix &#233; uma distribui&#231;&#227;o livre de Servidor de Comunica&#231;&#245;es Unificadas que integra em um &#250;nico pacote. Atrav&#233;s de suas v&#225;rias vers&#245;es foram adicionadas funcionalidades que incluem m&#243;dulo de Call Center. O m&#243;dulo do Call Center tem como objetivo gerar chamadas autom&#225;ticas para n&#250;meros que foram previamente carregados. Ele tamb&#233;m lida com as chamadas que s&#227;o recebidas atrav&#233;s de uma fila estabelecida. Ent&#227;o, vamos configurar tudo sem erros e com um m&#237;nimo de trabalho. E vamos dormir em paz." level="intermediate" zone="13"/>
+    <slot id="70" date="2014-05-10" hour="15" minute="00" room="1" candidate="579" area="50" title="Software Livre e Seguran&#231;a Eleitoral" value="0" colspan="3" color="E0FFC9" abstract="O sistema de vota&#231;&#227;o eletr&#244;nica utilizado no Brasil &#233; dos mais opacos no mundo, tanto do ponto de vista do processo de desenvolvimento empregado quanto da possibilidade de verifica&#231;&#227;o independente de resultados por eleitores ou fiscais. Ainda assim, diversas vulnerabilidades puderam ser detectadas durante participa&#231;&#227;o de equipe da UnB nos Testes P&#250;blicos de Seguran&#231;a organizados pelo TSE, com impacto consider&#225;vel no anonimato e destina&#231;&#227;o dos votos." level="intermediate" zone="13"/>
+    <slot id="220" date="2014-05-07" hour="12" minute="00" room="6" candidate="221" area="50" title="Criptografia Aplicada -- Chaves Assim&#233;tricas + MACs" value="0" colspan="3" color="E0FFC9" abstract="Ser&#225; apresentado e discutido o conceito de  uma criptografia com chaves assim&#233;tricas, algoritmos de preserva&#231;&#227;o de intergridade de dados e, por fim, como combinar tudo para ter um algoritmo de criptografia autenticada.    " level="starter" zone="13"/>
+    <slot id="206" date="2014-05-09" hour="16" minute="00" room="5" candidate="98" area="50" title="Criptografia e privacidade: Como proteger suas informa&#231;&#245;es usando software livre" value="0" colspan="3" color="E0FFC9" abstract="Em meio &#225; guerra pela informa&#231;&#227;o da Era Digital, as pessoas fisicas, empresas e governos necessitam preocupar-se cada vez mais com sua seguran&#231;a e privacidade. Em uma &#233;poca onde a espionagem (seja ela industrial, governamental ou pessoal), repress&#227;o e falta de liberdade de express&#227;o est&#227;o presentes em grande parte do mundo, &#233; fundamental o conhecimento de ferramentas e m&#233;todos para proteger suas informa&#231;&#245;es e estabelecer um meio de comunica&#231;&#227;o seguro. A Era Digital come&#231;ou, a hora &#233; agora!" level="starter" zone="13"/>
+    <slot id="23" date="2014-05-09" hour="15" minute="00" room="8" candidate="496" area="50" title="Forense em mem&#243;ria com volatility, LiME e outras ferramentas" value="0" colspan="3" color="E0FFC9" abstract="Ser&#225; mostrado como realizar o dump de mem&#243;ria RAM utilizando o LiME e outras ferramentas. A seguir, ocorrer&#225; uma an&#225;lise com o volatility, que &#233; capaz de dizer quais processos estavam ativos, as conex&#245;es de rede estabelecidas, usu&#225;rios conectados etc. Por &#250;ltimo, outros m&#233;todos e programas ser&#227;o utilizados para extrair mais informa&#231;&#245;es. Haver&#225;, tamb&#233;m, a per&#237;cia de &#225;reas de swap e de arquivos de hiberna&#231;&#227;o. Os sistemas operacionais explorados na pr&#225;tica ser&#227;o o GNU/Linux e o MS Windows." level="advanced" zone="13"/>
+    <slot id="541" date="2014-05-07" hour="17" minute="00" room="8" candidate="278" area="50" title="NSA-proof communications" value="0" colspan="3" color="E0FFC9" abstract="Nesta talk ser&#225; apresentada t&#233;cnicas e solu&#231;&#245;es para ambientes de comunica&#231;&#227;o seguros (email e mensagens instant&#226;neas) atrav&#233;s do uso extensivo de criptografia e a chamada &quot;Perfect Forward Secrecy&quot;. Abordaremos desde as tecnologias existentes para seguran&#231;a de comunica&#231;&#245;es como PGP/GPG e OTR, compatibilidade e integra&#231;&#227;o de clients e mais. Ser&#225; apresentado um pouco de server hardening para maior resili&#234;ncia a &quot;implantes&quot;, exploits e afins." level="advanced" zone="13"/>
+    <slot id="74" date="2014-05-07" hour="10" minute="00" room="2" candidate="263" area="50" title="Privacidade e Seguran&#231;a da informa&#231;&#227;o em Dispositivos M&#243;veis" value="0" colspan="3" color="E0FFC9" abstract="A computa&#231;&#227;o m&#243;vel e as redes sem fio oferecem &#224; empresas e usu&#225;rios muitos benef&#237;cios como portabilidade, flexibilidade e mobilidade. &#13;&#10;&#13;&#10;Em paralelo a estas vantagens novos desafios surgem na forma de riscos e vulnerabilidades nesta nova plataforma. &#13;&#10;&#13;&#10;A palestra ir&#225; abordar esta nova realidade apresentando as formas mais comuns de ataque e os procedimentos e ferramentas hoje dispon&#237;veis para prote&#231;&#227;o.&#13;&#10;" level="intermediate" zone="13"/>
+    <slot id="89" date="2014-05-08" hour="16" minute="00" room="2" candidate="302" area="50" title="O perigo dos softwares n&#227;o-livres em Dispositivos M&#233;dicos Implant&#225;veis" value="0" colspan="3" color="E0FFC9" abstract="Implantes m&#233;dicos s&#227;o cada vez mais comuns, e o fato de serem controlados por software n&#227;o-livre &#233; um problema substancial, j&#225; que a possibilidade de auditar esses c&#243;digos fica de &quot;responsabilidade&quot; do fabricante. Recentemente, foi descoberto como esses dispositivos s&#227;o falhos, e como um transmissor de radiofrequ&#234;ncia poderia levar a &#243;bito ou trazer transtorno e dor para pacientes com marcapassos implantados. Apresentarei nessa palestra os aspectos t&#233;cnicos e filos&#243;ficos em torno do  tema." level="starter" zone="13"/>
+    <slot id="54" date="2014-05-08" hour="17" minute="00" room="1" candidate="268" area="50" title="Ataques Super Eficientes de Nega&#231;&#227;o de Servi&#231;o: Camada 7, Android, Cluster-Bomb" value="0" colspan="3" color="E0FFC9" abstract="Com o uso de par&#226;metros de protocolos da camada 7 que causam maior processamento ou uso dos demais recursos do servidor ou que mantenham o estado da aplica&#231;&#227;o bloqueado por um per&#237;odo consider&#225;vel de tempo, pode-se atingir resultados devastadores na nega&#231;&#227;o de servi&#231;o com menos requisi&#231;&#245;es do que o tradicional ataque DoS de exaust&#227;o de banda. " level="intermediate" zone="13"/>
+    <slot id="122" date="2014-05-08" hour="14" minute="00" room="3" candidate="85" area="50" title="Construindo scripts para testes de seguran&#231;a com Python" value="0" colspan="3" color="E0FFC9" abstract="A palestra visa demonstrar como utilizar python para a constru&#231;&#227;o dos seus pr&#243;prios scripts, visando realizar diversas atividades como varredura de portas e servi&#231;os, ataques de for&#231;a bruta, download de informa&#231;&#245;es restritas, explora&#231;&#227;o via manipula&#231;&#227;o de cookies, entre outras." level="starter" zone="13"/>
+    <slot id="111" date="2014-05-07" hour="11" minute="00" room="3" candidate="69" area="50" title="Tecnologias Open Source para alta disponibilidade e seguran&#231;a de aplica&#231;&#245;es Web" value="0" colspan="3" color="E0FFC9" abstract="Um dos grandes desafios para as empresas &#233; manter a disponibilidae e a mitiga&#231;&#227;o de vulnerabilidades levando em conta a peculiaridade do sistema hospedado, falta de acesso administrativo, limita&#231;&#245;es t&#233;cnicas e ativos de prote&#231;&#227;o de borda que n&#227;o contribuem efetivamente nesta tarefa. Nesta palestra irei apresentar como implantar uma camada de seguran&#231;a totalmente Open Source que permite a preven&#231;&#227;o proativa contra ataques direcionados a aplica&#231;&#245;es web com alta disponibilidade.&#13;&#10;" level="intermediate" zone="13"/>
+    <slot id="46" date="2014-05-08" hour="09" minute="00" room="1" candidate="55" area="50" title="Quebrando o Android no Meio" value="0" colspan="3" color="E0FFC9" abstract="Formas b&#225;sicas de invadir e proteger seu Android." level="starter" zone="13"/>
+    <slot id="92" date="2014-05-09" hour="10" minute="00" room="2" candidate="513" area="47" title="Construindo suporte a TV digital no Linux" value="0" colspan="3" color="EEFFC9" abstract="A palestra abordar&#225; a infra-estrutura necess&#225;ria para o suporte a recep&#231;&#227;o de TV digital no Linux, que &#233; utilizado tanto em sistemas dedicados (embedded) quanto em computadores pessoais, abordando tanto aspectos ligados ao Kernel do Linux quanto a biblioteca para suporte a aplica&#231;&#245;es multim&#237;dia." level="intermediate" zone="13"/>
+    <slot id="39" date="2014-05-07" hour="11" minute="00" room="1" candidate="468" area="47" title="Gluster for sysadmins" value="0" colspan="3" color="EEFFC9" abstract="Introduction into Gluster, its technologies and use-cases. With help of some some demonstrations, the simplicity of creating Gluster Volumes is shown.&#13;&#10;" level="starter" zone="13"/>
+    <slot id="27" date="2014-05-10" hour="11" minute="00" room="8" candidate="467" area="47" title="Debugging GlusterFS with Wireshark and Systemtap" value="0" colspan="3" color="EEFFC9" abstract="A walk-through and practical example on diagnosing bug(s) that can happen in complex network and software stacks like Samba exporting Gluster Volumes.&#13;&#10;" level="advanced" zone="13"/>
+    <slot id="156" date="2014-05-08" hour="11" minute="00" room="4" candidate="424" area="47" title="Escrevendo seu primeiro m&#243;dulo de kernel" value="0" colspan="3" color="EEFFC9" abstract="Linux permite escrever m&#243;dulos de maneira bastante simples e elegante, usando t&#233;cnicas de orienta&#231;&#227;o a objetos mesmo sendo todo escrito em C. Como a cria&#231;&#227;o de m&#243;dulos e drives costuma ser feita por fabricantes de hardware, muitos programadores n&#227;o tem familiaridade com esse assunto ainda que tenham curiosidade de aprender.&#13;&#10;Nessa apresenta&#231;&#227;o ser&#227;o mostrados os fundamentos sobre m&#243;dulos, as ferramentas usadas para cri&#225;-los e alguns exemplos pr&#225;ticos." level="intermediate" zone="13"/>
+    <slot id="207" date="2014-05-09" hour="17" minute="00" room="5" candidate="250" area="47" title="Real-Time Linux: Da Teoria ao SCHED_DEADLINE" value="0" colspan="3" color="EEFFC9" abstract="Apresenta os conceitos da teoria de sistemas de tempo real e detalhes da implementa&#231;&#227;o dos subsistemas do kernel que influenciam na execu&#231;&#227;o temporal do Linux. O patch PREEMPT &#233; discutido, apresentando suas principais altera&#231;&#245;es no kernel do Linux. Apresenta tamb&#233;m o t&#227;o discutido SCHED_DEADLINE, com suas caracter&#237;sticas, funcionalidades, benef&#237;cios e controv&#233;rsias.&#13;&#10;Ao fim, ser&#225; poss&#237;vel responder a quest&#227;o: Ser&#225; que eu realmente preciso de um sistema operacional de tempo real?" level="advanced" zone="13"/>
+    <slot id="447" date="2014-05-09" hour="14" minute="00" room="718" candidate="286" area="47" title="GNU/Linux, como funciona esta fera?" value="0" colspan="3" color="EEFFC9" abstract="Apresenta&#231;&#227;o sobre como funciona o sistema operacional GNU/Linux, mostrando suas camadas, o sistema de m&#243;dulos do Kernel, apresentando os diversos ambientes gr&#225;ficos e como eles operam, os processos pais e filhos, daemons, inclusive o processo de instala&#231;&#227;o(gr&#225;fico e texto) e o sistema de Boot." level="intermediate" zone="13"/>
+    <slot id="340" date="2014-05-10" hour="15" minute="00" room="714" candidate="158" area="47" title="KVM Workshop on Fedora" value="0" colspan="9" color="EEFFC9" abstract="A brief resume of features of KVM and a lot of examples in order to implements KVM for Students that wants to start virtualization and who uses it in production enviroments." level="starter" zone="13"/>
+    <slot id="107" date="2014-05-10" hour="16" minute="00" room="2" candidate="201" area="47" title="Kernel Linux - Onde podemos encontr&#225;-lo? Onde voc&#234; nem imagina!" value="0" colspan="3" color="EEFFC9" abstract="Al&#233;m de apresentar as novidades da &#250;ltima vers&#227;o do Kernel Linux at&#233; a data do evento, a palestra tem por objetivo apresentar quem tem desenvolvido dispositivos com e para Linux. De cafeteiras a geladeiras. De computadores de bordo para autom&#243;veis, at&#233; monitoria de RFID's. Onde voc&#234; nem imagina!" level="starter" zone="13"/>
+    <slot id="55" date="2014-05-09" hour="09" minute="00" room="1" candidate="117" area="47" title="I don't want to miss a thing... where is the memory going?" value="0" colspan="3" color="EEFFC9" abstract="The intention for the session is to present an overview on the Linux Kernel Virtual Memory Manager through a couple of ordinary daily scenarios in an attempt to address some myths, fallacies and pitfalls that eventually can come up while we are using a Linux System." level="starter" zone="13"/>
+    <slot id="60" date="2014-05-09" hour="14" minute="00" room="1" candidate="633" area="41" title="Practical Optimization of MySQL" value="0" colspan="3" color="FFF3C9" abstract="Successful applications often become limited by MySQL Performance.&#13;&#10;In this presentation we will look how to get great MySQL Performance while&#13;&#10;being Practical - spending time on what gives us best return.&#13;&#10;We will look into the main areas where improvement to MySQL Performance&#13;&#10;can come from  Hardware,  MySQL Configuration,  Schema &amp; Queries, and&#13;&#10;Application&#13;&#10;Architecture outlining the most important things you need to get right for&#13;&#10;each of them&#13;&#10;We will also look into the tools which offer a practi" level="" zone="13"/>
+    <slot id="87" date="2014-05-08" hour="14" minute="00" room="2" candidate="248" area="41" title="Replica&#231;&#227;o de bancos de dados MySQL" value="0" colspan="3" color="FFF3C9" abstract="A configura&#231;&#227;o de uma r&#233;plica (em alguns casos tamb&#233;m chamado de &quot;slave&quot;) de um banco de dados MySQL &#233; algo simples e pode ser realizado em poucas etapas. Nesta apresenta&#231;&#227;o introduziremos o conceito de replica&#231;&#227;o de dados, explicando as principais topologias utilizadas, como o processo funciona, quais s&#227;o as principais utilidades de uma r&#233;plica e como preparar uma rapidamente. Conclu&#237;mos apresentando algumas ferramentas &#250;teis para o monitoramento e manuten&#231;&#227;o de r&#233;plicas MySQL." level="starter" zone="13"/>
+    <slot id="113" date="2014-05-07" hour="13" minute="00" room="3" candidate="122" area="41" title="Muitos mestres, um escravo: MariaDB replica&#231;&#227;o multi source" value="0" colspan="3" color="FFF3C9" abstract="A replica&#231;&#227;o de m&#250;ltiples origens significa que um servidor tem muitos mestres a partir dos quais replica os dados. MariaDB, o fork da DB relacional MySQL, faz un tempo que lan&#231;ou esse recurso de alto desempenho, para resolver problemas tais como:&#13;&#10;a) Dados divididos ao longo de muitos mestres e se debe obt&#234;-los todos juntos em um server para fazer consultas anal&#237;ticas no conjunto.&#13;&#10;b) Seus dados estao espalhados por v&#225;rios serves e gostaria de ter todos eles em uma m&#225;quina como um backup extra." level="intermediate" zone="13"/>
+    <slot id="21" date="2014-05-09" hour="13" minute="00" room="8" candidate="629" area="44" title="IoT: A Internet das Coisas" value="0" colspan="3" color="FCFFC9" abstract="A transforma&#231;&#227;o de sistemas isolados para dispositivos preparados para a Internet, conectados com a nuvem, est&#225; gerando oportunidades sem precedentes para novos servi&#231;os, melhorias na efici&#234;ncia e na produtividade, suporte a tomada de decis&#245;es em tempo real e experi&#234;ncias de uso inovadoras. Vamos apresentar um overview sobre as oportunidades que o IoT cria para empresas e desenvolvedores brasileiros, e mostrar o papel chave que o software open source possui neste cen&#225;rio." level="" zone="13"/>
+    <slot id="136" date="2014-05-10" hour="12" minute="00" room="3" candidate="578" area="44" title="Usando e abusando roteadores com OpenWRT" value="0" colspan="3" color="FCFFC9" abstract="Vamos aprender a utilizar a distribui&#231;&#227;o OpenWRT para tomar o controle de seu roteador wireless baratinho e transform&#225;-lo em um roteador de verdade, ou em uma central de automa&#231;&#227;o residencial, ou conectar um disco na rede ou..." level="starter" zone="13"/>
+    <slot id="428" date="2014-05-07" hour="13" minute="00" room="718" candidate="516" area="44" title="Rob&#243;tica libre en ambientes educativos" value="0" colspan="3" color="FCFFC9" abstract="La plataforma rob&#243;tica Buti&#225;, concebida como una plataforma abierta, constituye una herramienta con enormes ventajas sobre plataformas de tecnolog&#237;as privativas, para explotar las potencialidades de la rob&#243;tica en ambientes educativos&#13;&#10;Buti&#225; sirve como plataforma a notebooks y a dispositivos con Android OS, convirti&#233;ndolos en robots. Esto es, el conjunto plataforma Buti&#225; con sus sensores y actuadores, y la notebook (o dispositivo con Android) constituyen una verdadera plataforma de rob&#243;tica m&#243;vil" level="starter" zone="13"/>
+    <slot id="98" date="2014-05-09" hour="16" minute="00" room="2" candidate="514" area="44" title="Samana&#250;.SAT: Plataforma open source para coleta de dados por sat&#233;lite" value="0" colspan="3" color="FCFFC9" abstract="O projeto Samana&#250;.sat, em desenvolvimento no CCSL-IFRN, trata do desenvolvimento de uma plataforma para coleta de dados para o Sistema Brasileiro de Coleta de Dados Ambientais (SBCDA). A dissemina&#231;&#227;o dos dados &#233; realizada atrav&#233;s da transmiss&#227;o para os sat&#233;lites do SBCDA, por uma interface com um transmissor de sat&#233;lites padr&#227;o ARGOS. Todos os dados coletados s&#227;o disponibilizados gratuitamente via web, atrav&#233;s do Sistema Integrado de Dados Ambientais (SINDA), desenvolvido pelo INPE." level="advanced" zone="13"/>
+    <slot id="99" date="2014-05-09" hour="17" minute="00" room="2" candidate="529" area="44" title="&#193;gua Livre - Esta&#231;&#227;o de tratamento de &#225;gua com Severino" value="0" colspan="3" color="FCFFC9" abstract="Desenvolvemos uma esta&#231;&#227;o de tratamento de &#225;gua automatizada, que deve ser instalada entre o po&#231;o e a caixa d&#8217;&#225;gua da resid&#234;ncia, baseada em hardware e software livres. O c&#233;rebro eletr&#244;nico da esta&#231;&#227;o &#233; uma placa Severino (Arduino Serial) que foi programada em linguagem C, que ao ser energizada verifica os n&#237;veis de &#225;gua na caixa e no tanque com a leitura de sensores capacitivos, acionando as bombas quando necess&#225;rio e dosando 0,08mL de hipoclorito por litro de &#225;gua do tanque de tratamento." level="starter" zone="13"/>
+    <slot id="237" date="2014-05-09" hour="11" minute="00" room="6" candidate="392" area="44" title="Intelig&#234;ncia Artificial na pr&#225;tica - Criando uma Rede Neural " value="0" colspan="3" color="FCFFC9" abstract="Mostrar o que s&#227;o redes neurais artificiais, suas topologias e tipos de treinamentos.&#13;&#10;Apresentar e mostrar as caracter&#237;sticas da biblioteca libFANN (Fast Artificial Neural Network Library) e apresentar uma aplica&#231;&#227;o pr&#225;tica que aprenda a distinguir se um texto est&#225; em ingl&#234;s ou portugu&#234;s sem incluir nenhum dicion&#225;rio de palavras. " level="starter" zone="13"/>
+    <slot id="37" date="2014-05-07" hour="09" minute="00" room="1" candidate="94" area="44" title="Facilitando a vida com Raspberry Pi e Arduino" value="0" colspan="3" color="FCFFC9" abstract="Atualmente programadores j&#225; resolvem muitos problemas virtuais com linguagens cada vez mais eficientes e f&#225;ceis. Mas com a grande populariza&#231;&#227;o de open hardwares como o Arduino e o Raspberry Pi tamb&#233;m ficou muito f&#225;cil de criar solu&#231;&#245;es que v&#227;o al&#233;m do mundo virtual. Como ter suas s&#233;ries favoritas sempre atualizadas na tv, ou uma fechadura que n&#227;o precisa de chave, conectada a internet ou um ponto de venda que n&#227;o precisa de vendedor." level="intermediate" zone="13"/>
+    <slot id="148" date="2014-05-07" hour="12" minute="00" room="4" candidate="86" area="44" title="Raspberry Pi e Beaglebone Black: utilizando GPIOs com Python" value="0" colspan="3" color="FCFFC9" abstract="A id&#233;ia desta palestra &#233; mostrar o Python como uma linguagem muito vi&#225;vel para sistemas Linux embarcados, para isso, primeiramente demonstraremos 2 plataformas de mercado, a BeagleBone Black e a Raspberry Pi para em seguida entrarmos na utiliza&#231;&#227;o efetiva do Python.&#13;&#10;No final da palestra ser&#225; demonstrado um projeto de um analizador de tr&#225;fego de redes desenvolvido pelo palestrante utilizando Raspberry Pi, LCD, bot&#245;es e python." level="intermediate" zone="13"/>
+    <slot id="170" date="2014-05-09" hour="16" minute="00" room="4" candidate="486" area="44" title="Construindo a sua pr&#243;pria distribui&#231;&#227;o Linux para RaspBerry PI e BeableBone." value="0" colspan="3" color="FCFFC9" abstract="Computadores embarcados de baixo custo, como a RaspBerry PI e a BeagleBone Black, t&#234;m se popularizado nos &#250;ltimos anos para fins de ensino e ainda sendo adotados como plataforma de desenvolvimento por empresas. Contudo, a plena utiliza&#231;&#227;o destas plataformas depende da capacidade de customiza&#231;&#227;o da distribui&#231;&#227;o para diferentes necessidades. Esta palestra visa introduzir diferentes ferramentas para a constru&#231;&#227;o de uma distribui&#231;&#227;o Linux personalizada, como o Buildroot e o OpenEmbedded." level="starter" zone="13"/>
+    <slot id="19" date="2014-05-09" hour="11" minute="00" room="8" candidate="621" area="68" title="Going Mobile and surviving" value="0" colspan="3" color="C9F8FF" abstract="A hands-on intro to adaptive web design, mobile experience, accessibility, UI, common mistakes and helpful solutions." level="" zone="14"/>
+    <slot id="77" date="2014-05-07" hour="13" minute="00" room="2" candidate="287" area="68" title="Usabilidade + produtividade = ? qual ambiente gr&#225;fico usar?" value="0" colspan="3" color="C9F8FF" abstract="Apresentaremos os diversos ambientes gr&#225;ficos na plataforma GNU/Linux, tais como Unity, FluxBox, Gnome e KDE, e os seus pontos fortes e fracos que d&#227;o destaques a cada um deles. Ser&#227;o apresentados tamb&#233;m os consumo dos recursos da m&#225;quina ao utilizar cada um dos ambientes e os seus n&#237;veis de dificuldade." level="starter" zone="14"/>
+    <slot id="211" date="2014-05-10" hour="12" minute="00" room="5" candidate="57" area="68" title="Mobile First, um novo paradigma" value="0" colspan="3" color="C9F8FF" abstract="O Mobile First veio para atender a demanda da web por adapta&#231;&#227;o ao crescente uso da internet em dispositivos m&#243;veis, mas para o desenvolvedor se adaptar a esta nova forma de pensar para web, &#233; preciso quebrar alguns paradigmas. Nesta palestra irei mostrar o workflow de desenvolvimento pensando primeiramente em desenvolver sites adaptados para dispositivos m&#243;veis e assim tirar proveito das vantagens de se construir um site ou aplica&#231;&#227;o web em v&#225;rios dispositivos." level="intermediate" zone="14"/>
+    <slot id="16" date="2014-05-08" hour="16" minute="00" room="8" candidate="598" area="53" title="How to be a great hacker" value="0" colspan="3" color="D2FFC9" abstract="Spech about the steps to follow after finishing school and how to become in a great hacker, focusing about the philosophy and the good practices." level="" zone="14"/>
+    <slot id="84" date="2014-05-08" hour="11" minute="00" room="2" candidate="559" area="53" title="Evoluindo uma arquitetura legada: ferramentas e m&#233;todos." value="0" colspan="3" color="D2FFC9" abstract="Cada um de n&#243;s j&#225; teve que mexer em c&#243;digo legado. Por&#233;m, como mexer num sistema inteiro, em produ&#231;&#227;o, herdado de outrem e o transformar em algo saud&#225;vel para se dar manuten&#231;&#227;o? Nesta palestra iremos falar sobre processos e ferramentas utilizados para cobrir um sistema inteiro em uma rede seguran&#231;a a fim de refator&#225;-lo para evoluir sua arquitetura." level="intermediate" zone="14"/>
+    <slot id="119" date="2014-05-08" hour="11" minute="00" room="3" candidate="623" area="53" title="Ecossistema de Colabora&#231;&#227;o no Governo: O caso do Legislativo" value="0" colspan="3" color="D2FFC9" abstract="H&#225; 16 anos o Programa Interlegis do Senado Federal iniciou sua miss&#227;o de modernizar e integrar o legislativo brasileiro e optou por caminhos que foram inspirados nas comunidades de software livre, mas adaptados ao ecossistema do governo. Vamos explorar as t&#233;cnicas e ferramentas que foram usadas, as situa&#231;&#245;es vivenciadas, o que deu certo e errado, e o ambiente Colab que foi desenvolvido para sustentar as comunidades de pr&#225;tica e utiliza tecnologias como Diazo, Solr, Mozilla Persona, Django, etc." level="" zone="14"/>
+    <slot id="141" date="2014-05-07" hour="17" minute="00" room="3" candidate="597" area="53" title="QtModeling: metamodelagem e model-driven software engineering com Qt5" value="0" colspan="3" color="D2FFC9" abstract="Esta palestra apresenta o QtModeling: m&#243;dulo do Qt5 voltado para metamodelagem e suporte &#224;s opera&#231;&#245;es b&#225;sicas de model-driven software engineering. Ser&#227;o apresentadas as motiva&#231;&#245;es do projeto, seguidas das funcionalidades atualmente dispon&#237;veis, bem como aspectos arquiteturais e t&#233;cnicos do DuSE-MT: ferramenta para (meta)modelagem desenvolvida com base no QtModeling. Ao final, ser&#225; apresentado o roadmap de desenvolvimento para os pr&#243;ximos dois anos." level="starter" zone="14"/>
+    <slot id="151" date="2014-05-07" hour="15" minute="00" room="4" candidate="97" area="53" title="O Bootstrap 3 &#233; Mobile First" value="0" colspan="3" color="D2FFC9" abstract="Entenda como funciona a nova vers&#227;o do Bootstrap ap&#243;s sua profunda mudan&#231;a para atender a crescente demanda pelo desenvolvimendo web para mobile. Saiba as diferen&#231;as em rela&#231;&#227;o ao Bootstrap 2 e como atualizar para esta nova vers&#227;o. Esta apresenta&#231;&#227;o foi baseada nas experi&#234;ncias compartilhadas no livro Bootstrap Mobile First que escrevi pela Packt Publishing lan&#231;ado em dezembro do &#250;ltimo ano." level="starter" zone="14"/>
+    <slot id="67" date="2014-05-10" hour="12" minute="00" room="1" candidate="577" area="53" title="Como podemos e devemos monitorar nosso c&#243;digo fonte?" value="0" colspan="3" color="D2FFC9" abstract="Existem diferentes categorias de m&#233;tricas de software e dentro de cada categoria centenas de m&#233;tricas. Nesse contexto surge a pergunta sobre como automatizar a avalia&#231;&#227;o sobre a qualidade de um c&#243;digo fonte.&#13;&#10;Nesta palestra explicaremos rapidamente estas categorias, entrando em detalhes sobre m&#233;tricas est&#225;ticas. Em seguida, explicaremos a quest&#227;o ainda em aberto sobre qualidade de software para, por fim com esta motiva&#231;&#227;o, apresentar a ferramenta livre Mezuro para analise de c&#243;digo fonte." level="intermediate" zone="14"/>
+    <slot id="90" date="2014-05-08" hour="17" minute="00" room="2" candidate="584" area="53" title="Controle de Vers&#227;o - Mantendo seu trabalho a salvo com Git" value="0" colspan="3" color="D2FFC9" abstract="Git &#233; um Sistema de Controle de Vers&#227;o (SCM) distribu&#237;do voltado &#224; atender todo tipo de necessidade, desde pequenos a grandes projetos, de forma r&#225;pida e eficiente. A palestra tem como objetivo introduzir o Git atrav&#233;s da apresenta&#231;&#227;o de alguns de seus conceitos e comandos abordando vantagens e benef&#237;cios de sua utiliza&#231;&#227;o. Ao fim da palestra o participante ter&#225; conhecimentos para manter o seu projeto seguro e para colaborar em projetos open source utilizando reposit&#243;rios remotos como Github." level="starter" zone="14"/>
+    <slot id="69" date="2014-05-10" hour="14" minute="00" room="1" candidate="593" area="53" title="Git para quem gosta de Git" value="0" colspan="3" color="D2FFC9" abstract="O que fazer na hora do merge? &#201; melhor usar rebase? N&#227;o &#233; perigoso? Qual workflow devo seguir? E afinal, como o Git funciona e como devo us&#225;-lo da forma certa? Essa palestra responder&#225; essas e outras quest&#245;es comuns para quem est&#225; come&#231;ando ou j&#225; come&#231;ou a usar o Git mas ainda tem um p&#233; no mundo do Subversion." level="" zone="14"/>
+    <slot id="73" date="2014-05-07" hour="09" minute="00" room="2" candidate="422" area="53" title="Blue Green Deploy: Entrega continua e rollback imediato" value="0" colspan="3" color="D2FFC9" abstract="J&#225; imaginou poder fazer um deploy, testar sua nova vers&#227;o da aplica&#231;&#227;o em produ&#231;&#227;o e depois s&#243; &quot;girar uma chave&quot; para colocar essa nova vers&#227;o no ar ? E mais, j&#225; pensou se pudesse girar essa chave novamente e voltar para a vers&#227;o anterior ? Sim, &#233; poss&#237;vel... Nessa palestra voc&#234; vai conhecer a t&#233;cnica de Blue Green Deployment :)" level="starter" zone="14"/>
+    <slot id="225" date="2014-05-07" hour="17" minute="00" room="6" candidate="497" area="53" title="Workflow para proyectos web sin morir en el intento" value="0" colspan="3" color="D2FFC9" abstract="Es posible utilizar 100% free/open source para el desarrollo, desde la adquisici&#243;n de requerimientos, pasando por el dise&#241;o y la programaci&#243;n." level="starter" zone="14"/>
+    <slot id="4" date="2014-05-07" hour="12" minute="00" room="8" candidate="337" area="53" title="The GetUpCloud Story: Open Source PaaS in Action" value="0" colspan="3" color="D2FFC9" abstract="GetUpCloud is a Public PaaS provider based in Brazil that is leveraging the Red Hat's Open Source Platform-as-a-Service (PaaS) project called OpenShift Origin to deliver a world-class platform as a service right here in Porto Alegro!  In this session, we'll give an overview of what a PaaS is, discuss how GetUpCloud built their cloud using state-of-the-art Open Source technology  and how to take advantage of this new technology at your organizations." level="starter" zone="14"/>
+    <slot id="135" date="2014-05-10" hour="11" minute="00" room="3" candidate="330" area="53" title="Introdu&#231;&#227;o ao Git" value="0" colspan="3" color="D2FFC9" abstract="Ferramentas de controle de vers&#227;o s&#227;o pe&#231;as essenciais no desenvolvimento de sistemas. Ap&#243;s o CVS e o SVN, o Git foi a ferramenta que tomou grande espa&#231;o nas empresas para o papel de versionar c&#243;digo fonte.&#13;&#10;" level="starter" zone="14"/>
+    <slot id="13" date="2014-05-08" hour="13" minute="00" room="8" candidate="607" area="53" title="KDE Frameworks: Made with love for all Qt developers" value="0" colspan="3" color="D2FFC9" abstract="This year KDE will release a new product named KDE Frameworks. It is a collection of building blocks usable for any Qt application. A lot of love and effort went into transforming the old platform used mostly by Plasma workspaces and KDE Applications into something meant for a wide usage. This talk will aim at giving the audience a look at the journey to get there and what you can find in the soon to be release KDE Frameworks." level="starter" zone="14"/>
+    <slot id="2" date="2014-05-07" hour="10" minute="00" room="8" candidate="336" area="53" title="From Zero to Cloud: Revolutionize your Application LifeCycle with PaaS" value="0" colspan="3" color="D2FFC9" abstract="Platform-as-a-Service is revolutionizing 'Time-to-Value' through the Industrialization of traditional Enterprise IT.  OpenShift Origin is Red Hat's Open Source Platform-as-a-Service (PaaS) project that is changing the way applications are delivered and scaled in the cloud.  In this session, we'll give an overview of PaaS, show you how to get your apps in the cloud today and how to take advantage of this new technology at your organizations." level="" zone="14"/>
+    <slot id="288" date="2014-05-10" hour="17" minute="00" room="7" candidate="241" area="53" title="Responsivo na pr&#225;tica" value="0" colspan="3" color="D2FFC9" abstract="N&#227;o tem a menor id&#233;ia de como come&#231;ar a fazer o seus projetos de maneira responsiva?&#13;&#10;Nessa palestra vou apresentar t&#233;cnicas, ferramentas e exemplos pr&#225;ticos que ajudam no desenvolvimento de uma boa interface flex&#237;vel." level="starter" zone="14"/>
+    <slot id="5" date="2014-05-07" hour="13" minute="00" room="8" candidate="481" area="53" title="Crear un Cartridge para Openshift" value="0" colspan="3" color="D2FFC9" abstract="Openshift provee soporte para varias tecnologias de creaci&#243;n de aplicaciones como java (JEE, Spring, etc), Python, Ruby, PHP y muchos otros.&#13;&#10;&#13;&#10;La idea en esta actividad es realizar la creaci&#243;n de un cartridge para dar soporte a una tecnologia asociada a alguna de las ya existentes." level="intermediate" zone="14"/>
+    <slot id="282" date="2014-05-10" hour="11" minute="00" room="7" candidate="176" area="53" title="Interface para Humanos: facilite para as pessoas e fa&#231;a do mundo um lugar melhor" value="0" colspan="3" color="D2FFC9" abstract="Como criar e melhorar interfaces para sua m&#227;e, seu vizinho, para o respons&#225;vel pelo caf&#233; e at&#233; para programador usar?&#13;&#10;&#13;&#10;Mensagens de erro, formul&#225;rios, &#237;cones e outras coisas mais: alguns toques para voc&#234; repensar e melhorar as interfaces para que as pessoas consigam us&#225;-las com o m&#237;nimo de ajuda. &#13;&#10;&#13;&#10;Indicada a todas as pessoas que botam a m&#227;o na massa." level="intermediate" zone="14"/>
+    <slot id="248" date="2014-05-10" hour="13" minute="00" room="6" candidate="209" area="53" title="TDD com Clean Code: chega de amadorismo!" value="0" colspan="3" color="D2FFC9" abstract="Quanto tempo gastamos dando manuten&#231;&#227;o em um m&#233;todo de 100 linhas? E quando finalmente resolvemos o problema, quantos novos bugs s&#227;o gerados?&#13;&#10;Para minimizar estes problemas estamos propondo apresentar a metodologia TDD e as t&#233;cnicas do Clean Code. O objetivo &#233; escrever c&#243;digo com cobertura significativa de testes unit&#225;rios e de forma clara e objetiva, facilitando a leitura do mesmo. Acreditamos que um desenvolvedor profissional &#233; capaz de escrever c&#243;digo que qualquer pessoa pode ler." level="intermediate" zone="14"/>
+    <slot id="78" date="2014-05-07" hour="14" minute="00" room="2" candidate="585" area="65" title="import brasil: dados abertos de forma f&#225;cil" value="0" colspan="3" color="C9FFF8" abstract="Desde a cria&#231;&#227;o de Lei de Acesso &#224; Informa&#231;&#227;o (LAI[1]), v&#225;rios &#243;rg&#227;os p&#250;blicos est&#227;o liberando dados que antes n&#227;o t&#237;nhamos acesso, por&#233;m nem sempre os dados est&#227;o facilmente acess&#237;veis.&#13;&#10;Essa palestra apresenta a biblioteca Python chamada &quot;brasil&quot;, que facilita o acesso integrado a v&#225;rios tipos de dados p&#250;blicos, atrav&#233;s de uma mesma API.&#13;&#10;&#13;&#10;[1]: http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm" level="intermediate" zone="14"/>
+    <slot id="58" date="2014-05-09" hour="12" minute="00" room="1" candidate="522" area="65" title="Django: una caja de herramientas para el Desarrollador " value="0" colspan="3" color="C9FFF8" abstract="La desaparici&#243;n casi por completo de las aplicaciones de escritorio  y la generalizaci&#243;n de las aplicaciones web ha hecho que proliferen una gran cantidad de herramientas que se constituyan en andamios para la construcci&#243;n &#225;gil y eficiente de este tipo de aplicaciones, entre ellas y dentro de lenguaje de programaci&#243;n Python tenemos a Django como el framework standar. Se revisar&#225; algunos de los comandos importantes que facilitan la vida a los desarrolladores Django." level="intermediate" zone="14"/>
+    <slot id="101" date="2014-05-10" hour="10" minute="00" room="2" candidate="477" area="65" title="Quem precisa de RVM? Suporte a Ruby nativo no Debian" value="0" colspan="3" color="C9FFF8" abstract="Quando, por qu&#234; e como usar os pacotes Ruby nativos do Debian ao inv&#233;s de solu&#231;&#245;es como RVM, rbenv etc." level="starter" zone="14"/>
+    <slot id="144" date="2014-05-10" hour="17" minute="00" room="3" candidate="434" area="65" title="Programa&#231;&#227;o para n&#227;o programadores com Python e Web2py" value="0" colspan="3" color="C9FFF8" abstract="Programa&#231;&#227;o para n&#227;o programadores com Python e Web2py apresenta a linguagem de programa&#231;&#227;o Python e o framework web2py, e mostra como &#233; simples desenvolver aplica&#231;&#245;es web de forma f&#225;cil com os dois. Apresenta as vantagens de aprender a programar com Python, e como n&#227;o programadores podem tirar vantagem das facilidades da linguagem para criar seus prot&#243;tipos." level="starter" zone="14"/>
+    <slot id="454" date="2014-05-10" hour="12" minute="00" room="718" candidate="387" area="65" title="Pythonificando a Universidade" value="0" colspan="3" color="C9FFF8" abstract="Multiplataforma, de f&#225;cil aprendizagem e alta produtividade, Python torna-se cada dia mais popular. Este trabalho procura abordar as principais caracter&#237;sticas da linguagem e trazer um panorama de sua utiliza&#231;&#227;o nas universidades. A fim de demonstrar sua versatilidade ser&#227;o apresentados trabalhos desenvolvidos no curso de Ci&#234;ncia da Computa&#231;&#227;o da Universidade de Caxias do Sul, passando por implementa&#231;&#245;es de grafos, redes, inteligencia artificial, sistemas distribu&#237;dos e computa&#231;&#227;o gr&#225;fica." level="starter" zone="14"/>
+    <slot id="147" date="2014-05-07" hour="11" minute="00" room="4" candidate="315" area="65" title="Pra que serve Python? Tudo!" value="0" colspan="3" color="C9FFF8" abstract="Palestra introdut&#243;ria &#224; linguagem de programa&#231;&#227;o Python, demonstrando como ela pode ser usada em diferentes &#225;reas da computa&#231;&#227;o: exemplos da linguagem Python no desenvolvimento de Aplica&#231;&#245;es WEB simples, portais complexos, aplicativos desktop, desenvolvimento de jogos, computa&#231;&#227;o cient&#237;fica, administra&#231;&#227;o de servidores, aprendizado de programa&#231;&#227;o e  at&#233; como linguagem de frontend pra WEB. Para cada &#225;rea, veremos um exemplo sucinto, e uma discuss&#227;o de Python e das alternativas." level="starter" zone="14"/>
+    <slot id="53" date="2014-05-08" hour="16" minute="00" room="1" candidate="293" area="59" title="Sailor - um framework MVC em Lua" value="0" colspan="3" color="C9FFDC" abstract="Uma breve apresenta&#231;&#227;o da linguagem Lua, vantagens e desvantagens do uso de Lua em desenvolvimento web, o nascimento do Sailor e a maratona de aprendizado, compara&#231;&#227;o com outras ferramentas existentes na &#225;rea, est&#225;gio de desenvolvimento do Sailor hoje." level="starter" zone="14"/>
+    <slot id="250" date="2014-05-10" hour="15" minute="00" room="6" candidate="507" area="59" title="Introdu&#231;&#227;o a Programa&#231;&#227;o Julia" value="0" colspan="3" color="C9FFDC" abstract="Apresenta&#231;&#227;o da linguagem Julia que &#233; uma linguagem de programa&#231;&#227;o matem&#225;tica sob licen&#231;a MIT com sintaxe semelhante a outras linguagens matem&#225;ticas j&#225; existentes, como por exemplo: MATLAB, MATHEMATICA e R; Al&#233;m de possuir sintaxe f&#225;cil para programa&#231;&#227;o geral (estruturas do tipo lista e fun&#231;&#245;es para manipula&#231;&#227;o de strings) e ser de alto desempenho." level="starter" zone="14"/>
+    <slot id="51" date="2014-05-08" hour="14" minute="00" room="1" candidate="622" area="59" title="Assim na Terra como no Shell" value="0" colspan="3" color="C9FFDC" abstract="Apresenta&#231;&#227;o de algumas  das facilidades do Shell e de algumas de suas interfaces gr&#225;ficas" level="" zone="14"/>
+    <slot id="106" date="2014-05-10" hour="15" minute="00" room="2" candidate="68" area="59" title="balde - desenvolvendo aplica&#231;&#245;es web em C" value="0" colspan="3" color="C9FFDC" abstract="Palestra sobre o balde, microframework para desenvolvimento de aplica&#231;&#245;es web em C." level="intermediate" zone="14"/>
+    <slot id="137" date="2014-05-10" hour="13" minute="00" room="3" candidate="371" area="59" title="Criando plataformas na velocidade da luz - uma introdu&#231;&#227;o ao Meteor.js" value="0" colspan="3" color="C9FFDC" abstract="Meteor.js &#233; um framework  completamente diferente de tudo o que voc&#234; j&#225; viu. Ele foi criado para tornar poss&#237;vel uma nova classe de aplicativos, constru&#237;dos sobre o conceito de &quot;reatividade&quot;: a atualiza&#231;&#227;o de dados ocorre em tempo real, de forma transparente e quase &quot;m&#225;gica&quot;. &#13;&#10;Nessa palestra vamos apresentar o exemplo real de uma aplica&#231;&#227;o que implementa uma rede social totalmente em Javascript,  e em apenas algumas centenas de linhas de c&#243;digo. Preparado para domar o meteoro?" level="starter" zone="14"/>
+    <slot id="285" date="2014-05-10" hour="14" minute="00" room="7" candidate="280" area="59" title="PhoneGap: porque voc&#234; n&#227;o precisa fazer o seu app mobile nativo" value="0" colspan="3" color="C9FFDC" abstract="Voc&#234; acaba de ter uma &#243;tima ideia para um aplicativo mobile. Voc&#234; est&#225; empolgado para come&#231;ar a desenvolv&#234;-la e sabe que vai ser um sucesso quando ela ficar pronta. &#13;&#10;O problema &#233; que existem diversas plataformas. Elas s&#227;o bem diferentes e cada uma tem suas vantagens e desvantagens. Como escolher para qual o seu aplicativo ser&#225; feito? &#13;&#10;Com o PhoneGap, voc&#234; n&#227;o precisa escolher. Com o mesmo c&#243;digo e poucas customiza&#231;&#245;es, voc&#234; lan&#231;a o seu app para todas as principais plataformas mobile." level="starter" zone="14"/>
+    <slot id="100" date="2014-05-10" hour="09" minute="00" room="2" candidate="173" area="59" title="HTML5 na pr&#225;tica" value="0" colspan="3" color="C9FFDC" abstract="Breve descri&#231;&#227;o e demonstra&#231;&#227;o das vantagens e novas funcionalidades do HTML 5, incluindo Forms, Canvas e CSS 3. Ser&#225; uma palestra b&#225;sica explicando o que &#233; o HTML 5, qual a diferen&#231;a e vantagens do seu uso em rela&#231;&#227;o aos outros padr&#245;es e uma breve demonstra&#231;&#227;o das novas funcionalidades." level="starter" zone="14"/>
+    <slot id="83" date="2014-05-08" hour="10" minute="00" room="2" candidate="157" area="59" title="GIMP: O projeto de software! O processamento de imagens nas pr&#243;ximas d&#233;cadas." value="0" colspan="3" color="C9FFDC" abstract="O GIMP se popularizou por ser um software livre completo para tratamento de imagens digitais e fotos. Apresenta-se a estrutura interna e roadmap do projeto - imagens com 4 canais de 32bit e processamento em grafos: os arquivos de c&#243;digo C usados no projeto e as tecnologias a que o programa deu origem: a GTK+, a biblioteca de processamento de imagens GEGL, etc. Como usar a infra-estrutura do GIMP em seus pr&#243;prios projetos de tratamento de imagem." level="intermediate" zone="14"/>
+    <slot id="194" date="2014-05-08" hour="13" minute="00" room="5" candidate="217" area="59" title="Node.js - Javascript al&#233;m do navegador" value="0" colspan="3" color="C9FFDC" abstract="Javascript &#233; uma das linguagens mais mal compreendidas, e agora que est&#225; cada vez mais popular  utiliz&#225;-la fora do navegador gra&#231;as ao node.js, surgem in&#250;meras novas possibilidades.&#13;&#10;&#13;&#10;Seja para a cria&#231;&#227;o de shell scripts ou para aplica&#231;&#245;es web complexas, o node.js apresenta uma plataforma aberta e multi-plataforma para o desenvolvedor, fazendo o melhor uso da linguagem javascript e seu poderoso sistema de eventos, sem as incompatibilidades e complexidade trazidas pelos navegadores." level="intermediate" zone="14"/>
+    <slot id="91" date="2014-05-09" hour="09" minute="00" room="2" candidate="212" area="62" title="PHP na Tela Escura: Aplica&#231;&#245;es Poderosas em Linha de Comando" value="0" colspan="3" color="C9FFEA" abstract="A linguagem PHP &#233; conhecida por ser utilizada no desenvolvimento de aplica&#231;&#245;es web. Essa palestra visa apresentar o outro lado do desenvolvimento. Poucos sabem que &#233; poss&#237;vel utilizar a linguagem para desenvolver tarefas agendadas, ferramentas multi-thread e diversas outras aplica&#231;&#245;es que rodam em terminal. Nessa palestra exploraremos o mundo do PHP-CLI." level="intermediate" zone="14"/>
+    <slot id="223" date="2014-05-07" hour="15" minute="00" room="6" candidate="193" area="62" title="Assinatura digital de documentos eletr&#244;nicos" value="0" colspan="3" color="C9FFEA" abstract="Aprendemos a confiar nos documentos assinados em papel de forma manuscrita. Com os avan&#231;os da tecnologia da informa&#231;&#227;o e comunica&#231;&#227;o e do software livre, especialmente pela necessidade de estabelecer transa&#231;&#245;es mais seguras via internet, surgiram solu&#231;&#245;es de tecnologia capaz de garantir autenticidade, confidencialidade e integridade &#224;s informa&#231;&#245;es que circulam no ambiente web. Por esses motivos se faz necess&#225;rio o desenvolvimento de aplica&#231;&#245;es para assinar documentos de forma digital." level="intermediate" zone="14"/>
+    <slot id="180" date="2014-05-10" hour="17" minute="00" room="4" candidate="20" area="62" title="Real-time APIs com Web Sockets em PHP" value="0" colspan="3" color="C9FFEA" abstract="Implementando APIs para aplica&#231;&#245;es de tempo real (Mobile ou Web) usando Web Sockets em PHP" level="intermediate" zone="14"/>
+    <slot id="201" date="2014-05-09" hour="11" minute="00" room="5" candidate="308" area="56" title="Capturando o agora com APIs de Streaming do Twitter" value="0" colspan="3" color="C9FFCE" abstract="500 milh&#245;es de tweets s&#227;o criados todos os dias pelos usu&#225;rios do Twitter e as opini&#245;es, afirma&#231;&#245;es, reclama&#231;&#245;es s&#227;o sempre expressadas publicamente e em tempo real. N&#227;o seria interessante investigar padr&#245;es de opini&#245;es ou nos relacionamentos entre os usu&#225;rios? A plataforma do Twitter possui um conjunto de APIs que permite que qualquer desenvolvedor tenha acesso para analisar o grande volume de informa&#231;&#227;o gerado todos os dias. " level="starter" zone="14"/>
+    <slot id="86" date="2014-05-08" hour="13" minute="00" room="2" candidate="34" area="74" title="Cirurgia Pl&#225;stica e Maquiagem Digital com o GIMP" value="0" colspan="3" color="C9DCFF" abstract="Veja atrav&#233;s da manipula&#231;&#227;o de fotos feitas na pr&#243;pria palestra como &#233; poss&#237;vel usar o GIMP para melhorar e manipular uma fotografia. Uma pessoa com quatro bra&#231;os, lipo aspira&#231;&#227;o, rejuvenescimento, restaura&#231;&#227;o de fotos antigas, adequa&#231;&#227;o de luminosidade e cores, remo&#231;&#227;o de tra&#231;os indesejados, clareamento dental, tudo isso &#233; poss&#237;vel e relativamente simples no GIMP e s&#227;o &#243;timos exemplos para aprender a utiliz&#225;-lo praticando." level="starter" zone="15"/>
+    <slot id="75" date="2014-05-07" hour="11" minute="00" room="2" candidate="18" area="74" title="Aprendizagem inovadora em 3D: Desenvolvimento de Laborat&#243;rios imersivos" value="0" colspan="3" color="C9DCFF" abstract="Ao longo da &#250;ltima d&#233;cada o interesse em mundos virtuais aumentou consideravelmente, trazendo ferramentas para melhorar o processo de ensino &#8211; aprendizagem, sendo um potencial promissor para estimular o conhecimento. Na presente proposta, apresentaremos diferentes mundos virtuais na educa&#231;&#227;o. Para este estudo, o opensimulator foi selecionado por ser um ambiente virtual mais comumente abordado pela comunidade acad&#234;mica. Informa&#231;&#245;es e abordagens de ensino atuais tendem a se concentrar em teorias ." level="intermediate" zone="15"/>
+    <slot id="193" date="2014-05-08" hour="12" minute="00" room="5" candidate="521" area="74" title="Programando Jogos Multiplataforma - Para Leigos" value="0" colspan="3" color="C9DCFF" abstract="Desenvolver jogos e se divertir com isso. Sem gastar um centavo com software propriet&#225;rio. Usar o mesmo c&#243;digo para desenvolver para desktop, para Linux, MacOs, Windows e mobile, no Android, sem rodeios e sem gambiarras. Quer saber como???" level="starter" zone="15"/>
+    <slot id="168" date="2014-05-09" hour="14" minute="00" room="4" candidate="628" area="74" title="Desenvolvimento e an&#225;lise de performance de jogos Android com Cocos2d-HTML5" value="0" colspan="3" color="C9DCFF" abstract="Vamos explorar um processo de desenvolvimento multi-plataforma c&#243;digo aberto com um motor gr&#225;fico renomado e est&#225;vel e clarificar a utiliza&#231;&#227;o do Javascript Binding, apresentando um ambiente eficiente de desenvolvimento e depura&#231;&#227;o de jogos baseados em HTML5 com o Cocos2d que resultou no jogo Last Survivor. Vamos mostrar como melhorar o desempenho do jogo usando 3 configura&#231;&#245;es de compila&#231;&#227;o e utilizar o Intel GPA como ferramenta de an&#225;lise de desempenho em ambiente m&#243;vel." level="starter" zone="15"/>
+    <slot id="189" date="2014-05-07" hour="17" minute="00" room="5" candidate="435" area="74" title="Cycles Para TODOS!" value="0" colspan="3" color="C9DCFF" abstract="Ap&#243;s o sucesso da serie &quot;Blender para Todos!&quot; Muitas pessoas passaram a se perguntar o que elas podem fazer fora da sua zona de conforto. Ent&#227;o esta atividade visa mostrar o que os mesmos leigos podem fazer utilizando o Cycles, o Poderoso renderizador super realista do Blender sem complica&#231;&#227;o!" level="starter" zone="15"/>
+    <slot id="245" date="2014-05-10" hour="10" minute="00" room="6" candidate="518" area="74" title="MusicTable, fazendo m&#250;sica com imagens." value="0" colspan="3" color="C9DCFF" abstract="Hoje o mundo da m&#250;sica est&#225; cada vez mais utilizando tecnologias para oferecer um diferencial no momento da apresenta&#231;&#227;o. A intera&#231;&#227;o com o p&#250;blico vem se tornando o objetivo da grande parte de DJ's pelo mundo. ReacTIVision &#233; um open-source respons&#225;vel por oferecer uma vasta op&#231;&#227;o de trabalhos, como a confec&#231;&#227;o de uma Music Table (ReacTable), que ser&#225; apresentada nesta palestra." level="starter" zone="15"/>
+    <slot id="230" date="2014-05-08" hour="13" minute="00" room="6" candidate="380" area="74" title="Entendendo Multim&#237;dia com o GStreamer" value="0" colspan="3" color="C9DCFF" abstract="Voc&#234; come&#231;a a assistir um video online e ele se adapta a tela do seu dispositivo, conex&#227;o e poder de processamento. Ouvimos falar em streaming, buffering, lat&#234;ncia, codec, bitrate e metadados, mas o que &#233; tudo isso e como se forma o nosso mundo multim&#237;dia? Quais os conceitos e desafios envolvidos na cria&#231;&#227;o de aplica&#231;&#245;es multim&#237;dia? Que tal conhec&#234;-los e tra&#231;ar um paralelo com o GStreamer, que &#233; considerado o framework padr&#227;o para desenvolver aplica&#231;&#245;es multim&#237;dia no Linux?" level="intermediate" zone="15"/>
+    <slot id="165" date="2014-05-09" hour="11" minute="00" room="4" candidate="230" area="74" title="Streaming de V&#237;deo ao Vivo na globo.com" value="0" colspan="3" color="C9DCFF" abstract="A globo.com faz diversas transmiss&#245;es de v&#237;deos ao vivo, de partidas de futebol, notici&#225;rios a programas cont&#237;nuos como o BBB. Chegamos a transmitir mais de 100 sinais simult&#226;neos e tivemos um pico de mais de 400 mil usu&#225;rios concorrentes na Copa das Confedera&#231;&#245;es de 2013. O objetivo desta palestra &#233; apresentar a arquitetura que torna a entrega do conte&#250;do e o monitoramento da plataforma, baseada largamente em software livre." level="intermediate" zone="15"/>
+    <slot id="65" date="2014-05-10" hour="10" minute="00" room="1" candidate="272" area="74" title="FOSS Multimedia - Long story short" value="0" colspan="3" color="C9DCFF" abstract="Multimedia is a complex subject. Regardless of how familiar you are with its use case scenarios it's easy to get lost around the intricate interaction between the multiple layers that enable them. This talk will give the attendees an overview from the barricades on how everything fits together. And, with tales of defeat and success, will let them understand the hows and whys behind what we, as users and developers, currently can and cant do. " level="starter" zone="15"/>
+    <slot id="258" date="2014-05-07" hour="14" minute="00" room="7" candidate="203" area="74" title="BemTV: Modelo h&#237;brido para transmiss&#227;o de v&#237;deos ao vivo utilizando peer-to-peer" value="0" colspan="3" color="C9DCFF" abstract="Metade do tr&#225;fego da internet nos Estados Unidos pertencem a servi&#231;os de v&#237;deo como YouTube e Netflix. No Brasil, o consumo tamb&#233;m vem crescendo exponencialmente. &#13;&#10;&#13;&#10;Atender a este crescimento &#233; um desafio para os datacenters e operadoras no pa&#237;s. Escalar esta distribui&#231;&#227;o para centenas de milhares de pessoas ainda &#233; um problema em aberto.&#13;&#10;&#13;&#10;Se voc&#234; n&#227;o aguenta mais ver seu player travando, venha entender o que acontece e o que estamos fazendo para resolver este problema.&#13;&#10;&#13;&#10;http://bem.tv" level="intermediate" zone="15"/>
+    <slot id="187" date="2014-05-07" hour="15" minute="00" room="5" candidate="35" area="74" title="Fotografia Panor&#226;mica Imersiva 360x180&#186; com Software Livre" value="0" colspan="3" color="C9DCFF" abstract="A fotografia panor&#226;mica imersiva &#233; um produto que j&#225; &#233; feito por profissionais da fotografia h&#225; mais de uma d&#233;cada. Mesmo entre fot&#243;grafos ainda &#233; um tema relativamente desconhecido, sendo hoje muito difundido pelo Google Street View. Veja como &#233; vi&#225;vel fazer esse tipo de imagem usando apenas software livre e chegando a resultados profissionais. Durante a palestra &#233; feita e montada uma foto no local." level="intermediate" zone="15"/>
+    <slot id="185" date="2014-05-07" hour="13" minute="00" room="5" candidate="17" area="74" title="Realidade Aumentada no Android: Um guia para criar sua primeira aplica&#231;&#227;o" value="0" colspan="3" color="C9DCFF" abstract="Abordagem das caracter&#237;sticas sobre Realidade Aumentada e sobre o desenvolvimento de aplica&#231;&#245;es gr&#225;ficas para o Android, descrevendo suas caracter&#237;sticas e boas pr&#225;ticas.&#13;&#10;Exemplifica&#231;&#227;o do uso das ferramentas de desenvolvimento atrav&#233;s de exemplos." level="starter" zone="15"/>
+    <slot id="110" date="2014-05-07" hour="10" minute="00" room="3" candidate="601" area="71" title="GoboLinux 015" value="0" colspan="3" color="C9EAFF" abstract="Essa palestra apresenta o GoboLinux, uma distribui&#231;&#227;o nascida no Brasil e com uma proposta de diret&#243;rios alternativa. Ap&#243;s um hiato de cerca de 6 anos, o projeto retornou suas atividades e lan&#231;a a vers&#227;o 015. Al&#233;m da distribui&#231;&#227;o em si, ser&#227;o discutidas algumas li&#231;&#245;es aprendidas ao longo dos anos e como isso refletiu no design do projeto." level="" zone="15"/>
+    <slot id="52" date="2014-05-08" hour="15" minute="00" room="1" candidate="475" area="71" title="Como (e por qu&#234;) colaborar com o Debian" value="0" colspan="3" color="C9EAFF" abstract="O Debian &#233; um dois maiores e mais importantes projetos de software livre, e oference muitas oportunidades de colabora&#231;&#227;o. O objetivo desta palestra &#233; mostrar um pouco de como o Debian funciona, e informar pessoas interessadas em contribuir com o Debian sobre como come&#231;ar." level="starter" zone="15"/>
+    <slot id="198" date="2014-05-08" hour="17" minute="00" room="5" candidate="177" area="71" title="Distribui&#231;&#245;es GNU/Linux - entenda como funciona" value="0" colspan="3" color="C9EAFF" abstract="Atualmente existem v&#225;rias distribui&#231;&#245;es GNU/Linux, umas s&#227;o mantidas por comunidades, universidades, governos, e tamb&#233;m existem as distribui&#231;&#245;es mantidas por empresas. Entenda como esse universo das distribui&#231;&#245;es funciona e conhe&#231;a algumas delas assistindo a este painel com representantes das comunidades." level="starter" zone="15"/>
+    <slot id="123" date="2014-05-08" hour="15" minute="00" room="3" candidate="583" area="77" title="Mesa: Empoderamento de Mulheres no Software Livre" value="0" colspan="3" color="C9CEFF" abstract="Considerando importante a participa&#231;&#227;o as mulheres em toda cadeia de planejamento, produ&#231;&#227;o e consumo do SL, principalmente, na posi&#231;&#227;o de tomada de decis&#227;o, a ideia da mesa &#233; relacionar as no&#231;&#245;es de equidade com os princ&#237;pios do software livre, dando voz &#224;s colaboradoras de alguns grupos de mulheres e projetos de SL." level="starter" zone="16"/>
+    <slot id="43" date="2014-05-07" hour="15" minute="00" room="1" candidate="75" area="77" title="Como criar seu pr&#243;prio Hackerspace em 42 passos simples" value="0" colspan="3" color="C9CEFF" abstract="Descubra tudo o que Eles n&#227;o querem que voc&#234; saiba para criar um hackerspace aut&#234;ntico e indepedente, ajude a revolucionar sua cidade, regi&#227;o e o mundo com milhares de espa&#231;os originais: diversidade gera criatividade! Depois de mais de um ano acumulando xp na jornada &#233;pica de montar um hackerspace, n&#243;s do Matehackers queremos compartilhar nossas conquistas, derrotas e planos para a domina&#231;&#227;o mundial." level="starter" zone="16"/>
+    <slot id="7" date="2014-05-07" hour="15" minute="00" room="8" candidate="142" area="77" title="Community 2.0: Beyond Using Software Livre" value="0" colspan="3" color="C9CEFF" abstract="In this talk, Leslie Hawthorn will talk about the importance of not&#13;&#10;just using software livre, but contributing back to the software livre&#13;&#10;community in a variety of ways: translation and localization, writing&#13;&#10;software, hosting teaching sessions for people not using software&#13;&#10;livre, and more. Drawing on years of experience as a community manager&#13;&#10;at Elasticsearch, Red Hat and Google's Open Source Department, she&#13;&#10;will share real-world stories of how you can contribute to software&#13;&#10;livre locally." level="starter" zone="16"/>
+    <slot id="20" date="2014-05-09" hour="12" minute="00" room="8" candidate="602" area="77" title="O dia a dia do centro de compet&#234;ncia em software livre" value="0" colspan="3" color="C9CEFF" abstract="Nesta palestra veremos primeiro de forma hist&#243;rica a origem do CCSL do IME-USP. Em seguida apresentarei os projetos que estamos promovendo. Tamb&#233;m contarei como o centro &#233; gerenciado no seu dia a dia. Apresentarei tamb&#233;m algumas das atividades mais recentes do centro. Para terminar darei dicas de como criar centros locais para fomentar o software livre." level="" zone="16"/>
+    <slot id="96" date="2014-05-09" hour="14" minute="00" room="2" candidate="541" area="77" title="A hist&#243;ria do GNU: 30 anos de cria&#231;&#227;o do software livre" value="0" colspan="3" color="C9CEFF" abstract="Essa palestra pretende falar sobre a hist&#243;ria da cria&#231;&#227;o do Projeto GNU e, consequentemente, da cria&#231;&#227;o da ideia de software livre. Seu objetivo &#233; apresentar os principais fatos que marcaram os 30 anos desse projeto. " level="starter" zone="16"/>
+    <slot id="175" date="2014-05-10" hour="12" minute="00" room="4" candidate="485" area="77" title="Mapas de Acessibilidade ReAbilitArte" value="0" colspan="3" color="C9CEFF" abstract="O projeto Mapas de Acessibilidade prop&#245;e um sistema em forma de aplicativo para dispositivos m&#243;veis que oriente e facilite a mobilidade de pessoas com defici&#234;ncia e mobilidade reduzida na Universidade Federal do Rio de Janeiro(UFRJ) em forma de projeto piloto.  Futuramente este sistema ser&#225; disponibilizado de forma que a mesma tecnologia possa ser implementada em maior escala para informar a acessibilidade na cidade do Rio de Janeiro e outras localidades utilizando software livre" level="intermediate" zone="16"/>
+    <slot id="11" date="2014-05-08" hour="11" minute="00" room="8" candidate="531" area="77" title="Technology that controls, technology that liberates \ A call to action" value="0" colspan="3" color="C9CEFF" abstract="tba" level="starter" zone="16"/>
+    <slot id="421" date="2014-05-08" hour="10" minute="00" room="1" candidate="258" area="77" title="Morreu o Movimento Software Livre no Brasil?" value="0" colspan="6" color="C9CEFF" abstract="Tecnologias privativas t&#234;m seduzido at&#233; ferrenhos antigos defensores do Software Livre, e pouca consci&#234;ncia h&#225; na grande maioria dos consumidores para combater as pr&#225;ticas privativas de liberdade dos usu&#225;rios.  Erramos o alvo?  Falhamos na forma&#231;&#227;o da pr&#243;xima gera&#231;&#227;o?  Fomos atropelados?  Continuamos firmes e fortes no mesmo nicho em que come&#231;amos?  Que fazer para um futuro com mais liberdade e consci&#234;ncia?" level="advanced" zone="16"/>
+    <slot id="85" date="2014-05-08" hour="12" minute="00" room="2" candidate="317" area="77" title="M&#250;sica Livre - Pessoas usando software livre para libertar a m&#250;sica!" value="0" colspan="3" color="C9CEFF" abstract="Voc&#234; canta? Toca guitarra, flauta? J&#225; pensou em produzir suas pr&#243;prias m&#250;sicas? Ent&#227;o voc&#234; deve saber que o processo envolve diversos e equipamentos e softwares.  Nesta palestra vou apresentar o ecossistema de softwares livres que tornam acess&#237;vel a produ&#231;&#227;o musical de alta qualidade &#224; comunidade de usu&#225;rios Linux. Criar &#233; uma atividade cooperativa e estes softwares promovem este esp&#237;rito ao serem livres para distribui&#231;&#227;o, modifica&#231;&#227;o e uso por m&#250;sicos, programadores e quem mais quiser." level="intermediate" zone="16"/>
+    <slot id="167" date="2014-05-09" hour="13" minute="00" room="4" candidate="301" area="77" title="El Grupo de Trabajo Software Libre del Foro de la Agenda Digital Argentina" value="0" colspan="3" color="C9CEFF" abstract="El presente trabajo procura dar cuenta de la experiencia del Grupo de Trabajo Software Libre del Foro de la Agenda Digital Argentina como un caso de construcci&#243;n de comunidades de pr&#225;ctica y de incorporaci&#243;n de metodolog&#237;as de trabajo colaborativas, participativas y horizontales al interior del Estado Argentino." level="intermediate" zone="16"/>
+    <slot id="246" date="2014-05-10" hour="11" minute="00" room="6" candidate="632" area="77" title="A Internet e o Colonialismo Digital" value="0" colspan="3" color="C9CEFF" abstract="A explos&#227;o de uso da Internet nos &#250;ltimos 15 anos trouxe in&#250;meros benef&#237;cios para a popula&#231;&#227;o do Sul Global. Um exemplo foi o acesso mais f&#225;cil, r&#225;pido e barato &#224; comunica&#231;&#227;o e um aumento consider&#225;vel do acesso &#224; informa&#231;&#227;o. O outro lado da moeda est&#225; na crescente hegemonia econ&#244;mica, cultural e social dos pa&#237;ses do Norte Global sobre o Sul Global. Descubra e entenda mais sobre as raz&#245;es que nos levam a perpetua&#231;&#227;o do colonialismo atrav&#233;s da tecnologia. " level="" zone="16"/>
+    <slot id="238" date="2014-05-09" hour="12" minute="00" room="6" candidate="186" area="77" title="Gest&#227;o colaborativa de moedas sociais digitais utilizando a plataforma CORAIS" value="0" colspan="3" color="C9CEFF" abstract="Conceitos sobre moedas sociais e bancos comunit&#225;rios; dados e funcionalidades importantes em um sistema financeiro; Em economia, seguran&#231;a &#233; sinonimo de transpar&#234;ncia; Bancos de Tempo e as Produtoras Culturais Colaborativas; A moeda Concha da Produtora Colabor@tiva.PE em Recife/PE; A moeda Tempo da Universidade Livre de Teatro Vila Velha em Salvador/BA; Como gerir coletivamente uma moeda social atrav&#233;s da plataforma de projetos colaborativos CORAIS.ORG?  " level="starter" zone="16"/>
+    <slot id="150" date="2014-05-07" hour="14" minute="00" room="4" candidate="619" area="77" title="Uruguai j&#225; tem Lei de uso do Software Livre na Administra&#231;&#227;o P&#250;blica! " value="0" colspan="3" color="C9CEFF" abstract="Em dezembro de 2013 terminou o processo de aprova&#231;&#227;o da Lei de Software Livre e Formatos Abertos na Administra&#231;&#227;o P&#250;blica ap&#243;s muitos anos de luta pela comunidade uruguaia de Software Livre. &#13;&#10;&#13;&#10;Nesta palestra apresentar&#233; os detalhes do processo para a aprova&#231;&#227;o da lei, os problemas que tivemos que enfrentar, a maneira em que os resolvemos, as cr&#237;ticas que temos, a auto-cr&#237;tica que fazemos e as expectativas que temos olhando para frente." level="" zone="16"/>
+    <slot id="283" date="2014-05-10" hour="12" minute="00" room="7" candidate="119" area="77" title="Criar software livre n&#227;o &#233; um bicho de 7 cabe&#231;as: GoboLinux, htop, LuaRocks" value="0" colspan="3" color="C9CEFF" abstract="Essa palestra conta o &quot;making of&quot; de uma s&#233;rie de projetos de software livre nos &#250;ltimos 15 anos: GoboLinux, distro alternativa criada ainda nos tempos de gradua&#231;&#227;o; htop, o visualizador de processos interativo para Linux; e LuaRocks, o gerenciador de pacotes para a linguagem Lua. A ideia &#233; incentivar as pessoas a seguirem suas ideias, mostrar diferentes modelos de desenvolvimento e como o software livre pode abrir portas &#8212; uma hist&#243;ria que come&#231;ou como estudante assistindo ao primeiro FISL." level="starter" zone="16"/>
+    <slot id="202" date="2014-05-09" hour="12" minute="00" room="5" candidate="618" area="77" title="INTERNET - PRIORIDADE DOS GOVERNOS NACIONAIS" value="0" colspan="3" color="C9CEFF" abstract="Avalia&#231;&#227;o do estado das rela&#231;&#245;es humanas, culturais, sociais e pol&#237;ticas mediadas pela Internet. Cr&#237;tica da hegemonia americana na Internet. Avalia&#231;&#227;o das diferentes pol&#237;ticas dos pa&#237;ses para enfrentar e at&#233; &quot;esbo&#231;ar&quot; uma contra-hegemonia. Apresenta&#231;&#227;o do ac&#250;mulo brasileiro na constru&#231;&#227;o de um GOVERNO DEMOCR&#193;TICO DA INTERNET, mostrando que esse governo democr&#225;tico ser&#225; tanto mais eficaz em cada pa&#237;s, se todos os pa&#237;ses optarem pela estrat&#233;gia e construirem esse respectivo governo democr&#225;tico." level="intermediate" zone="16"/>
+    <slot id="61" date="2014-05-09" hour="15" minute="00" room="1" candidate="10" area="77" title="1984+30: GNU contra a e-Novil&#237;ngua" value="0" colspan="3" color="C9CEFF" abstract="No 1984 de Orwell, Novil&#237;ngua era reduzida para impedir a express&#227;o de ideias subversivas.  Computadores de prop&#243;sito geral, program&#225;veis por usu&#225;rios, t&#234;m perdido espa&#231;o para outros em que usu&#225;rios n&#227;o podem expressar as computa&#231;&#245;es se desejam, se n&#227;o estiverem dispon&#237;veis em appstores exclusivas.  Sem poder programar, usu&#225;rios perdem a liberdade de melhorar o software, e at&#233; a no&#231;&#227;o de que poderiam!  Sem notar o valor das liberdades de software essenciais, n&#227;o as exigem!  &#201; Dupli-plus-inGNU!" level="starter" zone="16"/>
+    <slot id="56" date="2014-05-09" hour="10" minute="00" room="1" candidate="483" area="77" title="Ci&#234;ncia e Software Livre, ou L&#225; e de Volta Outra Vez" value="0" colspan="3" color="C9CEFF" abstract="Venha refletir e conhecer a amplitude de tend&#234;ncias que est&#227;o constituindo o movimento pela Ci&#234;ncia Aberta, assim como o conjunto de pr&#225;ticas e ferramentas utilizadas, fortemente influenciadas pelo Software Livre mas tamb&#233;m presentes na origem deste." level="starter" zone="16"/>
+    <slot id="157" date="2014-05-08" hour="12" minute="00" room="4" candidate="561" area="80" title="Programa Onda Digital: difundindo o Software Livre" value="0" colspan="3" color="D2C9FF" abstract="A palestra visa apresentar e refletir sobre o impacto das estrat&#233;gias utilizadas, desde 2004, pelo programa permanente de extens&#227;o Onda Digital  da UFBA para difundir a filosofia do Software Livre na comunidade acad&#234;mica e comunidades em situa&#231;&#227;o de vulnerabilidade socioecon&#244;mica da regi&#227;o metropolitana de Salvador." level="starter" zone="16"/>
+    <slot id="128" date="2014-05-09" hour="12" minute="00" room="3" candidate="345" area="80" title="Painel: D&#225; pra ganhar dinheiro com Software Livre? SIM! (edi&#231;&#227;o: mulheres)" value="0" colspan="3" color="D2C9FF" abstract="Fala-se muito em software livre, temos este evento sobre sl, vemos grandes empresas ganhando dinheiro com sl, mas e como um simples mortal poder&#225; ganhar dinheiro? consegue sustentar-se bem? empreender? enriquecer? Esta &#233; a terceira edi&#231;&#227;o desta possibilidade de palestra/ debate onde apresentam-se profissionais de diferentes &#225;reas respondendo &#224; estas e outras perguntas da plat&#233;ia, sem fazer propaganda de suas empresas, apenas querendo contribuir ao sucesso de todos!" level="starter" zone="16"/>
+    <slot id="166" date="2014-05-09" hour="12" minute="00" room="4" candidate="197" area="80" title="Parceria SEEDUC/PRODERJ: o SCG na gest&#227;o de processos administrativos." value="0" colspan="3" color="D2C9FF" abstract="Como gerenciar processos administrativos na Educa&#231;&#227;o P&#250;blica do RJ? A parceria PRODERJ/SEEDUC na cria&#231;&#227;o do SCG - Sistema de Controle de Gabinete, hospedado no PRODERJ nos permite criar, classificar e acompanhar as demandas de qualquer lugar, a qualquer hora, solucionando problemas administrtivos com menos burocracia e maior rapidez." level="starter" zone="16"/>
+    <slot id="331" date="2014-05-07" hour="15" minute="00" room="714" candidate="600" area="80" title="Pitch Day - A arte de Engajar, Entreter e Encantar." value="0" colspan="9" color="D2C9FF" abstract="Os organizadores do FISL e InvestForum e a Outsource Brazil tem o prazer de convid&#225;-los para o Pitch Day, um workshop feito para quem deseja dominar a arte do Pitch.&#13;&#10;&#13;&#10;&#13;&#10;" level="starter" zone="16"/>
+    <slot id="120" date="2014-05-08" hour="12" minute="00" room="3" candidate="603" area="80" title="O que est&#225; escondido atr&#225;s do Business Model e Lean Canvas" value="0" colspan="3" color="D2C9FF" abstract="O Business Model Canvas e o Lean Canvas s&#227;o ferramentas muito disseminadas e utilizadas para pensar no modelo de neg&#243;cio de um novo produto. No entanto, a simplicidade destes modelos pode limitar o aprendizado de alguns aspectos e atividades importantes para uma startup. Nessa palestra, vamos ir al&#233;m deles e discutir novas alternativas que podem ser excelentes para o ensino de empreendorismo e, principalmente, para a pr&#225;tica." level="" zone="16"/>
+    <slot id="203" date="2014-05-09" hour="13" minute="00" room="5" candidate="556" area="80" title="rapidFTR - open source para refugiados e situa&#231;&#245;es de emerg&#234;ncia" value="0" colspan="3" color="D2C9FF" abstract="O rapidFTR (rapid Family Tracing and Reunification) &#233; um software open source (https://github.com/rapidftr) com desenvolvimento capitaneado pela UNICEF (United Nations Children's Fund) para reunifica&#231;&#227;o de crian&#231;as com suas fam&#237;lias. O software j&#225; foi implantando com sucesso em 2 campos de refugiados (Uganda e Sud&#227;o) e tamb&#233;m ap&#243;s o tuf&#227;o nas Filipinas. O objetivo dessa palestra &#233; mostrar como softwares de c&#243;digo aberto podem ser utilizados em desastres e situa&#231;&#245;es de emerg&#234;ncia." level="starter" zone="16"/>
+    <slot id="179" date="2014-05-10" hour="16" minute="00" room="4" candidate="340" area="80" title="Raul Hacker Club, o in&#237;cio de um Hacker Space" value="0" colspan="3" color="D2C9FF" abstract="Nesta apresenta&#231;&#227;o ser&#225; abordada os tr&#226;mites e procedimentos tomados para a cria&#231;&#227;o de um Hacker Space. Ser&#227;o apresentados os problemas, as iniciativas e as coisas boas de trabalhar em coletividade." level="starter" zone="16"/>
+    <slot id="127" date="2014-05-09" hour="11" minute="00" room="3" candidate="606" area="80" title="As ondas tecnol&#243;gicas e o Open Source" value="0" colspan="3" color="D2C9FF" abstract="Estamos diante de ondas tecnol&#243;gicas que est&#227;o afetando as empresas e a sociedade,. Estas ondas s&#227;o cloud, mobilidade, Big data/analytics, social e Internet das Coisas. Como o modelo Open Source se insere neste contexto? Perde ou ganha espa&#231;o?" level="" zone="16"/>
+    <slot id="153" date="2014-05-07" hour="17" minute="00" room="4" candidate="304" area="80" title="SAdE: Sistema Administrativa Escolar - um sistema livre" value="0" colspan="3" color="D2C9FF" abstract="Apresentamos o processo de desenvolvimento do SAdE, um sistema livre para administra&#231;ao, escolar, incluindo: gerenciamento de alunos, notas e frequencia. Diarios impressos e diario eletronico. Acompanhamento do aluno.&#13;&#10;O sistema foi desenvolvido com ferramentas livres: PHP, MySql e LaTeX para impressos." level="starter" zone="16"/>
+    <slot id="158" date="2014-05-08" hour="13" minute="00" room="4" candidate="267" area="80" title="Openbrew: Cerveja artesanal livre" value="0" colspan="3" color="D2C9FF" abstract="J&#225; imaginou fazer cerveja em casa? Isso &#233; mais f&#225;cil que voc&#234; imagina, com a ajuda de muita gente legal, criatividade e de comunidades super ativas, qualquer um pode conseguir. Come&#231;amos uma cerveja aberta chamada MotoContinuo h&#225; 1 ano atr&#225;s e hoje j&#225; contamos com diversos colaboradores e mais de 40l de cerveja por m&#234;s. Vamos fazer cerveja colaborativamente?" level="starter" zone="16"/>
+    <slot id="241" date="2014-05-09" hour="15" minute="00" room="6" candidate="204" area="80" title="Voto Como Vamos: Como Melhoramos a Campanha Pol&#237;tica de Porto Alegre em 2012" value="0" colspan="3" color="D2C9FF" abstract="Visando o engajamento de cidad&#227;os de POA com a pol&#237;tica, surgiu o Voto Como Vamos. Atrav&#233;s de crowdfunding e de uma parceria com a ThoughtWorks, foi criada uma plataforma onde todos os candidatos teriam o mesmo espa&#231;o e voz. &#13;&#10;Desenvolvido utilizando RoR, postgreSQL, Websolr, entre outros, o app tem c&#243;digo aberto, visando a expans&#227;o para outras cidades (j&#225; replicado em Caxias do Sul). &#13;&#10;Falaremos sobre o processo de crowdfunding, os resultados, os desafios t&#233;cnicos e de neg&#243;cio que enfrentamos." level="starter" zone="16"/>
+    <slot id="160" date="2014-05-08" hour="15" minute="00" room="4" candidate="43" area="80" title="Adeus BI, Seja Bem Vindo A Era do Analytics!" value="0" colspan="3" color="D2C9FF" abstract="Com o passar do tempo, o avan&#231;o das redes sociais e a montanha de informa&#231;&#245;es provenientes de diversas fontes fizeram com que os dados localizados nos servidores das empresas j&#225; n&#227;o fossem mais suficientes para elaborar an&#225;lises que, de fato, proporcionassem diferenciais competitivos. Nesta palestra ser&#225; abordado a evolu&#231;&#227;o do termo Business Intelligence at&#233; o conceito de Business Analytics e como as tradicionais solu&#231;&#245;es de BI Open Source tem acompanhando essa evolu&#231;&#227;o conceitual." level="starter" zone="16"/>
+    <slot id="42" date="2014-05-07" hour="14" minute="00" room="1" candidate="594" area="83" title="Professor hacker - desafio para a doc&#234;ncia" value="0" colspan="3" color="E0C9FF" abstract="Com base nos princ&#237;pios da chamada &#233;tica dos hacker (Himanen, 2001) esta confer&#234;ncia se prop&#245;e a provocar os presentes, especialmente se professores forem, a atuarem no cotidiano das escolas como verdadeiros hackers, no sentido de trabalharem de forma colaborativa na busca da produ&#231;&#227;o intensiva de conhecimentos em lugar de pr&#225;ticas que apenas estimulam o consumo de conte&#250;dos e informa&#231;&#245;es. Vamos pensar a escola como um espa&#231;o hacker de produ&#231;&#227;o." level="" zone="17"/>
+    <slot id="129" date="2014-05-09" hour="13" minute="00" room="3" candidate="527" area="83" title="Como ser um Empreendedor em T.I. e ter sucesso na carreira profissional" value="0" colspan="3" color="E0C9FF" abstract="Demonstrar aos alunos que todos somos capazes de empreender, isso n&#227;o &#233; apenas para os que s&#227;o vision&#225;rios ou que tenham perfil para isso. Tamb&#233;m mostrar para aqueles que n&#227;o querem ser empreendedores como obter sucesso no mercado de trabalho." level="starter" zone="17"/>
+    <slot id="142" date="2014-05-08" hour="17" minute="00" room="3" candidate="479" area="83" title="Mulheres, Software Livre e Educa&#231;&#227;o" value="0" colspan="3" color="E0C9FF" abstract="Ser&#225; que as meninas n&#227;o curtem mesmo computa&#231;&#227;o, tecnologia e essas coisas? O Technovation Challenge &#233; uma competi&#231;&#227;o global que inspira meninas a se tornarem mais do que usu&#225;rias de tecnologia, buscando transform&#225;-las em  CRIADORAS e EMPREENDEDORAS. E ele &#233; s&#243; mais uma prova de que com dedica&#231;&#227;o e software livre nos podemos mudar o mundo e trazer mais mulheres para a tecnologia em prol da diversidade e da inova&#231;&#227;o." level="starter" zone="17"/>
+    <slot id="103" date="2014-05-10" hour="12" minute="00" room="2" candidate="620" area="83" title="CCSL-IFRN: Educa&#231;&#227;o colaborativa no IFRN" value="0" colspan="3" color="E0C9FF" abstract="Este palestra analisa a constru&#231;&#227;o de centros de compet&#234;ncias em software livre no sentido de aperfei&#231;oar e promover a dissemina&#231;&#227;o de cultura do conhecimento livre; e melhor direcionar os estudantes dos cursos de computa&#231;&#227;o. Para tanto, apresentar-se-&#225; ensaios sobre uma abordagem metodol&#243;gica de ensino que n&#227;o seja baseada no modelo tradicional (punitivo e repressor). Nessa perspectiva, a metodologia que se apresenta atrav&#233;s desses centros, embora n&#227;o seja nova, rompe com o modelo tradicional." level="" zone="17"/>
+    <slot id="455" date="2014-05-10" hour="13" minute="00" room="718" candidate="396" area="83" title="Hardware Livre Nas Universidades Brasileiras" value="0" colspan="3" color="E0C9FF" abstract="Discutir a import&#226;ncia do Hardware Livre em conjunto com o Software Livre, e as formas de dissemina&#231;&#227;o deste nas Universidades Brasileiras. Inclusive mediante a a&#231;&#227;o da Executiva Nacional dos Estudantes de Computa&#231;&#227;o(ENEC) e outras formas de dissemina&#231;&#227;o dessa plataforma." level="starter" zone="17"/>
+    <slot id="232" date="2014-05-08" hour="15" minute="00" room="6" candidate="404" area="83" title="Software Livre na Educa&#231;&#227;o no RS, Resgatando a&#231;&#245;es e Resultados" value="0" colspan="3" color="E0C9FF" abstract="Uma retrospectiva das a&#231;&#245;es relacionadas a implanta&#231;&#227;o e desenvolvimento de software Livre na Educa&#231;&#227;o do Rio Grande do Sul." level="starter" zone="17"/>
+    <slot id="445" date="2014-05-09" hour="12" minute="00" room="718" candidate="300" area="83" title="Webmaker: Fa&#231;a algo incr&#237;vel com a Web!" value="0" colspan="3" color="E0C9FF" abstract=" A web est&#225; se tornando a segunda l&#237;ngua do mundo, e uma habilidade vital no s&#233;culo 21. &#201; crucial que n&#243;s demos &#224;s pessoas as habilidades que elas precisam para entender, modelar e participar ativamente desse mundo, ao inv&#233;s de apenas consumi-lo passivamente. Nessa palestra, ser&#227;o apresentadas ferramentas e materiais para ensinar a web, o padr&#227;o de alfabetiza&#231;&#227;o para a web, quem est&#225; por tr&#225;s de tudo isso e como pretendemos criar uma comunidade de criadores para a Web no Brasil." level="starter" zone="17"/>
+    <slot id="229" date="2014-05-08" hour="12" minute="00" room="6" candidate="295" area="83" title="Projeto de Adapta&#231;&#227;o ao Software Livre - Mozilla Firefox e LibreOffice em EaD" value="0" colspan="3" color="E0C9FF" abstract="PASOL - Projeto de Adapta&#231;&#227;o ao Software Livre com o curso Mozilla Firefox e LibreOffice na modalidade EaD para servidores t&#233;cnico-administrativos e docentes da Universidade Federal do Rio de Janeiro." level="starter" zone="17"/>
+    <slot id="427" date="2014-05-07" hour="12" minute="00" room="718" candidate="253" area="83" title="Conhecendo e Desmistificando a Acessibilidade na Web" value="0" colspan="3" color="E0C9FF" abstract="O computador e a Internet representam um enorme passo para a inclus&#227;o de pessoas com defici&#234;ncia, promovendo autonomia e independ&#234;ncia. Mas como pessoas com defici&#234;ncia utilizam o computador? Muitas vezes, a defici&#234;ncia n&#227;o &#233; severa o suficiente a ponto de tornar-se uma barreira &#224; utiliza&#231;&#227;o do computador, mas muitas pessoas encontram in&#250;meras barreiras na navega&#231;&#227;o pela internet. Dessa forma explicaremos melhor como n&#227;o deixar que isso ocorra, fazendo que a Web realmente seja para todos!" level="intermediate" zone="17"/>
+    <slot id="429" date="2014-05-07" hour="14" minute="00" room="718" candidate="167" area="83" title="Robotica pedag&#243;gica en el &#225;mbito escolar usando software y hardware libre" value="0" colspan="3" color="E0C9FF" abstract="La rob&#243;tica pedag&#243;gica busca incentivar el desarrollo cognitivo del&#13;&#10;alumno mediante la fabricaci&#243;n y programaci&#243;n de robots o mecanismos de auto-&#13;&#10;matizaci&#243;n sencillos. El uso de tecnolog&#237;as libres (software y hardware de espe-&#13;&#10;cificaciones libres) permite adaptar y modificar los desarrollos a las necesidades&#13;&#10;concretas del aula, as&#237; como permitir abaratar costos posibilitando el uso de com-&#13;&#10;ponentes reciclados. El proyecto ICARO, busca simplificar el complejo contenido&#13;&#10;t&#233;cnico inherente al desar" level="starter" zone="17"/>
+    <slot id="261" date="2014-05-07" hour="17" minute="00" room="7" candidate="72" area="83" title="MozEdu: Mozilla na educa&#231;ao e no codigo" value="0" colspan="3" color="E0C9FF" abstract="Este projeto trata desses aspectos principais&#13;&#10;- Dar a conhecer a open web a crian&#231;as e jovens&#13;&#10;- Informar sobre a privacidade e seguran&#231;a na rede&#13;&#10;- Contactar com organismos Educadores amantes da open web nas nossas cidades&#13;&#10;- Elaborar um temario adaptavel a distintas idades&#13;&#10;- Inovar, criar e participar da web usando ferramentas livres&#13;&#10;- Fazer crecer o incentivo mediante metodos de comunica&#231;ao" level="starter" zone="17"/>
+    <slot id="437" date="2014-05-08" hour="13" minute="00" room="718" candidate="77" area="83" title="Guidelines Open-souce de Interfaces para a inclus&#227;o sociodigital de autistas" value="0" colspan="3" color="E0C9FF" abstract="Nesta palestra, ser&#227;o apresentados em primeira m&#227;o no FISL os resultados iniciais do projeto GAIA - Guidelines for Accessible Interfaces for Autistics (https://github.com/talitapagani/gaia), um projeto de mestrado open-source desde o in&#237;cio que visa estabelecer guidelines (diretrizes) para o projeto de interfaces web/mobile para crian&#231;as autistas, apoiado nos princ&#237;pios de Design Universal." level="starter" zone="17"/>
+    <slot id="199" date="2014-05-09" hour="09" minute="00" room="5" candidate="610" area="86" title="Comunidade ZABBIX BRASIL" value="0" colspan="6" color="EEC9FF" abstract="Comunidade ZABBIX BRASIL" level="" zone="18"/>
+    <slot id="125" date="2014-05-09" hour="09" minute="00" room="3" candidate="455" area="86" title="Encontro Comunit&#225;rio dos LibrePlanets do Brasil" value="0" colspan="3" color="EEC9FF" abstract="O  grupo LibrePlanet S&#227;o Paulo e o grupo LibrePlanet Esp&#237;rito Santo, vinculados  ao projeto LibrePlanet mantido pela Free Software  Foundation, s&#227;o  formados por volunt&#225;rios e ativistas  organizados ao redor de ideias de  Software Livre e assuntos relacionados  a direitos do indiv&#237;duo na era  digital, focando-se em sociedades  livres. Neste encontro comunit&#225;rio, pretendemos planejar e debater nossas atividades para o  segundo semestre de 2014." level="starter" zone="18"/>
+    <slot id="226" date="2014-05-08" hour="09" minute="00" room="6" candidate="378" area="86" title="III Encontro de usu&#225;rios do Openstack Brasil no FISL" value="0" colspan="6" color="EEC9FF" abstract="III Encontro de usu&#225;rios Openstack Brasil" level="starter" zone="18"/>
+    <slot id="133" date="2014-05-10" hour="09" minute="00" room="3" candidate="199" area="86" title="Encontro comunit&#225;rio do PHPRS" value="0" colspan="3" color="EEC9FF" abstract="Encontro comunit&#225;rio do Grupo de Programadores PHP do Rio Grande do Sul." level="starter" zone="18"/>
+    <slot id="172" date="2014-05-10" hour="09" minute="00" room="4" candidate="181" area="86" title="Oficina - Tecnologia da Informa&#231;&#227;o e Movimentos Sociais" value="0" colspan="3" color="EEC9FF" abstract="Esta oficina tem como objetivo geral reunir militantes e parceiros dos movimentos sociais populares para debater formas de potencializar o uso das TICs na organiza&#231;&#227;o interna, comunica&#231;&#227;o externa e publica&#231;&#227;o e uso de dados abertos pelos movimentos. &#13;&#10;&#13;&#10;A ideia &#233; formar uma uma rede de suporte e trocas de experi&#234;ncias, fortalecer a pauta de tecnologia dentro dos movimentos sociais e unir esfor&#231;os em desenvolvimento e infra-estrutura de TI voltadas para os movimentos sociais." level="starter" zone="18"/>
+    <slot id="163" date="2014-05-09" hour="09" minute="00" room="4" candidate="195" area="86" title="oVirt Community Update" value="0" colspan="6" color="EEC9FF" abstract="oVirt &#233; a primeira iniciativa verdadeiramente aberta e compreensiva para gerenciamento de data centers de virtualiza&#231;&#227;o. Essa &#233; uma apresenta&#231;&#227;o de atualiza&#231;&#227;o para a comunidade oVirt sobre as novidades da vers&#227;o atual e os recursos esperados para a proxima vers&#227;o." level="starter" zone="18"/>
+    <slot id="235" date="2014-05-09" hour="09" minute="00" room="6" candidate="617" area="86" title="Encontros Comunit&#225;rios GU Mobile-RS - FISL 15" value="0" colspan="3" color="EEC9FF" abstract="Proposta do GU Mobile-RS para encontros comunit&#225;rios - FISL 15" level="" zone="18"/>
+    <slot id="280" date="2014-05-10" hour="09" minute="00" room="7" candidate="616" area="86" title="Laborat&#243;rio Hacker" value="0" colspan="3" color="EEC9FF" abstract="Proposta de Encontro Comunit&#225;rio - FISL 15" level="" zone="18"/>
+    <slot id="244" date="2014-05-10" hour="09" minute="00" room="6" candidate="175" area="86" title=" Workshop IoT (Internet of Things)" value="0" colspan="3" color="EEC9FF" abstract="Workshop Internet das Coisas (IoT)&#13;&#10;" level="starter" zone="18"/>
+    <slot id="190" date="2014-05-08" hour="09" minute="00" room="5" candidate="609" area="86" title="Encontro Comunit&#225;rio do Noosfero" value="0" colspan="6" color="EEC9FF" abstract="O Noosfero &#233; uma plataforma web para redes sociais e de economia solid&#225;ria que possui as funcionalidades de Blog, CMS, RSS, discuss&#227;o tem&#225;tica, agenda de eventos, chat e intelig&#234;ncia econ&#244;mica colaborativa num mesmo sistema." level="" zone="18"/>
+    <slot id="208" date="2014-05-10" hour="09" minute="00" room="5" candidate="156" area="86" title="Envolva-se: Como voc&#234; pode contribuir com a Mozilla Brasil." value="0" colspan="3" color="EEC9FF" abstract="Esta palestra tem como objetivo principal mostrar &#224;s pessoas que qualquer um pode colaborar com uma comunidade de software livre. Pessoas n&#227;o precisam saber escrever c&#243;digo para contribuir com a Mozilla, basta gostar e querer defender a web." level="starter" zone="18"/>
+    <slot id="154" date="2014-05-08" hour="09" minute="00" room="4" candidate="615" area="86" title="Encontro Comunit&#225;rio do KDE Brasil no FISL 15" value="0" colspan="3" color="EEC9FF" abstract="Encontro comunit&#225;rio entre colaboradores e usu&#225;rios&#13;&#10;do KDE, visando o fortalecimento da comunidade, a difus&#227;o do projeto KDE&#13;&#10;e a chamada de novos colaboradores." level="" zone="18"/>
+    <slot id="217" date="2014-05-07" hour="09" minute="00" room="6" candidate="452" area="86" title="DrupalCamp Porto Alegre" value="0" colspan="6" color="EEC9FF" abstract="Evento comunit&#225;rio da Comunidade Drupal com o intuito de aproximar as comunidades locais e incentivar a utiliza&#231;&#227;o do Drupal.&#13;&#10;&#13;&#10;O encontro pretende fomentar a utiliza&#231;&#227;o e contribui&#231;&#227;o para projetos de SL atrav&#233;s da divulga&#231;&#227;o e incentivo do uso do CMS Drupal, atrav&#233;s de apresenta&#231;&#245;es, dojo e workshops." level="starter" zone="18"/>
+    <slot id="181" date="2014-05-07" hour="09" minute="00" room="5" candidate="608" area="86" title="Encontro Comunit&#225;rio Debian Brasil no FISL 15" value="0" colspan="6" color="EEC9FF" abstract="Proposta para encontro comunit&#225;rio Debian Brasil no FISL 15" level="" zone="18"/>
+    <slot id="271" date="2014-05-09" hour="09" minute="00" room="7" candidate="397" area="86" title="Mulheres na TI e na comunidade do Software Livre" value="0" colspan="3" color="EEC9FF" abstract="Mesa onde ser&#225; discutida a participa&#231;&#227;o das mulheres na TI e na comunidade do Software Livre e como os preconceitos devem ser quebrados para se fomentar a inser&#231;&#227;o das mesmas de forma a n&#227;o intimid&#225;-las, mediante a&#231;&#227;o da Executiva Nacional dos Estudantes de Computa&#231;&#227;o." level="intermediate" zone="18"/>
+    <slot id="117" date="2014-05-08" hour="09" minute="00" room="3" candidate="614" area="86" title="Encontro Comunit&#225;rio GNOME Brasil - FISL 15" value="0" colspan="3" color="EEC9FF" abstract="Encontro comunit&#225;rio entre colaboradores e usu&#225;rios do GNOME, visando o fortalecimento da comunidade, demonstra&#231;&#227;o do projeto GNOME e encorajar novos colaboradores." level="" zone="18"/>
+    <slot id="145" date="2014-05-07" hour="09" minute="00" room="4" candidate="611" area="86" title="Encontro Comunit&#225;rios dos Estudantes de Computa&#231;&#227;o do Brasil e da ENEC" value="0" colspan="3" color="EEC9FF" abstract="Estudantes de Computa&#231;&#227;o dos cursos de gradua&#231;&#227;o, p&#243;s-gradua&#231;&#227;o e tecnicos do Brasil via Executiva Nacional dos Estudantes de Computa&#231;&#227;o(ENEC)" level="" zone="18"/>
+    <slot id="171" date="2014-05-09" hour="17" minute="00" room="4" candidate="627" area="3" title="Projeto de Acesso Criptografado (Leap) " value="0" colspan="3" color="FFC9C9" abstract="O projeto Leap (https://leap.se/) tem como objetivo desenvolver software para provedores e usu&#225;rios para prover comunica&#231;&#227;o segura atrav&#233;s da internet. Ao adaptar tecnologias de criptografia, torna mais f&#225;cil a cria&#231;&#227;o de provedores seguros e a conex&#227;o de diversos tipos de dispositivos aos servi&#231;os de vpn, email, bate-papo, entre outros." level="" zone="21"/>
+    <slot id="22" date="2014-05-09" hour="14" minute="00" room="8" candidate="626" area="3" title="Criptografia oportun&#237;stica e Perfect Forward Secrecy" value="0" colspan="3" color="FFC9C9" abstract="Forward secrecy (sigilo futuro ou antecipado) &#233; uma propriedade da seguran&#231;a que previne um atacante de salvar as mensagens hoje e ent&#227;o depois decifrar essas mensagens quando tiver capturado a chave privada do usu&#225;rio. Sem forward secrecy, um atacante pode ser capaz de capturar mensagens hoje e simplesmente esperar os computadores serem poderosos o suficiente para quebrar a criptografia por for&#231;a bruta. A tradicional criptografia de e-mail n&#227;o oferece forward secrecy. " level="" zone="21"/>
+    <slot id="8" date="2014-05-07" hour="16" minute="00" room="8" candidate="625" area="3" title="Compila&#231;&#227;o Determin&#237;stica" value="0" colspan="3" color="FFC9C9" abstract="Atualmente ainda n&#227;o &#233; poss&#237;vel garantir a integridade e a transpar&#234;ncia no processo de desenvolvimento e distribui&#231;&#227;o de software, mesmo no software livre. Dito de outra forma, mesmo baixando por uma conex&#227;o segura, o programa que voc&#234; roda em sua m&#225;quina pode ser um programa adulterado. Trata-se de um grande problema de assegurar a integridade da infraestrutura usada pelos pr&#243;prios desenvolvedores no processo de desenvolvimento e distribui&#231;&#227;o de software." level="" zone="21"/>
+    <slot id="540" date="2014-05-07" hour="13" minute="00" room="6" candidate="624" area="3" title="Debate de abertura: As perspectivas e os desafios da comunica&#231;&#227;o segura" value="0" colspan="6" color="FFC9C9" abstract="Recentemente, houve um crescente interesse por projetos e softwares que trabalham com  comunica&#231;&#227;o segura. No entanto, todas essas tecnologia lidam com uma s&#233;rie de problemas da pr&#243;pria comunica&#231;&#227;o segura. Esses problemas s&#227;o dif&#237;ceis e desafiam solu&#231;&#245;es existentes, n&#227;o havendo assim solu&#231;&#245;es r&#225;pidas." level="" zone="21"/>
+    <slot id="339" date="2014-05-10" hour="12" minute="00" room="714" candidate="599" area="95" title="Del c&#243;digo spaghetti al MVC en PHP" value="0" colspan="9" color="FFC9E5" abstract="Conocimientos de programaci&#243;n Web Objetivo: Creaci&#243;n de su propio ModeloVistaControlador sin usar frameworks" level="" zone="21"/>
+    <slot id="334" date="2014-05-08" hour="15" minute="00" room="714" candidate="555" area="95" title="Oficina de Desenvolvimento de Jogos em Blender" value="0" colspan="9" color="FFC9E5" abstract="O curso visa ensinar o funcionamento b&#225;sico da Blender Game Engine, o motor para desenvolvimento de jogos que o software Blender possui, introduzindo atrav&#233;s da pr&#225;tica os conceitos necess&#225;rios para a cria&#231;&#227;o de um jogo na ferramenta." level="intermediate" zone="21"/>
+    <slot id="330" date="2014-05-07" hour="12" minute="00" room="714" candidate="543" area="95" title="Oficina de instala&#231;&#227;o, configura&#231;&#227;o e utiliza&#231;&#227;o do CKAN" value="0" colspan="9" color="FFC9E5" abstract="Compartilhar os conhecimentos necess&#225;rios para instala&#231;&#227;o, configura&#231;&#227;o e utiliza&#231;&#227;o do CKAN um poderoso sistema de gerenciamento de dados que torna os dados acess&#237;veis -, fornecendo ferramentas para agilizar a publica&#231;&#227;o, compartilhar, encontrar e utilizar dados. Visando editores de dados (governos nacionais e regionais, empresas e organiza&#231;&#245;es) que querem fazer os seus dados abertos e dispon&#237;veis." level="intermediate" zone="21"/>
+    <slot id="346" date="2014-05-08" hour="15" minute="00" room="720" candidate="550" area="95" title="Minera&#231;&#227;o de Texto com Python e NLTK" value="0" colspan="9" color="FFC9E5" abstract="O objetivo  desta oficina &#233; apresentar como minerar texto com Python e Natural Language Toolkit (NLTK). Minera&#231;&#227;o de Texto &#233; o processo de descoberta de conhecimento e extra&#231;&#227;o de dados a partir de texto em formatos n&#227;o estruturados (linguagem natural). Com ela &#233; poss&#237;vel classificar documentos de acordo com suas caracter&#237;sticas e sumarizar informa&#231;&#245;es" level="starter" zone="21"/>
+    <slot id="343" date="2014-05-07" hour="15" minute="00" room="720" candidate="438" area="95" title="AWS VPC/Ansible/VPN workshop: Datacenter na nuvem" value="0" colspan="9" color="FFC9E5" abstract="[descri&#231;&#227;o em ingl&#234;s s&#243; temporariamente]&#13;&#10;A tutorial on automation for companies, we'll discuss concepts and methods for migrating into a cloud-based datacenter, fully virtualised, and with emphasis on automation and security practices. This is partly based in my experience in designing Vivid Cortex' migration to this environment.&#13;&#10;&#13;&#10;[A atividade &#233; &#243;tima para um tutorial de duas ou tr&#234;s horas, mais pode ser convertida em uma palestra de uma hora tamb&#233;m, com um enfoque menos hands-on]" level="advanced" zone="21"/>
+    <slot id="333" date="2014-05-08" hour="12" minute="00" room="714" candidate="351" area="95" title="Mate seu rato e dome seu shell, uma introdu&#231;&#227;o do terminal do Linux" value="0" colspan="9" color="FFC9E5" abstract="Voc&#234; sabia que antes de todas as janelas e &#237;cones coloridas, o Linux existia somente em modo texto? Sabia que o modo texto &#233; uma ferramenta extremamente &#250;til para administra&#231;&#227;o de sistemas Linux e processamento de texto? Participe dessa oficina e aprenda o b&#225;sico do terminal para ganhar agilidade e utilizar seu Linux com mais potencial!" level="starter" zone="21"/>
+    <slot id="341" date="2014-05-07" hour="09" minute="00" room="720" candidate="370" area="95" title="Appmaker Party" value="0" colspan="9" color="FFC9E5" abstract="Mozilla Appmaker &#233; uma ferramenta gratuita que permite que qualquer pessoa crie seus pr&#243;prios aplicativos m&#243;veis. Nessa oficina, voc&#234; vai aprender como o Appmaker funciona e como criar aplicativos m&#243;veis com ele. Al&#233;m disso, vamos desenvolver durante a oficina componentes web para serem usados dentro do pr&#243;prio Appmaker, para aumentar as possibilidades de cria&#231;&#227;o de novos aplicativos." level="intermediate" zone="21"/>
+    <slot id="347" date="2014-05-09" hour="09" minute="00" room="720" candidate="388" area="95" title="Aprenda a ensinar a web com Webmaker" value="0" colspan="9" color="FFC9E5" abstract="A web est&#225; se tornando a segunda l&#237;ngua do mundo, e uma habilidade vital no s&#233;culo 21. &#201; crucial que n&#243;s demos &#224;s pessoas as habilidades que elas precisam para entender, modelar e  participar ativamente desse mundo, ao inv&#233;s de apenas consumi-lo  passivamente. Nessa oficina, mostraremos como usar as ferramentas, planos de aulas e materiais de ensino do Webmaker para ensinar a web a qualquer pessoa." level="starter" zone="21"/>
+    <slot id="338" date="2014-05-10" hour="09" minute="00" room="714" candidate="356" area="95" title="Oficina de constru&#231;&#227;o de aplicativos para Firefox OS" value="0" colspan="9" color="FFC9E5" abstract="Nesta oficina ensinaremos as pessoas a contruirem aplicativos para Firefox OS utilizando tecnologias web tais como HTML, CSS e Javascript. Mostraremos todo o workflow de debug das apps e como &#233; feita a distribui&#231;&#227;o delas.&#13;&#10;Ao final desta oficina o aluno ter&#225; uma vis&#227;o clara de como e por que desenvolver para o novo sistema." level="intermediate" zone="21"/>
+    <slot id="344" date="2014-05-08" hour="09" minute="00" room="720" candidate="283" area="95" title="Oficina - Quem S&#227;o os Propriet&#225;rios do Brasil" value="0" colspan="9" color="FFC9E5" abstract="A partir de dados p&#250;blicos, o projeto Propriet&#225;rios do Brasil cria ferramentas para medir a concentra&#231;&#227;o do poder econ&#244;mico e sua rela&#231;&#227;o com o poder pol&#237;tico no pa&#237;s.&#13;&#10;&#13;&#10;O portal traz informa&#231;&#245;es sobre 5600 empresas, pessoas e estatais, um ranking das 397 mais com maior poder acumulado, al&#233;m de an&#225;lises de poder que mostram como a a&#231;&#227;o dessas empresas afeta o cotidiano da popula&#231;&#227;o." level="starter" zone="21"/>
+    <slot id="342" date="2014-05-07" hour="12" minute="00" room="720" candidate="259" area="95" title="webtv.tar.gz - Um est&#250;dio de webTV que cabe na sua mochila" value="0" colspan="9" color="FFC9E5" abstract="A proposta da oficina &#233; compartilhar experi&#234;ncias de planejamento, constru&#231;&#227;o e estudo de possibilidades de configura&#231;&#245;es para um est&#250;dio de WebTV, com softwares e formatos livres, e com a utiliza&#231;&#227;o de equipamentos compactos e vers&#225;teis que possam caber numa mochila.&#13;&#10;&#13;&#10;Ser&#227;o apresentados os recursos necess&#225;rios para produ&#231;&#227;o de videocasts, entrevistas ou para realiza&#231;&#227;o de transmiss&#245;es ao vivo; como montar e configurar o est&#250;dio, e os softwares de captura, edi&#231;&#227;o e transmiss&#227;o utilizados." level="starter" zone="21"/>
+    <slot id="345" date="2014-05-08" hour="12" minute="00" room="720" candidate="101" area="95" title="Oficina de Inicia&#231;&#227;o a Desenvolvimento Mobile com Android" value="0" colspan="9" color="FFC9E5" abstract="Apresentar a ferramenta de desenvolvimento, demonstra&#231;&#227;o de aplicativos em funcionamento. Aplica&#231;&#227;o de c&#243;digo e de como desenvolver um aplicativo com c&#243;digo limpo e organizado. Como desenvolver um aplicativo sem perder o foco, simples, pratico e funcional." level="starter" zone="21"/>
+    <slot id="80" date="2014-05-07" hour="16" minute="00" room="2" candidate="589" area="92" title="Abertura Oficial" value="0" colspan="6" color="FFC9F3" abstract="Cerimonia de abertura do Fisl" level="" zone="20"/>
+    <slot id="79" date="2014-05-07" hour="15" minute="00" room="2" candidate="591" area="92" title="Reservado Organiza&#231;&#227;o" value="0" colspan="3" color="FFC9F3" abstract="Reservado Organiza&#231;&#227;o" level="" zone="20"/>
+    <slot id="401" date="2014-05-08" hour="16" minute="00" room="717" candidate="595" area="92" title="Reuni&#227;o Comcet" value="0" colspan="6" color="FFC9F3" abstract="Reuni&#227;o Comcet" level="" zone="20"/>
+    <slot id="418" date="2014-05-10" hour="15" minute="00" room="717" candidate="596" area="92" title="Sistemas para Eventos ASL" value="0" colspan="6" color="FFC9F3" abstract="Atividade de libera&#231;&#227;o do c&#243;digo das ferramentas de chamada de trabalhos&#13;&#10;e controle de grade Papers_ng e do sistema de inscritos Greve.&#13;&#10;Apresentar desenvolvedores contratados para pr&#243;xima vers&#227;o, cronograma e requisitos.&#13;&#10;Lan&#231;ar comunidade, identificado primeiros beta testers e poss&#237;veis desenvolvedores parceiros." level="" zone="20"/>
+    <slot id="1" date="2014-05-07" hour="09" minute="00" room="8" candidate="590" area="92" title="ORGANIZA&#199;&#195;O" value="0" colspan="3" color="FFC9F3" abstract="Organiza&#231;&#227;o" level="" zone="20"/>
+    <slot id="93" date="2014-05-09" hour="11" minute="00" room="2" candidate="569" area="89" title="Soberania Pol&#237;tica e Tecnol&#243;gica brasileria em um mundo cibern&#233;tico" value="0" colspan="3" color="FCC9FF" abstract="Mesa de debate com figuras p&#250;blicas e de relev&#226;ncia no debate sobre o desenvolvimento do Software Livre brasileiro e suas salvaguardas e mecanismos de fomento." level="advanced" zone="19"/>
+    <slot id="76" date="2014-05-07" hour="12" minute="00" room="2" candidate="298" area="89" title="Cria&#231;&#227;o autom&#225;tica de aplicativos m&#243;veis Android" value="0" colspan="3" color="FCC9FF" abstract="Esta palestra aborda t&#233;cnicas e ferramentas para cria&#231;&#227;o autom&#225;tica de aplicativos Android. Para isso, apresenta algumas ferramentas atualmente dispon&#237;veis no mercado e demonstra, em detalhes, a ferramenta Maritaca. Baseada em software livre, a ferramenta Maritaca ser&#225; utilizada para demonstrar os princ&#237;pios de defini&#231;&#227;o de funcionalidades, montagem de arquivo execut&#225;vel, &quot;engine&quot; para processamento de interfaces e arquitetura para armazenamento de dados em nuvem." level="intermediate" zone="19"/>
+    <slot id="88" date="2014-05-08" hour="15" minute="00" room="2" candidate="586" area="89" title="Neurotecnologia: sua mente no controle na plataforma Linux" value="0" colspan="3" color="FCC9FF" abstract="Apresenta&#231;&#227;o de diversos equipamentos dispon&#237;vel no mercado, diferen&#231;as entre os produtos, tend&#234;ncias de tecnologia de c&#243;digo aberto e propriet&#225;rio. Aconselho para todos que desejam ingressar no mundo da tradu&#231;&#227;o de sinais neurais, detectando atividades cerebrais de forma n&#227;o invasiva atrav&#233;s da eletrencefalogr&#225;fica." level="intermediate" zone="19"/>
+    <slot id="35" date="2014-05-09" hour="17" minute="00" room="8" candidate="498" area="89" title="Poss&#237;veis futuros para o &#250;ltimo basti&#227;o da liberdade digital: as Criptomoedas" value="0" colspan="3" color="FCC9FF" abstract="As redes virtuais de minera&#231;&#227;o e transa&#231;&#227;o em criptomoedas -- das quais o bitcoin &#233; a mais conhecida -- representam um novo paradigma para atividade financeira desintermediada. Como poder&#227;o reagir os intermediadores financeiros que hoje controlam o poder pol&#237;tico global atrav&#233;s da emiss&#227;o de moeda sem lastro, se a ades&#227;o a elas decolar? e as poss&#237;veis consequ&#234;ncias? Especulemos juntos.  " level="advanced" zone="19"/>
+    <slot id="40" date="2014-05-07" hour="12" minute="00" room="1" candidate="537" area="89" title="Understanding Software Collections" value="0" colspan="3" color="FCC9FF" abstract="If you need to run a different version of Python, Perl, MySQL, or other software than the system default, what are your options? Developers and admins need more flexibility than ever for deploying software. This talk will offer one strong option for users of RPM-based systems." level="intermediate" zone="19"/>
+    <slot id="116" date="2014-05-07" hour="16" minute="00" room="3" candidate="510" area="89" title="Bitcoin: o futuro do dinheiro &#233; open source (e livre)" value="0" colspan="3" color="FCC9FF" abstract="Bitcoin &#233; mais do que uma moeda eletr&#244;nica criada para tornar mais seguras e f&#225;ceis as transa&#231;&#245;es financeiras em n&#237;vel mundial. &#201; antes de tudo um protocolo e uma tecnologia inovadora que propicia a distribui&#231;&#227;o de recursos computacionais ao redor do globo de uma maneira que ningu&#233;m at&#233; hoje havia conseguido. Por sua natureza disruptiva, h&#225; muito mal entendido e interesses conflitantes no cen&#225;rio que tange o Bitcoin." level="starter" zone="19"/>
+    <slot id="251" date="2014-05-10" hour="16" minute="00" room="6" candidate="525" area="89" title="DIYbio hackeando o software da vida" value="0" colspan="3" color="FCC9FF" abstract="Quer hackear seu DNA ou sua pr&#243;pria vida ?&#13;&#10;DIYbio &#233; uma rede de indiv&#237;duos globais que querem hackear a biologia aplicando pr&#225;ticas de &quot;Fa&#231;a voc&#234; mesmo&quot;.&#13;&#10;Palestra &#233; demonstrar as principais as iniciativas e ideias para modelagem de sistemas biol&#243;gicos via computa&#231;&#227;o. Ensinaremos como trabalhar com dados do seu pr&#243;prio DNA. Demonstra&#231;&#227;o de projetos como Wholecell da Universidade Stanford." level="starter" zone="19"/>
+    <slot id="104" date="2014-05-10" hour="13" minute="00" room="2" candidate="454" area="89" title="Bancos NoSQL e Persist&#234;ncia Poliglota" value="0" colspan="3" color="FCC9FF" abstract="O escopo dos projetos est&#227;o exigindo cada vez mais recursos e inova&#231;&#227;o. Muitas vezes, a aplica&#231;&#227;o exige mais de um tipo de armazenamento, seja orientado a documentos, colunar, chave valor ou grafos. &#201; muito comum utilizar mais de um banco de dados em projetos, ao saber extrair o melhor de cada um deles, o projeto poder&#225; se tornar mais completo e competitivo em menos tempo. Essa palestra mostra os principais bancos N&#227;o Relacionais (NoSQL) e orienta a tomada de decis&#227;o em projetos. " level="intermediate" zone="19"/>
+    <slot id="30" date="2014-05-10" hour="14" minute="00" room="8" candidate="509" area="89" title="Special Interest Groups: Current state, getting involved, and building your own" value="0" colspan="3" color="FCC9FF" abstract="This presentation will cover the current state of the Special Interest Groups (SIGs) in CentOS now, as well as outlining how to get involved with them, and how to start your own." level="intermediate" zone="19"/>
+    <slot id="149" date="2014-05-07" hour="13" minute="00" room="4" candidate="536" area="89" title="Explorando as APIs do HTML5" value="0" colspan="3" color="FCC9FF" abstract="O HTML5 n&#227;o se restringe apenas a marca&#231;&#227;o, nele est&#225; incluso um conjunto de novas funcionalidades encapsuladas em APIs que podem ser inicializadas via JavaScript. " level="starter" zone="19"/>
+    <slot id="214" date="2014-05-10" hour="15" minute="00" room="5" candidate="505" area="89" title="NGiNX, o motor da sua aplica&#231;&#227;o web" value="0" colspan="3" color="FCC9FF" abstract="Como utilizar o proxy reverso NGiNX (http://nginx.org/) como servidor web para aplica&#231;&#245;es de alta performance, permitindo a clusteriza&#231;&#227;o dos servidores de aplica&#231;&#227;o (PHP, Python, Ruby, etc), gerenciamento de sess&#245;es em mem&#243;ria, utilizando o Memcache e t&#233;cnicas para otimiza&#231;&#227;o de performance (rede e processamento)." level="intermediate" zone="19"/>
+    <slot id="68" date="2014-05-10" hour="13" minute="00" room="1" candidate="379" area="89" title="Openstack =&gt; Cloud computing at your fingertips!" value="0" colspan="3" color="FCC9FF" abstract="In this lecture will show an introduction to OpenStack, starting with the basic concepts of Cloud, keywords, what Openstack project is, the use cases, history, the project overview, features, tools and roadmap. The following topics will be covered:&#13;&#10;* Introduction to Cloud Computing (Virtualization; Iaas, Paas, Saas; Public/Private/Hybrid/Community Cloud; Concepts: scalability, elasticity, provisioning, self-service, multi tenant, and much more)&#13;&#10;* The History&#13;&#10;* The Architecture, projects and more" level="intermediate" zone="19"/>
+    <slot id="162" date="2014-05-08" hour="17" minute="00" room="4" candidate="279" area="89" title="SpeechRTC, reconhecimento de voz cross-browser para a Web e FirefoxOS" value="0" colspan="3" color="FCC9FF" abstract="SpeechRTC, uma API de reconhecimento de fala utilizando Webrtc desenvolvida com foco no FirefoxOS e na web.&#13;&#10;&#13;&#10;" level="intermediate" zone="19"/>
+    <slot id="212" date="2014-05-10" hour="13" minute="00" room="5" candidate="262" area="89" title="IPv6: Voc&#234; est&#225; preparado para ele?" value="0" colspan="3" color="FCC9FF" abstract="O IPv6, apesar de existir a bastante tempo, s&#243; agora teve sua implanta&#231;&#227;o acelerada devido ao esgotamento dos endere&#231;os IPv4. A perspectiva &#233; que a partir de 2014 n&#227;o existam mais endere&#231;os da vers&#227;o 4 dispon&#237;veis no mundo. O IPv6 traz para a Internet um espa&#231;o de endere&#231;amento capaz de suportar o crescimento da rede por muito tempo. O novo protocolo tamb&#233;m apresenta avan&#231;os em &#225;reas como seguran&#231;a, mobilidade e desempenho. A pergunta &#233; voc&#234; e sua empresa est&#227;o preparados para ela?" level="intermediate" zone="19"/>
+    <slot id="94" date="2014-05-09" hour="12" minute="00" room="2" candidate="328" area="89" title="Boot para a Web com Gecko: Desktop, dispositivos m&#243;veis, TVs e mais " value="0" colspan="3" color="FCC9FF" abstract="S&#227;o mais de 15 anos de Gecko e hoje a Mozilla carrega um dos projetos mais importantes que levam a Web al&#233;m do desktop &#8212; para as pessoas. O Boot 2 Gecko [1],  e suas camadas, Gecko, Gaia e Gonk; levaram o Firefox para a experi&#234;ncia de usu&#225;rio de um moderno sistema operacional. Assim se consolida a Web, primeiro em dispositivos m&#243;veis, mas surgem grandes desafios e oportunidades da Web ter maior impacto.&#13;&#10;" level="intermediate" zone="19"/>
+    <slot id="239" date="2014-05-09" hour="13" minute="00" room="6" candidate="237" area="89" title="Servo: O web engine paralelo" value="0" colspan="3" color="FCC9FF" abstract="Servo &#233; uma web engine experimental desenvolvida pela Mozilla em parceria com a Samsung. Seu principal objetivo consiste em criar um ambiente altamente paralelo, nos quais muitos componentes (renderiza&#231;&#227;o, layout, parsing de HTML, decodifica&#231;&#227;o de imagens, etc) s&#227;o executados por tarefas isoladas. O projeto possui rela&#231;&#227;o simbi&#243;tica com a linguagem de programa&#231;&#227;o Rust, que est&#225; atualmente em desenvolvimento." level="advanced" zone="19"/>
+    <slot id="115" date="2014-05-07" hour="15" minute="00" room="3" candidate="484" area="89" title="Got Zot? Usando e desenvolvendo para a RedMatrix" value="0" colspan="3" color="FCC9FF" abstract="A RedMatrix &#233; uma implementa&#231;&#227;o completa e funcional do pr&#243;ximo n&#237;vel da Web, onde autentica&#231;&#227;o e privacidade distribu&#237;da, identidades n&#244;mades, presen&#231;a redundante e conte&#250;dos federados j&#225; s&#227;o realidade. Descubra o que &#233; Zot, entenda a tecnologia envolvida e aprenda a desenvolver para a matrix. Aplica&#231;&#245;es j&#225; implementadas incluem rede social, servi&#231;o de diret&#243;rio, correio, calend&#225;rio, chat, publica&#231;&#227;o de m&#237;dia e armazenamento de arquivos. Venha construir conosco uma web intrinsicamente livre!" level="intermediate" zone="19"/>
+    <slot id="286" date="2014-05-10" hour="15" minute="00" room="7" candidate="183" area="89" title="Use e colabore com o OpenStreetMap" value="0" colspan="3" color="FCC9FF" abstract="O OpenStreetMap &#233; como &quot;a Wikip&#233;dia dos mapas&quot;, um mapa de todo o planeta que qualquer pessoa pode editar e usar livremente. O projeto j&#225; alcan&#231;ou o n&#250;mero de 1 milh&#227;o e meio de colaboradores registrados e nossos mapas est&#227;o sendo utilizados por um grande n&#250;mero de organiza&#231;&#245;es. A palestra ir&#225; falar da import&#226;ncia do OpenStreetMap, apresentar exemplos interessantes de uso e mostrar como &#233; f&#225;cil e divertido colaborar conosco." level="starter" zone="19"/>
+    <slot id="24" date="2014-05-09" hour="16" minute="00" room="8" candidate="605" area="89" title="&quot;Open Source Free Energy; Harnessing the Wheelwork of Nature&quot;, and I would cove" value="0" colspan="3" color="FCC9FF" abstract="We've all heard the term &quot;free energy&quot; bantered around. Usually it conjures images of tin foil hat wearers hoping for the holy grail that never seems to show up. However, along with the 25 legitimate conventional &quot;free energy&quot; modalities, including solar, wind, geothermal, tide, ocean currents, waste to energy, etc; there are likewise 25 un-conventional modalities that actually hold tremendous promise: cold fusion, electromagnetic overunity, magnet motors, water as fuel, zero point energy, etc." level="" zone="19"/>
+    <slot id="284" date="2014-05-10" hour="13" minute="00" room="7" candidate="171" area="89" title="Os Perseguidos da Guerra pela Informa&#231;&#227;o e Privacidade vs. Espionagem" value="0" colspan="3" color="FCC9FF" abstract="Palestra proposta por integrantes do Partido Pirata do Brasil, em formato de desconfer&#234;ncia onde analisaremos os casos de Edward Snowden, Julian Assange, Aaron Swartz, Chelsea Manning e Gottfrid Svartholm, perseguidos por lutarem pela informa&#231;&#227;o e conhecimento livres. O Wikileaks, o livro Cypherpunks, a NSA e o Prism tamb&#233;m ser&#227;o abordados. O Marco Civil da Internet e a interfer&#234;ncia das Teles e a criminaliza&#231;&#227;o do The Piratebay. Al&#233;m da espionagem sem limites de governos e grandes corpora&#231;&#245;es." level="starter" zone="19"/>
+    <slot id="161" date="2014-05-08" hour="16" minute="00" room="4" candidate="189" area="89" title="Bitcoin: a Revolu&#231;&#227;o Digital chegou &#224; economia" value="0" colspan="3" color="FCC9FF" abstract="O que &#233; o Bitcoin, que tanto vem sendo falado na m&#237;dia? Como surgiu e por que surgiu? Quais os impactos da moeda digital no nosso cotidiano? &#201; o Bitcoin a &quot;moeda dos criminosos&quot;? Por que governos e o sistema financeiro teme o Bitcoin?" level="intermediate" zone="19"/>
+    <slot id="247" date="2014-05-10" hour="12" minute="00" room="6" candidate="182" area="89" title="Bitcoin - a moeda digital! Transa&#231;&#245;es e consequ&#234;ncias" value="0" colspan="3" color="FCC9FF" abstract="Abordar todos seus aspectos, falando da sua concep&#231;&#227;o em janeiro de 2009 pelo japon&#234;s Satoshi Nakamoto, bem como as formas de obten&#231;&#227;o, valor de mercado, empresas que adotaram a moeda, concorrentes e sua situa&#231;&#227;o perante as leis vigentes. Tamb&#233;m busca servir como um guia pr&#225;tico para todas as pessoas que tem curiosidade de saber como funciona essa moeda digital, que n&#227;o &#233; controlada por governos. " level="starter" zone="19"/>
+    <slot id="205" date="2014-05-09" hour="15" minute="00" room="5" candidate="91" area="89" title="Palestra: e-peti&#231;&#227;o - portal de peti&#231;&#245;es on-line com certifica&#231;&#227;o digital." value="0" colspan="3" color="FCC9FF" abstract="A palestra fala sobre a ideia de um projeto de peti&#231;&#245;es on-line que usa assinatura digital para votar em projetos de interesse da sociedade civil.&#13;&#10;O projeto constitui-se de uma portal de assinaturas digitais feitos com Html + PHP assinado por bibliotecas do OpenSSL, o motor do site &#233; feito em linguagem GO! &#13;&#10;O projeto foi idealizado para o ConSERPRO 2013 por&#233;m o mesmo permite o fomenta&#231;&#227;o do tema t&#227;o em pauta desde Jun/2013 nas manifesta&#231;&#245;es.&#13;&#10;" level="starter" zone="19"/>
+    <slot id="66" date="2014-05-10" hour="11" minute="00" room="1" candidate="604" area="89" title="Duda I/O: Scalable Web Services for GNU/Linux" value="0" colspan="3" color="FCC9FF" abstract="Duda I/O es un stack de desarrollo para servicios web de tipo backend que requieren alto rendimiento y tiempos de respuesta reducidos. Posee una arquitectura orientada a eventos con manejo de sockets asincronos, su nucleo soporta HTTP(s), Websockets, JSON y Base de Datos entre otros. &#13;&#10;&#13;&#10;En la presentacion se mostrara como Duda I/O puede ser utilizado para distintas necesidades, se mostraran ejemplos de negocios reales basados en Real Time Bidding y Big Data respectivamente." level="intermediate" zone="19"/>
+  </slots>
+  <authorship>
+    <person id="401" name="Eduardo Alves Silva" candidate="85" main="1"/>
+    <person id="16" name="Helius Ferreira" candidate="9" main="1"/>
+    <person id="19" name="Alexandre Oliva" candidate="10" main="1"/>
+    <person id="26" name="Eduardo Picetti Torezan" candidate="17" main="1"/>
+    <person id="27" name="Cristiano C. de Lucca" candidate="17" main="0"/>
+    <person id="30" name="Andreia Solange Bos" candidate="18" main="1"/>
+    <person id="35" name="Ricardo Coelho" candidate="20" main="1"/>
+    <person id="394" name="Joel Martins Grigolo J&#250;nior" candidate="75" main="0"/>
+    <person id="60" name="Carlos Cartola" candidate="34" main="1"/>
+    <person id="60" name="Carlos Cartola" candidate="35" main="1"/>
+    <person id="66" name="Mauricio Cesar Santos da Purifica&#231;&#227;o" candidate="43" main="1"/>
+    <person id="39" name="Matheus Carvalho" candidate="55" main="1"/>
+    <person id="29" name="Alexandre Magno Teles Zimerer" candidate="57" main="1"/>
+    <person id="376" name="Rafael Martins" candidate="68" main="1"/>
+    <person id="377" name="Alexandro Silva" candidate="69" main="1"/>
+    <person id="387" name="Eduardo Urcullu, Rocio Meza" candidate="72" main="1"/>
+    <person id="389" name="Guilherme" candidate="75" main="1"/>
+    <person id="393" name="Lucas Fialho Zawacki" candidate="75" main="0"/>
+    <person id="392" name="Talita Pagani" candidate="77" main="1"/>
+    <person id="374" name="Sergio Cioban Filho" candidate="86" main="1"/>
+    <person id="419" name="Everton Melo" candidate="91" main="1"/>
+    <person id="59" name="Thiago Garcia da Silva" candidate="94" main="1"/>
+    <person id="367" name="Bruno Erthal de Abreu" candidate="94" main="0"/>
+    <person id="29" name="Alexandre Magno Teles Zimerer" candidate="97" main="1"/>
+    <person id="434" name="Muriel Figueredo Franco" candidate="98" main="1"/>
+    <person id="441" name="leandroid" candidate="101" main="1"/>
+    <person id="395" name="" candidate="75" main="0"/>
+    <person id="396" name="" candidate="75" main="0"/>
+    <person id="514" name="Juliana Fernandes" candidate="176" main="1"/>
+    <person id="473" name="Rafael Aquini" candidate="117" main="1"/>
+    <person id="472" name="Hisham Muhammad" candidate="119" main="1"/>
+    <person id="475" name="Carlos Pirez" candidate="122" main="1"/>
+    <person id="489" name="Leslie Hawthorn" candidate="142" main="1"/>
+    <person id="554" name="Rafael Jaques" candidate="199" main="1"/>
+    <person id="500" name="Jo&#227;o S. O. Bueno" candidate="157" main="1"/>
+    <person id="504" name="villadalmine" candidate="158" main="1"/>
+    <person id="537" name="Marcos Carvalho" candidate="189" main="0"/>
+    <person id="510" name="valentin basel" candidate="167" main="1"/>
+    <person id="508" name="Andre Alves Garzia" candidate="156" main="0"/>
+    <person id="540" name="Eduardo Comin" candidate="193" main="0"/>
+    <person id="69" name="Francisco Prates Junior" candidate="171" main="1"/>
+    <person id="425" name="Alan Velasques Santos" candidate="173" main="1"/>
+    <person id="521" name="Marlon Dutra" candidate="180" main="1"/>
+    <person id="486" name="Morvana Bonin" candidate="175" main="1"/>
+    <person id="477" name="Marciano Tagliani" candidate="182" main="1"/>
+    <person id="518" name="Wille Marcel Lima Malheiro" candidate="183" main="1"/>
+    <person id="524" name="Jatob&#225;" candidate="181" main="0"/>
+    <person id="525" name="Celso Alexandre Souza de Alvear" candidate="181" main="0"/>
+    <person id="458" name="Ricardo Pontes" candidate="156" main="1"/>
+    <person id="524" name="Jatob&#225;" candidate="186" main="1"/>
+    <person id="536" name="Wladimir Crippa" candidate="189" main="1"/>
+    <person id="531" name="Frederick van Amstel" candidate="186" main="0"/>
+    <person id="538" name="Leonardo Lima" candidate="192" main="1"/>
+    <person id="539" name="" candidate="192" main="0"/>
+    <person id="385" name="Dhiego Tosatti" candidate="193" main="1"/>
+    <person id="542" name="Amador Pahim" candidate="195" main="1"/>
+    <person id="545" name="Douglas Schilling Landgraf" candidate="195" main="0"/>
+    <person id="551" name="Ana Cristina Geyer de Moraes" candidate="197" main="1"/>
+    <person id="435" name="Paulo Henrique de Lima Santana" candidate="177" main="1"/>
+    <person id="449" name="Luiz Rauber" candidate="177" main="0"/>
+    <person id="523" name="Alan Tygel" candidate="181" main="1"/>
+    <person id="560" name="David Jourdain" candidate="201" main="1"/>
+    <person id="561" name="Fl&#225;vio Ribeiro Nogueira Barbosa" candidate="203" main="1"/>
+    <person id="372" name="Nelice" candidate="204" main="1"/>
+    <person id="562" name="Gabriela Ludwig Guerra" candidate="204" main="0"/>
+    <person id="547" name="Marcelo Barbosa" candidate="195" main="0"/>
+    <person id="569" name="Alison Rodrigues de Souza" candidate="209" main="1"/>
+    <person id="503" name="Qaiq Alves" candidate="156" main="0"/>
+    <person id="47" name="Francisco Erik da Silva" candidate="177" main="0"/>
+    <person id="556" name="Diego Neves" candidate="211" main="1"/>
+    <person id="554" name="Rafael Jaques" candidate="212" main="1"/>
+    <person id="433" name="Romulo Santos" candidate="217" main="1"/>
+    <person id="574" name="aiman" candidate="221" main="1"/>
+    <person id="591" name="Reynaldo Verdejo" candidate="272" main="1"/>
+    <person id="579" name="Andre Dias Lima" candidate="209" main="0"/>
+    <person id="581" name="Juarez Bochi" candidate="230" main="1"/>
+    <person id="587" name="Leandro Moreira" candidate="230" main="0"/>
+    <person id="590" name="Bruno de Oliveira Abinader" candidate="237" main="1"/>
+    <person id="580" name="bruno azevedo" candidate="241" main="1"/>
+    <person id="576" name="Fernando Laudares Camargos" candidate="248" main="1"/>
+    <person id="511" name="Daniel Bristot de Oliveira" candidate="250" main="1"/>
+    <person id="595" name="Lael Nervis" candidate="253" main="1"/>
+    <person id="589" name="Eduardo Lucas" candidate="259" main="1"/>
+    <person id="612" name="Gilberto Sudre" candidate="262" main="1"/>
+    <person id="612" name="Gilberto Sudre" candidate="263" main="1"/>
+    <person id="59" name="Thiago Garcia da Silva" candidate="267" main="1"/>
+    <person id="616" name="Jan Seidl" candidate="268" main="1"/>
+    <person id="617" name="Gustavo Hingel Morada" candidate="267" main="0"/>
+    <person id="610" name="Anahuac de Paula Gil" candidate="258" main="0"/>
+    <person id="618" name="Pedro Henrique Reis" candidate="267" main="0"/>
+    <person id="616" name="Jan Seidl" candidate="278" main="1"/>
+    <person id="571" name="Andre Natal" candidate="279" main="1"/>
+    <person id="624" name="Diego Moreira Guimar&#227;es" candidate="280" main="1"/>
+    <person id="523" name="Alan Tygel" candidate="283" main="1"/>
+    <person id="416" name="Samuel Flores Moraes" candidate="286" main="1"/>
+    <person id="416" name="Samuel Flores Moraes" candidate="287" main="1"/>
+    <person id="629" name="Etiene da Cruz Dalcol" candidate="293" main="1"/>
+    <person id="631" name="Emerson Luiz Florentino Borges" candidate="295" main="1"/>
+    <person id="634" name="Rosana Kirsch" candidate="283" main="0"/>
+    <person id="550" name="Arlindo Flavio da Concei&#231;&#227;o" candidate="298" main="1"/>
+    <person id="644" name="Bruno Gabriel dos Santos" candidate="298" main="0"/>
+    <person id="524" name="Jatob&#225;" candidate="283" main="0"/>
+    <person id="643" name="" candidate="298" main="0"/>
+    <person id="641" name="Laura Marotias" candidate="301" main="1"/>
+    <person id="632" name="Marcel Ribeiro Dantas" candidate="302" main="1"/>
+    <person id="527" name="Ricardo Panaggio" candidate="300" main="0"/>
+    <person id="528" name="Coragem" candidate="300" main="1"/>
+    <person id="648" name="Ole Peter Smith" candidate="304" main="1"/>
+    <person id="651" name="Luis Cipriani" candidate="308" main="1"/>
+    <person id="449" name="Luiz Rauber" candidate="286" main="0"/>
+    <person id="449" name="Luiz Rauber" candidate="287" main="0"/>
+    <person id="600" name="Agust&#237;n" candidate="248" main="0"/>
+    <person id="614" name="Thadeu Cascardo" candidate="258" main="0"/>
+    <person id="642" name="" candidate="298" main="0"/>
+    <person id="584" name="Marcos Albe" candidate="248" main="0"/>
+    <person id="605" name="Ricardo Moro" candidate="253" main="0"/>
+    <person id="367" name="Bruno Erthal de Abreu" candidate="267" main="0"/>
+    <person id="611" name="Frederico Gon&#231;alves Guimar&#227;es" candidate="258" main="0"/>
+    <person id="19" name="Alexandre Oliva" candidate="258" main="1"/>
+    <person id="500" name="Jo&#227;o S. O. Bueno" candidate="315" main="1"/>
+    <person id="393" name="Lucas Fialho Zawacki" candidate="317" main="1"/>
+    <person id="662" name="Hanneli Tavante" candidate="326" main="1"/>
+    <person id="664" name="Marcio Galli" candidate="328" main="1"/>
+    <person id="666" name="Luan Cestari" candidate="326" main="0"/>
+    <person id="666" name="Luan Cestari" candidate="330" main="0"/>
+    <person id="665" name="Antonio Fernando Santos Ladeia" candidate="340" main="1"/>
+    <person id="667" name="Diane Carol Mueller" candidate="336" main="1"/>
+    <person id="667" name="Diane Carol Mueller" candidate="337" main="1"/>
+    <person id="449" name="Luiz Rauber" candidate="345" main="1"/>
+    <person id="675" name="Ta&#237;s Boeira" candidate="345" main="0"/>
+    <person id="659" name="Gabriel de Souza Fedel" candidate="351" main="1"/>
+    <person id="662" name="Hanneli Tavante" candidate="330" main="1"/>
+    <person id="508" name="Andre Alves Garzia" candidate="356" main="1"/>
+    <person id="527" name="Ricardo Panaggio" candidate="356" main="0"/>
+    <person id="674" name="" candidate="345" main="0"/>
+    <person id="439" name="Matheus Pereira" candidate="387" main="1"/>
+    <person id="697" name="Marcelo Dieder" candidate="369" main="1"/>
+    <person id="693" name="Mauricio Piacentini" candidate="371" main="1"/>
+    <person id="527" name="Ricardo Panaggio" candidate="370" main="1"/>
+    <person id="666" name="Luan Cestari" candidate="379" main="1"/>
+    <person id="609" name="Thiago Sousa Santos" candidate="380" main="1"/>
+    <person id="527" name="Ricardo Panaggio" candidate="388" main="1"/>
+    <person id="72" name="Luiz Blanes" candidate="392" main="1"/>
+    <person id="640" name="Jo&#227;o Toss Molon" candidate="387" main="0"/>
+    <person id="528" name="Coragem" candidate="370" main="0"/>
+    <person id="528" name="Coragem" candidate="388" main="0"/>
+    <person id="662" name="Hanneli Tavante" candidate="379" main="0"/>
+    <person id="645" name="Luciano Camargo Cruz" candidate="387" main="0"/>
+    <person id="653" name="" candidate="345" main="0"/>
+    <person id="697" name="Marcelo Dieder" candidate="378" main="1"/>
+    <person id="23" name="Raniere Gaia Costa da Silva" candidate="455" main="1"/>
+    <person id="391" name="Lais Farias Alves" candidate="397" main="1"/>
+    <person id="391" name="Lais Farias Alves" candidate="396" main="0"/>
+    <person id="397" name="Rafael Melero" candidate="396" main="0"/>
+    <person id="565" name="Cleiton Galv&#227;o Santana" candidate="397" main="0"/>
+    <person id="715" name="Jos&#233; Francisco Nunes Fernandez" candidate="404" main="1"/>
+    <person id="713" name="adriano belis&#225;rio" candidate="283" main="0"/>
+    <person id="759" name="Nick Vidal" candidate="452" main="0"/>
+    <person id="476" name="Rafael Biriba" candidate="422" main="1"/>
+    <person id="725" name="Diego Ramos Ruggeri" candidate="424" main="1"/>
+    <person id="729" name="M&#225;rcia Santos Almeida" candidate="397" main="0"/>
+    <person id="487" name="Relsi Maron" candidate="434" main="1"/>
+    <person id="733" name="Guilherme RazGriz" candidate="435" main="1"/>
+    <person id="736" name="Ignacio Nin" candidate="438" main="1"/>
+    <person id="762" name="Christiano Anderson" candidate="454" main="1"/>
+    <person id="527" name="Ricardo Panaggio" candidate="455" main="0"/>
+    <person id="577" name="Sergio Durigan Junior" candidate="455" main="0"/>
+    <person id="415" name="Niels de Vos" candidate="467" main="1"/>
+    <person id="765" name="" candidate="455" main="0"/>
+    <person id="773" name="" candidate="378" main="0"/>
+    <person id="527" name="Ricardo Panaggio" candidate="258" main="0"/>
+    <person id="415" name="Niels de Vos" candidate="468" main="1"/>
+    <person id="750" name="Marcelo Ricardo Leitner" candidate="474" main="1"/>
+    <person id="630" name="Jo&#227;o Avelino Bellomo Filho" candidate="474" main="0"/>
+    <person id="761" name="Adolfo Brandes" candidate="378" main="0"/>
+    <person id="796" name="Antonio Terceiro" candidate="475" main="1"/>
+    <person id="757" name="Renato" candidate="452" main="1"/>
+    <person id="796" name="Antonio Terceiro" candidate="477" main="1"/>
+    <person id="798" name="Camila Achutti" candidate="479" main="1"/>
+    <person id="803" name="Alex Oviedo" candidate="481" main="1"/>
+    <person id="804" name="Alexandre Hannud Abdo" candidate="483" main="1"/>
+    <person id="804" name="Alexandre Hannud Abdo" candidate="484" main="1"/>
+    <person id="806" name="Jos&#233; Ot&#225;vio Pompeu e Silva" candidate="485" main="1"/>
+    <person id="805" name="Carlos Roberto Moratelli" candidate="486" main="1"/>
+    <person id="808" name="Jean Christophe Houzel" candidate="485" main="0"/>
+    <person id="807" name="Rogerio Mandelli" candidate="485" main="0"/>
+    <person id="565" name="Cleiton Galv&#227;o Santana" candidate="396" main="1"/>
+    <person id="790" name="Adriano Cupello" candidate="156" main="0"/>
+    <person id="791" name="Luigui Delyer" candidate="156" main="0"/>
+    <person id="816" name="Brian Proffitt" candidate="490" main="1"/>
+    <person id="825" name="Jo&#227;o Eriberto Mota Filho" candidate="496" main="1"/>
+    <person id="826" name="JM Guaimas" candidate="497" main="1"/>
+    <person id="827" name="pedro rezende" candidate="498" main="1"/>
+    <person id="829" name="Marco Antonio de Azevedo Maciel" candidate="396" main="0"/>
+    <person id="891" name="Joe Brockmeier" candidate="537" main="1"/>
+    <person id="817" name="Ernani Azevedo" candidate="505" main="1"/>
+    <person id="848" name="Salete Farias" candidate="507" main="1"/>
+    <person id="835" name="Jim Perrin" candidate="509" main="1"/>
+    <person id="834" name="Kemel Zaidan" candidate="510" main="1"/>
+    <person id="843" name="Desiree Santos" candidate="512" main="1"/>
+    <person id="853" name="Mauro Carvalho Chehab" candidate="513" main="1"/>
+    <person id="800" name="Mois&#233;s Souto" candidate="514" main="1"/>
+    <person id="856" name="menoni" candidate="516" main="1"/>
+    <person id="783" name="Leonardo Gemelli Machado" candidate="518" main="1"/>
+    <person id="583" name="Lucas R. Martins" candidate="521" main="1"/>
+    <person id="867" name="miltonlab" candidate="522" main="1"/>
+    <person id="793" name="Paulo Castro" candidate="525" main="1"/>
+    <person id="874" name="Pedro " candidate="525" main="0"/>
+    <person id="870" name="Neri Aldoir Neitzke" candidate="527" main="1"/>
+    <person id="868" name="Douglas Pinho de Avila" candidate="529" main="1"/>
+    <person id="882" name="Jeremie Zimmermann" candidate="531" main="1"/>
+    <person id="814" name="Raphael Amorim" candidate="536" main="1"/>
+    <person id="884" name="Aracele Torres" candidate="541" main="1"/>
+    <person id="499" name="Juliana Maria Oliveira dos Santos" candidate="561" main="1"/>
+    <person id="883" name="Gustavo Rocha Pereira de Souza" candidate="543" main="1"/>
+    <person id="861" name="Tiago Zonta" candidate="518" main="0"/>
+    <person id="411" name="Vit&#243;ria Vasconcelos" candidate="550" main="1"/>
+    <person id="896" name="Laurent Le Avner Quevedo" candidate="555" main="1"/>
+    <person id="855" name="Guilherme Nogueira" candidate="559" main="1"/>
+    <person id="909" name="Caesar Ralf Franz Hoppen" candidate="559" main="0"/>
+    <person id="913" name="Fr3d V&#225;zquez" candidate="569" main="1"/>
+    <person id="696" name="C&#237;ntia Merc&#234;s" candidate="561" main="0"/>
+    <person id="589" name="Eduardo Lucas" candidate="455" main="0"/>
+    <person id="921" name="Rafael Reggiani Manzo" candidate="577" main="1"/>
+    <person id="900" name="Vini Andrade" candidate="556" main="1"/>
+    <person id="654" name="Debora Abdalla Santos" candidate="561" main="0"/>
+    <person id="924" name="Diego Martinez" candidate="577" main="0"/>
+    <person id="876" name="Marcelo Mallmann Dias" candidate="578" main="1"/>
+    <person id="833" name="Diego de Freitas Aranha" candidate="579" main="1"/>
+    <person id="879" name="Adolfo Lempke" candidate="529" main="0"/>
+    <person id="878" name="Tamires Martins" candidate="529" main="0"/>
+    <person id="916" name="" candidate="569" main="0"/>
+    <person id="931" name="M&#244;nica Paz" candidate="583" main="1"/>
+    <person id="854" name="Davi Duarte e Matheus Pereira" candidate="584" main="1"/>
+    <person id="577" name="Sergio Durigan Junior" candidate="579" main="0"/>
+    <person id="439" name="Matheus Pereira" candidate="584" main="0"/>
+    <person id="912" name="&#193;lvaro Justen" candidate="585" main="1"/>
+    <person id="378" name="Alessandro de Oliveira Faria (A.K.A. CABELO)" candidate="586" main="1"/>
+    <person id="940" name="ORGANIZA&#199;&#195;O" candidate="589" main="1"/>
+    <person id="940" name="ORGANIZA&#199;&#195;O" candidate="590" main="1"/>
+    <person id="940" name="ORGANIZA&#199;&#195;O" candidate="591" main="1"/>
+    <person id="941" name="Karlisson Bezerra" candidate="593" main="1"/>
+    <person id="942" name="Nelson Pretto" candidate="594" main="1"/>
+    <person id="940" name="ORGANIZA&#199;&#195;O" candidate="595" main="1"/>
+    <person id="940" name="ORGANIZA&#199;&#195;O" candidate="596" main="1"/>
+    <person id="945" name="Thomas Soares" candidate="596" main="0"/>
+    <person id="947" name="Sandro S. Andrade" candidate="597" main="1"/>
+    <person id="1" name="Felipe Mobus" candidate="596" main="0"/>
+    <person id="948" name="Nancy Michelle Torres Villanueva" candidate="598" main="1"/>
+    <person id="950" name="Robert Janssen" candidate="600" main="1"/>
+    <person id="951" name="Lucas C. Villa Real" candidate="601" main="1"/>
+    <person id="952" name="Alfredo Goldman" candidate="602" main="1"/>
+    <person id="953" name="Jo&#227;o Machini" candidate="603" main="1"/>
+    <person id="937" name="Eduardo Silva" candidate="604" main="1"/>
+    <person id="985" name="George Silva" candidate="628" main="1"/>
+    <person id="957" name="Cezar Taurion" candidate="606" main="1"/>
+    <person id="958" name="Kevin Ottens" candidate="607" main="1"/>
+    <person id="987" name="Jomar Silva" candidate="629" main="1"/>
+    <person id="982" name="Seth Schoen" candidate="625" main="1"/>
+    <person id="496" name="Andr&#233; Bianchi" candidate="624" main="1"/>
+    <person id="442" name="Andr&#233; Felipe Machado" candidate="608" main="1"/>
+    <person id="496" name="Andr&#233; Bianchi" candidate="627" main="1"/>
+    <person id="981" name="Daniel Kahn Gillmor" candidate="626" main="1"/>
+    <person id="981" name="Daniel Kahn Gillmor" candidate="624" main="0"/>
+    <person id="965" name="Daniela Feitosa" candidate="609" main="1"/>
+    <person id="986" name="Pedro Monteiro Kayatt" candidate="628" main="0"/>
+    <person id="967" name="Daniel Costa Bucher" candidate="609" main="0"/>
+    <person id="966" name="Ana Lu&#237;sa de Almeida Losnak" candidate="609" main="0"/>
+    <person id="964" name="Daniela da Silva Corso" candidate="452" main="0"/>
+    <person id="970" name="Thiago Paix&#227;o" candidate="613" main="1"/>
+    <person id="48" name="Alessandro Silva" candidate="610" main="1"/>
+    <person id="565" name="Cleiton Galv&#227;o Santana" candidate="611" main="1"/>
+    <person id="486" name="Morvana Bonin" candidate="617" main="1"/>
+    <person id="971" name="Antonio Fernandes C. Neto" candidate="614" main="1"/>
+    <person id="607" name="Filipe de Oliveira Saraiva" candidate="615" main="1"/>
+    <person id="18" name="Ismael Castagnet Lacuesta" candidate="619" main="1"/>
+    <person id="973" name="Mois&#233;s Souto" candidate="620" main="1"/>
+    <person id="972" name="Carlos Alberto Jacques de Castro" candidate="618" main="1"/>
+    <person id="975" name="Ophelia Van Campenhout" candidate="621" main="1"/>
+    <person id="974" name="Andressa Cruz Nepomuceno" candidate="555" main="0"/>
+    <person id="902" name="Roger Campos Godoy" candidate="616" main="1"/>
+    <person id="976" name="Julio Neves" candidate="622" main="1"/>
+    <person id="977" name="Jean Ferri" candidate="623" main="1"/>
+    <person id="956" name="Sterling David Allan" candidate="605" main="1"/>
+    <person id="940" name="ORGANIZA&#199;&#195;O" candidate="630" main="0"/>
+    <person id="989" name="Jos&#233; Doralvino" candidate="630" main="0"/>
+    <person id="989" name="Jos&#233; Doralvino" candidate="631" main="1"/>
+    <person id="990" name="Ana Barcellos" candidate="631" main="0"/>
+    <person id="988" name="Dinis Agostinho" candidate="630" main="1"/>
+    <person id="992" name="L&#237;dia Chamelete" candidate="631" main="0"/>
+    <person id="968" name="Joenio Costa" candidate="609" main="0"/>
+    <person id="993" name="Claudia Melo" candidate="632" main="1"/>
+    <person id="995" name="Sascha Meinrath" candidate="634" main="1"/>
+    <person id="994" name="Peter Zaitsev" candidate="633" main="1"/>
+  </authorship>
+  <rooms>
+    <room id="8">
+      <venue>1</venue>
+      <capacity>506</capacity>
+      <translation>True</translation>
+      <name>40T</name>
+      <position>1</position>
+    </room>
+    <room id="1">
+      <venue>1</venue>
+      <capacity>351</capacity>
+      <translation>True</translation>
+      <name>41A</name>
+      <position>2</position>
+    </room>
+    <room id="2">
+      <venue>1</venue>
+      <capacity>350</capacity>
+      <translation>False</translation>
+      <name>41B</name>
+      <position>3</position>
+    </room>
+    <room id="3">
+      <venue>1</venue>
+      <capacity>250</capacity>
+      <translation>False</translation>
+      <name>41C</name>
+      <position>4</position>
+    </room>
+    <room id="4">
+      <venue>1</venue>
+      <capacity>250</capacity>
+      <translation>False</translation>
+      <name>41D</name>
+      <position>5</position>
+    </room>
+    <room id="5">
+      <venue>1</venue>
+      <capacity>250</capacity>
+      <translation>False</translation>
+      <name>41E</name>
+      <position>6</position>
+    </room>
+    <room id="6">
+      <venue>1</venue>
+      <capacity>250</capacity>
+      <translation>False</translation>
+      <name>41F</name>
+      <position>7</position>
+    </room>
+    <room id="7">
+      <venue>1</venue>
+      <capacity>110</capacity>
+      <translation>False</translation>
+      <name>40A</name>
+      <position>8</position>
+    </room>
+    <room id="714">
+      <venue>1</venue>
+      <capacity>40</capacity>
+      <translation>False</translation>
+      <name>701 OF1</name>
+      <position>14</position>
+    </room>
+    <room id="720">
+      <venue>1</venue>
+      <capacity>40</capacity>
+      <translation>False</translation>
+      <name>702 - OF2</name>
+      <position>15</position>
+    </room>
+    <room id="717">
+      <venue>1</venue>
+      <capacity>40</capacity>
+      <translation>False</translation>
+      <name>Reuni&#245;es 710</name>
+      <position>16</position>
+    </room>
+    <room id="718">
+      <venue>1</venue>
+      <capacity>50</capacity>
+      <translation>False</translation>
+      <name>F12</name>
+      <position>17</position>
+    </room>
+  </rooms>
+  <areas>
+    <area id="38">
+      <name>Administra&#231;&#227;o de Sistemas e VoIP</name>
+      <descr>Palestras t&amp;#233;cnicas sobre administra&amp;#231;&amp;#227;o de sistemas livres em geral. Servi&amp;#231;os de rede como MTA's, gerenciamento de usu&amp;#225;rios e grupos, autentica&amp;#231;&amp;#227;o, monitora&amp;#231;&amp;#227;o, servidores web, infra-estrutura, gerenciamento de sistemas operacionais, ger&amp;#234;ncia de pacotes, gerenciamento de servi&amp;#231;os do sistema, Palestras sobre softwares e protocolos de voz sobre IP, etc.</descr>
+      <zone>13</zone>
+      <public>True</public>
+      <quota>4</quota>
+      <color>FFE5C9</color>
+    </area>
+    <area id="71">
+      <name>Desktop e Distribui&#231;&#245;es</name>
+      <descr>Palestras t&amp;#233;cnicas sobre uso de software livre em desktop, voltadas 224 realiza&amp;#231;&amp;#227;o de tarefas cotidianas, sejam em ambiente profissional ou dom&amp;#233;stico. Plataformas Desktop, Aplica&amp;#231;&amp;#245;es voltadas a usu&amp;#225;rio final, automa&amp;#231;&amp;#227;o de escrit&amp;#243;rio, utilit&amp;#225;rios para internet, gerenciadores de janela, ferramentas de produtividade. Plataformas espaciais de hard</descr>
+      <zone>15</zone>
+      <public>True</public>
+      <quota>2</quota>
+      <color>C9EAFF</color>
+    </area>
+    <area id="77">
+      <name>Ecossistema / Cultura</name>
+      <descr>Comunidade, Filosofia, Legisla&amp;#231;&amp;#227;o e Cultura Livre. Palestras que discutam aspectos relativos 224 sustentabilidade econ244mica do software livre, forma&amp;#231;&amp;#227;o de ecossistema sustent&amp;#225;vel de produ&amp;#231;&amp;#227;o e consumo dentro da l&amp;#243;gica do compartilhamento. Aspectos pol&amp;#237;ticos e jur&amp;#237;dicos que influenciam na ado&amp;#231;&amp;#227;o e no desenvolvimento de</descr>
+      <zone>16</zone>
+      <public>True</public>
+      <quota>2</quota>
+      <color>C9CEFF</color>
+    </area>
+    <area id="83">
+      <name>Educa&#231;&#227;o e Inclus&#227;o Digital</name>
+      <descr>Palestras sobre o Software Livre e seus impactos sobre a forma&amp;#231;&amp;#227;o das pessoas. A influ&amp;#234;ncia da cultura da comunidade do software livre na educa&amp;#231;&amp;#227;o e em projetos de inclus&amp;#227;o social. Software livre e acessibilidade. Projetos de inclus&amp;#227;o digital baseados em software livre: planejamento, execu&amp;#231;&amp;#227;o e resultados. Apropria&amp;#231;&amp;#227;o do software livre pelas comunidades </descr>
+      <zone>17</zone>
+      <public>True</public>
+      <quota>10</quota>
+      <color>E0C9FF</color>
+    </area>
+    <area id="86">
+      <name>Eventos Comunit&#225;rios</name>
+      <descr>13
+            Para esta trilha devem ser submetidas as propostas de eventos comunit&amp;#225;rios. Os eventos comunit&amp;#225;rios s&amp;#227;o sub-eventos dentro do FISL onde as comunidades de Software Livre tem plena liberdade em decidir conte&amp;#250;do, temas e palestrantes.13
+        </descr>
+      <zone>18</zone>
+      <public>False</public>
+      <quota>0</quota>
+      <color>EEC9FF</color>
+    </area>
+    <area id="53">
+      <name>Ferramentas, Metodologias e Padr&#245;es</name>
+      <descr>O foco dessa trilha s&amp;#227;o palestras t&amp;#233;cnicas com temas ligados a desenvolvimento com software livre  e controle de vers&amp;#227;o, ferramentas de desenvolvimento, implementa&amp;#231;&amp;#245;es livres de padr&amp;#245;es da ind&amp;#250;stria e processos de desenvolvimento de software livre, al&amp;#233;m de integra&amp;#231;&amp;#227;o com aplica&amp;#231;&amp;#245;es, manuten&amp;#231;&amp;#227;o, comparativos e an</descr>
+      <zone>14</zone>
+      <public>True</public>
+      <quota>9</quota>
+      <color>D2FFC9</color>
+    </area>
+    <area id="41">
+      <name>Gerenciamento de Dados</name>
+      <descr>Palestras t&amp;#233;cnicas sobre bancos de dados livres, bancos de dados distribu&amp;#237;dos, bancos de dados n&amp;#227;o convencionais (n&amp;#227;o relacionais), PostgreSQL, MySQL, Firebird, SQLite, entre outros Armazenamento e recupera&amp;#231;&amp;#227;o de dados, tecnologias NAS, DAS, SAN, RAID, protocolos como FCiP, FCoE, iFCP, AoE, iSCSI, softwares como FreeNAS, OpenFiler, Naslite 1, protocolos em camadas mais altas como NFS, CIFS, FTP, RSYNC, entre outros </descr>
+      <zone>13</zone>
+      <public>True</public>
+      <quota>1</quota>
+      <color>FFF3C9</color>
+    </area>
+    <area id="56">
+      <name>Ger&#234;ncia de Conte&#250;do</name>
+      <descr>O foco dessa trilha s&amp;#227;o palestras t&amp;#233;cnicas com temas ligados a sistemas da chamada web2.0 portais blogs, microblogs wikis e outros ambientes colaborativos disponibiliza&amp;#231;&amp;#227;o de conte&amp;#250;do Peer to Peer, manuten&amp;#231;&amp;#227;o, comparativos e an&amp;#225;lises de desempenho nessas tecnologias. Est&amp;#225; no escopo dessa trilha tanto a utiliza&amp;#231;&amp;#227;o dessas tecnologias como o desenvolvim</descr>
+      <zone>14</zone>
+      <public>True</public>
+      <quota>1</quota>
+      <color>C9FFCE</color>
+    </area>
+    <area id="44">
+      <name>Hardware, Sistemas Embarcados e Rob&#243;tica</name>
+      <descr>Palestras sobre uso e desenvolvimento de software livre em hardware, sistemas embarcados e rob&amp;#243;tica. Plataformas livres para execu&amp;#231;&amp;#227;o em software embarcado. Adapta&amp;#231;&amp;#227;o de softwares livre para essas arquiteturas. Especifica&amp;#231;&amp;#245;es de Hardware Livre. Comparativos e an&amp;#225;lises de desempenho. Note que palestras sobre o ecossistema de Hardware, sistemas embarcados e Rob&amp;#243;tica livre N</descr>
+      <zone>13</zone>
+      <public>True</public>
+      <quota>6</quota>
+      <color>FCFFC9</color>
+    </area>
+    <area id="74">
+      <name>Jogos, Multim&#237;dia e Streaming</name>
+      <descr>13
+            Palestras sobre t&amp;#233;cnicas e ferramentas para desenvolvimento de jogos com Software Livre. Inova&amp;#231;&amp;#245;es de jogos livres. Desafios da comunidade de jogos livres.13
+            Palestras t&amp;#233;cnicas sobre desenvolvimento e execu&amp;#231;&amp;#227;o de conte&amp;#250;do multim&amp;#237;dia com software livre. Arte Digital com software livre13
+            Gr&amp;#225;ficos 2d, 3d Desenho t&amp;#233;cnico</descr>
+      <zone>15</zone>
+      <public>True</public>
+      <quota>13</quota>
+      <color>C9DCFF</color>
+    </area>
+    <area id="47">
+      <name>Kernel, Sistemas de Arquivos e Sistemas Operacionais</name>
+      <descr>Palestras t&amp;#233;cnicas sobre kernel de sistemas operacionais livres. Desenvolvimento de m&amp;#243;dulos, diferentes arquiteturas, comparativos e casos de desenvolvimento de kernels livres para miss&amp;#245;es ou arquiteturas espec&amp;#237;ficas. Palestras t&amp;#233;cnicas sobre sistemas de arquivos livres, suas diversas implementa&amp;#231;&amp;#245;es, comparativos, desenvolvimento e outros t&amp;#243;picos relativos a sistemas operacionais livres. Note</descr>
+      <zone>13</zone>
+      <public>True</public>
+      <quota>6</quota>
+      <color>EEFFC9</color>
+    </area>
+    <area id="80">
+      <name>Neg&#243;cios, Implementa&#231;&#245;es e Casos</name>
+      <descr>Apresenta&amp;#231;&amp;#227;o de casos de sucesso (e insucesso) na ado&amp;#231;&amp;#227;o de software livre por institui&amp;#231;&amp;#245;es p&amp;#250;blicas e privadas. Casos de migra&amp;#231;&amp;#227;o (planejamento, execu&amp;#231;&amp;#227;o e resultados). Casos de institui&amp;#231;&amp;#245;es que ap&amp;#243;s adotarem software livre passaram a contribuir com a comunidade. Barreiras 224 migra&amp;#231;</descr>
+      <zone>16</zone>
+      <public>True</public>
+      <quota>8</quota>
+      <color>D2C9FF</color>
+    </area>
+    <area id="95">
+      <name>Oficinas</name>
+      <descr>&lt;descr/&gt;</descr>
+      <zone>21</zone>
+      <public>True</public>
+      <quota>10</quota>
+      <color>FFC9E5</color>
+    </area>
+    <area id="92">
+      <name>Organiza&#231;&#227;o</name>
+      <descr>&lt;descr/&gt;</descr>
+      <zone>20</zone>
+      <public>False</public>
+      <quota>0</quota>
+      <color>FFC9F3</color>
+    </area>
+    <area id="59">
+      <name>Outras linguagens</name>
+      <descr>O foco dessa trilha s&amp;#227;o palestras t&amp;#233;cnicas com temas ligados a desenvolvimento de implementa&amp;#231;&amp;#245;es livres de linguagens de programa&amp;#231;&amp;#227;o ou de desenvolvimento utilizando tais linguagens al&amp;#233;m de integra&amp;#231;&amp;#227;o com aplica&amp;#231;&amp;#245;es(ou servi&amp;#231;os), manuten&amp;#231;&amp;#227;o, comparativos e an&amp;#225;lises de desempenho nessas tecnologias. Est</descr>
+      <zone>14</zone>
+      <public>True</public>
+      <quota>7</quota>
+      <color>C9FFDC</color>
+    </area>
+    <area id="62">
+      <name>PHP e Java</name>
+      <descr>O foco dessa trilha s&amp;#227;o palestras t&amp;#233;cnicas com temas ligados a desenvolvimento das linguagens de programa&amp;#231;&amp;#227;o Java e PHP ou de desenvolvimento utilizando essas linguagens al&amp;#233;m de integra&amp;#231;&amp;#227;o com aplica&amp;#231;&amp;#245;es(ou servi&amp;#231;os), manuten&amp;#231;&amp;#227;o, comparativos e an&amp;#225;lises de desempenho nessas tecnologias.</descr>
+      <zone>14</zone>
+      <public>True</public>
+      <quota>3</quota>
+      <color>C9FFEA</color>
+    </area>
+    <area id="65">
+      <name>Python, Ruby e Perl</name>
+      <descr>O foco dessa trilha s&amp;#227;o palestras t&amp;#233;cnicas com temas ligados a desenvolvimento das linguagens de programa&amp;#231;&amp;#227;o Python, Ruby e Perl ou de desenvolvimento utilizando essas linguagens al&amp;#233;m de integra&amp;#231;&amp;#227;o com aplica&amp;#231;&amp;#245;es(ou servi&amp;#231;os), manuten&amp;#231;&amp;#227;o, comparativos e an&amp;#225;lises de desempenho nessas tecnologias.</descr>
+      <zone>14</zone>
+      <public>True</public>
+      <quota>4</quota>
+      <color>C9FFF8</color>
+    </area>
+    <area id="50">
+      <name>Seguran&#231;a</name>
+      <descr>Palestras sobre ferramentas de seguran&amp;#231;a, firewall, sistemas de detec&amp;#231;&amp;#227;o de intrus&amp;#227;o, pol&amp;#237;ticas de seguran&amp;#231;a e demais quest&amp;#245;es relacionadas.</descr>
+      <zone>13</zone>
+      <public>True</public>
+      <quota>8</quota>
+      <color>E0FFC9</color>
+    </area>
+    <area id="89">
+      <name>T&#243;picos Emergentes</name>
+      <descr>Apresenta&amp;#231;&amp;#227;o de aplica&amp;#231;&amp;#245;es implementadas usando buzzwords e novas tecnologias (que n&amp;#227;o s&amp;#227;o encaixadas nas trilhas acima).</descr>
+      <zone>19</zone>
+      <public>True</public>
+      <quota>15</quota>
+      <color>FCC9FF</color>
+    </area>
+    <area id="68">
+      <name>Visual/GUI</name>
+      <descr>O foco dessa trilha s&amp;#227;o palestras t&amp;#233;cnicas com temas ligados a desenvolvimento visual com software livre tanto desktop, como web ou mobile.  Desenvolvimento de interfaces acess&amp;#237;veis Frameworks t&amp;#233;cnicas e tecnologias para desenvolvimento de interfacer(ex.:  Qt, GTK, WXWidgets, css, ajax...), manuten&amp;#231;&amp;#227;o, comparativos e an&amp;#225;lises de desempenho nessas tecnologias. Est&amp;#225; no escopo dessa trilha tant</descr>
+      <zone>14</zone>
+      <public>True</public>
+      <quota>1</quota>
+      <color>C9F8FF</color>
+    </area>
+    <area id="3">
+      <name>criptoparty</name>
+      <descr>&#193;rea para as atividades de criptografia e seguran&#231;a.</descr>
+      <zone>21</zone>
+      <public>True</public>
+      <color>FFC9C9</color>
+    </area>
+  </areas>
+  <zones>
+    <zone id="13">
+      <name>Admin</name>
+      <event>4</event>
+      <public>True</public>
+    </zone>
+    <zone id="14">
+      <name>Desenvolvimento</name>
+      <event>4</event>
+      <public>True</public>
+    </zone>
+    <zone id="15">
+      <name>Desktop</name>
+      <event>4</event>
+      <public>True</public>
+    </zone>
+    <zone id="16">
+      <name>Ecossistema</name>
+      <event>4</event>
+      <public>True</public>
+    </zone>
+    <zone id="17">
+      <name>Educa&#231;&#227;o</name>
+      <event>4</event>
+      <public>True</public>
+    </zone>
+    <zone id="18">
+      <name>Enc. Comunit&#225;rios</name>
+      <event>4</event>
+      <public>True</public>
+    </zone>
+    <zone id="21">
+      <name>Oficinas</name>
+      <event>4</event>
+      <public>True</public>
+    </zone>
+    <zone id="20">
+      <name>Organiza&#231;&#227;o</name>
+      <event>4</event>
+      <public>True</public>
+    </zone>
+    <zone id="19">
+      <name>T&#243;picos Emergentes</name>
+      <event>4</event>
+      <public>True</public>
+    </zone>
+  </zones>
+  <recordings/>
+</response>

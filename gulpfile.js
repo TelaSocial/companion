@@ -13,13 +13,14 @@ var paths = {
             layouts: 'src/templates/layouts/',
             partials: 'src/templates/partials/*.hbs',
             pages: 'src/templates/pages/*.hbs',
-            data: 'src/data/*.json',
+            data: 'src/data/',
             scripts: ['src/scripts/**/*.js', '!src/scripts/gulp-tasks/**/*.js'],
             styles: 'src/styles/'
         },
         build: {
             root: 'dist',
             www: 'dist/www/',
+            data: 'dist/www/data',
             js: 'dist/www/js',
             css: 'dist/www/css',
             scss: 'dist/www/css/src/styles/',
@@ -46,10 +47,18 @@ gulp.task('createBuildDir', function(cb){
 });
 
 //web
+gulp.task('web:buildData', tasks.web.buildData);
 gulp.task('web:buildScripts', tasks.web.buildScripts);
 gulp.task('web:buildStyles', tasks.web.buildStyles);
 gulp.task('web:buildPages', tasks.web.buildPages);
-gulp.task('web:build', ['web:buildScripts', 'web:buildStyles', 'web:buildPages']);
+gulp.task('web:build',
+    [
+        'web:buildData',
+        'web:buildScripts',
+        'web:buildStyles',
+        'web:buildPages'
+    ]
+);
 
 
 //cordova

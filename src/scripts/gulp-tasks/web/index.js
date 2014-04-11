@@ -5,6 +5,11 @@ var gulp = require('gulp'),
 
 module.exports = function(paths){
 
+    this.buildData = function(){
+        return  gulp.src(paths.sources.data + '**/*.*')
+                    .pipe(gulp.dest(paths.build.data));
+    };
+
     this.buildScripts = function(){
         return  gulp.src(paths.sources.scripts)
                     .pipe(gulp.dest(paths.build.js));
@@ -28,7 +33,7 @@ module.exports = function(paths){
         var options = {
             layoutdir: paths.sources.layouts,
             partials: paths.sources.partials,
-            data: paths.sources.data,
+            data: paths.sources.data + '*.json',
             log: {
                 level: 'error' // verbose, debug, info, warning, error, critical
             }

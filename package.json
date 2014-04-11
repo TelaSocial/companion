@@ -43,7 +43,7 @@
       "console": true,
       "require": true,
       "module": true,
-      "$": true,
+      "jQuery": true,
       "alert": true
     }
   },
