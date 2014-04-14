@@ -1,5 +1,6 @@
 'use strict';
-var jQuery = require('jquery');
+var jQuery = require('jquery'),
+    FISLParser = require('./lib/fisl/feed-parser');
 
 var debugApp = function($){
     var isCordova = document.URL.substring(0,4) === 'file';
@@ -15,11 +16,9 @@ var debugApp = function($){
         .done(function(data) {
             console.log('Load was performed [1]: ' + (typeof data));
             var textArea = $('#payload'),
-                $xml = $(data),
-                eventId = $xml.find('event_id').text();
-            console.log('Load was performed [2]:' + $xml);
-            console.log('Load was performed [3]:' + eventId);
+                parser = new FISLParser($, new Date('2014-05-07T00:01-03:00'));
             textArea.val(data);
+            parser.parse(data);
         }).fail(function() {
             console.log('error');
         }).always(function() {
