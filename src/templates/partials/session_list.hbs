@@ -1,3 +1,5 @@
-<section class="day {{@key}}">
-    {{this}}
-</section>
+<ul>
+{{#each schedule.sessions}}
+    {{>session}}
+{{/each}}
+</ul>
