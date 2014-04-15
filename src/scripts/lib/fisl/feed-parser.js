@@ -1,13 +1,27 @@
 'use strict';
 var FeedParser = function($, eventDate){
 
-    this.parse = function (data){
+    var sortByStart = function (a,b){
+        return a.start > b.start ? 1 : -1;
+    };
+    this.parse = function (data, grouped_by){
 
-// (default)    day
+// grouped_by
+// ----------
+//
+// (room)
+//              day
 //               |
-//               +-> room
+//               +-> rooms
 //                     |
-//                     +-> session
+//                     +-> sessions
+
+// (time)
+//             day
+//              |
+//               +-> time
+//                     |
+//                     +-> sessions
 
 
         var $xml = (typeof data === 'string') ? $(data) : $('response'),
@@ -17,8 +31,10 @@ var FeedParser = function($, eventDate){
             roomIdToIndex = {},
             candidates = {},
             rooms = [],
+            sessions = [],
             days = [];
 
+        grouped_by = (grouped_by === undefined) ? 'room' : 'time';
         authorElements.each(function(){
             var person = $(this),
                 id = person.attr('id'),
@@ -99,17 +115,21 @@ var FeedParser = function($, eventDate){
                 emptyRooms = [];
 
             if (days[dayIndex] === undefined){
-                for (var i = rooms.length - 1; i >= 0; i--) {
-                    emptyRooms.push({
-                        sessions: []
-                    });
+                if (grouped_by === 'room'){
+                    for (var i = rooms.length - 1; i >= 0; i--) {
+                        emptyRooms.push({
+                            sessions: []
+                        });
+                    }
+                    days[dayIndex] = {
+                        rooms: emptyRooms
+                    };
+                } else {
+                    days[dayIndex] = {
+                        times: {
+                        }
+                    };
                 }
-                days[dayIndex] = {
-                    rooms: emptyRooms
-                };
-            }
-            if (days[dayIndex].rooms[roomIndex] === null){
-                console.log('FOO');
             }
             var session = {
                 id: id,
@@ -117,12 +137,39 @@ var FeedParser = function($, eventDate){
                 abstract: abstract,
                 start: start,
                 authors: authors,
+                roomId: room,
+                roomIndex: roomIndex,
+                dayIndex: dayIndex,
                 areaId: area,
                 zoneId: zone,
                 level: level
             };
-            days[dayIndex].rooms[roomIndex].sessions.push(session);
+            if (grouped_by === 'room'){
+                days[dayIndex].rooms[roomIndex].sessions.push(session);
+            } else {
+                sessions.push(session);
+            }
         });
+
+        //sort sessions in a room by starting time
+        if (grouped_by === 'room'){
+            for (var d = days.length - 1; d >= 0; d--) {
+                for (var j = days[d].rooms.length - 1; j >= 0; j--) {
+                    days[d].rooms[j].sessions.sort(sortByStart);
+                }
+            }
+        } else {
+            sessions.sort(sortByStart);
+            for (var s = 0; s < sessions.length; s++) {
+                var session = sessions[s],
+                    start = session.start,
+                    dayIndex = session.dayIndex;
+                if (days[dayIndex].times[start] === undefined){
+                    days[dayIndex].times[start] = {sessions:[]};
+                }
+                days[dayIndex].times[start].sessions.push(session);
+            }
+        }
         // console.log(JSON.stringify(days, null, '  '));
         return  {
                     days: days,
