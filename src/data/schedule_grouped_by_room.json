@@ -11,6 +11,13 @@
               "start": "2014-05-07T09:00:00-03:00",
               "duration": 60,
               "end": "2014-05-07T13:00:00.000Z",
+              "authors": [
+                {
+                  "id": "940",
+                  "name": "ORGANIZAÇÃO",
+                  "main": true
+                }
+              ],
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 0,
@@ -31,6 +38,13 @@
               "start": "2014-05-07T13:00:00-03:00",
               "duration": 60,
               "end": "2014-05-07T17:00:00.000Z",
+              "authors": [
+                {
+                  "id": "803",
+                  "name": "Alex Oviedo",
+                  "main": true
+                }
+              ],
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 0,
@@ -49,6 +63,13 @@
               "start": "2014-05-07T14:00:00-03:00",
               "duration": 60,
               "end": "2014-05-07T18:00:00.000Z",
+              "authors": [
+                {
+                  "id": "998",
+                  "name": "Fernanda G Weiden",
+                  "main": true
+                }
+              ],
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 0,
@@ -67,6 +88,13 @@
               "start": "2014-05-07T15:00:00-03:00",
               "duration": 60,
               "end": "2014-05-07T19:00:00.000Z",
+              "authors": [
+                {
+                  "id": "489",
+                  "name": "Leslie Hawthorn",
+                  "main": true
+                }
+              ],
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 0,
@@ -85,6 +113,13 @@
               "start": "2014-05-07T16:00:00-03:00",
               "duration": 60,
               "end": "2014-05-07T20:00:00.000Z",
+              "authors": [
+                {
+                  "id": "982",
+                  "name": "Seth Schoen",
+                  "main": true
+                }
+              ],
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 0,
@@ -103,6 +138,13 @@
               "start": "2014-05-07T17:00:00-03:00",
               "duration": 60,
               "end": "2014-05-07T21:00:00.000Z",
+              "authors": [
+                {
+                  "id": "616",
+                  "name": "Jan Seidl",
+                  "main": true
+                }
+              ],
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 0,
@@ -157,6 +199,13 @@
               "start": "2014-05-07T10:00:00-03:00",
               "duration": 60,
               "end": "2014-05-07T14:00:00.000Z",
+              "authors": [
+                {
+                  "id": "816",
+                  "name": "Brian Proffitt",
+                  "main": true
+                }
+              ],
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 0,
@@ -175,6 +224,13 @@
               "start": "2014-05-07T11:00:00-03:00",
               "duration": 60,
               "end": "2014-05-07T15:00:00.000Z",
+              "authors": [
+                {
+                  "id": "415",
+                  "name": "Niels de Vos",
+                  "main": true
+                }
+              ],
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 0,
@@ -193,6 +249,13 @@
               "start": "2014-05-07T12:00:00-03:00",
               "duration": 60,
               "end": "2014-05-07T16:00:00.000Z",
+              "authors": [
+                {
+                  "id": "891",
+                  "name": "Joe Brockmeier",
+                  "main": true
+                }
+              ],
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 0,
@@ -211,6 +274,13 @@
               "start": "2014-05-07T14:00:00-03:00",
               "duration": 60,
               "end": "2014-05-07T18:00:00.000Z",
+              "authors": [
+                {
+                  "id": "942",
+                  "name": "Nelson Pretto",
+                  "main": true
+                }
+              ],
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 0,
@@ -234,6 +304,16 @@
                   "id": "389",
                   "name": "Guilherme",
                   "main": true
+                },
+                {
+                  "id": "395",
+                  "name": "",
+                  "main": false
+                },
+                {
+                  "id": "396",
+                  "name": "",
+                  "main": false
                 },
                 {
                   "id": "394",
@@ -268,6 +348,13 @@
               "start": "2014-05-07T09:00:00-03:00",
               "duration": 60,
               "end": "2014-05-07T13:00:00.000Z",
+              "authors": [
+                {
+                  "id": "476",
+                  "name": "Rafael Biriba",
+                  "main": true
+                }
+              ],
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 0,
@@ -288,6 +375,13 @@
               "start": "2014-05-07T10:00:00-03:00",
               "duration": 60,
               "end": "2014-05-07T14:00:00.000Z",
+              "authors": [
+                {
+                  "id": "612",
+                  "name": "Gilberto Sudre",
+                  "main": true
+                }
+              ],
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 0,
@@ -331,6 +425,28 @@
               "start": "2014-05-07T12:00:00-03:00",
               "duration": 60,
               "end": "2014-05-07T16:00:00.000Z",
+              "authors": [
+                {
+                  "id": "550",
+                  "name": "Arlindo Flavio da Conceição",
+                  "main": true
+                },
+                {
+                  "id": "643",
+                  "name": "",
+                  "main": false
+                },
+                {
+                  "id": "642",
+                  "name": "",
+                  "main": false
+                },
+                {
+                  "id": "644",
+                  "name": "Bruno Gabriel dos Santos",
+                  "main": false
+                }
+              ],
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 0,
@@ -349,6 +465,18 @@
               "start": "2014-05-07T13:00:00-03:00",
               "duration": 60,
               "end": "2014-05-07T17:00:00.000Z",
+              "authors": [
+                {
+                  "id": "416",
+                  "name": "Samuel Flores Moraes",
+                  "main": true
+                },
+                {
+                  "id": "449",
+                  "name": "Luiz Rauber",
+                  "main": false
+                }
+              ],
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 0,
@@ -367,6 +495,13 @@
               "start": "2014-05-07T14:00:00-03:00",
               "duration": 60,
               "end": "2014-05-07T18:00:00.000Z",
+              "authors": [
+                {
+                  "id": "912",
+                  "name": "Álvaro Justen",
+                  "main": true
+                }
+              ],
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 0,
@@ -385,6 +520,13 @@
               "start": "2014-05-07T15:00:00-03:00",
               "duration": 60,
               "end": "2014-05-07T19:00:00.000Z",
+              "authors": [
+                {
+                  "id": "940",
+                  "name": "ORGANIZAÇÃO",
+                  "main": true
+                }
+              ],
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 0,
@@ -403,6 +545,13 @@
               "start": "2014-05-07T16:00:00-03:00",
               "duration": 120,
               "end": "2014-05-07T21:00:00.000Z",
+              "authors": [
+                {
+                  "id": "940",
+                  "name": "ORGANIZAÇÃO",
+                  "main": true
+                }
+              ],
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 0,
@@ -425,6 +574,13 @@
               "start": "2014-05-07T10:00:00-03:00",
               "duration": 60,
               "end": "2014-05-07T14:00:00.000Z",
+              "authors": [
+                {
+                  "id": "951",
+                  "name": "Lucas C. Villa Real",
+                  "main": true
+                }
+              ],
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 0,
@@ -470,6 +626,13 @@
               "start": "2014-05-07T13:00:00-03:00",
               "duration": 60,
               "end": "2014-05-07T17:00:00.000Z",
+              "authors": [
+                {
+                  "id": "475",
+                  "name": "Carlos Pirez",
+                  "main": true
+                }
+              ],
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 0,
@@ -488,6 +651,13 @@
               "start": "2014-05-07T14:00:00-03:00",
               "duration": 60,
               "end": "2014-05-07T18:00:00.000Z",
+              "authors": [
+                {
+                  "id": "997",
+                  "name": "VJ pixel",
+                  "main": true
+                }
+              ],
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 0,
@@ -506,6 +676,13 @@
               "start": "2014-05-07T15:00:00-03:00",
               "duration": 60,
               "end": "2014-05-07T19:00:00.000Z",
+              "authors": [
+                {
+                  "id": "804",
+                  "name": "Alexandre Hannud Abdo",
+                  "main": true
+                }
+              ],
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 0,
@@ -524,6 +701,13 @@
               "start": "2014-05-07T16:00:00-03:00",
               "duration": 60,
               "end": "2014-05-07T20:00:00.000Z",
+              "authors": [
+                {
+                  "id": "834",
+                  "name": "Kemel Zaidan",
+                  "main": true
+                }
+              ],
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 0,
@@ -542,6 +726,13 @@
               "start": "2014-05-07T17:00:00-03:00",
               "duration": 60,
               "end": "2014-05-07T21:00:00.000Z",
+              "authors": [
+                {
+                  "id": "947",
+                  "name": "Sandro S. Andrade",
+                  "main": true
+                }
+              ],
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 0,
@@ -564,6 +755,13 @@
               "start": "2014-05-07T09:00:00-03:00",
               "duration": 60,
               "end": "2014-05-07T13:00:00.000Z",
+              "authors": [
+                {
+                  "id": "565",
+                  "name": "Cleiton Galvão Santana",
+                  "main": true
+                }
+              ],
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 0,
@@ -584,6 +782,13 @@
               "start": "2014-05-07T11:00:00-03:00",
               "duration": 60,
               "end": "2014-05-07T15:00:00.000Z",
+              "authors": [
+                {
+                  "id": "500",
+                  "name": "João S. O. Bueno",
+                  "main": true
+                }
+              ],
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 0,
@@ -627,6 +832,13 @@
               "start": "2014-05-07T13:00:00-03:00",
               "duration": 60,
               "end": "2014-05-07T17:00:00.000Z",
+              "authors": [
+                {
+                  "id": "814",
+                  "name": "Raphael Amorim",
+                  "main": true
+                }
+              ],
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 0,
@@ -645,6 +857,13 @@
               "start": "2014-05-07T14:00:00-03:00",
               "duration": 60,
               "end": "2014-05-07T18:00:00.000Z",
+              "authors": [
+                {
+                  "id": "18",
+                  "name": "Ismael Castagnet Lacuesta",
+                  "main": true
+                }
+              ],
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 0,
@@ -688,6 +907,13 @@
               "start": "2014-05-07T17:00:00-03:00",
               "duration": 60,
               "end": "2014-05-07T21:00:00.000Z",
+              "authors": [
+                {
+                  "id": "648",
+                  "name": "Ole Peter Smith",
+                  "main": true
+                }
+              ],
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 0,
@@ -710,6 +936,13 @@
               "start": "2014-05-07T09:00:00-03:00",
               "duration": 120,
               "end": "2014-05-07T14:00:00.000Z",
+              "authors": [
+                {
+                  "id": "442",
+                  "name": "André Felipe Machado",
+                  "main": true
+                }
+              ],
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 0,
@@ -730,6 +963,23 @@
               "start": "2014-05-07T11:00:00-03:00",
               "duration": 60,
               "end": "2014-05-07T15:00:00.000Z",
+              "authors": [
+                {
+                  "id": "989",
+                  "name": "José Doralvino Nunes de Sena",
+                  "main": true
+                },
+                {
+                  "id": "990",
+                  "name": "Ana Barcellos",
+                  "main": false
+                },
+                {
+                  "id": "992",
+                  "name": "Lídia Chamelete",
+                  "main": false
+                }
+              ],
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 0,
@@ -803,6 +1053,13 @@
               "start": "2014-05-07T17:00:00-03:00",
               "duration": 60,
               "end": "2014-05-07T21:00:00.000Z",
+              "authors": [
+                {
+                  "id": "733",
+                  "name": "Guilherme RazGriz",
+                  "main": true
+                }
+              ],
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 0,
@@ -825,6 +1082,23 @@
               "start": "2014-05-07T09:00:00-03:00",
               "duration": 120,
               "end": "2014-05-07T14:00:00.000Z",
+              "authors": [
+                {
+                  "id": "757",
+                  "name": "Renato",
+                  "main": true
+                },
+                {
+                  "id": "964",
+                  "name": "Daniela da Silva Corso",
+                  "main": false
+                },
+                {
+                  "id": "759",
+                  "name": "Nick Vidal",
+                  "main": false
+                }
+              ],
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 0,
@@ -845,6 +1119,13 @@
               "start": "2014-05-07T12:00:00-03:00",
               "duration": 60,
               "end": "2014-05-07T16:00:00.000Z",
+              "authors": [
+                {
+                  "id": "574",
+                  "name": "aiman",
+                  "main": true
+                }
+              ],
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 0,
@@ -863,6 +1144,23 @@
               "start": "2014-05-07T13:00:00-03:00",
               "duration": 120,
               "end": "2014-05-07T18:00:00.000Z",
+              "authors": [
+                {
+                  "id": "496",
+                  "name": "André Bianchi",
+                  "main": true
+                },
+                {
+                  "id": "981",
+                  "name": "Daniel Kahn Gillmor",
+                  "main": false
+                },
+                {
+                  "id": "980",
+                  "name": "Silvio Rhatto",
+                  "main": false
+                }
+              ],
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 0,
@@ -881,6 +1179,18 @@
               "start": "2014-05-07T15:00:00-03:00",
               "duration": 60,
               "end": "2014-05-07T19:00:00.000Z",
+              "authors": [
+                {
+                  "id": "385",
+                  "name": "Dhiego Tosatti",
+                  "main": true
+                },
+                {
+                  "id": "540",
+                  "name": "Eduardo Comin",
+                  "main": false
+                }
+              ],
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 0,
@@ -899,6 +1209,13 @@
               "start": "2014-05-07T17:00:00-03:00",
               "duration": 60,
               "end": "2014-05-07T21:00:00.000Z",
+              "authors": [
+                {
+                  "id": "826",
+                  "name": "JM Guaimas",
+                  "main": true
+                }
+              ],
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 0,
@@ -921,6 +1238,13 @@
               "start": "2014-05-07T14:00:00-03:00",
               "duration": 60,
               "end": "2014-05-07T18:00:00.000Z",
+              "authors": [
+                {
+                  "id": "561",
+                  "name": "Flávio Ribeiro Nogueira Barbosa",
+                  "main": true
+                }
+              ],
               "roomId": "7",
               "roomIndex": 7,
               "dayIndex": 0,
@@ -970,6 +1294,13 @@
               "start": "2014-05-07T12:00:00-03:00",
               "duration": 180,
               "end": "2014-05-07T18:00:00.000Z",
+              "authors": [
+                {
+                  "id": "883",
+                  "name": "Gustavo Rocha Pereira de Souza",
+                  "main": true
+                }
+              ],
               "roomId": "714",
               "roomIndex": 8,
               "dayIndex": 0,
@@ -990,6 +1321,13 @@
               "start": "2014-05-07T15:00:00-03:00",
               "duration": 180,
               "end": "2014-05-07T21:00:00.000Z",
+              "authors": [
+                {
+                  "id": "950",
+                  "name": "Robert Janssen",
+                  "main": true
+                }
+              ],
               "roomId": "714",
               "roomIndex": 8,
               "dayIndex": 0,
@@ -1012,6 +1350,18 @@
               "start": "2014-05-07T09:00:00-03:00",
               "duration": 180,
               "end": "2014-05-07T15:00:00.000Z",
+              "authors": [
+                {
+                  "id": "527",
+                  "name": "Ricardo Panaggio",
+                  "main": true
+                },
+                {
+                  "id": "528",
+                  "name": "Coragem",
+                  "main": false
+                }
+              ],
               "roomId": "720",
               "roomIndex": 9,
               "dayIndex": 0,
@@ -1032,6 +1382,13 @@
               "start": "2014-05-07T12:00:00-03:00",
               "duration": 180,
               "end": "2014-05-07T18:00:00.000Z",
+              "authors": [
+                {
+                  "id": "589",
+                  "name": "Eduardo Lucas",
+                  "main": true
+                }
+              ],
               "roomId": "720",
               "roomIndex": 9,
               "dayIndex": 0,
@@ -1050,6 +1407,13 @@
               "start": "2014-05-07T15:00:00-03:00",
               "duration": 180,
               "end": "2014-05-07T21:00:00.000Z",
+              "authors": [
+                {
+                  "id": "736",
+                  "name": "Ignacio Nin",
+                  "main": true
+                }
+              ],
               "roomId": "720",
               "roomIndex": 9,
               "dayIndex": 0,
@@ -1075,6 +1439,18 @@
               "start": "2014-05-07T12:00:00-03:00",
               "duration": 60,
               "end": "2014-05-07T16:00:00.000Z",
+              "authors": [
+                {
+                  "id": "595",
+                  "name": "Lael Nervis",
+                  "main": true
+                },
+                {
+                  "id": "605",
+                  "name": "Ricardo Moro",
+                  "main": false
+                }
+              ],
               "roomId": "718",
               "roomIndex": 11,
               "dayIndex": 0,
@@ -1095,6 +1471,13 @@
               "start": "2014-05-07T13:00:00-03:00",
               "duration": 60,
               "end": "2014-05-07T17:00:00.000Z",
+              "authors": [
+                {
+                  "id": "856",
+                  "name": "menoni",
+                  "main": true
+                }
+              ],
               "roomId": "718",
               "roomIndex": 11,
               "dayIndex": 0,
@@ -1113,6 +1496,13 @@
               "start": "2014-05-07T14:00:00-03:00",
               "duration": 60,
               "end": "2014-05-07T18:00:00.000Z",
+              "authors": [
+                {
+                  "id": "510",
+                  "name": "valentin basel",
+                  "main": true
+                }
+              ],
               "roomId": "718",
               "roomIndex": 11,
               "dayIndex": 0,
@@ -1142,6 +1532,13 @@
               "start": "2014-05-08T11:00:00-03:00",
               "duration": 60,
               "end": "2014-05-08T15:00:00.000Z",
+              "authors": [
+                {
+                  "id": "999",
+                  "name": "Jon \"maddog\" Hall",
+                  "main": true
+                }
+              ],
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 1,
@@ -1162,6 +1559,13 @@
               "start": "2014-05-08T12:00:00-03:00",
               "duration": 60,
               "end": "2014-05-08T16:00:00.000Z",
+              "authors": [
+                {
+                  "id": "995",
+                  "name": "Sascha Meinrath",
+                  "main": true
+                }
+              ],
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 1,
@@ -1180,6 +1584,13 @@
               "start": "2014-05-08T13:00:00-03:00",
               "duration": 60,
               "end": "2014-05-08T17:00:00.000Z",
+              "authors": [
+                {
+                  "id": "958",
+                  "name": "Kevin Ottens",
+                  "main": true
+                }
+              ],
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 1,
@@ -1198,6 +1609,13 @@
               "start": "2014-05-08T14:00:00-03:00",
               "duration": 60,
               "end": "2014-05-08T18:00:00.000Z",
+              "authors": [
+                {
+                  "id": "882",
+                  "name": "Jeremie Zimmermann",
+                  "main": true
+                }
+              ],
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 1,
@@ -1216,6 +1634,13 @@
               "start": "2014-05-08T16:00:00-03:00",
               "duration": 60,
               "end": "2014-05-08T20:00:00.000Z",
+              "authors": [
+                {
+                  "id": "948",
+                  "name": "Nancy Michelle Torres Villanueva",
+                  "main": true
+                }
+              ],
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 1,
@@ -1265,6 +1690,33 @@
               "start": "2014-05-08T10:00:00-03:00",
               "duration": 120,
               "end": "2014-05-08T15:00:00.000Z",
+              "authors": [
+                {
+                  "id": "19",
+                  "name": "Alexandre Oliva",
+                  "main": true
+                },
+                {
+                  "id": "610",
+                  "name": "Anahuac de Paula Gil",
+                  "main": false
+                },
+                {
+                  "id": "611",
+                  "name": "Frederico Gonçalves Guimarães",
+                  "main": false
+                },
+                {
+                  "id": "527",
+                  "name": "Ricardo Panaggio",
+                  "main": false
+                },
+                {
+                  "id": "614",
+                  "name": "Thadeu Cascardo",
+                  "main": false
+                }
+              ],
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 1,
@@ -1283,6 +1735,13 @@
               "start": "2014-05-08T14:00:00-03:00",
               "duration": 60,
               "end": "2014-05-08T18:00:00.000Z",
+              "authors": [
+                {
+                  "id": "976",
+                  "name": "Julio Neves",
+                  "main": true
+                }
+              ],
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 1,
@@ -1301,6 +1760,13 @@
               "start": "2014-05-08T15:00:00-03:00",
               "duration": 60,
               "end": "2014-05-08T19:00:00.000Z",
+              "authors": [
+                {
+                  "id": "796",
+                  "name": "Antonio Terceiro",
+                  "main": true
+                }
+              ],
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 1,
@@ -1319,6 +1785,13 @@
               "start": "2014-05-08T16:00:00-03:00",
               "duration": 60,
               "end": "2014-05-08T20:00:00.000Z",
+              "authors": [
+                {
+                  "id": "629",
+                  "name": "Etiene da Cruz Dalcol",
+                  "main": true
+                }
+              ],
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 1,
@@ -1337,6 +1810,13 @@
               "start": "2014-05-08T17:00:00-03:00",
               "duration": 60,
               "end": "2014-05-08T21:00:00.000Z",
+              "authors": [
+                {
+                  "id": "616",
+                  "name": "Jan Seidl",
+                  "main": true
+                }
+              ],
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 1,
@@ -1359,6 +1839,13 @@
               "start": "2014-05-08T10:00:00-03:00",
               "duration": 60,
               "end": "2014-05-08T14:00:00.000Z",
+              "authors": [
+                {
+                  "id": "500",
+                  "name": "João S. O. Bueno",
+                  "main": true
+                }
+              ],
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 1,
@@ -1379,6 +1866,18 @@
               "start": "2014-05-08T11:00:00-03:00",
               "duration": 60,
               "end": "2014-05-08T15:00:00.000Z",
+              "authors": [
+                {
+                  "id": "855",
+                  "name": "Guilherme Nogueira",
+                  "main": true
+                },
+                {
+                  "id": "909",
+                  "name": "Caesar Ralf Franz Hoppen",
+                  "main": false
+                }
+              ],
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 1,
@@ -1397,6 +1896,13 @@
               "start": "2014-05-08T12:00:00-03:00",
               "duration": 60,
               "end": "2014-05-08T16:00:00.000Z",
+              "authors": [
+                {
+                  "id": "393",
+                  "name": "Lucas Fialho Zawacki",
+                  "main": true
+                }
+              ],
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 1,
@@ -1440,6 +1946,23 @@
               "start": "2014-05-08T14:00:00-03:00",
               "duration": 60,
               "end": "2014-05-08T18:00:00.000Z",
+              "authors": [
+                {
+                  "id": "576",
+                  "name": "Fernando Laudares Camargos",
+                  "main": true
+                },
+                {
+                  "id": "600",
+                  "name": "Agustín",
+                  "main": false
+                },
+                {
+                  "id": "584",
+                  "name": "Marcos Albe",
+                  "main": false
+                }
+              ],
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 1,
@@ -1458,6 +1981,13 @@
               "start": "2014-05-08T15:00:00-03:00",
               "duration": 60,
               "end": "2014-05-08T19:00:00.000Z",
+              "authors": [
+                {
+                  "id": "378",
+                  "name": "Alessandro de Oliveira Faria (A.K.A. CABELO)",
+                  "main": true
+                }
+              ],
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 1,
@@ -1476,6 +2006,13 @@
               "start": "2014-05-08T16:00:00-03:00",
               "duration": 60,
               "end": "2014-05-08T20:00:00.000Z",
+              "authors": [
+                {
+                  "id": "632",
+                  "name": "Marcel Ribeiro Dantas",
+                  "main": true
+                }
+              ],
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 1,
@@ -1494,6 +2031,18 @@
               "start": "2014-05-08T17:00:00-03:00",
               "duration": 60,
               "end": "2014-05-08T21:00:00.000Z",
+              "authors": [
+                {
+                  "id": "854",
+                  "name": "Davi Duarte e Matheus Pereira",
+                  "main": true
+                },
+                {
+                  "id": "439",
+                  "name": "Matheus Pereira",
+                  "main": false
+                }
+              ],
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 1,
@@ -1516,6 +2065,13 @@
               "start": "2014-05-08T09:00:00-03:00",
               "duration": 60,
               "end": "2014-05-08T13:00:00.000Z",
+              "authors": [
+                {
+                  "id": "971",
+                  "name": "Antonio Fernandes C. Neto",
+                  "main": true
+                }
+              ],
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 1,
@@ -1536,6 +2092,13 @@
               "start": "2014-05-08T11:00:00-03:00",
               "duration": 60,
               "end": "2014-05-08T15:00:00.000Z",
+              "authors": [
+                {
+                  "id": "977",
+                  "name": "Jean Ferri",
+                  "main": true
+                }
+              ],
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 1,
@@ -1554,6 +2117,13 @@
               "start": "2014-05-08T12:00:00-03:00",
               "duration": 60,
               "end": "2014-05-08T16:00:00.000Z",
+              "authors": [
+                {
+                  "id": "953",
+                  "name": "João Machini",
+                  "main": true
+                }
+              ],
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 1,
@@ -1597,6 +2167,13 @@
               "start": "2014-05-08T15:00:00-03:00",
               "duration": 60,
               "end": "2014-05-08T19:00:00.000Z",
+              "authors": [
+                {
+                  "id": "931",
+                  "name": "Mônica Paz",
+                  "main": true
+                }
+              ],
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 1,
@@ -1615,6 +2192,13 @@
               "start": "2014-05-08T17:00:00-03:00",
               "duration": 60,
               "end": "2014-05-08T21:00:00.000Z",
+              "authors": [
+                {
+                  "id": "798",
+                  "name": "Camila Achutti",
+                  "main": true
+                }
+              ],
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 1,
@@ -1637,6 +2221,13 @@
               "start": "2014-05-08T09:00:00-03:00",
               "duration": 60,
               "end": "2014-05-08T13:00:00.000Z",
+              "authors": [
+                {
+                  "id": "607",
+                  "name": "Filipe de Oliveira Saraiva",
+                  "main": true
+                }
+              ],
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 1,
@@ -1657,6 +2248,13 @@
               "start": "2014-05-08T11:00:00-03:00",
               "duration": 60,
               "end": "2014-05-08T15:00:00.000Z",
+              "authors": [
+                {
+                  "id": "725",
+                  "name": "Diego Ramos Ruggeri",
+                  "main": true
+                }
+              ],
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 1,
@@ -1675,6 +2273,23 @@
               "start": "2014-05-08T12:00:00-03:00",
               "duration": 60,
               "end": "2014-05-08T16:00:00.000Z",
+              "authors": [
+                {
+                  "id": "499",
+                  "name": "Juliana Maria Oliveira dos Santos",
+                  "main": true
+                },
+                {
+                  "id": "696",
+                  "name": "Cíntia Mercês",
+                  "main": false
+                },
+                {
+                  "id": "654",
+                  "name": "Debora Abdalla Santos",
+                  "main": false
+                }
+              ],
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 1,
@@ -1693,6 +2308,28 @@
               "start": "2014-05-08T13:00:00-03:00",
               "duration": 60,
               "end": "2014-05-08T17:00:00.000Z",
+              "authors": [
+                {
+                  "id": "59",
+                  "name": "Thiago Garcia da Silva",
+                  "main": true
+                },
+                {
+                  "id": "367",
+                  "name": "Bruno Erthal de Abreu",
+                  "main": false
+                },
+                {
+                  "id": "617",
+                  "name": "Gustavo Hingel Morada",
+                  "main": false
+                },
+                {
+                  "id": "618",
+                  "name": "Pedro Henrique Reis",
+                  "main": false
+                }
+              ],
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 1,
@@ -1736,6 +2373,18 @@
               "start": "2014-05-08T16:00:00-03:00",
               "duration": 60,
               "end": "2014-05-08T20:00:00.000Z",
+              "authors": [
+                {
+                  "id": "536",
+                  "name": "Wladimir Crippa",
+                  "main": true
+                },
+                {
+                  "id": "537",
+                  "name": "Marcos Carvalho",
+                  "main": false
+                }
+              ],
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 1,
@@ -1754,6 +2403,13 @@
               "start": "2014-05-08T17:00:00-03:00",
               "duration": 60,
               "end": "2014-05-08T21:00:00.000Z",
+              "authors": [
+                {
+                  "id": "571",
+                  "name": "Andre Natal",
+                  "main": true
+                }
+              ],
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 1,
@@ -1776,6 +2432,28 @@
               "start": "2014-05-08T09:00:00-03:00",
               "duration": 120,
               "end": "2014-05-08T14:00:00.000Z",
+              "authors": [
+                {
+                  "id": "965",
+                  "name": "Daniela Feitosa",
+                  "main": true
+                },
+                {
+                  "id": "966",
+                  "name": "Ana Luísa de Almeida Losnak",
+                  "main": false
+                },
+                {
+                  "id": "967",
+                  "name": "Daniel Costa Bucher",
+                  "main": false
+                },
+                {
+                  "id": "968",
+                  "name": "Joenio Costa",
+                  "main": false
+                }
+              ],
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 1,
@@ -1796,6 +2474,13 @@
               "start": "2014-05-08T12:00:00-03:00",
               "duration": 60,
               "end": "2014-05-08T16:00:00.000Z",
+              "authors": [
+                {
+                  "id": "583",
+                  "name": "Lucas R. Martins",
+                  "main": true
+                }
+              ],
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 1,
@@ -1814,6 +2499,13 @@
               "start": "2014-05-08T13:00:00-03:00",
               "duration": 60,
               "end": "2014-05-08T17:00:00.000Z",
+              "authors": [
+                {
+                  "id": "433",
+                  "name": "Romulo Santos",
+                  "main": true
+                }
+              ],
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 1,
@@ -1832,6 +2524,23 @@
               "start": "2014-05-08T16:00:00-03:00",
               "duration": 60,
               "end": "2014-05-08T20:00:00.000Z",
+              "authors": [
+                {
+                  "id": "988",
+                  "name": "Dinis Agostinho",
+                  "main": true
+                },
+                {
+                  "id": "989",
+                  "name": "José Doralvino Nunes de Sena",
+                  "main": false
+                },
+                {
+                  "id": "940",
+                  "name": "ORGANIZAÇÃO",
+                  "main": false
+                }
+              ],
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 1,
@@ -1850,6 +2559,23 @@
               "start": "2014-05-08T17:00:00-03:00",
               "duration": 60,
               "end": "2014-05-08T21:00:00.000Z",
+              "authors": [
+                {
+                  "id": "435",
+                  "name": "Paulo Henrique de Lima Santana",
+                  "main": true
+                },
+                {
+                  "id": "47",
+                  "name": "Francisco Erik da Silva",
+                  "main": false
+                },
+                {
+                  "id": "449",
+                  "name": "Luiz Rauber",
+                  "main": false
+                }
+              ],
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 1,
@@ -1872,6 +2598,23 @@
               "start": "2014-05-08T09:00:00-03:00",
               "duration": 120,
               "end": "2014-05-08T14:00:00.000Z",
+              "authors": [
+                {
+                  "id": "697",
+                  "name": "Marcelo Dieder",
+                  "main": true
+                },
+                {
+                  "id": "773",
+                  "name": "",
+                  "main": false
+                },
+                {
+                  "id": "761",
+                  "name": "Adolfo Brandes",
+                  "main": false
+                }
+              ],
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 1,
@@ -1892,6 +2635,13 @@
               "start": "2014-05-08T12:00:00-03:00",
               "duration": 60,
               "end": "2014-05-08T16:00:00.000Z",
+              "authors": [
+                {
+                  "id": "631",
+                  "name": "Emerson Luiz Florentino Borges",
+                  "main": true
+                }
+              ],
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 1,
@@ -1910,6 +2660,13 @@
               "start": "2014-05-08T13:00:00-03:00",
               "duration": 60,
               "end": "2014-05-08T17:00:00.000Z",
+              "authors": [
+                {
+                  "id": "609",
+                  "name": "Thiago Sousa Santos",
+                  "main": true
+                }
+              ],
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 1,
@@ -1928,6 +2685,13 @@
               "start": "2014-05-08T15:00:00-03:00",
               "duration": 60,
               "end": "2014-05-08T19:00:00.000Z",
+              "authors": [
+                {
+                  "id": "715",
+                  "name": "José Francisco Nunes Fernandez",
+                  "main": true
+                }
+              ],
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 1,
@@ -1946,6 +2710,13 @@
               "start": "2014-05-08T17:00:00-03:00",
               "duration": 60,
               "end": "2014-05-08T21:00:00.000Z",
+              "authors": [
+                {
+                  "id": "843",
+                  "name": "Desiree Santos",
+                  "main": true
+                }
+              ],
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 1,
@@ -1971,6 +2742,13 @@
               "start": "2014-05-08T12:00:00-03:00",
               "duration": 180,
               "end": "2014-05-08T18:00:00.000Z",
+              "authors": [
+                {
+                  "id": "659",
+                  "name": "Gabriel de Souza Fedel",
+                  "main": true
+                }
+              ],
               "roomId": "714",
               "roomIndex": 8,
               "dayIndex": 1,
@@ -1991,6 +2769,18 @@
               "start": "2014-05-08T15:00:00-03:00",
               "duration": 180,
               "end": "2014-05-08T21:00:00.000Z",
+              "authors": [
+                {
+                  "id": "896",
+                  "name": "Laurent Le Avner Quevedo",
+                  "main": true
+                },
+                {
+                  "id": "974",
+                  "name": "Andressa Cruz Nepomuceno",
+                  "main": false
+                }
+              ],
               "roomId": "714",
               "roomIndex": 8,
               "dayIndex": 1,
@@ -2013,6 +2803,28 @@
               "start": "2014-05-08T09:00:00-03:00",
               "duration": 180,
               "end": "2014-05-08T15:00:00.000Z",
+              "authors": [
+                {
+                  "id": "523",
+                  "name": "Alan Tygel",
+                  "main": true
+                },
+                {
+                  "id": "524",
+                  "name": "Jatobá",
+                  "main": false
+                },
+                {
+                  "id": "634",
+                  "name": "Rosana Kirsch",
+                  "main": false
+                },
+                {
+                  "id": "713",
+                  "name": "adriano belisário",
+                  "main": false
+                }
+              ],
               "roomId": "720",
               "roomIndex": 9,
               "dayIndex": 1,
@@ -2058,6 +2870,13 @@
               "start": "2014-05-08T15:00:00-03:00",
               "duration": 180,
               "end": "2014-05-08T21:00:00.000Z",
+              "authors": [
+                {
+                  "id": "411",
+                  "name": "Vitória Vasconcelos",
+                  "main": true
+                }
+              ],
               "roomId": "720",
               "roomIndex": 9,
               "dayIndex": 1,
@@ -2080,6 +2899,13 @@
               "start": "2014-05-08T16:00:00-03:00",
               "duration": 120,
               "end": "2014-05-08T21:00:00.000Z",
+              "authors": [
+                {
+                  "id": "940",
+                  "name": "ORGANIZAÇÃO",
+                  "main": true
+                }
+              ],
               "roomId": "717",
               "roomIndex": 10,
               "dayIndex": 1,
@@ -2142,6 +2968,13 @@
               "start": "2014-05-09T10:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T14:00:00.000Z",
+              "authors": [
+                {
+                  "id": "521",
+                  "name": "Marlon Dutra",
+                  "main": true
+                }
+              ],
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 2,
@@ -2162,6 +2995,13 @@
               "start": "2014-05-09T11:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T15:00:00.000Z",
+              "authors": [
+                {
+                  "id": "975",
+                  "name": "Ophelia Van Campenhout",
+                  "main": true
+                }
+              ],
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 2,
@@ -2180,6 +3020,13 @@
               "start": "2014-05-09T12:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T16:00:00.000Z",
+              "authors": [
+                {
+                  "id": "952",
+                  "name": "Alfredo Goldman",
+                  "main": true
+                }
+              ],
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 2,
@@ -2198,6 +3045,13 @@
               "start": "2014-05-09T13:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T17:00:00.000Z",
+              "authors": [
+                {
+                  "id": "987",
+                  "name": "Jomar Silva",
+                  "main": true
+                }
+              ],
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 2,
@@ -2216,6 +3070,13 @@
               "start": "2014-05-09T14:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T18:00:00.000Z",
+              "authors": [
+                {
+                  "id": "981",
+                  "name": "Daniel Kahn Gillmor",
+                  "main": true
+                }
+              ],
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 2,
@@ -2234,6 +3095,13 @@
               "start": "2014-05-09T15:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T19:00:00.000Z",
+              "authors": [
+                {
+                  "id": "825",
+                  "name": "João Eriberto Mota Filho",
+                  "main": true
+                }
+              ],
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 2,
@@ -2252,6 +3120,13 @@
               "start": "2014-05-09T16:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T20:00:00.000Z",
+              "authors": [
+                {
+                  "id": "956",
+                  "name": "Sterling David Allan",
+                  "main": true
+                }
+              ],
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 2,
@@ -2270,6 +3145,13 @@
               "start": "2014-05-09T17:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T21:00:00.000Z",
+              "authors": [
+                {
+                  "id": "827",
+                  "name": "pedro rezende",
+                  "main": true
+                }
+              ],
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 2,
@@ -2292,6 +3174,13 @@
               "start": "2014-05-09T09:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T13:00:00.000Z",
+              "authors": [
+                {
+                  "id": "473",
+                  "name": "Rafael Aquini",
+                  "main": true
+                }
+              ],
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 2,
@@ -2312,6 +3201,13 @@
               "start": "2014-05-09T10:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T14:00:00.000Z",
+              "authors": [
+                {
+                  "id": "804",
+                  "name": "Alexandre Hannud Abdo",
+                  "main": true
+                }
+              ],
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 2,
@@ -2330,6 +3226,13 @@
               "start": "2014-05-09T12:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T16:00:00.000Z",
+              "authors": [
+                {
+                  "id": "867",
+                  "name": "miltonlab",
+                  "main": true
+                }
+              ],
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 2,
@@ -2348,6 +3251,13 @@
               "start": "2014-05-09T14:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T18:00:00.000Z",
+              "authors": [
+                {
+                  "id": "994",
+                  "name": "Peter Zaitsev",
+                  "main": true
+                }
+              ],
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 2,
@@ -2391,6 +3301,13 @@
               "start": "2014-05-09T17:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T21:00:00.000Z",
+              "authors": [
+                {
+                  "id": "999",
+                  "name": "Jon \"maddog\" Hall",
+                  "main": true
+                }
+              ],
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 2,
@@ -2413,6 +3330,13 @@
               "start": "2014-05-09T09:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T13:00:00.000Z",
+              "authors": [
+                {
+                  "id": "554",
+                  "name": "Rafael Jaques",
+                  "main": true
+                }
+              ],
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 2,
@@ -2433,6 +3357,13 @@
               "start": "2014-05-09T10:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T14:00:00.000Z",
+              "authors": [
+                {
+                  "id": "853",
+                  "name": "Mauro Carvalho Chehab",
+                  "main": true
+                }
+              ],
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 2,
@@ -2451,6 +3382,18 @@
               "start": "2014-05-09T11:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T15:00:00.000Z",
+              "authors": [
+                {
+                  "id": "913",
+                  "name": "Fr3d Vázquez",
+                  "main": true
+                },
+                {
+                  "id": "916",
+                  "name": "",
+                  "main": false
+                }
+              ],
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 2,
@@ -2469,6 +3412,13 @@
               "start": "2014-05-09T12:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T16:00:00.000Z",
+              "authors": [
+                {
+                  "id": "664",
+                  "name": "Marcio Galli",
+                  "main": true
+                }
+              ],
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 2,
@@ -2487,6 +3437,13 @@
               "start": "2014-05-09T14:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T18:00:00.000Z",
+              "authors": [
+                {
+                  "id": "884",
+                  "name": "Aracele Torres",
+                  "main": true
+                }
+              ],
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 2,
@@ -2505,6 +3462,13 @@
               "start": "2014-05-09T16:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T20:00:00.000Z",
+              "authors": [
+                {
+                  "id": "800",
+                  "name": "Moisés Souto",
+                  "main": true
+                }
+              ],
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 2,
@@ -2523,6 +3487,23 @@
               "start": "2014-05-09T17:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T21:00:00.000Z",
+              "authors": [
+                {
+                  "id": "868",
+                  "name": "Douglas Pinho de Avila",
+                  "main": true
+                },
+                {
+                  "id": "879",
+                  "name": "Adolfo Lempke",
+                  "main": false
+                },
+                {
+                  "id": "878",
+                  "name": "Tamires Martins",
+                  "main": false
+                }
+              ],
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 2,
@@ -2545,6 +3526,33 @@
               "start": "2014-05-09T09:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T13:00:00.000Z",
+              "authors": [
+                {
+                  "id": "23",
+                  "name": "Raniere Gaia Costa da Silva",
+                  "main": true
+                },
+                {
+                  "id": "765",
+                  "name": "",
+                  "main": false
+                },
+                {
+                  "id": "589",
+                  "name": "Eduardo Lucas",
+                  "main": false
+                },
+                {
+                  "id": "527",
+                  "name": "Ricardo Panaggio",
+                  "main": false
+                },
+                {
+                  "id": "577",
+                  "name": "Sergio Durigan Junior",
+                  "main": false
+                }
+              ],
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 2,
@@ -2565,6 +3573,13 @@
               "start": "2014-05-09T11:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T15:00:00.000Z",
+              "authors": [
+                {
+                  "id": "957",
+                  "name": "Cezar Taurion",
+                  "main": true
+                }
+              ],
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 2,
@@ -2583,6 +3598,28 @@
               "start": "2014-05-09T12:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T16:00:00.000Z",
+              "authors": [
+                {
+                  "id": "449",
+                  "name": "Luiz Rauber",
+                  "main": true
+                },
+                {
+                  "id": "674",
+                  "name": "",
+                  "main": false
+                },
+                {
+                  "id": "653",
+                  "name": "",
+                  "main": false
+                },
+                {
+                  "id": "675",
+                  "name": "Taís Boeira",
+                  "main": false
+                }
+              ],
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 2,
@@ -2601,6 +3638,13 @@
               "start": "2014-05-09T13:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T17:00:00.000Z",
+              "authors": [
+                {
+                  "id": "870",
+                  "name": "Neri Aldoir Neitzke",
+                  "main": true
+                }
+              ],
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 2,
@@ -2623,6 +3667,23 @@
               "start": "2014-05-09T09:00:00-03:00",
               "duration": 120,
               "end": "2014-05-09T14:00:00.000Z",
+              "authors": [
+                {
+                  "id": "542",
+                  "name": "Amador Pahim",
+                  "main": true
+                },
+                {
+                  "id": "545",
+                  "name": "Douglas Schilling Landgraf",
+                  "main": false
+                },
+                {
+                  "id": "547",
+                  "name": "Marcelo Barbosa",
+                  "main": false
+                }
+              ],
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 2,
@@ -2643,6 +3704,18 @@
               "start": "2014-05-09T11:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T15:00:00.000Z",
+              "authors": [
+                {
+                  "id": "581",
+                  "name": "Juarez Bochi",
+                  "main": true
+                },
+                {
+                  "id": "587",
+                  "name": "Leandro Moreira",
+                  "main": false
+                }
+              ],
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 2,
@@ -2661,6 +3734,13 @@
               "start": "2014-05-09T12:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T16:00:00.000Z",
+              "authors": [
+                {
+                  "id": "551",
+                  "name": "Ana Cristina Geyer de Moraes",
+                  "main": true
+                }
+              ],
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 2,
@@ -2679,6 +3759,13 @@
               "start": "2014-05-09T13:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T17:00:00.000Z",
+              "authors": [
+                {
+                  "id": "641",
+                  "name": "Laura Marotias",
+                  "main": true
+                }
+              ],
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 2,
@@ -2697,6 +3784,18 @@
               "start": "2014-05-09T14:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T18:00:00.000Z",
+              "authors": [
+                {
+                  "id": "985",
+                  "name": "George Silva",
+                  "main": true
+                },
+                {
+                  "id": "986",
+                  "name": "Pedro Monteiro Kayatt",
+                  "main": false
+                }
+              ],
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 2,
@@ -2715,6 +3814,13 @@
               "start": "2014-05-09T16:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T20:00:00.000Z",
+              "authors": [
+                {
+                  "id": "805",
+                  "name": "Carlos Roberto Moratelli",
+                  "main": true
+                }
+              ],
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 2,
@@ -2733,6 +3839,13 @@
               "start": "2014-05-09T17:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T21:00:00.000Z",
+              "authors": [
+                {
+                  "id": "496",
+                  "name": "André Bianchi",
+                  "main": true
+                }
+              ],
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 2,
@@ -2755,6 +3868,13 @@
               "start": "2014-05-09T09:00:00-03:00",
               "duration": 120,
               "end": "2014-05-09T14:00:00.000Z",
+              "authors": [
+                {
+                  "id": "48",
+                  "name": "Alessandro Silva",
+                  "main": true
+                }
+              ],
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 2,
@@ -2775,6 +3895,13 @@
               "start": "2014-05-09T11:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T15:00:00.000Z",
+              "authors": [
+                {
+                  "id": "651",
+                  "name": "Luis Cipriani",
+                  "main": true
+                }
+              ],
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 2,
@@ -2793,6 +3920,13 @@
               "start": "2014-05-09T12:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T16:00:00.000Z",
+              "authors": [
+                {
+                  "id": "972",
+                  "name": "Carlos Alberto Jacques de Castro",
+                  "main": true
+                }
+              ],
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 2,
@@ -2811,6 +3945,13 @@
               "start": "2014-05-09T13:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T17:00:00.000Z",
+              "authors": [
+                {
+                  "id": "900",
+                  "name": "Vini Andrade",
+                  "main": true
+                }
+              ],
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 2,
@@ -2879,6 +4020,13 @@
               "start": "2014-05-09T17:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T21:00:00.000Z",
+              "authors": [
+                {
+                  "id": "511",
+                  "name": "Daniel Bristot de Oliveira",
+                  "main": true
+                }
+              ],
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 2,
@@ -2901,6 +4049,13 @@
               "start": "2014-05-09T09:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T13:00:00.000Z",
+              "authors": [
+                {
+                  "id": "486",
+                  "name": "Morvana Bonin",
+                  "main": true
+                }
+              ],
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 2,
@@ -2921,6 +4076,13 @@
               "start": "2014-05-09T11:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T15:00:00.000Z",
+              "authors": [
+                {
+                  "id": "72",
+                  "name": "Luiz Blanes",
+                  "main": true
+                }
+              ],
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 2,
@@ -2939,6 +4101,18 @@
               "start": "2014-05-09T12:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T16:00:00.000Z",
+              "authors": [
+                {
+                  "id": "524",
+                  "name": "Jatobá",
+                  "main": true
+                },
+                {
+                  "id": "531",
+                  "name": "Frederick van Amstel",
+                  "main": false
+                }
+              ],
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 2,
@@ -2957,6 +4131,13 @@
               "start": "2014-05-09T13:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T17:00:00.000Z",
+              "authors": [
+                {
+                  "id": "590",
+                  "name": "Bruno de Oliveira Abinader",
+                  "main": true
+                }
+              ],
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 2,
@@ -2975,6 +4156,18 @@
               "start": "2014-05-09T15:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T19:00:00.000Z",
+              "authors": [
+                {
+                  "id": "372",
+                  "name": "Nelice",
+                  "main": true
+                },
+                {
+                  "id": "562",
+                  "name": "Gabriela Ludwig Guerra",
+                  "main": false
+                }
+              ],
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 2,
@@ -2993,6 +4186,18 @@
               "start": "2014-05-09T17:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T21:00:00.000Z",
+              "authors": [
+                {
+                  "id": "538",
+                  "name": "Leonardo Lima",
+                  "main": true
+                },
+                {
+                  "id": "539",
+                  "name": "",
+                  "main": false
+                }
+              ],
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 2,
@@ -3015,6 +4220,23 @@
               "start": "2014-05-09T09:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T13:00:00.000Z",
+              "authors": [
+                {
+                  "id": "391",
+                  "name": "Lais Farias Alves",
+                  "main": true
+                },
+                {
+                  "id": "565",
+                  "name": "Cleiton Galvão Santana",
+                  "main": false
+                },
+                {
+                  "id": "729",
+                  "name": "Márcia Santos Almeida",
+                  "main": false
+                }
+              ],
               "roomId": "7",
               "roomIndex": 7,
               "dayIndex": 2,
@@ -3035,6 +4257,18 @@
               "start": "2014-05-09T12:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T16:00:00.000Z",
+              "authors": [
+                {
+                  "id": "750",
+                  "name": "Marcelo Ricardo Leitner",
+                  "main": true
+                },
+                {
+                  "id": "630",
+                  "name": "João Avelino Bellomo Filho",
+                  "main": false
+                }
+              ],
               "roomId": "7",
               "roomIndex": 7,
               "dayIndex": 2,
@@ -3060,6 +4294,18 @@
               "start": "2014-05-09T09:00:00-03:00",
               "duration": 180,
               "end": "2014-05-09T15:00:00.000Z",
+              "authors": [
+                {
+                  "id": "527",
+                  "name": "Ricardo Panaggio",
+                  "main": true
+                },
+                {
+                  "id": "528",
+                  "name": "Coragem",
+                  "main": false
+                }
+              ],
               "roomId": "720",
               "roomIndex": 9,
               "dayIndex": 2,
@@ -3087,6 +4333,18 @@
               "start": "2014-05-09T12:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T16:00:00.000Z",
+              "authors": [
+                {
+                  "id": "528",
+                  "name": "Coragem",
+                  "main": true
+                },
+                {
+                  "id": "527",
+                  "name": "Ricardo Panaggio",
+                  "main": false
+                }
+              ],
               "roomId": "718",
               "roomIndex": 11,
               "dayIndex": 2,
@@ -3107,6 +4365,18 @@
               "start": "2014-05-09T13:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T17:00:00.000Z",
+              "authors": [
+                {
+                  "id": "416",
+                  "name": "Samuel Flores Moraes",
+                  "main": true
+                },
+                {
+                  "id": "449",
+                  "name": "Luiz Rauber",
+                  "main": false
+                }
+              ],
               "roomId": "718",
               "roomIndex": 11,
               "dayIndex": 2,
@@ -3136,6 +4406,13 @@
               "start": "2014-05-10T11:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T15:00:00.000Z",
+              "authors": [
+                {
+                  "id": "415",
+                  "name": "Niels de Vos",
+                  "main": true
+                }
+              ],
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 3,
@@ -3156,6 +4433,13 @@
               "start": "2014-05-10T14:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T18:00:00.000Z",
+              "authors": [
+                {
+                  "id": "835",
+                  "name": "Jim Perrin",
+                  "main": true
+                }
+              ],
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 3,
@@ -3174,6 +4458,13 @@
               "start": "2014-05-10T17:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T21:00:00.000Z",
+              "authors": [
+                {
+                  "id": "999",
+                  "name": "Jon \"maddog\" Hall",
+                  "main": true
+                }
+              ],
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 3,
@@ -3196,6 +4487,13 @@
               "start": "2014-05-10T10:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T14:00:00.000Z",
+              "authors": [
+                {
+                  "id": "591",
+                  "name": "Reynaldo Verdejo",
+                  "main": true
+                }
+              ],
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 3,
@@ -3216,6 +4514,13 @@
               "start": "2014-05-10T11:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T15:00:00.000Z",
+              "authors": [
+                {
+                  "id": "937",
+                  "name": "Eduardo Silva",
+                  "main": true
+                }
+              ],
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 3,
@@ -3234,6 +4539,18 @@
               "start": "2014-05-10T12:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T16:00:00.000Z",
+              "authors": [
+                {
+                  "id": "921",
+                  "name": "Rafael Reggiani Manzo",
+                  "main": true
+                },
+                {
+                  "id": "924",
+                  "name": "Diego Martinez",
+                  "main": false
+                }
+              ],
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 3,
@@ -3252,6 +4569,18 @@
               "start": "2014-05-10T13:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T17:00:00.000Z",
+              "authors": [
+                {
+                  "id": "666",
+                  "name": "Luan Cestari",
+                  "main": true
+                },
+                {
+                  "id": "662",
+                  "name": "Hanneli Tavante",
+                  "main": false
+                }
+              ],
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 3,
@@ -3270,6 +4599,13 @@
               "start": "2014-05-10T14:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T18:00:00.000Z",
+              "authors": [
+                {
+                  "id": "941",
+                  "name": "Karlisson Bezerra",
+                  "main": true
+                }
+              ],
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 3,
@@ -3288,6 +4624,18 @@
               "start": "2014-05-10T15:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T19:00:00.000Z",
+              "authors": [
+                {
+                  "id": "833",
+                  "name": "Diego de Freitas Aranha",
+                  "main": true
+                },
+                {
+                  "id": "577",
+                  "name": "Sergio Durigan Junior",
+                  "main": false
+                }
+              ],
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 3,
@@ -3310,6 +4658,13 @@
               "start": "2014-05-10T09:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T13:00:00.000Z",
+              "authors": [
+                {
+                  "id": "425",
+                  "name": "Alan Velasques Santos",
+                  "main": true
+                }
+              ],
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 3,
@@ -3330,6 +4685,13 @@
               "start": "2014-05-10T10:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T14:00:00.000Z",
+              "authors": [
+                {
+                  "id": "796",
+                  "name": "Antonio Terceiro",
+                  "main": true
+                }
+              ],
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 3,
@@ -3348,6 +4710,13 @@
               "start": "2014-05-10T12:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T16:00:00.000Z",
+              "authors": [
+                {
+                  "id": "973",
+                  "name": "Moisés Souto",
+                  "main": true
+                }
+              ],
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 3,
@@ -3366,6 +4735,13 @@
               "start": "2014-05-10T13:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T17:00:00.000Z",
+              "authors": [
+                {
+                  "id": "762",
+                  "name": "Christiano Anderson",
+                  "main": true
+                }
+              ],
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 3,
@@ -3409,6 +4785,13 @@
               "start": "2014-05-10T16:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T20:00:00.000Z",
+              "authors": [
+                {
+                  "id": "560",
+                  "name": "David Jourdain",
+                  "main": true
+                }
+              ],
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 3,
@@ -3427,6 +4810,13 @@
               "start": "2014-05-10T17:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T21:00:00.000Z",
+              "authors": [
+                {
+                  "id": "996",
+                  "name": "Cícero Moraes",
+                  "main": true
+                }
+              ],
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 3,
@@ -3449,6 +4839,13 @@
               "start": "2014-05-10T09:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T13:00:00.000Z",
+              "authors": [
+                {
+                  "id": "554",
+                  "name": "Rafael Jaques",
+                  "main": true
+                }
+              ],
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 3,
@@ -3469,6 +4866,18 @@
               "start": "2014-05-10T11:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T15:00:00.000Z",
+              "authors": [
+                {
+                  "id": "662",
+                  "name": "Hanneli Tavante",
+                  "main": true
+                },
+                {
+                  "id": "666",
+                  "name": "Luan Cestari",
+                  "main": false
+                }
+              ],
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 3,
@@ -3487,6 +4896,13 @@
               "start": "2014-05-10T12:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T16:00:00.000Z",
+              "authors": [
+                {
+                  "id": "876",
+                  "name": "Marcelo Mallmann Dias",
+                  "main": true
+                }
+              ],
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 3,
@@ -3505,6 +4921,13 @@
               "start": "2014-05-10T13:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T17:00:00.000Z",
+              "authors": [
+                {
+                  "id": "693",
+                  "name": "Mauricio Piacentini",
+                  "main": true
+                }
+              ],
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 3,
@@ -3523,6 +4946,13 @@
               "start": "2014-05-10T17:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T21:00:00.000Z",
+              "authors": [
+                {
+                  "id": "487",
+                  "name": "Relsi Maron",
+                  "main": true
+                }
+              ],
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 3,
@@ -3545,6 +4975,23 @@
               "start": "2014-05-10T09:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T13:00:00.000Z",
+              "authors": [
+                {
+                  "id": "523",
+                  "name": "Alan Tygel",
+                  "main": true
+                },
+                {
+                  "id": "525",
+                  "name": "Celso Alexandre Souza de Alvear",
+                  "main": false
+                },
+                {
+                  "id": "524",
+                  "name": "Jatobá",
+                  "main": false
+                }
+              ],
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 3,
@@ -3565,6 +5012,23 @@
               "start": "2014-05-10T12:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T16:00:00.000Z",
+              "authors": [
+                {
+                  "id": "806",
+                  "name": "José Otávio Pompeu e Silva",
+                  "main": true
+                },
+                {
+                  "id": "808",
+                  "name": "Jean Christophe Houzel",
+                  "main": false
+                },
+                {
+                  "id": "807",
+                  "name": "Rogerio Mandelli",
+                  "main": false
+                }
+              ],
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 3,
@@ -3583,6 +5047,13 @@
               "start": "2014-05-10T16:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T20:00:00.000Z",
+              "authors": [
+                {
+                  "id": "665",
+                  "name": "Antonio Fernando Santos Ladeia",
+                  "main": true
+                }
+              ],
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 3,
@@ -3630,6 +5101,33 @@
               "start": "2014-05-10T09:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T13:00:00.000Z",
+              "authors": [
+                {
+                  "id": "458",
+                  "name": "Ricardo Pontes",
+                  "main": true
+                },
+                {
+                  "id": "790",
+                  "name": "Adriano Cupello",
+                  "main": false
+                },
+                {
+                  "id": "508",
+                  "name": "Andre Alves Garzia",
+                  "main": false
+                },
+                {
+                  "id": "791",
+                  "name": "Luigui Delyer",
+                  "main": false
+                },
+                {
+                  "id": "503",
+                  "name": "Qaiq Alves",
+                  "main": false
+                }
+              ],
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 3,
@@ -3700,6 +5198,13 @@
               "start": "2014-05-10T13:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T17:00:00.000Z",
+              "authors": [
+                {
+                  "id": "612",
+                  "name": "Gilberto Sudre",
+                  "main": true
+                }
+              ],
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 3,
@@ -3718,6 +5223,13 @@
               "start": "2014-05-10T15:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T19:00:00.000Z",
+              "authors": [
+                {
+                  "id": "817",
+                  "name": "Ernani Azevedo",
+                  "main": true
+                }
+              ],
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 3,
@@ -3736,6 +5248,13 @@
               "start": "2014-05-10T16:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T20:00:00.000Z",
+              "authors": [
+                {
+                  "id": "697",
+                  "name": "Marcelo Dieder",
+                  "main": true
+                }
+              ],
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 3,
@@ -3754,6 +5273,18 @@
               "start": "2014-05-10T17:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T21:00:00.000Z",
+              "authors": [
+                {
+                  "id": "662",
+                  "name": "Hanneli Tavante",
+                  "main": true
+                },
+                {
+                  "id": "666",
+                  "name": "Luan Cestari",
+                  "main": false
+                }
+              ],
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 3,
@@ -3776,6 +5307,13 @@
               "start": "2014-05-10T09:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T13:00:00.000Z",
+              "authors": [
+                {
+                  "id": "486",
+                  "name": "Morvana Bonin",
+                  "main": true
+                }
+              ],
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 3,
@@ -3796,6 +5334,18 @@
               "start": "2014-05-10T10:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T14:00:00.000Z",
+              "authors": [
+                {
+                  "id": "783",
+                  "name": "Leonardo Gemelli Machado",
+                  "main": true
+                },
+                {
+                  "id": "861",
+                  "name": "Tiago Zonta",
+                  "main": false
+                }
+              ],
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 3,
@@ -3814,6 +5364,13 @@
               "start": "2014-05-10T11:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T15:00:00.000Z",
+              "authors": [
+                {
+                  "id": "993",
+                  "name": "Claudia Melo",
+                  "main": true
+                }
+              ],
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 3,
@@ -3832,6 +5389,13 @@
               "start": "2014-05-10T12:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T16:00:00.000Z",
+              "authors": [
+                {
+                  "id": "477",
+                  "name": "Marciano Tagliani",
+                  "main": true
+                }
+              ],
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 3,
@@ -3850,6 +5414,18 @@
               "start": "2014-05-10T13:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T17:00:00.000Z",
+              "authors": [
+                {
+                  "id": "569",
+                  "name": "Alison Rodrigues de Souza",
+                  "main": true
+                },
+                {
+                  "id": "579",
+                  "name": "Andre Dias Lima",
+                  "main": false
+                }
+              ],
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 3,
@@ -3868,6 +5444,13 @@
               "start": "2014-05-10T15:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T19:00:00.000Z",
+              "authors": [
+                {
+                  "id": "848",
+                  "name": "Salete Farias",
+                  "main": true
+                }
+              ],
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 3,
@@ -3886,6 +5469,18 @@
               "start": "2014-05-10T16:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T20:00:00.000Z",
+              "authors": [
+                {
+                  "id": "793",
+                  "name": "Paulo Castro",
+                  "main": true
+                },
+                {
+                  "id": "874",
+                  "name": "Pedro ",
+                  "main": false
+                }
+              ],
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 3,
@@ -3908,6 +5503,13 @@
               "start": "2014-05-10T09:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T13:00:00.000Z",
+              "authors": [
+                {
+                  "id": "902",
+                  "name": "Roger Campos Godoy",
+                  "main": true
+                }
+              ],
               "roomId": "7",
               "roomIndex": 7,
               "dayIndex": 3,
@@ -3928,6 +5530,13 @@
               "start": "2014-05-10T11:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T15:00:00.000Z",
+              "authors": [
+                {
+                  "id": "514",
+                  "name": "Juliana Fernandes",
+                  "main": true
+                }
+              ],
               "roomId": "7",
               "roomIndex": 7,
               "dayIndex": 3,
@@ -3946,6 +5555,13 @@
               "start": "2014-05-10T12:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T16:00:00.000Z",
+              "authors": [
+                {
+                  "id": "472",
+                  "name": "Hisham Muhammad",
+                  "main": true
+                }
+              ],
               "roomId": "7",
               "roomIndex": 7,
               "dayIndex": 3,
@@ -3964,6 +5580,13 @@
               "start": "2014-05-10T13:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T17:00:00.000Z",
+              "authors": [
+                {
+                  "id": "69",
+                  "name": "Francisco Prates Junior",
+                  "main": true
+                }
+              ],
               "roomId": "7",
               "roomIndex": 7,
               "dayIndex": 3,
@@ -3982,6 +5605,13 @@
               "start": "2014-05-10T14:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T18:00:00.000Z",
+              "authors": [
+                {
+                  "id": "624",
+                  "name": "Diego Moreira Guimarães",
+                  "main": true
+                }
+              ],
               "roomId": "7",
               "roomIndex": 7,
               "dayIndex": 3,
@@ -4000,6 +5630,13 @@
               "start": "2014-05-10T15:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T19:00:00.000Z",
+              "authors": [
+                {
+                  "id": "518",
+                  "name": "Wille Marcel Lima Malheiro",
+                  "main": true
+                }
+              ],
               "roomId": "7",
               "roomIndex": 7,
               "dayIndex": 3,
@@ -4018,6 +5655,13 @@
               "start": "2014-05-10T17:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T21:00:00.000Z",
+              "authors": [
+                {
+                  "id": "580",
+                  "name": "bruno azevedo",
+                  "main": true
+                }
+              ],
               "roomId": "7",
               "roomIndex": 7,
               "dayIndex": 3,
@@ -4040,6 +5684,18 @@
               "start": "2014-05-10T09:00:00-03:00",
               "duration": 180,
               "end": "2014-05-10T15:00:00.000Z",
+              "authors": [
+                {
+                  "id": "508",
+                  "name": "Andre Alves Garzia",
+                  "main": true
+                },
+                {
+                  "id": "527",
+                  "name": "Ricardo Panaggio",
+                  "main": false
+                }
+              ],
               "roomId": "714",
               "roomIndex": 8,
               "dayIndex": 3,
@@ -4078,6 +5734,13 @@
               "start": "2014-05-10T15:00:00-03:00",
               "duration": 180,
               "end": "2014-05-10T21:00:00.000Z",
+              "authors": [
+                {
+                  "id": "504",
+                  "name": "villadalmine",
+                  "main": true
+                }
+              ],
               "roomId": "714",
               "roomIndex": 8,
               "dayIndex": 3,
@@ -4103,6 +5766,28 @@
               "start": "2014-05-10T15:00:00-03:00",
               "duration": 120,
               "end": "2014-05-10T20:00:00.000Z",
+              "authors": [
+                {
+                  "id": "940",
+                  "name": "ORGANIZAÇÃO",
+                  "main": true
+                },
+                {
+                  "id": "1",
+                  "name": "Felipe Mobus",
+                  "main": false
+                },
+                {
+                  "id": "946",
+                  "name": "Felipe Santos",
+                  "main": false
+                },
+                {
+                  "id": "945",
+                  "name": "Thomas Soares",
+                  "main": false
+                }
+              ],
               "roomId": "717",
               "roomIndex": 10,
               "dayIndex": 3,
@@ -4127,6 +5812,23 @@
               "start": "2014-05-10T12:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T16:00:00.000Z",
+              "authors": [
+                {
+                  "id": "439",
+                  "name": "Matheus Pereira",
+                  "main": true
+                },
+                {
+                  "id": "640",
+                  "name": "João Toss Molon",
+                  "main": false
+                },
+                {
+                  "id": "645",
+                  "name": "Luciano Camargo Cruz",
+                  "main": false
+                }
+              ],
               "roomId": "718",
               "roomIndex": 11,
               "dayIndex": 3,
@@ -4147,6 +5849,28 @@
               "start": "2014-05-10T13:00:00-03:00",
               "duration": 60,
               "end": "2014-05-10T17:00:00.000Z",
+              "authors": [
+                {
+                  "id": "565",
+                  "name": "Cleiton Galvão Santana",
+                  "main": true
+                },
+                {
+                  "id": "391",
+                  "name": "Lais Farias Alves",
+                  "main": false
+                },
+                {
+                  "id": "829",
+                  "name": "Marco Antonio de Azevedo Maciel",
+                  "main": false
+                },
+                {
+                  "id": "397",
+                  "name": "Rafael Melero",
+                  "main": false
+                }
+              ],
               "roomId": "718",
               "roomIndex": 11,
               "dayIndex": 3,
