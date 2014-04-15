@@ -15,7 +15,9 @@
         {{/each}}
     {{else}}
         {{#each schedule_grouped_by_room.days}}
-            {{>day_table}}
+            {{#if @first}}
+                {{>day_table}}
+            {{/if}}
         {{/each}}
     {{/is}}
 </div>
