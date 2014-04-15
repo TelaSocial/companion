@@ -10,7 +10,7 @@ var FeedParser = function($, eventDate){
 //                     +-> session
 
 
-        var $xml = $(data),
+        var $xml = (typeof data === 'string') ? $(data) : $('response'),
             authorElements = $xml.find('authorship person'),
             slotElements = $xml.find('slots slot'),
             roomElements = $xml.find('rooms room'),
@@ -24,9 +24,12 @@ var FeedParser = function($, eventDate){
                 id = person.attr('id'),
                 name = person.attr('name'),
                 candidate = person.attr('candidate'),
-                main = person.attr('main');
+                main = person.attr('main') === '1';
             if (candidates[candidate] === undefined){
                 candidates[candidate] = [];
+            }
+            if (name.length === 0){
+                return false;
             }
             candidates[candidate].push({
                 id: id,
@@ -48,10 +51,10 @@ var FeedParser = function($, eventDate){
             var room = $(this),
                 id = room.attr('id'),
                 venue = room.find('venue').first().text(),
-                capacity = room.find('capacity').first().text(),
-                translation = room.find('translation').first().text(),
+                capacity = Number(room.find('capacity').first().text()),
+                translation = room.find('translation').first().text().toUpperCase() === 'TRUE',
                 name = room.find('name').first().text(),
-                position = room.find('position').first().text();
+                position = Number(room.find('position').first().text());
 
             rooms.push ({
                 id: id,
@@ -66,7 +69,7 @@ var FeedParser = function($, eventDate){
         });
 
         rooms.sort(function(a, b){
-            return Number(a.position) > Number(b.position) ? 1 : -1;
+            return a.position > b.position ? 1 : -1;
         });
         for (var i = rooms.length - 1; i >= 0; i--) {
             roomIdToIndex[rooms[i].id] = i;
@@ -92,19 +95,23 @@ var FeedParser = function($, eventDate){
                 sessionDay = startDate.getDate(),
                 eventDay = eventDate.getDate(),
                 dayIndex = sessionDay - eventDay,
-                roomIndex = roomIdToIndex[room];
+                roomIndex = roomIdToIndex[room],
+                emptyRooms = [];
 
             if (days[dayIndex] === undefined){
+                for (var i = rooms.length - 1; i >= 0; i--) {
+                    emptyRooms.push({
+                        sessions: []
+                    });
+                }
                 days[dayIndex] = {
-                    rooms: []
+                    rooms: emptyRooms
                 };
             }
-            if (days[dayIndex].rooms[roomIndex] === undefined){
-                days[dayIndex].rooms[roomIndex] = {
-                    sessions: []
-                };
+            if (days[dayIndex].rooms[roomIndex] === null){
+                console.log('FOO');
             }
-            days[dayIndex].rooms[roomIndex].sessions.push({
+            var session = {
                 id: id,
                 title: title,
                 abstract: abstract,
@@ -113,9 +120,14 @@ var FeedParser = function($, eventDate){
                 areaId: area,
                 zoneId: zone,
                 level: level
-            });
+            };
+            days[dayIndex].rooms[roomIndex].sessions.push(session);
         });
-        console.log(JSON.stringify(days, null, '  '));
+        // console.log(JSON.stringify(days, null, '  '));
+        return  {
+                    days: days,
+                    rooms: rooms
+                };
     };
 };
 module.exports = FeedParser;
