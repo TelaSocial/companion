@@ -1,8 +1,19 @@
-{{#each schedule.days}}
-
-{{/each}}
-
-{{>session_list}}
-<aside>
-{{>room_list}}
-</aside>
+<div
+    class="
+        content
+        {{#if @first}}
+        active
+        {{/if}}
+    "
+    id="day-{{@index}}"
+>
+    {{#is schedule_type 'list'}}
+        {{#each schedule_grouped_by_time.days}}
+            {{>day_list}}
+        {{/each}}
+    {{else}}
+        {{#each schedule_grouped_by_room.days}}
+            {{>day_table}}
+        {{/each}}
+    {{/is}}
+</div>

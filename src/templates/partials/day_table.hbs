@@ -1,0 +1,19 @@
+<table>
+    {{#each this.rooms}}
+    <tr>
+        {{#each this.sessions}}
+            {{#if @first}}
+                {{#gt this.intervalBeforeColspan 0}}
+                    <td class="empty" colspan="{{this.intervalBeforeColspan}}"></td>
+                {{/gt}}
+            {{/if}}
+            <td class="foo" colspan="{{this.durationColspan}}">
+                {{>session}}
+            </td>
+            {{#gt this.intervalAfterColspan 0}}
+                <td class="empty" colspan="{{this.intervalAfterColspan}}"></td>
+            {{/gt}}
+        {{/each}}
+    </tr>
+    {{/each}}
+</table>

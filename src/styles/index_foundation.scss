@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import "includes/settings";
+
 // Behold, here are all the Foundation components.
 @import
   "lib/foundation/components/grid",
@@ -39,8 +41,49 @@
   "lib/foundation/components/offcanvas",
   "lib/foundation/components/visibility";
 
-@import "includes/settings";
 
 body{
+  // width: 1600%;
+}
+
+table{
+  // float:left;
+}
+
+td{
+  div{
+    min-width: rem-calc(300px);
+    // white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+    border: 3px solid white;
+}
+tr{
+  height: 5rem;
+}
+td.empty{
+
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAD0lEQVQImWNgQAX/yeAAAIHCA/0RE2WAAAAAAElFTkSuQmCC);
+  // background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAE0lEQVQImWNgwAT/yRf4j0vFfwAZXgb64t36UQAAAABJRU5ErkJggg==);
+
+//   background:
+// radial-gradient(black 15%, transparent 16%) 0 0,
+// radial-gradient(black 15%, transparent 16%) 8px 8px,
+// radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+// radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+// background-color:#282828;
+// background-size:16px 16px;
+
+// background-color:#269;
+// background-image: linear-gradient(white 2px, transparent 2px),
+// linear-gradient(90deg, white 2px, transparent 2px),
+// linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
+// linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
+// background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
+// background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px
 
 }
+// td.foo{
+//   background-color: yellow;
+// }

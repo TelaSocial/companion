@@ -1,0 +1,15 @@
+<ul>
+{{#each this.times}}
+    <li
+        data-start="@key"
+    >
+        <ul>
+            {{#each this.sessions}}
+                <li>
+                    {{>session}}
+                </li>
+            {{/each}}
+        </ul>
+    </li>
+{{/each}}
+</ul>

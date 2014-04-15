@@ -29,6 +29,8 @@ var FeedParser = function($, eventDate){
             slotElements = $xml.find('slots slot'),
             roomElements = $xml.find('rooms room'),
             minimumInterval = Number($xml.find('hours').first().attr('minimum_interval')),
+            endOfDay = '00:00:00.000Z',
+            startOfDay = '23:59:59.000Z',
             roomIdToIndex = {},
             candidates = {},
             rooms = [],
@@ -111,11 +113,16 @@ var FeedParser = function($, eventDate){
                 start = date + 'T' + hour + ':' + minute + ':00-03:00',
                 duration = colspan * minimumInterval, //minutes
                 startDate = new Date(start),
+                endDate = new Date(startDate.getTime() + duration * 60 * 1000),
+                end = endDate.toISOString(),
+                endSplit = end.split('T'),
+                startSplit = start.split('T'),
                 sessionDay = startDate.getDate(),
                 eventDay = eventDate.getDate(),
                 dayIndex = sessionDay - eventDay,
                 roomIndex = roomIdToIndex[room],
-                emptyRooms = [];
+                emptyRooms = [],
+                session = {};
 
             if (days[dayIndex] === undefined){
                 if (grouped_by === 'room'){
@@ -134,35 +141,64 @@ var FeedParser = function($, eventDate){
                     };
                 }
             }
-            var session = {
+
+            session = {
                 id: id,
                 title: title,
                 abstract: abstract,
                 start: start,
                 duration: duration,
+                end: end,
                 authors: authors,
                 roomId: room,
                 roomIndex: roomIndex,
                 dayIndex: dayIndex,
                 areaId: area,
                 zoneId: zone,
-                level: level
+                level: level,
+                durationColspan: colspan
             };
             if (grouped_by === 'room'){
                 days[dayIndex].rooms[roomIndex].sessions.push(session);
+                endOfDay = (endSplit[1] > endOfDay) ? endSplit[1] : endOfDay;
+                startOfDay = (startSplit[1] < startOfDay) ? startSplit[1] : startOfDay;
             } else {
                 sessions.push(session);
             }
         });
 
-        //sort sessions in a room by starting time
         if (grouped_by === 'room'){
             for (var d = days.length - 1; d >= 0; d--) {
-                for (var j = days[d].rooms.length - 1; j >= 0; j--) {
-                    days[d].rooms[j].sessions.sort(sortByStart);
-                }
+                //sort sessions in a room by starting time
+                    for (var j = days[d].rooms.length - 1; j >= 0; j--) {
+                        days[d].rooms[j].sessions.sort(sortByStart);
+                    }
+                    for (var k = days[d].rooms.length - 1; k >= 0; k--) {
+                        for (var l = 0; l < days[d].rooms[k].sessions.length; l++) {
+                            var session = days[d].rooms[k].sessions[l],
+                                isFirst = (l === 0),
+                                isLast = (l === days[d].rooms[k].sessions.length - 1),
+                                startDate = new Date(session.start),
+                                startDateSplit = startDate.toISOString().split('T'),
+                                end = new Date(startDate.getTime() + session.duration * 60 * 1000).getTime(),
+                                nextSession = isLast ? null : days[d].rooms[k].sessions[l+1],
+                                nextSessionStart = isLast ?
+                                    new Date(startDateSplit[0] + 'T' + endOfDay).getTime() :
+                                    new Date(nextSession.start).getTime(),
+                                dayStart;
+
+                            if (isFirst){
+                                dayStart = new Date(startDateSplit[0] + 'T' + startOfDay).getTime();
+                                session.intervalBefore = (startDate.getTime() - dayStart) / 1000 / 60;
+                                session.intervalBeforeColspan = session.intervalBefore / minimumInterval;
+                            }
+                            session.intervalAfter = (nextSessionStart - end) / 1000 / 60;
+                            session.intervalAfterColspan = session.intervalAfter / minimumInterval;
+                        }
+                    }
             }
-        } else {
+        }
+        if (grouped_by === 'time'){
             sessions.sort(sortByStart);
             for (var s = 0; s < sessions.length; s++) {
                 var session = sessions[s],
