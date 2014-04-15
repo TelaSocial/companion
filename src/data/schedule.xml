@@ -556,14 +556,14 @@
     <person id="992" name="L&#237;dia Chamelete" candidate="631" main="0"/>
     <person id="968" name="Joenio Costa" candidate="609" main="0"/>
     <person id="993" name="Claudia Melo" candidate="632" main="1"/>
-    <person id="999" name="Jon &quot;Maddog&quot; Hall" candidate="644" main="1"/>
     <person id="995" name="Sascha Meinrath" candidate="634" main="1"/>
     <person id="994" name="Peter Zaitsev" candidate="633" main="1"/>
-    <person id="999" name="Jon &quot;Maddog&quot; Hall" candidate="645" main="1"/>
     <person id="981" name="Daniel Kahn Gillmor" candidate="636" main="1"/>
     <person id="980" name="Silvio Rhatto" candidate="637" main="1"/>
     <person id="980" name="Silvio Rhatto" candidate="624" main="0"/>
-    <person id="999" name="Jon &quot;Maddog&quot; Hall" candidate="646" main="1"/>
+    <person id="999" name="Jon &quot;maddog&quot; Hall" candidate="644" main="1"/>
+    <person id="999" name="Jon &quot;maddog&quot; Hall" candidate="645" main="1"/>
+    <person id="999" name="Jon &quot;maddog&quot; Hall" candidate="646" main="1"/>
   </authorship>
   <rooms>
     <room id="8">
