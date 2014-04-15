@@ -18,6 +18,7 @@
               "zoneId": "20",
               "level": "",
               "durationColspan": 3,
+              "roomName": "40T",
               "intervalBefore": 0,
               "intervalBeforeColspan": 0,
               "intervalAfter": 180,
@@ -37,6 +38,7 @@
               "zoneId": "14",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "40T",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -54,6 +56,7 @@
               "zoneId": "19",
               "level": "",
               "durationColspan": 3,
+              "roomName": "40T",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -71,6 +74,7 @@
               "zoneId": "16",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "40T",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -88,6 +92,7 @@
               "zoneId": "21",
               "level": "",
               "durationColspan": 3,
+              "roomName": "40T",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -105,6 +110,7 @@
               "zoneId": "13",
               "level": "advanced",
               "durationColspan": 3,
+              "roomName": "40T",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
@@ -138,6 +144,7 @@
               "zoneId": "13",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41A",
               "intervalBefore": 0,
               "intervalBeforeColspan": 0,
               "intervalAfter": 0,
@@ -157,6 +164,7 @@
               "zoneId": "13",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41A",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -174,6 +182,7 @@
               "zoneId": "13",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41A",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -191,6 +200,7 @@
               "zoneId": "19",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41A",
               "intervalAfter": 60,
               "intervalAfterColspan": 3
             },
@@ -208,6 +218,7 @@
               "zoneId": "17",
               "level": "",
               "durationColspan": 3,
+              "roomName": "41A",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -242,6 +253,7 @@
               "zoneId": "16",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41A",
               "intervalAfter": 120,
               "intervalAfterColspan": 6
             }
@@ -263,6 +275,7 @@
               "zoneId": "14",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41B",
               "intervalBefore": 0,
               "intervalBeforeColspan": 0,
               "intervalAfter": 0,
@@ -282,6 +295,7 @@
               "zoneId": "13",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41B",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -306,6 +320,7 @@
               "zoneId": "15",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41B",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -323,6 +338,7 @@
               "zoneId": "19",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41B",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -340,6 +356,7 @@
               "zoneId": "14",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41B",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -357,6 +374,7 @@
               "zoneId": "14",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41B",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -374,6 +392,7 @@
               "zoneId": "20",
               "level": "",
               "durationColspan": 3,
+              "roomName": "41B",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -391,6 +410,7 @@
               "zoneId": "20",
               "level": "",
               "durationColspan": 6,
+              "roomName": "41B",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
@@ -412,6 +432,7 @@
               "zoneId": "15",
               "level": "",
               "durationColspan": 3,
+              "roomName": "41C",
               "intervalBefore": 60,
               "intervalBeforeColspan": 3,
               "intervalAfter": 0,
@@ -438,6 +459,7 @@
               "zoneId": "13",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41C",
               "intervalAfter": 60,
               "intervalAfterColspan": 3
             },
@@ -455,6 +477,7 @@
               "zoneId": "13",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41C",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -472,6 +495,7 @@
               "zoneId": "14",
               "level": "",
               "durationColspan": 3,
+              "roomName": "41C",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -489,6 +513,7 @@
               "zoneId": "19",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41C",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -506,6 +531,7 @@
               "zoneId": "19",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41C",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -523,6 +549,7 @@
               "zoneId": "14",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41C",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
@@ -544,6 +571,7 @@
               "zoneId": "18",
               "level": "",
               "durationColspan": 3,
+              "roomName": "41D",
               "intervalBefore": 0,
               "intervalBeforeColspan": 0,
               "intervalAfter": 60,
@@ -563,6 +591,7 @@
               "zoneId": "14",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41D",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -587,6 +616,7 @@
               "zoneId": "13",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41D",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -604,6 +634,7 @@
               "zoneId": "19",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41D",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -621,6 +652,7 @@
               "zoneId": "16",
               "level": "",
               "durationColspan": 3,
+              "roomName": "41D",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -645,6 +677,7 @@
               "zoneId": "14",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41D",
               "intervalAfter": 60,
               "intervalAfterColspan": 3
             },
@@ -662,6 +695,7 @@
               "zoneId": "16",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41D",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
@@ -683,6 +717,7 @@
               "zoneId": "18",
               "level": "",
               "durationColspan": 6,
+              "roomName": "41E",
               "intervalBefore": 0,
               "intervalBeforeColspan": 0,
               "intervalAfter": 0,
@@ -702,6 +737,7 @@
               "zoneId": "16",
               "level": "",
               "durationColspan": 3,
+              "roomName": "41E",
               "intervalAfter": 60,
               "intervalAfterColspan": 3
             },
@@ -731,6 +767,7 @@
               "zoneId": "15",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41E",
               "intervalAfter": 60,
               "intervalAfterColspan": 3
             },
@@ -755,6 +792,7 @@
               "zoneId": "15",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41E",
               "intervalAfter": 60,
               "intervalAfterColspan": 3
             },
@@ -772,6 +810,7 @@
               "zoneId": "15",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41E",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
@@ -793,6 +832,7 @@
               "zoneId": "18",
               "level": "starter",
               "durationColspan": 6,
+              "roomName": "41F",
               "intervalBefore": 0,
               "intervalBeforeColspan": 0,
               "intervalAfter": 60,
@@ -812,6 +852,7 @@
               "zoneId": "13",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41F",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -829,6 +870,7 @@
               "zoneId": "21",
               "level": "",
               "durationColspan": 6,
+              "roomName": "41F",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -846,6 +888,7 @@
               "zoneId": "14",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41F",
               "intervalAfter": 60,
               "intervalAfterColspan": 3
             },
@@ -863,6 +906,7 @@
               "zoneId": "14",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41F",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
@@ -884,6 +928,7 @@
               "zoneId": "15",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "40A",
               "intervalBefore": 300,
               "intervalBeforeColspan": 15,
               "intervalAfter": 120,
@@ -910,6 +955,7 @@
               "zoneId": "17",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "40A",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
@@ -931,6 +977,7 @@
               "zoneId": "21",
               "level": "intermediate",
               "durationColspan": 9,
+              "roomName": "701 OF1",
               "intervalBefore": 180,
               "intervalBeforeColspan": 9,
               "intervalAfter": 0,
@@ -950,6 +997,7 @@
               "zoneId": "16",
               "level": "starter",
               "durationColspan": 9,
+              "roomName": "701 OF1",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
@@ -971,6 +1019,7 @@
               "zoneId": "21",
               "level": "intermediate",
               "durationColspan": 9,
+              "roomName": "702 - OF2",
               "intervalBefore": 0,
               "intervalBeforeColspan": 0,
               "intervalAfter": 0,
@@ -990,6 +1039,7 @@
               "zoneId": "21",
               "level": "starter",
               "durationColspan": 9,
+              "roomName": "702 - OF2",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -1007,6 +1057,7 @@
               "zoneId": "21",
               "level": "advanced",
               "durationColspan": 9,
+              "roomName": "702 - OF2",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
@@ -1031,6 +1082,7 @@
               "zoneId": "17",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "Paulo Freire",
               "intervalBefore": 180,
               "intervalBeforeColspan": 9,
               "intervalAfter": 0,
@@ -1050,6 +1102,7 @@
               "zoneId": "13",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "Paulo Freire",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -1067,6 +1120,7 @@
               "zoneId": "17",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "Paulo Freire",
               "intervalAfter": 180,
               "intervalAfterColspan": 9
             }
@@ -1095,6 +1149,7 @@
               "zoneId": "13",
               "level": "",
               "durationColspan": 3,
+              "roomName": "40T",
               "intervalBefore": 120,
               "intervalBeforeColspan": 6,
               "intervalAfter": 0,
@@ -1114,6 +1169,7 @@
               "zoneId": "13",
               "level": "",
               "durationColspan": 3,
+              "roomName": "40T",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -1131,6 +1187,7 @@
               "zoneId": "14",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "40T",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -1148,6 +1205,7 @@
               "zoneId": "16",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "40T",
               "intervalAfter": 60,
               "intervalAfterColspan": 3
             },
@@ -1165,6 +1223,7 @@
               "zoneId": "14",
               "level": "",
               "durationColspan": 3,
+              "roomName": "40T",
               "intervalAfter": 60,
               "intervalAfterColspan": 3
             }
@@ -1193,6 +1252,7 @@
               "zoneId": "13",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41A",
               "intervalBefore": 0,
               "intervalBeforeColspan": 0,
               "intervalAfter": 0,
@@ -1212,6 +1272,7 @@
               "zoneId": "16",
               "level": "advanced",
               "durationColspan": 6,
+              "roomName": "41A",
               "intervalAfter": 120,
               "intervalAfterColspan": 6
             },
@@ -1229,6 +1290,7 @@
               "zoneId": "14",
               "level": "",
               "durationColspan": 3,
+              "roomName": "41A",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -1246,6 +1308,7 @@
               "zoneId": "15",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41A",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -1263,6 +1326,7 @@
               "zoneId": "14",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41A",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -1280,6 +1344,7 @@
               "zoneId": "13",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41A",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
@@ -1301,6 +1366,7 @@
               "zoneId": "14",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41B",
               "intervalBefore": 60,
               "intervalBeforeColspan": 3,
               "intervalAfter": 0,
@@ -1320,6 +1386,7 @@
               "zoneId": "14",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41B",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -1337,6 +1404,7 @@
               "zoneId": "16",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41B",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -1361,6 +1429,7 @@
               "zoneId": "15",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41B",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -1378,6 +1447,7 @@
               "zoneId": "13",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41B",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -1395,6 +1465,7 @@
               "zoneId": "19",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41B",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -1412,6 +1483,7 @@
               "zoneId": "13",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41B",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -1429,6 +1501,7 @@
               "zoneId": "14",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41B",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
@@ -1450,6 +1523,7 @@
               "zoneId": "18",
               "level": "",
               "durationColspan": 3,
+              "roomName": "41C",
               "intervalBefore": 0,
               "intervalBeforeColspan": 0,
               "intervalAfter": 60,
@@ -1469,6 +1543,7 @@
               "zoneId": "14",
               "level": "",
               "durationColspan": 3,
+              "roomName": "41C",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -1486,6 +1561,7 @@
               "zoneId": "16",
               "level": "",
               "durationColspan": 3,
+              "roomName": "41C",
               "intervalAfter": 60,
               "intervalAfterColspan": 3
             },
@@ -1510,6 +1586,7 @@
               "zoneId": "13",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41C",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -1527,6 +1604,7 @@
               "zoneId": "16",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41C",
               "intervalAfter": 60,
               "intervalAfterColspan": 3
             },
@@ -1544,6 +1622,7 @@
               "zoneId": "17",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41C",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
@@ -1565,6 +1644,7 @@
               "zoneId": "18",
               "level": "",
               "durationColspan": 3,
+              "roomName": "41D",
               "intervalBefore": 0,
               "intervalBeforeColspan": 0,
               "intervalAfter": 60,
@@ -1584,6 +1664,7 @@
               "zoneId": "13",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41D",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -1601,6 +1682,7 @@
               "zoneId": "16",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41D",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -1618,6 +1700,7 @@
               "zoneId": "16",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41D",
               "intervalAfter": 60,
               "intervalAfterColspan": 3
             },
@@ -1642,6 +1725,7 @@
               "zoneId": "16",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41D",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -1659,6 +1743,7 @@
               "zoneId": "19",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41D",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -1676,6 +1761,7 @@
               "zoneId": "19",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41D",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
@@ -1697,6 +1783,7 @@
               "zoneId": "18",
               "level": "",
               "durationColspan": 6,
+              "roomName": "41E",
               "intervalBefore": 0,
               "intervalBeforeColspan": 0,
               "intervalAfter": 60,
@@ -1716,6 +1803,7 @@
               "zoneId": "15",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41E",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -1733,6 +1821,7 @@
               "zoneId": "14",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41E",
               "intervalAfter": 120,
               "intervalAfterColspan": 6
             },
@@ -1750,6 +1839,7 @@
               "zoneId": "13",
               "level": "",
               "durationColspan": 3,
+              "roomName": "41E",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -1767,6 +1857,7 @@
               "zoneId": "15",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41E",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
@@ -1788,6 +1879,7 @@
               "zoneId": "18",
               "level": "starter",
               "durationColspan": 6,
+              "roomName": "41F",
               "intervalBefore": 0,
               "intervalBeforeColspan": 0,
               "intervalAfter": 60,
@@ -1807,6 +1899,7 @@
               "zoneId": "17",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41F",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -1824,6 +1917,7 @@
               "zoneId": "15",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41F",
               "intervalAfter": 60,
               "intervalAfterColspan": 3
             },
@@ -1841,6 +1935,7 @@
               "zoneId": "17",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41F",
               "intervalAfter": 60,
               "intervalAfterColspan": 3
             },
@@ -1858,6 +1953,7 @@
               "zoneId": "13",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41F",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
@@ -1882,6 +1978,7 @@
               "zoneId": "21",
               "level": "starter",
               "durationColspan": 9,
+              "roomName": "701 OF1",
               "intervalBefore": 180,
               "intervalBeforeColspan": 9,
               "intervalAfter": 0,
@@ -1901,6 +1998,7 @@
               "zoneId": "21",
               "level": "intermediate",
               "durationColspan": 9,
+              "roomName": "701 OF1",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
@@ -1922,6 +2020,7 @@
               "zoneId": "21",
               "level": "starter",
               "durationColspan": 9,
+              "roomName": "702 - OF2",
               "intervalBefore": 0,
               "intervalBeforeColspan": 0,
               "intervalAfter": 0,
@@ -1948,6 +2047,7 @@
               "zoneId": "21",
               "level": "starter",
               "durationColspan": 9,
+              "roomName": "702 - OF2",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -1965,6 +2065,7 @@
               "zoneId": "21",
               "level": "starter",
               "durationColspan": 9,
+              "roomName": "702 - OF2",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
@@ -1986,6 +2087,7 @@
               "zoneId": "20",
               "level": "",
               "durationColspan": 6,
+              "roomName": "Reuniões 710",
               "intervalBefore": 420,
               "intervalBeforeColspan": 21,
               "intervalAfter": 0,
@@ -2016,6 +2118,7 @@
               "zoneId": "17",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "Paulo Freire",
               "intervalBefore": 240,
               "intervalBeforeColspan": 12,
               "intervalAfter": 240,
@@ -2046,6 +2149,7 @@
               "zoneId": "13",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "40T",
               "intervalBefore": 60,
               "intervalBeforeColspan": 3,
               "intervalAfter": 0,
@@ -2065,6 +2169,7 @@
               "zoneId": "14",
               "level": "",
               "durationColspan": 3,
+              "roomName": "40T",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -2082,6 +2187,7 @@
               "zoneId": "16",
               "level": "",
               "durationColspan": 3,
+              "roomName": "40T",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -2099,6 +2205,7 @@
               "zoneId": "13",
               "level": "",
               "durationColspan": 3,
+              "roomName": "40T",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -2116,6 +2223,7 @@
               "zoneId": "21",
               "level": "",
               "durationColspan": 3,
+              "roomName": "40T",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -2133,6 +2241,7 @@
               "zoneId": "13",
               "level": "advanced",
               "durationColspan": 3,
+              "roomName": "40T",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -2150,6 +2259,7 @@
               "zoneId": "19",
               "level": "",
               "durationColspan": 3,
+              "roomName": "40T",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -2167,6 +2277,7 @@
               "zoneId": "19",
               "level": "advanced",
               "durationColspan": 3,
+              "roomName": "40T",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
@@ -2188,6 +2299,7 @@
               "zoneId": "13",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41A",
               "intervalBefore": 0,
               "intervalBeforeColspan": 0,
               "intervalAfter": 0,
@@ -2207,6 +2319,7 @@
               "zoneId": "16",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41A",
               "intervalAfter": 60,
               "intervalAfterColspan": 3
             },
@@ -2224,6 +2337,7 @@
               "zoneId": "14",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41A",
               "intervalAfter": 60,
               "intervalAfterColspan": 3
             },
@@ -2241,6 +2355,7 @@
               "zoneId": "13",
               "level": "",
               "durationColspan": 3,
+              "roomName": "41A",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -2265,6 +2380,7 @@
               "zoneId": "16",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41A",
               "intervalAfter": 60,
               "intervalAfterColspan": 3
             },
@@ -2282,6 +2398,7 @@
               "zoneId": "16",
               "level": "",
               "durationColspan": 3,
+              "roomName": "41A",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
@@ -2303,6 +2420,7 @@
               "zoneId": "14",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41B",
               "intervalBefore": 0,
               "intervalBeforeColspan": 0,
               "intervalAfter": 0,
@@ -2322,6 +2440,7 @@
               "zoneId": "13",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41B",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -2339,6 +2458,7 @@
               "zoneId": "19",
               "level": "advanced",
               "durationColspan": 3,
+              "roomName": "41B",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -2356,6 +2476,7 @@
               "zoneId": "19",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41B",
               "intervalAfter": 60,
               "intervalAfterColspan": 3
             },
@@ -2373,6 +2494,7 @@
               "zoneId": "16",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41B",
               "intervalAfter": 60,
               "intervalAfterColspan": 3
             },
@@ -2390,6 +2512,7 @@
               "zoneId": "13",
               "level": "advanced",
               "durationColspan": 3,
+              "roomName": "41B",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -2407,6 +2530,7 @@
               "zoneId": "13",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41B",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
@@ -2428,6 +2552,7 @@
               "zoneId": "18",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41C",
               "intervalBefore": 0,
               "intervalBeforeColspan": 0,
               "intervalAfter": 60,
@@ -2447,6 +2572,7 @@
               "zoneId": "16",
               "level": "",
               "durationColspan": 3,
+              "roomName": "41C",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -2464,6 +2590,7 @@
               "zoneId": "16",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41C",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -2481,6 +2608,7 @@
               "zoneId": "17",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41C",
               "intervalAfter": 240,
               "intervalAfterColspan": 12
             }
@@ -2502,6 +2630,7 @@
               "zoneId": "18",
               "level": "starter",
               "durationColspan": 6,
+              "roomName": "41D",
               "intervalBefore": 0,
               "intervalBeforeColspan": 0,
               "intervalAfter": 0,
@@ -2521,6 +2650,7 @@
               "zoneId": "15",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41D",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -2538,6 +2668,7 @@
               "zoneId": "16",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41D",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -2555,6 +2686,7 @@
               "zoneId": "16",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41D",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -2572,6 +2704,7 @@
               "zoneId": "15",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41D",
               "intervalAfter": 60,
               "intervalAfterColspan": 3
             },
@@ -2589,6 +2722,7 @@
               "zoneId": "13",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41D",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -2606,6 +2740,7 @@
               "zoneId": "21",
               "level": "",
               "durationColspan": 3,
+              "roomName": "41D",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
@@ -2627,6 +2762,7 @@
               "zoneId": "18",
               "level": "",
               "durationColspan": 6,
+              "roomName": "41E",
               "intervalBefore": 0,
               "intervalBeforeColspan": 0,
               "intervalAfter": 0,
@@ -2646,6 +2782,7 @@
               "zoneId": "14",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41E",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -2663,6 +2800,7 @@
               "zoneId": "16",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41E",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -2680,6 +2818,7 @@
               "zoneId": "16",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41E",
               "intervalAfter": 60,
               "intervalAfterColspan": 3
             },
@@ -2704,6 +2843,7 @@
               "zoneId": "19",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41E",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -2728,6 +2868,7 @@
               "zoneId": "13",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41E",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -2745,6 +2886,7 @@
               "zoneId": "13",
               "level": "advanced",
               "durationColspan": 3,
+              "roomName": "41E",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
@@ -2766,6 +2908,7 @@
               "zoneId": "18",
               "level": "",
               "durationColspan": 3,
+              "roomName": "41F",
               "intervalBefore": 0,
               "intervalBeforeColspan": 0,
               "intervalAfter": 60,
@@ -2785,6 +2928,7 @@
               "zoneId": "13",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41F",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -2802,6 +2946,7 @@
               "zoneId": "16",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41F",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -2819,6 +2964,7 @@
               "zoneId": "19",
               "level": "advanced",
               "durationColspan": 3,
+              "roomName": "41F",
               "intervalAfter": 60,
               "intervalAfterColspan": 3
             },
@@ -2836,6 +2982,7 @@
               "zoneId": "16",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41F",
               "intervalAfter": 60,
               "intervalAfterColspan": 3
             },
@@ -2853,6 +3000,7 @@
               "zoneId": "13",
               "level": "advanced",
               "durationColspan": 3,
+              "roomName": "41F",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
@@ -2874,6 +3022,7 @@
               "zoneId": "18",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "40A",
               "intervalBefore": 0,
               "intervalBeforeColspan": 0,
               "intervalAfter": 120,
@@ -2893,6 +3042,7 @@
               "zoneId": "13",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "40A",
               "intervalAfter": 300,
               "intervalAfterColspan": 15
             }
@@ -2917,6 +3067,7 @@
               "zoneId": "21",
               "level": "starter",
               "durationColspan": 9,
+              "roomName": "702 - OF2",
               "intervalBefore": 0,
               "intervalBeforeColspan": 0,
               "intervalAfter": 360,
@@ -2943,6 +3094,7 @@
               "zoneId": "17",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "Paulo Freire",
               "intervalBefore": 180,
               "intervalBeforeColspan": 9,
               "intervalAfter": 0,
@@ -2962,6 +3114,7 @@
               "zoneId": "13",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "Paulo Freire",
               "intervalAfter": 240,
               "intervalAfterColspan": 12
             }
@@ -2990,6 +3143,7 @@
               "zoneId": "13",
               "level": "advanced",
               "durationColspan": 3,
+              "roomName": "40T",
               "intervalBefore": 120,
               "intervalBeforeColspan": 6,
               "intervalAfter": 120,
@@ -3009,6 +3163,7 @@
               "zoneId": "19",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "40T",
               "intervalAfter": 120,
               "intervalAfterColspan": 6
             },
@@ -3026,6 +3181,7 @@
               "zoneId": "16",
               "level": "",
               "durationColspan": 3,
+              "roomName": "40T",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
@@ -3047,6 +3203,7 @@
               "zoneId": "15",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41A",
               "intervalBefore": 60,
               "intervalBeforeColspan": 3,
               "intervalAfter": 0,
@@ -3066,6 +3223,7 @@
               "zoneId": "19",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41A",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -3083,6 +3241,7 @@
               "zoneId": "14",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41A",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -3100,6 +3259,7 @@
               "zoneId": "19",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41A",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -3117,6 +3277,7 @@
               "zoneId": "14",
               "level": "",
               "durationColspan": 3,
+              "roomName": "41A",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -3134,6 +3295,7 @@
               "zoneId": "13",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41A",
               "intervalAfter": 120,
               "intervalAfterColspan": 6
             }
@@ -3155,6 +3317,7 @@
               "zoneId": "14",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41B",
               "intervalBefore": 0,
               "intervalBeforeColspan": 0,
               "intervalAfter": 0,
@@ -3174,6 +3337,7 @@
               "zoneId": "14",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41B",
               "intervalAfter": 60,
               "intervalAfterColspan": 3
             },
@@ -3191,6 +3355,7 @@
               "zoneId": "17",
               "level": "",
               "durationColspan": 3,
+              "roomName": "41B",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -3208,6 +3373,7 @@
               "zoneId": "19",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41B",
               "intervalAfter": 60,
               "intervalAfterColspan": 3
             },
@@ -3232,6 +3398,7 @@
               "zoneId": "14",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41B",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -3249,6 +3416,7 @@
               "zoneId": "13",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41B",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -3266,6 +3434,7 @@
               "zoneId": "16",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41B",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
@@ -3287,6 +3456,7 @@
               "zoneId": "18",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41C",
               "intervalBefore": 0,
               "intervalBeforeColspan": 0,
               "intervalAfter": 60,
@@ -3306,6 +3476,7 @@
               "zoneId": "14",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41C",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -3323,6 +3494,7 @@
               "zoneId": "13",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41C",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -3340,6 +3512,7 @@
               "zoneId": "14",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41C",
               "intervalAfter": 180,
               "intervalAfterColspan": 9
             },
@@ -3357,6 +3530,7 @@
               "zoneId": "14",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41C",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
@@ -3378,6 +3552,7 @@
               "zoneId": "18",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41D",
               "intervalBefore": 0,
               "intervalBeforeColspan": 0,
               "intervalAfter": 120,
@@ -3397,6 +3572,7 @@
               "zoneId": "16",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41D",
               "intervalAfter": 180,
               "intervalAfterColspan": 9
             },
@@ -3414,6 +3590,7 @@
               "zoneId": "16",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41D",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -3438,6 +3615,7 @@
               "zoneId": "14",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41D",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
@@ -3459,6 +3637,7 @@
               "zoneId": "18",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41E",
               "intervalBefore": 0,
               "intervalBeforeColspan": 0,
               "intervalAfter": 60,
@@ -3485,6 +3664,7 @@
               "zoneId": "13",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41E",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -3509,6 +3689,7 @@
               "zoneId": "14",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41E",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -3526,6 +3707,7 @@
               "zoneId": "19",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41E",
               "intervalAfter": 60,
               "intervalAfterColspan": 3
             },
@@ -3543,6 +3725,7 @@
               "zoneId": "19",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41E",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -3560,6 +3743,7 @@
               "zoneId": "13",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41E",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -3577,6 +3761,7 @@
               "zoneId": "13",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41E",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
@@ -3598,6 +3783,7 @@
               "zoneId": "18",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41F",
               "intervalBefore": 0,
               "intervalBeforeColspan": 0,
               "intervalAfter": 0,
@@ -3617,6 +3803,7 @@
               "zoneId": "15",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41F",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -3634,6 +3821,7 @@
               "zoneId": "16",
               "level": "",
               "durationColspan": 3,
+              "roomName": "41F",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -3651,6 +3839,7 @@
               "zoneId": "19",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41F",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -3668,6 +3857,7 @@
               "zoneId": "14",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "41F",
               "intervalAfter": 60,
               "intervalAfterColspan": 3
             },
@@ -3685,6 +3875,7 @@
               "zoneId": "14",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41F",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -3702,6 +3893,7 @@
               "zoneId": "19",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "41F",
               "intervalAfter": 60,
               "intervalAfterColspan": 3
             }
@@ -3723,6 +3915,7 @@
               "zoneId": "18",
               "level": "",
               "durationColspan": 3,
+              "roomName": "40A",
               "intervalBefore": 0,
               "intervalBeforeColspan": 0,
               "intervalAfter": 60,
@@ -3742,6 +3935,7 @@
               "zoneId": "14",
               "level": "intermediate",
               "durationColspan": 3,
+              "roomName": "40A",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -3759,6 +3953,7 @@
               "zoneId": "16",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "40A",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -3776,6 +3971,7 @@
               "zoneId": "19",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "40A",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -3793,6 +3989,7 @@
               "zoneId": "14",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "40A",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -3810,6 +4007,7 @@
               "zoneId": "19",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "40A",
               "intervalAfter": 60,
               "intervalAfterColspan": 3
             },
@@ -3827,6 +4025,7 @@
               "zoneId": "14",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "40A",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
@@ -3848,6 +4047,7 @@
               "zoneId": "21",
               "level": "intermediate",
               "durationColspan": 9,
+              "roomName": "701 OF1",
               "intervalBefore": 0,
               "intervalBeforeColspan": 0,
               "intervalAfter": 0,
@@ -3867,6 +4067,7 @@
               "zoneId": "21",
               "level": "",
               "durationColspan": 9,
+              "roomName": "701 OF1",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             },
@@ -3884,6 +4085,7 @@
               "zoneId": "13",
               "level": "starter",
               "durationColspan": 9,
+              "roomName": "701 OF1",
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
@@ -3908,6 +4110,7 @@
               "zoneId": "20",
               "level": "",
               "durationColspan": 6,
+              "roomName": "Reuniões 710",
               "intervalBefore": 360,
               "intervalBeforeColspan": 18,
               "intervalAfter": 60,
@@ -3931,6 +4134,7 @@
               "zoneId": "14",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "Paulo Freire",
               "intervalBefore": 180,
               "intervalBeforeColspan": 9,
               "intervalAfter": 0,
@@ -3950,6 +4154,7 @@
               "zoneId": "17",
               "level": "starter",
               "durationColspan": 3,
+              "roomName": "Paulo Freire",
               "intervalAfter": 240,
               "intervalAfterColspan": 12
             }

@@ -121,6 +121,7 @@ var FeedParser = function($, eventDate){
                 eventDay = eventDate.getDate(),
                 dayIndex = sessionDay - eventDay,
                 roomIndex = roomIdToIndex[room],
+                roomName = rooms[roomIndex].name,
                 emptyRooms = [],
                 session = {};
 
@@ -156,7 +157,8 @@ var FeedParser = function($, eventDate){
                 areaId: area,
                 zoneId: zone,
                 level: level,
-                durationColspan: colspan
+                durationColspan: colspan,
+                roomName: roomName
             };
             if (grouped_by === 'room'){
                 days[dayIndex].rooms[roomIndex].sessions.push(session);
@@ -205,7 +207,10 @@ var FeedParser = function($, eventDate){
                     start = session.start,
                     dayIndex = session.dayIndex;
                 if (days[dayIndex].times[start] === undefined){
-                    days[dayIndex].times[start] = {sessions:[]};
+                    days[dayIndex].times[start] = {
+                        sessions:[],
+                        label: start.split('T')[1].substring(0, 5)
+                    };
                 }
                 days[dayIndex].times[start].sessions.push(session);
             }
