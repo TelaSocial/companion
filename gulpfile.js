@@ -29,12 +29,22 @@ var paths = {
         }
     };
 
+//urls
+var urls = {
+        fisl: {
+            gridXML: 'http://papers.softwarelivre.org/papers_ng/public/fast_grid?event_id=4',
+            gridHTML: 'http://papers.softwarelivre.org/papers_ng/public/new_grid?day=7'
+        }
+    };
+
 //gulp tasks libraries
 var WebTasks = require('./src/scripts/gulp-tasks/web'),
     CordovaTasks = require('./src/scripts/gulp-tasks/cordova'),
+    FISLTasks = require('./src/scripts/gulp-tasks/fisl'),
     tasks = {
         web: new WebTasks(paths),
-        cordova: new CordovaTasks(paths, pkg)
+        cordova: new CordovaTasks(paths, pkg),
+        fisl: new FISLTasks(paths, urls)
     };
 
 
@@ -46,10 +56,9 @@ gulp.task('createBuildDir', function(cb){
     });
 });
 
-gulp.task('t', function(){
-    var i = gulp.src(paths.sources.scripts);
-    console.log(i);
-});
+// fisl
+gulp.task('fisl:fetchXML', tasks.fisl.fetchXML);
+gulp.task('fisl:buildJSON', tasks.fisl.buildJSON);
 
 //web
 gulp.task('web:buildData', tasks.web.buildData);
@@ -71,7 +80,6 @@ gulp.task('web:build',
         'web:buildPages'
     ]
 );
-
 
 //cordova
 gulp.task('cordova:create', ['createBuildDir'], tasks.cordova.create);
