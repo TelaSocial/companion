@@ -9,7 +9,9 @@
 >
     {{#is schedule_type 'list'}}
         {{#each schedule_grouped_by_time.days}}
-            {{>day_list}}
+            {{#if @first}}
+                {{>day_list}}
+            {{/if}}
         {{/each}}
     {{else}}
         {{#each schedule_grouped_by_room.days}}

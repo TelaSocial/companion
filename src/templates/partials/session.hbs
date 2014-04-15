@@ -1,15 +1,23 @@
-<div
-    data-id="{{this.id}}"
-    data-start="{{this.start}}"
-    data-duration="{{this.duration}}"
-    data-room="{{this.roomId}}"
->
-    <h3 class="session-title">{{this.title}}</h3>
-    <p class="session-abstract">{{this.abstract}}</p>
+     <a href="#session-info-{{this.id}}">
+        {{this.title}}
+    </a>
+
+<div id="session-info-{{this.id}}" class="content">
+    <p class="session-abstract">
+        {{this.abstract}}
+    </p>
+    {{#if this.authors}}
+        <h4>Autores</h4>
+        {{#each this.authors}}
+            <span class="secondary radius label">{{this.name}}</span>
+        {{/each}}
+    {{/if}}
+    <p>
         <a
             class="calendar-add-button"
             href="#"
         >
             {{this.start}}
         </a>
- </div>
+    </p>
+    <span class="secondary radius label">{{this.roomName}}</span>

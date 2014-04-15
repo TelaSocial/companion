@@ -1,15 +1,27 @@
-<ul>
+<div data-magellan-expedition="fixed">
+    <dl class="sub-nav">
+        {{#each this.times}}
+        <dd data-magellan-arrival="arrival-{{@index}}">
+            <a href="#arrival-{{@index}}">{{this.label}}</a>
+        </dd>
+        {{/each}}
+    </dl>
+</div>
+
+
+<dl class="accordion" data-accordion>
 {{#each this.times}}
-    <li
-        data-start="@key"
-    >
-        <ul>
-            {{#each this.sessions}}
-                <li>
-                    {{>session}}
-                </li>
-            {{/each}}
-        </ul>
-    </li>
+    <a name="arrival-{{@index}}"></a>
+    <h3 data-magellan-destination="arrival-{{@index}}">{{this.label}}</h3>
+    {{#each this.sessions}}
+        <dd
+    data-id="{{this.id}}"
+    data-start="{{this.start}}"
+    data-duration="{{this.duration}}"
+    data-room="{{this.roomId}}"
+        >
+            {{>session}}
+        </dd>
+    {{/each}}
 {{/each}}
-</ul>
+</dl>
