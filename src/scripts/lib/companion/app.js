@@ -16,8 +16,8 @@ module.exports = function($){
             notes = sessionAbstract,
             startDate = new Date(start),
             endDate = new Date(startDate.getTime() + duration * 60 * 1000),
-            success = function(message) { alert('Success: ' + JSON.stringify(message)); },
-            error = function(message) { alert('Error: ' + message); };
+            success = function(message) { console.log('Success: ' + JSON.stringify(message)); },
+            error = function(message) { console.log('Error: ' + message); };
         event.preventDefault();
         console.log('addToCalendarButtonClicked');
         console.log(sessionItem);
