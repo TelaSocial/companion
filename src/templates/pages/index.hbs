@@ -1,22 +1,19 @@
 ---
 layout: html_page.hbs
-#layout: simple.hbs
 title: Companion App
+schedule_type: list
+show_dev_links: true
+css:
+    - css/lib/normalize.css
+    - css/index_foundation.css
 js:
-    - cordova.js
+    - js/lib/jquery/jquery-2.1.0.js
+    - js/lib/foundation/foundation.min.js
     - js/index.js
+    - cordova.js
 ---
-<div class="app">
-    <h1>{{title}}</h1>
-    <ul>
-        <li><a href="schedule_list.html">Static Schedule Experiments (list)</a></li>
-        <li><a href="schedule_table.html">Static Schedule Experiments (table)</a></li>
-        <li><a href="calendar-plugin.html">Add-to-Calendar Experiments</a></li>
-        <li><a href="ajax.html">Ajax Load Experiments</a></li>
-        <li><a href="">link aqui</a></li>
-    <ul>
-    <div id="deviceready" class="blink">
-        <p class="event listening">Connecting to Device</p>
-        <p class="event received">Device is Ready</p>
-    </div>
-</div>
+{{!-- {{>top_bar}} --}}
+{{>schedule}}
+{{#if show_dev_links}}
+    {{>dev_links}}
+{{/if}}
