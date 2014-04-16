@@ -6,7 +6,11 @@ var gulp = require('gulp'),
     _ = require ('lodash'),
     sass = require('gulp-sass'),
     through = require('through2'),
-    browserify = require('browserify');
+    browserify = require('browserify'),
+    hbsfy = require('hbsfy').configure({
+        extensions: ['hbs']
+    }),
+    brfs = require('brfs');
 
 module.exports = function(paths){
 
@@ -16,6 +20,8 @@ module.exports = function(paths){
       return through.obj(function(file, encoding, callback) {
         var bundle = browserify()
           .require(file, { entry: file.path })
+          .transform(hbsfy)
+          .transform('brfs')
           .bundle(options);
         file.contents = bundle;
         this.push(file);

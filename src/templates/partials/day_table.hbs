@@ -3,16 +3,16 @@
     <tr>
         {{#each this.sessions}}
             {{#if @first}}
-                {{#gt this.intervalBeforeColspan 0}}
+                {{#if this.intervalBeforeColspan }}
                     <td class="empty" colspan="{{this.intervalBeforeColspan}}"></td>
-                {{/gt}}
+                {{/if}}
             {{/if}}
             <td class="foo" colspan="{{this.durationColspan}}">
                 {{>session}}
             </td>
-            {{#gt this.intervalAfterColspan 0}}
+            {{#if this.intervalAfterColspan }}
                 <td class="empty" colspan="{{this.intervalAfterColspan}}"></td>
-            {{/gt}}
+            {{/if}}
         {{/each}}
     </tr>
     {{/each}}

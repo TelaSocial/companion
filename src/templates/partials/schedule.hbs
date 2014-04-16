@@ -1,12 +1,4 @@
-<div
-    class="
-        content
-        {{#if @first}}
-        active
-        {{/if}}
-    "
-    id="day-{{@index}}"
->
+<div>
     {{#is schedule_type 'list'}}
         {{#each schedule_grouped_by_time.days}}
             {{#if @first}}
