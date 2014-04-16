@@ -1,5 +1,6 @@
 'use strict';
-module.exports = function($){
+
+module.exports = function($, FISLParser, templates){
     var isCordova = document.URL.substring(0,4) === 'file';
 
     var addToCalendarButtonClicked = function (event){
@@ -36,16 +37,65 @@ module.exports = function($){
         } else {
             console.log('Add to calender not supported in your platform');
         }
-
     };
 
     var setupAddToCalendarButtons = function(){
         $('.calendar-add-button').click(addToCalendarButtonClicked);
     };
+
+    var populateSchedule = function(data){
+        var template = templates['schedule'],
+            destinationElement = $('#app'),
+            progressMeter = $('.meter').first(),
+            html = template(
+                {
+                    schedule_type: 'list',
+                    schedule_grouped_by_time: data
+                }
+            );
+        // console.log(html);
+        progressMeter.width('80%');
+        destinationElement.html(html);
+    };
+    var firstLoad = function(){
+        var appElement = $('#app'),
+            feedURL = appElement.data('feed-url'),
+            localFeed = appElement.data('local-feed-url'),
+            isCordova = document.URL.substring(0,4) === 'file',
+            progressMeter = $('.meter').first();
+
+        if (!isCordova) {
+            feedURL = localFeed;
+        }
+        //1. fetch feed
+
+        console.log('Loading ' + feedURL + '...');
+        $.ajax(feedURL, {
+            dataType: 'text'
+        })
+        //2. parse feed
+        .done(function(data) {
+            var parser = new FISLParser($, new Date('2014-05-07T00:01-03:00')),
+                scheduleData = parser.parse(data);
+            progressMeter.width('25%');
+            console.log(scheduleData);
+            //3. render schedule
+            populateSchedule(scheduleData);
+            //4. start foundation
+            $(document).foundation();
+            //5. bind calendar button clicks
+            setupAddToCalendarButtons();
+        }).fail(function() {
+            console.log('error');
+        }).always(function() {
+            console.log('finished');
+        });
+
+    };
+
     var onDeviceReady = function(){
         console.log('device ready');
-        //setup add to calendar buttons
-        setupAddToCalendarButtons();
+        firstLoad();
     };
     $(document).ready(function() {
         if (isCordova) {
@@ -54,5 +104,4 @@ module.exports = function($){
             onDeviceReady();
         }
     });
-    $(document).foundation();
 };
