@@ -3554,8 +3554,8 @@
           "sessions": [
             {
               "id": "22",
-              "title": "Criptografia oportunística e Perfect Forward Secrecy",
-              "abstract": "Forward secrecy (sigilo futuro ou antecipado) é uma propriedade da segurança que previne um atacante de salvar as mensagens hoje e então depois decifrar essas mensagens quando tiver capturado a chave privada do usuário. Sem forward secrecy, um atacante pode ser capaz de capturar mensagens hoje e simplesmente esperar os computadores serem poderosos o suficiente para quebrar a criptografia por força bruta. A tradicional criptografia de e-mail não oferece forward secrecy. ",
+              "title": "Segurança oportunística e Perfect Forward Secrecy",
+              "abstract": "\"Software that protects the freedoms of its users needs to be able to\r\noffer communications channels that resist surveillance, spoofing, and\r\ntracking.  Some of our tools do this better than others.",
               "start": "2014-05-09T14:00:00-03:00",
               "duration": 60,
               "end": "2014-05-09T18:00:00.000Z",
@@ -4340,6 +4340,29 @@
               "level": "intermediate",
               "durationColspan": 3,
               "roomName": "41A"
+            },
+            {
+              "id": "102",
+              "title": "Liberte sua rede de tecnologias proprietárias com OpenFlow",
+              "abstract": "As Redes Definidas por Software (RDS ou SDN) chegaram para mudar a forma como as redes são configuradas. O principal protocolo deste novo paradigma é o OpenFlow. Ele define a comunicação entre os switches da rede e o controlador, componente responsável por tomar as decisões de encaminhamento de pacotes, instruindo como os switches devem se comportar. Nesta palestra iremos mostrar os detalhes do protocolo OpenFlow e como você pode libertar sua rede de tecnologias proprietárias.",
+              "start": "2014-05-10T11:00:00-03:00",
+              "duration": 60,
+              "end": "2014-05-10T15:00:00.000Z",
+              "authors": [
+                {
+                  "id": "1000",
+                  "name": "Beraldo Leal",
+                  "main": true
+                }
+              ],
+              "roomId": "2",
+              "roomIndex": 2,
+              "dayIndex": 3,
+              "areaId": "89",
+              "zoneId": "19",
+              "level": "",
+              "durationColspan": 3,
+              "roomName": "41B"
             },
             {
               "id": "135",
