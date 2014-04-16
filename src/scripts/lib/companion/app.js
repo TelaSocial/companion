@@ -59,11 +59,18 @@ module.exports = function($, FISLParser, templates){
     };
 
     var initFramework = function(){
-        var doc = $(document);
+        var doc = $(document),
+            body = $('body');
 
         //if using ZURB foundation
         if (doc.foundation !== undefined){
             doc.foundation();
+        }
+
+        //if using Bootstrap
+        if (body.scrollspy !== undefined){
+            console.log('enable scrollspy!');
+            $('body').scrollspy({ target: '#time-nav' });
         }
 
     };
