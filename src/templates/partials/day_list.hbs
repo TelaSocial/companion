@@ -1,28 +1,47 @@
-<div data-magellan-expedition="fixed">
-    <dl class="sub-nav">
-        {{#each this.times}}
-        <dd data-magellan-arrival="arrival-{{@index}}">
-            <a href="#arrival-{{@index}}">{{this.label}}</a>
-        </dd>
-        {{/each}}
-    </dl>
-</div>
-
-
-<dl class="accordion" data-accordion>
-{{#each this.times}}
-    <a name="arrival-{{@index}}"></a>
-    <h3 data-magellan-destination="arrival-{{@index}}">{{this.label}}</h3>
-    {{#each this.sessions}}
-        <dd
-    class="session"
-    data-id="{{this.id}}"
-    data-start="{{this.start}}"
-    data-duration="{{this.duration}}"
-    data-room="{{this.roomId}}"
+<nav
+    id="time-nav"
+    class="navbar navbar-fixed-top navbar-default"
+    data-magellan-expedition="fixed"
+    >
+    <ul
+        class="
+            nav nav-pills
+            sub-nav"
+        role="navigation"
         >
+        {{#each this.times}}
+        <li
+            class="{{#if @first}}active{{/if}}"
+            data-magellan-arrival="time-{{@index}}"
+            >
+            <a href="#time-{{@index}}">
+                {{this.label}}
+            </a>
+        </li>
+        {{/each}}
+    </ul>
+</nav>
+<dl
+    class="accordion"
+    data-accordion
+    >
+{{#each this.times}}
+    <a id="time-{{@index}}"></a>
+    <h3
+        data-magellan-destination="time-{{@index}}"
+        >
+        {{this.label}}
+    </h3>
+    {{#each this.sessions}}
+    <dd
+        class="session"
+        data-id="{{this.id}}"
+        data-start="{{this.start}}"
+        data-duration="{{this.duration}}"
+        data-room="{{this.roomId}}"
+            >
             {{>session}}
-        </dd>
+    </dd>
     {{/each}}
 {{/each}}
 </dl>
