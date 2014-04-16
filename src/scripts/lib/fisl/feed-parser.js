@@ -40,7 +40,7 @@ var FeedParser = function($, eventDate){
             sessions = [],
             days = [];
 
-        grouped_by = (grouped_by === undefined) ? 'room' : 'time';
+        grouped_by = (grouped_by === undefined) ? 'time' : 'room';
         authorElements.each(function(){
             var person = $(this),
                 id = person.attr('id'),
