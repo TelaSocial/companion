@@ -40,7 +40,7 @@ var FeedParser = function($, eventDate){
             sessions = [],
             days = [];
 
-        grouped_by = (grouped_by === undefined) ? 'time' : 'room';
+        grouped_by = (grouped_by === undefined) ? 'time' : grouped_by;
         authorElements.each(function(){
             var person = $(this),
                 id = person.attr('id'),
@@ -208,11 +208,12 @@ var FeedParser = function($, eventDate){
             for (var s = 0; s < sessions.length; s++) {
                 var session = sessions[s],
                     start = session.start,
-                    dayIndex = session.dayIndex;
+                    dayIndex = session.dayIndex,
+                    label = start.split('T')[1].substring(0, 5).replace(':00','h');
                 if (days[dayIndex].times[start] === undefined){
                     days[dayIndex].times[start] = {
                         sessions:[],
-                        label: start.split('T')[1].substring(0, 5)
+                        label: label
                     };
                 }
                 days[dayIndex].times[start].sessions.push(session);

@@ -47,7 +47,7 @@ module.exports = function(paths, urls){
                 days = {};
 
             //grouped by rooms
-            days = parser.parse();
+            days = parser.parse(null, 'room');
             fs.writeFileSync(
                 paths.sources.data + 'schedule_grouped_by_room.json',
                 JSON.stringify(days, null, '  ')
