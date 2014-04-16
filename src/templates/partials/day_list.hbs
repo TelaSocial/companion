@@ -22,11 +22,16 @@
     </ul>
 </nav>
 <dl
-    class="accordion"
+    class="
+        session-list
+        accordion"
     data-accordion
     >
 {{#each this.times}}
-    <a id="time-{{@index}}"></a>
+    <a
+        id="time-{{@index}}"
+        class="time-break"
+        ></a>
     <h3
         data-magellan-destination="time-{{@index}}"
         >

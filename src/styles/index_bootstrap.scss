@@ -1,5 +1,5 @@
-//Settings
-$grid-float-breakpoint: 0;
+//settings for bootstrap
+@import "lib/companion/settings_bootstrap";
 
 // Core variables and mixins
 @import "lib/bootstrap/variables";
@@ -50,3 +50,9 @@ $grid-float-breakpoint: 0;
 // Utility classes
 @import "lib/bootstrap/utilities";
 @import "lib/bootstrap/responsive-utilities";
+
+//companion styles
+// @import "lib/companion";
+
+//tweaks for the bootstrap version
+@import "lib/companion/tweaks_bootstrap";

@@ -1,0 +1,4 @@
+.session-list .time-break{
+    display: block;
+    height: 3em;
+}
