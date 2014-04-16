@@ -49,7 +49,7 @@ This last plugin asks for another plugin to be used, which instantiates the abov
 
 This should probably live in a script in our framework.
 
-    cordova release
+    cordova run --release
 
 The above command will generate an APK file, unsigned, in the ./platforms/android/ant-build/ directory.
 
