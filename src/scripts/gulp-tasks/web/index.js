@@ -75,6 +75,7 @@ module.exports = function(paths){
 
     this.buildStyles = function(){
         var options = {
+            errLogToConsole: true,
             sourceComments: 'map' //'none', 'normal', 'map'
         };
         //copy sass files to dist
