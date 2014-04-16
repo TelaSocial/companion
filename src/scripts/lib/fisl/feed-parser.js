@@ -5,7 +5,6 @@ var FeedParser = function($, eventDate){
         return a.start > b.start ? 1 : -1;
     };
     var sortByRoomIndex = function(a,b){
-        console.log('sortByRoomIndex', a.roomIndex, b.roomIndex);
         return a.roomIndex > b.roomIndex ? 1 : -1;
     };
     this.parse = function (data, grouped_by){
@@ -221,11 +220,8 @@ var FeedParser = function($, eventDate){
 
             //sort by room position after
             for (var d = days.length - 1; d >= 0; d--) {
-                console.log(d);
                 var day = days[d];
-                console.log('day', day.times);
                 for (var t in day.times) {
-                    console.log('t', t);
                     var time = day.times[t];
                     time.sessions = time.sessions.sort(sortByRoomIndex);
                 }
