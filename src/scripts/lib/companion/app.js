@@ -44,7 +44,7 @@ module.exports = function($, FISLParser, templates){
     };
 
     var populateSchedule = function(data){
-        var template = templates['schedule'],
+        var template = templates.schedule,
             destinationElement = $('#app'),
             progressMeter = $('.meter').first(),
             html = template(
@@ -57,6 +57,17 @@ module.exports = function($, FISLParser, templates){
         progressMeter.width('80%');
         destinationElement.html(html);
     };
+
+    var initFramework = function(){
+        var doc = $(document);
+
+        //if using ZURB foundation
+        if (doc.foundation !== undefined){
+            doc.foundation();
+        }
+
+    };
+
     var firstLoad = function(){
         var appElement = $('#app'),
             feedURL = appElement.data('feed-url'),
@@ -81,8 +92,8 @@ module.exports = function($, FISLParser, templates){
             console.log(scheduleData);
             //3. render schedule
             populateSchedule(scheduleData);
-            //4. start foundation
-            $(document).foundation();
+            //4. start framework - example: $(document).foundation()
+            initFramework();
             //5. bind calendar button clicks
             setupAddToCalendarButtons();
         }).fail(function() {
