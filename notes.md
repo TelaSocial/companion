@@ -6,4 +6,5 @@
 
 -----
 
+- Bootsrap sass: https://github.com/twbs/bootstrap-sass/tree/master/vendor/assets/stylesheets
 - the script tag loading cordova.js doesn't need to exist in the web distribution
