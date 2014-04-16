@@ -144,6 +144,7 @@ var FeedParser = function($, eventDate){
                         }
                     };
                 }
+                days[dayIndex].index = dayIndex;
             }
 
             session = {

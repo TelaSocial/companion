@@ -1,23 +1,49 @@
-     <a href="#session-info-{{this.id}}" class="session-title">
+<dd
+    class="
+        session
+        panel panel-default"
+    data-id="{{this.id}}"
+    data-start="{{this.start}}"
+    data-duration="{{this.duration}}"
+    data-room="{{this.roomId}}"
+    >
+    <a
+        href="#session-info-{{this.id}}"
+        class="
+            session-title
+            panel-heading"
+        data-toggle="collapse"
+        data-parent="#session-list-{{parent.index}}"
+        >
         {{this.title}}
     </a>
-
-<div id="session-info-{{this.id}}" class="content">
-    <p class="session-abstract">
-        {{this.abstract}}
-    </p>
-    {{#if this.authors}}
-        <h4>Autores</h4>
-        {{#each this.authors}}
-            <span class="secondary radius label">{{this.name}}</span>
-        {{/each}}
-    {{/if}}
-    <p>
-        <a
-            class="calendar-add-button"
-            href="#"
+    <div
+        id="session-info-{{this.id}}"
+        class="
+            panel-body panel-collapse collapse
+            content"
         >
-            Add to calendar
-        </a>
-    </p>
-    <span class="secondary radius label">{{this.roomName}}</span>
+        <p class="session-abstract">
+            {{this.abstract}}
+        </p>
+        {{#if this.authors}}
+            <h4>Autores</h4>
+            {{#each this.authors}}
+                <span
+                    class="
+                        label-default
+                        secondary radius label"
+                    >{{this.name}}</span>
+            {{/each}}
+        {{/if}}
+        <p>
+            <a
+                class="calendar-add-button"
+                href="#"
+            >
+                Add to calendar
+            </a>
+        </p>
+        <span class="secondary radius label">{{this.roomName}}</span>
+    </div>
+</dd>

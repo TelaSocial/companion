@@ -1,7 +1,17 @@
-//from https://github.com/danharper/Handlebars-Helpers/blob/master/src/helpers.js
-
 'use strict';
 module.exports = function(Handlebars){
+//from http://stackoverflow.com/a/18026063
+    Handlebars.registerHelper('include', function(options) {
+        var context = {},
+            mergeContext = function(obj) {
+                for(var k in obj)context[k]=obj[k];
+            };
+        mergeContext(this);
+        mergeContext(options.hash);
+        return options.fn(context);
+    });
+
+//from https://github.com/danharper/Handlebars-Helpers/blob/master/src/helpers.js
     var isArray = function(value) {
         return Object.prototype.toString.call(value) === '[object Array]';
     };
