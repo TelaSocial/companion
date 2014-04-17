@@ -186,7 +186,8 @@
               "roomName": "702 - OF2"
             }
           ],
-          "label": "09h"
+          "label": "09:00",
+          "shortLabel": "09"
         },
         "2014-05-07T10:00:00-03:00": {
           "sessions": [
@@ -260,7 +261,8 @@
               "roomName": "41C"
             }
           ],
-          "label": "10h"
+          "label": "10:00",
+          "shortLabel": "10"
         },
         "2014-05-07T11:00:00-03:00": {
           "sessions": [
@@ -390,7 +392,8 @@
               "roomName": "41E"
             }
           ],
-          "label": "11h"
+          "label": "11:00",
+          "shortLabel": "11"
         },
         "2014-05-07T12:00:00-03:00": {
           "sessions": [
@@ -576,7 +579,8 @@
               "roomName": "Paulo Freire"
             }
           ],
-          "label": "12h"
+          "label": "12:00",
+          "shortLabel": "12"
         },
         "2014-05-07T13:00:00-03:00": {
           "sessions": [
@@ -762,7 +766,8 @@
               "roomName": "Paulo Freire"
             }
           ],
-          "label": "13h"
+          "label": "13:00",
+          "shortLabel": "13"
         },
         "2014-05-07T14:00:00-03:00": {
           "sessions": [
@@ -928,7 +933,8 @@
               "roomName": "Paulo Freire"
             }
           ],
-          "label": "14h"
+          "label": "14:00",
+          "shortLabel": "14"
         },
         "2014-05-07T15:00:00-03:00": {
           "sessions": [
@@ -1165,7 +1171,8 @@
               "roomName": "702 - OF2"
             }
           ],
-          "label": "15h"
+          "label": "15:00",
+          "shortLabel": "15"
         },
         "2014-05-07T16:00:00-03:00": {
           "sessions": [
@@ -1239,7 +1246,8 @@
               "roomName": "41C"
             }
           ],
-          "label": "16h"
+          "label": "16:00",
+          "shortLabel": "16"
         },
         "2014-05-07T17:00:00-03:00": {
           "sessions": [
@@ -1382,9 +1390,11 @@
               "roomName": "40A"
             }
           ],
-          "label": "17h"
+          "label": "17:00",
+          "shortLabel": "17"
         }
-      }
+      },
+      "index": 0
     },
     {
       "times": {
@@ -1569,7 +1579,8 @@
               "roomName": "702 - OF2"
             }
           ],
-          "label": "09h"
+          "label": "09:00",
+          "shortLabel": "09"
         },
         "2014-05-08T10:00:00-03:00": {
           "sessions": [
@@ -1640,7 +1651,8 @@
               "roomName": "41B"
             }
           ],
-          "label": "10h"
+          "label": "10:00",
+          "shortLabel": "10"
         },
         "2014-05-08T11:00:00-03:00": {
           "sessions": [
@@ -1742,7 +1754,8 @@
               "roomName": "41D"
             }
           ],
-          "label": "11h"
+          "label": "11:00",
+          "shortLabel": "11"
         },
         "2014-05-08T12:00:00-03:00": {
           "sessions": [
@@ -1941,7 +1954,8 @@
               "roomName": "702 - OF2"
             }
           ],
-          "label": "12h"
+          "label": "12:00",
+          "shortLabel": "12"
         },
         "2014-05-08T13:00:00-03:00": {
           "sessions": [
@@ -2099,7 +2113,8 @@
               "roomName": "Paulo Freire"
             }
           ],
-          "label": "13h"
+          "label": "13:00",
+          "shortLabel": "13"
         },
         "2014-05-08T14:00:00-03:00": {
           "sessions": [
@@ -2206,7 +2221,8 @@
               "roomName": "41C"
             }
           ],
-          "label": "14h"
+          "label": "14:00",
+          "shortLabel": "14"
         },
         "2014-05-08T15:00:00-03:00": {
           "sessions": [
@@ -2377,7 +2393,8 @@
               "roomName": "702 - OF2"
             }
           ],
-          "label": "15h"
+          "label": "15:00",
+          "shortLabel": "15"
         },
         "2014-05-08T16:00:00-03:00": {
           "sessions": [
@@ -2535,7 +2552,8 @@
               "roomName": "Reuniões 710"
             }
           ],
-          "label": "16h"
+          "label": "16:00",
+          "shortLabel": "16"
         },
         "2014-05-08T17:00:00-03:00": {
           "sessions": [
@@ -2693,9 +2711,11 @@
               "roomName": "41F"
             }
           ],
-          "label": "17h"
+          "label": "17:00",
+          "shortLabel": "17"
         }
-      }
+      },
+      "index": 1
     },
     {
       "times": {
@@ -2931,7 +2951,8 @@
               "roomName": "702 - OF2"
             }
           ],
-          "label": "09h"
+          "label": "09:00",
+          "shortLabel": "09"
         },
         "2014-05-09T10:00:00-03:00": {
           "sessions": [
@@ -3005,7 +3026,8 @@
               "roomName": "41B"
             }
           ],
-          "label": "10h"
+          "label": "10:00",
+          "shortLabel": "10"
         },
         "2014-05-09T11:00:00-03:00": {
           "sessions": [
@@ -3158,7 +3180,8 @@
               "roomName": "41F"
             }
           ],
-          "label": "11h"
+          "label": "11:00",
+          "shortLabel": "11"
         },
         "2014-05-09T12:00:00-03:00": {
           "sessions": [
@@ -3400,7 +3423,8 @@
               "roomName": "Paulo Freire"
             }
           ],
-          "label": "12h"
+          "label": "12:00",
+          "shortLabel": "12"
         },
         "2014-05-09T13:00:00-03:00": {
           "sessions": [
@@ -3548,7 +3572,8 @@
               "roomName": "Paulo Freire"
             }
           ],
-          "label": "13h"
+          "label": "13:00",
+          "shortLabel": "13"
         },
         "2014-05-09T14:00:00-03:00": {
           "sessions": [
@@ -3650,7 +3675,8 @@
               "roomName": "41D"
             }
           ],
-          "label": "14h"
+          "label": "14:00",
+          "shortLabel": "14"
         },
         "2014-05-09T15:00:00-03:00": {
           "sessions": [
@@ -3752,7 +3778,8 @@
               "roomName": "41F"
             }
           ],
-          "label": "15h"
+          "label": "15:00",
+          "shortLabel": "15"
         },
         "2014-05-09T16:00:00-03:00": {
           "sessions": [
@@ -3849,7 +3876,8 @@
               "roomName": "41E"
             }
           ],
-          "label": "16h"
+          "label": "16:00",
+          "shortLabel": "16"
         },
         "2014-05-09T17:00:00-03:00": {
           "sessions": [
@@ -4007,9 +4035,11 @@
               "roomName": "41F"
             }
           ],
-          "label": "17h"
+          "label": "17:00",
+          "shortLabel": "17"
         }
-      }
+      },
+      "index": 2
     },
     {
       "times": {
@@ -4212,7 +4242,8 @@
               "roomName": "701 OF1"
             }
           ],
-          "label": "09h"
+          "label": "09:00",
+          "shortLabel": "09"
         },
         "2014-05-10T10:00:00-03:00": {
           "sessions": [
@@ -4291,7 +4322,8 @@
               "roomName": "41F"
             }
           ],
-          "label": "10h"
+          "label": "10:00",
+          "shortLabel": "10"
         },
         "2014-05-10T11:00:00-03:00": {
           "sessions": [
@@ -4462,7 +4494,8 @@
               "roomName": "40A"
             }
           ],
-          "label": "11h"
+          "label": "11:00",
+          "shortLabel": "11"
         },
         "2014-05-10T12:00:00-03:00": {
           "sessions": [
@@ -4692,7 +4725,8 @@
               "roomName": "Paulo Freire"
             }
           ],
-          "label": "12h"
+          "label": "12:00",
+          "shortLabel": "12"
         },
         "2014-05-10T13:00:00-03:00": {
           "sessions": [
@@ -4883,7 +4917,8 @@
               "roomName": "Paulo Freire"
             }
           ],
-          "label": "13h"
+          "label": "13:00",
+          "shortLabel": "13"
         },
         "2014-05-10T14:00:00-03:00": {
           "sessions": [
@@ -4957,7 +4992,8 @@
               "roomName": "40A"
             }
           ],
-          "label": "14h"
+          "label": "14:00",
+          "shortLabel": "14"
         },
         "2014-05-10T15:00:00-03:00": {
           "sessions": [
@@ -5143,7 +5179,8 @@
               "roomName": "Reuniões 710"
             }
           ],
-          "label": "15h"
+          "label": "15:00",
+          "shortLabel": "15"
         },
         "2014-05-10T16:00:00-03:00": {
           "sessions": [
@@ -5245,7 +5282,8 @@
               "roomName": "41F"
             }
           ],
-          "label": "16h"
+          "label": "16:00",
+          "shortLabel": "16"
         },
         "2014-05-10T17:00:00-03:00": {
           "sessions": [
@@ -5393,9 +5431,11 @@
               "roomName": "40A"
             }
           ],
-          "label": "17h"
+          "label": "17:00",
+          "shortLabel": "17"
         }
-      }
+      },
+      "index": 3
     }
   ],
   "rooms": [
