@@ -795,29 +795,6 @@
               "roomName": "40T"
             },
             {
-              "id": "42",
-              "title": "Professor hacker - desafio para a docência",
-              "abstract": "Com base nos princípios da chamada ética dos hacker (Himanen, 2001) esta conferência se propõe a provocar os presentes, especialmente se professores forem, a atuarem no cotidiano das escolas como verdadeiros hackers, no sentido de trabalharem de forma colaborativa na busca da produção intensiva de conhecimentos em lugar de práticas que apenas estimulam o consumo de conteúdos e informações. Vamos pensar a escola como um espaço hacker de produção.",
-              "start": "2014-05-07T14:00:00-03:00",
-              "duration": 60,
-              "end": "2014-05-07T18:00:00.000Z",
-              "authors": [
-                {
-                  "id": "942",
-                  "name": "Nelson Pretto",
-                  "main": true
-                }
-              ],
-              "roomId": "1",
-              "roomIndex": 1,
-              "dayIndex": 0,
-              "areaId": "83",
-              "zoneId": "17",
-              "level": "",
-              "durationColspan": 3,
-              "roomName": "41A"
-            },
-            {
               "id": "78",
               "title": "import brasil: dados abertos de forma fácil",
               "abstract": "Desde a criação de Lei de Acesso à Informação (LAI[1]), vários órgãos públicos estão liberando dados que antes não tínhamos acesso, porém nem sempre os dados estão facilmente acessíveis.\r\nEssa palestra apresenta a biblioteca Python chamada \"brasil\", que facilita o acesso integrado a vários tipos de dados públicos, através de uma mesma API.\r\n\r\n[1]: http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm",
@@ -908,6 +885,29 @@
               "level": "intermediate",
               "durationColspan": 3,
               "roomName": "40A"
+            },
+            {
+              "id": "390",
+              "title": "Reunião CETI",
+              "abstract": "Reunião CETI",
+              "start": "2014-05-07T14:00:00-03:00",
+              "duration": 120,
+              "end": "2014-05-07T19:00:00.000Z",
+              "authors": [
+                {
+                  "id": "940",
+                  "name": "ORGANIZAÇÃO",
+                  "main": true
+                }
+              ],
+              "roomId": "717",
+              "roomIndex": 10,
+              "dayIndex": 0,
+              "areaId": "92",
+              "zoneId": "20",
+              "level": "",
+              "durationColspan": 6,
+              "roomName": "Reuniões 710"
             },
             {
               "id": "429",
@@ -1244,6 +1244,29 @@
               "level": "starter",
               "durationColspan": 3,
               "roomName": "41C"
+            },
+            {
+              "id": "260",
+              "title": "Caso de éxito: Expresso V3 en Argentina",
+              "abstract": "Una entidad del Estado Nacional (argentino) requería de la implementación de un nuevo sistema de colaboración y optó por Expresso V3. En esta charla se verán lo fácil o difícil que fue hacer la implementación de expresso para 3000 usuarios.",
+              "start": "2014-05-07T16:00:00-03:00",
+              "duration": 60,
+              "end": "2014-05-07T20:00:00.000Z",
+              "authors": [
+                {
+                  "id": "628",
+                  "name": "Daniel Coletti",
+                  "main": true
+                }
+              ],
+              "roomId": "7",
+              "roomIndex": 7,
+              "dayIndex": 0,
+              "areaId": "80",
+              "zoneId": "16",
+              "level": "starter",
+              "durationColspan": 3,
+              "roomName": "40A"
             }
           ],
           "label": "16:00",
@@ -1577,6 +1600,29 @@
               "level": "starter",
               "durationColspan": 9,
               "roomName": "702 - OF2"
+            },
+            {
+              "id": "394",
+              "title": "Encontro Comunitário do FLISOL no FISL15",
+              "abstract": "Proposta de Encontro Comunitário do FLISOL no FISL15",
+              "start": "2014-05-08T09:00:00-03:00",
+              "duration": 60,
+              "end": "2014-05-08T13:00:00.000Z",
+              "authors": [
+                {
+                  "id": "970",
+                  "name": "Thiago Paixão",
+                  "main": true
+                }
+              ],
+              "roomId": "717",
+              "roomIndex": 10,
+              "dayIndex": 1,
+              "areaId": "86",
+              "zoneId": "18",
+              "level": "",
+              "durationColspan": 3,
+              "roomName": "Reuniões 710"
             }
           ],
           "label": "09:00",
@@ -5047,6 +5093,29 @@
               "level": "intermediate",
               "durationColspan": 3,
               "roomName": "41B"
+            },
+            {
+              "id": "139",
+              "title": "Técnicas Jedi de Gerenciamento de Infraestrutura",
+              "abstract": "Quando o Lado Negro da Força vier com tudo pra cima, é melhor estar\r\npreparado, manter as barreiras com suas defesas sempre ativadas, manter\r\ntodos os aliados de prontidão e as naves abastecidas, todos os padawans\r\ntreinados e os mestres com seus Sabres de Luz ao alcance das mãos.",
+              "start": "2014-05-10T15:00:00-03:00",
+              "duration": 60,
+              "end": "2014-05-10T19:00:00.000Z",
+              "authors": [
+                {
+                  "id": "556",
+                  "name": "Diego Neves",
+                  "main": true
+                }
+              ],
+              "roomId": "3",
+              "roomIndex": 3,
+              "dayIndex": 3,
+              "areaId": "38",
+              "zoneId": "13",
+              "level": "intermediate",
+              "durationColspan": 3,
+              "roomName": "41C"
             },
             {
               "id": "214",
