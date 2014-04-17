@@ -210,11 +210,13 @@ var FeedParser = function($, eventDate){
                 var session = sessions[s],
                     start = session.start,
                     dayIndex = session.dayIndex,
-                    label = start.split('T')[1].substring(0, 5).replace(':00','h');
+                    label = start.split('T')[1].substring(0, 5),
+                    shortLabel = label.replace(':00','');
                 if (days[dayIndex].times[start] === undefined){
                     days[dayIndex].times[start] = {
                         sessions:[],
-                        label: label
+                        label: label,
+                        shortLabel: shortLabel,
                     };
                 }
                 days[dayIndex].times[start].sessions.push(session);

@@ -1,6 +1,6 @@
 <nav
     id="time-nav"
-    class="navbar navbar-fixed-top navbar-default"
+    class="navbar navbar-sm navbar-fixed-top navbar-default"
     data-magellan-expedition="fixed"
     >
     <ul
@@ -15,7 +15,7 @@
             data-magellan-arrival="time-{{@index}}"
             >
             <a href="#time-{{@index}}">
-                {{this.label}}
+                {{this.shortLabel}}
             </a>
         </li>
         {{/each}}
