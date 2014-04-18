@@ -40,9 +40,7 @@
         {{this.label}}
     </h3>
     {{#each this.sessions}}
-    {{#include parent=../..}}
-        {{>session}}
-    {{/include}}
+        {{>session dayIndex=../../index}}
     {{/each}}
 {{/each}}
 </dl>
