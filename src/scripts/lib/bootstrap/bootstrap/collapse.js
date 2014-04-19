@@ -38,7 +38,7 @@
     this.$element.trigger(startEvent)
     if (startEvent.isDefaultPrevented()) return
 
-    var actives = this.$parent && this.$parent.find('> .panel > .in')
+    var actives = this.$parent && this.$parent.find('.collapse.in')
 
     if (actives && actives.length) {
       var hasData = actives.data('bs.collapse')
