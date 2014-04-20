@@ -21,10 +21,11 @@
         {{/each}}
     </ul>
 </nav>
- <div
-    id="session-list-{{@index}}"
-    class="session-list"
-    >
+ <dl
+    id="sessionList-day-{{@index}}"
+    class="accordion"
+    data-accordion
+ >
 {{#each this.times}}
     <a
         id="time-{{@index}}"
@@ -35,15 +36,15 @@
         >
         {{this.label}}
     </h3>
-    <dl class="
+    <dd
+        class="
+            session-list
             list-group
-            accordion
             "
-        data-accordion
         >
     {{#each this.sessions}}
-        {{>session dayIndex=../../index}}
+        {{> session dayIndex=../../index }}
     {{/each}}
-    </dl>
+    </dd>
 {{/each}}
-</div>
+</dl>

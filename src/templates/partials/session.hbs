@@ -1,27 +1,22 @@
-<dd
-    class="
-        session
-        list-group-item
-        "
-    data-id="{{this.id}}"
-    data-start="{{this.start}}"
-    data-duration="{{this.duration}}"
-    data-room="{{this.roomId}}"
-    >
     <a
         href="#session-info-{{this.id}}"
         class="
-            session-title
-            panel-heading"
+            session session-title
+            list-group-item
+            "
+        data-id="{{this.id}}"
+        data-start="{{this.start}}"
+        data-duration="{{this.duration}}"
+        data-room="{{this.roomId}}"
         data-toggle="collapse"
-        data-parent="#session-list-{{dayIndex}}"
+        data-parent="#sessionList-day-{{dayIndex}}"
         >
         {{this.title}}
     </a>
     <div
         id="session-info-{{this.id}}"
         class="
-            collapse
+            panel-collapse collapse
             content"
         >
         <p class="session-abstract">
@@ -34,7 +29,9 @@
                     class="
                         label-default
                         secondary radius label"
-                    >{{this.name}}</span>
+                    >
+                    {{this.name}}
+                </span>
             {{/each}}
         {{/if}}
         <p>
@@ -49,6 +46,7 @@
             class="
                 label-default
                 secondary radius label"
-            >{{this.roomName}}</span>
+            >
+            {{this.roomName}}
+        </span>
     </div>
-</dd>
