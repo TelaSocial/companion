@@ -24,14 +24,15 @@ module.exports = function($, FISLParser, templates){
     };
 
     var initFramework = function(){
-        var body = $('body');
+        var body = $('body'),
+            timeName = $('#time-nav');
 
         //if using Bootstrap
         if (body.scrollspy !== undefined){
             // enable scrollspy!
             $('body').scrollspy({
                 target: '#time-nav',
-                offset: 2 * boddyPaddingTop
+                offset: boddyPaddingTop
             });
 
             //setup list view collapsables in and out events
@@ -59,7 +60,7 @@ module.exports = function($, FISLParser, templates){
         console.log(targetTop + boddyPaddingTop);
         body.animate(
             {
-                scrollTop: targetTop - boddyPaddingTop
+                scrollTop: targetTop - boddyPaddingTop + 1
             },
             animationTime
         );
