@@ -6,14 +6,17 @@
         class="nav navbar-nav"
         role="navigation"
         >
-        {{#each this.times}}
-        <li
-            class="{{#if @first}}active{{/if}}"
-            >
-            <a href="#time-{{@index}}">
-                {{this.shortLabel}}
-            </a>
-        </li>
+        {{#each schedule_grouped_by_time.days}}
+            <li>{{this.shortLabel}}</li>
+            {{#each this.times}}
+            <li
+                class="{{#if @first}}active{{/if}}"
+                >
+                <a href="#day-{{../index}}-time-{{@index}}">
+                    {{this.shortLabel}}
+                </a>
+            </li>
+            {{/each}}
         {{/each}}
     </ul>
 </nav>

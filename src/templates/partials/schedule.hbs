@@ -1,11 +1,9 @@
 <div
     >
     {{#is schedule_type 'list'}}
+        {{> time_nav}}
         {{#each schedule_grouped_by_time.days}}
-            {{#if @first}}
-{{> time_nav}}
-{{> day_list}}
-            {{/if}}
+            {{> day_list}}
         {{/each}}
     {{else}}
         {{#each schedule_grouped_by_room.days}}
