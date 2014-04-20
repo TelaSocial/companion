@@ -6,10 +6,6 @@ module.exports = function($, FISLParser, templates){
     var isCordova = document.URL.substring(0,4) === 'file',
         cordovaFunctions = new cordovaCalendarHelper($);
 
-    var setupAddToCalendarButtons = function(){
-        $('.calendar-add-button').click(cordovaFunctions.addToCalendarButtonClicked);
-    };
-
     var populateSchedule = function(data){
         var template = templates.schedule,
             destinationElement = $('#app'),
@@ -35,6 +31,30 @@ module.exports = function($, FISLParser, templates){
         }
 
     };
+
+    var timeNavClicked = function(event){
+        var link = $(this),
+            target = $(link.attr('href')),
+            targetTop = target.offset().top,
+            animationTime = 700, //miliseconds
+            body = $('html, body');
+        event.preventDefault();
+        body.animate(
+            {
+                scrollTop: targetTop
+            },
+            animationTime
+        );
+    };
+
+    var setupButtons = function(){
+        // time navigation buttons
+        $('#time-nav li a').click(timeNavClicked);
+
+        // add to calendar buttons
+        $('.calendar-add-button').click(cordovaFunctions.addToCalendarButtonClicked);
+    };
+
 
     var firstLoad = function(){
         var appElement = $('#app'),
@@ -62,8 +82,8 @@ module.exports = function($, FISLParser, templates){
             populateSchedule(scheduleData);
             //4. start framework - example: $(document).foundation()
             initFramework();
-            //5. bind calendar button clicks
-            setupAddToCalendarButtons();
+            //5. bind button clicks
+            setupButtons();
         }).fail(function() {
             console.log('error');
         }).always(function() {
