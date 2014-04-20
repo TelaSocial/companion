@@ -14,6 +14,7 @@ module.exports = function($, FISLParser, templates){
             html = template(
                 {
                     schedule_type: 'list',
+                    title: 'Companion App',
                     schedule_grouped_by_time: data
                 }
             );
@@ -27,10 +28,22 @@ module.exports = function($, FISLParser, templates){
 
         //if using Bootstrap
         if (body.scrollspy !== undefined){
-            console.log('enable scrollspy!');
+            // enable scrollspy!
             $('body').scrollspy({
                 target: '#time-nav',
                 offset: 2 * boddyPaddingTop
+            });
+
+            //setup list view collapsables in and out events
+            $('.session .collapse').on('show.bs.collapse', function () {
+                var colapseElement = $(this),
+                    sessionElement = colapseElement.parents('.session').first();
+                sessionElement.addClass('opened');
+            });
+            $('.session .collapse').on('hide.bs.collapse', function () {
+                var colapseElement = $(this),
+                    sessionElement = colapseElement.parents('.session').first();
+                sessionElement.removeClass('opened');
             });
         }
 

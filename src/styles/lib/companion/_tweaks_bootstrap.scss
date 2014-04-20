@@ -1,3 +1,10 @@
 body {
     padding-top: 50px; //space for the app top menu
 }
+.collapse-caret{
+    @extend .glyphicon;
+    @extend .glyphicon-chevron-right;
+}
+.session.opened .collapse-caret{
+    @extend .glyphicon-chevron-down;
+}
