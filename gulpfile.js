@@ -15,7 +15,8 @@ var paths = {
             pages: 'src/templates/pages/*.hbs',
             data: 'src/data/',
             scripts: 'src/scripts/',
-            styles: 'src/styles/'
+            styles: 'src/styles/',
+            fonts: 'src/fonts/'
         },
         build: {
             root: 'dist',
@@ -23,6 +24,7 @@ var paths = {
             data: 'dist/www/data',
             js: 'dist/www/js/',
             css: 'dist/www/css',
+            fonts: 'dist/www/fonts/',
             scss: 'dist/www/css/src/styles/',
             cordova: 'dist/cordova/',
             cordova_www: 'dist/cordova/www/'
@@ -70,7 +72,11 @@ gulp.task('web:buildScripts',
         'web:copyExtraLibraries'
     ]
 );
-gulp.task('web:buildStyles', tasks.web.buildStyles);
+gulp.task('web:copyFonts', tasks.web.copyFonts);
+gulp.task('web:buildStyles',
+    [
+        'web:copyFonts'
+    ], tasks.web.buildStyles);
 gulp.task('web:buildPages', tasks.web.buildPages);
 gulp.task('web:build',
     [

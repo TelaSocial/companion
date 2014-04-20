@@ -61,6 +61,15 @@ module.exports = function(paths){
         });
     };
 
+    this.copyFonts = function(){
+        return gulp.src([
+                    './**/*.*'
+                ],{
+                    cwd: paths.sources.fonts + '**'
+                })
+            .pipe(gulp.dest(paths.build.fonts));
+    };
+
     this.bundleScripts = function(){
         var options = {
                 browserify: {
