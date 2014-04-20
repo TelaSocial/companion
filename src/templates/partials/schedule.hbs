@@ -3,7 +3,8 @@
     {{#is schedule_type 'list'}}
         {{#each schedule_grouped_by_time.days}}
             {{#if @first}}
-                {{>day_list}}
+{{> time_nav}}
+{{> day_list}}
             {{/if}}
         {{/each}}
     {{else}}

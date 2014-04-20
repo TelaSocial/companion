@@ -1,0 +1,19 @@
+<nav
+    id="time-nav"
+    class="navbar navbar-fixed-top navbar-default"
+    >
+    <ul
+        class="nav navbar-nav"
+        role="navigation"
+        >
+        {{#each this.times}}
+        <li
+            class="{{#if @first}}active{{/if}}"
+            >
+            <a href="#time-{{@index}}">
+                {{this.shortLabel}}
+            </a>
+        </li>
+        {{/each}}
+    </ul>
+</nav>

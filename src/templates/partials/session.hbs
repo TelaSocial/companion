@@ -1,23 +1,25 @@
-    <a
-        href="#session-info-{{this.id}}"
-        class="
-            session session-title
-            list-group-item
-            "
-        data-id="{{this.id}}"
-        data-start="{{this.start}}"
-        data-duration="{{this.duration}}"
-        data-room="{{this.roomId}}"
-        data-toggle="collapse"
-        data-parent="#sessionList-day-{{dayIndex}}"
-        >
-        {{this.title}}
-    </a>
-    <div
+<div class="
+        session
+        list-group-item
+    "
+    data-id="{{this.id}}"
+    data-start="{{this.start}}"
+    data-duration="{{this.duration}}"
+    data-room="{{this.roomId}}"
+    >
+    <dt>
+        <a
+            href="#session-info-{{this.id}}"
+            class="session-title"
+            data-toggle="collapse"
+            data-parent="#sessionList-day-{{dayIndex}}"
+            >
+            {{this.title}}
+        </a>
+    </dt>
+    <dd
         id="session-info-{{this.id}}"
-        class="
-            panel-collapse collapse
-            "
+        class="collapse"
         >
         <p class="session-abstract">
             {{this.abstract}}
@@ -25,10 +27,7 @@
         {{#if this.authors}}
             <h4>Autores</h4>
             {{#each this.authors}}
-                <span
-                    class="
-                        label-default"
-                    >
+                <span class="label-default">
                     {{this.name}}
                 </span>
             {{/each}}
@@ -42,9 +41,8 @@
             </a>
         </p>
         <span
-            class="
-                label-default"
-            >
+            class="label-default">
             {{this.roomName}}
         </span>
-    </div>
+    </dd>
+</div>
