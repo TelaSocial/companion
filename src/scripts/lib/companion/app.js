@@ -23,9 +23,23 @@ module.exports = function($, FISLParser, templates){
         destinationElement.html(html);
     };
 
+    //the time nav must fit into 1 single line, so we sum the width of all
+    //li's and make it the with of the container ul
+    var setupTimeNav = function(){
+        var list = $('#time-nav ul'),
+            listItems = list.find('li'),
+            oneLineWidth = 0;
+        listItems.each(function(){
+            var liElement = $(this);
+            console.log(liElement.width());
+            oneLineWidth += liElement.width();
+        });
+        list.width(oneLineWidth + 20);
+        console.log('setupTimeNav', oneLineWidth);
+    };
+
     var initFramework = function(){
-        var body = $('body'),
-            timeName = $('#time-nav');
+        var body = $('body');
 
         //if using Bootstrap
         if (body.scrollspy !== undefined){
@@ -35,6 +49,7 @@ module.exports = function($, FISLParser, templates){
                 offset: boddyPaddingTop
             });
 
+            setupTimeNav();
             //setup list view collapsables in and out events
             $('.session .collapse').on('show.bs.collapse', function () {
                 var colapseElement = $(this),
@@ -73,7 +88,6 @@ module.exports = function($, FISLParser, templates){
         // add to calendar buttons
         $('.calendar-add-button').click(cordovaFunctions.addToCalendarButtonClicked);
     };
-
 
     var firstLoad = function(){
         var appElement = $('#app'),
