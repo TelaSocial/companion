@@ -26,13 +26,7 @@ module.exports = function($, FISLParser, templates){
     };
 
     var initFramework = function(){
-        var doc = $(document),
-            body = $('body');
-
-        //if using ZURB foundation
-        if (doc.foundation !== undefined){
-            doc.foundation();
-        }
+        var body = $('body');
 
         //if using Bootstrap
         if (body.scrollspy !== undefined){
