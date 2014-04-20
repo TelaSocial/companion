@@ -2761,7 +2761,35 @@
           ]
         },
         {
-          "sessions": []
+          "sessions": [
+            {
+              "id": "262",
+              "title": "Encontro Comunitário do FLISOL no FISL15",
+              "abstract": "Proposta de Encontro Comunitário do FLISOL no FISL15",
+              "start": "2014-05-08T09:00:00-03:00",
+              "duration": 60,
+              "end": "2014-05-08T13:00:00.000Z",
+              "authors": [
+                {
+                  "id": "970",
+                  "name": "Thiago Paixão",
+                  "main": true
+                }
+              ],
+              "roomId": "7",
+              "roomIndex": 7,
+              "dayIndex": 1,
+              "areaId": "86",
+              "zoneId": "18",
+              "level": "",
+              "durationColspan": 3,
+              "roomName": "40A",
+              "intervalBefore": 0,
+              "intervalBeforeColspan": 0,
+              "intervalAfter": 480,
+              "intervalAfterColspan": 24
+            }
+          ]
         },
         {
           "sessions": [
@@ -2923,33 +2951,6 @@
         {
           "sessions": [
             {
-              "id": "394",
-              "title": "Encontro Comunitário do FLISOL no FISL15",
-              "abstract": "Proposta de Encontro Comunitário do FLISOL no FISL15",
-              "start": "2014-05-08T09:00:00-03:00",
-              "duration": 60,
-              "end": "2014-05-08T13:00:00.000Z",
-              "authors": [
-                {
-                  "id": "970",
-                  "name": "Thiago Paixão",
-                  "main": true
-                }
-              ],
-              "roomId": "717",
-              "roomIndex": 10,
-              "dayIndex": 1,
-              "areaId": "86",
-              "zoneId": "18",
-              "level": "",
-              "durationColspan": 3,
-              "roomName": "Reuniões 710",
-              "intervalBefore": 0,
-              "intervalBeforeColspan": 0,
-              "intervalAfter": 360,
-              "intervalAfterColspan": 18
-            },
-            {
               "id": "401",
               "title": "Reunião Comcet",
               "abstract": "Reunião Comcet",
@@ -2971,6 +2972,8 @@
               "level": "",
               "durationColspan": 6,
               "roomName": "Reuniões 710",
+              "intervalBefore": 420,
+              "intervalBeforeColspan": 21,
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
@@ -3167,33 +3170,8 @@
               "level": "advanced",
               "durationColspan": 3,
               "roomName": "40T",
-              "intervalAfter": 0,
-              "intervalAfterColspan": 0
-            },
-            {
-              "id": "24",
-              "title": "\"Open Source Free Energy; Harnessing the Wheelwork of Nature\", and I would cove",
-              "abstract": "We've all heard the term \"free energy\" bantered around. Usually it conjures images of tin foil hat wearers hoping for the holy grail that never seems to show up. However, along with the 25 legitimate conventional \"free energy\" modalities, including solar, wind, geothermal, tide, ocean currents, waste to energy, etc; there are likewise 25 un-conventional modalities that actually hold tremendous promise: cold fusion, electromagnetic overunity, magnet motors, water as fuel, zero point energy, etc.",
-              "start": "2014-05-09T16:00:00-03:00",
-              "duration": 60,
-              "end": "2014-05-09T20:00:00.000Z",
-              "authors": [
-                {
-                  "id": "956",
-                  "name": "Sterling David Allan",
-                  "main": true
-                }
-              ],
-              "roomId": "8",
-              "roomIndex": 0,
-              "dayIndex": 2,
-              "areaId": "89",
-              "zoneId": "19",
-              "level": "",
-              "durationColspan": 3,
-              "roomName": "40T",
-              "intervalAfter": 0,
-              "intervalAfterColspan": 0
+              "intervalAfter": 60,
+              "intervalAfterColspan": 3
             },
             {
               "id": "35",
@@ -3620,33 +3598,8 @@
               "roomName": "41C",
               "intervalBefore": 0,
               "intervalBeforeColspan": 0,
-              "intervalAfter": 60,
-              "intervalAfterColspan": 3
-            },
-            {
-              "id": "127",
-              "title": "As ondas tecnológicas e o Open Source",
-              "abstract": "Estamos diante de ondas tecnológicas que estão afetando as empresas e a sociedade,. Estas ondas são cloud, mobilidade, Big data/analytics, social e Internet das Coisas. Como o modelo Open Source se insere neste contexto? Perde ou ganha espaço?",
-              "start": "2014-05-09T11:00:00-03:00",
-              "duration": 60,
-              "end": "2014-05-09T15:00:00.000Z",
-              "authors": [
-                {
-                  "id": "957",
-                  "name": "Cezar Taurion",
-                  "main": true
-                }
-              ],
-              "roomId": "3",
-              "roomIndex": 3,
-              "dayIndex": 2,
-              "areaId": "80",
-              "zoneId": "16",
-              "level": "",
-              "durationColspan": 3,
-              "roomName": "41C",
-              "intervalAfter": 0,
-              "intervalAfterColspan": 0
+              "intervalAfter": 120,
+              "intervalAfterColspan": 6
             },
             {
               "id": "128",
@@ -3861,8 +3814,33 @@
               "level": "starter",
               "durationColspan": 3,
               "roomName": "41D",
-              "intervalAfter": 60,
-              "intervalAfterColspan": 3
+              "intervalAfter": 0,
+              "intervalAfterColspan": 0
+            },
+            {
+              "id": "169",
+              "title": "NIKOLA TESLA E ENERGIA LIVRE",
+              "abstract": "Apresentação de Boris Petrovic, Presidente do Instituto Nikola Tesla em Brasília no Fórum Internacional do Software Livre tem com foco descobertas recentes sobre trabalho não realizado do Nikola Tesla – sistemas de distribuição de ENERGIA GRATUITA e conceitos científicos de ENERGIA LIVRE.",
+              "start": "2014-05-09T15:00:00-03:00",
+              "duration": 60,
+              "end": "2014-05-09T19:00:00.000Z",
+              "authors": [
+                {
+                  "id": "955",
+                  "name": "Bóris Petrovic",
+                  "main": true
+                }
+              ],
+              "roomId": "4",
+              "roomIndex": 4,
+              "dayIndex": 2,
+              "areaId": "89",
+              "zoneId": "19",
+              "level": "",
+              "durationColspan": 3,
+              "roomName": "41D",
+              "intervalAfter": 0,
+              "intervalAfterColspan": 0
             },
             {
               "id": "170",
@@ -4233,8 +4211,38 @@
               "level": "starter",
               "durationColspan": 3,
               "roomName": "41F",
-              "intervalAfter": 60,
-              "intervalAfterColspan": 3
+              "intervalAfter": 0,
+              "intervalAfterColspan": 0
+            },
+            {
+              "id": "242",
+              "title": "Gerencie seu ambiente de servidores Linux de maneira inteligente e eficiente",
+              "abstract": "Conheça o SUSE Manager, a solução integrada da SUSE para gerenciar o ciclo de vida de servidores Linux.",
+              "start": "2014-05-09T16:00:00-03:00",
+              "duration": 60,
+              "end": "2014-05-09T20:00:00.000Z",
+              "authors": [
+                {
+                  "id": "1014",
+                  "name": "Erico Mendonça",
+                  "main": true
+                },
+                {
+                  "id": "1015",
+                  "name": "Marcelo Martins",
+                  "main": false
+                }
+              ],
+              "roomId": "6",
+              "roomIndex": 6,
+              "dayIndex": 2,
+              "areaId": "38",
+              "zoneId": "13",
+              "level": "",
+              "durationColspan": 3,
+              "roomName": "41F",
+              "intervalAfter": 0,
+              "intervalAfterColspan": 0
             },
             {
               "id": "243",
@@ -4507,8 +4515,33 @@
               "level": "intermediate",
               "durationColspan": 3,
               "roomName": "40T",
-              "intervalAfter": 120,
-              "intervalAfterColspan": 6
+              "intervalAfter": 60,
+              "intervalAfterColspan": 3
+            },
+            {
+              "id": "32",
+              "title": "\"Open Source Free Energy; Harnessing the Wheelwork of Nature\", and I would cove",
+              "abstract": "We've all heard the term \"free energy\" bantered around. Usually it conjures images of tin foil hat wearers hoping for the holy grail that never seems to show up. However, along with the 25 legitimate conventional \"free energy\" modalities, including solar, wind, geothermal, tide, ocean currents, waste to energy, etc; there are likewise 25 un-conventional modalities that actually hold tremendous promise: cold fusion, electromagnetic overunity, magnet motors, water as fuel, zero point energy, etc.",
+              "start": "2014-05-10T16:00:00-03:00",
+              "duration": 60,
+              "end": "2014-05-10T20:00:00.000Z",
+              "authors": [
+                {
+                  "id": "956",
+                  "name": "Sterling David Allan",
+                  "main": true
+                }
+              ],
+              "roomId": "8",
+              "roomIndex": 0,
+              "dayIndex": 3,
+              "areaId": "89",
+              "zoneId": "19",
+              "level": "",
+              "durationColspan": 3,
+              "roomName": "40T",
+              "intervalAfter": 0,
+              "intervalAfterColspan": 0
             },
             {
               "id": "36",
@@ -4703,8 +4736,33 @@
               "level": "intermediate",
               "durationColspan": 3,
               "roomName": "41A",
-              "intervalAfter": 120,
-              "intervalAfterColspan": 6
+              "intervalAfter": 0,
+              "intervalAfterColspan": 0
+            },
+            {
+              "id": "71",
+              "title": "Governança de Projetos e Estrutura de Comunidades de Software Livre",
+              "abstract": "Será o Bazar uma forma de organização limitada ao ponto de projetos de software livre bem-sucedidos em termos de ampla base de usuários e aprimoramento constante do código-fonte necessitarem buscar outras estruturas sociais e do trabalho? Nesta palestra irei me debruçar, em tom provocativo, sobre a possibilidade do Bazar ser um estágio pré-Catedral, e não uma forma sustentável profissionalmente, como antes difundido.",
+              "start": "2014-05-10T16:00:00-03:00",
+              "duration": 60,
+              "end": "2014-05-10T20:00:00.000Z",
+              "authors": [
+                {
+                  "id": "1001",
+                  "name": "Carlos Denner",
+                  "main": true
+                }
+              ],
+              "roomId": "1",
+              "roomIndex": 1,
+              "dayIndex": 3,
+              "areaId": "77",
+              "zoneId": "16",
+              "level": "",
+              "durationColspan": 3,
+              "roomName": "41A",
+              "intervalAfter": 60,
+              "intervalAfterColspan": 3
             }
           ]
         },
@@ -5629,8 +5687,38 @@
               "roomName": "40A",
               "intervalBefore": 0,
               "intervalBeforeColspan": 0,
-              "intervalAfter": 60,
-              "intervalAfterColspan": 3
+              "intervalAfter": 0,
+              "intervalAfterColspan": 0
+            },
+            {
+              "id": "281",
+              "title": "Sistema Operacional Guarux - Soluções para acessibilidade",
+              "abstract": "É um sistema operacional baseado em Linux, voltado à comunidade, totalmente acessível, desenvolvido e customizado por técnicos da área de TI da Prefeitura de Guarulhos com interface gráfica própria e de fácil entendimento. Nele, estão instalados aplicativos para deficientes visuais, tetraplégicos, recursos pedagógicos, jogos educativos e também um aplicativo chamado TDGrux que auxilia na estimulação de autistas, pessoas com síndrome de down e dislexia. Também possui versão corporativa. ",
+              "start": "2014-05-10T10:00:00-03:00",
+              "duration": 60,
+              "end": "2014-05-10T14:00:00.000Z",
+              "authors": [
+                {
+                  "id": "553",
+                  "name": "Marcos da Paz",
+                  "main": true
+                },
+                {
+                  "id": "606",
+                  "name": "",
+                  "main": false
+                }
+              ],
+              "roomId": "7",
+              "roomIndex": 7,
+              "dayIndex": 3,
+              "areaId": "71",
+              "zoneId": "15",
+              "level": "starter",
+              "durationColspan": 3,
+              "roomName": "40A",
+              "intervalAfter": 0,
+              "intervalAfterColspan": 0
             },
             {
               "id": "282",

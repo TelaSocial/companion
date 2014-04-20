@@ -1565,6 +1565,29 @@
               "roomName": "41F"
             },
             {
+              "id": "262",
+              "title": "Encontro Comunitário do FLISOL no FISL15",
+              "abstract": "Proposta de Encontro Comunitário do FLISOL no FISL15",
+              "start": "2014-05-08T09:00:00-03:00",
+              "duration": 60,
+              "end": "2014-05-08T13:00:00.000Z",
+              "authors": [
+                {
+                  "id": "970",
+                  "name": "Thiago Paixão",
+                  "main": true
+                }
+              ],
+              "roomId": "7",
+              "roomIndex": 7,
+              "dayIndex": 1,
+              "areaId": "86",
+              "zoneId": "18",
+              "level": "",
+              "durationColspan": 3,
+              "roomName": "40A"
+            },
+            {
               "id": "344",
               "title": "Oficina - Quem São os Proprietários do Brasil",
               "abstract": "A partir de dados públicos, o projeto Proprietários do Brasil cria ferramentas para medir a concentração do poder econômico e sua relação com o poder político no país.\r\n\r\nO portal traz informações sobre 5600 empresas, pessoas e estatais, um ranking das 397 mais com maior poder acumulado, além de análises de poder que mostram como a ação dessas empresas afeta o cotidiano da população.",
@@ -1601,29 +1624,6 @@
               "level": "starter",
               "durationColspan": 9,
               "roomName": "702 - OF2"
-            },
-            {
-              "id": "394",
-              "title": "Encontro Comunitário do FLISOL no FISL15",
-              "abstract": "Proposta de Encontro Comunitário do FLISOL no FISL15",
-              "start": "2014-05-08T09:00:00-03:00",
-              "duration": 60,
-              "end": "2014-05-08T13:00:00.000Z",
-              "authors": [
-                {
-                  "id": "970",
-                  "name": "Thiago Paixão",
-                  "main": true
-                }
-              ],
-              "roomId": "717",
-              "roomIndex": 10,
-              "dayIndex": 1,
-              "areaId": "86",
-              "zoneId": "18",
-              "level": "",
-              "durationColspan": 3,
-              "roomName": "Reuniões 710"
             }
           ],
           "label": "09:00",
@@ -3131,29 +3131,6 @@
               "roomName": "41B"
             },
             {
-              "id": "127",
-              "title": "As ondas tecnológicas e o Open Source",
-              "abstract": "Estamos diante de ondas tecnológicas que estão afetando as empresas e a sociedade,. Estas ondas são cloud, mobilidade, Big data/analytics, social e Internet das Coisas. Como o modelo Open Source se insere neste contexto? Perde ou ganha espaço?",
-              "start": "2014-05-09T11:00:00-03:00",
-              "duration": 60,
-              "end": "2014-05-09T15:00:00.000Z",
-              "authors": [
-                {
-                  "id": "957",
-                  "name": "Cezar Taurion",
-                  "main": true
-                }
-              ],
-              "roomId": "3",
-              "roomIndex": 3,
-              "dayIndex": 2,
-              "areaId": "80",
-              "zoneId": "16",
-              "level": "",
-              "durationColspan": 3,
-              "roomName": "41C"
-            },
-            {
               "id": "165",
               "title": "Streaming de Vídeo ao Vivo na globo.com",
               "abstract": "A globo.com faz diversas transmissões de vídeos ao vivo, de partidas de futebol, noticiários a programas contínuos como o BBB. Chegamos a transmitir mais de 100 sinais simultâneos e tivemos um pico de mais de 400 mil usuários concorrentes na Copa das Confederações de 2013. O objetivo desta palestra é apresentar a arquitetura que torna a entrega do conteúdo e o monitoramento da plataforma, baseada largamente em software livre.",
@@ -3775,6 +3752,29 @@
               "roomName": "41A"
             },
             {
+              "id": "169",
+              "title": "NIKOLA TESLA E ENERGIA LIVRE",
+              "abstract": "Apresentação de Boris Petrovic, Presidente do Instituto Nikola Tesla em Brasília no Fórum Internacional do Software Livre tem com foco descobertas recentes sobre trabalho não realizado do Nikola Tesla – sistemas de distribuição de ENERGIA GRATUITA e conceitos científicos de ENERGIA LIVRE.",
+              "start": "2014-05-09T15:00:00-03:00",
+              "duration": 60,
+              "end": "2014-05-09T19:00:00.000Z",
+              "authors": [
+                {
+                  "id": "955",
+                  "name": "Bóris Petrovic",
+                  "main": true
+                }
+              ],
+              "roomId": "4",
+              "roomIndex": 4,
+              "dayIndex": 2,
+              "areaId": "89",
+              "zoneId": "19",
+              "level": "",
+              "durationColspan": 3,
+              "roomName": "41D"
+            },
+            {
               "id": "205",
               "title": "Palestra: e-petição - portal de petições on-line com certificação digital.",
               "abstract": "A palestra fala sobre a ideia de um projeto de petições on-line que usa assinatura digital para votar em projetos de interesse da sociedade civil.\r\nO projeto constitui-se de uma portal de assinaturas digitais feitos com Html + PHP assinado por bibliotecas do OpenSSL, o motor do site é feito em linguagem GO! \r\nO projeto foi idealizado para o ConSERPRO 2013 porém o mesmo permite o fomentação do tema tão em pauta desde Jun/2013 nas manifestações.\r\n",
@@ -3831,29 +3831,6 @@
         },
         "2014-05-09T16:00:00-03:00": {
           "sessions": [
-            {
-              "id": "24",
-              "title": "\"Open Source Free Energy; Harnessing the Wheelwork of Nature\", and I would cove",
-              "abstract": "We've all heard the term \"free energy\" bantered around. Usually it conjures images of tin foil hat wearers hoping for the holy grail that never seems to show up. However, along with the 25 legitimate conventional \"free energy\" modalities, including solar, wind, geothermal, tide, ocean currents, waste to energy, etc; there are likewise 25 un-conventional modalities that actually hold tremendous promise: cold fusion, electromagnetic overunity, magnet motors, water as fuel, zero point energy, etc.",
-              "start": "2014-05-09T16:00:00-03:00",
-              "duration": 60,
-              "end": "2014-05-09T20:00:00.000Z",
-              "authors": [
-                {
-                  "id": "956",
-                  "name": "Sterling David Allan",
-                  "main": true
-                }
-              ],
-              "roomId": "8",
-              "roomIndex": 0,
-              "dayIndex": 2,
-              "areaId": "89",
-              "zoneId": "19",
-              "level": "",
-              "durationColspan": 3,
-              "roomName": "40T"
-            },
             {
               "id": "98",
               "title": "Samanaú.SAT: Plataforma open source para coleta de dados por satélite",
@@ -3922,6 +3899,34 @@
               "level": "starter",
               "durationColspan": 3,
               "roomName": "41E"
+            },
+            {
+              "id": "242",
+              "title": "Gerencie seu ambiente de servidores Linux de maneira inteligente e eficiente",
+              "abstract": "Conheça o SUSE Manager, a solução integrada da SUSE para gerenciar o ciclo de vida de servidores Linux.",
+              "start": "2014-05-09T16:00:00-03:00",
+              "duration": 60,
+              "end": "2014-05-09T20:00:00.000Z",
+              "authors": [
+                {
+                  "id": "1014",
+                  "name": "Erico Mendonça",
+                  "main": true
+                },
+                {
+                  "id": "1015",
+                  "name": "Marcelo Martins",
+                  "main": false
+                }
+              ],
+              "roomId": "6",
+              "roomIndex": 6,
+              "dayIndex": 2,
+              "areaId": "38",
+              "zoneId": "13",
+              "level": "",
+              "durationColspan": 3,
+              "roomName": "41F"
             }
           ],
           "label": "16:00",
@@ -4369,6 +4374,34 @@
               "level": "starter",
               "durationColspan": 3,
               "roomName": "41F"
+            },
+            {
+              "id": "281",
+              "title": "Sistema Operacional Guarux - Soluções para acessibilidade",
+              "abstract": "É um sistema operacional baseado em Linux, voltado à comunidade, totalmente acessível, desenvolvido e customizado por técnicos da área de TI da Prefeitura de Guarulhos com interface gráfica própria e de fácil entendimento. Nele, estão instalados aplicativos para deficientes visuais, tetraplégicos, recursos pedagógicos, jogos educativos e também um aplicativo chamado TDGrux que auxilia na estimulação de autistas, pessoas com síndrome de down e dislexia. Também possui versão corporativa. ",
+              "start": "2014-05-10T10:00:00-03:00",
+              "duration": 60,
+              "end": "2014-05-10T14:00:00.000Z",
+              "authors": [
+                {
+                  "id": "553",
+                  "name": "Marcos da Paz",
+                  "main": true
+                },
+                {
+                  "id": "606",
+                  "name": "",
+                  "main": false
+                }
+              ],
+              "roomId": "7",
+              "roomIndex": 7,
+              "dayIndex": 3,
+              "areaId": "71",
+              "zoneId": "15",
+              "level": "starter",
+              "durationColspan": 3,
+              "roomName": "40A"
             }
           ],
           "label": "10:00",
@@ -5256,6 +5289,52 @@
         },
         "2014-05-10T16:00:00-03:00": {
           "sessions": [
+            {
+              "id": "32",
+              "title": "\"Open Source Free Energy; Harnessing the Wheelwork of Nature\", and I would cove",
+              "abstract": "We've all heard the term \"free energy\" bantered around. Usually it conjures images of tin foil hat wearers hoping for the holy grail that never seems to show up. However, along with the 25 legitimate conventional \"free energy\" modalities, including solar, wind, geothermal, tide, ocean currents, waste to energy, etc; there are likewise 25 un-conventional modalities that actually hold tremendous promise: cold fusion, electromagnetic overunity, magnet motors, water as fuel, zero point energy, etc.",
+              "start": "2014-05-10T16:00:00-03:00",
+              "duration": 60,
+              "end": "2014-05-10T20:00:00.000Z",
+              "authors": [
+                {
+                  "id": "956",
+                  "name": "Sterling David Allan",
+                  "main": true
+                }
+              ],
+              "roomId": "8",
+              "roomIndex": 0,
+              "dayIndex": 3,
+              "areaId": "89",
+              "zoneId": "19",
+              "level": "",
+              "durationColspan": 3,
+              "roomName": "40T"
+            },
+            {
+              "id": "71",
+              "title": "Governança de Projetos e Estrutura de Comunidades de Software Livre",
+              "abstract": "Será o Bazar uma forma de organização limitada ao ponto de projetos de software livre bem-sucedidos em termos de ampla base de usuários e aprimoramento constante do código-fonte necessitarem buscar outras estruturas sociais e do trabalho? Nesta palestra irei me debruçar, em tom provocativo, sobre a possibilidade do Bazar ser um estágio pré-Catedral, e não uma forma sustentável profissionalmente, como antes difundido.",
+              "start": "2014-05-10T16:00:00-03:00",
+              "duration": 60,
+              "end": "2014-05-10T20:00:00.000Z",
+              "authors": [
+                {
+                  "id": "1001",
+                  "name": "Carlos Denner",
+                  "main": true
+                }
+              ],
+              "roomId": "1",
+              "roomIndex": 1,
+              "dayIndex": 3,
+              "areaId": "77",
+              "zoneId": "16",
+              "level": "",
+              "durationColspan": 3,
+              "roomName": "41A"
+            },
             {
               "id": "107",
               "title": "Kernel Linux - Onde podemos encontrá-lo? Onde você nem imagina!",
