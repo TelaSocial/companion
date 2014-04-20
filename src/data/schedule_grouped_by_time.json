@@ -1417,7 +1417,8 @@
           "shortLabel": "17"
         }
       },
-      "index": 0
+      "index": 0,
+      "shortLabel": "Qui 7"
     },
     {
       "times": {
@@ -2761,7 +2762,8 @@
           "shortLabel": "17"
         }
       },
-      "index": 1
+      "index": 1,
+      "shortLabel": "Sex 8"
     },
     {
       "times": {
@@ -4085,7 +4087,8 @@
           "shortLabel": "17"
         }
       },
-      "index": 2
+      "index": 2,
+      "shortLabel": "Sab 9"
     },
     {
       "times": {
@@ -5504,7 +5507,8 @@
           "shortLabel": "17"
         }
       },
-      "index": 3
+      "index": 3,
+      "shortLabel": "Dom 10"
     }
   ],
   "rooms": [

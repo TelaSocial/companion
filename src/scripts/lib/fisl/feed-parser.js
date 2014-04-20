@@ -1,4 +1,5 @@
 'use strict';
+
 var FeedParser = function($, eventDate){
 
     var sortByStart = function (a,b){
@@ -34,6 +35,7 @@ var FeedParser = function($, eventDate){
             minimumInterval = Number($xml.find('hours').first().attr('minimum_interval')),
             endOfDay = '00:00:00.000Z',
             startOfDay = '23:59:59.000Z',
+            weekDays = ['Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sab', 'Dom'],
             roomIdToIndex = {},
             candidates = {},
             rooms = [],
@@ -122,7 +124,8 @@ var FeedParser = function($, eventDate){
                 startSplit = start.split('T'),
                 sessionDay = startDate.getDate(),
                 eventDay = eventDate.getDate(),
-                dayIndex = sessionDay - eventDay,
+                dayIndex = sessionDay - eventDay, //this wont work if both dates aren't in the same month
+                dayShortLabel = weekDays[startDate.getDay()] + ' ' + sessionDay,
                 roomIndex = roomIdToIndex[room],
                 roomName = rooms[roomIndex].name,
                 emptyRooms = [],
@@ -145,6 +148,7 @@ var FeedParser = function($, eventDate){
                     };
                 }
                 days[dayIndex].index = dayIndex;
+                days[dayIndex].shortLabel = dayShortLabel;
             }
 
             session = {
