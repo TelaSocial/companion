@@ -1549,7 +1549,7 @@
         }
       ],
       "index": 0,
-      "shortLabel": "Qui 7"
+      "shortLabel": "Qua 7"
     },
     {
       "rooms": [
@@ -3015,7 +3015,7 @@
         }
       ],
       "index": 1,
-      "shortLabel": "Sex 8"
+      "shortLabel": "Qui 8"
     },
     {
       "rooms": [
@@ -4460,7 +4460,7 @@
         }
       ],
       "index": 2,
-      "shortLabel": "Sab 9"
+      "shortLabel": "Sex 9"
     },
     {
       "rooms": [
@@ -6086,7 +6086,7 @@
         }
       ],
       "index": 3,
-      "shortLabel": "Dom 10"
+      "shortLabel": "Sab 10"
     }
   ],
   "rooms": [
