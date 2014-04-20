@@ -1,18 +1,14 @@
 <nav
     id="time-nav"
     class="navbar navbar-fixed-top navbar-default"
-    data-magellan-expedition="fixed"
     >
     <ul
-        class="
-            nav navbar-nav
-            sub-nav"
+        class="nav navbar-nav"
         role="navigation"
         >
         {{#each this.times}}
         <li
             class="{{#if @first}}active{{/if}}"
-            data-magellan-arrival="time-{{@index}}"
             >
             <a href="#time-{{@index}}">
                 {{this.shortLabel}}
@@ -23,17 +19,13 @@
 </nav>
  <dl
     id="sessionList-day-{{@index}}"
-    class="accordion"
-    data-accordion
  >
 {{#each this.times}}
     <a
         id="time-{{@index}}"
         class="time-break"
         ></a>
-    <h3
-        data-magellan-destination="time-{{@index}}"
-        >
+    <h3>
         {{this.label}}
     </h3>
     <dd
