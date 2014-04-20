@@ -4,7 +4,8 @@ var cordovaCalendarHelper = require('./cordova_calendar');
 
 module.exports = function($, FISLParser, templates){
     var isCordova = document.URL.substring(0,4) === 'file',
-        cordovaFunctions = new cordovaCalendarHelper($);
+        cordovaFunctions = new cordovaCalendarHelper($),
+        boddyPaddingTop = 50; //px
 
     var populateSchedule = function(data){
         var template = templates.schedule,
@@ -27,7 +28,10 @@ module.exports = function($, FISLParser, templates){
         //if using Bootstrap
         if (body.scrollspy !== undefined){
             console.log('enable scrollspy!');
-            $('body').scrollspy({ target: '#time-nav' });
+            $('body').scrollspy({
+                target: '#time-nav',
+                offset: 2 * boddyPaddingTop
+            });
         }
 
     };
@@ -39,9 +43,10 @@ module.exports = function($, FISLParser, templates){
             animationTime = 700, //miliseconds
             body = $('html, body');
         event.preventDefault();
+        console.log(targetTop + boddyPaddingTop);
         body.animate(
             {
-                scrollTop: targetTop
+                scrollTop: targetTop - boddyPaddingTop
             },
             animationTime
         );

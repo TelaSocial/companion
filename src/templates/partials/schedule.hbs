@@ -1,5 +1,5 @@
-<div
-    >
+<div>
+    {{> app_menu}}
     {{#is schedule_type 'list'}}
         {{> time_nav}}
         {{#each schedule_grouped_by_time.days}}
