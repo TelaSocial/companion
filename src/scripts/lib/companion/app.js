@@ -43,13 +43,15 @@ module.exports = function($, FISLParser, templates){
 
         //if using Bootstrap
         if (body.scrollspy !== undefined){
+
+            setupTimeNav();
+
             // enable scrollspy!
             $('body').scrollspy({
                 target: '#time-nav',
                 offset: boddyPaddingTop
             });
 
-            setupTimeNav();
             //setup list view collapsables in and out events
             $('.session .collapse').on('show.bs.collapse', function () {
                 var colapseElement = $(this),
