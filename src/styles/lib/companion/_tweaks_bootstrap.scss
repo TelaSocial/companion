@@ -1,10 +1,25 @@
 body {
     padding-top: 50px; //space for the app top menu
 }
+
+.place-icon,
+.author-icon,
+.calendar-add-icon,
 .collapse-caret{
     @extend .glyphicon;
+}
+.collapse-caret{
     @extend .glyphicon-chevron-right;
 }
 .session.opened .collapse-caret{
     @extend .glyphicon-chevron-down;
+}
+.calendar-add-icon{
+    @extend .glyphicon-calendar;
+}
+.author-icon{
+    @extend .glyphicon-user;
+}
+.place-icon{
+    @extend .glyphicon-map-marker;
 }

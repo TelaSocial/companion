@@ -8,44 +8,49 @@
     data-room="{{this.roomId}}"
     >
     <dt>
-        <a
-            href="#session-info-{{this.id}}"
-            class="session-title"
-            data-toggle="collapse"
-            data-parent="#day-{{dayIndex}}"
-            >
-            <span
-                class="collapse-caret"
-                ></span>
-            {{this.title}}
-        </a>
+        <h4>
+            <a
+                href="#session-info-{{this.id}}"
+                class="session-title"
+                data-toggle="collapse"
+                data-parent="#day-{{dayIndex}}"
+                >
+                <span
+                    class="collapse-caret"
+                    ></span>
+                {{this.title}}
+            </a>
+        </h4>
     </dt>
     <dd
         id="session-info-{{this.id}}"
         class="collapse"
         >
-        <p class="session-abstract">
+        <p class="session-abstract panel-body">
             {{this.abstract}}
         </p>
-        {{#if this.authors}}
-            <h4>Autores</h4>
-            {{#each this.authors}}
-                <span class="label-default">
+
+        <ul class="nav nav-pills">
+            <li>
+                <a class="room-link" href="#">
+                    <span class="place-icon"></span>
+                    {{this.roomName}}
+                </a>
+            </li>
+            <li>
+                <a class="calendar-add-button" href="#">
+                    <span class="calendar-add-icon"></span>
+                    Add to calendar
+                </a>
+            </li>
+        {{#each this.authors}}
+            <li>
+                <a href="#" class="author-link">
+                    <span class="author-icon"></span>
                     {{this.name}}
-                </span>
-            {{/each}}
-        {{/if}}
-        <p>
-            <a
-                class="calendar-add-button"
-                href="#"
-            >
-                Add to calendar
-            </a>
-        </p>
-        <span
-            class="label-default">
-            {{this.roomName}}
-        </span>
+                </a>
+            </li>
+        {{/each}}
+        </ul>
     </dd>
 </div>
