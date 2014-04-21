@@ -31,11 +31,17 @@ module.exports = function($, FISLParser, templates){
             oneLineWidth = 0;
         listItems.each(function(){
             var liElement = $(this);
-            console.log(liElement.width());
             oneLineWidth += liElement.width();
         });
         list.width(oneLineWidth + 20);
-        console.log('setupTimeNav', oneLineWidth);
+    };
+
+    var timeNavUpdated = function(activateEvent){
+        var liElement = $(activateEvent.target),
+            timeNav = liElement.parents('.navbar').first(),
+            timeNavList = liElement.parents('.nav').first(),
+            halfScreenWidth = $(window).width() / 2;
+        timeNav.scrollLeft(liElement.offset().left - timeNavList.offset().left - halfScreenWidth + (liElement.width() / 2));
     };
 
     var initFramework = function(){
@@ -47,10 +53,13 @@ module.exports = function($, FISLParser, templates){
             setupTimeNav();
 
             // enable scrollspy!
-            $('body').scrollspy({
+            body.scrollspy({
                 target: '#time-nav',
                 offset: boddyPaddingTop
             });
+            //bind on nav update event
+            body.on('activate.bs.scrollspy', timeNavUpdated);
+
 
             //setup list view collapsables in and out events
             $('.session .collapse').on('show.bs.collapse', function () {
@@ -74,7 +83,6 @@ module.exports = function($, FISLParser, templates){
             animationTime = 700, //miliseconds
             body = $('html, body');
         event.preventDefault();
-        console.log(targetTop + boddyPaddingTop);
         body.animate(
             {
                 scrollTop: targetTop - boddyPaddingTop + 1
@@ -112,7 +120,6 @@ module.exports = function($, FISLParser, templates){
             var parser = new FISLParser($, new Date('2014-05-07T00:01-03:00')),
                 scheduleData = parser.parse(data);
             progressMeter.width('25%');
-            console.log(scheduleData);
             //3. render schedule
             populateSchedule(scheduleData);
             //4. start framework - example: $(document).foundation()
