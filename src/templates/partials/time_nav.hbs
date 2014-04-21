@@ -9,9 +9,7 @@
         {{#each schedule_grouped_by_time.days}}
             <li>{{this.shortLabel}}</li>
             {{#each this.times}}
-            <li
-                class="{{#if @first}}active{{/if}}"
-                >
+            <li>
                 <a href="#day-{{../index}}-time-{{@index}}">
                     {{this.shortLabel}}
                 </a>
