@@ -1,3 +1,7 @@
+{{#each schedule.days}}
+<h2 class="day-title">
+    {{this.shortLabel}}
+</h2>
 <div
     id="day-{{@index}}"
  >
@@ -21,3 +25,4 @@
     </dl>
 {{/each}}
 </div>
+{{/each}}
