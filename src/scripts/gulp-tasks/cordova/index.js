@@ -100,4 +100,17 @@ module.exports = function(paths, pkg){
         promise = new Q(cordova.build());
         promise.then(cb);
     };
+
+    this.run = function(cb){
+        var promise;
+        cordovaCdToRoot();
+        promise = new Q(cordova.run({
+            debug: true
+        }));
+        promise.then(cb);
+    };
+
+
+
+
 };
