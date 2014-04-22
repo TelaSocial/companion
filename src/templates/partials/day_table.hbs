@@ -14,20 +14,20 @@
         class="table table-bordered">
         <thead>
             <tr>
-                <td>Salas</td>
+                <th class="room-name-cell">Salas</th>
                 {{#each this.times}}
-                <td colspan="{{this.colspan}}">
+                <th colspan="{{this.colspan}}">
                     {{this.label}}
-                </td>
+                </th>
                 {{/each}}
             </tr>
         </thead>
         <tbody>
         {{#each this.rooms}}
             <tr>
-                <td class="room-name-cell">
+                <th class="room-name-cell">
                     {{this.roomName}}
-                </td>
+                </th>
                 {{#is this.sessions.length '<' 1}}
                     <td class="empty" colspan="{{../../maxColspan}}"></td>
                 {{/is}}
