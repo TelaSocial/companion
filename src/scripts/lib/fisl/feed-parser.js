@@ -189,11 +189,13 @@ var FeedParser = function($, eventDate){
                     }
 
                     //created a sorted times array from the times dictionary
-                    var timeArray = [];
+                    var timeArray = [],
+                        maxColspan = 0;
                     for (var key in days[d].times){
                         var start = key,
                             colspan = days[d].times[key],
                             label = start.substring(0, 5);
+                        maxColspan += colspan;
                         timeArray.push({
                             start: start,
                             colspan: colspan,
@@ -203,6 +205,7 @@ var FeedParser = function($, eventDate){
                     timeArray.sort(sortByStart);
                     //replace times dict with times array
                     days[d].times = timeArray;
+                    days[d].maxColspan = maxColspan;
 
                     //for each session, include the interval after the end for
                     //which the room will remain empty until the next session

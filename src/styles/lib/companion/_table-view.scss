@@ -11,6 +11,10 @@
             display: table-cell;
             background: none;
         }
+        &.room-name-cell{
+            max-width: 70px;
+            font-size: 0.9em;
+        }
         dd{
         }
         .session-abstract{
