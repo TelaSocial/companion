@@ -6,7 +6,7 @@ module.exports = function($, FISLParser, templates){
     var isCordova = document.URL.substring(0,4) === 'file',
         cordovaFunctions = new cordovaCalendarHelper($),
         boddyPaddingTop = 50, //px
-        defaultView = 'table',
+        defaultView = 'list',
         parser = new FISLParser($, new Date('2014-05-07T00:01-03:00')),
         feedData;
 
