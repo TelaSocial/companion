@@ -5,15 +5,16 @@ var cordovaCalendarHelper = require('./cordova_calendar');
 module.exports = function($, FISLParser, templates){
     var isCordova = document.URL.substring(0,4) === 'file',
         cordovaFunctions = new cordovaCalendarHelper($),
-        boddyPaddingTop = 50; //px
+        boddyPaddingTop = 50, //px
+        defaultView = 'list';
 
-    var populateSchedule = function(data){
-        var template = templates.schedule,
+    var populateSchedule = function(data, view){
+        var template = templates.app,
             destinationElement = $('#app'),
             progressMeter = $('.meter').first(),
             html = template(
                 {
-                    schedule_type: 'list',
+                    schedule_type: view ? view : defaultView,
                     title: 'Companion App',
                     schedule_grouped_by_time: data
                 }

@@ -3,13 +3,14 @@
 var Handlebars = require('hbsfy/runtime');
 require('./lib/handlebars-helpers/helpers')(Handlebars);
 Handlebars.registerPartial('app_menu', require('../templates/partials/app_menu.hbs'));
+Handlebars.registerPartial('schedule', require('../templates/partials/schedule.hbs'));
 Handlebars.registerPartial('day_list', require('../templates/partials/day_list.hbs'));
 Handlebars.registerPartial('time_nav', require('../templates/partials/time_nav.hbs'));
 Handlebars.registerPartial('day_table', require('../templates/partials/day_table.hbs'));
 Handlebars.registerPartial('session', require('../templates/partials/session.hbs'));
 
 var templates = {
-    schedule: require('../templates/partials/schedule.hbs')
+    app: require('../templates/partials/app.hbs')
 };
 
 var FISLParser = require('./lib/fisl/feed-parser');
