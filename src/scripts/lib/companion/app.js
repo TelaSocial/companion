@@ -13,7 +13,6 @@ module.exports = function($, FISLParser, templates){
     var populateSchedule = function(data, viewArg){
         var template = templates.app,
             destinationElement = $('#app'),
-            progressMeter = $('.meter').first(),
             view = viewArg ? viewArg : defaultView,
             templateData = {
                 schedule_type: view,
@@ -27,7 +26,6 @@ module.exports = function($, FISLParser, templates){
             templateData.schedule_grouped_by_room = data;
         }
         // console.log(html);
-        progressMeter.width('80%');
         html = template(templateData);
         destinationElement.html(html);
     };
@@ -220,15 +218,40 @@ module.exports = function($, FISLParser, templates){
         //1. fetch feed
 
         console.log('Loading ' + feedURL + '...');
-        $.ajax(feedURL, {
+        //download everything
+        $.ajax({
+            xhr: function() {
+                var xhr = new window.XMLHttpRequest();
+                xhr.addEventListener('progress', function(evt) {
+                    var percentComplete,
+                        total,
+                        fakeTotal,
+                        percentString;
+                    if (evt.lengthComputable) {
+                        total = evt.total;
+                    }else{
+                        //FISL server reports 18446744073709552000 as total, which is probably wrong
+                        fakeTotal = 173893;  //FISL XML has around 173893 bytes -> less than 200KB
+                        total = fakeTotal;
+                    }
+                    percentComplete = Math.min((evt.loaded / total), 1);
+                    percentString = (Math.round(percentComplete * 100)+'%');
+                    document.getElementById('progressMeter').setAttribute('style', 'width:' + percentString +';');
+                }, false);
+                return xhr;
+            },
+            url: feedURL,
             dataType: 'text'
         })
         //2. parse feed
-        .done(function(data) {
+        .done(function(data, textStatus, xhr) {
             var groupedBy = (defaultView === 'list') ? 'time' : 'room',
                 scheduleData = parser.parse(data, groupedBy);
             feedData = data;
-            progressMeter.width('25%');
+            console.log('XML size='+data.length);
+            console.log('XML all headers='+xhr.getAllResponseHeaders());
+            //store fetched data and metadata
+            updateLocalFeed();
             //3. render schedule
             populateSchedule(scheduleData);
             //4. start framework - example: $(document).foundation()
