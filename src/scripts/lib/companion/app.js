@@ -244,8 +244,19 @@ module.exports = function($, FISLParser, templates){
 
     };
 
+    var localStorageTest = function(){
+        console.log('localStorageTest');
+        localforage.setItem('foo', 'bar').then(function(){
+            console.log('Value stored');
+            localforage.getItem('foo').then(function(value){
+                console.log('Value retrieved:'+value);
+            });
+        });
+    };
+
     var onDeviceReady = function(){
         console.log('device ready');
+        localStorageTest();
         firstLoad();
     };
     $(document).ready(function() {
