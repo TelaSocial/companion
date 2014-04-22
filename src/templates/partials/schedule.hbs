@@ -2,9 +2,5 @@
     {{> time_nav}}
     {{> day_list schedule=schedule_grouped_by_time}}
 {{else}}
-    {{#each schedule_grouped_by_room.days}}
-        {{#if @first}}
-            {{>day_table}}
-        {{/if}}
-    {{/each}}
+    {{>day_table schedule=schedule_grouped_by_room}}
 {{/is}}

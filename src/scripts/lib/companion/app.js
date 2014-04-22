@@ -6,21 +6,28 @@ module.exports = function($, FISLParser, templates){
     var isCordova = document.URL.substring(0,4) === 'file',
         cordovaFunctions = new cordovaCalendarHelper($),
         boddyPaddingTop = 50, //px
-        defaultView = 'list';
+        defaultView = 'table',
+        parser = new FISLParser($, new Date('2014-05-07T00:01-03:00'));
 
-    var populateSchedule = function(data, view){
+    var populateSchedule = function(data, viewArg){
         var template = templates.app,
             destinationElement = $('#app'),
             progressMeter = $('.meter').first(),
-            html = template(
-                {
-                    schedule_type: view ? view : defaultView,
-                    title: 'Companion App',
-                    schedule_grouped_by_time: data
-                }
-            );
+            view = viewArg ? viewArg : defaultView,
+            templateData = {
+                schedule_type: view,
+                title: 'Companion App',
+            },
+            html;
+        console.log('populateSchedule '+view);
+        if (view === 'list') {
+            templateData.schedule_grouped_by_time = data;
+        } else{
+            templateData.schedule_grouped_by_room = data;
+        }
         // console.log(html);
         progressMeter.width('80%');
+        html = template(templateData);
         destinationElement.html(html);
     };
 
@@ -134,8 +141,8 @@ module.exports = function($, FISLParser, templates){
         })
         //2. parse feed
         .done(function(data) {
-            var parser = new FISLParser($, new Date('2014-05-07T00:01-03:00')),
-                scheduleData = parser.parse(data);
+            var groupedBy = (defaultView === 'list') ? 'time' : 'room',
+                scheduleData = parser.parse(data, groupedBy);
             progressMeter.width('25%');
             //3. render schedule
             populateSchedule(scheduleData);
