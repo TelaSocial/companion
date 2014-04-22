@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = function($){
-    this. addToCalendarButtonClicked = function (event){
+    this.addToCalendarButtonClicked = function (event){
         var button = $(this),
             sessionItem = button.parents('.session').first(),
             sessionTitle = sessionItem.find('.session-title').text().trim(),
