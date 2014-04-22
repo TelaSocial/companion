@@ -1,0 +1,20 @@
+.schedule--table{
+    a{
+        // color: rgba(43, 140, 201, 1);
+    }
+    td{
+        &.empty{
+            background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAD0lEQVQImWNgQAX/yeAAAIHCA/0RE2WAAAAAAElFTkSuQmCC);
+        }
+        &.list-group-item{
+            display: table-cell;
+            background: none;
+        }
+        dd{
+        }
+        min-width: 310px;
+        .session-abstract{
+            max-width: 310px;
+        }
+    }
+}

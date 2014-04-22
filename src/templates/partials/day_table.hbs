@@ -1,4 +1,10 @@
-<table>
+{{#each schedule.days}}
+<h2 class="day-title">
+    {{this.shortLabel}}
+</h2>
+<table
+    id="day-{{@index}}"
+    class="day table table-bordered">
     {{#each this.rooms}}
     <tr>
         {{#each this.sessions}}
@@ -7,9 +13,7 @@
                     <td class="empty" colspan="{{this.intervalBeforeColspan}}"></td>
                 {{/if}}
             {{/if}}
-            <td colspan="{{this.durationColspan}}">
-                {{>session}}
-            </td>
+            {{>session session_tag="td"}}
             {{#if this.intervalAfterColspan }}
                 <td class="empty" colspan="{{this.intervalAfterColspan}}"></td>
             {{/if}}
@@ -17,3 +21,4 @@
     </tr>
     {{/each}}
 </table>
+{{/each}}
