@@ -1,0 +1,34 @@
+.schedule--table{
+    a{
+        // color: rgba(43, 140, 201, 1);
+    }
+    td{
+        max-width: 250px;
+        &.empty{
+            background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAD0lEQVQImWNgQAX/yeAAAIHCA/0RE2WAAAAAAElFTkSuQmCC);
+        }
+        &.list-group-item{
+            display: table-cell;
+            background: none;
+        }
+        &.room-name-cell{
+            max-width: 70px;
+            font-size: 0.9em;
+        }
+        dd{
+        }
+        .session-abstract{
+            max-width: 250px;
+        }
+    }
+    .day{
+        float: left;
+        margin-right: 150px;
+        &.last{
+            margin-right: 0px;
+        }
+    }
+    h4{
+        font-size: 1em;
+    }
+}

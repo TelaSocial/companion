@@ -1,4 +1,5 @@
-<div class="
+<{{session_tag}}
+    class="
         session
         list-group-item
     "
@@ -6,6 +7,9 @@
     data-start="{{this.start}}"
     data-duration="{{this.duration}}"
     data-room="{{this.roomId}}"
+    {{#is session_tag 'td'}}
+        colspan="{{this.durationColspan}}"
+    {{/is}}
     >
     <dt>
         <h4>
@@ -53,4 +57,4 @@
         {{/each}}
         </ul>
     </dd>
-</div>
+</{{session_tag}}>
