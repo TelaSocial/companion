@@ -52,6 +52,33 @@ module.exports = function($, FISLParser, templates){
         timeNav.scrollLeft(liElement.offset().left - timeNavList.offset().left - halfScreenWidth + (liElement.width() / 2));
     };
 
+    var setupTableLine = function(){
+        var tablesContainer = $('.schedule--table'),
+            tables = tablesContainer.find('table'),
+            tdMaxWidth = 250, //px
+            tableBordersWidth = 2,
+            dayMarginRight = 150,
+            paddingRight = 15,
+            widthSum = 0,
+            columnCount;
+        tables.each(function(){
+            var rows = $(this).find('tr');
+            columnCount = 0;
+            rows.each(function(){
+                var cells = $(this).find('td');
+                columnCount = Math.max(columnCount, cells.length);
+            });
+            console.log('add: '+(columnCount * tdMaxWidth));
+            widthSum += columnCount * tdMaxWidth + tableBordersWidth;
+        });
+        console.log('setupTableLine:'+widthSum);
+        tablesContainer.width(
+            widthSum +
+            paddingRight +
+            (tables.length - 1) * dayMarginRight
+        );
+    };
+
     var initFramework = function(){
         var body = $('body');
 
@@ -59,6 +86,8 @@ module.exports = function($, FISLParser, templates){
         if (body.scrollspy !== undefined){
 
             setupTimeNav();
+
+            setupTableLine();
 
             // enable scrollspy!
             body.scrollspy({
