@@ -156,7 +156,8 @@
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
-          ]
+          ],
+          "roomName": "40T"
         },
         {
           "sessions": [
@@ -312,7 +313,8 @@
               "intervalAfter": 120,
               "intervalAfterColspan": 6
             }
-          ]
+          ],
+          "roomName": "41A"
         },
         {
           "sessions": [
@@ -538,7 +540,8 @@
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
-          ]
+          ],
+          "roomName": "41B"
         },
         {
           "sessions": [
@@ -719,7 +722,8 @@
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
-          ]
+          ],
+          "roomName": "41C"
         },
         {
           "sessions": [
@@ -900,7 +904,8 @@
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
-          ]
+          ],
+          "roomName": "41D"
         },
         {
           "sessions": [
@@ -1046,7 +1051,8 @@
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
-          ]
+          ],
+          "roomName": "41E"
         },
         {
           "sessions": [
@@ -1202,7 +1208,8 @@
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
-          ]
+          ],
+          "roomName": "41F"
         },
         {
           "sessions": [
@@ -1283,7 +1290,8 @@
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
-          ]
+          ],
+          "roomName": "40A"
         },
         {
           "sessions": [
@@ -1339,7 +1347,8 @@
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
-          ]
+          ],
+          "roomName": "701 OF1"
         },
         {
           "sessions": [
@@ -1425,7 +1434,8 @@
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
-          ]
+          ],
+          "roomName": "702 - OF2"
         },
         {
           "sessions": [
@@ -1456,7 +1466,8 @@
               "intervalAfter": 120,
               "intervalAfterColspan": 6
             }
-          ]
+          ],
+          "roomName": "Reuniões 710"
         },
         {
           "sessions": [
@@ -1542,14 +1553,63 @@
               "intervalAfter": 180,
               "intervalAfterColspan": 9
             }
-          ]
+          ],
+          "roomName": "Paulo Freire"
         },
         {
-          "sessions": []
+          "sessions": [],
+          "roomName": "OF3"
         }
       ],
       "index": 0,
-      "shortLabel": "Qua 7"
+      "shortLabel": "Qua 7",
+      "times": [
+        {
+          "start": "09:00:00-03:00",
+          "colspan": 3,
+          "label": "09:00"
+        },
+        {
+          "start": "10:00:00-03:00",
+          "colspan": 3,
+          "label": "10:00"
+        },
+        {
+          "start": "11:00:00-03:00",
+          "colspan": 3,
+          "label": "11:00"
+        },
+        {
+          "start": "12:00:00-03:00",
+          "colspan": 3,
+          "label": "12:00"
+        },
+        {
+          "start": "13:00:00-03:00",
+          "colspan": 3,
+          "label": "13:00"
+        },
+        {
+          "start": "14:00:00-03:00",
+          "colspan": 3,
+          "label": "14:00"
+        },
+        {
+          "start": "15:00:00-03:00",
+          "colspan": 3,
+          "label": "15:00"
+        },
+        {
+          "start": "16:00:00-03:00",
+          "colspan": 3,
+          "label": "16:00"
+        },
+        {
+          "start": "17:00:00-03:00",
+          "colspan": 3,
+          "label": "17:00"
+        }
+      ]
     },
     {
       "rooms": [
@@ -1682,7 +1742,8 @@
               "intervalAfter": 60,
               "intervalAfterColspan": 3
             }
-          ]
+          ],
+          "roomName": "40T"
         },
         {
           "sessions": [
@@ -1858,7 +1919,8 @@
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
-          ]
+          ],
+          "roomName": "41A"
         },
         {
           "sessions": [
@@ -2084,7 +2146,8 @@
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
-          ]
+          ],
+          "roomName": "41B"
         },
         {
           "sessions": [
@@ -2240,7 +2303,8 @@
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
-          ]
+          ],
+          "roomName": "41C"
         },
         {
           "sessions": [
@@ -2451,7 +2515,8 @@
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
-          ]
+          ],
+          "roomName": "41D"
         },
         {
           "sessions": [
@@ -2617,7 +2682,8 @@
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
-          ]
+          ],
+          "roomName": "41E"
         },
         {
           "sessions": [
@@ -2758,7 +2824,8 @@
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
-          ]
+          ],
+          "roomName": "41F"
         },
         {
           "sessions": [
@@ -2789,7 +2856,8 @@
               "intervalAfter": 480,
               "intervalAfterColspan": 24
             }
-          ]
+          ],
+          "roomName": "40A"
         },
         {
           "sessions": [
@@ -2850,7 +2918,8 @@
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
-          ]
+          ],
+          "roomName": "701 OF1"
         },
         {
           "sessions": [
@@ -2946,7 +3015,8 @@
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
-          ]
+          ],
+          "roomName": "702 - OF2"
         },
         {
           "sessions": [
@@ -2977,7 +3047,8 @@
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
-          ]
+          ],
+          "roomName": "Reuniões 710"
         },
         {
           "sessions": [
@@ -3008,14 +3079,63 @@
               "intervalAfter": 240,
               "intervalAfterColspan": 12
             }
-          ]
+          ],
+          "roomName": "Paulo Freire"
         },
         {
-          "sessions": []
+          "sessions": [],
+          "roomName": "OF3"
         }
       ],
       "index": 1,
-      "shortLabel": "Qui 8"
+      "shortLabel": "Qui 8",
+      "times": [
+        {
+          "start": "09:00:00-03:00",
+          "colspan": 3,
+          "label": "09:00"
+        },
+        {
+          "start": "10:00:00-03:00",
+          "colspan": 3,
+          "label": "10:00"
+        },
+        {
+          "start": "11:00:00-03:00",
+          "colspan": 3,
+          "label": "11:00"
+        },
+        {
+          "start": "12:00:00-03:00",
+          "colspan": 3,
+          "label": "12:00"
+        },
+        {
+          "start": "13:00:00-03:00",
+          "colspan": 3,
+          "label": "13:00"
+        },
+        {
+          "start": "14:00:00-03:00",
+          "colspan": 3,
+          "label": "14:00"
+        },
+        {
+          "start": "15:00:00-03:00",
+          "colspan": 3,
+          "label": "15:00"
+        },
+        {
+          "start": "16:00:00-03:00",
+          "colspan": 3,
+          "label": "16:00"
+        },
+        {
+          "start": "17:00:00-03:00",
+          "colspan": 3,
+          "label": "17:00"
+        }
+      ]
     },
     {
       "rooms": [
@@ -3198,7 +3318,8 @@
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
-          ]
+          ],
+          "roomName": "40T"
         },
         {
           "sessions": [
@@ -3354,7 +3475,8 @@
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
-          ]
+          ],
+          "roomName": "41A"
         },
         {
           "sessions": [
@@ -3550,7 +3672,8 @@
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
-          ]
+          ],
+          "roomName": "41B"
         },
         {
           "sessions": [
@@ -3666,7 +3789,8 @@
               "intervalAfter": 240,
               "intervalAfterColspan": 12
             }
-          ]
+          ],
+          "roomName": "41C"
         },
         {
           "sessions": [
@@ -3892,7 +4016,8 @@
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
-          ]
+          ],
+          "roomName": "41D"
         },
         {
           "sessions": [
@@ -4073,7 +4198,8 @@
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
-          ]
+          ],
+          "roomName": "41E"
         },
         {
           "sessions": [
@@ -4274,7 +4400,8 @@
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
-          ]
+          ],
+          "roomName": "41F"
         },
         {
           "sessions": [
@@ -4345,10 +4472,12 @@
               "intervalAfter": 300,
               "intervalAfterColspan": 15
             }
-          ]
+          ],
+          "roomName": "40A"
         },
         {
-          "sessions": []
+          "sessions": [],
+          "roomName": "701 OF1"
         },
         {
           "sessions": [
@@ -4384,10 +4513,12 @@
               "intervalAfter": 360,
               "intervalAfterColspan": 18
             }
-          ]
+          ],
+          "roomName": "702 - OF2"
         },
         {
-          "sessions": []
+          "sessions": [],
+          "roomName": "Reuniões 710"
         },
         {
           "sessions": [
@@ -4453,14 +4584,63 @@
               "intervalAfter": 240,
               "intervalAfterColspan": 12
             }
-          ]
+          ],
+          "roomName": "Paulo Freire"
         },
         {
-          "sessions": []
+          "sessions": [],
+          "roomName": "OF3"
         }
       ],
       "index": 2,
-      "shortLabel": "Sex 9"
+      "shortLabel": "Sex 9",
+      "times": [
+        {
+          "start": "09:00:00-03:00",
+          "colspan": 3,
+          "label": "09:00"
+        },
+        {
+          "start": "10:00:00-03:00",
+          "colspan": 3,
+          "label": "10:00"
+        },
+        {
+          "start": "11:00:00-03:00",
+          "colspan": 3,
+          "label": "11:00"
+        },
+        {
+          "start": "12:00:00-03:00",
+          "colspan": 3,
+          "label": "12:00"
+        },
+        {
+          "start": "13:00:00-03:00",
+          "colspan": 3,
+          "label": "13:00"
+        },
+        {
+          "start": "14:00:00-03:00",
+          "colspan": 3,
+          "label": "14:00"
+        },
+        {
+          "start": "15:00:00-03:00",
+          "colspan": 3,
+          "label": "15:00"
+        },
+        {
+          "start": "16:00:00-03:00",
+          "colspan": 3,
+          "label": "16:00"
+        },
+        {
+          "start": "17:00:00-03:00",
+          "colspan": 3,
+          "label": "17:00"
+        }
+      ]
     },
     {
       "rooms": [
@@ -4568,7 +4748,8 @@
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
-          ]
+          ],
+          "roomName": "40T"
         },
         {
           "sessions": [
@@ -4764,7 +4945,8 @@
               "intervalAfter": 60,
               "intervalAfterColspan": 3
             }
-          ]
+          ],
+          "roomName": "41A"
         },
         {
           "sessions": [
@@ -4970,7 +5152,8 @@
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
-          ]
+          ],
+          "roomName": "41B"
         },
         {
           "sessions": [
@@ -5131,7 +5314,8 @@
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
-          ]
+          ],
+          "roomName": "41C"
         },
         {
           "sessions": [
@@ -5257,7 +5441,8 @@
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
-          ]
+          ],
+          "roomName": "41D"
         },
         {
           "sessions": [
@@ -5463,7 +5648,8 @@
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
-          ]
+          ],
+          "roomName": "41E"
         },
         {
           "sessions": [
@@ -5659,7 +5845,8 @@
               "intervalAfter": 60,
               "intervalAfterColspan": 3
             }
-          ]
+          ],
+          "roomName": "41F"
         },
         {
           "sessions": [
@@ -5870,7 +6057,8 @@
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
-          ]
+          ],
+          "roomName": "40A"
         },
         {
           "sessions": [
@@ -5949,10 +6137,12 @@
               "intervalAfter": 0,
               "intervalAfterColspan": 0
             }
-          ]
+          ],
+          "roomName": "701 OF1"
         },
         {
-          "sessions": []
+          "sessions": [],
+          "roomName": "702 - OF2"
         },
         {
           "sessions": [
@@ -5998,7 +6188,8 @@
               "intervalAfter": 60,
               "intervalAfterColspan": 3
             }
-          ]
+          ],
+          "roomName": "Reuniões 710"
         },
         {
           "sessions": [
@@ -6079,14 +6270,63 @@
               "intervalAfter": 240,
               "intervalAfterColspan": 12
             }
-          ]
+          ],
+          "roomName": "Paulo Freire"
         },
         {
-          "sessions": []
+          "sessions": [],
+          "roomName": "OF3"
         }
       ],
       "index": 3,
-      "shortLabel": "Sab 10"
+      "shortLabel": "Sab 10",
+      "times": [
+        {
+          "start": "09:00:00-03:00",
+          "colspan": 3,
+          "label": "09:00"
+        },
+        {
+          "start": "10:00:00-03:00",
+          "colspan": 3,
+          "label": "10:00"
+        },
+        {
+          "start": "11:00:00-03:00",
+          "colspan": 3,
+          "label": "11:00"
+        },
+        {
+          "start": "12:00:00-03:00",
+          "colspan": 3,
+          "label": "12:00"
+        },
+        {
+          "start": "13:00:00-03:00",
+          "colspan": 3,
+          "label": "13:00"
+        },
+        {
+          "start": "14:00:00-03:00",
+          "colspan": 3,
+          "label": "14:00"
+        },
+        {
+          "start": "15:00:00-03:00",
+          "colspan": 3,
+          "label": "15:00"
+        },
+        {
+          "start": "16:00:00-03:00",
+          "colspan": 3,
+          "label": "16:00"
+        },
+        {
+          "start": "17:00:00-03:00",
+          "colspan": 3,
+          "label": "17:00"
+        }
+      ]
     }
   ],
   "rooms": [

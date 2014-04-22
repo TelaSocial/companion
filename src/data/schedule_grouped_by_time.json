@@ -1,6 +1,8 @@
 {
   "days": [
     {
+      "index": 0,
+      "shortLabel": "Qua 7",
       "times": {
         "2014-05-07T09:00:00-03:00": {
           "sessions": [
@@ -1416,11 +1418,11 @@
           "label": "17:00",
           "shortLabel": "17"
         }
-      },
-      "index": 0,
-      "shortLabel": "Qua 7"
+      }
     },
     {
+      "index": 1,
+      "shortLabel": "Qui 8",
       "times": {
         "2014-05-08T09:00:00-03:00": {
           "sessions": [
@@ -2761,11 +2763,11 @@
           "label": "17:00",
           "shortLabel": "17"
         }
-      },
-      "index": 1,
-      "shortLabel": "Qui 8"
+      }
     },
     {
+      "index": 2,
+      "shortLabel": "Sex 9",
       "times": {
         "2014-05-09T09:00:00-03:00": {
           "sessions": [
@@ -4091,11 +4093,11 @@
           "label": "17:00",
           "shortLabel": "17"
         }
-      },
-      "index": 2,
-      "shortLabel": "Sex 9"
+      }
     },
     {
+      "index": 3,
+      "shortLabel": "Sab 10",
       "times": {
         "2014-05-10T09:00:00-03:00": {
           "sessions": [
@@ -5585,9 +5587,7 @@
           "label": "17:00",
           "shortLabel": "17"
         }
-      },
-      "index": 3,
-      "shortLabel": "Sab 10"
+      }
     }
   ],
   "rooms": [

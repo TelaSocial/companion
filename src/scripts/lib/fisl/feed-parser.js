@@ -133,22 +133,21 @@ var FeedParser = function($, eventDate){
 
             if (days[dayIndex] === undefined){
                 if (grouped_by === 'room'){
-                    for (var i = rooms.length - 1; i >= 0; i--) {
+                    for (var i = 0; i < rooms.length; i++) {
                         emptyRooms.push({
-                            sessions: []
+                            sessions: [],
+                            roomName: rooms[i].name
                         });
                     }
                     days[dayIndex] = {
                         rooms: emptyRooms
                     };
                 } else {
-                    days[dayIndex] = {
-                        times: {
-                        }
-                    };
+                    days[dayIndex] = {};
                 }
                 days[dayIndex].index = dayIndex;
                 days[dayIndex].shortLabel = dayShortLabel;
+                days[dayIndex].times = {};
             }
 
             session = {
@@ -172,6 +171,11 @@ var FeedParser = function($, eventDate){
                 days[dayIndex].rooms[roomIndex].sessions.push(session);
                 endOfDay = (endSplit[1] > endOfDay) ? endSplit[1] : endOfDay;
                 startOfDay = (startSplit[1] < startOfDay) ? startSplit[1] : startOfDay;
+                if (days[dayIndex].times[startSplit[1]] === undefined){
+                    days[dayIndex].times[startSplit[1]] = colspan;
+                }else{
+                    days[dayIndex].times[startSplit[1]] = Math.min(days[dayIndex].times[startSplit[1]], colspan);
+                }
             } else {
                 sessions.push(session);
             }
@@ -179,10 +183,31 @@ var FeedParser = function($, eventDate){
 
         if (grouped_by === 'room'){
             for (var d = days.length - 1; d >= 0; d--) {
-                //sort sessions in a room by starting time
+                    //sort sessions in a room by starting time
                     for (var j = days[d].rooms.length - 1; j >= 0; j--) {
                         days[d].rooms[j].sessions.sort(sortByStart);
                     }
+
+                    //created a sorted times array from the times dictionary
+                    var timeArray = [];
+                    for (var key in days[d].times){
+                        var start = key,
+                            colspan = days[d].times[key],
+                            label = start.substring(0, 5);
+                        timeArray.push({
+                            start: start,
+                            colspan: colspan,
+                            label: label
+                        });
+                    }
+                    timeArray.sort(sortByStart);
+                    //replace times dict with times array
+                    days[d].times = timeArray;
+
+                    //for each session, include the interval after the end for
+                    //which the room will remain empty until the next session
+                    //for the first session of each room also include the interval
+                    //since the beggining of the day that the room remained empty
                     for (var k = days[d].rooms.length - 1; k >= 0; k--) {
                         for (var l = 0; l < days[d].rooms[k].sessions.length; l++) {
                             var session = days[d].rooms[k].sessions[l],
