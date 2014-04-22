@@ -152,14 +152,12 @@ module.exports = function($, FISLParser, templates){
             isListActive = activeButton.hasClass('list-view-button'),
             inactiveButton = isListActive ? switchElement.find('.table-view-button') : switchElement.find('.list-view-button'),
             nextView = isListActive ? 'table' : 'list',
-            template = templates.schedule,
             destinationElement = $('#schedule-view'),
             templateData = {
                 schedule_type: nextView
             },
             groupedBy = (nextView === 'list') ? 'time' : 'room',
-            scheduleData = parser.parse(feedData, groupedBy),
-            html;
+            scheduleData = parser.parse(feedData, groupedBy);
         if (nextView === 'list') {
             templateData.schedule_grouped_by_time = scheduleData;
             destinationElement.removeClass('schedule--table');
@@ -176,15 +174,21 @@ module.exports = function($, FISLParser, templates){
         inactiveButton.attr('disabled','true');
 
 
-        html = template(templateData);
-        destinationElement.html(html);
-        if (nextView === 'list') {
-            setupTimeNav();
-            body.scrollspy('refresh');
-        }else{
-            setupTableLine();
-        }
-        setupButtons();
+        destinationElement.html('Aguarde…');
+        window.setTimeout(function(){
+            var destinationElement = $('#schedule-view'),
+                template = templates.schedule,
+                html = template(templateData);
+            destinationElement.html(html);
+            if (nextView === 'list') {
+                setupTimeNav();
+                body.scrollspy('refresh');
+            }else{
+                setupTableLine();
+            }
+            setupButtons();
+
+        }, 1);
     };
 
     var setupButtons = function(){
