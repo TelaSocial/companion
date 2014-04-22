@@ -3,9 +3,38 @@
     class="navbar navbar-default navbar-static-top navbar-inverse navbar-fixed-top"
     >
     <form class="navbar-form navbar-right">
-        <div class="btn-group">
-            <button type="button" class="btn btn-default active" disabled><span class="glyphicon glyphicon-th-list"></span></button>
-            <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-th-large"></span></button>
+        <div
+            id="list-view-toggle"
+            class="btn-group"
+            >
+            <button
+                type="button"
+                class="
+                    list-view-button
+                    btn btn-default
+                    {{#is schedule_type 'list'}}
+                    active
+                    " disabled
+                    {{else}}
+                    "
+                    {{/is}}
+                >
+                <span class="icon"></span>
+            </button>
+            <button
+                type="button"
+                class="
+                    table-view-button
+                    btn btn-default
+                    {{#is schedule_type 'table'}}
+                    active
+                    " disabled
+                    {{else}}
+                    "
+                    {{/is}}
+                    >
+                    <span class="icon"></span>
+            </button>
         </div>
     </form>
 </nav>

@@ -7,7 +7,8 @@ module.exports = function($, FISLParser, templates){
         cordovaFunctions = new cordovaCalendarHelper($),
         boddyPaddingTop = 50, //px
         defaultView = 'table',
-        parser = new FISLParser($, new Date('2014-05-07T00:01-03:00'));
+        parser = new FISLParser($, new Date('2014-05-07T00:01-03:00')),
+        feedData;
 
     var populateSchedule = function(data, viewArg){
         var template = templates.app,
@@ -144,12 +145,59 @@ module.exports = function($, FISLParser, templates){
         );
     };
 
+    var scheduleViewSwitchClicked = function(){
+        var switchElement = $(this),
+            body = $('body'),
+            activeButton = switchElement.find('.active'),
+            isListActive = activeButton.hasClass('list-view-button'),
+            inactiveButton = isListActive ? switchElement.find('.table-view-button') : switchElement.find('.list-view-button'),
+            nextView = isListActive ? 'table' : 'list',
+            template = templates.schedule,
+            destinationElement = $('#schedule-view'),
+            templateData = {
+                schedule_type: nextView
+            },
+            groupedBy = (nextView === 'list') ? 'time' : 'room',
+            scheduleData = parser.parse(feedData, groupedBy),
+            html;
+        if (nextView === 'list') {
+            templateData.schedule_grouped_by_time = scheduleData;
+            destinationElement.removeClass('schedule--table');
+            destinationElement.attr('style', 'width:100%;');
+        } else{
+            templateData.schedule_grouped_by_room = scheduleData;
+            destinationElement.addClass('schedule--table');
+        }
+
+        console.log('scheduleViewSwitchClicked ',nextView, activeButton, inactiveButton);
+        activeButton.removeAttr('disabled');
+        activeButton.removeClass('active');
+        inactiveButton.addClass('active');
+        inactiveButton.attr('disabled','true');
+
+
+        html = template(templateData);
+        destinationElement.html(html);
+        if (nextView === 'list') {
+            setupTimeNav();
+            body.scrollspy('refresh');
+        }else{
+            setupTableLine();
+        }
+        setupButtons();
+    };
+
     var setupButtons = function(){
         // time navigation buttons
         $('#time-nav li a').click(timeNavClicked);
 
         // add to calendar buttons
         $('.calendar-add-button').click(cordovaFunctions.addToCalendarButtonClicked);
+    };
+
+    var setupViewToggle = function(){
+        //list view toggle (lists vs tables)
+        $('#list-view-toggle').click(scheduleViewSwitchClicked);
     };
 
     var firstLoad = function(){
@@ -172,6 +220,7 @@ module.exports = function($, FISLParser, templates){
         .done(function(data) {
             var groupedBy = (defaultView === 'list') ? 'time' : 'room',
                 scheduleData = parser.parse(data, groupedBy);
+            feedData = data;
             progressMeter.width('25%');
             //3. render schedule
             populateSchedule(scheduleData);
@@ -179,6 +228,7 @@ module.exports = function($, FISLParser, templates){
             initFramework();
             //5. bind button clicks
             setupButtons();
+            setupViewToggle();
         }).fail(function() {
             console.log('error');
         }).always(function() {

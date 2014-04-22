@@ -2,6 +2,8 @@ body {
     padding-top: 50px; //space for the app top menu
 }
 
+.list-view-button .icon,
+.table-view-button .icon,
 .place-icon,
 .author-icon,
 .calendar-add-icon,
@@ -22,4 +24,10 @@ body {
 }
 .place-icon{
     @extend .glyphicon-map-marker;
+}
+.list-view-button .icon{
+    @extend .glyphicon-th-list;
+}
+.table-view-button .icon{
+    @extend .glyphicon-th-large;
 }
