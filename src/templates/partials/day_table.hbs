@@ -12,20 +12,35 @@
     </h2>
     <table
         class="table table-bordered">
+        <thead>
+            <tr>
+                <td>Salas</td>
+                {{#each this.times}}
+                <td colspan="{{this.colspan}}">
+                    {{this.label}}
+                </td>
+                {{/each}}
+            </tr>
+        </thead>
+        <tbody>
         {{#each this.rooms}}
-        <tr>
-            {{#each this.sessions}}
-                {{#if @first}}
-                    {{#if this.intervalBeforeColspan }}
-                        <td class="empty" colspan="{{this.intervalBeforeColspan}}"></td>
+            <tr>
+                <td>
+                    {{this.roomName}}
+                </td>
+                {{#each this.sessions}}
+                    {{#if @first}}
+                        {{#if this.intervalBeforeColspan }}
+                            <td class="empty" colspan="{{this.intervalBeforeColspan}}"></td>
+                        {{/if}}
                     {{/if}}
-                {{/if}}
-                {{>session session_tag="td"}}
-                {{#if this.intervalAfterColspan }}
-                    <td class="empty" colspan="{{this.intervalAfterColspan}}"></td>
-                {{/if}}
-            {{/each}}
-        </tr>
+                    {{>session session_tag="td"}}
+                    {{#if this.intervalAfterColspan }}
+                        <td class="empty" colspan="{{this.intervalAfterColspan}}"></td>
+                    {{/if}}
+                {{/each}}
+            </tr>
         {{/each}}
+        </tbody>
     </table>
 </div>{{~/each}}
