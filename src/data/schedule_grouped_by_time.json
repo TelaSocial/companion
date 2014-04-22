@@ -179,7 +179,7 @@
                 }
               ],
               "roomId": "720",
-              "roomIndex": 9,
+              "roomIndex": 10,
               "dayIndex": 0,
               "areaId": "95",
               "zoneId": "21",
@@ -521,7 +521,7 @@
                 }
               ],
               "roomId": "714",
-              "roomIndex": 8,
+              "roomIndex": 9,
               "dayIndex": 0,
               "areaId": "95",
               "zoneId": "21",
@@ -544,7 +544,7 @@
                 }
               ],
               "roomId": "720",
-              "roomIndex": 9,
+              "roomIndex": 10,
               "dayIndex": 0,
               "areaId": "95",
               "zoneId": "21",
@@ -572,7 +572,7 @@
                 }
               ],
               "roomId": "718",
-              "roomIndex": 11,
+              "roomIndex": 12,
               "dayIndex": 0,
               "areaId": "83",
               "zoneId": "17",
@@ -759,7 +759,7 @@
                 }
               ],
               "roomId": "718",
-              "roomIndex": 11,
+              "roomIndex": 12,
               "dayIndex": 0,
               "areaId": "44",
               "zoneId": "13",
@@ -903,7 +903,7 @@
                 }
               ],
               "roomId": "717",
-              "roomIndex": 10,
+              "roomIndex": 11,
               "dayIndex": 0,
               "areaId": "92",
               "zoneId": "20",
@@ -926,7 +926,7 @@
                 }
               ],
               "roomId": "718",
-              "roomIndex": 11,
+              "roomIndex": 12,
               "dayIndex": 0,
               "areaId": "83",
               "zoneId": "17",
@@ -1141,7 +1141,7 @@
                 }
               ],
               "roomId": "714",
-              "roomIndex": 8,
+              "roomIndex": 9,
               "dayIndex": 0,
               "areaId": "80",
               "zoneId": "16",
@@ -1164,7 +1164,7 @@
                 }
               ],
               "roomId": "720",
-              "roomIndex": 9,
+              "roomIndex": 10,
               "dayIndex": 0,
               "areaId": "95",
               "zoneId": "21",
@@ -1619,7 +1619,7 @@
                 }
               ],
               "roomId": "720",
-              "roomIndex": 9,
+              "roomIndex": 10,
               "dayIndex": 1,
               "areaId": "95",
               "zoneId": "21",
@@ -1971,7 +1971,7 @@
                 }
               ],
               "roomId": "714",
-              "roomIndex": 8,
+              "roomIndex": 9,
               "dayIndex": 1,
               "areaId": "95",
               "zoneId": "21",
@@ -1994,7 +1994,7 @@
                 }
               ],
               "roomId": "720",
-              "roomIndex": 9,
+              "roomIndex": 10,
               "dayIndex": 1,
               "areaId": "95",
               "zoneId": "21",
@@ -2153,7 +2153,7 @@
                 }
               ],
               "roomId": "718",
-              "roomIndex": 11,
+              "roomIndex": 12,
               "dayIndex": 1,
               "areaId": "83",
               "zoneId": "17",
@@ -2368,6 +2368,29 @@
               "roomName": "41D"
             },
             {
+              "id": "196",
+              "title": "Bullet proof cloud: práticas e ferramentas para colocar sua infra na linha",
+              "abstract": "Iremos demonstrar uma série de práticas, serviços e ferramentas de código aberto que vão ajudar ao arquiteto de nuvem a criar testes de carga e performance gerando uma visão sobre o potencial da infraestrutura, permitindo que fçaam-se ajustes para criar um cenário que seja elástico para demandas futuras. Iremos apresentar também ferramentas que criam falhas na infraestrutura, testando o plano de alta disponibilidade, como também o tempo de resposta da equipe de suporte.",
+              "start": "2014-05-08T15:00:00-03:00",
+              "duration": 60,
+              "end": "2014-05-08T19:00:00.000Z",
+              "authors": [
+                {
+                  "id": "1049",
+                  "name": "Gustavo N. F. Ribeiro",
+                  "main": true
+                }
+              ],
+              "roomId": "5",
+              "roomIndex": 5,
+              "dayIndex": 1,
+              "areaId": "38",
+              "zoneId": "13",
+              "level": "",
+              "durationColspan": 3,
+              "roomName": "41E"
+            },
+            {
               "id": "232",
               "title": "Software Livre na Educação no RS, Resgatando ações e Resultados",
               "abstract": "Uma retrospectiva das ações relacionadas a implantação e desenvolvimento de software Livre na Educação do Rio Grande do Sul.",
@@ -2410,7 +2433,7 @@
                 }
               ],
               "roomId": "714",
-              "roomIndex": 8,
+              "roomIndex": 9,
               "dayIndex": 1,
               "areaId": "95",
               "zoneId": "21",
@@ -2433,7 +2456,7 @@
                 }
               ],
               "roomId": "720",
-              "roomIndex": 9,
+              "roomIndex": 10,
               "dayIndex": 1,
               "areaId": "95",
               "zoneId": "21",
@@ -2592,7 +2615,7 @@
                 }
               ],
               "roomId": "717",
-              "roomIndex": 10,
+              "roomIndex": 11,
               "dayIndex": 1,
               "areaId": "92",
               "zoneId": "20",
@@ -2992,13 +3015,46 @@
                 }
               ],
               "roomId": "720",
-              "roomIndex": 9,
+              "roomIndex": 10,
               "dayIndex": 2,
               "areaId": "95",
               "zoneId": "21",
               "level": "starter",
               "durationColspan": 9,
               "roomName": "702 - OF2"
+            },
+            {
+              "id": "403",
+              "title": "Encontro Comunitário Expresso Livre",
+              "abstract": "Encontro da comunidade do Expresso Livre",
+              "start": "2014-05-09T09:00:00-03:00",
+              "duration": 180,
+              "end": "2014-05-09T15:00:00.000Z",
+              "authors": [
+                {
+                  "id": "1016",
+                  "name": "Helom Mendonca",
+                  "main": true
+                },
+                {
+                  "id": "1019",
+                  "name": "Lavoisier Vieira",
+                  "main": false
+                },
+                {
+                  "id": "1017",
+                  "name": "Nei Venturini dos Santos",
+                  "main": false
+                }
+              ],
+              "roomId": "717",
+              "roomIndex": 11,
+              "dayIndex": 2,
+              "areaId": "80",
+              "zoneId": "16",
+              "level": "starter",
+              "durationColspan": 9,
+              "roomName": "Reuniões 710"
             }
           ],
           "label": "09:00",
@@ -3441,7 +3497,7 @@
                 }
               ],
               "roomId": "718",
-              "roomIndex": 11,
+              "roomIndex": 12,
               "dayIndex": 2,
               "areaId": "83",
               "zoneId": "17",
@@ -3590,7 +3646,7 @@
                 }
               ],
               "roomId": "718",
-              "roomIndex": 11,
+              "roomIndex": 12,
               "dayIndex": 2,
               "areaId": "47",
               "zoneId": "13",
@@ -4289,7 +4345,7 @@
                 }
               ],
               "roomId": "714",
-              "roomIndex": 8,
+              "roomIndex": 9,
               "dayIndex": 3,
               "areaId": "95",
               "zoneId": "21",
@@ -4767,7 +4823,7 @@
               "duration": 180,
               "end": "2014-05-10T18:00:00.000Z",
               "roomId": "714",
-              "roomIndex": 8,
+              "roomIndex": 9,
               "dayIndex": 3,
               "areaId": "95",
               "zoneId": "21",
@@ -4800,7 +4856,7 @@
                 }
               ],
               "roomId": "718",
-              "roomIndex": 11,
+              "roomIndex": 12,
               "dayIndex": 3,
               "areaId": "65",
               "zoneId": "14",
@@ -4992,7 +5048,7 @@
                 }
               ],
               "roomId": "718",
-              "roomIndex": 11,
+              "roomIndex": 12,
               "dayIndex": 3,
               "areaId": "83",
               "zoneId": "17",
@@ -5239,7 +5295,7 @@
                 }
               ],
               "roomId": "714",
-              "roomIndex": 8,
+              "roomIndex": 9,
               "dayIndex": 3,
               "areaId": "47",
               "zoneId": "13",
@@ -5277,7 +5333,7 @@
                 }
               ],
               "roomId": "717",
-              "roomIndex": 10,
+              "roomIndex": 11,
               "dayIndex": 3,
               "areaId": "92",
               "zoneId": "20",
@@ -5654,6 +5710,14 @@
       "translation": false,
       "name": "40A",
       "position": 8
+    },
+    {
+      "id": "10",
+      "venue": "1",
+      "capacity": 50,
+      "translation": false,
+      "name": "Robotica",
+      "position": 10
     },
     {
       "id": "714",
