@@ -60,12 +60,28 @@ module.exports = function($, FISLParser, templates){
             //bind on nav update event
             body.on('activate.bs.scrollspy', timeNavUpdated);
 
-
             //setup list view collapsables in and out events
             $('.session .collapse').on('show.bs.collapse', function () {
                 var colapseElement = $(this),
                     sessionElement = colapseElement.parents('.session').first();
                 sessionElement.addClass('opened');
+            });
+            $('.session .collapse').on('shown.bs.collapse', function () {
+                var colapseElement = $(this),
+                    body = $('html,body'),
+                    sessionElement = colapseElement.parents('.session').first(),
+                    sessionOffsetTop = sessionElement.offset().top,
+                    //using body.scrollTop() to get current position of the main scroll doesnt work on android webview
+                    bodyScrollTop = isCordova ? window.pageYOffset : body.scrollTop(),
+                    needsScroll = (sessionOffsetTop - (bodyScrollTop + boddyPaddingTop) < 0),
+                    animationTime = 500; //miliseconds
+                if (needsScroll){
+                    body.animate({
+                            scrollTop: (sessionOffsetTop - boddyPaddingTop)
+                        },
+                        animationTime
+                    );
+                }
             });
             $('.session .collapse').on('hide.bs.collapse', function () {
                 var colapseElement = $(this),
