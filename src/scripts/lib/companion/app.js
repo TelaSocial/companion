@@ -50,7 +50,10 @@ module.exports = function($, FISLParser, templates){
             timeNav = liElement.parents('.navbar').first(),
             timeNavList = liElement.parents('.nav').first(),
             halfScreenWidth = $(window).width() / 2;
-        timeNav.scrollLeft(liElement.offset().left - timeNavList.offset().left - halfScreenWidth + (liElement.width() / 2));
+        timeNav.stop(true);
+        timeNav.animate({
+            scrollLeft: (liElement.offset().left - timeNavList.offset().left - halfScreenWidth + (liElement.width() / 2))
+        }, 500);
     };
 
     var setupTableLine = function(){
