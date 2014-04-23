@@ -85,31 +85,34 @@ module.exports = function($, FISLParser, templates){
         );
     };
 
-    var initFramework = function(){
+    var initListView = function(){
         var body = $('body');
+        setupTimeNav();
+        // enable scrollspy!
+        body.scrollspy({
+            target: '#time-nav',
+            offset: boddyPaddingTop
+        });
+        //bind on nav update event
+        body.off('activate.bs.scrollspy');
+        body.on('activate.bs.scrollspy', timeNavUpdated);
+    };
 
-        //if using Bootstrap
-        if (body.scrollspy !== undefined){
+    var initTableView = function(){
+        setupTableLine();
+    };
 
-            setupTimeNav();
-
-            setupTableLine();
-
-            // enable scrollspy!
-            body.scrollspy({
-                target: '#time-nav',
-                offset: boddyPaddingTop
-            });
-            //bind on nav update event
-            body.on('activate.bs.scrollspy', timeNavUpdated);
-
+    var initSessions = function(){
             //setup list view collapsables in and out events
+            $('.session .collapse').off('show.bs.collapse');
             $('.session .collapse').on('show.bs.collapse', function () {
                 var colapseElement = $(this),
                     sessionElement = colapseElement.parents('.session').first();
                 sessionElement.addClass('opened');
             });
+            $('.session .collapse').off('shown.bs.collapse');
             $('.session .collapse').on('shown.bs.collapse', function () {
+                console.log('shown.bs.collapse');
                 var colapseElement = $(this),
                     body = $('html,body'),
                     sessionElement = colapseElement.parents('.session').first(),
@@ -118,6 +121,7 @@ module.exports = function($, FISLParser, templates){
                     bodyScrollTop = isCordova ? window.pageYOffset : body.scrollTop(),
                     needsScroll = (sessionOffsetTop - (bodyScrollTop + boddyPaddingTop) < 0),
                     animationTime = 500; //miliseconds
+                console.log('needsScroll'+needsScroll);
                 if (needsScroll){
                     body.animate({
                             scrollTop: (sessionOffsetTop - boddyPaddingTop)
@@ -126,13 +130,12 @@ module.exports = function($, FISLParser, templates){
                     );
                 }
             });
+            $('.session .collapse').off('hide.bs.collapse');
             $('.session .collapse').on('hide.bs.collapse', function () {
                 var colapseElement = $(this),
                     sessionElement = colapseElement.parents('.session').first();
                 sessionElement.removeClass('opened');
             });
-        }
-
     };
 
     var timeNavClicked = function(event){
@@ -152,7 +155,6 @@ module.exports = function($, FISLParser, templates){
 
     var scheduleViewSwitchClicked = function(){
         var switchElement = $(this),
-            body = $('body'),
             activeButton = switchElement.find('.active'),
             isListActive = activeButton.hasClass('list-view-button'),
             inactiveButton = isListActive ? switchElement.find('.table-view-button') : switchElement.find('.list-view-button'),
@@ -186,11 +188,12 @@ module.exports = function($, FISLParser, templates){
                 html = template(templateData);
             destinationElement.html(html);
             if (nextView === 'list') {
-                setupTimeNav();
-                body.scrollspy('refresh');
+                initListView();
+                // body.scrollspy('refresh');
             }else{
-                setupTableLine();
+                initTableView();
             }
+            initSessions();
             setupButtons();
 
         }, 1);
@@ -243,7 +246,12 @@ module.exports = function($, FISLParser, templates){
         //3. render schedule
         populateSchedule(scheduleData);
         //4. start framework - example: $(document).foundation()
-        initFramework();
+        if (defaultView === 'list'){
+            initListView();
+        }else{
+            initTableView();
+        }
+        initSessions();
         //5. bind button clicks
         setupButtons();
         setupViewToggle();
