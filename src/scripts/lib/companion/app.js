@@ -168,9 +168,11 @@ module.exports = function($, FISLParser, templates){
         if (nextView === 'list') {
             templateData.schedule_grouped_by_time = scheduleData;
             destinationElement.removeClass('schedule--table');
+            destinationElement.addClass('schedule--list');
             destinationElement.attr('style', 'width:100%;');
         } else{
             templateData.schedule_grouped_by_room = scheduleData;
+            destinationElement.removeClass('schedule--list');
             destinationElement.addClass('schedule--table');
         }
 
@@ -199,6 +201,17 @@ module.exports = function($, FISLParser, templates){
         }, 1);
     };
 
+    var bookmarkButtonClicked = function(){
+        var button = $(this),
+            session = button.parents('.session'),
+            isSessionFavorite = session.hasClass('favorite');
+        if (isSessionFavorite){
+            session.removeClass('favorite');
+        } else{
+            session.addClass('favorite');
+        }
+
+    };
     var setupButtons = function(){
         // time navigation buttons
         $('#time-nav li a').click(timeNavClicked);
@@ -217,6 +230,7 @@ module.exports = function($, FISLParser, templates){
                 console.log('all local data erased');
             });
         });
+        $('.bookmark-button').click(bookmarkButtonClicked);
     };
 
     var setupViewToggle = function(){
