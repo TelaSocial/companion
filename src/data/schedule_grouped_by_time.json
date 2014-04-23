@@ -7,7 +7,7 @@
         "2014-05-07T09:00:00-03:00": {
           "sessions": [
             {
-              "id": "1",
+              "id": "590",
               "title": "ORGANIZAÇÃO",
               "abstract": "Organização",
               "start": "2014-05-07T09:00:00-03:00",
@@ -23,6 +23,7 @@
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 0,
+              "slotId": "1",
               "areaId": "92",
               "zoneId": "20",
               "level": "",
@@ -30,7 +31,7 @@
               "roomName": "40T"
             },
             {
-              "id": "37",
+              "id": "94",
               "title": "Facilitando a vida com Raspberry Pi e Arduino",
               "abstract": "Atualmente programadores já resolvem muitos problemas virtuais com linguagens cada vez mais eficientes e fáceis. Mas com a grande popularização de open hardwares como o Arduino e o Raspberry Pi também ficou muito fácil de criar soluções que vão além do mundo virtual. Como ter suas séries favoritas sempre atualizadas na tv, ou uma fechadura que não precisa de chave, conectada a internet ou um ponto de venda que não precisa de vendedor.",
               "start": "2014-05-07T09:00:00-03:00",
@@ -51,6 +52,7 @@
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 0,
+              "slotId": "37",
               "areaId": "44",
               "zoneId": "13",
               "level": "intermediate",
@@ -58,7 +60,7 @@
               "roomName": "41A"
             },
             {
-              "id": "73",
+              "id": "422",
               "title": "Blue Green Deploy: Entrega continua e rollback imediato",
               "abstract": "Já imaginou poder fazer um deploy, testar sua nova versão da aplicação em produção e depois só \"girar uma chave\" para colocar essa nova versão no ar ? E mais, já pensou se pudesse girar essa chave novamente e voltar para a versão anterior ? Sim, é possível... Nessa palestra você vai conhecer a técnica de Blue Green Deployment :)",
               "start": "2014-05-07T09:00:00-03:00",
@@ -74,6 +76,7 @@
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 0,
+              "slotId": "73",
               "areaId": "53",
               "zoneId": "14",
               "level": "starter",
@@ -81,7 +84,7 @@
               "roomName": "41B"
             },
             {
-              "id": "145",
+              "id": "611",
               "title": "Encontro Comunitários dos Estudantes de Computação do Brasil e da ENEC",
               "abstract": "Estudantes de Computação dos cursos de graduação, pós-graduação e tecnicos do Brasil via Executiva Nacional dos Estudantes de Computação(ENEC)",
               "start": "2014-05-07T09:00:00-03:00",
@@ -97,6 +100,7 @@
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 0,
+              "slotId": "145",
               "areaId": "86",
               "zoneId": "18",
               "level": "",
@@ -104,7 +108,7 @@
               "roomName": "41D"
             },
             {
-              "id": "181",
+              "id": "608",
               "title": "Encontro Comunitário Debian Brasil no FISL 15",
               "abstract": "Proposta para encontro comunitário Debian Brasil no FISL 15",
               "start": "2014-05-07T09:00:00-03:00",
@@ -120,6 +124,7 @@
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 0,
+              "slotId": "181",
               "areaId": "86",
               "zoneId": "18",
               "level": "",
@@ -127,7 +132,7 @@
               "roomName": "41E"
             },
             {
-              "id": "217",
+              "id": "452",
               "title": "DrupalCamp Porto Alegre",
               "abstract": "Evento comunitário da Comunidade Drupal com o intuito de aproximar as comunidades locais e incentivar a utilização do Drupal.\r\n\r\nO encontro pretende fomentar a utilização e contribuição para projetos de SL através da divulgação e incentivo do uso do CMS Drupal, através de apresentações, dojo e workshops.",
               "start": "2014-05-07T09:00:00-03:00",
@@ -153,6 +158,7 @@
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 0,
+              "slotId": "217",
               "areaId": "86",
               "zoneId": "18",
               "level": "starter",
@@ -160,7 +166,7 @@
               "roomName": "41F"
             },
             {
-              "id": "341",
+              "id": "370",
               "title": "Appmaker Party",
               "abstract": "Mozilla Appmaker é uma ferramenta gratuita que permite que qualquer pessoa crie seus próprios aplicativos móveis. Nessa oficina, você vai aprender como o Appmaker funciona e como criar aplicativos móveis com ele. Além disso, vamos desenvolver durante a oficina componentes web para serem usados dentro do próprio Appmaker, para aumentar as possibilidades de criação de novos aplicativos.",
               "start": "2014-05-07T09:00:00-03:00",
@@ -181,6 +187,7 @@
               "roomId": "720",
               "roomIndex": 10,
               "dayIndex": 0,
+              "slotId": "341",
               "areaId": "95",
               "zoneId": "21",
               "level": "intermediate",
@@ -194,7 +201,7 @@
         "2014-05-07T10:00:00-03:00": {
           "sessions": [
             {
-              "id": "38",
+              "id": "490",
               "title": "Elastic Overkill: Is Cloud Really The Holy Grail?",
               "abstract": "Cloud is everywhere. But is it an everything solution for IT managers? Cloud is great for what it can do, but there may be times when it is not needed.",
               "start": "2014-05-07T10:00:00-03:00",
@@ -210,6 +217,7 @@
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 0,
+              "slotId": "38",
               "areaId": "38",
               "zoneId": "13",
               "level": "intermediate",
@@ -217,7 +225,7 @@
               "roomName": "41A"
             },
             {
-              "id": "74",
+              "id": "263",
               "title": "Privacidade e Segurança da informação em Dispositivos Móveis",
               "abstract": "A computação móvel e as redes sem fio oferecem à empresas e usuários muitos benefícios como portabilidade, flexibilidade e mobilidade. \r\n\r\nEm paralelo a estas vantagens novos desafios surgem na forma de riscos e vulnerabilidades nesta nova plataforma. \r\n\r\nA palestra irá abordar esta nova realidade apresentando as formas mais comuns de ataque e os procedimentos e ferramentas hoje disponíveis para proteção.\r\n",
               "start": "2014-05-07T10:00:00-03:00",
@@ -233,6 +241,7 @@
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 0,
+              "slotId": "74",
               "areaId": "50",
               "zoneId": "13",
               "level": "intermediate",
@@ -240,7 +249,7 @@
               "roomName": "41B"
             },
             {
-              "id": "110",
+              "id": "601",
               "title": "GoboLinux 015",
               "abstract": "Essa palestra apresenta o GoboLinux, uma distribuição nascida no Brasil e com uma proposta de diretórios alternativa. Após um hiato de cerca de 6 anos, o projeto retornou suas atividades e lança a versão 015. Além da distribuição em si, serão discutidas algumas lições aprendidas ao longo dos anos e como isso refletiu no design do projeto.",
               "start": "2014-05-07T10:00:00-03:00",
@@ -256,6 +265,7 @@
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 0,
+              "slotId": "110",
               "areaId": "71",
               "zoneId": "15",
               "level": "",
@@ -269,7 +279,7 @@
         "2014-05-07T11:00:00-03:00": {
           "sessions": [
             {
-              "id": "39",
+              "id": "468",
               "title": "Gluster for sysadmins",
               "abstract": "Introduction into Gluster, its technologies and use-cases. With help of some some demonstrations, the simplicity of creating Gluster Volumes is shown.\r\n",
               "start": "2014-05-07T11:00:00-03:00",
@@ -285,6 +295,7 @@
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 0,
+              "slotId": "39",
               "areaId": "47",
               "zoneId": "13",
               "level": "starter",
@@ -292,7 +303,7 @@
               "roomName": "41A"
             },
             {
-              "id": "75",
+              "id": "18",
               "title": "Aprendizagem inovadora em 3D: Desenvolvimento de Laboratórios imersivos",
               "abstract": "Ao longo da última década o interesse em mundos virtuais aumentou consideravelmente, trazendo ferramentas para melhorar o processo de ensino – aprendizagem, sendo um potencial promissor para estimular o conhecimento. Na presente proposta, apresentaremos diferentes mundos virtuais na educação. Para este estudo, o opensimulator foi selecionado por ser um ambiente virtual mais comumente abordado pela comunidade acadêmica. Informações e abordagens de ensino atuais tendem a se concentrar em teorias .",
               "start": "2014-05-07T11:00:00-03:00",
@@ -308,6 +319,7 @@
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 0,
+              "slotId": "75",
               "areaId": "74",
               "zoneId": "15",
               "level": "intermediate",
@@ -315,7 +327,7 @@
               "roomName": "41B"
             },
             {
-              "id": "111",
+              "id": "69",
               "title": "Tecnologias Open Source para alta disponibilidade e segurança de aplicações Web",
               "abstract": "Um dos grandes desafios para as empresas é manter a disponibilidae e a mitigação de vulnerabilidades levando em conta a peculiaridade do sistema hospedado, falta de acesso administrativo, limitações técnicas e ativos de proteção de borda que não contribuem efetivamente nesta tarefa. Nesta palestra irei apresentar como implantar uma camada de segurança totalmente Open Source que permite a prevenção proativa contra ataques direcionados a aplicações web com alta disponibilidade.\r\n",
               "start": "2014-05-07T11:00:00-03:00",
@@ -331,6 +343,7 @@
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 0,
+              "slotId": "111",
               "areaId": "50",
               "zoneId": "13",
               "level": "intermediate",
@@ -338,7 +351,7 @@
               "roomName": "41C"
             },
             {
-              "id": "147",
+              "id": "315",
               "title": "Pra que serve Python? Tudo!",
               "abstract": "Palestra introdutória à linguagem de programação Python, demonstrando como ela pode ser usada em diferentes áreas da computação: exemplos da linguagem Python no desenvolvimento de Aplicações WEB simples, portais complexos, aplicativos desktop, desenvolvimento de jogos, computação científica, administração de servidores, aprendizado de programação e  até como linguagem de frontend pra WEB. Para cada área, veremos um exemplo sucinto, e uma discussão de Python e das alternativas.",
               "start": "2014-05-07T11:00:00-03:00",
@@ -354,6 +367,7 @@
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 0,
+              "slotId": "147",
               "areaId": "65",
               "zoneId": "14",
               "level": "starter",
@@ -361,7 +375,7 @@
               "roomName": "41D"
             },
             {
-              "id": "183",
+              "id": "631",
               "title": "Empoderando o Usuário com Software Livre",
               "abstract": "Colaboração e software livre andam sempre de mãos dadas. Seguindo o conceito da Web 2.0 e a filosofia da colaboração, o BB criou diversas soluções empresariais onde os usuários finais da TI ganharam o poder de desenvolver suas próprias soluções, estruturando de forma rica suas informações a partir do conhecimento de todos os intervenientes dos processos. São sistemas, páginas, enquetes e muitas outras soluções criadas e geridas de e para o próprio funcionário da empresa.",
               "start": "2014-05-07T11:00:00-03:00",
@@ -387,6 +401,7 @@
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 0,
+              "slotId": "183",
               "areaId": "80",
               "zoneId": "16",
               "level": "",
@@ -400,7 +415,7 @@
         "2014-05-07T12:00:00-03:00": {
           "sessions": [
             {
-              "id": "40",
+              "id": "537",
               "title": "Understanding Software Collections",
               "abstract": "If you need to run a different version of Python, Perl, MySQL, or other software than the system default, what are your options? Developers and admins need more flexibility than ever for deploying software. This talk will offer one strong option for users of RPM-based systems.",
               "start": "2014-05-07T12:00:00-03:00",
@@ -416,6 +431,7 @@
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 0,
+              "slotId": "40",
               "areaId": "89",
               "zoneId": "19",
               "level": "intermediate",
@@ -423,7 +439,7 @@
               "roomName": "41A"
             },
             {
-              "id": "76",
+              "id": "298",
               "title": "Criação automática de aplicativos móveis Android",
               "abstract": "Esta palestra aborda técnicas e ferramentas para criação automática de aplicativos Android. Para isso, apresenta algumas ferramentas atualmente disponíveis no mercado e demonstra, em detalhes, a ferramenta Maritaca. Baseada em software livre, a ferramenta Maritaca será utilizada para demonstrar os princípios de definição de funcionalidades, montagem de arquivo executável, \"engine\" para processamento de interfaces e arquitetura para armazenamento de dados em nuvem.",
               "start": "2014-05-07T12:00:00-03:00",
@@ -454,6 +470,7 @@
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 0,
+              "slotId": "76",
               "areaId": "89",
               "zoneId": "19",
               "level": "intermediate",
@@ -461,7 +478,7 @@
               "roomName": "41B"
             },
             {
-              "id": "148",
+              "id": "86",
               "title": "Raspberry Pi e Beaglebone Black: utilizando GPIOs com Python",
               "abstract": "A idéia desta palestra é mostrar o Python como uma linguagem muito viável para sistemas Linux embarcados, para isso, primeiramente demonstraremos 2 plataformas de mercado, a BeagleBone Black e a Raspberry Pi para em seguida entrarmos na utilização efetiva do Python.\r\nNo final da palestra será demonstrado um projeto de um analizador de tráfego de redes desenvolvido pelo palestrante utilizando Raspberry Pi, LCD, botões e python.",
               "start": "2014-05-07T12:00:00-03:00",
@@ -477,6 +494,7 @@
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 0,
+              "slotId": "148",
               "areaId": "44",
               "zoneId": "13",
               "level": "intermediate",
@@ -484,7 +502,7 @@
               "roomName": "41D"
             },
             {
-              "id": "220",
+              "id": "221",
               "title": "Criptografia Aplicada -- Chaves Assimétricas + MACs",
               "abstract": "Será apresentado e discutido o conceito de  uma criptografia com chaves assimétricas, algoritmos de preservação de intergridade de dados e, por fim, como combinar tudo para ter um algoritmo de criptografia autenticada.    ",
               "start": "2014-05-07T12:00:00-03:00",
@@ -500,6 +518,7 @@
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 0,
+              "slotId": "220",
               "areaId": "50",
               "zoneId": "13",
               "level": "starter",
@@ -507,7 +526,7 @@
               "roomName": "41F"
             },
             {
-              "id": "330",
+              "id": "543",
               "title": "Oficina de instalação, configuração e utilização do CKAN",
               "abstract": "Compartilhar os conhecimentos necessários para instalação, configuração e utilização do CKAN um poderoso sistema de gerenciamento de dados que torna os dados acessíveis -, fornecendo ferramentas para agilizar a publicação, compartilhar, encontrar e utilizar dados. Visando editores de dados (governos nacionais e regionais, empresas e organizações) que querem fazer os seus dados abertos e disponíveis.",
               "start": "2014-05-07T12:00:00-03:00",
@@ -523,6 +542,7 @@
               "roomId": "714",
               "roomIndex": 9,
               "dayIndex": 0,
+              "slotId": "330",
               "areaId": "95",
               "zoneId": "21",
               "level": "intermediate",
@@ -530,7 +550,7 @@
               "roomName": "701 OF1"
             },
             {
-              "id": "342",
+              "id": "259",
               "title": "webtv.tar.gz - Um estúdio de webTV que cabe na sua mochila",
               "abstract": "A proposta da oficina é compartilhar experiências de planejamento, construção e estudo de possibilidades de configurações para um estúdio de WebTV, com softwares e formatos livres, e com a utilização de equipamentos compactos e versáteis que possam caber numa mochila.\r\n\r\nSerão apresentados os recursos necessários para produção de videocasts, entrevistas ou para realização de transmissões ao vivo; como montar e configurar o estúdio, e os softwares de captura, edição e transmissão utilizados.",
               "start": "2014-05-07T12:00:00-03:00",
@@ -546,6 +566,7 @@
               "roomId": "720",
               "roomIndex": 10,
               "dayIndex": 0,
+              "slotId": "342",
               "areaId": "95",
               "zoneId": "21",
               "level": "starter",
@@ -553,7 +574,7 @@
               "roomName": "702 - OF2"
             },
             {
-              "id": "427",
+              "id": "253",
               "title": "Conhecendo e Desmistificando a Acessibilidade na Web",
               "abstract": "O computador e a Internet representam um enorme passo para a inclusão de pessoas com deficiência, promovendo autonomia e independência. Mas como pessoas com deficiência utilizam o computador? Muitas vezes, a deficiência não é severa o suficiente a ponto de tornar-se uma barreira à utilização do computador, mas muitas pessoas encontram inúmeras barreiras na navegação pela internet. Dessa forma explicaremos melhor como não deixar que isso ocorra, fazendo que a Web realmente seja para todos!",
               "start": "2014-05-07T12:00:00-03:00",
@@ -574,6 +595,7 @@
               "roomId": "718",
               "roomIndex": 12,
               "dayIndex": 0,
+              "slotId": "427",
               "areaId": "83",
               "zoneId": "17",
               "level": "intermediate",
@@ -587,7 +609,7 @@
         "2014-05-07T13:00:00-03:00": {
           "sessions": [
             {
-              "id": "5",
+              "id": "481",
               "title": "Crear un Cartridge para Openshift",
               "abstract": "Openshift provee soporte para varias tecnologias de creación de aplicaciones como java (JEE, Spring, etc), Python, Ruby, PHP y muchos otros.\r\n\r\nLa idea en esta actividad es realizar la creación de un cartridge para dar soporte a una tecnologia asociada a alguna de las ya existentes.",
               "start": "2014-05-07T13:00:00-03:00",
@@ -603,6 +625,7 @@
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 0,
+              "slotId": "5",
               "areaId": "53",
               "zoneId": "14",
               "level": "intermediate",
@@ -610,7 +633,7 @@
               "roomName": "40T"
             },
             {
-              "id": "77",
+              "id": "287",
               "title": "Usabilidade + produtividade = ? qual ambiente gráfico usar?",
               "abstract": "Apresentaremos os diversos ambientes gráficos na plataforma GNU/Linux, tais como Unity, FluxBox, Gnome e KDE, e os seus pontos fortes e fracos que dão destaques a cada um deles. Serão apresentados também os consumo dos recursos da máquina ao utilizar cada um dos ambientes e os seus níveis de dificuldade.",
               "start": "2014-05-07T13:00:00-03:00",
@@ -631,6 +654,7 @@
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 0,
+              "slotId": "77",
               "areaId": "68",
               "zoneId": "14",
               "level": "starter",
@@ -638,7 +662,7 @@
               "roomName": "41B"
             },
             {
-              "id": "113",
+              "id": "122",
               "title": "Muitos mestres, um escravo: MariaDB replicação multi source",
               "abstract": "A replicação de múltiples origens significa que um servidor tem muitos mestres a partir dos quais replica os dados. MariaDB, o fork da DB relacional MySQL, faz un tempo que lançou esse recurso de alto desempenho, para resolver problemas tais como:\r\na) Dados divididos ao longo de muitos mestres e se debe obtê-los todos juntos em um server para fazer consultas analíticas no conjunto.\r\nb) Seus dados estao espalhados por vários serves e gostaria de ter todos eles em uma máquina como um backup extra.",
               "start": "2014-05-07T13:00:00-03:00",
@@ -654,6 +678,7 @@
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 0,
+              "slotId": "113",
               "areaId": "41",
               "zoneId": "13",
               "level": "intermediate",
@@ -661,7 +686,7 @@
               "roomName": "41C"
             },
             {
-              "id": "149",
+              "id": "536",
               "title": "Explorando as APIs do HTML5",
               "abstract": "O HTML5 não se restringe apenas a marcação, nele está incluso um conjunto de novas funcionalidades encapsuladas em APIs que podem ser inicializadas via JavaScript. ",
               "start": "2014-05-07T13:00:00-03:00",
@@ -677,6 +702,7 @@
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 0,
+              "slotId": "149",
               "areaId": "89",
               "zoneId": "19",
               "level": "starter",
@@ -684,7 +710,7 @@
               "roomName": "41D"
             },
             {
-              "id": "185",
+              "id": "17",
               "title": "Realidade Aumentada no Android: Um guia para criar sua primeira aplicação",
               "abstract": "Abordagem das características sobre Realidade Aumentada e sobre o desenvolvimento de aplicações gráficas para o Android, descrevendo suas características e boas práticas.\r\nExemplificação do uso das ferramentas de desenvolvimento através de exemplos.",
               "start": "2014-05-07T13:00:00-03:00",
@@ -705,6 +731,7 @@
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 0,
+              "slotId": "185",
               "areaId": "74",
               "zoneId": "15",
               "level": "starter",
@@ -712,7 +739,7 @@
               "roomName": "41E"
             },
             {
-              "id": "540",
+              "id": "624",
               "title": "Debate de abertura: As perspectivas e os desafios da comunicação segura",
               "abstract": "Recentemente, houve um crescente interesse por projetos e softwares que trabalham com  comunicação segura. No entanto, todas essas tecnologia lidam com uma série de problemas da própria comunicação segura. Esses problemas são difíceis e desafiam soluções existentes, não havendo assim soluções rápidas.",
               "start": "2014-05-07T13:00:00-03:00",
@@ -738,6 +765,7 @@
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 0,
+              "slotId": "540",
               "areaId": "3",
               "zoneId": "21",
               "level": "",
@@ -745,7 +773,7 @@
               "roomName": "41F"
             },
             {
-              "id": "428",
+              "id": "516",
               "title": "Robótica libre en ambientes educativos",
               "abstract": "La plataforma robótica Butiá, concebida como una plataforma abierta, constituye una herramienta con enormes ventajas sobre plataformas de tecnologías privativas, para explotar las potencialidades de la robótica en ambientes educativos\r\nButiá sirve como plataforma a notebooks y a dispositivos con Android OS, convirtiéndolos en robots. Esto es, el conjunto plataforma Butiá con sus sensores y actuadores, y la notebook (o dispositivo con Android) constituyen una verdadera plataforma de robótica móvil",
               "start": "2014-05-07T13:00:00-03:00",
@@ -761,6 +789,7 @@
               "roomId": "718",
               "roomIndex": 12,
               "dayIndex": 0,
+              "slotId": "428",
               "areaId": "44",
               "zoneId": "13",
               "level": "starter",
@@ -774,7 +803,7 @@
         "2014-05-07T14:00:00-03:00": {
           "sessions": [
             {
-              "id": "6",
+              "id": "643",
               "title": "10 tips on developing and deploying large scale systems",
               "abstract": "Much of the existing documentation on Large Scale Systems is split across different computer science disciplines, making it hard to build a holistic view of the issues involved in designing, deploying and running Large Scale Systems. During her career, Fernanda has learned some patterns engineers can benefit from, if they had access to the information. This talk will cover 10 major topics related to design, development and operations of high available large scale systems.",
               "start": "2014-05-07T14:00:00-03:00",
@@ -790,6 +819,7 @@
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 0,
+              "slotId": "6",
               "areaId": "89",
               "zoneId": "19",
               "level": "",
@@ -797,7 +827,7 @@
               "roomName": "40T"
             },
             {
-              "id": "78",
+              "id": "585",
               "title": "import brasil: dados abertos de forma fácil",
               "abstract": "Desde a criação de Lei de Acesso à Informação (LAI[1]), vários órgãos públicos estão liberando dados que antes não tínhamos acesso, porém nem sempre os dados estão facilmente acessíveis.\r\nEssa palestra apresenta a biblioteca Python chamada \"brasil\", que facilita o acesso integrado a vários tipos de dados públicos, através de uma mesma API.\r\n\r\n[1]: http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/lei/l12527.htm",
               "start": "2014-05-07T14:00:00-03:00",
@@ -813,6 +843,7 @@
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 0,
+              "slotId": "78",
               "areaId": "65",
               "zoneId": "14",
               "level": "intermediate",
@@ -820,7 +851,7 @@
               "roomName": "41B"
             },
             {
-              "id": "114",
+              "id": "642",
               "title": "Mapas Coletivos - criação e remix online de mapas",
               "abstract": "Mapas Coletivos é uma plataforma de criação e compartilhamento de histórias focada em cartografia colaborativa sobre questões que afetam diretamente a qualidade de vida das pessoas. Além da apresentação da plataforma e de mapas inspiradores criados por usuários, será abordado o sistema por trás dela, Yby.",
               "start": "2014-05-07T14:00:00-03:00",
@@ -836,6 +867,7 @@
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 0,
+              "slotId": "114",
               "areaId": "53",
               "zoneId": "14",
               "level": "",
@@ -843,7 +875,7 @@
               "roomName": "41C"
             },
             {
-              "id": "150",
+              "id": "619",
               "title": "Uruguai já tem Lei de uso do Software Livre na Administração Pública! ",
               "abstract": "Em dezembro de 2013 terminou o processo de aprovação da Lei de Software Livre e Formatos Abertos na Administração Pública após muitos anos de luta pela comunidade uruguaia de Software Livre. \r\n\r\nNesta palestra apresentaré os detalhes do processo para a aprovação da lei, os problemas que tivemos que enfrentar, a maneira em que os resolvemos, as críticas que temos, a auto-crítica que fazemos e as expectativas que temos olhando para frente.",
               "start": "2014-05-07T14:00:00-03:00",
@@ -859,6 +891,7 @@
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 0,
+              "slotId": "150",
               "areaId": "77",
               "zoneId": "16",
               "level": "",
@@ -866,7 +899,7 @@
               "roomName": "41D"
             },
             {
-              "id": "258",
+              "id": "203",
               "title": "BemTV: Modelo híbrido para transmissão de vídeos ao vivo utilizando peer-to-peer",
               "abstract": "Metade do tráfego da internet nos Estados Unidos pertencem a serviços de vídeo como YouTube e Netflix. No Brasil, o consumo também vem crescendo exponencialmente. \r\n\r\nAtender a este crescimento é um desafio para os datacenters e operadoras no país. Escalar esta distribuição para centenas de milhares de pessoas ainda é um problema em aberto.\r\n\r\nSe você não aguenta mais ver seu player travando, venha entender o que acontece e o que estamos fazendo para resolver este problema.\r\n\r\nhttp://bem.tv",
               "start": "2014-05-07T14:00:00-03:00",
@@ -882,6 +915,7 @@
               "roomId": "7",
               "roomIndex": 7,
               "dayIndex": 0,
+              "slotId": "258",
               "areaId": "74",
               "zoneId": "15",
               "level": "intermediate",
@@ -889,7 +923,7 @@
               "roomName": "40A"
             },
             {
-              "id": "390",
+              "id": "650",
               "title": "Reunião CETI",
               "abstract": "Reunião CETI",
               "start": "2014-05-07T14:00:00-03:00",
@@ -905,6 +939,7 @@
               "roomId": "717",
               "roomIndex": 11,
               "dayIndex": 0,
+              "slotId": "390",
               "areaId": "92",
               "zoneId": "20",
               "level": "",
@@ -912,7 +947,7 @@
               "roomName": "Reuniões 710"
             },
             {
-              "id": "429",
+              "id": "167",
               "title": "Robotica pedagógica en el ámbito escolar usando software y hardware libre",
               "abstract": "La robótica pedagógica busca incentivar el desarrollo cognitivo del\r\nalumno mediante la fabricación y programación de robots o mecanismos de auto-\r\nmatización sencillos. El uso de tecnologías libres (software y hardware de espe-\r\ncificaciones libres) permite adaptar y modificar los desarrollos a las necesidades\r\nconcretas del aula, así como permitir abaratar costos posibilitando el uso de com-\r\nponentes reciclados. El proyecto ICARO, busca simplificar el complejo contenido\r\ntécnico inherente al desar",
               "start": "2014-05-07T14:00:00-03:00",
@@ -928,6 +963,7 @@
               "roomId": "718",
               "roomIndex": 12,
               "dayIndex": 0,
+              "slotId": "429",
               "areaId": "83",
               "zoneId": "17",
               "level": "starter",
@@ -941,7 +977,7 @@
         "2014-05-07T15:00:00-03:00": {
           "sessions": [
             {
-              "id": "7",
+              "id": "142",
               "title": "Community 2.0: Beyond Using Software Livre",
               "abstract": "In this talk, Leslie Hawthorn will talk about the importance of not\r\njust using software livre, but contributing back to the software livre\r\ncommunity in a variety of ways: translation and localization, writing\r\nsoftware, hosting teaching sessions for people not using software\r\nlivre, and more. Drawing on years of experience as a community manager\r\nat Elasticsearch, Red Hat and Google's Open Source Department, she\r\nwill share real-world stories of how you can contribute to software\r\nlivre locally.",
               "start": "2014-05-07T15:00:00-03:00",
@@ -957,6 +993,7 @@
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 0,
+              "slotId": "7",
               "areaId": "77",
               "zoneId": "16",
               "level": "starter",
@@ -964,7 +1001,7 @@
               "roomName": "40T"
             },
             {
-              "id": "43",
+              "id": "75",
               "title": "Como criar seu próprio Hackerspace em 42 passos simples",
               "abstract": "Descubra tudo o que Eles não querem que você saiba para criar um hackerspace autêntico e indepedente, ajude a revolucionar sua cidade, região e o mundo com milhares de espaços originais: diversidade gera criatividade! Depois de mais de um ano acumulando xp na jornada épica de montar um hackerspace, nós do Matehackers queremos compartilhar nossas conquistas, derrotas e planos para a dominação mundial.",
               "start": "2014-05-07T15:00:00-03:00",
@@ -1000,6 +1037,7 @@
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 0,
+              "slotId": "43",
               "areaId": "77",
               "zoneId": "16",
               "level": "starter",
@@ -1007,7 +1045,7 @@
               "roomName": "41A"
             },
             {
-              "id": "79",
+              "id": "591",
               "title": "Reservado Organização",
               "abstract": "Reservado Organização",
               "start": "2014-05-07T15:00:00-03:00",
@@ -1023,6 +1061,7 @@
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 0,
+              "slotId": "79",
               "areaId": "92",
               "zoneId": "20",
               "level": "",
@@ -1030,7 +1069,7 @@
               "roomName": "41B"
             },
             {
-              "id": "115",
+              "id": "484",
               "title": "Got Zot? Usando e desenvolvendo para a RedMatrix",
               "abstract": "A RedMatrix é uma implementação completa e funcional do próximo nível da Web, onde autenticação e privacidade distribuída, identidades nômades, presença redundante e conteúdos federados já são realidade. Descubra o que é Zot, entenda a tecnologia envolvida e aprenda a desenvolver para a matrix. Aplicações já implementadas incluem rede social, serviço de diretório, correio, calendário, chat, publicação de mídia e armazenamento de arquivos. Venha construir conosco uma web intrinsicamente livre!",
               "start": "2014-05-07T15:00:00-03:00",
@@ -1046,6 +1085,7 @@
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 0,
+              "slotId": "115",
               "areaId": "89",
               "zoneId": "19",
               "level": "intermediate",
@@ -1053,7 +1093,7 @@
               "roomName": "41C"
             },
             {
-              "id": "151",
+              "id": "97",
               "title": "O Bootstrap 3 é Mobile First",
               "abstract": "Entenda como funciona a nova versão do Bootstrap após sua profunda mudança para atender a crescente demanda pelo desenvolvimendo web para mobile. Saiba as diferenças em relação ao Bootstrap 2 e como atualizar para esta nova versão. Esta apresentação foi baseada nas experiências compartilhadas no livro Bootstrap Mobile First que escrevi pela Packt Publishing lançado em dezembro do último ano.",
               "start": "2014-05-07T15:00:00-03:00",
@@ -1069,6 +1109,7 @@
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 0,
+              "slotId": "151",
               "areaId": "53",
               "zoneId": "14",
               "level": "starter",
@@ -1076,7 +1117,7 @@
               "roomName": "41D"
             },
             {
-              "id": "187",
+              "id": "35",
               "title": "Fotografia Panorâmica Imersiva 360x180º com Software Livre",
               "abstract": "A fotografia panorâmica imersiva é um produto que já é feito por profissionais da fotografia há mais de uma década. Mesmo entre fotógrafos ainda é um tema relativamente desconhecido, sendo hoje muito difundido pelo Google Street View. Veja como é viável fazer esse tipo de imagem usando apenas software livre e chegando a resultados profissionais. Durante a palestra é feita e montada uma foto no local.",
               "start": "2014-05-07T15:00:00-03:00",
@@ -1092,6 +1133,7 @@
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 0,
+              "slotId": "187",
               "areaId": "74",
               "zoneId": "15",
               "level": "intermediate",
@@ -1099,7 +1141,7 @@
               "roomName": "41E"
             },
             {
-              "id": "223",
+              "id": "193",
               "title": "Assinatura digital de documentos eletrônicos",
               "abstract": "Aprendemos a confiar nos documentos assinados em papel de forma manuscrita. Com os avanços da tecnologia da informação e comunicação e do software livre, especialmente pela necessidade de estabelecer transações mais seguras via internet, surgiram soluções de tecnologia capaz de garantir autenticidade, confidencialidade e integridade às informações que circulam no ambiente web. Por esses motivos se faz necessário o desenvolvimento de aplicações para assinar documentos de forma digital.",
               "start": "2014-05-07T15:00:00-03:00",
@@ -1120,6 +1162,7 @@
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 0,
+              "slotId": "223",
               "areaId": "62",
               "zoneId": "14",
               "level": "intermediate",
@@ -1127,7 +1170,7 @@
               "roomName": "41F"
             },
             {
-              "id": "331",
+              "id": "600",
               "title": "Pitch Day - A arte de Engajar, Entreter e Encantar.",
               "abstract": "Os organizadores do FISL e InvestForum e a Outsource Brazil tem o prazer de convidá-los para o Pitch Day, um workshop feito para quem deseja dominar a arte do Pitch.\r\n\r\n\r\n",
               "start": "2014-05-07T15:00:00-03:00",
@@ -1143,6 +1186,7 @@
               "roomId": "714",
               "roomIndex": 9,
               "dayIndex": 0,
+              "slotId": "331",
               "areaId": "80",
               "zoneId": "16",
               "level": "starter",
@@ -1150,7 +1194,7 @@
               "roomName": "701 OF1"
             },
             {
-              "id": "343",
+              "id": "438",
               "title": "AWS VPC/Ansible/VPN workshop: Datacenter na nuvem",
               "abstract": "[descrição em inglês só temporariamente]\r\nA tutorial on automation for companies, we'll discuss concepts and methods for migrating into a cloud-based datacenter, fully virtualised, and with emphasis on automation and security practices. This is partly based in my experience in designing Vivid Cortex' migration to this environment.\r\n\r\n[A atividade é ótima para um tutorial de duas ou três horas, mais pode ser convertida em uma palestra de uma hora também, com um enfoque menos hands-on]",
               "start": "2014-05-07T15:00:00-03:00",
@@ -1166,6 +1210,7 @@
               "roomId": "720",
               "roomIndex": 10,
               "dayIndex": 0,
+              "slotId": "343",
               "areaId": "95",
               "zoneId": "21",
               "level": "advanced",
@@ -1179,7 +1224,7 @@
         "2014-05-07T16:00:00-03:00": {
           "sessions": [
             {
-              "id": "8",
+              "id": "625",
               "title": "Compilação Determinística",
               "abstract": "Atualmente ainda não é possível garantir a integridade e a transparência no processo de desenvolvimento e distribuição de software, mesmo no software livre. Dito de outra forma, mesmo baixando por uma conexão segura, o programa que você roda em sua máquina pode ser um programa adulterado. Trata-se de um grande problema de assegurar a integridade da infraestrutura usada pelos próprios desenvolvedores no processo de desenvolvimento e distribuição de software.",
               "start": "2014-05-07T16:00:00-03:00",
@@ -1195,6 +1240,7 @@
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 0,
+              "slotId": "8",
               "areaId": "3",
               "zoneId": "21",
               "level": "",
@@ -1202,7 +1248,7 @@
               "roomName": "40T"
             },
             {
-              "id": "80",
+              "id": "589",
               "title": "Abertura Oficial",
               "abstract": "Cerimonia de abertura do Fisl",
               "start": "2014-05-07T16:00:00-03:00",
@@ -1218,6 +1264,7 @@
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 0,
+              "slotId": "80",
               "areaId": "92",
               "zoneId": "20",
               "level": "",
@@ -1225,7 +1272,7 @@
               "roomName": "41B"
             },
             {
-              "id": "116",
+              "id": "510",
               "title": "Bitcoin: o futuro do dinheiro é open source (e livre)",
               "abstract": "Bitcoin é mais do que uma moeda eletrônica criada para tornar mais seguras e fáceis as transações financeiras em nível mundial. É antes de tudo um protocolo e uma tecnologia inovadora que propicia a distribuição de recursos computacionais ao redor do globo de uma maneira que ninguém até hoje havia conseguido. Por sua natureza disruptiva, há muito mal entendido e interesses conflitantes no cenário que tange o Bitcoin.",
               "start": "2014-05-07T16:00:00-03:00",
@@ -1241,6 +1288,7 @@
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 0,
+              "slotId": "116",
               "areaId": "89",
               "zoneId": "19",
               "level": "starter",
@@ -1248,7 +1296,7 @@
               "roomName": "41C"
             },
             {
-              "id": "260",
+              "id": "281",
               "title": "Caso de éxito: Expresso V3 en Argentina",
               "abstract": "Una entidad del Estado Nacional (argentino) requería de la implementación de un nuevo sistema de colaboración y optó por Expresso V3. En esta charla se verán lo fácil o difícil que fue hacer la implementación de expresso para 3000 usuarios.",
               "start": "2014-05-07T16:00:00-03:00",
@@ -1264,6 +1312,7 @@
               "roomId": "7",
               "roomIndex": 7,
               "dayIndex": 0,
+              "slotId": "260",
               "areaId": "80",
               "zoneId": "16",
               "level": "starter",
@@ -1277,7 +1326,7 @@
         "2014-05-07T17:00:00-03:00": {
           "sessions": [
             {
-              "id": "541",
+              "id": "278",
               "title": "NSA-proof communications",
               "abstract": "Nesta talk será apresentada técnicas e soluções para ambientes de comunicação seguros (email e mensagens instantâneas) através do uso extensivo de criptografia e a chamada \"Perfect Forward Secrecy\". Abordaremos desde as tecnologias existentes para segurança de comunicações como PGP/GPG e OTR, compatibilidade e integração de clients e mais. Será apresentado um pouco de server hardening para maior resiliência a \"implantes\", exploits e afins.",
               "start": "2014-05-07T17:00:00-03:00",
@@ -1293,6 +1342,7 @@
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 0,
+              "slotId": "541",
               "areaId": "50",
               "zoneId": "13",
               "level": "advanced",
@@ -1300,7 +1350,7 @@
               "roomName": "40T"
             },
             {
-              "id": "141",
+              "id": "597",
               "title": "QtModeling: metamodelagem e model-driven software engineering com Qt5",
               "abstract": "Esta palestra apresenta o QtModeling: módulo do Qt5 voltado para metamodelagem e suporte às operações básicas de model-driven software engineering. Serão apresentadas as motivações do projeto, seguidas das funcionalidades atualmente disponíveis, bem como aspectos arquiteturais e técnicos do DuSE-MT: ferramenta para (meta)modelagem desenvolvida com base no QtModeling. Ao final, será apresentado o roadmap de desenvolvimento para os próximos dois anos.",
               "start": "2014-05-07T17:00:00-03:00",
@@ -1316,6 +1366,7 @@
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 0,
+              "slotId": "141",
               "areaId": "53",
               "zoneId": "14",
               "level": "starter",
@@ -1323,7 +1374,7 @@
               "roomName": "41C"
             },
             {
-              "id": "153",
+              "id": "304",
               "title": "SAdE: Sistema Administrativa Escolar - um sistema livre",
               "abstract": "Apresentamos o processo de desenvolvimento do SAdE, um sistema livre para administraçao, escolar, incluindo: gerenciamento de alunos, notas e frequencia. Diarios impressos e diario eletronico. Acompanhamento do aluno.\r\nO sistema foi desenvolvido com ferramentas livres: PHP, MySql e LaTeX para impressos.",
               "start": "2014-05-07T17:00:00-03:00",
@@ -1339,6 +1390,7 @@
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 0,
+              "slotId": "153",
               "areaId": "80",
               "zoneId": "16",
               "level": "starter",
@@ -1346,7 +1398,7 @@
               "roomName": "41D"
             },
             {
-              "id": "189",
+              "id": "435",
               "title": "Cycles Para TODOS!",
               "abstract": "Após o sucesso da serie \"Blender para Todos!\" Muitas pessoas passaram a se perguntar o que elas podem fazer fora da sua zona de conforto. Então esta atividade visa mostrar o que os mesmos leigos podem fazer utilizando o Cycles, o Poderoso renderizador super realista do Blender sem complicação!",
               "start": "2014-05-07T17:00:00-03:00",
@@ -1362,6 +1414,7 @@
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 0,
+              "slotId": "189",
               "areaId": "74",
               "zoneId": "15",
               "level": "starter",
@@ -1369,7 +1422,7 @@
               "roomName": "41E"
             },
             {
-              "id": "225",
+              "id": "497",
               "title": "Workflow para proyectos web sin morir en el intento",
               "abstract": "Es posible utilizar 100% free/open source para el desarrollo, desde la adquisición de requerimientos, pasando por el diseño y la programación.",
               "start": "2014-05-07T17:00:00-03:00",
@@ -1385,6 +1438,7 @@
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 0,
+              "slotId": "225",
               "areaId": "53",
               "zoneId": "14",
               "level": "starter",
@@ -1392,7 +1446,7 @@
               "roomName": "41F"
             },
             {
-              "id": "261",
+              "id": "72",
               "title": "MozEdu: Mozilla na educaçao e no codigo",
               "abstract": "Este projeto trata desses aspectos principais\r\n- Dar a conhecer a open web a crianças e jovens\r\n- Informar sobre a privacidade e segurança na rede\r\n- Contactar com organismos Educadores amantes da open web nas nossas cidades\r\n- Elaborar um temario adaptavel a distintas idades\r\n- Inovar, criar e participar da web usando ferramentas livres\r\n- Fazer crecer o incentivo mediante metodos de comunicaçao",
               "start": "2014-05-07T17:00:00-03:00",
@@ -1408,6 +1462,7 @@
               "roomId": "7",
               "roomIndex": 7,
               "dayIndex": 0,
+              "slotId": "261",
               "areaId": "83",
               "zoneId": "17",
               "level": "starter",
@@ -1427,7 +1482,7 @@
         "2014-05-08T09:00:00-03:00": {
           "sessions": [
             {
-              "id": "46",
+              "id": "55",
               "title": "Quebrando o Android no Meio",
               "abstract": "Formas básicas de invadir e proteger seu Android.",
               "start": "2014-05-08T09:00:00-03:00",
@@ -1443,6 +1498,7 @@
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 1,
+              "slotId": "46",
               "areaId": "50",
               "zoneId": "13",
               "level": "starter",
@@ -1450,7 +1506,7 @@
               "roomName": "41A"
             },
             {
-              "id": "117",
+              "id": "614",
               "title": "Encontro Comunitário GNOME Brasil - FISL 15",
               "abstract": "Encontro comunitário entre colaboradores e usuários do GNOME, visando o fortalecimento da comunidade, demonstração do projeto GNOME e encorajar novos colaboradores.",
               "start": "2014-05-08T09:00:00-03:00",
@@ -1466,6 +1522,7 @@
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 1,
+              "slotId": "117",
               "areaId": "86",
               "zoneId": "18",
               "level": "",
@@ -1473,7 +1530,7 @@
               "roomName": "41C"
             },
             {
-              "id": "154",
+              "id": "615",
               "title": "Encontro Comunitário do KDE Brasil no FISL 15",
               "abstract": "Encontro comunitário entre colaboradores e usuários\r\ndo KDE, visando o fortalecimento da comunidade, a difusão do projeto KDE\r\ne a chamada de novos colaboradores.",
               "start": "2014-05-08T09:00:00-03:00",
@@ -1489,6 +1546,7 @@
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 1,
+              "slotId": "154",
               "areaId": "86",
               "zoneId": "18",
               "level": "",
@@ -1496,7 +1554,7 @@
               "roomName": "41D"
             },
             {
-              "id": "190",
+              "id": "609",
               "title": "Encontro Comunitário do Noosfero",
               "abstract": "O Noosfero é uma plataforma web para redes sociais e de economia solidária que possui as funcionalidades de Blog, CMS, RSS, discussão temática, agenda de eventos, chat e inteligência econômica colaborativa num mesmo sistema.",
               "start": "2014-05-08T09:00:00-03:00",
@@ -1527,6 +1585,7 @@
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 1,
+              "slotId": "190",
               "areaId": "86",
               "zoneId": "18",
               "level": "",
@@ -1534,7 +1593,7 @@
               "roomName": "41E"
             },
             {
-              "id": "226",
+              "id": "378",
               "title": "III Encontro de usuários do Openstack Brasil no FISL",
               "abstract": "III Encontro de usuários Openstack Brasil",
               "start": "2014-05-08T09:00:00-03:00",
@@ -1560,6 +1619,7 @@
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 1,
+              "slotId": "226",
               "areaId": "86",
               "zoneId": "18",
               "level": "starter",
@@ -1567,7 +1627,7 @@
               "roomName": "41F"
             },
             {
-              "id": "262",
+              "id": "613",
               "title": "Encontro Comunitário do FLISOL no FISL15",
               "abstract": "Proposta de Encontro Comunitário do FLISOL no FISL15",
               "start": "2014-05-08T09:00:00-03:00",
@@ -1583,6 +1643,7 @@
               "roomId": "7",
               "roomIndex": 7,
               "dayIndex": 1,
+              "slotId": "262",
               "areaId": "86",
               "zoneId": "18",
               "level": "",
@@ -1590,7 +1651,7 @@
               "roomName": "40A"
             },
             {
-              "id": "344",
+              "id": "283",
               "title": "Oficina - Quem São os Proprietários do Brasil",
               "abstract": "A partir de dados públicos, o projeto Proprietários do Brasil cria ferramentas para medir a concentração do poder econômico e sua relação com o poder político no país.\r\n\r\nO portal traz informações sobre 5600 empresas, pessoas e estatais, um ranking das 397 mais com maior poder acumulado, além de análises de poder que mostram como a ação dessas empresas afeta o cotidiano da população.",
               "start": "2014-05-08T09:00:00-03:00",
@@ -1621,6 +1682,7 @@
               "roomId": "720",
               "roomIndex": 10,
               "dayIndex": 1,
+              "slotId": "344",
               "areaId": "95",
               "zoneId": "21",
               "level": "starter",
@@ -1634,7 +1696,7 @@
         "2014-05-08T10:00:00-03:00": {
           "sessions": [
             {
-              "id": "421",
+              "id": "258",
               "title": "Morreu o Movimento Software Livre no Brasil?",
               "abstract": "Tecnologias privativas têm seduzido até ferrenhos antigos defensores do Software Livre, e pouca consciência há na grande maioria dos consumidores para combater as práticas privativas de liberdade dos usuários.  Erramos o alvo?  Falhamos na formação da próxima geração?  Fomos atropelados?  Continuamos firmes e fortes no mesmo nicho em que começamos?  Que fazer para um futuro com mais liberdade e consciência?",
               "start": "2014-05-08T10:00:00-03:00",
@@ -1670,6 +1732,7 @@
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 1,
+              "slotId": "421",
               "areaId": "77",
               "zoneId": "16",
               "level": "advanced",
@@ -1677,7 +1740,7 @@
               "roomName": "41A"
             },
             {
-              "id": "83",
+              "id": "157",
               "title": "GIMP: O projeto de software! O processamento de imagens nas próximas décadas.",
               "abstract": "O GIMP se popularizou por ser um software livre completo para tratamento de imagens digitais e fotos. Apresenta-se a estrutura interna e roadmap do projeto - imagens com 4 canais de 32bit e processamento em grafos: os arquivos de código C usados no projeto e as tecnologias a que o programa deu origem: a GTK+, a biblioteca de processamento de imagens GEGL, etc. Como usar a infra-estrutura do GIMP em seus próprios projetos de tratamento de imagem.",
               "start": "2014-05-08T10:00:00-03:00",
@@ -1693,6 +1756,7 @@
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 1,
+              "slotId": "83",
               "areaId": "59",
               "zoneId": "14",
               "level": "intermediate",
@@ -1706,7 +1770,7 @@
         "2014-05-08T11:00:00-03:00": {
           "sessions": [
             {
-              "id": "11",
+              "id": "645",
               "title": "Performance:  More Than Just Speed",
               "abstract": "What is performance?  It means different things to different people.  In some cases it is short wall-clock time, in other cases it is power savings, in some it is memory footprint.  Do all I/O devices look like a disk?",
               "start": "2014-05-08T11:00:00-03:00",
@@ -1722,6 +1786,7 @@
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 1,
+              "slotId": "11",
               "areaId": "47",
               "zoneId": "13",
               "level": "",
@@ -1729,7 +1794,7 @@
               "roomName": "40T"
             },
             {
-              "id": "84",
+              "id": "559",
               "title": "Evoluindo uma arquitetura legada: ferramentas e métodos.",
               "abstract": "Cada um de nós já teve que mexer em código legado. Porém, como mexer num sistema inteiro, em produção, herdado de outrem e o transformar em algo saudável para se dar manutenção? Nesta palestra iremos falar sobre processos e ferramentas utilizados para cobrir um sistema inteiro em uma rede segurança a fim de refatorá-lo para evoluir sua arquitetura.",
               "start": "2014-05-08T11:00:00-03:00",
@@ -1750,6 +1815,7 @@
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 1,
+              "slotId": "84",
               "areaId": "53",
               "zoneId": "14",
               "level": "intermediate",
@@ -1757,7 +1823,7 @@
               "roomName": "41B"
             },
             {
-              "id": "119",
+              "id": "623",
               "title": "Ecossistema de Colaboração no Governo: O caso do Legislativo",
               "abstract": "Há 16 anos o Programa Interlegis do Senado Federal iniciou sua missão de modernizar e integrar o legislativo brasileiro e optou por caminhos que foram inspirados nas comunidades de software livre, mas adaptados ao ecossistema do governo. Vamos explorar as técnicas e ferramentas que foram usadas, as situações vivenciadas, o que deu certo e errado, e o ambiente Colab que foi desenvolvido para sustentar as comunidades de prática e utiliza tecnologias como Diazo, Solr, Mozilla Persona, Django, etc.",
               "start": "2014-05-08T11:00:00-03:00",
@@ -1773,6 +1839,7 @@
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 1,
+              "slotId": "119",
               "areaId": "53",
               "zoneId": "14",
               "level": "",
@@ -1780,7 +1847,7 @@
               "roomName": "41C"
             },
             {
-              "id": "156",
+              "id": "424",
               "title": "Escrevendo seu primeiro módulo de kernel",
               "abstract": "Linux permite escrever módulos de maneira bastante simples e elegante, usando técnicas de orientação a objetos mesmo sendo todo escrito em C. Como a criação de módulos e drives costuma ser feita por fabricantes de hardware, muitos programadores não tem familiaridade com esse assunto ainda que tenham curiosidade de aprender.\r\nNessa apresentação serão mostrados os fundamentos sobre módulos, as ferramentas usadas para criá-los e alguns exemplos práticos.",
               "start": "2014-05-08T11:00:00-03:00",
@@ -1796,6 +1863,7 @@
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 1,
+              "slotId": "156",
               "areaId": "47",
               "zoneId": "13",
               "level": "intermediate",
@@ -1809,7 +1877,7 @@
         "2014-05-08T12:00:00-03:00": {
           "sessions": [
             {
-              "id": "12",
+              "id": "634",
               "title": "Causing a Commotion: The Coming Information Liberation Revolution",
               "abstract": "Commotion is a free, open-source communication tool that uses mobile phones, computers, and other wireless devices to create decentralized networks.\r\nCommotion can spread available Internet connectivity as well as create community Intranets that share local services and applications.  With Commotion, anyone can download and begin building a 21st century communications infrastructure -- just point your browser to www.commotionwireless.net to get started",
               "start": "2014-05-08T12:00:00-03:00",
@@ -1825,6 +1893,7 @@
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 1,
+              "slotId": "12",
               "areaId": "38",
               "zoneId": "13",
               "level": "",
@@ -1832,7 +1901,7 @@
               "roomName": "40T"
             },
             {
-              "id": "85",
+              "id": "317",
               "title": "Música Livre - Pessoas usando software livre para libertar a música!",
               "abstract": "Você canta? Toca guitarra, flauta? Já pensou em produzir suas próprias músicas? Então você deve saber que o processo envolve diversos e equipamentos e softwares.  Nesta palestra vou apresentar o ecossistema de softwares livres que tornam acessível a produção musical de alta qualidade à comunidade de usuários Linux. Criar é uma atividade cooperativa e estes softwares promovem este espírito ao serem livres para distribuição, modificação e uso por músicos, programadores e quem mais quiser.",
               "start": "2014-05-08T12:00:00-03:00",
@@ -1848,6 +1917,7 @@
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 1,
+              "slotId": "85",
               "areaId": "77",
               "zoneId": "16",
               "level": "intermediate",
@@ -1855,7 +1925,7 @@
               "roomName": "41B"
             },
             {
-              "id": "120",
+              "id": "603",
               "title": "O que está escondido atrás do Business Model e Lean Canvas",
               "abstract": "O Business Model Canvas e o Lean Canvas são ferramentas muito disseminadas e utilizadas para pensar no modelo de negócio de um novo produto. No entanto, a simplicidade destes modelos pode limitar o aprendizado de alguns aspectos e atividades importantes para uma startup. Nessa palestra, vamos ir além deles e discutir novas alternativas que podem ser excelentes para o ensino de empreendorismo e, principalmente, para a prática.",
               "start": "2014-05-08T12:00:00-03:00",
@@ -1871,6 +1941,7 @@
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 1,
+              "slotId": "120",
               "areaId": "80",
               "zoneId": "16",
               "level": "",
@@ -1878,7 +1949,7 @@
               "roomName": "41C"
             },
             {
-              "id": "157",
+              "id": "561",
               "title": "Programa Onda Digital: difundindo o Software Livre",
               "abstract": "A palestra visa apresentar e refletir sobre o impacto das estratégias utilizadas, desde 2004, pelo programa permanente de extensão Onda Digital  da UFBA para difundir a filosofia do Software Livre na comunidade acadêmica e comunidades em situação de vulnerabilidade socioeconômica da região metropolitana de Salvador.",
               "start": "2014-05-08T12:00:00-03:00",
@@ -1904,6 +1975,7 @@
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 1,
+              "slotId": "157",
               "areaId": "80",
               "zoneId": "16",
               "level": "starter",
@@ -1911,7 +1983,7 @@
               "roomName": "41D"
             },
             {
-              "id": "193",
+              "id": "521",
               "title": "Programando Jogos Multiplataforma - Para Leigos",
               "abstract": "Desenvolver jogos e se divertir com isso. Sem gastar um centavo com software proprietário. Usar o mesmo código para desenvolver para desktop, para Linux, MacOs, Windows e mobile, no Android, sem rodeios e sem gambiarras. Quer saber como???",
               "start": "2014-05-08T12:00:00-03:00",
@@ -1927,6 +1999,7 @@
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 1,
+              "slotId": "193",
               "areaId": "74",
               "zoneId": "15",
               "level": "starter",
@@ -1934,7 +2007,7 @@
               "roomName": "41E"
             },
             {
-              "id": "229",
+              "id": "295",
               "title": "Projeto de Adaptação ao Software Livre - Mozilla Firefox e LibreOffice em EaD",
               "abstract": "PASOL - Projeto de Adaptação ao Software Livre com o curso Mozilla Firefox e LibreOffice na modalidade EaD para servidores técnico-administrativos e docentes da Universidade Federal do Rio de Janeiro.",
               "start": "2014-05-08T12:00:00-03:00",
@@ -1950,6 +2023,7 @@
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 1,
+              "slotId": "229",
               "areaId": "83",
               "zoneId": "17",
               "level": "starter",
@@ -1957,7 +2031,7 @@
               "roomName": "41F"
             },
             {
-              "id": "333",
+              "id": "351",
               "title": "Mate seu rato e dome seu shell, uma introdução do terminal do Linux",
               "abstract": "Você sabia que antes de todas as janelas e ícones coloridas, o Linux existia somente em modo texto? Sabia que o modo texto é uma ferramenta extremamente útil para administração de sistemas Linux e processamento de texto? Participe dessa oficina e aprenda o básico do terminal para ganhar agilidade e utilizar seu Linux com mais potencial!",
               "start": "2014-05-08T12:00:00-03:00",
@@ -1973,6 +2047,7 @@
               "roomId": "714",
               "roomIndex": 9,
               "dayIndex": 1,
+              "slotId": "333",
               "areaId": "95",
               "zoneId": "21",
               "level": "starter",
@@ -1980,7 +2055,7 @@
               "roomName": "701 OF1"
             },
             {
-              "id": "345",
+              "id": "101",
               "title": "Oficina de Iniciação a Desenvolvimento Mobile com Android",
               "abstract": "Apresentar a ferramenta de desenvolvimento, demonstração de aplicativos em funcionamento. Aplicação de código e de como desenvolver um aplicativo com código limpo e organizado. Como desenvolver um aplicativo sem perder o foco, simples, pratico e funcional.",
               "start": "2014-05-08T12:00:00-03:00",
@@ -1996,6 +2071,7 @@
               "roomId": "720",
               "roomIndex": 10,
               "dayIndex": 1,
+              "slotId": "345",
               "areaId": "95",
               "zoneId": "21",
               "level": "starter",
@@ -2009,7 +2085,7 @@
         "2014-05-08T13:00:00-03:00": {
           "sessions": [
             {
-              "id": "13",
+              "id": "607",
               "title": "KDE Frameworks: Made with love for all Qt developers",
               "abstract": "This year KDE will release a new product named KDE Frameworks. It is a collection of building blocks usable for any Qt application. A lot of love and effort went into transforming the old platform used mostly by Plasma workspaces and KDE Applications into something meant for a wide usage. This talk will aim at giving the audience a look at the journey to get there and what you can find in the soon to be release KDE Frameworks.",
               "start": "2014-05-08T13:00:00-03:00",
@@ -2025,6 +2101,7 @@
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 1,
+              "slotId": "13",
               "areaId": "53",
               "zoneId": "14",
               "level": "starter",
@@ -2032,7 +2109,7 @@
               "roomName": "40T"
             },
             {
-              "id": "86",
+              "id": "34",
               "title": "Cirurgia Plástica e Maquiagem Digital com o GIMP",
               "abstract": "Veja através da manipulação de fotos feitas na própria palestra como é possível usar o GIMP para melhorar e manipular uma fotografia. Uma pessoa com quatro braços, lipo aspiração, rejuvenescimento, restauração de fotos antigas, adequação de luminosidade e cores, remoção de traços indesejados, clareamento dental, tudo isso é possível e relativamente simples no GIMP e são ótimos exemplos para aprender a utilizá-lo praticando.",
               "start": "2014-05-08T13:00:00-03:00",
@@ -2048,6 +2125,7 @@
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 1,
+              "slotId": "86",
               "areaId": "74",
               "zoneId": "15",
               "level": "starter",
@@ -2055,7 +2133,7 @@
               "roomName": "41B"
             },
             {
-              "id": "158",
+              "id": "267",
               "title": "Openbrew: Cerveja artesanal livre",
               "abstract": "Já imaginou fazer cerveja em casa? Isso é mais fácil que você imagina, com a ajuda de muita gente legal, criatividade e de comunidades super ativas, qualquer um pode conseguir. Começamos uma cerveja aberta chamada MotoContinuo há 1 ano atrás e hoje já contamos com diversos colaboradores e mais de 40l de cerveja por mês. Vamos fazer cerveja colaborativamente?",
               "start": "2014-05-08T13:00:00-03:00",
@@ -2086,6 +2164,7 @@
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 1,
+              "slotId": "158",
               "areaId": "80",
               "zoneId": "16",
               "level": "starter",
@@ -2093,7 +2172,7 @@
               "roomName": "41D"
             },
             {
-              "id": "194",
+              "id": "217",
               "title": "Node.js - Javascript além do navegador",
               "abstract": "Javascript é uma das linguagens mais mal compreendidas, e agora que está cada vez mais popular  utilizá-la fora do navegador graças ao node.js, surgem inúmeras novas possibilidades.\r\n\r\nSeja para a criação de shell scripts ou para aplicações web complexas, o node.js apresenta uma plataforma aberta e multi-plataforma para o desenvolvedor, fazendo o melhor uso da linguagem javascript e seu poderoso sistema de eventos, sem as incompatibilidades e complexidade trazidas pelos navegadores.",
               "start": "2014-05-08T13:00:00-03:00",
@@ -2109,6 +2188,7 @@
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 1,
+              "slotId": "194",
               "areaId": "59",
               "zoneId": "14",
               "level": "intermediate",
@@ -2116,7 +2196,7 @@
               "roomName": "41E"
             },
             {
-              "id": "230",
+              "id": "380",
               "title": "Entendendo Multimídia com o GStreamer",
               "abstract": "Você começa a assistir um video online e ele se adapta a tela do seu dispositivo, conexão e poder de processamento. Ouvimos falar em streaming, buffering, latência, codec, bitrate e metadados, mas o que é tudo isso e como se forma o nosso mundo multimídia? Quais os conceitos e desafios envolvidos na criação de aplicações multimídia? Que tal conhecê-los e traçar um paralelo com o GStreamer, que é considerado o framework padrão para desenvolver aplicações multimídia no Linux?",
               "start": "2014-05-08T13:00:00-03:00",
@@ -2132,6 +2212,7 @@
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 1,
+              "slotId": "230",
               "areaId": "74",
               "zoneId": "15",
               "level": "intermediate",
@@ -2139,7 +2220,7 @@
               "roomName": "41F"
             },
             {
-              "id": "437",
+              "id": "77",
               "title": "Guidelines Open-souce de Interfaces para a inclusão sociodigital de autistas",
               "abstract": "Nesta palestra, serão apresentados em primeira mão no FISL os resultados iniciais do projeto GAIA - Guidelines for Accessible Interfaces for Autistics (https://github.com/talitapagani/gaia), um projeto de mestrado open-source desde o início que visa estabelecer guidelines (diretrizes) para o projeto de interfaces web/mobile para crianças autistas, apoiado nos princípios de Design Universal.",
               "start": "2014-05-08T13:00:00-03:00",
@@ -2155,6 +2236,7 @@
               "roomId": "718",
               "roomIndex": 12,
               "dayIndex": 1,
+              "slotId": "437",
               "areaId": "83",
               "zoneId": "17",
               "level": "starter",
@@ -2168,7 +2250,7 @@
         "2014-05-08T14:00:00-03:00": {
           "sessions": [
             {
-              "id": "14",
+              "id": "531",
               "title": "Technology that controls, technology that liberates \\ A call to action",
               "abstract": "tba",
               "start": "2014-05-08T14:00:00-03:00",
@@ -2184,6 +2266,7 @@
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 1,
+              "slotId": "14",
               "areaId": "77",
               "zoneId": "16",
               "level": "starter",
@@ -2191,7 +2274,7 @@
               "roomName": "40T"
             },
             {
-              "id": "51",
+              "id": "622",
               "title": "Assim na Terra como no Shell",
               "abstract": "Apresentação de algumas  das facilidades do Shell e de algumas de suas interfaces gráficas",
               "start": "2014-05-08T14:00:00-03:00",
@@ -2207,6 +2290,7 @@
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 1,
+              "slotId": "51",
               "areaId": "59",
               "zoneId": "14",
               "level": "",
@@ -2214,7 +2298,7 @@
               "roomName": "41A"
             },
             {
-              "id": "87",
+              "id": "248",
               "title": "Replicação de bancos de dados MySQL",
               "abstract": "A configuração de uma réplica (em alguns casos também chamado de \"slave\") de um banco de dados MySQL é algo simples e pode ser realizado em poucas etapas. Nesta apresentação introduziremos o conceito de replicação de dados, explicando as principais topologias utilizadas, como o processo funciona, quais são as principais utilidades de uma réplica e como preparar uma rapidamente. Concluímos apresentando algumas ferramentas úteis para o monitoramento e manutenção de réplicas MySQL.",
               "start": "2014-05-08T14:00:00-03:00",
@@ -2240,6 +2324,7 @@
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 1,
+              "slotId": "87",
               "areaId": "41",
               "zoneId": "13",
               "level": "starter",
@@ -2247,7 +2332,7 @@
               "roomName": "41B"
             },
             {
-              "id": "122",
+              "id": "85",
               "title": "Construindo scripts para testes de segurança com Python",
               "abstract": "A palestra visa demonstrar como utilizar python para a construção dos seus próprios scripts, visando realizar diversas atividades como varredura de portas e serviços, ataques de força bruta, download de informações restritas, exploração via manipulação de cookies, entre outras.",
               "start": "2014-05-08T14:00:00-03:00",
@@ -2263,6 +2348,7 @@
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 1,
+              "slotId": "122",
               "areaId": "50",
               "zoneId": "13",
               "level": "starter",
@@ -2276,7 +2362,7 @@
         "2014-05-08T15:00:00-03:00": {
           "sessions": [
             {
-              "id": "52",
+              "id": "475",
               "title": "Como (e por quê) colaborar com o Debian",
               "abstract": "O Debian é um dois maiores e mais importantes projetos de software livre, e oference muitas oportunidades de colaboração. O objetivo desta palestra é mostrar um pouco de como o Debian funciona, e informar pessoas interessadas em contribuir com o Debian sobre como começar.",
               "start": "2014-05-08T15:00:00-03:00",
@@ -2292,6 +2378,7 @@
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 1,
+              "slotId": "52",
               "areaId": "71",
               "zoneId": "15",
               "level": "starter",
@@ -2299,7 +2386,7 @@
               "roomName": "41A"
             },
             {
-              "id": "88",
+              "id": "586",
               "title": "Neurotecnologia: sua mente no controle na plataforma Linux",
               "abstract": "Apresentação de diversos equipamentos disponível no mercado, diferenças entre os produtos, tendências de tecnologia de código aberto e proprietário. Aconselho para todos que desejam ingressar no mundo da tradução de sinais neurais, detectando atividades cerebrais de forma não invasiva através da eletrencefalográfica.",
               "start": "2014-05-08T15:00:00-03:00",
@@ -2315,6 +2402,7 @@
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 1,
+              "slotId": "88",
               "areaId": "89",
               "zoneId": "19",
               "level": "intermediate",
@@ -2322,7 +2410,7 @@
               "roomName": "41B"
             },
             {
-              "id": "123",
+              "id": "583",
               "title": "Mesa: Empoderamento de Mulheres no Software Livre",
               "abstract": "Considerando importante a participação as mulheres em toda cadeia de planejamento, produção e consumo do SL, principalmente, na posição de tomada de decisão, a ideia da mesa é relacionar as noções de equidade com os princípios do software livre, dando voz às colaboradoras de alguns grupos de mulheres e projetos de SL.",
               "start": "2014-05-08T15:00:00-03:00",
@@ -2338,6 +2426,7 @@
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 1,
+              "slotId": "123",
               "areaId": "77",
               "zoneId": "16",
               "level": "starter",
@@ -2345,7 +2434,7 @@
               "roomName": "41C"
             },
             {
-              "id": "160",
+              "id": "43",
               "title": "Adeus BI, Seja Bem Vindo A Era do Analytics!",
               "abstract": "Com o passar do tempo, o avanço das redes sociais e a montanha de informações provenientes de diversas fontes fizeram com que os dados localizados nos servidores das empresas já não fossem mais suficientes para elaborar análises que, de fato, proporcionassem diferenciais competitivos. Nesta palestra será abordado a evolução do termo Business Intelligence até o conceito de Business Analytics e como as tradicionais soluções de BI Open Source tem acompanhando essa evolução conceitual.",
               "start": "2014-05-08T15:00:00-03:00",
@@ -2361,6 +2450,7 @@
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 1,
+              "slotId": "160",
               "areaId": "80",
               "zoneId": "16",
               "level": "starter",
@@ -2368,7 +2458,7 @@
               "roomName": "41D"
             },
             {
-              "id": "196",
+              "id": "695",
               "title": "Bullet proof cloud: práticas e ferramentas para colocar sua infra na linha",
               "abstract": "Iremos demonstrar uma série de práticas, serviços e ferramentas de código aberto que vão ajudar ao arquiteto de nuvem a criar testes de carga e performance gerando uma visão sobre o potencial da infraestrutura, permitindo que fçaam-se ajustes para criar um cenário que seja elástico para demandas futuras. Iremos apresentar também ferramentas que criam falhas na infraestrutura, testando o plano de alta disponibilidade, como também o tempo de resposta da equipe de suporte.",
               "start": "2014-05-08T15:00:00-03:00",
@@ -2384,6 +2474,7 @@
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 1,
+              "slotId": "196",
               "areaId": "38",
               "zoneId": "13",
               "level": "",
@@ -2391,7 +2482,7 @@
               "roomName": "41E"
             },
             {
-              "id": "232",
+              "id": "404",
               "title": "Software Livre na Educação no RS, Resgatando ações e Resultados",
               "abstract": "Uma retrospectiva das ações relacionadas a implantação e desenvolvimento de software Livre na Educação do Rio Grande do Sul.",
               "start": "2014-05-08T15:00:00-03:00",
@@ -2407,6 +2498,7 @@
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 1,
+              "slotId": "232",
               "areaId": "83",
               "zoneId": "17",
               "level": "starter",
@@ -2414,7 +2506,7 @@
               "roomName": "41F"
             },
             {
-              "id": "334",
+              "id": "555",
               "title": "Oficina de Desenvolvimento de Jogos em Blender",
               "abstract": "O curso visa ensinar o funcionamento básico da Blender Game Engine, o motor para desenvolvimento de jogos que o software Blender possui, introduzindo através da prática os conceitos necessários para a criação de um jogo na ferramenta.",
               "start": "2014-05-08T15:00:00-03:00",
@@ -2435,6 +2527,7 @@
               "roomId": "714",
               "roomIndex": 9,
               "dayIndex": 1,
+              "slotId": "334",
               "areaId": "95",
               "zoneId": "21",
               "level": "intermediate",
@@ -2442,7 +2535,7 @@
               "roomName": "701 OF1"
             },
             {
-              "id": "346",
+              "id": "550",
               "title": "Mineração de Texto com Python e NLTK",
               "abstract": "O objetivo  desta oficina é apresentar como minerar texto com Python e Natural Language Toolkit (NLTK). Mineração de Texto é o processo de descoberta de conhecimento e extração de dados a partir de texto em formatos não estruturados (linguagem natural). Com ela é possível classificar documentos de acordo com suas características e sumarizar informações",
               "start": "2014-05-08T15:00:00-03:00",
@@ -2458,6 +2551,7 @@
               "roomId": "720",
               "roomIndex": 10,
               "dayIndex": 1,
+              "slotId": "346",
               "areaId": "95",
               "zoneId": "21",
               "level": "starter",
@@ -2471,7 +2565,7 @@
         "2014-05-08T16:00:00-03:00": {
           "sessions": [
             {
-              "id": "16",
+              "id": "598",
               "title": "How to be a great hacker",
               "abstract": "Spech about the steps to follow after finishing school and how to become in a great hacker, focusing about the philosophy and the good practices.",
               "start": "2014-05-08T16:00:00-03:00",
@@ -2487,6 +2581,7 @@
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 1,
+              "slotId": "16",
               "areaId": "53",
               "zoneId": "14",
               "level": "",
@@ -2494,7 +2589,7 @@
               "roomName": "40T"
             },
             {
-              "id": "53",
+              "id": "293",
               "title": "Sailor - um framework MVC em Lua",
               "abstract": "Uma breve apresentação da linguagem Lua, vantagens e desvantagens do uso de Lua em desenvolvimento web, o nascimento do Sailor e a maratona de aprendizado, comparação com outras ferramentas existentes na área, estágio de desenvolvimento do Sailor hoje.",
               "start": "2014-05-08T16:00:00-03:00",
@@ -2510,6 +2605,7 @@
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 1,
+              "slotId": "53",
               "areaId": "59",
               "zoneId": "14",
               "level": "starter",
@@ -2517,7 +2613,7 @@
               "roomName": "41A"
             },
             {
-              "id": "89",
+              "id": "302",
               "title": "O perigo dos softwares não-livres em Dispositivos Médicos Implantáveis",
               "abstract": "Implantes médicos são cada vez mais comuns, e o fato de serem controlados por software não-livre é um problema substancial, já que a possibilidade de auditar esses códigos fica de \"responsabilidade\" do fabricante. Recentemente, foi descoberto como esses dispositivos são falhos, e como um transmissor de radiofrequência poderia levar a óbito ou trazer transtorno e dor para pacientes com marcapassos implantados. Apresentarei nessa palestra os aspectos técnicos e filosóficos em torno do  tema.",
               "start": "2014-05-08T16:00:00-03:00",
@@ -2533,6 +2629,7 @@
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 1,
+              "slotId": "89",
               "areaId": "50",
               "zoneId": "13",
               "level": "starter",
@@ -2540,7 +2637,7 @@
               "roomName": "41B"
             },
             {
-              "id": "161",
+              "id": "189",
               "title": "Bitcoin: a Revolução Digital chegou à economia",
               "abstract": "O que é o Bitcoin, que tanto vem sendo falado na mídia? Como surgiu e por que surgiu? Quais os impactos da moeda digital no nosso cotidiano? É o Bitcoin a \"moeda dos criminosos\"? Por que governos e o sistema financeiro teme o Bitcoin?",
               "start": "2014-05-08T16:00:00-03:00",
@@ -2561,6 +2658,7 @@
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 1,
+              "slotId": "161",
               "areaId": "89",
               "zoneId": "19",
               "level": "intermediate",
@@ -2568,7 +2666,7 @@
               "roomName": "41D"
             },
             {
-              "id": "197",
+              "id": "630",
               "title": "Sustentabilidade e Software Livre no Banco do Brasil",
               "abstract": "O Banco do Brasil já se consagrou como um dos maiores cases mundiais de uso de softwares livres. Hoje os mais de 120.000 funcionários da empresa trabalham diariamente com soluções baseadas em softwares livres, plataformas estáveis, seguras e funcionais que geram produtividade e economia. Inserimos neste contexto operacional o conceito da TI Verde, contribuíndo ainda mais com a gestão sustentável dos negócios BB.  ",
               "start": "2014-05-08T16:00:00-03:00",
@@ -2594,6 +2692,7 @@
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 1,
+              "slotId": "197",
               "areaId": "38",
               "zoneId": "13",
               "level": "",
@@ -2601,7 +2700,7 @@
               "roomName": "41E"
             },
             {
-              "id": "401",
+              "id": "595",
               "title": "Reunião Comcet",
               "abstract": "Reunião Comcet",
               "start": "2014-05-08T16:00:00-03:00",
@@ -2617,6 +2716,7 @@
               "roomId": "717",
               "roomIndex": 11,
               "dayIndex": 1,
+              "slotId": "401",
               "areaId": "92",
               "zoneId": "20",
               "level": "",
@@ -2630,7 +2730,7 @@
         "2014-05-08T17:00:00-03:00": {
           "sessions": [
             {
-              "id": "54",
+              "id": "268",
               "title": "Ataques Super Eficientes de Negação de Serviço: Camada 7, Android, Cluster-Bomb",
               "abstract": "Com o uso de parâmetros de protocolos da camada 7 que causam maior processamento ou uso dos demais recursos do servidor ou que mantenham o estado da aplicação bloqueado por um período considerável de tempo, pode-se atingir resultados devastadores na negação de serviço com menos requisições do que o tradicional ataque DoS de exaustão de banda. ",
               "start": "2014-05-08T17:00:00-03:00",
@@ -2646,6 +2746,7 @@
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 1,
+              "slotId": "54",
               "areaId": "50",
               "zoneId": "13",
               "level": "intermediate",
@@ -2653,7 +2754,7 @@
               "roomName": "41A"
             },
             {
-              "id": "90",
+              "id": "584",
               "title": "Controle de Versão - Mantendo seu trabalho a salvo com Git",
               "abstract": "Git é um Sistema de Controle de Versão (SCM) distribuído voltado à atender todo tipo de necessidade, desde pequenos a grandes projetos, de forma rápida e eficiente. A palestra tem como objetivo introduzir o Git através da apresentação de alguns de seus conceitos e comandos abordando vantagens e benefícios de sua utilização. Ao fim da palestra o participante terá conhecimentos para manter o seu projeto seguro e para colaborar em projetos open source utilizando repositórios remotos como Github.",
               "start": "2014-05-08T17:00:00-03:00",
@@ -2674,6 +2775,7 @@
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 1,
+              "slotId": "90",
               "areaId": "53",
               "zoneId": "14",
               "level": "starter",
@@ -2681,7 +2783,7 @@
               "roomName": "41B"
             },
             {
-              "id": "142",
+              "id": "479",
               "title": "Mulheres, Software Livre e Educação",
               "abstract": "Será que as meninas não curtem mesmo computação, tecnologia e essas coisas? O Technovation Challenge é uma competição global que inspira meninas a se tornarem mais do que usuárias de tecnologia, buscando transformá-las em  CRIADORAS e EMPREENDEDORAS. E ele é só mais uma prova de que com dedicação e software livre nos podemos mudar o mundo e trazer mais mulheres para a tecnologia em prol da diversidade e da inovação.",
               "start": "2014-05-08T17:00:00-03:00",
@@ -2697,6 +2799,7 @@
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 1,
+              "slotId": "142",
               "areaId": "83",
               "zoneId": "17",
               "level": "starter",
@@ -2704,7 +2807,7 @@
               "roomName": "41C"
             },
             {
-              "id": "162",
+              "id": "279",
               "title": "SpeechRTC, reconhecimento de voz cross-browser para a Web e FirefoxOS",
               "abstract": "SpeechRTC, uma API de reconhecimento de fala utilizando Webrtc desenvolvida com foco no FirefoxOS e na web.\r\n\r\n",
               "start": "2014-05-08T17:00:00-03:00",
@@ -2720,6 +2823,7 @@
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 1,
+              "slotId": "162",
               "areaId": "89",
               "zoneId": "19",
               "level": "intermediate",
@@ -2727,7 +2831,7 @@
               "roomName": "41D"
             },
             {
-              "id": "198",
+              "id": "177",
               "title": "Distribuições GNU/Linux - entenda como funciona",
               "abstract": "Atualmente existem várias distribuições GNU/Linux, umas são mantidas por comunidades, universidades, governos, e também existem as distribuições mantidas por empresas. Entenda como esse universo das distribuições funciona e conheça algumas delas assistindo a este painel com representantes das comunidades.",
               "start": "2014-05-08T17:00:00-03:00",
@@ -2753,6 +2857,7 @@
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 1,
+              "slotId": "198",
               "areaId": "71",
               "zoneId": "15",
               "level": "starter",
@@ -2760,7 +2865,7 @@
               "roomName": "41E"
             },
             {
-              "id": "234",
+              "id": "512",
               "title": "Domótica: Controle dispositivos via comando de voz com arduino",
               "abstract": "Domótica é uma tecnologia que permite gerenciar recursos habitacionais desde o controle do portão de garagem até o sistema de iluminação. \r\nNessa palestra vou apresentar o projeto via comando de voz, possibilita controlar dispositivos(lâmpada, Tv, ar-condicionado, ...). Verdadeira combinação do movimento faça-você-mesmo utilizando plataformas livres como o arduino, para facilitar a nossa vida.",
               "start": "2014-05-08T17:00:00-03:00",
@@ -2776,6 +2881,7 @@
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 1,
+              "slotId": "234",
               "areaId": "44",
               "zoneId": "13",
               "level": "intermediate",
@@ -2795,7 +2901,7 @@
         "2014-05-09T09:00:00-03:00": {
           "sessions": [
             {
-              "id": "55",
+              "id": "117",
               "title": "I don't want to miss a thing... where is the memory going?",
               "abstract": "The intention for the session is to present an overview on the Linux Kernel Virtual Memory Manager through a couple of ordinary daily scenarios in an attempt to address some myths, fallacies and pitfalls that eventually can come up while we are using a Linux System.",
               "start": "2014-05-09T09:00:00-03:00",
@@ -2811,6 +2917,7 @@
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 2,
+              "slotId": "55",
               "areaId": "47",
               "zoneId": "13",
               "level": "starter",
@@ -2818,7 +2925,7 @@
               "roomName": "41A"
             },
             {
-              "id": "91",
+              "id": "212",
               "title": "PHP na Tela Escura: Aplicações Poderosas em Linha de Comando",
               "abstract": "A linguagem PHP é conhecida por ser utilizada no desenvolvimento de aplicações web. Essa palestra visa apresentar o outro lado do desenvolvimento. Poucos sabem que é possível utilizar a linguagem para desenvolver tarefas agendadas, ferramentas multi-thread e diversas outras aplicações que rodam em terminal. Nessa palestra exploraremos o mundo do PHP-CLI.",
               "start": "2014-05-09T09:00:00-03:00",
@@ -2834,6 +2941,7 @@
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 2,
+              "slotId": "91",
               "areaId": "62",
               "zoneId": "14",
               "level": "intermediate",
@@ -2841,7 +2949,7 @@
               "roomName": "41B"
             },
             {
-              "id": "125",
+              "id": "455",
               "title": "Encontro Comunitário dos LibrePlanets do Brasil",
               "abstract": "O  grupo LibrePlanet São Paulo e o grupo LibrePlanet Espírito Santo, vinculados  ao projeto LibrePlanet mantido pela Free Software  Foundation, são  formados por voluntários e ativistas  organizados ao redor de ideias de  Software Livre e assuntos relacionados  a direitos do indivíduo na era  digital, focando-se em sociedades  livres. Neste encontro comunitário, pretendemos planejar e debater nossas atividades para o  segundo semestre de 2014.",
               "start": "2014-05-09T09:00:00-03:00",
@@ -2877,6 +2985,7 @@
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 2,
+              "slotId": "125",
               "areaId": "86",
               "zoneId": "18",
               "level": "starter",
@@ -2884,7 +2993,7 @@
               "roomName": "41C"
             },
             {
-              "id": "163",
+              "id": "195",
               "title": "oVirt Community Update",
               "abstract": "oVirt é a primeira iniciativa verdadeiramente aberta e compreensiva para gerenciamento de data centers de virtualização. Essa é uma apresentação de atualização para a comunidade oVirt sobre as novidades da versão atual e os recursos esperados para a proxima versão.",
               "start": "2014-05-09T09:00:00-03:00",
@@ -2910,6 +3019,7 @@
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 2,
+              "slotId": "163",
               "areaId": "86",
               "zoneId": "18",
               "level": "starter",
@@ -2917,7 +3027,7 @@
               "roomName": "41D"
             },
             {
-              "id": "199",
+              "id": "610",
               "title": "Comunidade ZABBIX BRASIL",
               "abstract": "Comunidade ZABBIX BRASIL",
               "start": "2014-05-09T09:00:00-03:00",
@@ -2933,6 +3043,7 @@
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 2,
+              "slotId": "199",
               "areaId": "86",
               "zoneId": "18",
               "level": "",
@@ -2940,7 +3051,7 @@
               "roomName": "41E"
             },
             {
-              "id": "235",
+              "id": "617",
               "title": "Encontros Comunitários GU Mobile-RS - FISL 15",
               "abstract": "Proposta do GU Mobile-RS para encontros comunitários - FISL 15",
               "start": "2014-05-09T09:00:00-03:00",
@@ -2956,6 +3067,7 @@
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 2,
+              "slotId": "235",
               "areaId": "86",
               "zoneId": "18",
               "level": "",
@@ -2963,7 +3075,7 @@
               "roomName": "41F"
             },
             {
-              "id": "271",
+              "id": "397",
               "title": "Mulheres na TI e na comunidade do Software Livre",
               "abstract": "Mesa onde será discutida a participação das mulheres na TI e na comunidade do Software Livre e como os preconceitos devem ser quebrados para se fomentar a inserção das mesmas de forma a não intimidá-las, mediante ação da Executiva Nacional dos Estudantes de Computação.",
               "start": "2014-05-09T09:00:00-03:00",
@@ -2989,6 +3101,7 @@
               "roomId": "7",
               "roomIndex": 7,
               "dayIndex": 2,
+              "slotId": "271",
               "areaId": "86",
               "zoneId": "18",
               "level": "intermediate",
@@ -2996,7 +3109,7 @@
               "roomName": "40A"
             },
             {
-              "id": "347",
+              "id": "388",
               "title": "Aprenda a ensinar a web com Webmaker",
               "abstract": "A web está se tornando a segunda língua do mundo, e uma habilidade vital no século 21. É crucial que nós demos às pessoas as habilidades que elas precisam para entender, modelar e  participar ativamente desse mundo, ao invés de apenas consumi-lo  passivamente. Nessa oficina, mostraremos como usar as ferramentas, planos de aulas e materiais de ensino do Webmaker para ensinar a web a qualquer pessoa.",
               "start": "2014-05-09T09:00:00-03:00",
@@ -3017,6 +3130,7 @@
               "roomId": "720",
               "roomIndex": 10,
               "dayIndex": 2,
+              "slotId": "347",
               "areaId": "95",
               "zoneId": "21",
               "level": "starter",
@@ -3024,7 +3138,7 @@
               "roomName": "702 - OF2"
             },
             {
-              "id": "403",
+              "id": "668",
               "title": "Encontro Comunitário Expresso Livre",
               "abstract": "Encontro da comunidade do Expresso Livre",
               "start": "2014-05-09T09:00:00-03:00",
@@ -3050,6 +3164,7 @@
               "roomId": "717",
               "roomIndex": 11,
               "dayIndex": 2,
+              "slotId": "403",
               "areaId": "80",
               "zoneId": "16",
               "level": "starter",
@@ -3063,7 +3178,7 @@
         "2014-05-09T10:00:00-03:00": {
           "sessions": [
             {
-              "id": "18",
+              "id": "180",
               "title": "Performance analysis at Facebook scale",
               "abstract": "Aprenda como investigar problemas de performance quando um sistema é composto por vários servidores e serviços diferentes. Uma investigação de sucesso precisa de foco. Um bom administrador não pode perder tempo com o que não interessa. Veja boas dicas de como um grande serviço como o Facebook resolve esse problema.",
               "start": "2014-05-09T10:00:00-03:00",
@@ -3079,6 +3194,7 @@
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 2,
+              "slotId": "18",
               "areaId": "38",
               "zoneId": "13",
               "level": "intermediate",
@@ -3086,7 +3202,7 @@
               "roomName": "40T"
             },
             {
-              "id": "56",
+              "id": "483",
               "title": "Ciência e Software Livre, ou Lá e de Volta Outra Vez",
               "abstract": "Venha refletir e conhecer a amplitude de tendências que estão constituindo o movimento pela Ciência Aberta, assim como o conjunto de práticas e ferramentas utilizadas, fortemente influenciadas pelo Software Livre mas também presentes na origem deste.",
               "start": "2014-05-09T10:00:00-03:00",
@@ -3102,6 +3218,7 @@
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 2,
+              "slotId": "56",
               "areaId": "77",
               "zoneId": "16",
               "level": "starter",
@@ -3109,7 +3226,7 @@
               "roomName": "41A"
             },
             {
-              "id": "92",
+              "id": "513",
               "title": "Construindo suporte a TV digital no Linux",
               "abstract": "A palestra abordará a infra-estrutura necessária para o suporte a recepção de TV digital no Linux, que é utilizado tanto em sistemas dedicados (embedded) quanto em computadores pessoais, abordando tanto aspectos ligados ao Kernel do Linux quanto a biblioteca para suporte a aplicações multimídia.",
               "start": "2014-05-09T10:00:00-03:00",
@@ -3125,6 +3242,7 @@
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 2,
+              "slotId": "92",
               "areaId": "47",
               "zoneId": "13",
               "level": "intermediate",
@@ -3138,7 +3256,7 @@
         "2014-05-09T11:00:00-03:00": {
           "sessions": [
             {
-              "id": "19",
+              "id": "621",
               "title": "Going Mobile and surviving",
               "abstract": "A hands-on intro to adaptive web design, mobile experience, accessibility, UI, common mistakes and helpful solutions.",
               "start": "2014-05-09T11:00:00-03:00",
@@ -3154,6 +3272,7 @@
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 2,
+              "slotId": "19",
               "areaId": "68",
               "zoneId": "14",
               "level": "",
@@ -3161,7 +3280,7 @@
               "roomName": "40T"
             },
             {
-              "id": "93",
+              "id": "569",
               "title": "Soberania Política e Tecnológica brasileria em um mundo cibernético",
               "abstract": "Mesa de debate com figuras públicas e de relevância no debate sobre o desenvolvimento do Software Livre brasileiro e suas salvaguardas e mecanismos de fomento.",
               "start": "2014-05-09T11:00:00-03:00",
@@ -3182,6 +3301,7 @@
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 2,
+              "slotId": "93",
               "areaId": "89",
               "zoneId": "19",
               "level": "advanced",
@@ -3189,7 +3309,7 @@
               "roomName": "41B"
             },
             {
-              "id": "165",
+              "id": "230",
               "title": "Streaming de Vídeo ao Vivo na globo.com",
               "abstract": "A globo.com faz diversas transmissões de vídeos ao vivo, de partidas de futebol, noticiários a programas contínuos como o BBB. Chegamos a transmitir mais de 100 sinais simultâneos e tivemos um pico de mais de 400 mil usuários concorrentes na Copa das Confederações de 2013. O objetivo desta palestra é apresentar a arquitetura que torna a entrega do conteúdo e o monitoramento da plataforma, baseada largamente em software livre.",
               "start": "2014-05-09T11:00:00-03:00",
@@ -3210,6 +3330,7 @@
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 2,
+              "slotId": "165",
               "areaId": "74",
               "zoneId": "15",
               "level": "intermediate",
@@ -3217,7 +3338,7 @@
               "roomName": "41D"
             },
             {
-              "id": "201",
+              "id": "308",
               "title": "Capturando o agora com APIs de Streaming do Twitter",
               "abstract": "500 milhões de tweets são criados todos os dias pelos usuários do Twitter e as opiniões, afirmações, reclamações são sempre expressadas publicamente e em tempo real. Não seria interessante investigar padrões de opiniões ou nos relacionamentos entre os usuários? A plataforma do Twitter possui um conjunto de APIs que permite que qualquer desenvolvedor tenha acesso para analisar o grande volume de informação gerado todos os dias. ",
               "start": "2014-05-09T11:00:00-03:00",
@@ -3233,6 +3354,7 @@
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 2,
+              "slotId": "201",
               "areaId": "56",
               "zoneId": "14",
               "level": "starter",
@@ -3240,7 +3362,7 @@
               "roomName": "41E"
             },
             {
-              "id": "237",
+              "id": "392",
               "title": "Inteligência Artificial na prática - Criando uma Rede Neural ",
               "abstract": "Mostrar o que são redes neurais artificiais, suas topologias e tipos de treinamentos.\r\nApresentar e mostrar as características da biblioteca libFANN (Fast Artificial Neural Network Library) e apresentar uma aplicação prática que aprenda a distinguir se um texto está em inglês ou português sem incluir nenhum dicionário de palavras. ",
               "start": "2014-05-09T11:00:00-03:00",
@@ -3256,6 +3378,7 @@
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 2,
+              "slotId": "237",
               "areaId": "44",
               "zoneId": "13",
               "level": "starter",
@@ -3269,7 +3392,7 @@
         "2014-05-09T12:00:00-03:00": {
           "sessions": [
             {
-              "id": "20",
+              "id": "602",
               "title": "O dia a dia do centro de competência em software livre",
               "abstract": "Nesta palestra veremos primeiro de forma histórica a origem do CCSL do IME-USP. Em seguida apresentarei os projetos que estamos promovendo. Também contarei como o centro é gerenciado no seu dia a dia. Apresentarei também algumas das atividades mais recentes do centro. Para terminar darei dicas de como criar centros locais para fomentar o software livre.",
               "start": "2014-05-09T12:00:00-03:00",
@@ -3285,6 +3408,7 @@
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 2,
+              "slotId": "20",
               "areaId": "77",
               "zoneId": "16",
               "level": "",
@@ -3292,7 +3416,7 @@
               "roomName": "40T"
             },
             {
-              "id": "58",
+              "id": "522",
               "title": "Django: una caja de herramientas para el Desarrollador ",
               "abstract": "La desaparición casi por completo de las aplicaciones de escritorio  y la generalización de las aplicaciones web ha hecho que proliferen una gran cantidad de herramientas que se constituyan en andamios para la construcción ágil y eficiente de este tipo de aplicaciones, entre ellas y dentro de lenguaje de programación Python tenemos a Django como el framework standar. Se revisará algunos de los comandos importantes que facilitan la vida a los desarrolladores Django.",
               "start": "2014-05-09T12:00:00-03:00",
@@ -3308,6 +3432,7 @@
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 2,
+              "slotId": "58",
               "areaId": "65",
               "zoneId": "14",
               "level": "intermediate",
@@ -3315,7 +3440,7 @@
               "roomName": "41A"
             },
             {
-              "id": "94",
+              "id": "328",
               "title": "Boot para a Web com Gecko: Desktop, dispositivos móveis, TVs e mais ",
               "abstract": "São mais de 15 anos de Gecko e hoje a Mozilla carrega um dos projetos mais importantes que levam a Web além do desktop — para as pessoas. O Boot 2 Gecko [1],  e suas camadas, Gecko, Gaia e Gonk; levaram o Firefox para a experiência de usuário de um moderno sistema operacional. Assim se consolida a Web, primeiro em dispositivos móveis, mas surgem grandes desafios e oportunidades da Web ter maior impacto.\r\n",
               "start": "2014-05-09T12:00:00-03:00",
@@ -3331,6 +3456,7 @@
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 2,
+              "slotId": "94",
               "areaId": "89",
               "zoneId": "19",
               "level": "intermediate",
@@ -3338,7 +3464,7 @@
               "roomName": "41B"
             },
             {
-              "id": "128",
+              "id": "345",
               "title": "Painel: Dá pra ganhar dinheiro com Software Livre? SIM! (edição: mulheres)",
               "abstract": "Fala-se muito em software livre, temos este evento sobre sl, vemos grandes empresas ganhando dinheiro com sl, mas e como um simples mortal poderá ganhar dinheiro? consegue sustentar-se bem? empreender? enriquecer? Esta é a terceira edição desta possibilidade de palestra/ debate onde apresentam-se profissionais de diferentes áreas respondendo à estas e outras perguntas da platéia, sem fazer propaganda de suas empresas, apenas querendo contribuir ao sucesso de todos!",
               "start": "2014-05-09T12:00:00-03:00",
@@ -3369,6 +3495,7 @@
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 2,
+              "slotId": "128",
               "areaId": "80",
               "zoneId": "16",
               "level": "starter",
@@ -3376,7 +3503,7 @@
               "roomName": "41C"
             },
             {
-              "id": "166",
+              "id": "197",
               "title": "Parceria SEEDUC/PRODERJ: o SCG na gestão de processos administrativos.",
               "abstract": "Como gerenciar processos administrativos na Educação Pública do RJ? A parceria PRODERJ/SEEDUC na criação do SCG - Sistema de Controle de Gabinete, hospedado no PRODERJ nos permite criar, classificar e acompanhar as demandas de qualquer lugar, a qualquer hora, solucionando problemas administrtivos com menos burocracia e maior rapidez.",
               "start": "2014-05-09T12:00:00-03:00",
@@ -3392,6 +3519,7 @@
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 2,
+              "slotId": "166",
               "areaId": "80",
               "zoneId": "16",
               "level": "starter",
@@ -3399,7 +3527,7 @@
               "roomName": "41D"
             },
             {
-              "id": "202",
+              "id": "618",
               "title": "INTERNET - PRIORIDADE DOS GOVERNOS NACIONAIS",
               "abstract": "Avaliação do estado das relações humanas, culturais, sociais e políticas mediadas pela Internet. Crítica da hegemonia americana na Internet. Avaliação das diferentes políticas dos países para enfrentar e até \"esboçar\" uma contra-hegemonia. Apresentação do acúmulo brasileiro na construção de um GOVERNO DEMOCRÁTICO DA INTERNET, mostrando que esse governo democrático será tanto mais eficaz em cada país, se todos os países optarem pela estratégia e construirem esse respectivo governo democrático.",
               "start": "2014-05-09T12:00:00-03:00",
@@ -3415,6 +3543,7 @@
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 2,
+              "slotId": "202",
               "areaId": "77",
               "zoneId": "16",
               "level": "intermediate",
@@ -3422,7 +3551,7 @@
               "roomName": "41E"
             },
             {
-              "id": "238",
+              "id": "186",
               "title": "Gestão colaborativa de moedas sociais digitais utilizando a plataforma CORAIS",
               "abstract": "Conceitos sobre moedas sociais e bancos comunitários; dados e funcionalidades importantes em um sistema financeiro; Em economia, segurança é sinonimo de transparência; Bancos de Tempo e as Produtoras Culturais Colaborativas; A moeda Concha da Produtora Colabor@tiva.PE em Recife/PE; A moeda Tempo da Universidade Livre de Teatro Vila Velha em Salvador/BA; Como gerir coletivamente uma moeda social através da plataforma de projetos colaborativos CORAIS.ORG?  ",
               "start": "2014-05-09T12:00:00-03:00",
@@ -3443,6 +3572,7 @@
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 2,
+              "slotId": "238",
               "areaId": "77",
               "zoneId": "16",
               "level": "starter",
@@ -3450,7 +3580,7 @@
               "roomName": "41F"
             },
             {
-              "id": "274",
+              "id": "474",
               "title": "Policy Based Routing: roteadores mais flexíveis/inteligentes",
               "abstract": "Esta palestra visa evidenciar os benefícios que políticas de roteamento mais flexíveis trazem e também introduzir o conceito de virtualização da rede.",
               "start": "2014-05-09T12:00:00-03:00",
@@ -3471,6 +3601,7 @@
               "roomId": "7",
               "roomIndex": 7,
               "dayIndex": 2,
+              "slotId": "274",
               "areaId": "38",
               "zoneId": "13",
               "level": "intermediate",
@@ -3478,7 +3609,7 @@
               "roomName": "40A"
             },
             {
-              "id": "445",
+              "id": "300",
               "title": "Webmaker: Faça algo incrível com a Web!",
               "abstract": " A web está se tornando a segunda língua do mundo, e uma habilidade vital no século 21. É crucial que nós demos às pessoas as habilidades que elas precisam para entender, modelar e participar ativamente desse mundo, ao invés de apenas consumi-lo passivamente. Nessa palestra, serão apresentadas ferramentas e materiais para ensinar a web, o padrão de alfabetização para a web, quem está por trás de tudo isso e como pretendemos criar uma comunidade de criadores para a Web no Brasil.",
               "start": "2014-05-09T12:00:00-03:00",
@@ -3499,6 +3630,7 @@
               "roomId": "718",
               "roomIndex": 12,
               "dayIndex": 2,
+              "slotId": "445",
               "areaId": "83",
               "zoneId": "17",
               "level": "starter",
@@ -3512,7 +3644,7 @@
         "2014-05-09T13:00:00-03:00": {
           "sessions": [
             {
-              "id": "21",
+              "id": "629",
               "title": "IoT: A Internet das Coisas",
               "abstract": "A transformação de sistemas isolados para dispositivos preparados para a Internet, conectados com a nuvem, está gerando oportunidades sem precedentes para novos serviços, melhorias na eficiência e na produtividade, suporte a tomada de decisões em tempo real e experiências de uso inovadoras. Vamos apresentar um overview sobre as oportunidades que o IoT cria para empresas e desenvolvedores brasileiros, e mostrar o papel chave que o software open source possui neste cenário.",
               "start": "2014-05-09T13:00:00-03:00",
@@ -3528,6 +3660,7 @@
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 2,
+              "slotId": "21",
               "areaId": "44",
               "zoneId": "13",
               "level": "",
@@ -3535,7 +3668,7 @@
               "roomName": "40T"
             },
             {
-              "id": "129",
+              "id": "527",
               "title": "Como ser um Empreendedor em T.I. e ter sucesso na carreira profissional",
               "abstract": "Demonstrar aos alunos que todos somos capazes de empreender, isso não é apenas para os que são visionários ou que tenham perfil para isso. Também mostrar para aqueles que não querem ser empreendedores como obter sucesso no mercado de trabalho.",
               "start": "2014-05-09T13:00:00-03:00",
@@ -3551,6 +3684,7 @@
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 2,
+              "slotId": "129",
               "areaId": "83",
               "zoneId": "17",
               "level": "starter",
@@ -3558,7 +3692,7 @@
               "roomName": "41C"
             },
             {
-              "id": "167",
+              "id": "301",
               "title": "El Grupo de Trabajo Software Libre del Foro de la Agenda Digital Argentina",
               "abstract": "El presente trabajo procura dar cuenta de la experiencia del Grupo de Trabajo Software Libre del Foro de la Agenda Digital Argentina como un caso de construcción de comunidades de práctica y de incorporación de metodologías de trabajo colaborativas, participativas y horizontales al interior del Estado Argentino.",
               "start": "2014-05-09T13:00:00-03:00",
@@ -3574,6 +3708,7 @@
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 2,
+              "slotId": "167",
               "areaId": "77",
               "zoneId": "16",
               "level": "intermediate",
@@ -3581,7 +3716,7 @@
               "roomName": "41D"
             },
             {
-              "id": "203",
+              "id": "556",
               "title": "rapidFTR - open source para refugiados e situações de emergência",
               "abstract": "O rapidFTR (rapid Family Tracing and Reunification) é um software open source (https://github.com/rapidftr) com desenvolvimento capitaneado pela UNICEF (United Nations Children's Fund) para reunificação de crianças com suas famílias. O software já foi implantando com sucesso em 2 campos de refugiados (Uganda e Sudão) e também após o tufão nas Filipinas. O objetivo dessa palestra é mostrar como softwares de código aberto podem ser utilizados em desastres e situações de emergência.",
               "start": "2014-05-09T13:00:00-03:00",
@@ -3597,6 +3732,7 @@
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 2,
+              "slotId": "203",
               "areaId": "80",
               "zoneId": "16",
               "level": "starter",
@@ -3604,7 +3740,7 @@
               "roomName": "41E"
             },
             {
-              "id": "239",
+              "id": "237",
               "title": "Servo: O web engine paralelo",
               "abstract": "Servo é uma web engine experimental desenvolvida pela Mozilla em parceria com a Samsung. Seu principal objetivo consiste em criar um ambiente altamente paralelo, nos quais muitos componentes (renderização, layout, parsing de HTML, decodificação de imagens, etc) são executados por tarefas isoladas. O projeto possui relação simbiótica com a linguagem de programação Rust, que está atualmente em desenvolvimento.",
               "start": "2014-05-09T13:00:00-03:00",
@@ -3620,6 +3756,7 @@
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 2,
+              "slotId": "239",
               "areaId": "89",
               "zoneId": "19",
               "level": "advanced",
@@ -3627,7 +3764,7 @@
               "roomName": "41F"
             },
             {
-              "id": "446",
+              "id": "286",
               "title": "GNU/Linux, como funciona esta fera?",
               "abstract": "Apresentação sobre como funciona o sistema operacional GNU/Linux, mostrando suas camadas, o sistema de módulos do Kernel, apresentando os diversos ambientes gráficos e como eles operam, os processos pais e filhos, daemons, inclusive o processo de instalação(gráfico e texto) e o sistema de Boot.",
               "start": "2014-05-09T13:00:00-03:00",
@@ -3648,6 +3785,7 @@
               "roomId": "718",
               "roomIndex": 12,
               "dayIndex": 2,
+              "slotId": "446",
               "areaId": "47",
               "zoneId": "13",
               "level": "intermediate",
@@ -3661,7 +3799,7 @@
         "2014-05-09T14:00:00-03:00": {
           "sessions": [
             {
-              "id": "22",
+              "id": "626",
               "title": "Segurança oportunística e Perfect Forward Secrecy",
               "abstract": "\"Software that protects the freedoms of its users needs to be able to\r\noffer communications channels that resist surveillance, spoofing, and\r\ntracking.  Some of our tools do this better than others.",
               "start": "2014-05-09T14:00:00-03:00",
@@ -3677,6 +3815,7 @@
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 2,
+              "slotId": "22",
               "areaId": "3",
               "zoneId": "21",
               "level": "",
@@ -3684,7 +3823,7 @@
               "roomName": "40T"
             },
             {
-              "id": "60",
+              "id": "633",
               "title": "Practical Optimization of MySQL",
               "abstract": "Successful applications often become limited by MySQL Performance.\r\nIn this presentation we will look how to get great MySQL Performance while\r\nbeing Practical - spending time on what gives us best return.\r\nWe will look into the main areas where improvement to MySQL Performance\r\ncan come from  Hardware,  MySQL Configuration,  Schema & Queries, and\r\nApplication\r\nArchitecture outlining the most important things you need to get right for\r\neach of them\r\nWe will also look into the tools which offer a practi",
               "start": "2014-05-09T14:00:00-03:00",
@@ -3700,6 +3839,7 @@
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 2,
+              "slotId": "60",
               "areaId": "41",
               "zoneId": "13",
               "level": "",
@@ -3707,7 +3847,7 @@
               "roomName": "41A"
             },
             {
-              "id": "96",
+              "id": "541",
               "title": "A história do GNU: 30 anos de criação do software livre",
               "abstract": "Essa palestra pretende falar sobre a história da criação do Projeto GNU e, consequentemente, da criação da ideia de software livre. Seu objetivo é apresentar os principais fatos que marcaram os 30 anos desse projeto. ",
               "start": "2014-05-09T14:00:00-03:00",
@@ -3723,6 +3863,7 @@
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 2,
+              "slotId": "96",
               "areaId": "77",
               "zoneId": "16",
               "level": "starter",
@@ -3730,7 +3871,7 @@
               "roomName": "41B"
             },
             {
-              "id": "168",
+              "id": "628",
               "title": "Desenvolvimento e análise de performance de jogos Android com Cocos2d-HTML5",
               "abstract": "Vamos explorar um processo de desenvolvimento multi-plataforma código aberto com um motor gráfico renomado e estável e clarificar a utilização do Javascript Binding, apresentando um ambiente eficiente de desenvolvimento e depuração de jogos baseados em HTML5 com o Cocos2d que resultou no jogo Last Survivor. Vamos mostrar como melhorar o desempenho do jogo usando 3 configurações de compilação e utilizar o Intel GPA como ferramenta de análise de desempenho em ambiente móvel.",
               "start": "2014-05-09T14:00:00-03:00",
@@ -3751,6 +3892,7 @@
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 2,
+              "slotId": "168",
               "areaId": "74",
               "zoneId": "15",
               "level": "starter",
@@ -3764,7 +3906,7 @@
         "2014-05-09T15:00:00-03:00": {
           "sessions": [
             {
-              "id": "23",
+              "id": "496",
               "title": "Forense em memória com volatility, LiME e outras ferramentas",
               "abstract": "Será mostrado como realizar o dump de memória RAM utilizando o LiME e outras ferramentas. A seguir, ocorrerá uma análise com o volatility, que é capaz de dizer quais processos estavam ativos, as conexões de rede estabelecidas, usuários conectados etc. Por último, outros métodos e programas serão utilizados para extrair mais informações. Haverá, também, a perícia de áreas de swap e de arquivos de hibernação. Os sistemas operacionais explorados na prática serão o GNU/Linux e o MS Windows.",
               "start": "2014-05-09T15:00:00-03:00",
@@ -3780,6 +3922,7 @@
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 2,
+              "slotId": "23",
               "areaId": "50",
               "zoneId": "13",
               "level": "advanced",
@@ -3787,7 +3930,7 @@
               "roomName": "40T"
             },
             {
-              "id": "61",
+              "id": "10",
               "title": "1984+30: GNU contra a e-Novilíngua",
               "abstract": "No 1984 de Orwell, Novilíngua era reduzida para impedir a expressão de ideias subversivas.  Computadores de propósito geral, programáveis por usuários, têm perdido espaço para outros em que usuários não podem expressar as computações se desejam, se não estiverem disponíveis em appstores exclusivas.  Sem poder programar, usuários perdem a liberdade de melhorar o software, e até a noção de que poderiam!  Sem notar o valor das liberdades de software essenciais, não as exigem!  É Dupli-plus-inGNU!",
               "start": "2014-05-09T15:00:00-03:00",
@@ -3803,6 +3946,7 @@
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 2,
+              "slotId": "61",
               "areaId": "77",
               "zoneId": "16",
               "level": "starter",
@@ -3810,7 +3954,7 @@
               "roomName": "41A"
             },
             {
-              "id": "169",
+              "id": "649",
               "title": "NIKOLA TESLA E ENERGIA LIVRE",
               "abstract": "Apresentação de Boris Petrovic, Presidente do Instituto Nikola Tesla em Brasília no Fórum Internacional do Software Livre tem com foco descobertas recentes sobre trabalho não realizado do Nikola Tesla – sistemas de distribuição de ENERGIA GRATUITA e conceitos científicos de ENERGIA LIVRE.",
               "start": "2014-05-09T15:00:00-03:00",
@@ -3826,6 +3970,7 @@
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 2,
+              "slotId": "169",
               "areaId": "89",
               "zoneId": "19",
               "level": "",
@@ -3833,7 +3978,7 @@
               "roomName": "41D"
             },
             {
-              "id": "205",
+              "id": "91",
               "title": "Palestra: e-petição - portal de petições on-line com certificação digital.",
               "abstract": "A palestra fala sobre a ideia de um projeto de petições on-line que usa assinatura digital para votar em projetos de interesse da sociedade civil.\r\nO projeto constitui-se de uma portal de assinaturas digitais feitos com Html + PHP assinado por bibliotecas do OpenSSL, o motor do site é feito em linguagem GO! \r\nO projeto foi idealizado para o ConSERPRO 2013 porém o mesmo permite o fomentação do tema tão em pauta desde Jun/2013 nas manifestações.\r\n",
               "start": "2014-05-09T15:00:00-03:00",
@@ -3849,6 +3994,7 @@
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 2,
+              "slotId": "205",
               "areaId": "89",
               "zoneId": "19",
               "level": "starter",
@@ -3856,7 +4002,7 @@
               "roomName": "41E"
             },
             {
-              "id": "241",
+              "id": "204",
               "title": "Voto Como Vamos: Como Melhoramos a Campanha Política de Porto Alegre em 2012",
               "abstract": "Visando o engajamento de cidadãos de POA com a política, surgiu o Voto Como Vamos. Através de crowdfunding e de uma parceria com a ThoughtWorks, foi criada uma plataforma onde todos os candidatos teriam o mesmo espaço e voz. \r\nDesenvolvido utilizando RoR, postgreSQL, Websolr, entre outros, o app tem código aberto, visando a expansão para outras cidades (já replicado em Caxias do Sul). \r\nFalaremos sobre o processo de crowdfunding, os resultados, os desafios técnicos e de negócio que enfrentamos.",
               "start": "2014-05-09T15:00:00-03:00",
@@ -3877,6 +4023,7 @@
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 2,
+              "slotId": "241",
               "areaId": "80",
               "zoneId": "16",
               "level": "starter",
@@ -3890,7 +4037,7 @@
         "2014-05-09T16:00:00-03:00": {
           "sessions": [
             {
-              "id": "98",
+              "id": "514",
               "title": "Samanaú.SAT: Plataforma open source para coleta de dados por satélite",
               "abstract": "O projeto Samanaú.sat, em desenvolvimento no CCSL-IFRN, trata do desenvolvimento de uma plataforma para coleta de dados para o Sistema Brasileiro de Coleta de Dados Ambientais (SBCDA). A disseminação dos dados é realizada através da transmissão para os satélites do SBCDA, por uma interface com um transmissor de satélites padrão ARGOS. Todos os dados coletados são disponibilizados gratuitamente via web, através do Sistema Integrado de Dados Ambientais (SINDA), desenvolvido pelo INPE.",
               "start": "2014-05-09T16:00:00-03:00",
@@ -3906,6 +4053,7 @@
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 2,
+              "slotId": "98",
               "areaId": "44",
               "zoneId": "13",
               "level": "advanced",
@@ -3913,7 +4061,7 @@
               "roomName": "41B"
             },
             {
-              "id": "170",
+              "id": "486",
               "title": "Construindo a sua própria distribuição Linux para RaspBerry PI e BeableBone.",
               "abstract": "Computadores embarcados de baixo custo, como a RaspBerry PI e a BeagleBone Black, têm se popularizado nos últimos anos para fins de ensino e ainda sendo adotados como plataforma de desenvolvimento por empresas. Contudo, a plena utilização destas plataformas depende da capacidade de customização da distribuição para diferentes necessidades. Esta palestra visa introduzir diferentes ferramentas para a construção de uma distribuição Linux personalizada, como o Buildroot e o OpenEmbedded.",
               "start": "2014-05-09T16:00:00-03:00",
@@ -3929,6 +4077,7 @@
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 2,
+              "slotId": "170",
               "areaId": "44",
               "zoneId": "13",
               "level": "starter",
@@ -3936,7 +4085,7 @@
               "roomName": "41D"
             },
             {
-              "id": "206",
+              "id": "98",
               "title": "Criptografia e privacidade: Como proteger suas informações usando software livre",
               "abstract": "Em meio á guerra pela informação da Era Digital, as pessoas fisicas, empresas e governos necessitam preocupar-se cada vez mais com sua segurança e privacidade. Em uma época onde a espionagem (seja ela industrial, governamental ou pessoal), repressão e falta de liberdade de expressão estão presentes em grande parte do mundo, é fundamental o conhecimento de ferramentas e métodos para proteger suas informações e estabelecer um meio de comunicação seguro. A Era Digital começou, a hora é agora!",
               "start": "2014-05-09T16:00:00-03:00",
@@ -3952,6 +4101,7 @@
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 2,
+              "slotId": "206",
               "areaId": "50",
               "zoneId": "13",
               "level": "starter",
@@ -3959,7 +4109,7 @@
               "roomName": "41E"
             },
             {
-              "id": "242",
+              "id": "652",
               "title": "Gerencie seu ambiente de servidores Linux de maneira inteligente e eficiente",
               "abstract": "Conheça o SUSE Manager, a solução integrada da SUSE para gerenciar o ciclo de vida de servidores Linux.",
               "start": "2014-05-09T16:00:00-03:00",
@@ -3980,6 +4130,7 @@
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 2,
+              "slotId": "242",
               "areaId": "38",
               "zoneId": "13",
               "level": "",
@@ -3993,7 +4144,7 @@
         "2014-05-09T17:00:00-03:00": {
           "sessions": [
             {
-              "id": "35",
+              "id": "498",
               "title": "Possíveis futuros para o último bastião da liberdade digital: as Criptomoedas",
               "abstract": "As redes virtuais de mineração e transação em criptomoedas -- das quais o bitcoin é a mais conhecida -- representam um novo paradigma para atividade financeira desintermediada. Como poderão reagir os intermediadores financeiros que hoje controlam o poder político global através da emissão de moeda sem lastro, se a adesão a elas decolar? e as possíveis consequências? Especulemos juntos.  ",
               "start": "2014-05-09T17:00:00-03:00",
@@ -4009,6 +4160,7 @@
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 2,
+              "slotId": "35",
               "areaId": "89",
               "zoneId": "19",
               "level": "advanced",
@@ -4016,7 +4168,7 @@
               "roomName": "40T"
             },
             {
-              "id": "63",
+              "id": "646",
               "title": "Update to Project Caua",
               "abstract": "Project Caua has been under development for seven years with a core set of goals and three design centers (V1.0, V0.5 and V0.1)  The design centers all required a fairly large amount of money, time or a large installed customer base for the entrepreneurs to get started.  Recently a new design center for the project has been developed with requires NO large amount of money, time or customers to get started.  ",
               "start": "2014-05-09T17:00:00-03:00",
@@ -4032,6 +4184,7 @@
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 2,
+              "slotId": "63",
               "areaId": "80",
               "zoneId": "16",
               "level": "",
@@ -4039,7 +4192,7 @@
               "roomName": "41A"
             },
             {
-              "id": "99",
+              "id": "529",
               "title": "Água Livre - Estação de tratamento de água com Severino",
               "abstract": "Desenvolvemos uma estação de tratamento de água automatizada, que deve ser instalada entre o poço e a caixa d’água da residência, baseada em hardware e software livres. O cérebro eletrônico da estação é uma placa Severino (Arduino Serial) que foi programada em linguagem C, que ao ser energizada verifica os níveis de água na caixa e no tanque com a leitura de sensores capacitivos, acionando as bombas quando necessário e dosando 0,08mL de hipoclorito por litro de água do tanque de tratamento.",
               "start": "2014-05-09T17:00:00-03:00",
@@ -4065,6 +4218,7 @@
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 2,
+              "slotId": "99",
               "areaId": "44",
               "zoneId": "13",
               "level": "starter",
@@ -4072,7 +4226,7 @@
               "roomName": "41B"
             },
             {
-              "id": "171",
+              "id": "627",
               "title": "Projeto de Acesso Criptografado (Leap) ",
               "abstract": "O projeto Leap (https://leap.se/) tem como objetivo desenvolver software para provedores e usuários para prover comunicação segura através da internet. Ao adaptar tecnologias de criptografia, torna mais fácil a criação de provedores seguros e a conexão de diversos tipos de dispositivos aos serviços de vpn, email, bate-papo, entre outros.",
               "start": "2014-05-09T17:00:00-03:00",
@@ -4088,6 +4242,7 @@
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 2,
+              "slotId": "171",
               "areaId": "3",
               "zoneId": "21",
               "level": "",
@@ -4095,7 +4250,7 @@
               "roomName": "41D"
             },
             {
-              "id": "207",
+              "id": "250",
               "title": "Real-Time Linux: Da Teoria ao SCHED_DEADLINE",
               "abstract": "Apresenta os conceitos da teoria de sistemas de tempo real e detalhes da implementação dos subsistemas do kernel que influenciam na execução temporal do Linux. O patch PREEMPT é discutido, apresentando suas principais alterações no kernel do Linux. Apresenta também o tão discutido SCHED_DEADLINE, com suas características, funcionalidades, benefícios e controvérsias.\r\nAo fim, será possível responder a questão: Será que eu realmente preciso de um sistema operacional de tempo real?",
               "start": "2014-05-09T17:00:00-03:00",
@@ -4111,6 +4266,7 @@
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 2,
+              "slotId": "207",
               "areaId": "47",
               "zoneId": "13",
               "level": "advanced",
@@ -4118,7 +4274,7 @@
               "roomName": "41E"
             },
             {
-              "id": "243",
+              "id": "192",
               "title": "Cloud sem Cloud",
               "abstract": "Como ter uma cloud sem cloud, usando apenas um gerenciador de infraestrutura (Hypervisor) como ponto central de sua infra",
               "start": "2014-05-09T17:00:00-03:00",
@@ -4139,6 +4295,7 @@
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 2,
+              "slotId": "243",
               "areaId": "38",
               "zoneId": "13",
               "level": "advanced",
@@ -4158,7 +4315,7 @@
         "2014-05-10T09:00:00-03:00": {
           "sessions": [
             {
-              "id": "100",
+              "id": "173",
               "title": "HTML5 na prática",
               "abstract": "Breve descrição e demonstração das vantagens e novas funcionalidades do HTML 5, incluindo Forms, Canvas e CSS 3. Será uma palestra básica explicando o que é o HTML 5, qual a diferença e vantagens do seu uso em relação aos outros padrões e uma breve demonstração das novas funcionalidades.",
               "start": "2014-05-10T09:00:00-03:00",
@@ -4174,6 +4331,7 @@
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 3,
+              "slotId": "100",
               "areaId": "59",
               "zoneId": "14",
               "level": "starter",
@@ -4181,7 +4339,7 @@
               "roomName": "41B"
             },
             {
-              "id": "133",
+              "id": "199",
               "title": "Encontro comunitário do PHPRS",
               "abstract": "Encontro comunitário do Grupo de Programadores PHP do Rio Grande do Sul.",
               "start": "2014-05-10T09:00:00-03:00",
@@ -4197,6 +4355,7 @@
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 3,
+              "slotId": "133",
               "areaId": "86",
               "zoneId": "18",
               "level": "starter",
@@ -4204,7 +4363,7 @@
               "roomName": "41C"
             },
             {
-              "id": "172",
+              "id": "181",
               "title": "Oficina - Tecnologia da Informação e Movimentos Sociais",
               "abstract": "Esta oficina tem como objetivo geral reunir militantes e parceiros dos movimentos sociais populares para debater formas de potencializar o uso das TICs na organização interna, comunicação externa e publicação e uso de dados abertos pelos movimentos. \r\n\r\nA ideia é formar uma uma rede de suporte e trocas de experiências, fortalecer a pauta de tecnologia dentro dos movimentos sociais e unir esforços em desenvolvimento e infra-estrutura de TI voltadas para os movimentos sociais.",
               "start": "2014-05-10T09:00:00-03:00",
@@ -4230,6 +4389,7 @@
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 3,
+              "slotId": "172",
               "areaId": "86",
               "zoneId": "18",
               "level": "starter",
@@ -4237,7 +4397,7 @@
               "roomName": "41D"
             },
             {
-              "id": "208",
+              "id": "156",
               "title": "Envolva-se: Como você pode contribuir com a Mozilla Brasil.",
               "abstract": "Esta palestra tem como objetivo principal mostrar às pessoas que qualquer um pode colaborar com uma comunidade de software livre. Pessoas não precisam saber escrever código para contribuir com a Mozilla, basta gostar e querer defender a web.",
               "start": "2014-05-10T09:00:00-03:00",
@@ -4273,6 +4433,7 @@
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 3,
+              "slotId": "208",
               "areaId": "86",
               "zoneId": "18",
               "level": "starter",
@@ -4280,7 +4441,7 @@
               "roomName": "41E"
             },
             {
-              "id": "244",
+              "id": "175",
               "title": " Workshop IoT (Internet of Things)",
               "abstract": "Workshop Internet das Coisas (IoT)\r\n",
               "start": "2014-05-10T09:00:00-03:00",
@@ -4296,6 +4457,7 @@
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 3,
+              "slotId": "244",
               "areaId": "86",
               "zoneId": "18",
               "level": "starter",
@@ -4303,7 +4465,7 @@
               "roomName": "41F"
             },
             {
-              "id": "280",
+              "id": "616",
               "title": "Laboratório Hacker",
               "abstract": "Proposta de Encontro Comunitário - FISL 15",
               "start": "2014-05-10T09:00:00-03:00",
@@ -4319,6 +4481,7 @@
               "roomId": "7",
               "roomIndex": 7,
               "dayIndex": 3,
+              "slotId": "280",
               "areaId": "86",
               "zoneId": "18",
               "level": "",
@@ -4326,7 +4489,7 @@
               "roomName": "40A"
             },
             {
-              "id": "338",
+              "id": "356",
               "title": "Oficina de construção de aplicativos para Firefox OS",
               "abstract": "Nesta oficina ensinaremos as pessoas a contruirem aplicativos para Firefox OS utilizando tecnologias web tais como HTML, CSS e Javascript. Mostraremos todo o workflow de debug das apps e como é feita a distribuição delas.\r\nAo final desta oficina o aluno terá uma visão clara de como e por que desenvolver para o novo sistema.",
               "start": "2014-05-10T09:00:00-03:00",
@@ -4347,6 +4510,7 @@
               "roomId": "714",
               "roomIndex": 9,
               "dayIndex": 3,
+              "slotId": "338",
               "areaId": "95",
               "zoneId": "21",
               "level": "intermediate",
@@ -4360,7 +4524,7 @@
         "2014-05-10T10:00:00-03:00": {
           "sessions": [
             {
-              "id": "65",
+              "id": "272",
               "title": "FOSS Multimedia - Long story short",
               "abstract": "Multimedia is a complex subject. Regardless of how familiar you are with its use case scenarios it's easy to get lost around the intricate interaction between the multiple layers that enable them. This talk will give the attendees an overview from the barricades on how everything fits together. And, with tales of defeat and success, will let them understand the hows and whys behind what we, as users and developers, currently can and cant do. ",
               "start": "2014-05-10T10:00:00-03:00",
@@ -4376,6 +4540,7 @@
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 3,
+              "slotId": "65",
               "areaId": "74",
               "zoneId": "15",
               "level": "starter",
@@ -4383,7 +4548,7 @@
               "roomName": "41A"
             },
             {
-              "id": "101",
+              "id": "477",
               "title": "Quem precisa de RVM? Suporte a Ruby nativo no Debian",
               "abstract": "Quando, por quê e como usar os pacotes Ruby nativos do Debian ao invés de soluções como RVM, rbenv etc.",
               "start": "2014-05-10T10:00:00-03:00",
@@ -4399,6 +4564,7 @@
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 3,
+              "slotId": "101",
               "areaId": "65",
               "zoneId": "14",
               "level": "starter",
@@ -4406,7 +4572,7 @@
               "roomName": "41B"
             },
             {
-              "id": "245",
+              "id": "518",
               "title": "MusicTable, fazendo música com imagens.",
               "abstract": "Hoje o mundo da música está cada vez mais utilizando tecnologias para oferecer um diferencial no momento da apresentação. A interação com o público vem se tornando o objetivo da grande parte de DJ's pelo mundo. ReacTIVision é um open-source responsável por oferecer uma vasta opção de trabalhos, como a confecção de uma Music Table (ReacTable), que será apresentada nesta palestra.",
               "start": "2014-05-10T10:00:00-03:00",
@@ -4427,6 +4593,7 @@
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 3,
+              "slotId": "245",
               "areaId": "74",
               "zoneId": "15",
               "level": "starter",
@@ -4434,7 +4601,7 @@
               "roomName": "41F"
             },
             {
-              "id": "281",
+              "id": "224",
               "title": "Sistema Operacional Guarux - Soluções para acessibilidade",
               "abstract": "É um sistema operacional baseado em Linux, voltado à comunidade, totalmente acessível, desenvolvido e customizado por técnicos da área de TI da Prefeitura de Guarulhos com interface gráfica própria e de fácil entendimento. Nele, estão instalados aplicativos para deficientes visuais, tetraplégicos, recursos pedagógicos, jogos educativos e também um aplicativo chamado TDGrux que auxilia na estimulação de autistas, pessoas com síndrome de down e dislexia. Também possui versão corporativa. ",
               "start": "2014-05-10T10:00:00-03:00",
@@ -4455,6 +4622,7 @@
               "roomId": "7",
               "roomIndex": 7,
               "dayIndex": 3,
+              "slotId": "281",
               "areaId": "71",
               "zoneId": "15",
               "level": "starter",
@@ -4468,7 +4636,7 @@
         "2014-05-10T11:00:00-03:00": {
           "sessions": [
             {
-              "id": "27",
+              "id": "467",
               "title": "Debugging GlusterFS with Wireshark and Systemtap",
               "abstract": "A walk-through and practical example on diagnosing bug(s) that can happen in complex network and software stacks like Samba exporting Gluster Volumes.\r\n",
               "start": "2014-05-10T11:00:00-03:00",
@@ -4484,6 +4652,7 @@
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 3,
+              "slotId": "27",
               "areaId": "47",
               "zoneId": "13",
               "level": "advanced",
@@ -4491,7 +4660,7 @@
               "roomName": "40T"
             },
             {
-              "id": "66",
+              "id": "604",
               "title": "Duda I/O: Scalable Web Services for GNU/Linux",
               "abstract": "Duda I/O es un stack de desarrollo para servicios web de tipo backend que requieren alto rendimiento y tiempos de respuesta reducidos. Posee una arquitectura orientada a eventos con manejo de sockets asincronos, su nucleo soporta HTTP(s), Websockets, JSON y Base de Datos entre otros. \r\n\r\nEn la presentacion se mostrara como Duda I/O puede ser utilizado para distintas necesidades, se mostraran ejemplos de negocios reales basados en Real Time Bidding y Big Data respectivamente.",
               "start": "2014-05-10T11:00:00-03:00",
@@ -4507,6 +4676,7 @@
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 3,
+              "slotId": "66",
               "areaId": "89",
               "zoneId": "19",
               "level": "intermediate",
@@ -4514,7 +4684,7 @@
               "roomName": "41A"
             },
             {
-              "id": "102",
+              "id": "648",
               "title": "Liberte sua rede de tecnologias proprietárias com OpenFlow",
               "abstract": "As Redes Definidas por Software (RDS ou SDN) chegaram para mudar a forma como as redes são configuradas. O principal protocolo deste novo paradigma é o OpenFlow. Ele define a comunicação entre os switches da rede e o controlador, componente responsável por tomar as decisões de encaminhamento de pacotes, instruindo como os switches devem se comportar. Nesta palestra iremos mostrar os detalhes do protocolo OpenFlow e como você pode libertar sua rede de tecnologias proprietárias.",
               "start": "2014-05-10T11:00:00-03:00",
@@ -4530,6 +4700,7 @@
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 3,
+              "slotId": "102",
               "areaId": "89",
               "zoneId": "19",
               "level": "",
@@ -4537,7 +4708,7 @@
               "roomName": "41B"
             },
             {
-              "id": "135",
+              "id": "330",
               "title": "Introdução ao Git",
               "abstract": "Ferramentas de controle de versão são peças essenciais no desenvolvimento de sistemas. Após o CVS e o SVN, o Git foi a ferramenta que tomou grande espaço nas empresas para o papel de versionar código fonte.\r\n",
               "start": "2014-05-10T11:00:00-03:00",
@@ -4558,6 +4729,7 @@
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 3,
+              "slotId": "135",
               "areaId": "53",
               "zoneId": "14",
               "level": "starter",
@@ -4565,7 +4737,7 @@
               "roomName": "41C"
             },
             {
-              "id": "210",
+              "id": "9",
               "title": "Call Centers Livres e Simples com Elastix",
               "abstract": "Elastix é uma distribuição livre de Servidor de Comunicações Unificadas que integra em um único pacote. Através de suas várias versões foram adicionadas funcionalidades que incluem módulo de Call Center. O módulo do Call Center tem como objetivo gerar chamadas automáticas para números que foram previamente carregados. Ele também lida com as chamadas que são recebidas através de uma fila estabelecida. Então, vamos configurar tudo sem erros e com um mínimo de trabalho. E vamos dormir em paz.",
               "start": "2014-05-10T11:00:00-03:00",
@@ -4581,6 +4753,7 @@
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 3,
+              "slotId": "210",
               "areaId": "38",
               "zoneId": "13",
               "level": "intermediate",
@@ -4588,7 +4761,7 @@
               "roomName": "41E"
             },
             {
-              "id": "246",
+              "id": "632",
               "title": "A Internet e o Colonialismo Digital",
               "abstract": "A explosão de uso da Internet nos últimos 15 anos trouxe inúmeros benefícios para a população do Sul Global. Um exemplo foi o acesso mais fácil, rápido e barato à comunicação e um aumento considerável do acesso à informação. O outro lado da moeda está na crescente hegemonia econômica, cultural e social dos países do Norte Global sobre o Sul Global. Descubra e entenda mais sobre as razões que nos levam a perpetuação do colonialismo através da tecnologia. ",
               "start": "2014-05-10T11:00:00-03:00",
@@ -4604,6 +4777,7 @@
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 3,
+              "slotId": "246",
               "areaId": "77",
               "zoneId": "16",
               "level": "",
@@ -4611,7 +4785,7 @@
               "roomName": "41F"
             },
             {
-              "id": "282",
+              "id": "176",
               "title": "Interface para Humanos: facilite para as pessoas e faça do mundo um lugar melhor",
               "abstract": "Como criar e melhorar interfaces para sua mãe, seu vizinho, para o responsável pelo café e até para programador usar?\r\n\r\nMensagens de erro, formulários, ícones e outras coisas mais: alguns toques para você repensar e melhorar as interfaces para que as pessoas consigam usá-las com o mínimo de ajuda. \r\n\r\nIndicada a todas as pessoas que botam a mão na massa.",
               "start": "2014-05-10T11:00:00-03:00",
@@ -4627,6 +4801,7 @@
               "roomId": "7",
               "roomIndex": 7,
               "dayIndex": 3,
+              "slotId": "282",
               "areaId": "53",
               "zoneId": "14",
               "level": "intermediate",
@@ -4640,7 +4815,7 @@
         "2014-05-10T12:00:00-03:00": {
           "sessions": [
             {
-              "id": "67",
+              "id": "577",
               "title": "Como podemos e devemos monitorar nosso código fonte?",
               "abstract": "Existem diferentes categorias de métricas de software e dentro de cada categoria centenas de métricas. Nesse contexto surge a pergunta sobre como automatizar a avaliação sobre a qualidade de um código fonte.\r\nNesta palestra explicaremos rapidamente estas categorias, entrando em detalhes sobre métricas estáticas. Em seguida, explicaremos a questão ainda em aberto sobre qualidade de software para, por fim com esta motivação, apresentar a ferramenta livre Mezuro para analise de código fonte.",
               "start": "2014-05-10T12:00:00-03:00",
@@ -4661,6 +4836,7 @@
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 3,
+              "slotId": "67",
               "areaId": "53",
               "zoneId": "14",
               "level": "intermediate",
@@ -4668,7 +4844,7 @@
               "roomName": "41A"
             },
             {
-              "id": "103",
+              "id": "620",
               "title": "CCSL-IFRN: Educação colaborativa no IFRN",
               "abstract": "Este palestra analisa a construção de centros de competências em software livre no sentido de aperfeiçoar e promover a disseminação de cultura do conhecimento livre; e melhor direcionar os estudantes dos cursos de computação. Para tanto, apresentar-se-á ensaios sobre uma abordagem metodológica de ensino que não seja baseada no modelo tradicional (punitivo e repressor). Nessa perspectiva, a metodologia que se apresenta através desses centros, embora não seja nova, rompe com o modelo tradicional.",
               "start": "2014-05-10T12:00:00-03:00",
@@ -4684,6 +4860,7 @@
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 3,
+              "slotId": "103",
               "areaId": "83",
               "zoneId": "17",
               "level": "",
@@ -4691,7 +4868,7 @@
               "roomName": "41B"
             },
             {
-              "id": "136",
+              "id": "578",
               "title": "Usando e abusando roteadores com OpenWRT",
               "abstract": "Vamos aprender a utilizar a distribuição OpenWRT para tomar o controle de seu roteador wireless baratinho e transformá-lo em um roteador de verdade, ou em uma central de automação residencial, ou conectar um disco na rede ou...",
               "start": "2014-05-10T12:00:00-03:00",
@@ -4707,6 +4884,7 @@
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 3,
+              "slotId": "136",
               "areaId": "44",
               "zoneId": "13",
               "level": "starter",
@@ -4714,7 +4892,7 @@
               "roomName": "41C"
             },
             {
-              "id": "175",
+              "id": "485",
               "title": "Mapas de Acessibilidade ReAbilitArte",
               "abstract": "O projeto Mapas de Acessibilidade propõe um sistema em forma de aplicativo para dispositivos móveis que oriente e facilite a mobilidade de pessoas com deficiência e mobilidade reduzida na Universidade Federal do Rio de Janeiro(UFRJ) em forma de projeto piloto.  Futuramente este sistema será disponibilizado de forma que a mesma tecnologia possa ser implementada em maior escala para informar a acessibilidade na cidade do Rio de Janeiro e outras localidades utilizando software livre",
               "start": "2014-05-10T12:00:00-03:00",
@@ -4740,6 +4918,7 @@
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 3,
+              "slotId": "175",
               "areaId": "77",
               "zoneId": "16",
               "level": "intermediate",
@@ -4747,7 +4926,7 @@
               "roomName": "41D"
             },
             {
-              "id": "211",
+              "id": "57",
               "title": "Mobile First, um novo paradigma",
               "abstract": "O Mobile First veio para atender a demanda da web por adaptação ao crescente uso da internet em dispositivos móveis, mas para o desenvolvedor se adaptar a esta nova forma de pensar para web, é preciso quebrar alguns paradigmas. Nesta palestra irei mostrar o workflow de desenvolvimento pensando primeiramente em desenvolver sites adaptados para dispositivos móveis e assim tirar proveito das vantagens de se construir um site ou aplicação web em vários dispositivos.",
               "start": "2014-05-10T12:00:00-03:00",
@@ -4763,6 +4942,7 @@
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 3,
+              "slotId": "211",
               "areaId": "68",
               "zoneId": "14",
               "level": "intermediate",
@@ -4770,7 +4950,7 @@
               "roomName": "41E"
             },
             {
-              "id": "247",
+              "id": "182",
               "title": "Bitcoin - a moeda digital! Transações e consequências",
               "abstract": "Abordar todos seus aspectos, falando da sua concepção em janeiro de 2009 pelo japonês Satoshi Nakamoto, bem como as formas de obtenção, valor de mercado, empresas que adotaram a moeda, concorrentes e sua situação perante as leis vigentes. Também busca servir como um guia prático para todas as pessoas que tem curiosidade de saber como funciona essa moeda digital, que não é controlada por governos. ",
               "start": "2014-05-10T12:00:00-03:00",
@@ -4786,6 +4966,7 @@
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 3,
+              "slotId": "247",
               "areaId": "89",
               "zoneId": "19",
               "level": "starter",
@@ -4793,7 +4974,7 @@
               "roomName": "41F"
             },
             {
-              "id": "283",
+              "id": "119",
               "title": "Criar software livre não é um bicho de 7 cabeças: GoboLinux, htop, LuaRocks",
               "abstract": "Essa palestra conta o \"making of\" de uma série de projetos de software livre nos últimos 15 anos: GoboLinux, distro alternativa criada ainda nos tempos de graduação; htop, o visualizador de processos interativo para Linux; e LuaRocks, o gerenciador de pacotes para a linguagem Lua. A ideia é incentivar as pessoas a seguirem suas ideias, mostrar diferentes modelos de desenvolvimento e como o software livre pode abrir portas — uma história que começou como estudante assistindo ao primeiro FISL.",
               "start": "2014-05-10T12:00:00-03:00",
@@ -4809,6 +4990,7 @@
               "roomId": "7",
               "roomIndex": 7,
               "dayIndex": 3,
+              "slotId": "283",
               "areaId": "77",
               "zoneId": "16",
               "level": "starter",
@@ -4816,7 +4998,7 @@
               "roomName": "40A"
             },
             {
-              "id": "339",
+              "id": "599",
               "title": "Del código spaghetti al MVC en PHP",
               "abstract": "Conocimientos de programación Web Objetivo: Creación de su propio ModeloVistaControlador sin usar frameworks",
               "start": "2014-05-10T12:00:00-03:00",
@@ -4825,6 +5007,7 @@
               "roomId": "714",
               "roomIndex": 9,
               "dayIndex": 3,
+              "slotId": "339",
               "areaId": "95",
               "zoneId": "21",
               "level": "",
@@ -4832,7 +5015,7 @@
               "roomName": "701 OF1"
             },
             {
-              "id": "454",
+              "id": "387",
               "title": "Pythonificando a Universidade",
               "abstract": "Multiplataforma, de fácil aprendizagem e alta produtividade, Python torna-se cada dia mais popular. Este trabalho procura abordar as principais características da linguagem e trazer um panorama de sua utilização nas universidades. A fim de demonstrar sua versatilidade serão apresentados trabalhos desenvolvidos no curso de Ciência da Computação da Universidade de Caxias do Sul, passando por implementações de grafos, redes, inteligencia artificial, sistemas distribuídos e computação gráfica.",
               "start": "2014-05-10T12:00:00-03:00",
@@ -4858,6 +5041,7 @@
               "roomId": "718",
               "roomIndex": 12,
               "dayIndex": 3,
+              "slotId": "454",
               "areaId": "65",
               "zoneId": "14",
               "level": "starter",
@@ -4871,7 +5055,7 @@
         "2014-05-10T13:00:00-03:00": {
           "sessions": [
             {
-              "id": "68",
+              "id": "379",
               "title": "Openstack => Cloud computing at your fingertips!",
               "abstract": "In this lecture will show an introduction to OpenStack, starting with the basic concepts of Cloud, keywords, what Openstack project is, the use cases, history, the project overview, features, tools and roadmap. The following topics will be covered:\r\n* Introduction to Cloud Computing (Virtualization; Iaas, Paas, Saas; Public/Private/Hybrid/Community Cloud; Concepts: scalability, elasticity, provisioning, self-service, multi tenant, and much more)\r\n* The History\r\n* The Architecture, projects and more",
               "start": "2014-05-10T13:00:00-03:00",
@@ -4892,6 +5076,7 @@
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 3,
+              "slotId": "68",
               "areaId": "89",
               "zoneId": "19",
               "level": "intermediate",
@@ -4899,7 +5084,7 @@
               "roomName": "41A"
             },
             {
-              "id": "104",
+              "id": "454",
               "title": "Bancos NoSQL e Persistência Poliglota",
               "abstract": "O escopo dos projetos estão exigindo cada vez mais recursos e inovação. Muitas vezes, a aplicação exige mais de um tipo de armazenamento, seja orientado a documentos, colunar, chave valor ou grafos. É muito comum utilizar mais de um banco de dados em projetos, ao saber extrair o melhor de cada um deles, o projeto poderá se tornar mais completo e competitivo em menos tempo. Essa palestra mostra os principais bancos Não Relacionais (NoSQL) e orienta a tomada de decisão em projetos. ",
               "start": "2014-05-10T13:00:00-03:00",
@@ -4915,6 +5100,7 @@
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 3,
+              "slotId": "104",
               "areaId": "89",
               "zoneId": "19",
               "level": "intermediate",
@@ -4922,7 +5108,7 @@
               "roomName": "41B"
             },
             {
-              "id": "137",
+              "id": "371",
               "title": "Criando plataformas na velocidade da luz - uma introdução ao Meteor.js",
               "abstract": "Meteor.js é um framework  completamente diferente de tudo o que você já viu. Ele foi criado para tornar possível uma nova classe de aplicativos, construídos sobre o conceito de \"reatividade\": a atualização de dados ocorre em tempo real, de forma transparente e quase \"mágica\". \r\nNessa palestra vamos apresentar o exemplo real de uma aplicação que implementa uma rede social totalmente em Javascript,  e em apenas algumas centenas de linhas de código. Preparado para domar o meteoro?",
               "start": "2014-05-10T13:00:00-03:00",
@@ -4938,6 +5124,7 @@
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 3,
+              "slotId": "137",
               "areaId": "59",
               "zoneId": "14",
               "level": "starter",
@@ -4945,7 +5132,7 @@
               "roomName": "41C"
             },
             {
-              "id": "212",
+              "id": "262",
               "title": "IPv6: Você está preparado para ele?",
               "abstract": "O IPv6, apesar de existir a bastante tempo, só agora teve sua implantação acelerada devido ao esgotamento dos endereços IPv4. A perspectiva é que a partir de 2014 não existam mais endereços da versão 4 disponíveis no mundo. O IPv6 traz para a Internet um espaço de endereçamento capaz de suportar o crescimento da rede por muito tempo. O novo protocolo também apresenta avanços em áreas como segurança, mobilidade e desempenho. A pergunta é você e sua empresa estão preparados para ela?",
               "start": "2014-05-10T13:00:00-03:00",
@@ -4961,6 +5148,7 @@
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 3,
+              "slotId": "212",
               "areaId": "89",
               "zoneId": "19",
               "level": "intermediate",
@@ -4968,7 +5156,7 @@
               "roomName": "41E"
             },
             {
-              "id": "248",
+              "id": "209",
               "title": "TDD com Clean Code: chega de amadorismo!",
               "abstract": "Quanto tempo gastamos dando manutenção em um método de 100 linhas? E quando finalmente resolvemos o problema, quantos novos bugs são gerados?\r\nPara minimizar estes problemas estamos propondo apresentar a metodologia TDD e as técnicas do Clean Code. O objetivo é escrever código com cobertura significativa de testes unitários e de forma clara e objetiva, facilitando a leitura do mesmo. Acreditamos que um desenvolvedor profissional é capaz de escrever código que qualquer pessoa pode ler.",
               "start": "2014-05-10T13:00:00-03:00",
@@ -4989,6 +5177,7 @@
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 3,
+              "slotId": "248",
               "areaId": "53",
               "zoneId": "14",
               "level": "intermediate",
@@ -4996,7 +5185,7 @@
               "roomName": "41F"
             },
             {
-              "id": "284",
+              "id": "171",
               "title": "Os Perseguidos da Guerra pela Informação e Privacidade vs. Espionagem",
               "abstract": "Palestra proposta por integrantes do Partido Pirata do Brasil, em formato de desconferência onde analisaremos os casos de Edward Snowden, Julian Assange, Aaron Swartz, Chelsea Manning e Gottfrid Svartholm, perseguidos por lutarem pela informação e conhecimento livres. O Wikileaks, o livro Cypherpunks, a NSA e o Prism também serão abordados. O Marco Civil da Internet e a interferência das Teles e a criminalização do The Piratebay. Além da espionagem sem limites de governos e grandes corporações.",
               "start": "2014-05-10T13:00:00-03:00",
@@ -5012,6 +5201,7 @@
               "roomId": "7",
               "roomIndex": 7,
               "dayIndex": 3,
+              "slotId": "284",
               "areaId": "89",
               "zoneId": "19",
               "level": "starter",
@@ -5019,7 +5209,7 @@
               "roomName": "40A"
             },
             {
-              "id": "455",
+              "id": "396",
               "title": "Hardware Livre Nas Universidades Brasileiras",
               "abstract": "Discutir a importância do Hardware Livre em conjunto com o Software Livre, e as formas de disseminação deste nas Universidades Brasileiras. Inclusive mediante a ação da Executiva Nacional dos Estudantes de Computação(ENEC) e outras formas de disseminação dessa plataforma.",
               "start": "2014-05-10T13:00:00-03:00",
@@ -5050,6 +5240,7 @@
               "roomId": "718",
               "roomIndex": 12,
               "dayIndex": 3,
+              "slotId": "455",
               "areaId": "83",
               "zoneId": "17",
               "level": "starter",
@@ -5063,7 +5254,7 @@
         "2014-05-10T14:00:00-03:00": {
           "sessions": [
             {
-              "id": "30",
+              "id": "509",
               "title": "Special Interest Groups: Current state, getting involved, and building your own",
               "abstract": "This presentation will cover the current state of the Special Interest Groups (SIGs) in CentOS now, as well as outlining how to get involved with them, and how to start your own.",
               "start": "2014-05-10T14:00:00-03:00",
@@ -5079,6 +5270,7 @@
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 3,
+              "slotId": "30",
               "areaId": "89",
               "zoneId": "19",
               "level": "intermediate",
@@ -5086,7 +5278,7 @@
               "roomName": "40T"
             },
             {
-              "id": "69",
+              "id": "593",
               "title": "Git para quem gosta de Git",
               "abstract": "O que fazer na hora do merge? É melhor usar rebase? Não é perigoso? Qual workflow devo seguir? E afinal, como o Git funciona e como devo usá-lo da forma certa? Essa palestra responderá essas e outras questões comuns para quem está começando ou já começou a usar o Git mas ainda tem um pé no mundo do Subversion.",
               "start": "2014-05-10T14:00:00-03:00",
@@ -5102,6 +5294,7 @@
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 3,
+              "slotId": "69",
               "areaId": "53",
               "zoneId": "14",
               "level": "",
@@ -5109,7 +5302,7 @@
               "roomName": "41A"
             },
             {
-              "id": "285",
+              "id": "280",
               "title": "PhoneGap: porque você não precisa fazer o seu app mobile nativo",
               "abstract": "Você acaba de ter uma ótima ideia para um aplicativo mobile. Você está empolgado para começar a desenvolvê-la e sabe que vai ser um sucesso quando ela ficar pronta. \r\nO problema é que existem diversas plataformas. Elas são bem diferentes e cada uma tem suas vantagens e desvantagens. Como escolher para qual o seu aplicativo será feito? \r\nCom o PhoneGap, você não precisa escolher. Com o mesmo código e poucas customizações, você lança o seu app para todas as principais plataformas mobile.",
               "start": "2014-05-10T14:00:00-03:00",
@@ -5125,6 +5318,7 @@
               "roomId": "7",
               "roomIndex": 7,
               "dayIndex": 3,
+              "slotId": "285",
               "areaId": "59",
               "zoneId": "14",
               "level": "starter",
@@ -5138,7 +5332,7 @@
         "2014-05-10T15:00:00-03:00": {
           "sessions": [
             {
-              "id": "70",
+              "id": "579",
               "title": "Software Livre e Segurança Eleitoral",
               "abstract": "O sistema de votação eletrônica utilizado no Brasil é dos mais opacos no mundo, tanto do ponto de vista do processo de desenvolvimento empregado quanto da possibilidade de verificação independente de resultados por eleitores ou fiscais. Ainda assim, diversas vulnerabilidades puderam ser detectadas durante participação de equipe da UnB nos Testes Públicos de Segurança organizados pelo TSE, com impacto considerável no anonimato e destinação dos votos.",
               "start": "2014-05-10T15:00:00-03:00",
@@ -5159,6 +5353,7 @@
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 3,
+              "slotId": "70",
               "areaId": "50",
               "zoneId": "13",
               "level": "intermediate",
@@ -5166,7 +5361,7 @@
               "roomName": "41A"
             },
             {
-              "id": "106",
+              "id": "68",
               "title": "balde - desenvolvendo aplicações web em C",
               "abstract": "Palestra sobre o balde, microframework para desenvolvimento de aplicações web em C.",
               "start": "2014-05-10T15:00:00-03:00",
@@ -5182,6 +5377,7 @@
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 3,
+              "slotId": "106",
               "areaId": "59",
               "zoneId": "14",
               "level": "intermediate",
@@ -5189,7 +5385,7 @@
               "roomName": "41B"
             },
             {
-              "id": "139",
+              "id": "211",
               "title": "Técnicas Jedi de Gerenciamento de Infraestrutura",
               "abstract": "Quando o Lado Negro da Força vier com tudo pra cima, é melhor estar\r\npreparado, manter as barreiras com suas defesas sempre ativadas, manter\r\ntodos os aliados de prontidão e as naves abastecidas, todos os padawans\r\ntreinados e os mestres com seus Sabres de Luz ao alcance das mãos.",
               "start": "2014-05-10T15:00:00-03:00",
@@ -5205,6 +5401,7 @@
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 3,
+              "slotId": "139",
               "areaId": "38",
               "zoneId": "13",
               "level": "intermediate",
@@ -5212,7 +5409,7 @@
               "roomName": "41C"
             },
             {
-              "id": "214",
+              "id": "505",
               "title": "NGiNX, o motor da sua aplicação web",
               "abstract": "Como utilizar o proxy reverso NGiNX (http://nginx.org/) como servidor web para aplicações de alta performance, permitindo a clusterização dos servidores de aplicação (PHP, Python, Ruby, etc), gerenciamento de sessões em memória, utilizando o Memcache e técnicas para otimização de performance (rede e processamento).",
               "start": "2014-05-10T15:00:00-03:00",
@@ -5228,6 +5425,7 @@
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 3,
+              "slotId": "214",
               "areaId": "89",
               "zoneId": "19",
               "level": "intermediate",
@@ -5235,7 +5433,7 @@
               "roomName": "41E"
             },
             {
-              "id": "250",
+              "id": "507",
               "title": "Introdução a Programação Julia",
               "abstract": "Apresentação da linguagem Julia que é uma linguagem de programação matemática sob licença MIT com sintaxe semelhante a outras linguagens matemáticas já existentes, como por exemplo: MATLAB, MATHEMATICA e R; Além de possuir sintaxe fácil para programação geral (estruturas do tipo lista e funções para manipulação de strings) e ser de alto desempenho.",
               "start": "2014-05-10T15:00:00-03:00",
@@ -5251,6 +5449,7 @@
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 3,
+              "slotId": "250",
               "areaId": "59",
               "zoneId": "14",
               "level": "starter",
@@ -5258,7 +5457,7 @@
               "roomName": "41F"
             },
             {
-              "id": "286",
+              "id": "183",
               "title": "Use e colabore com o OpenStreetMap",
               "abstract": "O OpenStreetMap é como \"a Wikipédia dos mapas\", um mapa de todo o planeta que qualquer pessoa pode editar e usar livremente. O projeto já alcançou o número de 1 milhão e meio de colaboradores registrados e nossos mapas estão sendo utilizados por um grande número de organizações. A palestra irá falar da importância do OpenStreetMap, apresentar exemplos interessantes de uso e mostrar como é fácil e divertido colaborar conosco.",
               "start": "2014-05-10T15:00:00-03:00",
@@ -5274,6 +5473,7 @@
               "roomId": "7",
               "roomIndex": 7,
               "dayIndex": 3,
+              "slotId": "286",
               "areaId": "89",
               "zoneId": "19",
               "level": "starter",
@@ -5281,7 +5481,7 @@
               "roomName": "40A"
             },
             {
-              "id": "340",
+              "id": "158",
               "title": "KVM Workshop on Fedora",
               "abstract": "A brief resume of features of KVM and a lot of examples in order to implements KVM for Students that wants to start virtualization and who uses it in production enviroments.",
               "start": "2014-05-10T15:00:00-03:00",
@@ -5297,6 +5497,7 @@
               "roomId": "714",
               "roomIndex": 9,
               "dayIndex": 3,
+              "slotId": "340",
               "areaId": "47",
               "zoneId": "13",
               "level": "starter",
@@ -5304,7 +5505,7 @@
               "roomName": "701 OF1"
             },
             {
-              "id": "418",
+              "id": "596",
               "title": "Sistemas para Eventos ASL",
               "abstract": "Atividade de liberação do código das ferramentas de chamada de trabalhos\r\ne controle de grade Papers_ng e do sistema de inscritos Greve.\r\nApresentar desenvolvedores contratados para próxima versão, cronograma e requisitos.\r\nLançar comunidade, identificado primeiros beta testers e possíveis desenvolvedores parceiros.",
               "start": "2014-05-10T15:00:00-03:00",
@@ -5335,6 +5536,7 @@
               "roomId": "717",
               "roomIndex": 11,
               "dayIndex": 3,
+              "slotId": "418",
               "areaId": "92",
               "zoneId": "20",
               "level": "",
@@ -5348,7 +5550,7 @@
         "2014-05-10T16:00:00-03:00": {
           "sessions": [
             {
-              "id": "32",
+              "id": "605",
               "title": "\"Open Source Free Energy; Harnessing the Wheelwork of Nature\", and I would cove",
               "abstract": "We've all heard the term \"free energy\" bantered around. Usually it conjures images of tin foil hat wearers hoping for the holy grail that never seems to show up. However, along with the 25 legitimate conventional \"free energy\" modalities, including solar, wind, geothermal, tide, ocean currents, waste to energy, etc; there are likewise 25 un-conventional modalities that actually hold tremendous promise: cold fusion, electromagnetic overunity, magnet motors, water as fuel, zero point energy, etc.",
               "start": "2014-05-10T16:00:00-03:00",
@@ -5364,6 +5566,7 @@
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 3,
+              "slotId": "32",
               "areaId": "89",
               "zoneId": "19",
               "level": "",
@@ -5371,7 +5574,7 @@
               "roomName": "40T"
             },
             {
-              "id": "71",
+              "id": "651",
               "title": "Governança de Projetos e Estrutura de Comunidades de Software Livre",
               "abstract": "Será o Bazar uma forma de organização limitada ao ponto de projetos de software livre bem-sucedidos em termos de ampla base de usuários e aprimoramento constante do código-fonte necessitarem buscar outras estruturas sociais e do trabalho? Nesta palestra irei me debruçar, em tom provocativo, sobre a possibilidade do Bazar ser um estágio pré-Catedral, e não uma forma sustentável profissionalmente, como antes difundido.",
               "start": "2014-05-10T16:00:00-03:00",
@@ -5387,6 +5590,7 @@
               "roomId": "1",
               "roomIndex": 1,
               "dayIndex": 3,
+              "slotId": "71",
               "areaId": "77",
               "zoneId": "16",
               "level": "",
@@ -5394,7 +5598,7 @@
               "roomName": "41A"
             },
             {
-              "id": "107",
+              "id": "201",
               "title": "Kernel Linux - Onde podemos encontrá-lo? Onde você nem imagina!",
               "abstract": "Além de apresentar as novidades da última versão do Kernel Linux até a data do evento, a palestra tem por objetivo apresentar quem tem desenvolvido dispositivos com e para Linux. De cafeteiras a geladeiras. De computadores de bordo para automóveis, até monitoria de RFID's. Onde você nem imagina!",
               "start": "2014-05-10T16:00:00-03:00",
@@ -5410,6 +5614,7 @@
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 3,
+              "slotId": "107",
               "areaId": "47",
               "zoneId": "13",
               "level": "starter",
@@ -5417,7 +5622,7 @@
               "roomName": "41B"
             },
             {
-              "id": "179",
+              "id": "340",
               "title": "Raul Hacker Club, o início de um Hacker Space",
               "abstract": "Nesta apresentação será abordada os trâmites e procedimentos tomados para a criação de um Hacker Space. Serão apresentados os problemas, as iniciativas e as coisas boas de trabalhar em coletividade.",
               "start": "2014-05-10T16:00:00-03:00",
@@ -5433,6 +5638,7 @@
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 3,
+              "slotId": "179",
               "areaId": "80",
               "zoneId": "16",
               "level": "starter",
@@ -5440,7 +5646,7 @@
               "roomName": "41D"
             },
             {
-              "id": "215",
+              "id": "369",
               "title": "O futuro do Openstack, NFV, SDN e Cloud Computing ",
               "abstract": "A Computação em Nuvem deixou de ser uma aposta para finalmente ser uma realidade no mundo tecnológico atual. A demanda por serviços de TI cresce vertiginosamente, e as plataformas de serviços precisam estar preparadas para a entrega imediata de recursos computacionais. Esta palestra irá apresentar o cenário atual do Openstack no mundo e como ele está integrado com as atuais soluções de NFV e SDN para a criação de nuvens públicas e privadas.",
               "start": "2014-05-10T16:00:00-03:00",
@@ -5456,6 +5662,7 @@
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 3,
+              "slotId": "215",
               "areaId": "38",
               "zoneId": "13",
               "level": "intermediate",
@@ -5463,7 +5670,7 @@
               "roomName": "41E"
             },
             {
-              "id": "251",
+              "id": "525",
               "title": "DIYbio hackeando o software da vida",
               "abstract": "Quer hackear seu DNA ou sua própria vida ?\r\nDIYbio é uma rede de indivíduos globais que querem hackear a biologia aplicando práticas de \"Faça você mesmo\".\r\nPalestra é demonstrar as principais as iniciativas e ideias para modelagem de sistemas biológicos via computação. Ensinaremos como trabalhar com dados do seu próprio DNA. Demonstração de projetos como Wholecell da Universidade Stanford.",
               "start": "2014-05-10T16:00:00-03:00",
@@ -5484,6 +5691,7 @@
               "roomId": "6",
               "roomIndex": 6,
               "dayIndex": 3,
+              "slotId": "251",
               "areaId": "89",
               "zoneId": "19",
               "level": "starter",
@@ -5497,7 +5705,7 @@
         "2014-05-10T17:00:00-03:00": {
           "sessions": [
             {
-              "id": "36",
+              "id": "644",
               "title": "Twenty of Linux, Thirty of GNU, Forty-five of Open Source",
               "abstract": " Maddog has often give retrospectives of his life in \"Open Source\", why \"Open Source\" and (even more) \"Software Freedom\" is important.  We have made great strides in Software Livre.  However there are some treats to software freedom, and the Free Software community has to guard against them.  This talk will outline those threats and give some examples of what we can do to continue moving forward.\r\n> ",
               "start": "2014-05-10T17:00:00-03:00",
@@ -5513,6 +5721,7 @@
               "roomId": "8",
               "roomIndex": 0,
               "dayIndex": 3,
+              "slotId": "36",
               "areaId": "77",
               "zoneId": "16",
               "level": "",
@@ -5520,7 +5729,7 @@
               "roomName": "40T"
             },
             {
-              "id": "108",
+              "id": "641",
               "title": "Modelando o passado, o presente e o futuro com o Blender 3D e software livre",
               "abstract": "Nessa atividade o espectador será apresentado aos projetos 3D que remontam o passado como a reconstrução do castelo Candonazzo, da Itália (séc. XII) e o conjunto de reconstruções faciais de hominídeos e personagens históricos que se converteram em uma grande mostra naquele país. O presente é representado por artigos científicos e parcerias firmadas com universidades e centros de tecnologia. O futuro se traduz em projetos já iniciados e bastante promissores.",
               "start": "2014-05-10T17:00:00-03:00",
@@ -5536,6 +5745,7 @@
               "roomId": "2",
               "roomIndex": 2,
               "dayIndex": 3,
+              "slotId": "108",
               "areaId": "80",
               "zoneId": "16",
               "level": "starter",
@@ -5543,7 +5753,7 @@
               "roomName": "41B"
             },
             {
-              "id": "144",
+              "id": "434",
               "title": "Programação para não programadores com Python e Web2py",
               "abstract": "Programação para não programadores com Python e Web2py apresenta a linguagem de programação Python e o framework web2py, e mostra como é simples desenvolver aplicações web de forma fácil com os dois. Apresenta as vantagens de aprender a programar com Python, e como não programadores podem tirar vantagem das facilidades da linguagem para criar seus protótipos.",
               "start": "2014-05-10T17:00:00-03:00",
@@ -5559,6 +5769,7 @@
               "roomId": "3",
               "roomIndex": 3,
               "dayIndex": 3,
+              "slotId": "144",
               "areaId": "65",
               "zoneId": "14",
               "level": "starter",
@@ -5566,7 +5777,7 @@
               "roomName": "41C"
             },
             {
-              "id": "180",
+              "id": "20",
               "title": "Real-time APIs com Web Sockets em PHP",
               "abstract": "Implementando APIs para aplicações de tempo real (Mobile ou Web) usando Web Sockets em PHP",
               "start": "2014-05-10T17:00:00-03:00",
@@ -5582,6 +5793,7 @@
               "roomId": "4",
               "roomIndex": 4,
               "dayIndex": 3,
+              "slotId": "180",
               "areaId": "62",
               "zoneId": "14",
               "level": "intermediate",
@@ -5589,7 +5801,7 @@
               "roomName": "41D"
             },
             {
-              "id": "216",
+              "id": "326",
               "title": "Openshift - diversidade no Cloud",
               "abstract": "Quer um cloud gratuito para rodar Jara, Ruby, Python, PHP usando MySQL ou Mongo? Openshift pode ser a solução!\r\n",
               "start": "2014-05-10T17:00:00-03:00",
@@ -5610,6 +5822,7 @@
               "roomId": "5",
               "roomIndex": 5,
               "dayIndex": 3,
+              "slotId": "216",
               "areaId": "38",
               "zoneId": "13",
               "level": "intermediate",
@@ -5617,7 +5830,7 @@
               "roomName": "41E"
             },
             {
-              "id": "288",
+              "id": "241",
               "title": "Responsivo na prática",
               "abstract": "Não tem a menor idéia de como começar a fazer o seus projetos de maneira responsiva?\r\nNessa palestra vou apresentar técnicas, ferramentas e exemplos práticos que ajudam no desenvolvimento de uma boa interface flexível.",
               "start": "2014-05-10T17:00:00-03:00",
@@ -5633,6 +5846,7 @@
               "roomId": "7",
               "roomIndex": 7,
               "dayIndex": 3,
+              "slotId": "288",
               "areaId": "53",
               "zoneId": "14",
               "level": "starter",

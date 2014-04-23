@@ -102,7 +102,7 @@ var FeedParser = function($, eventDate){
 
         slotElements.each(function(){
             var slot = $(this),
-                id = slot.attr('id'),
+                slotId = slot.attr('id'),
                 date = slot.attr('date'),
                 hour = slot.attr('hour'),
                 minute = slot.attr('minute'),
@@ -151,7 +151,7 @@ var FeedParser = function($, eventDate){
             }
 
             session = {
-                id: id,
+                id: candidate,
                 title: title,
                 abstract: abstract,
                 start: start,
@@ -161,6 +161,7 @@ var FeedParser = function($, eventDate){
                 roomId: room,
                 roomIndex: roomIndex,
                 dayIndex: dayIndex,
+                slotId: slotId,
                 areaId: area,
                 zoneId: zone,
                 level: level,
