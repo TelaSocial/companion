@@ -2,6 +2,8 @@
 
 var cordovaCalendarHelper = require('./cordova_calendar');
 
+var companionStore = require('./store');
+
 module.exports = function($, FISLParser, templates){
     var isCordova = document.URL.substring(0,4) === 'file',
         cordovaFunctions = new cordovaCalendarHelper($),
@@ -205,12 +207,20 @@ module.exports = function($, FISLParser, templates){
         $('#list-view-toggle').click(scheduleViewSwitchClicked);
     };
 
+    var updateLocalFeed = function(){
+        companionStore.setLastFetchInfo({
+            time: Date.now(),
+            size: feedData.length
+        }, function(value){
+            console.log('local feed info stored:',value);
+        });
+        return false;
+    };
+
     var firstLoad = function(){
         var appElement = $('#app'),
             feedURL = appElement.data('feed-url'),
-            localFeed = appElement.data('local-feed-url'),
-            isCordova = document.URL.substring(0,4) === 'file',
-            progressMeter = $('.meter').first();
+            localFeed = appElement.data('local-feed-url');
 
         if (!isCordova) {
             feedURL = localFeed;
@@ -267,20 +277,12 @@ module.exports = function($, FISLParser, templates){
 
     };
 
-    var localStorageTest = function(){
-        console.log('localStorageTest');
-        localforage.setItem('foo', 'bar').then(function(){
-            console.log('Value stored');
-            localforage.getItem('foo').then(function(value){
-                console.log('Value retrieved:'+value);
-            });
-        });
-    };
-
     var onDeviceReady = function(){
         console.log('device ready');
-        localStorageTest();
-        firstLoad();
+        companionStore.getLastFetchInfo(function(info){
+            console.log('info', info);
+            firstLoad();
+        });
     };
     $(document).ready(function() {
         if (isCordova) {
