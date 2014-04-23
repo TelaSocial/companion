@@ -52,14 +52,13 @@ var FeedParser = function($, eventDate){
             if (candidates[candidate] === undefined){
                 candidates[candidate] = [];
             }
-            if (name.length === 0){
-                // return false;
+            if (name !== ''){
+                candidates[candidate].push({
+                    id: id,
+                    name: name,
+                    main: main
+                });
             }
-            candidates[candidate].push({
-                id: id,
-                name: name,
-                main: main
-            });
             if (candidates[candidate].length > 1){
                 candidates[candidate].sort(function(a,b){
                     return a.name > b.name ? 1 : -1;

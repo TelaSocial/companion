@@ -292,16 +292,6 @@
                   "main": true
                 },
                 {
-                  "id": "395",
-                  "name": "",
-                  "main": false
-                },
-                {
-                  "id": "396",
-                  "name": "",
-                  "main": false
-                },
-                {
                   "id": "394",
                   "name": "Joel Martins Grigolo Júnior",
                   "main": false
@@ -421,16 +411,6 @@
                   "id": "550",
                   "name": "Arlindo Flavio da Conceição",
                   "main": true
-                },
-                {
-                  "id": "643",
-                  "name": "",
-                  "main": false
-                },
-                {
-                  "id": "642",
-                  "name": "",
-                  "main": false
                 },
                 {
                   "id": "644",
@@ -2824,11 +2804,6 @@
                   "main": true
                 },
                 {
-                  "id": "773",
-                  "name": "",
-                  "main": false
-                },
-                {
                   "id": "761",
                   "name": "Adolfo Brandes",
                   "main": false
@@ -3700,11 +3675,6 @@
                   "id": "913",
                   "name": "Fr3d Vázquez",
                   "main": true
-                },
-                {
-                  "id": "916",
-                  "name": "",
-                  "main": false
                 }
               ],
               "roomId": "2",
@@ -3852,11 +3822,6 @@
                   "main": true
                 },
                 {
-                  "id": "765",
-                  "name": "",
-                  "main": false
-                },
-                {
                   "id": "589",
                   "name": "Eduardo Lucas",
                   "main": false
@@ -3898,16 +3863,6 @@
                   "id": "449",
                   "name": "Luiz Rauber",
                   "main": true
-                },
-                {
-                  "id": "674",
-                  "name": "",
-                  "main": false
-                },
-                {
-                  "id": "653",
-                  "name": "",
-                  "main": false
                 },
                 {
                   "id": "675",
@@ -4567,11 +4522,6 @@
                   "id": "538",
                   "name": "Leonardo Lima",
                   "main": true
-                },
-                {
-                  "id": "539",
-                  "name": "",
-                  "main": false
                 }
               ],
               "roomId": "6",
@@ -6168,11 +6118,6 @@
                   "id": "553",
                   "name": "Marcos da Paz",
                   "main": true
-                },
-                {
-                  "id": "606",
-                  "name": "",
-                  "main": false
                 }
               ],
               "roomId": "7",
