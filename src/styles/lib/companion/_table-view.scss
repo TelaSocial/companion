@@ -17,8 +17,20 @@
         }
         dd{
         }
+        h4 a,
         .session-abstract{
-            max-width: 250px;
+            max-width: 300px;
+            display: block;
+        }
+        h4{
+            line-height: 1;
+            a.collapsed{
+                font-size: 0.93rem;
+                white-space: nowrap;
+                // height: 1.1;
+                overflow: hidden;
+                text-overflow: ellipsis
+            }
         }
     }
     .day{
@@ -27,8 +39,5 @@
         &.last{
             margin-right: 0px;
         }
-    }
-    h4{
-        font-size: 1em;
     }
 }
