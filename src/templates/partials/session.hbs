@@ -12,10 +12,10 @@
     {{/is}}
     >
     <dt>
-        <h4>
+        <h4 class="session-title">
             <a
                 href="#session-info-{{this.id}}"
-                class="session-title collapsed"
+                class="session-title-link collapsed"
                 data-toggle="collapse"
                 data-parent="#day-{{dayIndex}}"
                 >
@@ -25,10 +25,17 @@
                 {{this.title}}
             </a>
         </h4>
+        <button
+            class="bookmark-button btn"
+            type="button"
+            >
+            <span
+                class="icon"></span>
+        </button>
     </dt>
     <dd
         id="session-info-{{this.id}}"
-        class="collapse"
+        class="session-info collapse"
         >
         <p class="session-abstract panel-body">
             {{this.abstract}}
