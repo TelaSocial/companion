@@ -4,6 +4,8 @@ var cordovaCalendarHelper = require('./cordova_calendar');
 
 var companionStore = require('./store');
 
+var POLL_INTERVAL = 1 * 60 * 1000; //1 minute
+
 module.exports = function($, FISLParser, templates){
     var isCordova = document.URL.substring(0,4) === 'file',
         cordovaFunctions = new cordovaCalendarHelper($),
@@ -208,16 +210,35 @@ module.exports = function($, FISLParser, templates){
     };
 
     var updateLocalFeed = function(){
-        companionStore.setLastFetchInfo({
-            time: Date.now(),
-            size: feedData.length
-        }, function(value){
-            console.log('local feed info stored:',value);
+        var timestamp = Date.now();
+        companionStore.updateXML(feedData, timestamp, function(){
+            console.log('feed updated locally');
         });
-        return false;
+    };
+
+    var feedLoaded = function(data, textStatus, xhr, fromCache) {
+        var groupedBy = (defaultView === 'list') ? 'time' : 'room',
+            scheduleData = parser.parse(data, groupedBy);
+        feedData = data;
+        console.log('XML size='+data.length);
+        if (xhr !== null){
+            console.log('XML all headers='+xhr.getAllResponseHeaders());
+        }
+        if (!fromCache){
+            //store fetched data and metadata
+            updateLocalFeed();
+        }
+        //3. render schedule
+        populateSchedule(scheduleData);
+        //4. start framework - example: $(document).foundation()
+        initFramework();
+        //5. bind button clicks
+        setupButtons();
+        setupViewToggle();
     };
 
     var firstLoad = function(){
+        console.log('firstLoad');
         var appElement = $('#app'),
             feedURL = appElement.data('feed-url'),
             localFeed = appElement.data('local-feed-url');
@@ -254,34 +275,30 @@ module.exports = function($, FISLParser, templates){
             dataType: 'text'
         })
         //2. parse feed
-        .done(function(data, textStatus, xhr) {
-            var groupedBy = (defaultView === 'list') ? 'time' : 'room',
-                scheduleData = parser.parse(data, groupedBy);
-            feedData = data;
-            console.log('XML size='+data.length);
-            console.log('XML all headers='+xhr.getAllResponseHeaders());
-            //store fetched data and metadata
-            updateLocalFeed();
-            //3. render schedule
-            populateSchedule(scheduleData);
-            //4. start framework - example: $(document).foundation()
-            initFramework();
-            //5. bind button clicks
-            setupButtons();
-            setupViewToggle();
-        }).fail(function() {
+        .done(feedLoaded)
+        .fail(function() {
             console.log('error');
         }).always(function() {
             console.log('finished');
         });
+    };
 
+    var loadCached = function(xmlData){
+        console.log('loadCached');
+        feedLoaded(xmlData, 200, null, true);
     };
 
     var onDeviceReady = function(){
         console.log('device ready');
         companionStore.getLastFetchInfo(function(info){
-            console.log('info', info);
-            firstLoad();
+            if (info === null){
+                firstLoad();
+            }else{
+                companionStore.cachedXML(loadCached);
+                if (Date.now() - info.time > POLL_INTERVAL){
+                    console.log('needs to poll, latest fetch: '+info.time);
+                }
+            }
         });
     };
     $(document).ready(function() {

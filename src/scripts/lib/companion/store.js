@@ -1,5 +1,16 @@
 'use strict';
 
+/*
+Stored records:
+
+updateInfo: {
+    time: epoch miliseconds timestamp,
+    size: file size in bytes
+}
+
+latestFeed: raw xml document
+*/
+
 module.exports = {
     config: function(){
         localforage.config({
@@ -10,12 +21,23 @@ module.exports = {
             description : 'some description'
         });
     },
-    setLastFetchInfo: function(metadata, cb){
-        console.log('setLatestUpdateMetadata! '+ typeof cb);
-        localforage.setItem('updateInfo', metadata).then(cb);
+    updateXML: function(data, timestamp, cb){
+        var metadata = {
+                time: timestamp,
+                size: data.length
+            };
+        //store metadata
+        localforage.setItem('updateInfo', metadata)
+        //the store the feed
+        .then(function(){
+            localforage.setItem('latestFeed', data, cb);
+        });
     },
     getLastFetchInfo: function(cb){
         console.log('getLatestUpdateMetadata');
         localforage.getItem('updateInfo').then(cb);
+    },
+    cachedXML: function(cb){
+        localforage.getItem('latestFeed',cb);
     }
 };
