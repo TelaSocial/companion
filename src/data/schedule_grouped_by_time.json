@@ -3920,6 +3920,11 @@
                   "id": "955",
                   "name": "Bóris Petrovic",
                   "main": true
+                },
+                {
+                  "id": "1048",
+                  "name": "Andreia Amorim Campos",
+                  "main": false
                 }
               ],
               "roomId": "4",

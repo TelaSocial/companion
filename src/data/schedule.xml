@@ -582,15 +582,19 @@
     <person id="999" name="Jon &quot;maddog&quot; Hall" candidate="645" main="1"/>
     <person id="999" name="Jon &quot;maddog&quot; Hall" candidate="646" main="1"/>
     <person id="1000" name="Beraldo Leal" candidate="648" main="1"/>
+    <person id="1007" name="Rafael de Vasconcelos" candidate="666" main="0"/>
     <person id="1008" name="Francisco Meneghetti Junior" candidate="661" main="0"/>
     <person id="940" name="ORGANIZA&#199;&#195;O" candidate="650" main="1"/>
     <person id="955" name="B&#243;ris Petrovic" candidate="649" main="1"/>
     <person id="1001" name="Carlos Denner" candidate="651" main="1"/>
+    <person id="1024" name="Phillip Vilanova Ilha" candidate="674" main="0"/>
     <person id="1016" name="Helom Mendonca" candidate="668" main="1"/>
     <person id="1005" name="Michel Rodrigues Machado" candidate="659" main="1"/>
     <person id="1017" name="Nei Venturini dos Santos" candidate="668" main="0"/>
+    <person id="1010" name="S&#237;lvio Augusto Langer" candidate="663" main="1"/>
     <person id="1019" name="Lavoisier Vieira" candidate="668" main="0"/>
     <person id="1006" name="Gonzalo Esteban Zabala" candidate="660" main="1"/>
+    <person id="1003" name="Jo&#227;o Marcos Floriano" candidate="657" main="1"/>
     <person id="1028" name="Breno Neves" candidate="677" main="0"/>
     <person id="12" name="JOCEMAR DO NASCIMENTO" candidate="671" main="1"/>
     <person id="1043" name="Aline Dilkin" candidate="676" main="1"/>
@@ -610,6 +614,9 @@
     <person id="444" name="C&#225;ssia do Nascimento Santos Barbosa Chagas" candidate="687" main="1"/>
     <person id="1047" name="Fernando Schel Pereira" candidate="691" main="0"/>
     <person id="1049" name="Gustavo N. F. Ribeiro" candidate="695" main="1"/>
+    <person id="1034" name="Mara Rosane Noble Tavares" candidate="681" main="0"/>
+    <person id="1048" name="Andreia Amorim Campos" candidate="649" main="0"/>
+    <person id="1030" name="Deivid Madalena" candidate="680" main="0"/>
   </authorship>
   <rooms>
     <room id="8">
