@@ -2,6 +2,10 @@
 
 var cordovaCalendarHelper = require('./cordova_calendar');
 
+var companionStore = require('./store');
+
+var POLL_INTERVAL = 1 * 60 * 1000; //1 minute
+
 module.exports = function($, FISLParser, templates){
     var isCordova = document.URL.substring(0,4) === 'file',
         cordovaFunctions = new cordovaCalendarHelper($),
@@ -13,7 +17,6 @@ module.exports = function($, FISLParser, templates){
     var populateSchedule = function(data, viewArg){
         var template = templates.app,
             destinationElement = $('#app'),
-            progressMeter = $('.meter').first(),
             view = viewArg ? viewArg : defaultView,
             templateData = {
                 schedule_type: view,
@@ -27,7 +30,6 @@ module.exports = function($, FISLParser, templates){
             templateData.schedule_grouped_by_room = data;
         }
         // console.log(html);
-        progressMeter.width('80%');
         html = template(templateData);
         destinationElement.html(html);
     };
@@ -200,6 +202,18 @@ module.exports = function($, FISLParser, templates){
 
         // add to calendar buttons
         $('.calendar-add-button').click(cordovaFunctions.addToCalendarButtonClicked);
+
+        //clear cache buttons
+        $('#erase-feed').click(function(){
+            companionStore.eraseXML(function(){
+                console.log('local feed erased');
+            });
+        });
+        $('#erase-all').click(function(){
+            companionStore.nuke(function(){
+                console.log('all local data erased');
+            });
+        });
     };
 
     var setupViewToggle = function(){
@@ -207,12 +221,39 @@ module.exports = function($, FISLParser, templates){
         $('#list-view-toggle').click(scheduleViewSwitchClicked);
     };
 
+    var updateLocalFeed = function(){
+        var timestamp = Date.now();
+        companionStore.updateXML(feedData, timestamp, function(){
+            console.log('feed updated locally');
+        });
+    };
+
+    var feedLoaded = function(data, textStatus, xhr, fromCache) {
+        var groupedBy = (defaultView === 'list') ? 'time' : 'room',
+            scheduleData = parser.parse(data, groupedBy);
+        feedData = data;
+        console.log('XML size='+data.length);
+        if (xhr !== null){
+            console.log('XML all headers='+xhr.getAllResponseHeaders());
+        }
+        if (!fromCache){
+            //store fetched data and metadata
+            updateLocalFeed();
+        }
+        //3. render schedule
+        populateSchedule(scheduleData);
+        //4. start framework - example: $(document).foundation()
+        initFramework();
+        //5. bind button clicks
+        setupButtons();
+        setupViewToggle();
+    };
+
     var firstLoad = function(){
+        console.log('firstLoad');
         var appElement = $('#app'),
             feedURL = appElement.data('feed-url'),
-            localFeed = appElement.data('local-feed-url'),
-            isCordova = document.URL.substring(0,4) === 'file',
-            progressMeter = $('.meter').first();
+            localFeed = appElement.data('local-feed-url');
 
         if (!isCordova) {
             feedURL = localFeed;
@@ -220,33 +261,57 @@ module.exports = function($, FISLParser, templates){
         //1. fetch feed
 
         console.log('Loading ' + feedURL + '...');
-        $.ajax(feedURL, {
+        //download everything
+        $.ajax({
+            xhr: function() {
+                var xhr = new window.XMLHttpRequest();
+                xhr.addEventListener('progress', function(evt) {
+                    var percentComplete,
+                        total,
+                        fakeTotal,
+                        percentString;
+                    if (evt.lengthComputable) {
+                        total = evt.total;
+                    }else{
+                        //FISL server reports 18446744073709552000 as total, which is probably wrong
+                        fakeTotal = 173893;  //FISL XML has around 173893 bytes -> less than 200KB
+                        total = fakeTotal;
+                    }
+                    percentComplete = Math.min((evt.loaded / total), 1);
+                    percentString = (Math.round(percentComplete * 100)+'%');
+                    document.getElementById('progressMeter').setAttribute('style', 'width:' + percentString +';');
+                }, false);
+                return xhr;
+            },
+            url: feedURL,
             dataType: 'text'
         })
         //2. parse feed
-        .done(function(data) {
-            var groupedBy = (defaultView === 'list') ? 'time' : 'room',
-                scheduleData = parser.parse(data, groupedBy);
-            feedData = data;
-            progressMeter.width('25%');
-            //3. render schedule
-            populateSchedule(scheduleData);
-            //4. start framework - example: $(document).foundation()
-            initFramework();
-            //5. bind button clicks
-            setupButtons();
-            setupViewToggle();
-        }).fail(function() {
+        .done(feedLoaded)
+        .fail(function() {
             console.log('error');
         }).always(function() {
             console.log('finished');
         });
+    };
 
+    var loadCached = function(xmlData){
+        console.log('loadCached');
+        feedLoaded(xmlData, 200, null, true);
     };
 
     var onDeviceReady = function(){
         console.log('device ready');
-        firstLoad();
+        companionStore.getLastFetchInfo(function(info){
+            if (info === null){
+                firstLoad();
+            }else{
+                companionStore.cachedXML(loadCached);
+                if (Date.now() - info.time > POLL_INTERVAL){
+                    console.log('needs to poll, latest fetch: '+info.time);
+                }
+            }
+        });
     };
     $(document).ready(function() {
         if (isCordova) {

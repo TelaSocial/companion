@@ -96,6 +96,7 @@ gulp.task('cordova:setup',['cordova:addPlugins'], tasks.cordova.setup);
 gulp.task('cordova:copyWeb', ['web:build'], tasks.cordova.copyWeb);
 gulp.task('cordova:build', ['cordova:copyWeb'], tasks.cordova.build);
 gulp.task('cordova:run', tasks.cordova.run);
+gulp.task('cordova:release', tasks.cordova.release);
 
 //default
 gulp.task('default', function() {});

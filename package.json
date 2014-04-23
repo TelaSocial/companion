@@ -53,7 +53,8 @@
       "require": true,
       "module": true,
       "jQuery": true,
-      "alert": true
+      "alert": true,
+      "localforage": true
     }
   },
   "cordovaConfig": {

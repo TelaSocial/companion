@@ -110,7 +110,13 @@ module.exports = function(paths, pkg){
         promise.then(cb);
     };
 
-
-
+    this.release = function(cb){
+        var promise;
+        cordovaCdToRoot();
+        promise = new Q(cordova.run({
+            release: true
+        }));
+        promise.then(cb);
+    };
 
 };
