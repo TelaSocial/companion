@@ -18,11 +18,6 @@
     </head>
     <body class="{{body_classes}}">
         {{>body}}
-        {{#if localForageConfig}}
-        <script>
-{{{localForageConfig}}}
-        </script>
-        {{/if}}
         {{#if js}}
             {{#each js}}
                 <script type="text/javascript" src="{{this}}"></script>
