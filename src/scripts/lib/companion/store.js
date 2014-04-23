@@ -39,5 +39,13 @@ module.exports = {
     },
     cachedXML: function(cb){
         localforage.getItem('latestFeed',cb);
+    },
+    eraseXML: function(cb){
+        localforage.removeItem('latestFeed', function(){
+            localforage.removeItem('updateInfo', cb);
+        });
+    },
+    nuke: function(cb){
+        localforage.clear(cb);
     }
 };

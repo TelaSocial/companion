@@ -202,6 +202,18 @@ module.exports = function($, FISLParser, templates){
 
         // add to calendar buttons
         $('.calendar-add-button').click(cordovaFunctions.addToCalendarButtonClicked);
+
+        //clear cache buttons
+        $('#erase-feed').click(function(){
+            companionStore.eraseXML(function(){
+                console.log('local feed erased');
+            });
+        });
+        $('#erase-all').click(function(){
+            companionStore.nuke(function(){
+                console.log('all local data erased');
+            });
+        });
     };
 
     var setupViewToggle = function(){
