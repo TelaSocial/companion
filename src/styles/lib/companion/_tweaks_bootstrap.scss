@@ -2,6 +2,8 @@ body {
     padding-top: 50px; //space for the app top menu
 }
 
+.filter-bookmarks-toggle .icon,
+.bookmark-button .icon,
 .clear-cache-button .icon,
 .list-view-button .icon,
 .table-view-button .icon,
@@ -34,4 +36,12 @@ body {
 }
 .clear-cache-button .icon{
     @extend .glyphicon-fire;
+}
+.filter-bookmarks-toggle .icon,
+.bookmark-button .icon{
+    @extend .glyphicon-star-empty;
+}
+.filter-bookmarks-toggle.active .icon,
+.favorite .bookmark-button .icon{
+    @extend .glyphicon-star;
 }

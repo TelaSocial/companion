@@ -1,3 +1,6 @@
+//colors:
+$lightyellow: #FAFE6F;
+
 #time-nav{
     height: 50px;
     overflow-x: scroll;
@@ -6,5 +9,39 @@
     display: block;
 }
 .day-title{
-    color:#ccc;
+    color:$gray-light;
+}
+.session-title{
+    margin-right: 30px;
+}
+.bookmark-button{
+    @extend .btn-lg;
+}
+.bookmark-button{
+    position: absolute;
+    top: 7px;
+    right: 0px;
+    background: none;
+    &:hover .icon{
+        color: $gray-dark;
+    }
+}
+.session.favorite{
+    &:not(.opened){
+        background-color: $lightyellow;
+        .session-title-link{
+            color: $gray;
+        }
+    }
+    .bookmark-button .icon{
+        color: $gray;
+    }
+}
+.session.filtered-out{
+    display: none;
+}
+.schedule--list {
+    .bookmark-button .icon{
+        color: $gray-light;
+    }
 }

@@ -12,7 +12,8 @@ module.exports = function($, FISLParser, templates){
         boddyPaddingTop = 50, //px
         defaultView = 'list',
         parser = new FISLParser($, new Date('2014-05-07T00:01-03:00')),
-        feedData;
+        feedData,
+        bookmarkedSessions;
 
     var populateSchedule = function(data, viewArg){
         var template = templates.app,
@@ -103,39 +104,58 @@ module.exports = function($, FISLParser, templates){
     };
 
     var initSessions = function(){
-            //setup list view collapsables in and out events
-            $('.session .collapse').off('show.bs.collapse');
-            $('.session .collapse').on('show.bs.collapse', function () {
-                var colapseElement = $(this),
-                    sessionElement = colapseElement.parents('.session').first();
-                sessionElement.addClass('opened');
-            });
-            $('.session .collapse').off('shown.bs.collapse');
-            $('.session .collapse').on('shown.bs.collapse', function () {
-                console.log('shown.bs.collapse');
-                var colapseElement = $(this),
-                    body = $('html,body'),
-                    sessionElement = colapseElement.parents('.session').first(),
-                    sessionOffsetTop = sessionElement.offset().top,
-                    //using body.scrollTop() to get current position of the main scroll doesnt work on android webview
-                    bodyScrollTop = isCordova ? window.pageYOffset : body.scrollTop(),
-                    needsScroll = (sessionOffsetTop - (bodyScrollTop + boddyPaddingTop) < 0),
-                    animationTime = 500; //miliseconds
-                console.log('needsScroll'+needsScroll);
-                if (needsScroll){
-                    body.animate({
-                            scrollTop: (sessionOffsetTop - boddyPaddingTop)
-                        },
-                        animationTime
-                    );
-                }
-            });
-            $('.session .collapse').off('hide.bs.collapse');
-            $('.session .collapse').on('hide.bs.collapse', function () {
-                var colapseElement = $(this),
-                    sessionElement = colapseElement.parents('.session').first();
-                sessionElement.removeClass('opened');
-            });
+        // time navigation buttons (list view)
+        $('#time-nav li a').click(timeNavClicked);
+
+        // add to calendar buttons
+        $('.calendar-add-button').click(cordovaFunctions.addToCalendarButtonClicked);
+
+        // bookmark buttons
+        $('.bookmark-button').click(bookmarkButtonClicked);
+
+        //add favorite class to all bookmarked sessions
+        $('.session').each(function(){
+            var sessionElement = $(this),
+                sessionId = sessionElement.data('id');
+            if (bookmarkedSessions[sessionId] !== undefined){
+                sessionElement.addClass('favorite');
+            }
+        });
+        //apply filters
+        applyBookmarksFilter();
+        //setup collapsable sessions in and out events
+        $('.session .collapse').off('show.bs.collapse');
+        $('.session .collapse').on('show.bs.collapse', function () {
+            var colapseElement = $(this),
+                sessionElement = colapseElement.parents('.session').first();
+            sessionElement.addClass('opened');
+        });
+        $('.session .collapse').off('shown.bs.collapse');
+        $('.session .collapse').on('shown.bs.collapse', function () {
+            console.log('shown.bs.collapse');
+            var colapseElement = $(this),
+                body = $('html,body'),
+                sessionElement = colapseElement.parents('.session').first(),
+                sessionOffsetTop = sessionElement.offset().top,
+                //using body.scrollTop() to get current position of the main scroll doesnt work on android webview
+                bodyScrollTop = isCordova ? window.pageYOffset : body.scrollTop(),
+                needsScroll = (sessionOffsetTop - (bodyScrollTop + boddyPaddingTop) < 0),
+                animationTime = 500; //miliseconds
+            console.log('needsScroll'+needsScroll);
+            if (needsScroll){
+                body.animate({
+                        scrollTop: (sessionOffsetTop - boddyPaddingTop)
+                    },
+                    animationTime
+                );
+            }
+        });
+        $('.session .collapse').off('hidden.bs.collapse');
+        $('.session .collapse').on('hidden.bs.collapse', function () {
+            var colapseElement = $(this),
+                sessionElement = colapseElement.parents('.session').first();
+            sessionElement.removeClass('opened');
+        });
     };
 
     var timeNavClicked = function(event){
@@ -168,9 +188,11 @@ module.exports = function($, FISLParser, templates){
         if (nextView === 'list') {
             templateData.schedule_grouped_by_time = scheduleData;
             destinationElement.removeClass('schedule--table');
+            destinationElement.addClass('schedule--list');
             destinationElement.attr('style', 'width:100%;');
         } else{
             templateData.schedule_grouped_by_room = scheduleData;
+            destinationElement.removeClass('schedule--list');
             destinationElement.addClass('schedule--table');
         }
 
@@ -194,17 +216,76 @@ module.exports = function($, FISLParser, templates){
                 initTableView();
             }
             initSessions();
-            setupButtons();
-
         }, 1);
     };
 
-    var setupButtons = function(){
-        // time navigation buttons
-        $('#time-nav li a').click(timeNavClicked);
+    var addBookmark = function(sessionId){
+        var isFilteredViewOn = $('#filter-bookmarks').hasClass('active'),
+            sessionElement = $('#session-'+sessionId);
+        bookmarkedSessions[sessionId] = {
+            id: sessionId
+            //reminder: after json refactor, just put the whole session here
+        };
+        companionStore.saveBookmarks(bookmarkedSessions, function(savedData){
+            console.log('bookmark added, bookmarks:'+JSON.stringify(savedData));
+        });
+        if (isFilteredViewOn){
+            sessionElement.removeClass('filtered-out');
+        }
+    };
 
-        // add to calendar buttons
-        $('.calendar-add-button').click(cordovaFunctions.addToCalendarButtonClicked);
+    var removeBookmark = function(sessionId){
+        var isFilteredViewOn = $('#filter-bookmarks').hasClass('active'),
+            sessionElement = $('#session-'+sessionId);
+        delete bookmarkedSessions[sessionId];
+        companionStore.saveBookmarks(bookmarkedSessions, function(savedData){
+            console.log('bookmark deleted, bookmarks:'+JSON.stringify(savedData));
+        });
+        if (isFilteredViewOn){
+            sessionElement.addClass('filtered-out');
+        }
+    };
+
+    var bookmarkButtonClicked = function(){
+        var button = $(this),
+            session = button.parents('.session'),
+            sessionId = session.data('id'),
+            isSessionFavorite = session.hasClass('favorite');
+        if (isSessionFavorite){
+            session.removeClass('favorite');
+            removeBookmark(sessionId);
+        } else{
+            session.addClass('favorite');
+            addBookmark(sessionId);
+        }
+    };
+
+    var applyBookmarksFilter = function(){
+        var isFilterOn = $('#filter-bookmarks').hasClass('active');
+        if (isFilterOn){
+            $('.session:not(.favorite)').addClass('filtered-out');
+        }else{
+            $('.session:not(.favorite)').removeClass('filtered-out');
+        }
+    };
+
+    var toggleBookmarksFilter = function(){
+        var toggleButton = $('#filter-bookmarks'),
+            isFilterOn = toggleButton.hasClass('active');
+        if (isFilterOn){
+            toggleButton.removeClass('active');
+        }else{
+            toggleButton.addClass('active');
+        }
+        applyBookmarksFilter();
+    };
+
+    var setupAppHeaderBar = function(){
+
+        //toggle bookmarks-only filter
+        $('#filter-bookmarks').click(toggleBookmarksFilter);
+        //list view toggle (lists vs tables)
+        $('#list-view-toggle').click(scheduleViewSwitchClicked);
 
         //clear cache buttons
         $('#erase-feed').click(function(){
@@ -212,16 +293,18 @@ module.exports = function($, FISLParser, templates){
                 console.log('local feed erased');
             });
         });
+        $('#erase-bookmarks').click(function(){
+            companionStore.eraseBookmarks(function(){
+                console.log('bookmarks erased');
+                $('.favorite').removeClass('favorite');
+                bookmarkedSessions = {};
+            });
+        });
         $('#erase-all').click(function(){
             companionStore.nuke(function(){
                 console.log('all local data erased');
             });
         });
-    };
-
-    var setupViewToggle = function(){
-        //list view toggle (lists vs tables)
-        $('#list-view-toggle').click(scheduleViewSwitchClicked);
     };
 
     var updateLocalFeed = function(){
@@ -251,10 +334,10 @@ module.exports = function($, FISLParser, templates){
         }else{
             initTableView();
         }
+        //setup App main bar buttons
+        setupAppHeaderBar();
+        //bind session element events
         initSessions();
-        //5. bind button clicks
-        setupButtons();
-        setupViewToggle();
     };
 
     var firstLoad = function(){
@@ -310,15 +393,23 @@ module.exports = function($, FISLParser, templates){
 
     var onDeviceReady = function(){
         console.log('device ready');
-        companionStore.getLastFetchInfo(function(info){
-            if (info === null){
-                firstLoad();
-            }else{
-                companionStore.cachedXML(loadCached);
-                if (Date.now() - info.time > POLL_INTERVAL){
-                    console.log('needs to poll, latest fetch: '+info.time);
+        //load stored bookmarks
+        companionStore.bookmarks(function(storedBookmarks){
+            console.log('stored bookmarks:'+JSON.stringify(storedBookmarks));
+            bookmarkedSessions = (storedBookmarks !== null) ? storedBookmarks : {};
+            //then load information about last fetched xml
+            companionStore.getLastFetchInfo(function(info){
+                if (info === null){
+                    //no feed information was found, this is the first run
+                    firstLoad();
+                }else{
+                    //load the stored xml
+                    companionStore.cachedXML(loadCached);
+                    if (Date.now() - info.time > POLL_INTERVAL){
+                        console.log('needs to poll, latest fetch: '+info.time);
+                    }
                 }
-            }
+            });
         });
     };
     $(document).ready(function() {
