@@ -13,7 +13,7 @@ module.exports = function($, FISLParser, templates){
         defaultView = 'list',
         parser = new FISLParser($, new Date('2014-05-07T00:01-03:00')),
         feedData,
-        bookmarkedSessions = {};
+        bookmarkedSessions;
 
     var populateSchedule = function(data, viewArg){
         var template = templates.app,
@@ -104,6 +104,15 @@ module.exports = function($, FISLParser, templates){
     };
 
     var initSessions = function(){
+        // time navigation buttons (list view)
+        $('#time-nav li a').click(timeNavClicked);
+
+        // add to calendar buttons
+        $('.calendar-add-button').click(cordovaFunctions.addToCalendarButtonClicked);
+
+        // bookmark buttons
+        $('.bookmark-button').click(bookmarkButtonClicked);
+
         //add favorite class to all bookmarked sessions
         $('.session').each(function(){
             var sessionElement = $(this),
@@ -112,7 +121,7 @@ module.exports = function($, FISLParser, templates){
                 sessionElement.addClass('favorite');
             }
         });
-        //setup list view collapsables in and out events
+        //setup collapsable sessions in and out events
         $('.session .collapse').off('show.bs.collapse');
         $('.session .collapse').on('show.bs.collapse', function () {
             var colapseElement = $(this),
@@ -205,8 +214,6 @@ module.exports = function($, FISLParser, templates){
                 initTableView();
             }
             initSessions();
-            setupButtons();
-
         }, 1);
     };
 
@@ -215,12 +222,16 @@ module.exports = function($, FISLParser, templates){
             id: sessionId
             //reminder: after json refactor, just put the whole session here
         };
-        console.log('bookmark added, bookmarks:'+JSON.stringify(bookmarkedSessions));
+        companionStore.saveBookmarks(bookmarkedSessions, function(savedData){
+            console.log('bookmark added, bookmarks:'+JSON.stringify(savedData));
+        });
     };
 
     var removeBookmark = function(sessionId){
         delete bookmarkedSessions[sessionId];
-        console.log('bookmark deleted, bookmarks:'+JSON.stringify(bookmarkedSessions));
+        companionStore.saveBookmarks(bookmarkedSessions, function(savedData){
+            console.log('bookmark deleted, bookmarks:'+JSON.stringify(savedData));
+        });
     };
 
     var bookmarkButtonClicked = function(){
@@ -236,12 +247,9 @@ module.exports = function($, FISLParser, templates){
             addBookmark(sessionId);
         }
     };
-    var setupButtons = function(){
-        // time navigation buttons
-        $('#time-nav li a').click(timeNavClicked);
-
-        // add to calendar buttons
-        $('.calendar-add-button').click(cordovaFunctions.addToCalendarButtonClicked);
+    var setupAppHeaderBar = function(){
+        //list view toggle (lists vs tables)
+        $('#list-view-toggle').click(scheduleViewSwitchClicked);
 
         //clear cache buttons
         $('#erase-feed').click(function(){
@@ -249,17 +257,18 @@ module.exports = function($, FISLParser, templates){
                 console.log('local feed erased');
             });
         });
+        $('#erase-bookmarks').click(function(){
+            companionStore.eraseBookmarks(function(){
+                console.log('bookmarks erased');
+                $('.favorite').removeClass('favorite');
+                bookmarkedSessions = {};
+            });
+        });
         $('#erase-all').click(function(){
             companionStore.nuke(function(){
                 console.log('all local data erased');
             });
         });
-        $('.bookmark-button').click(bookmarkButtonClicked);
-    };
-
-    var setupViewToggle = function(){
-        //list view toggle (lists vs tables)
-        $('#list-view-toggle').click(scheduleViewSwitchClicked);
     };
 
     var updateLocalFeed = function(){
@@ -289,10 +298,10 @@ module.exports = function($, FISLParser, templates){
         }else{
             initTableView();
         }
+        //setup App main bar buttons
+        setupAppHeaderBar();
+        //bind session element events
         initSessions();
-        //5. bind button clicks
-        setupButtons();
-        setupViewToggle();
     };
 
     var firstLoad = function(){
@@ -348,15 +357,23 @@ module.exports = function($, FISLParser, templates){
 
     var onDeviceReady = function(){
         console.log('device ready');
-        companionStore.getLastFetchInfo(function(info){
-            if (info === null){
-                firstLoad();
-            }else{
-                companionStore.cachedXML(loadCached);
-                if (Date.now() - info.time > POLL_INTERVAL){
-                    console.log('needs to poll, latest fetch: '+info.time);
+        //load stored bookmarks
+        companionStore.bookmarks(function(storedBookmarks){
+            console.log('stored bookmarks:'+JSON.stringify(storedBookmarks));
+            bookmarkedSessions = (storedBookmarks !== null) ? storedBookmarks : {};
+            //then load information about last fetched xml
+            companionStore.getLastFetchInfo(function(info){
+                if (info === null){
+                    //no feed information was found, this is the first run
+                    firstLoad();
+                }else{
+                    //load the stored xml
+                    companionStore.cachedXML(loadCached);
+                    if (Date.now() - info.time > POLL_INTERVAL){
+                        console.log('needs to poll, latest fetch: '+info.time);
+                    }
                 }
-            }
+            });
         });
     };
     $(document).ready(function() {

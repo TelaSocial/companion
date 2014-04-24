@@ -3,12 +3,16 @@
 /*
 Stored records:
 
-updateInfo: {
-    time: epoch miliseconds timestamp,
-    size: file size in bytes
-}
+- updateInfo: Object with the attributes:
+    - time: epoch miliseconds timestamp,
+    - size: file size in bytes
 
-latestFeed: raw xml document
+- latestFeed: String containing the raw xml document
+
+- bookmarkedSessions: Object which is a hash table
+                      where each key is a session id.
+                      The values are session objects.
+
 */
 
 module.exports = {
@@ -33,6 +37,9 @@ module.exports = {
             localforage.setItem('latestFeed', data, cb);
         });
     },
+    saveBookmarks: function(bookmarks, cb){
+        localforage.setItem('bookmarkedSessions', bookmarks, cb);
+    },
     getLastFetchInfo: function(cb){
         console.log('getLatestUpdateMetadata');
         localforage.getItem('updateInfo').then(cb);
@@ -40,10 +47,16 @@ module.exports = {
     cachedXML: function(cb){
         localforage.getItem('latestFeed',cb);
     },
+    bookmarks: function(cb){
+        localforage.getItem('bookmarkedSessions', cb);
+    },
     eraseXML: function(cb){
         localforage.removeItem('latestFeed', function(){
             localforage.removeItem('updateInfo', cb);
         });
+    },
+    eraseBookmarks: function(cb){
+        localforage.removeItem('bookmarkedSessions', cb);
     },
     nuke: function(cb){
         localforage.clear(cb);
