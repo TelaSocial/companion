@@ -1,6 +1,6 @@
 .schedule--table{
-    .favorite .session-title-link{
-        background-color: yellow;
+    .session-title-link{
+        // color: $gray-dark;
     }
     .bookmark-button{
         @extend .btn;
@@ -8,18 +8,15 @@
         right: auto;
         left: 4px;
         .icon{
-            color: $gray-lighter;
+            color: $gray-light;
         }
     }
     .opened .bookmark-button{
         @extend .btn-lg;
         left: -8px;
         .icon{
-            color: $gray-light;
+            color: $gray-dark;
         }
-    }
-    .session-title-link{
-        color: $gray-dark;
     }
     .session-title{
         margin-right: 18px;

@@ -130,8 +130,8 @@ module.exports = function($, FISLParser, templates){
                     );
                 }
             });
-            $('.session .collapse').off('hide.bs.collapse');
-            $('.session .collapse').on('hide.bs.collapse', function () {
+            $('.session .collapse').off('hidden.bs.collapse');
+            $('.session .collapse').on('hidden.bs.collapse', function () {
                 var colapseElement = $(this),
                     sessionElement = colapseElement.parents('.session').first();
                 sessionElement.removeClass('opened');
