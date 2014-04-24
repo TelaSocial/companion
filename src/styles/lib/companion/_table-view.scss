@@ -23,12 +23,16 @@
     }
     td{
         max-width: 250px;
-        &.empty{
+        &.empty,
+        &.list-group-item.filtered-out{
             background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAD0lEQVQImWNgQAX/yeAAAIHCA/0RE2WAAAAAAElFTkSuQmCC);
         }
         &.list-group-item{
             display: table-cell;
             background: none;
+        }
+        &.list-group-item.filtered-out *{
+            display: none;
         }
         &.room-name-cell{
             max-width: 70px;

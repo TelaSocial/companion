@@ -121,6 +121,8 @@ module.exports = function($, FISLParser, templates){
                 sessionElement.addClass('favorite');
             }
         });
+        //apply filters
+        applyBookmarksFilter();
         //setup collapsable sessions in and out events
         $('.session .collapse').off('show.bs.collapse');
         $('.session .collapse').on('show.bs.collapse', function () {
@@ -218,6 +220,8 @@ module.exports = function($, FISLParser, templates){
     };
 
     var addBookmark = function(sessionId){
+        var isFilteredViewOn = $('#filter-bookmarks').hasClass('active'),
+            sessionElement = $('#session-'+sessionId);
         bookmarkedSessions[sessionId] = {
             id: sessionId
             //reminder: after json refactor, just put the whole session here
@@ -225,13 +229,21 @@ module.exports = function($, FISLParser, templates){
         companionStore.saveBookmarks(bookmarkedSessions, function(savedData){
             console.log('bookmark added, bookmarks:'+JSON.stringify(savedData));
         });
+        if (isFilteredViewOn){
+            sessionElement.removeClass('filtered-out');
+        }
     };
 
     var removeBookmark = function(sessionId){
+        var isFilteredViewOn = $('#filter-bookmarks').hasClass('active'),
+            sessionElement = $('#session-'+sessionId);
         delete bookmarkedSessions[sessionId];
         companionStore.saveBookmarks(bookmarkedSessions, function(savedData){
             console.log('bookmark deleted, bookmarks:'+JSON.stringify(savedData));
         });
+        if (isFilteredViewOn){
+            sessionElement.addClass('filtered-out');
+        }
     };
 
     var bookmarkButtonClicked = function(){
@@ -247,7 +259,31 @@ module.exports = function($, FISLParser, templates){
             addBookmark(sessionId);
         }
     };
+
+    var applyBookmarksFilter = function(){
+        var isFilterOn = $('#filter-bookmarks').hasClass('active');
+        if (isFilterOn){
+            $('.session:not(.favorite)').addClass('filtered-out');
+        }else{
+            $('.session:not(.favorite)').removeClass('filtered-out');
+        }
+    };
+
+    var toggleBookmarksFilter = function(){
+        var toggleButton = $('#filter-bookmarks'),
+            isFilterOn = toggleButton.hasClass('active');
+        if (isFilterOn){
+            toggleButton.removeClass('active');
+        }else{
+            toggleButton.addClass('active');
+        }
+        applyBookmarksFilter();
+    };
+
     var setupAppHeaderBar = function(){
+
+        //toggle bookmarks-only filter
+        $('#filter-bookmarks').click(toggleBookmarksFilter);
         //list view toggle (lists vs tables)
         $('#list-view-toggle').click(scheduleViewSwitchClicked);
 

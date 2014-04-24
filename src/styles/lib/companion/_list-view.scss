@@ -37,6 +37,9 @@ $lightyellow: #FAFE6F;
         color: $gray;
     }
 }
+.session.filtered-out{
+    display: none;
+}
 .schedule--list {
     .bookmark-button .icon{
         color: $gray-light;
