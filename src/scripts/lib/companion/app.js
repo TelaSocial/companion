@@ -12,7 +12,8 @@ module.exports = function($, FISLParser, templates){
         boddyPaddingTop = 50, //px
         defaultView = 'list',
         parser = new FISLParser($, new Date('2014-05-07T00:01-03:00')),
-        feedData;
+        feedData,
+        bookmarkedSessions = {};
 
     var populateSchedule = function(data, viewArg){
         var template = templates.app,
@@ -103,39 +104,47 @@ module.exports = function($, FISLParser, templates){
     };
 
     var initSessions = function(){
-            //setup list view collapsables in and out events
-            $('.session .collapse').off('show.bs.collapse');
-            $('.session .collapse').on('show.bs.collapse', function () {
-                var colapseElement = $(this),
-                    sessionElement = colapseElement.parents('.session').first();
-                sessionElement.addClass('opened');
-            });
-            $('.session .collapse').off('shown.bs.collapse');
-            $('.session .collapse').on('shown.bs.collapse', function () {
-                console.log('shown.bs.collapse');
-                var colapseElement = $(this),
-                    body = $('html,body'),
-                    sessionElement = colapseElement.parents('.session').first(),
-                    sessionOffsetTop = sessionElement.offset().top,
-                    //using body.scrollTop() to get current position of the main scroll doesnt work on android webview
-                    bodyScrollTop = isCordova ? window.pageYOffset : body.scrollTop(),
-                    needsScroll = (sessionOffsetTop - (bodyScrollTop + boddyPaddingTop) < 0),
-                    animationTime = 500; //miliseconds
-                console.log('needsScroll'+needsScroll);
-                if (needsScroll){
-                    body.animate({
-                            scrollTop: (sessionOffsetTop - boddyPaddingTop)
-                        },
-                        animationTime
-                    );
-                }
-            });
-            $('.session .collapse').off('hidden.bs.collapse');
-            $('.session .collapse').on('hidden.bs.collapse', function () {
-                var colapseElement = $(this),
-                    sessionElement = colapseElement.parents('.session').first();
-                sessionElement.removeClass('opened');
-            });
+        //add favorite class to all bookmarked sessions
+        $('.session').each(function(){
+            var sessionElement = $(this),
+                sessionId = sessionElement.data('id');
+            if (bookmarkedSessions[sessionId] !== undefined){
+                sessionElement.addClass('favorite');
+            }
+        });
+        //setup list view collapsables in and out events
+        $('.session .collapse').off('show.bs.collapse');
+        $('.session .collapse').on('show.bs.collapse', function () {
+            var colapseElement = $(this),
+                sessionElement = colapseElement.parents('.session').first();
+            sessionElement.addClass('opened');
+        });
+        $('.session .collapse').off('shown.bs.collapse');
+        $('.session .collapse').on('shown.bs.collapse', function () {
+            console.log('shown.bs.collapse');
+            var colapseElement = $(this),
+                body = $('html,body'),
+                sessionElement = colapseElement.parents('.session').first(),
+                sessionOffsetTop = sessionElement.offset().top,
+                //using body.scrollTop() to get current position of the main scroll doesnt work on android webview
+                bodyScrollTop = isCordova ? window.pageYOffset : body.scrollTop(),
+                needsScroll = (sessionOffsetTop - (bodyScrollTop + boddyPaddingTop) < 0),
+                animationTime = 500; //miliseconds
+            console.log('needsScroll'+needsScroll);
+            if (needsScroll){
+                body.animate({
+                        scrollTop: (sessionOffsetTop - boddyPaddingTop)
+                    },
+                    animationTime
+                );
+            }
+        });
+        $('.session .collapse').off('hidden.bs.collapse');
+        $('.session .collapse').on('hidden.bs.collapse', function () {
+            var colapseElement = $(this),
+                sessionElement = colapseElement.parents('.session').first();
+            sessionElement.removeClass('opened');
+        });
     };
 
     var timeNavClicked = function(event){
@@ -201,16 +210,31 @@ module.exports = function($, FISLParser, templates){
         }, 1);
     };
 
+    var addBookmark = function(sessionId){
+        bookmarkedSessions[sessionId] = {
+            id: sessionId
+            //reminder: after json refactor, just put the whole session here
+        };
+        console.log('bookmark added, bookmarks:'+JSON.stringify(bookmarkedSessions));
+    };
+
+    var removeBookmark = function(sessionId){
+        delete bookmarkedSessions[sessionId];
+        console.log('bookmark deleted, bookmarks:'+JSON.stringify(bookmarkedSessions));
+    };
+
     var bookmarkButtonClicked = function(){
         var button = $(this),
             session = button.parents('.session'),
+            sessionId = session.data('id'),
             isSessionFavorite = session.hasClass('favorite');
         if (isSessionFavorite){
             session.removeClass('favorite');
+            removeBookmark(sessionId);
         } else{
             session.addClass('favorite');
+            addBookmark(sessionId);
         }
-
     };
     var setupButtons = function(){
         // time navigation buttons
