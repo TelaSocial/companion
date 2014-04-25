@@ -2,7 +2,12 @@
 
 //custom lodash
 var _ = {
-        compact: require('lodash-node/modern/arrays/compact')
+        sortBy: require('lodash-node/modern/collections/sortBy'),
+        map: require('lodash-node/modern/collections/map'),
+        forEach: require('lodash-node/modern/collections/forEach'),
+        compact: require('lodash-node/modern/arrays/compact'),
+        indexOf: require('lodash-node/modern/arrays/indexOf'),
+        keys: require('lodash-node/modern/objects/keys')
     };
 
 var FeedParser = function($, eventDate){
@@ -23,7 +28,7 @@ var FeedParser = function($, eventDate){
             minimumInterval = Number($xml.find('hours').first().attr('minimum_interval')),
             // endOfDay = '00:00:00.000Z',
             // startOfDay = '23:59:59.000Z',
-            // weekDays = ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sab'],
+            weekDays = ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sab'],
             presenters = {}, // for each session the group of people giving that talk
             sessions = {},
             rooms = {},
@@ -52,6 +57,7 @@ var FeedParser = function($, eventDate){
             //presenters array is sorted with the main presenters first,
             //then alphabetically
             if (presenters[sessionID].length > 1){
+                //replace with lodash sortBy
                 presenters[sessionID].sort(function(a,b){
                     return a.name > b.name ? 1 : -1;
                 });
@@ -121,6 +127,16 @@ var FeedParser = function($, eventDate){
                 //
                 start = date + 'T' + hour + ':' + minute + ':00-03:00',
                 duration = colspan * minimumInterval, //minutes
+                //
+                startDate = new Date(start),
+                sessionDay = startDate.getDate(),
+                eventDay = eventDate.getDate(),
+                dayIndex = sessionDay - eventDay, //this wont work if both dates aren't in the same month
+                dayShortLabel = weekDays[startDate.getDay()] + ' ' + sessionDay,
+                timeLabel = start.split('T')[1].substring(0, 5),
+                timeShortLabel = timeLabel.replace(':00',''),
+                roomOrderIndex = _.indexOf(roomOrder, roomID),
+                //
                 session = {};
 
             session = {
@@ -135,102 +151,65 @@ var FeedParser = function($, eventDate){
                 roomID: roomID
             };
             sessions[sessionID] = session;
+
+            //include this session in the proper day, time and room
+            if (days[dayIndex] === undefined){
+                days[dayIndex] = {
+                    shortLabel: dayShortLabel,
+                    times: {},
+                    rooms: _.map(roomOrder, function(roomID){
+                        return {
+                            id: roomID,
+                            sessions: []
+                        };
+                    })
+                };
+            }
+
+            // insert a session id in the proper room bucket for that day
+            // plus the start time that will be used for ordering later
+            days[dayIndex].rooms[roomOrderIndex].sessions.push({
+                id:sessionID,
+                start:start
+            });
+
+
+            if (days[dayIndex].times[start] === undefined){
+                days[dayIndex].times[start] = {
+                    label: timeLabel,
+                    shortLabel: timeShortLabel,
+                    sessions:[]
+                };
+            }
+            days[dayIndex].times[start].sessions.push(sessionID);
+
         });
 
         // console.log(sessions);
         // process.exit();
 
 
-    // -TBD Fill the days of the event
+        _.forEach(days, function(day){
+            //list of sessions by time
 
+            //sort times and convert the times dictionary to a times array
+            var timeDictKeys = _.keys(day.times).sort();
+            day.times = _.map(timeDictKeys, function(key){
+                return day.times[key];
+            });
 
+            // list of sessions by room
 
+            _.forEach(day.rooms, function(room){
+                //order sessions in a room bucket by starting time
+                room.sessions = _.sortBy(room.sessions, 'start');
+                //then just replace the array of sessionID,start pairs with sessionID value only
+                room.sessions = _.map(room.sessions, 'id');
+            });
+        });
 
-        // if (grouped_by === 'room'){
-        //     for (var d = days.length - 1; d >= 0; d--) {
-        //             //sort sessions in a room by starting time
-        //             for (var j = days[d].rooms.length - 1; j >= 0; j--) {
-        //                 days[d].rooms[j].sessions.sort(sortByStart);
-        //             }
-
-        //             //created a sorted times array from the times dictionary
-        //             var timeArray = [],
-        //                 maxColspan = 0;
-        //             for (var key in days[d].times){
-        //                 var start = key,
-        //                     colspan = days[d].times[key],
-        //                     label = start.substring(0, 5);
-        //                 maxColspan += colspan;
-        //                 timeArray.push({
-        //                     start: start,
-        //                     colspan: colspan,
-        //                     label: label
-        //                 });
-        //             }
-        //             timeArray.sort(sortByStart);
-        //             //replace times dict with times array
-        //             days[d].times = timeArray;
-        //             days[d].maxColspan = maxColspan;
-
-        //             //for each session, include the interval after the end for
-        //             //which the room will remain empty until the next session
-        //             //for the first session of each room also include the interval
-        //             //since the beggining of the day that the room remained empty
-        //             for (var k = days[d].rooms.length - 1; k >= 0; k--) {
-        //                 for (var l = 0; l < days[d].rooms[k].sessions.length; l++) {
-        //                     var session = days[d].rooms[k].sessions[l],
-        //                         isFirst = (l === 0),
-        //                         isLast = (l === days[d].rooms[k].sessions.length - 1),
-        //                         startDate = new Date(session.start),
-        //                         startDateSplit = startDate.toISOString().split('T'),
-        //                         end = new Date(startDate.getTime() + session.duration * 60 * 1000).getTime(),
-        //                         nextSession = isLast ? null : days[d].rooms[k].sessions[l+1],
-        //                         nextSessionStart = isLast ?
-        //                             new Date(startDateSplit[0] + 'T' + endOfDay).getTime() :
-        //                             new Date(nextSession.start).getTime(),
-        //                         dayStart;
-
-        //                     if (isFirst){
-        //                         dayStart = new Date(startDateSplit[0] + 'T' + startOfDay).getTime();
-        //                         session.intervalBefore = (startDate.getTime() - dayStart) / 1000 / 60;
-        //                         session.intervalBeforeColspan = session.intervalBefore / minimumInterval;
-        //                     }
-        //                     session.intervalAfter = (nextSessionStart - end) / 1000 / 60;
-        //                     session.intervalAfterColspan = session.intervalAfter / minimumInterval;
-        //                 }
-        //             }
-        //     }
-        // }
-        // if (grouped_by === 'time'){
-        //     sessions.sort(sortByStart);
-        //     for (var s = 0; s < sessions.length; s++) {
-        //         var session = sessions[s],
-        //             start = session.start,
-        //             dayIndex = session.dayIndex,
-        //             label = start.split('T')[1].substring(0, 5),
-        //             shortLabel = label.replace(':00','');
-        //         if (days[dayIndex].times[start] === undefined){
-        //             days[dayIndex].times[start] = {
-        //                 sessions:[],
-        //                 label: label,
-        //                 shortLabel: shortLabel,
-        //             };
-        //         }
-        //         days[dayIndex].times[start].sessions.push(session);
-        //     }
-
-        //     //sort by room position after
-        //     for (var d = days.length - 1; d >= 0; d--) {
-        //         var day = days[d];
-        //         for (var t in day.times) {
-        //             var time = day.times[t];
-        //             time.sessions = time.sessions.sort(sortByRoomIndex);
-        //         }
-        //     }
-        // }
-
-        // console.log(JSON.stringify(days, null, '  '));
         return  {
+                    days: days,
                     presenters: presenters,
                     rooms: rooms,
                     sessions: sessions
