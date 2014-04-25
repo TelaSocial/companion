@@ -1,6 +1,20 @@
 'use strict';
 module.exports = function(Handlebars){
 
+//my helpers
+
+/*
+{{#each someArrayOfKeys}}
+  {{#withItem ../otherObject key=this}}
+    {{this}}
+  {{/withItem}}
+{{/each}}
+*/
+Handlebars.registerHelper('withItem', function(object, options) {
+    return options.fn(object[options.hash.key]);
+});
+
+
 //from https://github.com/danharper/Handlebars-Helpers/blob/master/src/helpers.js
     var isArray = function(value) {
         return Object.prototype.toString.call(value) === '[object Array]';
