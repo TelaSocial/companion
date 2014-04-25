@@ -46,17 +46,9 @@ module.exports = function(paths, urls){
                 parser = new FISLParser($, new Date('2014-05-07T00:01-03:00')),
                 days = {};
 
-            //grouped by rooms
-            days = parser.parse(null, 'room');
+            days = parser.parse(null); //data is already the $ document
             fs.writeFileSync(
-                paths.sources.data + 'schedule_grouped_by_room.json',
-                JSON.stringify(days, null, '  ')
-            );
-
-            //grouped by time
-            days = parser.parse(null, 'time');
-            fs.writeFileSync(
-                paths.sources.data + 'schedule_grouped_by_time.json',
+                paths.sources.data + 'schedule.json',
                 JSON.stringify(days, null, '  ')
             );
     };
