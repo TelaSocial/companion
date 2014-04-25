@@ -6,6 +6,7 @@ var scheduleTemplate = require('../templates/partials/schedule.hbs');
 Handlebars.registerPartial('app_menu', require('../templates/partials/app_menu.hbs'));
 Handlebars.registerPartial('schedule', scheduleTemplate);
 Handlebars.registerPartial('day_list', require('../templates/partials/day_list.hbs'));
+Handlebars.registerPartial('time_list', require('../templates/partials/time_list.hbs'));
 Handlebars.registerPartial('time_nav', require('../templates/partials/time_nav.hbs'));
 Handlebars.registerPartial('day_table', require('../templates/partials/day_table.hbs'));
 Handlebars.registerPartial('session', require('../templates/partials/session.hbs'));

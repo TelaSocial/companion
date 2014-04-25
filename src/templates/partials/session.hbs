@@ -7,7 +7,7 @@
     data-id="{{this.id}}"
     data-start="{{this.start}}"
     data-duration="{{this.duration}}"
-    data-room="{{this.roomId}}"
+    data-room="{{this.roomID}}"
     {{#is session_tag 'td'}}
         colspan="{{this.durationColspan}}"
     {{/is}}
@@ -46,7 +46,9 @@
             <li>
                 <a class="room-link" href="#">
                     <span class="place-icon"></span>
-                    {{this.roomName}}
+                    {{#withItem @root.schedule.rooms key=this.roomID}}
+                        {{this.name}}
+                    {{/withItem}}
                 </a>
             </li>
             <li>
@@ -55,14 +57,16 @@
                     Add to calendar
                 </a>
             </li>
-        {{#each this.authors}}
-            <li>
+        {{#withItem @root.schedule.presenters key=this.id}}
+        {{#each this}}
+            <li class="author {{#if this.main}}main{{/if}}">
                 <a href="#" class="author-link">
                     <span class="author-icon"></span>
                     {{this.name}}
                 </a>
             </li>
         {{/each}}
+        {{/withItem}}
         </ul>
     </dd>
 </{{session_tag}}>

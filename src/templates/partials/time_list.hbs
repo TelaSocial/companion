@@ -1,0 +1,21 @@
+{{#each this.times}}
+    <a
+        id="day-{{../dayIndex}}-time-{{@index}}"
+        class="time-break"
+        ></a>
+    <h3>
+        {{this.label}}{{../sessions}}
+    </h3>
+    <dl
+        class="
+            session-list
+            list-group
+            "
+        >
+    {{#each this.sessions}}
+        {{#withItem @root.schedule.sessions key=this}}
+            {{> session dayIndex=../../../dayIndex session_tag="div"}}
+        {{/withItem}}
+     {{/each}}
+    </dl>
+{{/each}}

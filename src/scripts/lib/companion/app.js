@@ -22,16 +22,12 @@ module.exports = function($, FISLParser, templates){
             templateData = {
                 schedule_type: view,
                 title: 'Companion App',
+                schedule: data
             },
             html;
         console.log('populateSchedule '+view);
-        if (view === 'list') {
-            templateData.schedule_grouped_by_time = data;
-        } else{
-            templateData.schedule_grouped_by_room = data;
-        }
-        // console.log(html);
         html = template(templateData);
+        // console.log(html);
         destinationElement.html(html);
     };
 
@@ -315,8 +311,7 @@ module.exports = function($, FISLParser, templates){
     };
 
     var feedLoaded = function(data, textStatus, xhr, fromCache) {
-        var groupedBy = (defaultView === 'list') ? 'time' : 'room',
-            scheduleData = parser.parse(data, groupedBy);
+        var scheduleData = parser.parse(data);
         feedData = data;
         console.log('XML size='+data.length);
         if (xhr !== null){
