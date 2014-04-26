@@ -34,6 +34,7 @@
     "glob": "^3.2.9",
     "gulp": "^3.6.0",
     "gulp-assemble": "git://github.com/assemble/gulp-assemble.git",
+    "gulp-autoprefixer": "0.0.6",
     "gulp-sass": "^0.7.1",
     "gulp-util": "^2.2.14",
     "handlebars": "~2.0.0-alpha.2",
