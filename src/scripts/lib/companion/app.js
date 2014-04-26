@@ -18,7 +18,9 @@ module.exports = function($, FISLParser, templates){
     var populateSchedule = function(data, isRefresh){
         var template = isRefresh ? templates.schedule : templates.app,
             destinationElement = isRefresh ? $('#schedule-view') : $('#app'),
-            view = $('.list-view-button.active').length > 0 ? 'list' : defaultView,
+            view = $('#list-view-toggle').length > 0 ?
+                ($('#list-view-toggle .active').hasClass('list-view-button') ? 'list' : 'table') :
+                defaultView,
             templateData = {
                 schedule_type: view,
                 title: 'Companion App',
