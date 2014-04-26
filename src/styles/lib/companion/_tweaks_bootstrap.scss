@@ -2,6 +2,7 @@ body {
     padding-top: 50px; //space for the app top menu
 }
 
+#refresh-feed .icon,
 .filter-bookmarks-toggle .icon,
 .bookmark-button .icon,
 .clear-cache-button .icon,
@@ -44,4 +45,14 @@ body {
 .filter-bookmarks-toggle.active .icon,
 .favorite .bookmark-button .icon{
     @extend .glyphicon-star;
+}
+#refresh-feed .icon{
+    @extend .glyphicon-refresh;
+}
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+#refresh-feed.loading .icon{
+    animation: spin 1s infinite linear;
 }

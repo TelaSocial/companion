@@ -5,6 +5,7 @@ var gulp = require('gulp'),
     glob = require('glob'),
     _ = require ('lodash'),
     sass = require('gulp-sass'),
+    prefix = require('gulp-autoprefixer'),
     through = require('through2'),
     browserify = require('browserify'),
     hbsfy = require('hbsfy').configure({
@@ -92,8 +93,10 @@ module.exports = function(paths){
             gulp.src(['**/*.scss'], {cwd: paths.sources.styles + '**'})
             .pipe(gulp.dest(paths.build.scss));
         }
+
         return gulp.src(paths.sources.styles + '**/*.scss')
                 .pipe(sass(options))
+                .pipe(prefix('last 2 versions'))
                 .pipe(gulp.dest(paths.build.css));
     };
 
