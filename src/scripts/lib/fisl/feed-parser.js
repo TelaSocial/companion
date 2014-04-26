@@ -217,6 +217,8 @@ var FeedParser = function($, eventDate){
                 );
                 return day.times[key];
             });
+            var dayStartingTime = new Date(day.times[0].start).getTime();
+
             //include colspan on each time according to the duration until next time
             _.forEach(day.times, function(timeBreak, index, times){
                 var nextStart = (index < times.length - 1) ?
@@ -225,6 +227,8 @@ var FeedParser = function($, eventDate){
                     timeBreakSize = nextStart - new Date(timeBreak.start).getTime();
                 timeBreak.colspan = timeBreakSize / 1000 / 60 / minimumInterval;
             });
+            //include the total colspan size to be used by completely empty rooms
+            day.maxColspan = (day.closingTime - dayStartingTime) / 1000 / 60 / minimumInterval;
 
             // list of sessions by room
 
@@ -236,7 +240,7 @@ var FeedParser = function($, eventDate){
                 _.forEach(room.sessions, function(roomSession, index, sequence){
                     var previousEnd = (index > 0) ?
                             sequence[index - 1].endTime :
-                            new Date(day.times[0].start).getTime(),
+                            dayStartingTime,
                         emptyBefore = roomSession.startTime - previousEnd,
                         emptyAfter = (index === sequence.length - 1) ?
                             day.closingTime - roomSession.endTime : 0;

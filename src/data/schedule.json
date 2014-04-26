@@ -632,7 +632,8 @@
           "id": "721",
           "sessions": []
         }
-      ]
+      ],
+      "maxColspan": 27
     },
     {
       "shortLabel": "Qui 8",
@@ -1312,7 +1313,8 @@
             }
           ]
         }
-      ]
+      ],
+      "maxColspan": 27
     },
     {
       "shortLabel": "Sex 9",
@@ -1936,7 +1938,8 @@
           "id": "721",
           "sessions": []
         }
-      ]
+      ],
+      "maxColspan": 27
     },
     {
       "shortLabel": "Sab 10",
@@ -2590,7 +2593,8 @@
           "id": "721",
           "sessions": []
         }
-      ]
+      ],
+      "maxColspan": 27
     }
   ],
   "presenters": {

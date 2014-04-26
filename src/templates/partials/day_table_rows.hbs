@@ -6,7 +6,7 @@
         {{/withItem}}
         </th>
         {{#is this.sessions.length '<' 1}}
-            <td class="empty" colspan="{{../../times.length}}"></td>
+            <td class="empty" colspan="{{../../maxColspan}}"></td>
         {{/is}}
         {{#each this.sessions}}
             {{#if this.emptyBefore }}
