@@ -176,18 +176,16 @@ module.exports = function($, FISLParser, templates){
             inactiveButton = isListActive ? switchElement.find('.table-view-button') : switchElement.find('.list-view-button'),
             nextView = isListActive ? 'table' : 'list',
             destinationElement = $('#schedule-view'),
+            scheduleData = parser.parse(feedData),
             templateData = {
-                schedule_type: nextView
-            },
-            groupedBy = (nextView === 'list') ? 'time' : 'room',
-            scheduleData = parser.parse(feedData, groupedBy);
+                schedule_type: nextView,
+                schedule: scheduleData
+            };
         if (nextView === 'list') {
-            templateData.schedule_grouped_by_time = scheduleData;
             destinationElement.removeClass('schedule--table');
             destinationElement.addClass('schedule--list');
             destinationElement.attr('style', 'width:100%;');
         } else{
-            templateData.schedule_grouped_by_room = scheduleData;
             destinationElement.removeClass('schedule--list');
             destinationElement.addClass('schedule--table');
         }
