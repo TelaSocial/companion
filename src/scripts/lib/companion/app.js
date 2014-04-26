@@ -263,9 +263,11 @@ module.exports = function($, FISLParser, templates){
         }
     };
 
-    var toggleBookmarksFilter = function(){
+    var toggleBookmarksFilter = function(event){
+        console.log('toggleBookmarksFilter');
         var toggleButton = $('#filter-bookmarks'),
             isFilterOn = toggleButton.hasClass('active');
+        event.preventDefault();
         if (isFilterOn){
             toggleButton.removeClass('active');
         }else{
