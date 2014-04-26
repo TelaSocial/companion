@@ -136,6 +136,9 @@ var FeedParser = function($, eventDate){
                 timeLabel = start.split('T')[1].substring(0, 5),
                 timeShortLabel = timeLabel.replace(':00',''),
                 roomOrderIndex = _.indexOf(roomOrder, roomID),
+                startTime = startDate.getTime(),
+                endTime = startTime + duration * 60 * 1000,
+                roomSession,
                 //
                 session = {};
 
@@ -156,6 +159,7 @@ var FeedParser = function($, eventDate){
             if (days[dayIndex] === undefined){
                 days[dayIndex] = {
                     shortLabel: dayShortLabel,
+                    closingTime: 0,
                     times: {},
                     rooms: _.map(roomOrder, function(roomID){
                         return {
@@ -166,27 +170,31 @@ var FeedParser = function($, eventDate){
                 };
             }
 
-            // insert a session id in the proper room bucket for that day
+            // insert a session id and empty intervals in the proper room
+            // bucket for that day and session
             // plus the start time that will be used for ordering later
-            days[dayIndex].rooms[roomOrderIndex].sessions.push({
-                id:sessionID,
-                start:start
-            });
+
+            roomSession = {
+                sessionID:sessionID,
+                startTime: startTime,
+                endTime: endTime,
+                colspan: colspan
+            };
+            days[dayIndex].rooms[roomOrderIndex].sessions.push(roomSession);
 
 
             if (days[dayIndex].times[start] === undefined){
                 days[dayIndex].times[start] = {
+                    start: start,
                     label: timeLabel,
                     shortLabel: timeShortLabel,
                     sessions:[]
                 };
             }
             days[dayIndex].times[start].sessions.push(sessionID);
+            days[dayIndex].closingTime = Math.max(days[dayIndex].closingTime, endTime);
 
         });
-
-        // console.log(sessions);
-        // process.exit();
 
 
         _.forEach(days, function(day){
@@ -197,14 +205,36 @@ var FeedParser = function($, eventDate){
             day.times = _.map(timeDictKeys, function(key){
                 return day.times[key];
             });
+            //include colspan on each time according to the duration until next time
+            _.forEach(day.times, function(timeBreak, index, times){
+                var nextStart = (index < times.length - 1) ?
+                        new Date(times[index + 1].start).getTime() :
+                        day.closingTime,
+                    timeBreakSize = nextStart - new Date(timeBreak.start).getTime();
+                timeBreak.colspan = timeBreakSize / 1000 / 60 / minimumInterval;
+            });
 
             // list of sessions by room
 
             _.forEach(day.rooms, function(room){
                 //order sessions in a room bucket by starting time
-                room.sessions = _.sortBy(room.sessions, 'start');
-                //then just replace the array of sessionID,start pairs with sessionID value only
-                room.sessions = _.map(room.sessions, 'id');
+                room.sessions = _.sortBy(room.sessions, 'startTime');
+                //run through the sessions to add empty intervals information
+                //between sessions of the same room
+                _.forEach(room.sessions, function(roomSession, index, sequence){
+                    var previousEnd = (index > 0) ?
+                            sequence[index - 1].endTime :
+                            new Date(day.times[0].start).getTime(),
+                        emptyBefore = roomSession.startTime - previousEnd,
+                        emptyAfter = (index === sequence.length - 1) ?
+                            day.closingTime - roomSession.endTime : 0;
+                    if (emptyBefore > 0){
+                        roomSession.emptyBefore = emptyBefore / 1000 / 60 / minimumInterval;
+                    }
+                    if (emptyAfter > 0){
+                        roomSession.emptyAfter = emptyAfter / 1000 / 60 / minimumInterval;
+                    }
+                });
             });
         });
 
