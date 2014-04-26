@@ -15,10 +15,10 @@ module.exports = function($, FISLParser, templates){
         feedData,
         bookmarkedSessions;
 
-    var populateSchedule = function(data, viewArg){
-        var template = templates.app,
-            destinationElement = $('#app'),
-            view = viewArg ? viewArg : defaultView,
+    var populateSchedule = function(data, isRefresh){
+        var template = isRefresh ? templates.schedule : templates.app,
+            destinationElement = isRefresh ? $('#schedule-view') : $('#app'),
+            view = $('.list-view-button.active').length > 0 ? 'list' : defaultView,
             templateData = {
                 schedule_type: view,
                 title: 'Companion App',
@@ -276,7 +276,16 @@ module.exports = function($, FISLParser, templates){
         applyBookmarksFilter();
     };
 
+    var manualFetchClicked = function(){
+        var buttonElement = $(this);
+        buttonElement.addClass('loading');
+        loadFeed();
+    };
+
     var setupAppHeaderBar = function(){
+
+        //refresh button
+        $('#refresh-feed').click(manualFetchClicked);
 
         //toggle bookmarks-only filter
         $('#filter-bookmarks').click(toggleBookmarksFilter);
@@ -311,8 +320,10 @@ module.exports = function($, FISLParser, templates){
     };
 
     var feedLoaded = function(data, textStatus, xhr, fromCache) {
-        var scheduleData = parser.parse(data);
+        var scheduleData = parser.parse(data),
+            isRefresh = $('#schedule-view').length > 0;
         feedData = data;
+
         console.log('XML size='+data.length);
         if (xhr !== null){
             console.log('XML all headers='+xhr.getAllResponseHeaders());
@@ -322,7 +333,7 @@ module.exports = function($, FISLParser, templates){
             updateLocalFeed();
         }
         //3. render schedule
-        populateSchedule(scheduleData);
+        populateSchedule(scheduleData, isRefresh);
         //4. start framework - example: $(document).foundation()
         if (defaultView === 'list'){
             initListView();
@@ -330,13 +341,15 @@ module.exports = function($, FISLParser, templates){
             initTableView();
         }
         //setup App main bar buttons
-        setupAppHeaderBar();
+        if (!isRefresh){
+            setupAppHeaderBar();
+        }
         //bind session element events
         initSessions();
     };
 
-    var firstLoad = function(){
-        console.log('firstLoad');
+    var loadFeed = function(){
+        console.log('loadFeed');
         var appElement = $('#app'),
             feedURL = appElement.data('feed-url'),
             localFeed = appElement.data('local-feed-url');
@@ -350,7 +363,8 @@ module.exports = function($, FISLParser, templates){
         //download everything
         $.ajax({
             xhr: function() {
-                var xhr = new window.XMLHttpRequest();
+                var xhr = new window.XMLHttpRequest(),
+                    progressbar = document.getElementById('progressMeter');
                 xhr.addEventListener('progress', function(evt) {
                     var percentComplete,
                         total,
@@ -365,7 +379,9 @@ module.exports = function($, FISLParser, templates){
                     }
                     percentComplete = Math.min((evt.loaded / total), 1);
                     percentString = (Math.round(percentComplete * 100)+'%');
-                    document.getElementById('progressMeter').setAttribute('style', 'width:' + percentString +';');
+                    if (progressbar){
+                        progressbar.setAttribute('style', 'width:' + percentString +';');
+                    }
                 }, false);
                 return xhr;
             },
@@ -377,7 +393,7 @@ module.exports = function($, FISLParser, templates){
         .fail(function() {
             console.log('error');
         }).always(function() {
-            console.log('finished');
+            $('#refresh-feed').removeClass('loading');
         });
     };
 
@@ -396,7 +412,7 @@ module.exports = function($, FISLParser, templates){
             companionStore.getLastFetchInfo(function(info){
                 if (info === null){
                     //no feed information was found, this is the first run
-                    firstLoad();
+                    loadFeed();
                 }else{
                     //load the stored xml
                     companionStore.cachedXML(loadCached);
