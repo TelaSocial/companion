@@ -22,16 +22,12 @@ module.exports = function($, FISLParser, templates){
             templateData = {
                 schedule_type: view,
                 title: 'Companion App',
+                schedule: data
             },
             html;
         console.log('populateSchedule '+view);
-        if (view === 'list') {
-            templateData.schedule_grouped_by_time = data;
-        } else{
-            templateData.schedule_grouped_by_room = data;
-        }
-        // console.log(html);
         html = template(templateData);
+        // console.log(html);
         destinationElement.html(html);
     };
 
@@ -180,18 +176,16 @@ module.exports = function($, FISLParser, templates){
             inactiveButton = isListActive ? switchElement.find('.table-view-button') : switchElement.find('.list-view-button'),
             nextView = isListActive ? 'table' : 'list',
             destinationElement = $('#schedule-view'),
+            scheduleData = parser.parse(feedData),
             templateData = {
-                schedule_type: nextView
-            },
-            groupedBy = (nextView === 'list') ? 'time' : 'room',
-            scheduleData = parser.parse(feedData, groupedBy);
+                schedule_type: nextView,
+                schedule: scheduleData
+            };
         if (nextView === 'list') {
-            templateData.schedule_grouped_by_time = scheduleData;
             destinationElement.removeClass('schedule--table');
             destinationElement.addClass('schedule--list');
             destinationElement.attr('style', 'width:100%;');
         } else{
-            templateData.schedule_grouped_by_room = scheduleData;
             destinationElement.removeClass('schedule--list');
             destinationElement.addClass('schedule--table');
         }
@@ -315,8 +309,7 @@ module.exports = function($, FISLParser, templates){
     };
 
     var feedLoaded = function(data, textStatus, xhr, fromCache) {
-        var groupedBy = (defaultView === 'list') ? 'time' : 'room',
-            scheduleData = parser.parse(data, groupedBy);
+        var scheduleData = parser.parse(data);
         feedData = data;
         console.log('XML size='+data.length);
         if (xhr !== null){

@@ -1,6 +1,6 @@
 {{#is schedule_type 'list'}}
     {{> time_nav}}
-    {{> day_list schedule=schedule_grouped_by_time}}
+    {{> day_list}}
 {{else}}
-    {{>day_table schedule=schedule_grouped_by_room}}
+    {{>day_table}}
 {{/is}}

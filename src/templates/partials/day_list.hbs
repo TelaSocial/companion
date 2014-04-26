@@ -1,29 +1,11 @@
 {{#each schedule.days}}
-<h2 class="day-title">
-    {{this.shortLabel}}
-</h2>
 <div
     id="day-{{@index}}"
     class="day"
- >
-{{#each this.times}}
-    <a
-        id="day-{{../index}}-time-{{@index}}"
-        class="time-break"
-        ></a>
-    <h3>
-        {{this.label}}
-    </h3>
-    <dl
-        class="
-            session-list
-            list-group
-            "
-        >
-    {{#each this.sessions}}
-        {{> session dayIndex=../../index session_tag="div"}}
-    {{/each}}
-    </dl>
-{{/each}}
+    >
+    <h2 class="day-title">
+        {{this.shortLabel}}
+    </h2>
+    {{> time_list dayIndex=@index}}
 </div>
 {{/each}}

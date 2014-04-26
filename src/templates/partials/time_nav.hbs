@@ -6,15 +6,9 @@
         class="nav navbar-nav"
         role="navigation"
         >
-        {{#each schedule_grouped_by_time.days}}
+        {{#each schedule.days}}
             <li>{{this.shortLabel}}</li>
-            {{#each this.times}}
-            <li>
-                <a href="#day-{{../index}}-time-{{@index}}">
-                    {{this.shortLabel}}
-                </a>
-            </li>
-            {{/each}}
+            {{> timenav_day_times dayIndex=@index}}
         {{/each}}
     </ul>
 </nav>
