@@ -685,7 +685,6 @@
     <person id="1026" name="Ant&#244;nio Carlos C. Marques" candidate="693" main="1"/>
     <person id="1049" name="Gustavo N. F. Ribeiro" candidate="695" main="1"/>
     <person id="1034" name="Mara Rosane Noble Tavares" candidate="681" main="0"/>
-    <person id="1048" name="Andreia Amorim Campos" candidate="649" main="0"/>
     <person id="518" name="Wille Marcel Lima Malheiro" candidate="694" main="1"/>
     <person id="1030" name="Deivid Madalena" candidate="680" main="0"/>
     <person id="1038" name="Marcos Silva Vieira" candidate="684" main="1"/>
@@ -705,6 +704,7 @@
     <person id="1063" name="Otavio Salvador" candidate="709" main="1"/>
     <person id="1042" name="Juliana Martins" candidate="685" main="0"/>
     <person id="1064" name="Alberto J. Azevedo" candidate="711" main="1"/>
+    <person id="1048" name="Andreia Amorim Campos" candidate="649" main="0"/>
   </authorship>
   <rooms>
     <room id="8">
