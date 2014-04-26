@@ -5,6 +5,7 @@ var _ = {
         sortBy: require('lodash-node/modern/collections/sortBy'),
         map: require('lodash-node/modern/collections/map'),
         forEach: require('lodash-node/modern/collections/forEach'),
+        pluck: require('lodash-node/modern/collections/pluck'),
         compact: require('lodash-node/modern/arrays/compact'),
         indexOf: require('lodash-node/modern/arrays/indexOf'),
         keys: require('lodash-node/modern/objects/keys')
@@ -191,7 +192,12 @@ var FeedParser = function($, eventDate){
                     sessions:[]
                 };
             }
-            days[dayIndex].times[start].sessions.push(sessionID);
+            days[dayIndex].times[start].sessions.push(
+                {
+                    id:sessionID,
+                    roomOrder:roomOrderIndex
+                }
+            );
             days[dayIndex].closingTime = Math.max(days[dayIndex].closingTime, endTime);
 
         });
@@ -203,6 +209,12 @@ var FeedParser = function($, eventDate){
             //sort times and convert the times dictionary to a times array
             var timeDictKeys = _.keys(day.times).sort();
             day.times = _.map(timeDictKeys, function(key){
+                //sort sessions by room position
+                //and make it just an array of sessionIDs
+                day.times[key].sessions = _.pluck(
+                        _.sortBy(day.times[key].sessions, 'roomOrder'),
+                        'id'
+                );
                 return day.times[key];
             });
             //include colspan on each time according to the duration until next time
