@@ -7,18 +7,17 @@
         </th>
         {{#is this.sessions.length '<' 1}}
             <td class="empty" colspan="{{../../times.length}}"></td>
-        {{else}}
-            {{#each this.sessions}}
-                {{#if this.emptyBefore }}
-                    <td class="empty" colspan="{{this.emptyBefore}}"></td>
-                {{/if}}
-                {{#withItem @root.schedule.sessions key=this.sessionID}}
-                    {{>session durationColspan=../colspan dayIndex=../../../dayIndex session_tag="td"}}
-                {{/withItem}}
-                {{#if this.emptyAfter }}
-                    <td class="empty" colspan="{{this.emptyAfter}}"></td>
-                {{/if}}
-            {{/each}}
         {{/is}}
+        {{#each this.sessions}}
+            {{#if this.emptyBefore }}
+                <td class="empty" colspan="{{this.emptyBefore}}"></td>
+            {{/if}}
+            {{#withItem @root.schedule.sessions key=this.sessionID}}
+                {{>session durationColspan=../colspan dayIndex=../../../dayIndex session_tag="td"}}
+            {{/withItem}}
+            {{#if this.emptyAfter }}
+                <td class="empty" colspan="{{this.emptyAfter}}"></td>
+            {{/if}}
+        {{/each}}
     </tr>
 {{/each}}
