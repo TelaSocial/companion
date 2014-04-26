@@ -1,0 +1,9 @@
+{{#each this.times}}
+{{#is this.shortLabel.length '<' 3}}
+<li>
+    <a href="#day-{{../../dayIndex}}-time-{{../shortLabel}}">
+        {{../shortLabel}}
+    </a>
+</li>
+{{/is}}
+{{/each}}
