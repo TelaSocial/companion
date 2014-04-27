@@ -34,20 +34,22 @@ body {
 .place-icon{
     @extend .fa-map-marker;
 }
-// .list-view-button .icon{
-//     @extend .fa-th-list;
-// }
-// .table-view-button .icon{
-//     @extend .fa-th-large;
-// }
+body[data-view-mode="list"] #schedule-button > .icon,
+.list-view-button .icon{
+    @extend .fa-list;
+}
+body[data-view-mode="table"] #schedule-button > .icon,
+.table-view-button .icon{
+    @extend .fa-table;
+}
 // .clear-cache-button .icon{
 //     @extend .fa-fire;
 // }
-// .filter-bookmarks-toggle .icon,
+.filter-bookmarks-toggle .icon,
 .bookmark-button .icon{
     @extend .fa-star-o;
 }
-// .filter-bookmarks-toggle.active .icon,
+.filter-bookmarks-toggle.active .icon,
 .favorite .bookmark-button .icon{
     @extend .fa-star;
 }

@@ -2,10 +2,10 @@
     id="app-menu"
     class="navbar navbar-default navbar-static-top navbar-inverse navbar-fixed-top"
     >
-    <ul class="nav navbar-nav">
+    <ul class="nav navbar-nav" role="navigation">
         <li class="active">
-            <a href="#">
-                <span class="icon fa-list-ul"></span>
+            <a id="schedule-button" href="#">
+                <span class="icon"></span>
                 <span class="tab-name">Sessões</span>
                 <button
                     id="refresh-feed"
@@ -16,24 +16,24 @@
             </a>
         </li>
         <li>
-            <a href="#">
+            <a id="filter-bookmarks"  class="filter-bookmarks-toggle" href="#">
                 <span class="icon fa-star"></span>
-                <span class="tab-name">Escolhas</span>
+                <span class="tab-name">Escolhidas</span>
 
             </a>
         </li>
-        <li>
+        <li class="disabled">
             <a href="#">
                 <span class="icon fa-compass"></span>
                 <span class="tab-name">Mapa</span>
 
             </a>
         </li>
-        <li>
+        <li class="disabled">
             <a href="#">
                 <span class="icon fa-bell"></span>
                 <span class="tab-name">Avisos</span>
-                <span class="badge">2</span>
+                {{!-- <span class="badge">2</span> --}}
             </a>
         </li>
         <li class="dropdown navbar-right">
@@ -43,11 +43,43 @@
 
             </a>
             <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Separated link</a></li>
+                <li role="presentation" class="dropdown-header">Modo de exibição</li>
+                <li class="container">
+<div id="list-view-toggle" class="btn-group" data-toggle="buttons">
+    <label
+        class="
+            list-view-button
+            {{#is schedule_type 'list'}}
+            active
+            {{/is}}
+            btn btn-primary"
+        >
+        <input type="radio" name="schedule-view-mode" value="list"
+            {{#is schedule_type 'list'}}
+            checked
+            {{/is}}
+        >
+        <span class="icon"></span>
+        Lista
+    </label>
+    <label
+        class="
+            table-view-button
+            {{#is schedule_type 'table'}}
+            active
+            {{/is}}
+            btn btn-primary"
+        >
+        <input type="radio" name="schedule-view-mode" value="table"
+            {{#is schedule_type 'table'}}
+            checked
+            {{/is}}
+        >
+        <span class="icon"></span>
+        Tabela
+    </label>
+</div>
+                </li>
                 <li class="divider"></li>
                 <li><a href="#">One more separated link</a></li>
             </ul>

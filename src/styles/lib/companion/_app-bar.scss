@@ -1,43 +1,46 @@
 #app-menu{
     .nav{
         width: 100%;
-        li{
-            width: 15%;
-            // overflow: hidden;
-            text-align: center;
-            >.icon{
-                display: block;
-                clear:right;
+    }
+    .nav > li{
+        width: 15%;
+        text-align: center;
+        .icon{
+            display: block;
+            clear:right;
+        }
+        button{
+            @extend .btn-sm;
+            display: none;
+        }
+        > a{
+            height: 5.2em;
+            outline: 0;
+        }
+        .dropdown-menu{
+            text-align: left;
+        }
+        &.active{
+            width: 40%;
+            text-align: left;
+            .icon{
+                display: inline;
+                clear:none;
             }
             button{
-                @extend .btn-sm;
-                display: none;
+                display:block;
+                color: $navbar-default-link-color;
+                background-color: $navbar-inverse-bg;
+                border-width: 0;
+                margin-top: -3px;
+                float: right;
             }
-            a{
-                height: 5.2em;
-            }
-            &.active{
-                width: 40%;
-                text-align: left;
-                .icon{
-                    display: inline;
-                    clear:none;
-                }
-                button{
-                    display:block;
-                    color: $navbar-default-link-color;
-                    background-color: $navbar-inverse-bg;
-                    border-width: 0;
-                    margin-top: -3px;
-                    float: right;
-                }
-                a{
-                    // background-color: #fae206;
-                    // color: black;
-                    .tab-name{
-                        font-size: 1.9em;
-                        margin-left: 10px;
-                    }
+            > a{
+                // background-color: #fae206;
+                // color: black;
+                .tab-name{
+                    font-size: 1.9em;
+                    margin-left: 10px;
                 }
             }
         }

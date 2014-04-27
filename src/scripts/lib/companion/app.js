@@ -16,11 +16,10 @@ module.exports = function($, FISLParser, templates){
         bookmarkedSessions;
 
     var populateSchedule = function(data, isRefresh){
+        console.log('isRefresh', isRefresh, $('body').attr('data-view-mode'));
         var template = isRefresh ? templates.schedule : templates.app,
             destinationElement = isRefresh ? $('#schedule-view') : $('#app'),
-            view = $('#list-view-toggle').length > 0 ?
-                ($('#list-view-toggle .active').hasClass('list-view-button') ? 'list' : 'table') :
-                defaultView,
+            view = isRefresh ? $('body').attr('data-view-mode') : defaultView,
             templateData = {
                 schedule_type: view,
                 title: 'Companion App',
@@ -86,6 +85,8 @@ module.exports = function($, FISLParser, templates){
 
     var initListView = function(){
         var body = $('body');
+        console.log('initListView');
+        body.attr('data-view-mode', 'list');
         setupTimeNav();
         // enable scrollspy!
         body.scrollspy({
@@ -98,6 +99,8 @@ module.exports = function($, FISLParser, templates){
     };
 
     var initTableView = function(){
+        console.log('initTableView');
+        $('body').attr('data-view-mode', 'table');
         setupTableLine();
     };
 
@@ -172,31 +175,36 @@ module.exports = function($, FISLParser, templates){
     };
 
     var scheduleViewSwitchClicked = function(){
-        var switchElement = $(this),
-            activeButton = switchElement.find('.active'),
-            isListActive = activeButton.hasClass('list-view-button'),
-            inactiveButton = isListActive ? switchElement.find('.table-view-button') : switchElement.find('.list-view-button'),
-            nextView = isListActive ? 'table' : 'list',
+        var radioElement = $(this),
+            // radioValue = radioElement.val(),
+            // activeButton = switchElement.find('.active'),
+            // isListActive = activeButton.hasClass('list-view-button'),
+            // inactiveButton = isListActive ? switchElement.find('.table-view-button') : switchElement.find('.list-view-button'),
+            // nextView = isListActive ? 'table' : 'list',
+            nextView = radioElement.val(),
             destinationElement = $('#schedule-view'),
             scheduleData = parser.parse(feedData),
             templateData = {
                 schedule_type: nextView,
                 schedule: scheduleData
             };
+        console.log('nextView out',radioElement, nextView);
         if (nextView === 'list') {
+            // $('body').attr('data-view-mode', 'list');
             destinationElement.removeClass('schedule--table');
             destinationElement.addClass('schedule--list');
             destinationElement.attr('style', 'width:100%;');
         } else{
+            // $('body').attr('data-view-mode', 'table');
             destinationElement.removeClass('schedule--list');
             destinationElement.addClass('schedule--table');
         }
 
-        console.log('scheduleViewSwitchClicked ',nextView, activeButton, inactiveButton);
-        activeButton.removeAttr('disabled');
-        activeButton.removeClass('active');
-        inactiveButton.addClass('active');
-        inactiveButton.attr('disabled','true');
+        // console.log('scheduleViewSwitchClicked ',nextView, activeButton, inactiveButton);
+        // activeButton.removeAttr('disabled');
+        // activeButton.removeClass('active');
+        // inactiveButton.addClass('active');
+        // inactiveButton.attr('disabled','true');
 
 
         destinationElement.html('Aguarde…');
@@ -204,11 +212,14 @@ module.exports = function($, FISLParser, templates){
             var destinationElement = $('#schedule-view'),
                 template = templates.schedule,
                 html = template(templateData);
+        console.log('nextView in',nextView);
             destinationElement.html(html);
             if (nextView === 'list') {
+                console.log('a');
                 initListView();
                 // body.scrollspy('refresh');
             }else{
+                console.log('a2');
                 initTableView();
             }
             initSessions();
@@ -278,8 +289,9 @@ module.exports = function($, FISLParser, templates){
         applyBookmarksFilter();
     };
 
-    var manualFetchClicked = function(){
+    var manualFetchClicked = function(event){
         var buttonElement = $(this);
+        event.preventDefault();
         buttonElement.addClass('loading');
         loadFeed();
     };
@@ -292,7 +304,7 @@ module.exports = function($, FISLParser, templates){
         //toggle bookmarks-only filter
         $('#filter-bookmarks').click(toggleBookmarksFilter);
         //list view toggle (lists vs tables)
-        $('#list-view-toggle').click(scheduleViewSwitchClicked);
+        $('#list-view-toggle input[type="radio"]').on('change', scheduleViewSwitchClicked);
 
         //clear cache buttons
         $('#erase-feed').click(function(){
@@ -323,7 +335,9 @@ module.exports = function($, FISLParser, templates){
 
     var feedLoaded = function(data, textStatus, xhr, fromCache) {
         var scheduleData = parser.parse(data),
-            isRefresh = $('#schedule-view').length > 0;
+            isRefresh = $('#schedule-view').length > 0,
+            view = isRefresh ? $('body').attr('data-view-mode') : defaultView;
+
         feedData = data;
 
         console.log('XML size='+data.length);
@@ -337,9 +351,11 @@ module.exports = function($, FISLParser, templates){
         //3. render schedule
         populateSchedule(scheduleData, isRefresh);
         //4. start framework - example: $(document).foundation()
-        if (defaultView === 'list'){
+        if (view === 'list'){
+            console.log('b', isRefresh, $('body').attr('data-view-mode'));
             initListView();
         }else{
+            console.log('b2');
             initTableView();
         }
         //setup App main bar buttons
