@@ -2,12 +2,17 @@ body {
     padding-top: 50px; //space for the app top menu
 }
 
-#refresh-feed .icon,
-.filter-bookmarks-toggle .icon,
+#app-menu .icon{
+    @extend .fa;
+    @extend .fa-2x;
+}
+
+
+// .filter-bookmarks-toggle .icon,
+// .clear-cache-button .icon,
+// .list-view-button .icon,
+// .table-view-button .icon,
 .bookmark-button .icon,
-.clear-cache-button .icon,
-.list-view-button .icon,
-.table-view-button .icon,
 .place-icon,
 .author-icon,
 .calendar-add-icon,
@@ -29,20 +34,20 @@ body {
 .place-icon{
     @extend .fa-map-marker;
 }
-.list-view-button .icon{
-    @extend .fa-th-list;
-}
-.table-view-button .icon{
-    @extend .fa-th-large;
-}
-.clear-cache-button .icon{
-    @extend .fa-fire;
-}
-.filter-bookmarks-toggle .icon,
+// .list-view-button .icon{
+//     @extend .fa-th-list;
+// }
+// .table-view-button .icon{
+//     @extend .fa-th-large;
+// }
+// .clear-cache-button .icon{
+//     @extend .fa-fire;
+// }
+// .filter-bookmarks-toggle .icon,
 .bookmark-button .icon{
     @extend .fa-star-o;
 }
-.filter-bookmarks-toggle.active .icon,
+// .filter-bookmarks-toggle.active .icon,
 .favorite .bookmark-button .icon{
     @extend .fa-star;
 }
