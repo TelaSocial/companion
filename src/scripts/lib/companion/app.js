@@ -13,7 +13,8 @@ module.exports = function($, FISLParser, templates){
         defaultView = 'list',
         parser = new FISLParser($, new Date('2014-05-07T00:01-03:00')),
         feedData,
-        bookmarkedSessions;
+        bookmarkedSessions,
+        devSyncMode;
 
     var populateSchedule = function(data, isRefresh){
         var template = isRefresh ? templates.schedule : templates.app,
@@ -354,10 +355,14 @@ module.exports = function($, FISLParser, templates){
         console.log('loadFeed');
         var appElement = $('#app'),
             feedURL = appElement.data('feed-url'),
-            localFeed = appElement.data('local-feed-url');
+            localFeed = appElement.data('local-feed-url'),
+            isRefresh = $('#schedule-view').length > 0;
 
         if (!isCordova) {
             feedURL = localFeed;
+        }
+        if (isRefresh && devSyncMode){
+            feedURL = 'data/schedule2.xml';
         }
         //1. fetch feed
 
@@ -405,7 +410,8 @@ module.exports = function($, FISLParser, templates){
     };
 
     var onDeviceReady = function(){
-        console.log('device ready');
+        devSyncMode = ($('#app').data('sync-dev-mode') === 'on');
+        console.log('device ready, debug:'+devSyncMode);
         //load stored bookmarks
         companionStore.bookmarks(function(storedBookmarks){
             console.log('stored bookmarks:'+JSON.stringify(storedBookmarks));
