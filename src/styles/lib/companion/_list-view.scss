@@ -1,6 +1,46 @@
 //colors:
 $lightyellow: #FAFE6F;
+#app-menu{
+    .nav{
+        width: 100%;
+        li{
+            width: 15%;
+            // overflow: hidden;
+            text-align: center;
+            .icon{
+                display: block;
+                clear:right;
+                &.extra{
+                    display: none;
+                }
+            }
+            a{
+                height: 5.2em;
+            }
+            &.active{
+                width: 40%;
+                text-align: left;
+                .icon{
+                    display: inline;
+                    clear:none;
+                    &.extra{
+                        display:block;
+                        float: right;
+                    }
 
+                }
+                a{
+                    background-color: #fae206;
+                    color: black;
+                    .tab-name{
+                        font-size: 1.9em;
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
 #time-nav{
     height: 50px;
     overflow-x: scroll;
