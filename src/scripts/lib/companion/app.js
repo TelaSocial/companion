@@ -86,12 +86,13 @@ module.exports = function($, FISLParser, templates){
         boddyPaddingTop = 60 + 10, //px
         defaultView = 'list',
         parser = new FISLParser($, new Date('2014-05-07T00:01-03:00')),
-        feedData,
+        feedData, // XML
+        scheduleData, // JSON
         bookmarkedSessions,
         devSyncMode,
         updateInfo;
 
-    var populateSchedule = function(data, isRefresh){
+    var populateSchedule = function(isRefresh){
         // this function is also used for rendering the apps UI on first load
         // (template app.hbs instead of just the partial schedule.hbs)
         var template = isRefresh ? templates.schedule : templates.app,
@@ -101,7 +102,7 @@ module.exports = function($, FISLParser, templates){
                 schedule_type: view,
                 title: 'Companion App',
                 version: 'v0.4.2',
-                schedule: data,
+                schedule: scheduleData,
                 updates_user: devFakeUserUpdates,
                 updates_all: devFakeUpdates,
                 lastFetchTime: updateInfo ? updateInfo.time : null
@@ -264,7 +265,6 @@ module.exports = function($, FISLParser, templates){
             // nextView = isListActive ? 'table' : 'list',
             nextView = radioElement.val(),
             destinationElement = $('#schedule-view'),
-            scheduleData = parser.parse(feedData),
             templateData = {
                 schedule_type: nextView,
                 schedule: scheduleData
@@ -311,14 +311,12 @@ module.exports = function($, FISLParser, templates){
     };
 
     var addBookmark = function(sessionId){
-        var isFilteredViewOn = $('#filter-bookmarks').hasClass('active'),
+        var isFilteredViewOn = $('#favorites-tab').hasClass('active'),
             sessionElement = $('#session-'+sessionId);
-        bookmarkedSessions[sessionId] = {
-            id: sessionId
-            //reminder: after json refactor, just put the whole session here
-        };
+        // console.log('assBookmark',scheduleData.sessions[sessionId]);
+        bookmarkedSessions[sessionId] = scheduleData.sessions[sessionId];
         companionStore.saveBookmarks(bookmarkedSessions, function(savedData){
-            console.log('bookmark added, bookmarks:'+JSON.stringify(savedData));
+            // console.log('bookmark added, bookmarks:'+JSON.stringify(savedData));
         });
         if (isFilteredViewOn){
             sessionElement.removeClass('filtered-out');
@@ -326,7 +324,7 @@ module.exports = function($, FISLParser, templates){
     };
 
     var removeBookmark = function(sessionId){
-        var isFilteredViewOn = $('#filter-bookmarks').hasClass('active'),
+        var isFilteredViewOn = $('#favorites-tab').hasClass('active'),
             sessionElement = $('#session-'+sessionId);
         delete bookmarkedSessions[sessionId];
         companionStore.saveBookmarks(bookmarkedSessions, function(savedData){
@@ -468,17 +466,21 @@ module.exports = function($, FISLParser, templates){
 
     var updateLocalFeed = function(){
         var timestamp = Date.now();
-        updateInfo.time = timestamp;
         companionStore.updateXML(feedData, timestamp, function(){
             console.log('feed updated locally');
         });
+        companionStore.getLastFetchInfo(function(info){
+            console.log('local updateInfo loaded:',info);
+            updateInfo = info;
+        });
+
     };
 
     var feedLoaded = function(data, textStatus, xhr, fromCache) {
-        var scheduleData = parser.parse(data),
-            isRefresh = $('#schedule-view').length > 0,
+        var isRefresh = $('#schedule-view').length > 0,
             view = isRefresh ? $('body').attr('data-view-mode') : defaultView;
 
+        scheduleData = parser.parse(data);
         feedData = data;
 
         console.log('XML size='+data.length);
@@ -490,7 +492,7 @@ module.exports = function($, FISLParser, templates){
             updateLocalFeed();
         }
         //3. render schedule
-        populateSchedule(scheduleData, isRefresh);
+        populateSchedule(isRefresh);
         //4. start framework - example: $(document).foundation()
         if (view === 'list'){
             console.log('b', isRefresh, $('body').attr('data-view-mode'));
@@ -561,8 +563,13 @@ module.exports = function($, FISLParser, templates){
     };
 
     var loadCached = function(xmlData){
-        console.log('loadCached');
-        feedLoaded(xmlData, 200, null, true);
+        // console.log('loadCached '+xmlData);
+        if (xmlData !== null){
+            feedLoaded(xmlData, 200, null, true);
+        }else{
+            console.log('local storage has update nfo but not the actual feed');
+            loadFeed();
+        }
     };
 
     var onDeviceReady = function(){
@@ -574,6 +581,7 @@ module.exports = function($, FISLParser, templates){
             bookmarkedSessions = (storedBookmarks !== null) ? storedBookmarks : {};
             //then load information about last fetched xml
             companionStore.getLastFetchInfo(function(info){
+                console.log('local updateInfo loaded:',info);
                 updateInfo = info;
                 if (info === null){
                     //no feed information was found, this is the first run
