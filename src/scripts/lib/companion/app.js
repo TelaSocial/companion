@@ -23,6 +23,7 @@ module.exports = function($, FISLParser, templates){
             templateData = {
                 schedule_type: view,
                 title: 'Companion App',
+                version: 'v0.4.1',
                 schedule: data
             },
             html;
