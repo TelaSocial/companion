@@ -1,0 +1,17 @@
+.update-item{
+    @extend .alert;
+}
+
+.update-item.update-type-new{
+    @extend .alert-success;
+}
+.update-item.update-type-rename{
+    @extend .alert-info;
+}
+.update-item.update-type-room,
+.update-item.update-type-start{
+    @extend .alert-warning;
+}
+.update-item.update-type-cancel{
+    @extend .alert-danger;
+}

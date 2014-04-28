@@ -1,0 +1,25 @@
+<div
+    class="
+        update-item update-type-{{this.updateType}}
+        list-group-item
+        "
+    >
+    <dt>
+        {{this.sessionTitle}}
+        {{#is this.updateType 'rename'}}
+            foi renomeada
+        {{/is}}
+        {{#is this.updateType 'room'}}
+            mudou de sala
+        {{/is}}
+        {{#is this.updateType 'start'}}
+            mudou de horário
+        {{/is}}
+        {{#is this.updateType 'cancel'}}
+            foi cancelada
+        {{/is}}
+        {{#is this.updateType 'new'}}
+            entrou na grade
+        {{/is}}
+    </dt>
+</div>

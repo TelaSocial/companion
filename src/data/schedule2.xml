@@ -133,6 +133,24 @@
           zone="21"/>
 
 
+    <slot
+          comment="New talk"
+          id="341"
+          date="2014-05-07"
+          hour="09"
+          minute="00"
+          room="7"
+          candidate="6000"
+          area="95"
+          title="Brand new Talk"
+          value="0"
+          colspan="9"
+          color="FFC9E5"
+          abstract="Mozilla Appmaker &#233; uma ferramenta gratuita que permite que qualquer pessoa crie seus pr&#243;prios aplicativos m&#243;veis. Nessa oficina, voc&#234; vai aprender como o Appmaker funciona e como criar aplicativos m&#243;veis com ele. Al&#233;m disso, vamos desenvolver durante a oficina componentes web para serem usados dentro do pr&#243;prio Appmaker, para aumentar as possibilidades de cria&#231;&#227;o de novos aplicativos."
+          level="intermediate"
+          zone="21"/>
+
+
     <slot id="244" date="2014-05-10" hour="09" minute="00" room="6" candidate="175" area="86" title=" Workshop IoT (Internet of Things)" value="0" colspan="3" color="EEC9FF" abstract="Workshop Internet das Coisas (IoT)&#13;&#10;" level="starter" zone="18"/>
     <slot id="83" date="2014-05-08" hour="10" minute="00" room="2" candidate="157" area="59" title="GIMP: O projeto de software! O processamento de imagens nas pr&#243;ximas d&#233;cadas." value="0" colspan="3" color="C9FFDC" abstract="O GIMP se popularizou por ser um software livre completo para tratamento de imagens digitais e fotos. Apresenta-se a estrutura interna e roadmap do projeto - imagens com 4 canais de 32bit e processamento em grafos: os arquivos de c&#243;digo C usados no projeto e as tecnologias a que o programa deu origem: a GTK+, a biblioteca de processamento de imagens GEGL, etc. Como usar a infra-estrutura do GIMP em seus pr&#243;prios projetos de tratamento de imagem." level="intermediate" zone="14"/>
     <slot id="30" date="2014-05-10" hour="14" minute="00" room="8" candidate="509" area="89" title="Special Interest Groups: Current state, getting involved, and building your own" value="0" colspan="3" color="FCC9FF" abstract="This presentation will cover the current state of the Special Interest Groups (SIGs) in CentOS now, as well as outlining how to get involved with them, and how to start your own." level="intermediate" zone="19"/>
@@ -481,6 +499,10 @@
     <person id="697" name="Marcelo Dieder" candidate="369" main="1"/>
     <person id="693" name="Mauricio Piacentini" candidate="371" main="1"/>
     <person id="527" name="Ricardo Panaggio" candidate="370" main="1"/>
+
+    <person id="52700" name="Bruce Wayne" candidate="6000" main="1"/>
+    <person id="52701" name="Peter Parker" candidate="6000" main="0"/>
+
     <person id="666" name="Luan Cestari" candidate="379" main="1"/>
     <person id="609" name="Thiago Sousa Santos" candidate="380" main="1"/>
     <person id="527" name="Ricardo Panaggio" candidate="388" main="1"/>

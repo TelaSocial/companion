@@ -13,6 +13,7 @@ Handlebars.registerPartial('day_table', require('../templates/partials/day_table
 Handlebars.registerPartial('day_table_rows', require('../templates/partials/day_table_rows.hbs'));
 Handlebars.registerPartial('session', require('../templates/partials/session.hbs'));
 Handlebars.registerPartial('notifications', require('../templates/partials/notifications.hbs'));
+Handlebars.registerPartial('update_item', require('../templates/partials/update_item.hbs'));
 
 var templates = {
     app: require('../templates/partials/app.hbs'),

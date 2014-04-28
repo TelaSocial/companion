@@ -1,12 +1,25 @@
 <h1>Avisos</h1>
 
 <h2>Relacionados à suas escolhas</h2>
-<ul>
-    <li>Foo</li>
-    <li>Bar</li>
-</ul>
+<dl
+    class="
+        update-list
+        list-group
+        "
+    >
+{{#each updates_user}}
+    {{> update_item}}
+{{/each}}
+</dl>
+
 <h2>Outros avisos</h2>
-<ul>
-    <li>Foo</li>
-    <li>Bar</li>
-</ul>
+<dl
+    class="
+        update-list
+        list-group
+        "
+    >
+{{#each updates_all}}
+    {{> update_item}}
+{{/each}}
+</dl>

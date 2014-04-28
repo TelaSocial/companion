@@ -4,6 +4,80 @@ var cordovaCalendarHelper = require('./cordova_calendar');
 
 var companionStore = require('./store');
 
+var devFakeUserUpdates = [
+    {
+        sessionTitle: 'Appmaker Party',
+        updateType: 'room',
+        sessionId: '370',
+        oldValues: {
+            room: '720'
+        }
+    },
+    {
+        sessionTitle: 'Appmaker Party',
+        updateType: 'rename',
+        sessionId: '370',
+        oldValues: {
+            title: 'Appmaker Party'
+        }
+    },
+    {
+        sessionTitle: 'Appmaker Party',
+        updateType: 'start',
+        sessionId: '370',
+        oldValues: {
+            start: '2014-05-07T10:00:00-03:00'
+        }
+    },
+    {
+        sessionTitle: 'Appmaker Party',
+        updateType: 'new',
+        sessionId: '370'
+    },
+    {
+        sessionTitle: 'Appmaker Party',
+        updateType: 'cancel',
+        sessionId: '370'
+    }
+];
+
+var devFakeUpdates = [
+    {
+        sessionTitle: 'Appmaker Party',
+        updateType: 'room',
+        sessionId: '370',
+        oldValues: {
+            room: '720'
+        }
+    },
+    {
+        sessionTitle: 'Brand new Talk',
+        updateType: 'new',
+        sessionId: '6000'
+    },
+    {
+        sessionTitle: 'Appmaker Party',
+        updateType: 'rename',
+        sessionId: '370',
+        oldValues: {
+            title: 'Appmaker Party'
+        }
+    },
+    {
+        sessionTitle: 'Appmaker Party',
+        updateType: 'start',
+        sessionId: '370',
+        oldValues: {
+            start: '2014-05-07T10:00:00-03:00'
+        }
+    },
+    {
+        sessionTitle: 'Appmaker Party',
+        updateType: 'cancel',
+        sessionId: '370'
+    }
+];
+
 var POLL_INTERVAL = 1 * 60 * 1000; //1 minute
 
 module.exports = function($, FISLParser, templates){
@@ -25,7 +99,9 @@ module.exports = function($, FISLParser, templates){
                 schedule_type: view,
                 title: 'Companion App',
                 version: 'v0.4.2',
-                schedule: data
+                schedule: data,
+                updates_user: devFakeUserUpdates,
+                updates_all: devFakeUpdates
             },
             html;
         console.log('populateSchedule '+view);
