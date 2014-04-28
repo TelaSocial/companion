@@ -329,7 +329,6 @@ module.exports = function($, FISLParser, templates){
         //developer submenu toggle
         $('#developer-submenu-toggle').click(function(e){
             var toggleLink = $(this),
-                isClosed = toggleLink.hasClass('closed'),
                 affectedItems = $(toggleLink.data('target'));
             toggleLink.toggleClass('closed');
             affectedItems.toggleClass('collapse');
