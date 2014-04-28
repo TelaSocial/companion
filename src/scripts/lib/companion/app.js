@@ -9,7 +9,7 @@ var POLL_INTERVAL = 1 * 60 * 1000; //1 minute
 module.exports = function($, FISLParser, templates){
     var isCordova = document.URL.substring(0,4) === 'file',
         cordovaFunctions = new cordovaCalendarHelper($),
-        boddyPaddingTop = 50, //px
+        boddyPaddingTop = 70 + 10, //px
         defaultView = 'list',
         parser = new FISLParser($, new Date('2014-05-07T00:01-03:00')),
         feedData,
