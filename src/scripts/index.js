@@ -2,8 +2,10 @@
 
 var Handlebars = require('hbsfy/runtime');
 require('./lib/handlebars-helpers/helpers')(Handlebars);
-var scheduleTemplate = require('../templates/partials/schedule.hbs');
+var scheduleTemplate = require('../templates/partials/schedule.hbs'),
+    lastSyncTemplate = require('../templates/partials/last_sync_time.hbs');
 Handlebars.registerPartial('app_menu', require('../templates/partials/app_menu.hbs'));
+Handlebars.registerPartial('last_sync_time', lastSyncTemplate);
 Handlebars.registerPartial('schedule', scheduleTemplate);
 Handlebars.registerPartial('day_list', require('../templates/partials/day_list.hbs'));
 Handlebars.registerPartial('time_list', require('../templates/partials/time_list.hbs'));
@@ -17,7 +19,8 @@ Handlebars.registerPartial('update_item', require('../templates/partials/update_
 
 var templates = {
     app: require('../templates/partials/app.hbs'),
-    schedule: scheduleTemplate
+    schedule: scheduleTemplate,
+    last_sync_time: lastSyncTemplate
 };
 
 var FISLParser = require('./lib/fisl/feed-parser');

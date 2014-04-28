@@ -36,8 +36,10 @@
                 <span class="tab-name">Menu</span>
 
             </a>
-            <ul class="dropdown-menu">
-                <li role="presentation" class="dropdown-header">Última sincronização: 10 min atrás</li>
+            <ul id="app-menu" class="dropdown-menu">
+                <li id="last-sync-menu-header" role="presentation" class="dropdown-header">
+                {{> last_sync_time}}
+                </li>
                 <li>
                     <a id="refresh-feed">
                         <span class="icon"></span>

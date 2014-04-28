@@ -88,10 +88,12 @@ module.exports = function($, FISLParser, templates){
         parser = new FISLParser($, new Date('2014-05-07T00:01-03:00')),
         feedData,
         bookmarkedSessions,
-        devSyncMode;
+        devSyncMode,
+        updateInfo;
 
     var populateSchedule = function(data, isRefresh){
-        console.log('isRefresh', isRefresh, $('body').attr('data-view-mode'));
+        // this function is also used for rendering the apps UI on first load
+        // (template app.hbs instead of just the partial schedule.hbs)
         var template = isRefresh ? templates.schedule : templates.app,
             destinationElement = isRefresh ? $('#schedule-view') : $('#app'),
             view = isRefresh ? $('body').attr('data-view-mode') : defaultView,
@@ -101,7 +103,8 @@ module.exports = function($, FISLParser, templates){
                 version: 'v0.4.2',
                 schedule: data,
                 updates_user: devFakeUserUpdates,
-                updates_all: devFakeUpdates
+                updates_all: devFakeUpdates,
+                lastFetchTime: updateInfo ? updateInfo.time : null
             },
             html;
         console.log('populateSchedule '+view);
@@ -415,6 +418,18 @@ module.exports = function($, FISLParser, templates){
             ];
         $(mainSections.join(',')).click(appTabClicked);
 
+        //update sync time on each dropdown open
+        $('#app-menu').on('show.bs.dropdown', function(){
+            var updateInfoContainer = $('#last-sync-menu-header'),
+                template = templates.last_sync_time;
+            updateInfoContainer.html(
+                template({
+                    lastFetchTime: updateInfo.time
+                })
+            );
+            console.log('sync display updated');
+        });
+
         //developer submenu toggle
         $('#developer-submenu-toggle').click(function(e){
             var toggleLink = $(this),
@@ -453,6 +468,7 @@ module.exports = function($, FISLParser, templates){
 
     var updateLocalFeed = function(){
         var timestamp = Date.now();
+        updateInfo.time = timestamp;
         companionStore.updateXML(feedData, timestamp, function(){
             console.log('feed updated locally');
         });
@@ -558,6 +574,7 @@ module.exports = function($, FISLParser, templates){
             bookmarkedSessions = (storedBookmarks !== null) ? storedBookmarks : {};
             //then load information about last fetched xml
             companionStore.getLastFetchInfo(function(info){
+                updateInfo = info;
                 if (info === null){
                     //no feed information was found, this is the first run
                     loadFeed();
