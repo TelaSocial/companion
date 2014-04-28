@@ -9,7 +9,7 @@ var POLL_INTERVAL = 1 * 60 * 1000; //1 minute
 module.exports = function($, FISLParser, templates){
     var isCordova = document.URL.substring(0,4) === 'file',
         cordovaFunctions = new cordovaCalendarHelper($),
-        boddyPaddingTop = 70 + 10, //px
+        boddyPaddingTop = 60 + 10, //px
         defaultView = 'list',
         parser = new FISLParser($, new Date('2014-05-07T00:01-03:00')),
         feedData,
@@ -268,7 +268,7 @@ module.exports = function($, FISLParser, templates){
     };
 
     var applyBookmarksFilter = function(){
-        var isFilterOn = $('#filter-bookmarks').hasClass('active');
+        var isFilterOn = $('#favorites-tab').hasClass('active');
         if (isFilterOn){
             $('.session:not(.favorite)').addClass('filtered-out');
         }else{
@@ -296,7 +296,35 @@ module.exports = function($, FISLParser, templates){
         loadFeed();
     };
 
+    var appTabClicked = function (event){
+        var linkElement = $(this),
+            parentLi = linkElement.parents('li').first(),
+            allTabs = parentLi.parents('.nav').first().find('li'),
+            isDisabled = parentLi.hasClass('disabled'),
+            sectionName = linkElement.attr('id').split('-')[0];
+        event.preventDefault();
+        console.log(sectionName);
+        if (isDisabled) {
+            return false;
+        }
+        allTabs.removeClass('active');
+        parentLi.addClass('active');
+
+        if ( (sectionName === 'schedule') || (sectionName === 'favorites') ){
+            applyBookmarksFilter();
+        }
+    };
+
     var setupAppHeaderBar = function(){
+
+        //main sections tabs
+        var mainSections = [
+                '#schedule-section-link',
+                '#favorites-section-link',
+                '#map-section-link',
+                '#alerts-section-link'
+            ];
+        $(mainSections.join(',')).click(appTabClicked);
 
         //developer submenu toggle
         $('#developer-submenu-toggle').click(function(e){

@@ -14,9 +14,13 @@
             display: none;
         }
         > a{
-            height: 70px;
+            height: 60px;
             font-size: 0.7em;
             outline: 0;
+            .tab-name{
+                white-space: nowrap;
+                // display: none;
+            }
         }
         .dropdown-menu{
             text-align: left;
@@ -41,7 +45,8 @@
                 // color: black;
                 .tab-name{
                     font-size: 1.2em;
-                    // margin-left: 10px;
+                    display: inline;
+                    margin-left: 10px;
                 }
             }
         }

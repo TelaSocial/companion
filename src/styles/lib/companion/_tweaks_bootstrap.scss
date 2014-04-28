@@ -1,11 +1,7 @@
 body {
-    padding-top: 70px; //space for the app top menu
+    padding-top: 60px; //space for the app top menu
 }
 
-// .filter-bookmarks-toggle .icon,
-// .clear-cache-button .icon,
-// .list-view-button .icon,
-// .table-view-button .icon,
 #app-menu .icon,
 .bookmark-button .icon,
 .place-icon,
@@ -14,7 +10,6 @@ body {
 .collapse-caret{
     @extend .fa;
 }
-
 #app-menu ul.nav > li > a > .icon{
     @extend .fa-3x;
 }
@@ -35,24 +30,26 @@ body {
 .place-icon{
     @extend .fa-map-marker;
 }
-body[data-view-mode="list"] #schedule-button > .icon,
+body[data-view-mode="list"] #schedule-section-link > .icon,
 .list-view-button .icon{
     @extend .fa-list;
 }
-body[data-view-mode="table"] #schedule-button > .icon,
+body[data-view-mode="table"] #schedule-section-link > .icon,
 .table-view-button .icon{
     @extend .fa-table;
 }
-// .clear-cache-button .icon{
-//     @extend .fa-fire;
-// }
-.filter-bookmarks-toggle .icon,
 .bookmark-button .icon{
     @extend .fa-star-o;
 }
-.filter-bookmarks-toggle.active .icon,
+#favorites-section-link .icon,
 .favorite .bookmark-button .icon{
     @extend .fa-star;
+}
+#map-section-link .icon{
+    @extend .fa-compass;
+}
+#alerts-section-link .icon{
+    @extend .fa-bell;
 }
 #refresh-feed .icon{
     @extend .fa-refresh;
