@@ -1,0 +1,10 @@
+.app-panel{
+    display: none;
+    // position: absolute;
+    top: $app-bar-height;
+    width: 100%;
+    background-color: $panel-bg;
+}
+.app-panel.selected{
+    display: block;
+}

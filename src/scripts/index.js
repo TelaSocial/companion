@@ -12,6 +12,7 @@ Handlebars.registerPartial('timenav_day_times', require('../templates/partials/t
 Handlebars.registerPartial('day_table', require('../templates/partials/day_table.hbs'));
 Handlebars.registerPartial('day_table_rows', require('../templates/partials/day_table_rows.hbs'));
 Handlebars.registerPartial('session', require('../templates/partials/session.hbs'));
+Handlebars.registerPartial('notifications', require('../templates/partials/notifications.hbs'));
 
 var templates = {
     app: require('../templates/partials/app.hbs'),

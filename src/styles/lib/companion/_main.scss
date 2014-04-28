@@ -1,0 +1,9 @@
+@import "lib/companion/app-bar";
+@import "lib/companion/list-view";
+@import "lib/companion/table-view";
+@import "lib/companion/app-panel";
+@import "lib/companion/icons";
+
+body {
+    padding-top: $app-bar-height; //space for the app top menu
+}

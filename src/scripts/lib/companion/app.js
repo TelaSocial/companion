@@ -315,9 +315,17 @@ module.exports = function($, FISLParser, templates){
         allTabs.removeClass('active');
         parentLi.addClass('active');
 
+        //hide all app panels
+        $('.app-panel').removeClass('selected');
+
+        //different actions depending on which tab selected
         if ( (sectionName === 'schedule') || (sectionName === 'favorites') ){
             applyBookmarksFilter();
+            $('#schedule-view').addClass('selected');
+        } else {
+            $('#'+ sectionName +'-view').addClass('selected');
         }
+
     };
 
     var setupAppHeaderBar = function(){
@@ -327,7 +335,7 @@ module.exports = function($, FISLParser, templates){
                 '#schedule-section-link',
                 '#favorites-section-link',
                 '#map-section-link',
-                '#alerts-section-link'
+                '#notifications-section-link'
             ];
         $(mainSections.join(',')).click(appTabClicked);
 
@@ -487,6 +495,7 @@ module.exports = function($, FISLParser, templates){
             });
         });
     };
+
     $(document).ready(function() {
         if (isCordova) {
             document.addEventListener('deviceready', onDeviceReady, false);

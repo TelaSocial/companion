@@ -1,7 +1,3 @@
-body {
-    padding-top: 60px; //space for the app top menu
-}
-
 #app-menu .icon,
 .bookmark-button .icon,
 .place-icon,
@@ -48,7 +44,7 @@ body[data-view-mode="table"] #schedule-section-link > .icon,
 #map-section-link .icon{
     @extend .fa-compass;
 }
-#alerts-section-link .icon{
+#notifications-section-link .icon{
     @extend .fa-bell;
 }
 #refresh-feed .icon{
