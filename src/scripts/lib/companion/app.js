@@ -298,6 +298,15 @@ module.exports = function($, FISLParser, templates){
 
     var setupAppHeaderBar = function(){
 
+        //developer submenu toggle
+        $('#developer-submenu-toggle').click(function(e){
+            var toggleLink = $(this),
+                isClosed = toggleLink.hasClass('closed'),
+                affectedItems = $(toggleLink.data('target'));
+            toggleLink.toggleClass('closed');
+            affectedItems.toggleClass('collapse');
+            e.stopPropagation();
+        });
         //refresh button
         $('#refresh-feed').click(manualFetchClicked);
 

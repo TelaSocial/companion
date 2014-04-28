@@ -2,16 +2,11 @@ body {
     padding-top: 50px; //space for the app top menu
 }
 
-#app-menu .icon{
-    @extend .fa;
-    @extend .fa-2x;
-}
-
-
 // .filter-bookmarks-toggle .icon,
 // .clear-cache-button .icon,
 // .list-view-button .icon,
 // .table-view-button .icon,
+#app-menu .icon,
 .bookmark-button .icon,
 .place-icon,
 .author-icon,
@@ -19,9 +14,15 @@ body {
 .collapse-caret{
     @extend .fa;
 }
+
+#app-menu ul.nav > li > a > .icon{
+    @extend .fa-3x;
+}
+#developer-submenu-toggle.closed .icon,
 .collapse-caret{
     @extend .fa-chevron-right;
 }
+#developer-submenu-toggle .icon,
 .session.opened .collapse-caret{
     @extend .fa-chevron-down;
 }

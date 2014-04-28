@@ -5,7 +5,7 @@
     .nav > li{
         width: 15%;
         text-align: center;
-        .icon{
+        > a > .icon{
             display: block;
             clear:right;
         }
@@ -14,7 +14,8 @@
             display: none;
         }
         > a{
-            height: 5.2em;
+            height: 70px;
+            font-size: 0.7em;
             outline: 0;
         }
         .dropdown-menu{
@@ -27,20 +28,20 @@
                 display: inline;
                 clear:none;
             }
-            button{
-                display:block;
-                color: $navbar-default-link-color;
-                background-color: $navbar-inverse-bg;
-                border-width: 0;
-                margin-top: -3px;
-                float: right;
-            }
+            // button{
+            //     display:block;
+            //     color: $navbar-default-link-color;
+            //     background-color: $navbar-inverse-bg;
+            //     border-width: 0;
+            //     margin-top: -0.9em;
+            //     float: right;
+            // }
             > a{
                 // background-color: #fae206;
                 // color: black;
                 .tab-name{
-                    font-size: 1.9em;
-                    margin-left: 10px;
+                    font-size: 1.2em;
+                    // margin-left: 10px;
                 }
             }
         }
