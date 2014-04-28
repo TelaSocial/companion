@@ -51,7 +51,24 @@
 @import "lib/bootstrap/utilities";
 @import "lib/bootstrap/responsive-utilities";
 
+// Font Awesome
+@import "lib/font-awesome/variables";
+@import "lib/font-awesome/mixins";
+@import "lib/font-awesome/path";
+@import "lib/font-awesome/core";
+@import "lib/font-awesome/larger";
+@import "lib/font-awesome/fixed-width";
+@import "lib/font-awesome/list";
+@import "lib/font-awesome/bordered-pulled";
+@import "lib/font-awesome/spinning";
+@import "lib/font-awesome/rotated-flipped";
+@import "lib/font-awesome/stacked";
+@import "lib/font-awesome/icons";
+
+
+
 //companion styles
+@import "lib/companion/app-bar";
 @import "lib/companion/list-view";
 @import "lib/companion/table-view";
 

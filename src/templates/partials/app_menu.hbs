@@ -2,69 +2,115 @@
     id="app-menu"
     class="navbar navbar-default navbar-static-top navbar-inverse navbar-fixed-top"
     >
-    <div class="navbar-left">
-        <button
-            class="
-                clear-cache-button
-                btn btn-default dropdown-toggle navbar-btn"
-            data-toggle="dropdown">
-            <span class="icon"></span>
-        </button>
-        <ul class="dropdown-menu">
-            <li><a id="erase-feed" href="#">Clear local schedule cache</a></li>
-            <li><a id="erase-bookmarks" href="#">Clear local bookmarks cache</a></li>
-            <li><a id="erase-all" href="#">Erase all local data</a></li>
-        </ul>
-        <button
-            id="refresh-feed"
-            class="
-                btn btn-default navbar-btn"
-            >
-            <span class="icon"></span>
-        </button>
-    </div>
-
-    <div class="navbar-right">
-        <button
-            id="filter-bookmarks"
-            class="
-                filter-bookmarks-toggle
-                btn btn-default navbar-btn"
-            >
-            <span class="icon"></span>
-        </button>
-        <div
-            id="list-view-toggle"
-            class="btn-group"
-            >
-            <button
-                type="button"
-                class="
-                    list-view-button
-                    btn btn-default
-                    {{#is schedule_type 'list'}}
-                    active
-                    " disabled
-                    {{else}}
-                    "
-                    {{/is}}
-                >
+    <ul class="nav navbar-nav" role="navigation">
+        <li class="active">
+            <a id="schedule-section-link" href="#">
                 <span class="icon"></span>
-            </button>
-            <button
-                type="button"
-                class="
-                    table-view-button
-                    btn btn-default
-                    {{#is schedule_type 'table'}}
-                    active
-                    " disabled
-                    {{else}}
-                    "
-                    {{/is}}
-                    >
-                    <span class="icon"></span>
-            </button>
-        </div>
-    </div>
+                <span class="tab-name">FISL 15</span>
+            </a>
+        </li>
+        <li id="favorites-tab">
+            <a id="favorites-section-link" class="filter-bookmarks-toggle" href="#">
+                <span class="icon"></span>
+                <span class="tab-name">Escolhidas</span>
+
+            </a>
+        </li>
+        <li class="disabled">
+            <a id="map-section-link" href="#">
+                <span class="icon"></span>
+                <span class="tab-name">Mapa</span>
+
+            </a>
+        </li>
+        <li class="disabled">
+            <a id="alerts-section-link" href="#">
+                <span class="icon"></span>
+                <span class="tab-name">Avisos</span>
+                {{!-- <span class="badge">2</span> --}}
+            </a>
+        </li>
+        <li class="dropdown navbar-right">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <span class="icon fa-ellipsis-h"></span>
+                <span class="tab-name">Menu</span>
+
+            </a>
+            <ul class="dropdown-menu">
+                <li role="presentation" class="dropdown-header">Última sincronização: 10 min atrás</li>
+                <li>
+                    <a id="refresh-feed">
+                        <span class="icon"></span>
+                        Atualizar programação agora
+                    </a>
+                </li>
+                <li class="divider"></li>
+                <li role="presentation" class="dropdown-header">Modo de exibição</li>
+                <li class="container">
+                    <div id="list-view-toggle" class="btn-group" data-toggle="buttons">
+                        <label
+                            class="
+                                list-view-button
+                                {{#is schedule_type 'list'}}
+                                active
+                                {{/is}}
+                                btn btn-primary"
+                            >
+                            <input type="radio" name="schedule-view-mode" value="list"
+                                {{#is schedule_type 'list'}}
+                                checked
+                                {{/is}}
+                            >
+                            <span class="icon"></span>
+                            Lista
+                        </label>
+                        <label
+                            class="
+                                table-view-button
+                                {{#is schedule_type 'table'}}
+                                active
+                                {{/is}}
+                                btn btn-primary"
+                            >
+                            <input type="radio" name="schedule-view-mode" value="table"
+                                {{#is schedule_type 'table'}}
+                                checked
+                                {{/is}}
+                            >
+                            <span class="icon"></span>
+                            Tabela
+                        </label>
+                    </div>
+                </li>
+                <li class="divider"></li>
+                <li role="presentation" class="collapse dropdown-header">Versão: {{version}}</li>
+                <li>
+                    <a
+                        id="developer-submenu-toggle"
+                        class="closed"
+                        data-toggle="collapse"
+                        data-target=".developers-submenu"
+                        >
+                        <span class="icon"></span>
+                        Desenvolvedores
+                    </a>
+                </li>
+                    <li class="collapse developers-submenu">
+                        <a id="source-code-link" href="https://github.com/TelaSocial/companion" target="_blank">
+                            <span class="icon fa-cogs"></span>
+                            Código fonte
+                        </a>
+                    </li>
+                    <li class="collapse developers-submenu">
+                        <a id="issues-link" href="https://github.com/TelaSocial/companion/issues?state=open" target="_blank">
+                            <span class="icon fa-bug"></span>
+                            Reportar um bug
+                        </a>
+                    </li>
+                    <li class="collapse developers-submenu"><a id="erase-feed" href="#"><span class="icon fa-eraser"></span> Apagar cache da grade</a></li>
+                    <li class="collapse developers-submenu"><a id="erase-bookmarks" href="#"><span class="icon fa-eraser"></span> Apagar todas as escolhas</a></li>
+                    <li class="collapse developers-submenu"><a id="erase-all" href="#"><span class="icon fa-fire"></span> Destruir todos os dados locais</a></li>
+            </ul>
+        </li>
+  </ul>
 </nav>
