@@ -223,6 +223,9 @@ module.exports = function($, FISLParser, templates){
                 console.log('a2');
                 initTableView();
             }
+            //refresh this dom element so Android browser can display the new icon
+            $('#schedule-section-link .icon').hide();
+            setTimeout(function() { $('#schedule-section-link .icon').show(); }, 0);
             initSessions();
         }, 1);
     };
