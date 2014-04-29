@@ -17,7 +17,8 @@
             "452",
             "653",
             "370",
-            "670"
+            "670",
+            "714"
           ],
           "colspan": 3
         },
@@ -55,12 +56,14 @@
             "337",
             "537",
             "298",
+            "484",
             "86",
             "711",
             "221",
             "543",
             "259",
-            "253"
+            "253",
+            "717"
           ],
           "colspan": 3
         },
@@ -104,14 +107,15 @@
             "142",
             "75",
             "591",
-            "484",
+            "699",
             "97",
             "35",
             "193",
             "656",
             "600",
             "438",
-            "673"
+            "673",
+            "718"
           ],
           "colspan": 3
         },
@@ -295,11 +299,16 @@
               "colspan": 3
             },
             {
+              "sessionID": "484",
+              "startTime": 1399474800000,
+              "endTime": 1399478400000,
+              "colspan": 3
+            },
+            {
               "sessionID": "122",
               "startTime": 1399478400000,
               "endTime": 1399482000000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "colspan": 3
             },
             {
               "sessionID": "642",
@@ -308,7 +317,7 @@
               "colspan": 3
             },
             {
-              "sessionID": "484",
+              "sessionID": "699",
               "startTime": 1399485600000,
               "endTime": 1399489200000,
               "colspan": 3
@@ -630,7 +639,26 @@
         },
         {
           "id": "721",
-          "sessions": []
+          "sessions": [
+            {
+              "sessionID": "714",
+              "startTime": 1399464000000,
+              "endTime": 1399474800000,
+              "colspan": 9
+            },
+            {
+              "sessionID": "717",
+              "startTime": 1399474800000,
+              "endTime": 1399485600000,
+              "colspan": 9
+            },
+            {
+              "sessionID": "718",
+              "startTime": 1399485600000,
+              "endTime": 1399496400000,
+              "colspan": 9
+            }
+          ]
         }
       ],
       "maxColspan": 27
@@ -645,6 +673,7 @@
           "shortLabel": "09",
           "sessions": [
             "55",
+            "712",
             "614",
             "615",
             "609",
@@ -665,7 +694,6 @@
           "sessions": [
             "258",
             "157",
-            "699",
             "677"
           ],
           "colspan": 2
@@ -891,11 +919,16 @@
           "id": "2",
           "sessions": [
             {
+              "sessionID": "712",
+              "startTime": 1399550400000,
+              "endTime": 1399554000000,
+              "colspan": 3
+            },
+            {
               "sessionID": "157",
               "startTime": 1399554000000,
               "endTime": 1399557600000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "colspan": 3
             },
             {
               "sessionID": "559",
@@ -951,16 +984,11 @@
               "colspan": 3
             },
             {
-              "sessionID": "699",
-              "startTime": 1399554000000,
-              "endTime": 1399557600000,
-              "colspan": 3
-            },
-            {
               "sessionID": "623",
               "startTime": 1399557600000,
               "endTime": 1399561200000,
-              "colspan": 3
+              "colspan": 3,
+              "emptyBefore": 3
             },
             {
               "sessionID": "603",
@@ -1335,7 +1363,8 @@
             "661",
             "388",
             "668",
-            "681"
+            "681",
+            "713"
           ],
           "colspan": 3
         },
@@ -1359,6 +1388,7 @@
           "shortLabel": "11",
           "sessions": [
             "621",
+            "648",
             "569",
             "230",
             "308",
@@ -1375,13 +1405,13 @@
           "sessions": [
             "602",
             "522",
-            "328",
             "345",
             "197",
             "618",
             "186",
             "474",
-            "300"
+            "300",
+            "715"
           ],
           "colspan": 3
         },
@@ -1428,7 +1458,8 @@
             "204",
             "664",
             "697",
-            "685"
+            "685",
+            "716"
           ],
           "colspan": 3
         },
@@ -1525,11 +1556,16 @@
               "colspan": 3
             },
             {
+              "sessionID": "648",
+              "startTime": 1399644000000,
+              "endTime": 1399647600000,
+              "colspan": 3
+            },
+            {
               "sessionID": "522",
               "startTime": 1399647600000,
               "endTime": 1399651200000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "colspan": 3
             },
             {
               "sessionID": "336",
@@ -1576,14 +1612,8 @@
             {
               "sessionID": "569",
               "startTime": 1399644000000,
-              "endTime": 1399647600000,
-              "colspan": 3
-            },
-            {
-              "sessionID": "328",
-              "startTime": 1399647600000,
               "endTime": 1399651200000,
-              "colspan": 3
+              "colspan": 6
             },
             {
               "sessionID": "541",
@@ -1936,7 +1966,26 @@
         },
         {
           "id": "721",
-          "sessions": []
+          "sessions": [
+            {
+              "sessionID": "713",
+              "startTime": 1399636800000,
+              "endTime": 1399647600000,
+              "colspan": 9
+            },
+            {
+              "sessionID": "715",
+              "startTime": 1399647600000,
+              "endTime": 1399658400000,
+              "colspan": 9
+            },
+            {
+              "sessionID": "716",
+              "startTime": 1399658400000,
+              "endTime": 1399669200000,
+              "colspan": 9
+            }
+          ]
         }
       ],
       "maxColspan": 27
@@ -1969,7 +2018,6 @@
           "sessions": [
             "272",
             "477",
-            "709",
             "518",
             "224",
             "688"
@@ -1983,7 +2031,7 @@
           "sessions": [
             "467",
             "604",
-            "648",
+            "709",
             "330",
             "9",
             "632",
@@ -2186,7 +2234,7 @@
               "colspan": 3
             },
             {
-              "sessionID": "648",
+              "sessionID": "709",
               "startTime": 1399730400000,
               "endTime": 1399734000000,
               "colspan": 3
@@ -2314,16 +2362,11 @@
               "colspan": 3
             },
             {
-              "sessionID": "709",
-              "startTime": 1399726800000,
-              "endTime": 1399730400000,
-              "colspan": 3
-            },
-            {
               "sessionID": "9",
               "startTime": 1399730400000,
               "endTime": 1399734000000,
-              "colspan": 3
+              "colspan": 3,
+              "emptyBefore": 3
             },
             {
               "sessionID": "57",
@@ -3374,13 +3417,6 @@
         "id": "666",
         "name": "Luan Cestari",
         "main": false
-      }
-    ],
-    "328": [
-      {
-        "id": "664",
-        "name": "Marcio Galli",
-        "main": true
       }
     ],
     "330": [
@@ -4810,6 +4846,11 @@
         "id": "1042",
         "name": "Juliana Martins",
         "main": false
+      },
+      {
+        "id": "1040",
+        "name": "Mariana Manfredi",
+        "main": false
       }
     ],
     "686": [
@@ -4992,6 +5033,41 @@
         "name": "Alberto J. Azevedo",
         "main": true
       }
+    ],
+    "712": [
+      {
+        "id": "1065",
+        "name": "Bruno Souza",
+        "main": true
+      }
+    ],
+    "714": [
+      {
+        "id": "3",
+        "name": "Organização 0",
+        "main": true
+      }
+    ],
+    "717": [
+      {
+        "id": "3",
+        "name": "Organização 0",
+        "main": true
+      }
+    ],
+    "718": [
+      {
+        "id": "3",
+        "name": "Organização 0",
+        "main": true
+      }
+    ],
+    "719": [
+      {
+        "id": "3",
+        "name": "Organização 0",
+        "main": true
+      }
     ]
   },
   "rooms": {
@@ -5072,7 +5148,7 @@
       "venue": "1",
       "capacity": 40,
       "translation": false,
-      "name": "701 OF1",
+      "name": "701 - OF1",
       "position": 14
     },
     "717": {
@@ -6033,17 +6109,6 @@
       "duration": 60,
       "roomID": "5"
     },
-    "328": {
-      "id": "328",
-      "title": "Boot para a Web com Gecko: Desktop, dispositivos móveis, TVs e mais ",
-      "abstract": "São mais de 15 anos de Gecko e hoje a Mozilla carrega um dos projetos mais importantes que levam a Web além do desktop — para as pessoas. O Boot 2 Gecko [1],  e suas camadas, Gecko, Gaia e Gonk; levaram o Firefox para a experiência de usuário de um moderno sistema operacional. Assim se consolida a Web, primeiro em dispositivos móveis, mas surgem grandes desafios e oportunidades da Web ter maior impacto.\r\n",
-      "areaID": "89",
-      "zoneID": "19",
-      "level": "intermediate",
-      "start": "2014-05-09T12:00:00-03:00",
-      "duration": 60,
-      "roomID": "2"
-    },
     "330": {
       "id": "330",
       "title": "Introdução ao Git",
@@ -6436,7 +6501,7 @@
       "areaID": "89",
       "zoneID": "19",
       "level": "intermediate",
-      "start": "2014-05-07T15:00:00-03:00",
+      "start": "2014-05-07T12:00:00-03:00",
       "duration": 60,
       "roomID": "3"
     },
@@ -6778,7 +6843,7 @@
       "zoneID": "19",
       "level": "advanced",
       "start": "2014-05-09T11:00:00-03:00",
-      "duration": 60,
+      "duration": 120,
       "roomID": "2"
     },
     "577": {
@@ -7014,7 +7079,7 @@
     },
     "605": {
       "id": "605",
-      "title": "\"Open Source Free Energy; Harnessing the Wheelwork of Nature\", and I would cove",
+      "title": "Open Source Free Energy; Harnessing the Wheelwork of Nature",
       "abstract": "We've all heard the term \"free energy\" bantered around. Usually it conjures images of tin foil hat wearers hoping for the holy grail that never seems to show up. However, along with the 25 legitimate conventional \"free energy\" modalities, including solar, wind, geothermal, tide, ocean currents, waste to energy, etc; there are likewise 25 un-conventional modalities that actually hold tremendous promise: cold fusion, electromagnetic overunity, magnet motors, water as fuel, zero point energy, etc.",
       "areaID": "89",
       "zoneID": "19",
@@ -7168,11 +7233,11 @@
     },
     "621": {
       "id": "621",
-      "title": "Going Mobile and surviving",
-      "abstract": "A hands-on intro to adaptive web design, mobile experience, accessibility, UI, common mistakes and helpful solutions.",
+      "title": "Designing for Mobile and Surviving",
+      "abstract": "A hands-on intro to adaptive web design, mobile experience, UI, common mistakes and helpful solutions. And a live demonstration of designing-in-the-browser.",
       "areaID": "68",
       "zoneID": "14",
-      "level": "",
+      "level": "starter",
       "start": "2014-05-09T11:00:00-03:00",
       "duration": 60,
       "roomID": "8"
@@ -7459,9 +7524,9 @@
       "areaID": "89",
       "zoneID": "19",
       "level": "",
-      "start": "2014-05-10T11:00:00-03:00",
+      "start": "2014-05-09T11:00:00-03:00",
       "duration": 60,
-      "roomID": "2"
+      "roomID": "1"
     },
     "649": {
       "id": "649",
@@ -7987,7 +8052,7 @@
       "areaID": "38",
       "zoneID": "13",
       "level": "",
-      "start": "2014-05-08T10:00:00-03:00",
+      "start": "2014-05-07T15:00:00-03:00",
       "duration": 60,
       "roomID": "3"
     },
@@ -8097,9 +8162,9 @@
       "areaID": "44",
       "zoneID": "13",
       "level": "",
-      "start": "2014-05-10T10:00:00-03:00",
+      "start": "2014-05-10T11:00:00-03:00",
       "duration": 60,
-      "roomID": "5"
+      "roomID": "2"
     },
     "711": {
       "id": "711",
@@ -8111,6 +8176,83 @@
       "start": "2014-05-07T12:00:00-03:00",
       "duration": 60,
       "roomID": "5"
+    },
+    "712": {
+      "id": "712",
+      "title": "Java 8: a nova versão de Java, totalmente Livre",
+      "abstract": "Há poucas semanas foi lancada a nova versao da plataforma Java, o Java 8. Totalmente desenvolvida atraves do projeto livre OpenJDK, com a participacao de uma forte comunidade, a nova versao de Java traz novidades importantes para a tecnologia.",
+      "areaID": "62",
+      "zoneID": "14",
+      "level": "",
+      "start": "2014-05-08T09:00:00-03:00",
+      "duration": 60,
+      "roomID": "2"
+    },
+    "713": {
+      "id": "713",
+      "title": "Hackathon Wikipédia 0",
+      "abstract": "Hackathon Wikipédia 0",
+      "areaID": "6",
+      "zoneID": "21",
+      "level": "",
+      "start": "2014-05-09T09:00:00-03:00",
+      "duration": 180,
+      "roomID": "721"
+    },
+    "714": {
+      "id": "714",
+      "title": "RodAda Hacker 0",
+      "abstract": "Programação para meninas ...",
+      "areaID": "53",
+      "zoneID": "14",
+      "level": "",
+      "start": "2014-05-07T09:00:00-03:00",
+      "duration": 180,
+      "roomID": "721"
+    },
+    "715": {
+      "id": "715",
+      "title": "Hackathon Wikipédia 1",
+      "abstract": "Hackathon Wikipédia 1",
+      "areaID": "6",
+      "zoneID": "21",
+      "level": "",
+      "start": "2014-05-09T12:00:00-03:00",
+      "duration": 180,
+      "roomID": "721"
+    },
+    "716": {
+      "id": "716",
+      "title": "Hackathon Wikipédia 2",
+      "abstract": "Hackathon 2",
+      "areaID": "6",
+      "zoneID": "21",
+      "level": "",
+      "start": "2014-05-09T15:00:00-03:00",
+      "duration": 180,
+      "roomID": "721"
+    },
+    "717": {
+      "id": "717",
+      "title": "RodAda Hacker 1",
+      "abstract": "RodAda Hacker 1",
+      "areaID": "53",
+      "zoneID": "14",
+      "level": "",
+      "start": "2014-05-07T12:00:00-03:00",
+      "duration": 180,
+      "roomID": "721"
+    },
+    "718": {
+      "id": "718",
+      "title": "RodAda Hacker 2",
+      "abstract": "RodAda Hacker 0",
+      "areaID": "53",
+      "zoneID": "14",
+      "level": "",
+      "start": "2014-05-07T15:00:00-03:00",
+      "duration": 180,
+      "roomID": "721"
     }
   }
 }
