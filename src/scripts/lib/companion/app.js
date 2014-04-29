@@ -47,7 +47,7 @@ module.exports = function($, FISLParser, templates){
             templateData = {
                 schedule_type: view,
                 title: 'Companion App',
-                version: 'v0.4.2',
+                version: 'v0.4.3',
                 schedule: scheduleData,
                 updates_user: _.filter(updatesLog, isSessionFavorite),
                 updates_all: _.filter(updatesLog, isSessionNotFavorite),
