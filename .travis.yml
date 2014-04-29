@@ -1,8 +1,11 @@
 language: node_js
 node_js:
-    - "0.10.15"
+    - "0.10.25"
 before_script:
     - "npm install -g gulp"
+    - "pwd"
     - "cd node_modules/gulp-assemble/"
+    - "pwd"
     - "npm install git://github.com/assemble/assemble.git#504abaa4df1c377e5525d6f800447ec3552960fb"
     - "cd ../../"
+    - "pwd"
