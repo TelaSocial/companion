@@ -478,7 +478,8 @@ module.exports = function($, FISLParser, templates){
         var recentChanges = [],
             oldSessionIDs = _.keys(previousScheduleData.sessions),
             newSessionIDs = _.keys(scheduleData.sessions),
-            removedSessions = _.difference(oldSessionIDs, newSessionIDs);
+            removedSessions = _.difference(oldSessionIDs, newSessionIDs),
+            timestamp = Date.now();
 
         //removed sessions
         console.log('Removed sessions:'+removedSessions);
@@ -486,7 +487,8 @@ module.exports = function($, FISLParser, templates){
             recentChanges.push({
                 sessionId: sessionID,
                 sessionTitle: previousScheduleData.sessions[sessionID].title,
-                updateType: 'cancel'
+                updateType: 'cancel',
+                time: timestamp
             });
         });
 
@@ -501,7 +503,8 @@ module.exports = function($, FISLParser, templates){
                         recentChanges.push({
                             sessionId: session.id,
                             sessionTitle: oldSession.title,
-                            updateType: 'rename'
+                            updateType: 'rename',
+                            time: timestamp
                         });
                     }
                     if (oldSession.roomID !== session.roomID){
@@ -509,6 +512,7 @@ module.exports = function($, FISLParser, templates){
                             sessionId: session.id,
                             sessionTitle: oldSession.title,
                             updateType: 'room',
+                            time: timestamp,
                             oldValues: {
                                 roomID: oldSession.roomID
                             }
@@ -519,6 +523,7 @@ module.exports = function($, FISLParser, templates){
                             sessionId: session.id,
                             sessionTitle: oldSession.title,
                             updateType: 'start',
+                            time: timestamp,
                             oldValues: {
                                 start: oldSession.start
                             }
@@ -527,6 +532,12 @@ module.exports = function($, FISLParser, templates){
                 }
             }else{
                 console.log('Session '+session.id+' is a new one!');
+                recentChanges.push({
+                    sessionId: session.id,
+                    sessionTitle: session.title,
+                    updateType: 'new',
+                    time: timestamp
+                });
             }
         });
 
