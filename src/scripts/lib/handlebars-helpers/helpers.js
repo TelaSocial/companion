@@ -135,7 +135,7 @@ Handlebars.registerHelper('withItem', function(object, options) {
           return "" + interval + " min atrás";
         }
         if (Math.floor(seconds) === 0) {
-          return 'Agora pouco';
+          return 'agora há pouco';
         } else {
           return Math.floor(seconds) + ' seg atrás';
         }

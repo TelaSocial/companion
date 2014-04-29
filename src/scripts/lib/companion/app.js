@@ -8,6 +8,7 @@ var companionStore = require('./store');
 var _ = {
         forEach: require('lodash-node/modern/collections/forEach'),
         difference: require('lodash-node/modern/arrays/difference'),
+        union: require('lodash-node/modern/arrays/union'),
         isEqual: require('lodash-node/modern/objects/isEqual'),
         keys: require('lodash-node/modern/objects/keys')
     };
@@ -99,7 +100,8 @@ module.exports = function($, FISLParser, templates){
         previousScheduleData = null,
         bookmarkedSessions,
         devSyncMode,
-        updateInfo;
+        updateInfo,
+        updatesLog = [];
 
     var populateSchedule = function(isRefresh){
         // this function is also used for rendering the apps UI on first load
@@ -113,7 +115,7 @@ module.exports = function($, FISLParser, templates){
                 version: 'v0.4.2',
                 schedule: scheduleData,
                 updates_user: devFakeUserUpdates,
-                updates_all: devFakeUpdates,
+                updates_all: updatesLog,
                 lastFetchTime: updateInfo ? updateInfo.time : null
             },
             html;
@@ -473,6 +475,17 @@ module.exports = function($, FISLParser, templates){
         });
     };
 
+    var redrawNotifications = function(){
+        var destinationElement = $('#notifications-view'),
+            template = templates.notifications;
+        destinationElement.html(
+            template({
+                updates_user: devFakeUserUpdates,
+                updates_all: updatesLog
+            })
+        );
+    };
+
     var compareSchedules = function(){
         console.log('compareSchedules!');
         var recentChanges = [],
@@ -542,6 +555,9 @@ module.exports = function($, FISLParser, templates){
         });
 
         console.log('latest changes: '+JSON.stringify(recentChanges, null, '  '));
+        updatesLog = _.union(updatesLog, recentChanges);
+        console.log('all changes: '+JSON.stringify(updatesLog, null, '  '));
+        redrawNotifications();
 
     };
 

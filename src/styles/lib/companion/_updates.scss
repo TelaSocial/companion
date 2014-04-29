@@ -1,17 +1,26 @@
+#notifications-view h2{
+    color:$gray-light;
+}
 .update-item{
-    @extend .alert;
+    // @extend .alert;
 }
 
-.update-item.update-type-new{
+.update-item.update-type-new .change-text{
     @extend .alert-success;
 }
-.update-item.update-type-rename{
+.update-item.update-type-rename .change-text{
     @extend .alert-info;
 }
-.update-item.update-type-room,
-.update-item.update-type-start{
+.update-item.update-type-room .change-text,
+.update-item.update-type-start .change-text{
     @extend .alert-warning;
 }
-.update-item.update-type-cancel{
+.update-item.update-type-cancel .change-text{
     @extend .alert-danger;
+}
+
+.update-item .time-ago{
+    float:right;
+    font-size: 0.9em;
+    opacity:0.8;
 }

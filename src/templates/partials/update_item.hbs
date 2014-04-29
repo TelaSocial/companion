@@ -6,6 +6,7 @@
     >
     <dt>
         {{this.sessionTitle}}
+        <span class="change-text">
         {{#is this.updateType 'rename'}}
             foi renomeada
         {{/is}}
@@ -21,5 +22,9 @@
         {{#is this.updateType 'new'}}
             entrou na grade
         {{/is}}
+        </span>
+        <span class="time-ago">
+            {{timeago this.time}}
+        </span>
     </dt>
 </div>
