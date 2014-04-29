@@ -113,7 +113,27 @@
     <slot id="113" date="2014-05-07" hour="13" minute="00" room="3" candidate="122" area="41" title="Muitos mestres, um escravo: MariaDB replica&#231;&#227;o multi source" value="0" colspan="3" color="FFF3C9" abstract="A replica&#231;&#227;o de m&#250;ltiples origens significa que um servidor tem muitos mestres a partir dos quais replica os dados. MariaDB, o fork da DB relacional MySQL, faz un tempo que lan&#231;ou esse recurso de alto desempenho, para resolver problemas tais como:&#13;&#10;a) Dados divididos ao longo de muitos mestres e se debe obt&#234;-los todos juntos em um server para fazer consultas anal&#237;ticas no conjunto.&#13;&#10;b) Seus dados estao espalhados por v&#225;rios serves e gostaria de ter todos eles em uma m&#225;quina como um backup extra." level="intermediate" zone="13"/>
     <slot id="158" date="2014-05-08" hour="13" minute="00" room="4" candidate="267" area="80" title="Openbrew: Cerveja artesanal livre" value="0" colspan="3" color="D2C9FF" abstract="J&#225; imaginou fazer cerveja em casa? Isso &#233; mais f&#225;cil que voc&#234; imagina, com a ajuda de muita gente legal, criatividade e de comunidades super ativas, qualquer um pode conseguir. Come&#231;amos uma cerveja aberta chamada MotoContinuo h&#225; 1 ano atr&#225;s e hoje j&#225; contamos com diversos colaboradores e mais de 40l de cerveja por m&#234;s. Vamos fazer cerveja colaborativamente?" level="starter" zone="16"/>
     <slot id="284" date="2014-05-10" hour="13" minute="00" room="7" candidate="171" area="89" title="Os Perseguidos da Guerra pela Informa&#231;&#227;o e Privacidade vs. Espionagem" value="0" colspan="3" color="FCC9FF" abstract="Palestra proposta por integrantes do Partido Pirata do Brasil, em formato de desconfer&#234;ncia onde analisaremos os casos de Edward Snowden, Julian Assange, Aaron Swartz, Chelsea Manning e Gottfrid Svartholm, perseguidos por lutarem pela informa&#231;&#227;o e conhecimento livres. O Wikileaks, o livro Cypherpunks, a NSA e o Prism tamb&#233;m ser&#227;o abordados. O Marco Civil da Internet e a interfer&#234;ncia das Teles e a criminaliza&#231;&#227;o do The Piratebay. Al&#233;m da espionagem sem limites de governos e grandes corpora&#231;&#245;es." level="starter" zone="19"/>
-    <slot id="190" date="2014-05-08" hour="09" minute="00" room="5" candidate="609" area="86" title="Encontro Comunit&#225;rio do Noosfero" value="0" colspan="6" color="EEC9FF" abstract="O Noosfero &#233; uma plataforma web para redes sociais e de economia solid&#225;ria que possui as funcionalidades de Blog, CMS, RSS, discuss&#227;o tem&#225;tica, agenda de eventos, chat e intelig&#234;ncia econ&#244;mica colaborativa num mesmo sistema." level="" zone="18"/>
+
+
+    <!--
+  Session removed!!!
+
+    <slot
+          id="190"
+          date="2014-05-08"
+          hour="09"
+          minute="00"
+          room="5"
+          candidate="609"
+          area="86"
+          title="Encontro Comunit&#225;rio do Noosfero"
+          value="0"
+          colspan="6"
+          color="EEC9FF"
+          abstract="O Noosfero &#233; uma plataforma web para redes sociais e de economia solid&#225;ria que possui as funcionalidades de Blog, CMS, RSS, discuss&#227;o tem&#225;tica, agenda de eventos, chat e intelig&#234;ncia econ&#244;mica colaborativa num mesmo sistema."
+          level=""
+          zone="18"/>
+    -->
 
     <slot
           comment="Room change test: from 720 to 721"

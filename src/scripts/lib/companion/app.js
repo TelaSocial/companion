@@ -4,6 +4,14 @@ var cordovaCalendarHelper = require('./cordova_calendar');
 
 var companionStore = require('./store');
 
+//custom lodash
+var _ = {
+        forEach: require('lodash-node/modern/collections/forEach'),
+        difference: require('lodash-node/modern/arrays/difference'),
+        isEqual: require('lodash-node/modern/objects/isEqual'),
+        keys: require('lodash-node/modern/objects/keys')
+    };
+
 var devFakeUserUpdates = [
     {
         sessionTitle: 'Appmaker Party',
@@ -87,7 +95,8 @@ module.exports = function($, FISLParser, templates){
         defaultView = 'list',
         parser = new FISLParser($, new Date('2014-05-07T00:01-03:00')),
         feedData, // XML
-        scheduleData, // JSON
+        scheduleData = null, // JSON
+        previousScheduleData = null,
         bookmarkedSessions,
         devSyncMode,
         updateInfo;
@@ -464,6 +473,67 @@ module.exports = function($, FISLParser, templates){
         });
     };
 
+    var compareSchedules = function(){
+        console.log('compareSchedules!');
+        var recentChanges = [],
+            oldSessionIDs = _.keys(previousScheduleData.sessions),
+            newSessionIDs = _.keys(scheduleData.sessions),
+            removedSessions = _.difference(oldSessionIDs, newSessionIDs);
+
+        //removed sessions
+        console.log('Removed sessions:'+removedSessions);
+        _.forEach(removedSessions, function(sessionID){
+            recentChanges.push({
+                sessionId: sessionID,
+                sessionTitle: previousScheduleData.sessions[sessionID].title,
+                updateType: 'cancel'
+            });
+        });
+
+        //updated and added sessions
+        _.forEach(scheduleData.sessions, function(session){
+            if (previousScheduleData.sessions[session.id] !== undefined){
+                var oldSession = previousScheduleData.sessions[session.id],
+                    changed = !_.isEqual(session, oldSession);
+                if (changed){
+                    console.log(oldSession.title + ' has changed');
+                    if (oldSession.title !== session.title){
+                        recentChanges.push({
+                            sessionId: session.id,
+                            sessionTitle: oldSession.title,
+                            updateType: 'rename'
+                        });
+                    }
+                    if (oldSession.roomID !== session.roomID){
+                        recentChanges.push({
+                            sessionId: session.id,
+                            sessionTitle: oldSession.title,
+                            updateType: 'room',
+                            oldValues: {
+                                roomID: oldSession.roomID
+                            }
+                        });
+                    }
+                    if (oldSession.start !== session.start){
+                        recentChanges.push({
+                            sessionId: session.id,
+                            sessionTitle: oldSession.title,
+                            updateType: 'start',
+                            oldValues: {
+                                start: oldSession.start
+                            }
+                        });
+                    }
+                }
+            }else{
+                console.log('Session '+session.id+' is a new one!');
+            }
+        });
+
+        console.log('latest changes: '+JSON.stringify(recentChanges, null, '  '));
+
+    };
+
     var updateLocalFeed = function(){
         var timestamp = Date.now();
         companionStore.updateXML(feedData, timestamp, function(){
@@ -479,7 +549,7 @@ module.exports = function($, FISLParser, templates){
     var feedLoaded = function(data, textStatus, xhr, fromCache) {
         var isRefresh = $('#schedule-view').length > 0,
             view = isRefresh ? $('body').attr('data-view-mode') : defaultView;
-
+        previousScheduleData = scheduleData;
         scheduleData = parser.parse(data);
         feedData = data;
 
@@ -488,6 +558,10 @@ module.exports = function($, FISLParser, templates){
             console.log('XML all headers='+xhr.getAllResponseHeaders());
         }
         if (!fromCache){
+            //compare new scheduleData with the old one
+            if (previousScheduleData !== null){
+                compareSchedules();
+            }
             //store fetched data and metadata
             updateLocalFeed();
         }
