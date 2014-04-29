@@ -304,19 +304,6 @@ module.exports = function($, FISLParser, templates){
         }
     };
 
-    var toggleBookmarksFilter = function(event){
-        console.log('toggleBookmarksFilter');
-        var toggleButton = $('#filter-bookmarks'),
-            isFilterOn = toggleButton.hasClass('active');
-        event.preventDefault();
-        if (isFilterOn){
-            toggleButton.removeClass('active');
-        }else{
-            toggleButton.addClass('active');
-        }
-        applyBookmarksFilter();
-    };
-
     var manualFetchClicked = function(event){
         var buttonElement = $(this);
         event.preventDefault();
@@ -329,7 +316,8 @@ module.exports = function($, FISLParser, templates){
             parentLi = linkElement.parents('li').first(),
             allTabs = parentLi.parents('.nav').first().find('li'),
             isDisabled = parentLi.hasClass('disabled'),
-            sectionName = linkElement.attr('id').split('-')[0];
+            sectionName = linkElement.attr('id').split('-')[0],
+            view = $('body').attr('data-view-mode');
         event.preventDefault();
         console.log(sectionName);
         if (isDisabled) {
@@ -345,6 +333,11 @@ module.exports = function($, FISLParser, templates){
         if ( (sectionName === 'schedule') || (sectionName === 'favorites') ){
             applyBookmarksFilter();
             $('#schedule-view').addClass('selected');
+            if (view === 'list'){
+                initListView();
+            }else{
+                initTableView();
+            }
         } else {
             $('#'+ sectionName +'-view').addClass('selected');
         }
@@ -388,8 +381,6 @@ module.exports = function($, FISLParser, templates){
         //refresh button
         $('#refresh-feed').click(manualFetchClicked);
 
-        //toggle bookmarks-only filter
-        $('#filter-bookmarks').click(toggleBookmarksFilter);
         //list view toggle (lists vs tables)
         $('#list-view-toggle input[type="radio"]').on('change', scheduleViewSwitchClicked);
 
@@ -543,10 +534,8 @@ module.exports = function($, FISLParser, templates){
         populateSchedule(isRefresh);
         //4. start framework - example: $(document).foundation()
         if (view === 'list'){
-            console.log('b', isRefresh, $('body').attr('data-view-mode'));
             initListView();
         }else{
-            console.log('b2');
             initTableView();
         }
         //setup App main bar buttons
