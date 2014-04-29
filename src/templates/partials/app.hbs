@@ -2,8 +2,14 @@
     {{> app_menu}}
     <div
         id="schedule-view"
-        class="schedule schedule--{{schedule_type}}"
+        class="app-panel selected schedule schedule--{{schedule_type}}"
         >
         {{> schedule}}
+    </div>
+    <div
+        id="notifications-view"
+        class="app-panel"
+        >
+        {{> notifications}}
     </div>
 </div>

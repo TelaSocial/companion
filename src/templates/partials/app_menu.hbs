@@ -23,8 +23,8 @@
 
             </a>
         </li>
-        <li class="disabled">
-            <a id="alerts-section-link" href="#">
+        <li class="">
+            <a id="notifications-section-link" href="#">
                 <span class="icon"></span>
                 <span class="tab-name">Avisos</span>
                 {{!-- <span class="badge">2</span> --}}
@@ -36,8 +36,10 @@
                 <span class="tab-name">Menu</span>
 
             </a>
-            <ul class="dropdown-menu">
-                <li role="presentation" class="dropdown-header">Última sincronização: 10 min atrás</li>
+            <ul id="app-menu" class="dropdown-menu">
+                <li id="last-sync-menu-header" role="presentation" class="dropdown-header">
+                {{> last_sync_time}}
+                </li>
                 <li>
                     <a id="refresh-feed">
                         <span class="icon"></span>
@@ -109,6 +111,7 @@
                     </li>
                     <li class="collapse developers-submenu"><a id="erase-feed" href="#"><span class="icon fa-eraser"></span> Apagar cache da grade</a></li>
                     <li class="collapse developers-submenu"><a id="erase-bookmarks" href="#"><span class="icon fa-eraser"></span> Apagar todas as escolhas</a></li>
+                    <li class="collapse developers-submenu"><a id="erase-notifications" href="#"><span class="icon fa-eraser"></span> Apagar todos os avisos</a></li>
                     <li class="collapse developers-submenu"><a id="erase-all" href="#"><span class="icon fa-fire"></span> Destruir todos os dados locais</a></li>
             </ul>
         </li>

@@ -4,6 +4,16 @@ var cordovaCalendarHelper = require('./cordova_calendar');
 
 var companionStore = require('./store');
 
+//custom lodash
+var _ = {
+        forEach: require('lodash-node/modern/collections/forEach'),
+        filter: require('lodash-node/modern/collections/filter'),
+        difference: require('lodash-node/modern/arrays/difference'),
+        union: require('lodash-node/modern/arrays/union'),
+        isEqual: require('lodash-node/modern/objects/isEqual'),
+        keys: require('lodash-node/modern/objects/keys')
+    };
+
 var POLL_INTERVAL = 1 * 60 * 1000; //1 minute
 
 module.exports = function($, FISLParser, templates){
@@ -12,19 +22,36 @@ module.exports = function($, FISLParser, templates){
         boddyPaddingTop = 60 + 10, //px
         defaultView = 'list',
         parser = new FISLParser($, new Date('2014-05-07T00:01-03:00')),
-        feedData,
-        bookmarkedSessions;
+        feedData, // XML
+        scheduleData = null, // JSON
+        previousScheduleData = null,
+        bookmarkedSessions,
+        devSyncMode,
+        updateInfo,
+        updatesLog = [];
 
-    var populateSchedule = function(data, isRefresh){
-        console.log('isRefresh', isRefresh, $('body').attr('data-view-mode'));
+    var isSessionFavorite = function(session){
+        return bookmarkedSessions[session.sessionId] !== undefined;
+    };
+
+    var isSessionNotFavorite = function(session){
+        return bookmarkedSessions[session.sessionId] === undefined;
+    };
+
+    var populateSchedule = function(isRefresh){
+        // this function is also used for rendering the apps UI on first load
+        // (template app.hbs instead of just the partial schedule.hbs)
         var template = isRefresh ? templates.schedule : templates.app,
             destinationElement = isRefresh ? $('#schedule-view') : $('#app'),
             view = isRefresh ? $('body').attr('data-view-mode') : defaultView,
             templateData = {
                 schedule_type: view,
                 title: 'Companion App',
-                version: 'v0.4.2',
-                schedule: data
+                version: 'v0.4.3',
+                schedule: scheduleData,
+                updates_user: _.filter(updatesLog, isSessionFavorite),
+                updates_all: _.filter(updatesLog, isSessionNotFavorite),
+                lastFetchTime: updateInfo ? updateInfo.time : null
             },
             html;
         console.log('populateSchedule '+view);
@@ -184,7 +211,6 @@ module.exports = function($, FISLParser, templates){
             // nextView = isListActive ? 'table' : 'list',
             nextView = radioElement.val(),
             destinationElement = $('#schedule-view'),
-            scheduleData = parser.parse(feedData),
             templateData = {
                 schedule_type: nextView,
                 schedule: scheduleData
@@ -231,12 +257,10 @@ module.exports = function($, FISLParser, templates){
     };
 
     var addBookmark = function(sessionId){
-        var isFilteredViewOn = $('#filter-bookmarks').hasClass('active'),
+        var isFilteredViewOn = $('#favorites-tab').hasClass('active'),
             sessionElement = $('#session-'+sessionId);
-        bookmarkedSessions[sessionId] = {
-            id: sessionId
-            //reminder: after json refactor, just put the whole session here
-        };
+        // console.log('assBookmark',scheduleData.sessions[sessionId]);
+        bookmarkedSessions[sessionId] = scheduleData.sessions[sessionId];
         companionStore.saveBookmarks(bookmarkedSessions, function(savedData){
             console.log('bookmark added, bookmarks:'+JSON.stringify(savedData));
         });
@@ -246,7 +270,7 @@ module.exports = function($, FISLParser, templates){
     };
 
     var removeBookmark = function(sessionId){
-        var isFilteredViewOn = $('#filter-bookmarks').hasClass('active'),
+        var isFilteredViewOn = $('#favorites-tab').hasClass('active'),
             sessionElement = $('#session-'+sessionId);
         delete bookmarkedSessions[sessionId];
         companionStore.saveBookmarks(bookmarkedSessions, function(savedData){
@@ -280,19 +304,6 @@ module.exports = function($, FISLParser, templates){
         }
     };
 
-    var toggleBookmarksFilter = function(event){
-        console.log('toggleBookmarksFilter');
-        var toggleButton = $('#filter-bookmarks'),
-            isFilterOn = toggleButton.hasClass('active');
-        event.preventDefault();
-        if (isFilterOn){
-            toggleButton.removeClass('active');
-        }else{
-            toggleButton.addClass('active');
-        }
-        applyBookmarksFilter();
-    };
-
     var manualFetchClicked = function(event){
         var buttonElement = $(this);
         event.preventDefault();
@@ -305,7 +316,8 @@ module.exports = function($, FISLParser, templates){
             parentLi = linkElement.parents('li').first(),
             allTabs = parentLi.parents('.nav').first().find('li'),
             isDisabled = parentLi.hasClass('disabled'),
-            sectionName = linkElement.attr('id').split('-')[0];
+            sectionName = linkElement.attr('id').split('-')[0],
+            view = $('body').attr('data-view-mode');
         event.preventDefault();
         console.log(sectionName);
         if (isDisabled) {
@@ -314,9 +326,25 @@ module.exports = function($, FISLParser, templates){
         allTabs.removeClass('active');
         parentLi.addClass('active');
 
+        //hide all app panels
+        $('.app-panel').removeClass('selected');
+
+        //different actions depending on which tab selected
         if ( (sectionName === 'schedule') || (sectionName === 'favorites') ){
             applyBookmarksFilter();
+            $('#schedule-view').addClass('selected');
+            if (view === 'list'){
+                initListView();
+            }else{
+                initTableView();
+            }
+        } else {
+            $('#'+ sectionName +'-view').addClass('selected');
         }
+        if (sectionName === 'notifications'){
+            redrawNotifications();
+        }
+
     };
 
     var setupAppHeaderBar = function(){
@@ -326,9 +354,21 @@ module.exports = function($, FISLParser, templates){
                 '#schedule-section-link',
                 '#favorites-section-link',
                 '#map-section-link',
-                '#alerts-section-link'
+                '#notifications-section-link'
             ];
         $(mainSections.join(',')).click(appTabClicked);
+
+        //update sync time on each dropdown open
+        $('#app-menu').on('show.bs.dropdown', function(){
+            var updateInfoContainer = $('#last-sync-menu-header'),
+                template = templates.last_sync_time;
+            updateInfoContainer.html(
+                template({
+                    lastFetchTime: updateInfo.time
+                })
+            );
+            console.log('sync display updated');
+        });
 
         //developer submenu toggle
         $('#developer-submenu-toggle').click(function(e){
@@ -341,8 +381,6 @@ module.exports = function($, FISLParser, templates){
         //refresh button
         $('#refresh-feed').click(manualFetchClicked);
 
-        //toggle bookmarks-only filter
-        $('#filter-bookmarks').click(toggleBookmarksFilter);
         //list view toggle (lists vs tables)
         $('#list-view-toggle input[type="radio"]').on('change', scheduleViewSwitchClicked);
 
@@ -359,6 +397,13 @@ module.exports = function($, FISLParser, templates){
                 bookmarkedSessions = {};
             });
         });
+        $('#erase-notifications').click(function(){
+            companionStore.eraseUpdates(function(){
+                console.log('notifications erased');
+                updatesLog = [];
+                redrawNotifications();
+            });
+        });
         $('#erase-all').click(function(){
             companionStore.nuke(function(){
                 console.log('all local data erased');
@@ -366,18 +411,111 @@ module.exports = function($, FISLParser, templates){
         });
     };
 
+    var redrawNotifications = function(){
+        var destinationElement = $('#notifications-view'),
+            template = templates.notifications;
+        destinationElement.html(
+            template({
+                updates_user: _.filter(updatesLog, isSessionFavorite),
+                updates_all: _.filter(updatesLog, isSessionNotFavorite)
+            })
+        );
+    };
+
+    var compareSchedules = function(){
+        console.log('compareSchedules!');
+        var recentChanges = [],
+            oldSessionIDs = _.keys(previousScheduleData.sessions),
+            newSessionIDs = _.keys(scheduleData.sessions),
+            removedSessions = _.difference(oldSessionIDs, newSessionIDs),
+            timestamp = Date.now();
+
+        //removed sessions
+        console.log('Removed sessions:'+removedSessions);
+        _.forEach(removedSessions, function(sessionID){
+            recentChanges.push({
+                sessionId: sessionID,
+                sessionTitle: previousScheduleData.sessions[sessionID].title,
+                updateType: 'cancel',
+                time: timestamp
+            });
+        });
+
+        //updated and added sessions
+        _.forEach(scheduleData.sessions, function(session){
+            if (previousScheduleData.sessions[session.id] !== undefined){
+                var oldSession = previousScheduleData.sessions[session.id],
+                    changed = !_.isEqual(session, oldSession);
+                if (changed){
+                    console.log(oldSession.title + ' has changed');
+                    if (oldSession.title !== session.title){
+                        recentChanges.push({
+                            sessionId: session.id,
+                            sessionTitle: oldSession.title,
+                            updateType: 'rename',
+                            time: timestamp
+                        });
+                    }
+                    if (oldSession.roomID !== session.roomID){
+                        recentChanges.push({
+                            sessionId: session.id,
+                            sessionTitle: oldSession.title,
+                            updateType: 'room',
+                            time: timestamp,
+                            oldValues: {
+                                roomID: oldSession.roomID
+                            }
+                        });
+                    }
+                    if (oldSession.start !== session.start){
+                        recentChanges.push({
+                            sessionId: session.id,
+                            sessionTitle: oldSession.title,
+                            updateType: 'start',
+                            time: timestamp,
+                            oldValues: {
+                                start: oldSession.start
+                            }
+                        });
+                    }
+                }
+            }else{
+                console.log('Session '+session.id+' is a new one!');
+                recentChanges.push({
+                    sessionId: session.id,
+                    sessionTitle: session.title,
+                    updateType: 'new',
+                    time: timestamp
+                });
+            }
+        });
+
+        console.log('latest changes: '+JSON.stringify(recentChanges, null, '  '));
+        updatesLog = _.union(recentChanges.reverse(), updatesLog);
+
+        companionStore.saveUpdatesLog(updatesLog, function(dataSaved){
+            console.log('all changes saved: '+JSON.stringify(dataSaved, null, '  '));
+        });
+        redrawNotifications();
+    };
+
     var updateLocalFeed = function(){
         var timestamp = Date.now();
         companionStore.updateXML(feedData, timestamp, function(){
             console.log('feed updated locally');
         });
+        companionStore.getLastFetchInfo(function(info){
+            console.log('local updateInfo loaded:',info);
+            updateInfo = info;
+        });
+
     };
 
     var feedLoaded = function(data, textStatus, xhr, fromCache) {
-        var scheduleData = parser.parse(data),
-            isRefresh = $('#schedule-view').length > 0,
+        var isRefresh = $('#schedule-view').length > 0,
             view = isRefresh ? $('body').attr('data-view-mode') : defaultView;
-
+        previousScheduleData = scheduleData;
+        scheduleData = parser.parse(data);
         feedData = data;
 
         console.log('XML size='+data.length);
@@ -385,17 +523,19 @@ module.exports = function($, FISLParser, templates){
             console.log('XML all headers='+xhr.getAllResponseHeaders());
         }
         if (!fromCache){
+            //compare new scheduleData with the old one
+            if (previousScheduleData !== null){
+                compareSchedules();
+            }
             //store fetched data and metadata
             updateLocalFeed();
         }
         //3. render schedule
-        populateSchedule(scheduleData, isRefresh);
+        populateSchedule(isRefresh);
         //4. start framework - example: $(document).foundation()
         if (view === 'list'){
-            console.log('b', isRefresh, $('body').attr('data-view-mode'));
             initListView();
         }else{
-            console.log('b2');
             initTableView();
         }
         //setup App main bar buttons
@@ -410,10 +550,14 @@ module.exports = function($, FISLParser, templates){
         console.log('loadFeed');
         var appElement = $('#app'),
             feedURL = appElement.data('feed-url'),
-            localFeed = appElement.data('local-feed-url');
+            localFeed = appElement.data('local-feed-url'),
+            isRefresh = $('#schedule-view').length > 0;
 
         if (!isCordova) {
             feedURL = localFeed;
+        }
+        if (isRefresh && devSyncMode){
+            feedURL = 'data/schedule2.xml';
         }
         //1. fetch feed
 
@@ -456,31 +600,45 @@ module.exports = function($, FISLParser, templates){
     };
 
     var loadCached = function(xmlData){
-        console.log('loadCached');
-        feedLoaded(xmlData, 200, null, true);
+        // console.log('loadCached '+xmlData);
+        if (xmlData !== null){
+            feedLoaded(xmlData, 200, null, true);
+        }else{
+            console.log('local storage has update nfo but not the actual feed');
+            loadFeed();
+        }
     };
 
     var onDeviceReady = function(){
-        console.log('device ready');
+        devSyncMode = ($('#app').data('sync-dev-mode') === 'on');
+        console.log('device ready, debug:'+devSyncMode);
         //load stored bookmarks
         companionStore.bookmarks(function(storedBookmarks){
             console.log('stored bookmarks:'+JSON.stringify(storedBookmarks));
             bookmarkedSessions = (storedBookmarks !== null) ? storedBookmarks : {};
-            //then load information about last fetched xml
-            companionStore.getLastFetchInfo(function(info){
-                if (info === null){
-                    //no feed information was found, this is the first run
-                    loadFeed();
-                }else{
-                    //load the stored xml
-                    companionStore.cachedXML(loadCached);
-                    if (Date.now() - info.time > POLL_INTERVAL){
-                        console.log('needs to poll, latest fetch: '+info.time);
+            //then load stored notifications history
+            companionStore.updates(function(storedUpdates){
+                updatesLog = (storedUpdates !== null) ? storedUpdates : [];
+                console.log('stored Updates Log:'+JSON.stringify(storedUpdates));
+                //then load information about last fetched xml
+                companionStore.getLastFetchInfo(function(info){
+                    console.log('local updateInfo loaded:',info);
+                    updateInfo = info;
+                    if (info === null){
+                        //no feed information was found, this is the first run
+                        loadFeed();
+                    }else{
+                        //load the stored xml
+                        companionStore.cachedXML(loadCached);
+                        if (Date.now() - info.time > POLL_INTERVAL){
+                            console.log('needs to poll, latest fetch: '+info.time);
+                        }
                     }
-                }
+                });
             });
         });
     };
+
     $(document).ready(function() {
         if (isCordova) {
             document.addEventListener('deviceready', onDeviceReady, false);

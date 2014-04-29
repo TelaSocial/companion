@@ -1,7 +1,7 @@
 ---
 layout: html_page.hbs
 title: Companion App
-schedule_type: list
+dev-sync-test: false
 lang: pt-BR
 prevent-scale: true
 css:
@@ -17,6 +17,9 @@ js:
     id="app"
     data-feed-url="http://papers.softwarelivre.org/papers_ng/public/fast_grid?event_id=4"
     data-local-feed-url="data/schedule.xml"
+    {{#if dev-sync-test}}
+        data-sync-dev-mode="on"
+    {{/if}}
 >
     {{>splash_screen}}
 </div>

@@ -1,5 +1,5 @@
-//settings for bootstrap
-@import "lib/companion/settings_bootstrap";
+//companion settings (with bootstrap variables)
+@import "lib/companion/variables";
 
 // Core variables and mixins
 @import "lib/bootstrap/variables";
@@ -68,9 +68,4 @@
 
 
 //companion styles
-@import "lib/companion/app-bar";
-@import "lib/companion/list-view";
-@import "lib/companion/table-view";
-
-//tweaks for the bootstrap version
-@import "lib/companion/tweaks_bootstrap";
+@import "lib/companion/main";

@@ -14,7 +14,7 @@
             display: none;
         }
         > a{
-            height: 60px;
+            height: $app-bar-height;
             font-size: 0.7em;
             outline: 0;
             .tab-name{
