@@ -7,6 +7,8 @@
 
 ```
 npm install
+cd node_modules/gulp-assemble/
+npm install git://github.com/assemble/assemble.git#504abaa4df1c377e5525d6f800447ec3552960fb
 ```
 
 ## create cordova app folders and install plugins
