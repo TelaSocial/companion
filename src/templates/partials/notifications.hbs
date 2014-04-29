@@ -10,6 +10,13 @@
 {{#each updates_user}}
     {{> update_item}}
 {{/each}}
+{{#unless updates_user.length}}
+<div class="update-item empty-list-message list-group-item">
+    <dt>
+        Nenhuma das suas escolhas sofreu atualizações recentemente.
+    </dt>
+</div>
+{{/unless}}
 </dl>
 
 <h2>Outros avisos</h2>
@@ -22,4 +29,11 @@
 {{#each updates_all}}
     {{> update_item}}
 {{/each}}
+{{#unless updates_all.length}}
+<div class="update-item empty-list-message list-group-item">
+    <dt>
+        A programação do evento não mudou desde que você installou a aplicação
+    </dt>
+</div>
+{{/unless}}
 </dl>

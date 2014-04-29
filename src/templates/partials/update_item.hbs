@@ -23,8 +23,10 @@
             entrou na grade
         {{/is}}
         </span>
+        {{#if this.time}}
         <span class="time-ago">
             {{timeago this.time}}
         </span>
+        {{/if}}
     </dt>
 </div>
