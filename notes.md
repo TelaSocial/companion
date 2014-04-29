@@ -1,12 +1,28 @@
-## Tag 0.2.0
 
-- [x] list view is the app index
-- [x] add to calendar link on the expanded session item in the list working
-- starts with the empty list, fetch the XML online and populates the list
+for the experimental zoomable version, the companion.java must look like this:
+
+    package com.telasocial.companion;
+    import android.os.Bundle;
+    import org.apache.cordova.*;
+    import android.webkit.WebSettings;
+    public class companion extends CordovaActivity
+    {
+        @Override
+        public void onCreate(Bundle savedInstanceState)
+        {
+            super.onCreate(savedInstanceState);
+            super.init();
+            // Set by <content src="index.html" /> in config.xml
+            super.loadUrl(Config.getStartUrl());
+            //super.loadUrl("file:///android_asset/www/index.html");
+            WebSettings settings = super.appView.getSettings();
+            settings.setBuiltInZoomControls(true);
+            settings.setSupportZoom(true);
+        }
+    }
 
 -----
 
-- Bootsrap sass: https://github.com/twbs/bootstrap-sass/tree/master/vendor/assets/stylesheets
 - the script tag loading cordova.js doesn't need to exist in the web distribution
 
 ---

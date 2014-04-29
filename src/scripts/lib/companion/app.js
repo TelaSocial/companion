@@ -347,7 +347,23 @@ module.exports = function($, FISLParser, templates){
 
     };
 
+    var monitorScale = function(){
+        var initialHeaderWidth = $('#app-menu').width();
+        window.setInterval(function(){
+            var isScaled = $('#app-menu').width() < initialHeaderWidth;
+            if (isScaled){
+                console.log($('#app-menu').width() + ' < '+ initialHeaderWidth);
+                $('body').addClass('zoomed');
+            }else{
+                $('body').removeClass('zoomed');
+            }
+        },100);
+    };
+
     var setupAppHeaderBar = function(){
+
+        //
+        monitorScale();
 
         //main sections tabs
         var mainSections = [
