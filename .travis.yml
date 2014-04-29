@@ -3,4 +3,7 @@ node_js:
     - "0.11"
     - "0.10"
 before_script:
-    - npm install -g gulp
+    - "npm install -g gulp"
+    - "cd node_modules/gulp-assemble/"
+    - "npm install git://github.com/assemble/assemble.git#504abaa4df1c377e5525d6f800447ec3552960fb"
+    - "cd ../../"
