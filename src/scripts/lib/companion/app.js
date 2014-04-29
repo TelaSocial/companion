@@ -7,85 +7,12 @@ var companionStore = require('./store');
 //custom lodash
 var _ = {
         forEach: require('lodash-node/modern/collections/forEach'),
+        filter: require('lodash-node/modern/collections/filter'),
         difference: require('lodash-node/modern/arrays/difference'),
         union: require('lodash-node/modern/arrays/union'),
         isEqual: require('lodash-node/modern/objects/isEqual'),
         keys: require('lodash-node/modern/objects/keys')
     };
-
-var devFakeUserUpdates = [
-    {
-        sessionTitle: 'Appmaker Party',
-        updateType: 'room',
-        sessionId: '370',
-        oldValues: {
-            room: '720'
-        }
-    },
-    {
-        sessionTitle: 'Appmaker Party',
-        updateType: 'rename',
-        sessionId: '370',
-        oldValues: {
-            title: 'Appmaker Party'
-        }
-    },
-    {
-        sessionTitle: 'Appmaker Party',
-        updateType: 'start',
-        sessionId: '370',
-        oldValues: {
-            start: '2014-05-07T10:00:00-03:00'
-        }
-    },
-    {
-        sessionTitle: 'Appmaker Party',
-        updateType: 'new',
-        sessionId: '370'
-    },
-    {
-        sessionTitle: 'Appmaker Party',
-        updateType: 'cancel',
-        sessionId: '370'
-    }
-];
-
-var devFakeUpdates = [
-    {
-        sessionTitle: 'Appmaker Party',
-        updateType: 'room',
-        sessionId: '370',
-        oldValues: {
-            room: '720'
-        }
-    },
-    {
-        sessionTitle: 'Brand new Talk',
-        updateType: 'new',
-        sessionId: '6000'
-    },
-    {
-        sessionTitle: 'Appmaker Party',
-        updateType: 'rename',
-        sessionId: '370',
-        oldValues: {
-            title: 'Appmaker Party'
-        }
-    },
-    {
-        sessionTitle: 'Appmaker Party',
-        updateType: 'start',
-        sessionId: '370',
-        oldValues: {
-            start: '2014-05-07T10:00:00-03:00'
-        }
-    },
-    {
-        sessionTitle: 'Appmaker Party',
-        updateType: 'cancel',
-        sessionId: '370'
-    }
-];
 
 var POLL_INTERVAL = 1 * 60 * 1000; //1 minute
 
@@ -103,6 +30,14 @@ module.exports = function($, FISLParser, templates){
         updateInfo,
         updatesLog = [];
 
+    var isSessionFavorite = function(session){
+        return bookmarkedSessions[session.sessionId] !== undefined;
+    };
+
+    var isSessionNotFavorite = function(session){
+        return bookmarkedSessions[session.sessionId] === undefined;
+    };
+
     var populateSchedule = function(isRefresh){
         // this function is also used for rendering the apps UI on first load
         // (template app.hbs instead of just the partial schedule.hbs)
@@ -114,8 +49,8 @@ module.exports = function($, FISLParser, templates){
                 title: 'Companion App',
                 version: 'v0.4.2',
                 schedule: scheduleData,
-                updates_user: devFakeUserUpdates,
-                updates_all: updatesLog,
+                updates_user: _.filter(updatesLog, isSessionFavorite),
+                updates_all: _.filter(updatesLog, isSessionNotFavorite),
                 lastFetchTime: updateInfo ? updateInfo.time : null
             },
             html;
@@ -327,7 +262,7 @@ module.exports = function($, FISLParser, templates){
         // console.log('assBookmark',scheduleData.sessions[sessionId]);
         bookmarkedSessions[sessionId] = scheduleData.sessions[sessionId];
         companionStore.saveBookmarks(bookmarkedSessions, function(savedData){
-            // console.log('bookmark added, bookmarks:'+JSON.stringify(savedData));
+            console.log('bookmark added, bookmarks:'+JSON.stringify(savedData));
         });
         if (isFilteredViewOn){
             sessionElement.removeClass('filtered-out');
@@ -413,6 +348,9 @@ module.exports = function($, FISLParser, templates){
         } else {
             $('#'+ sectionName +'-view').addClass('selected');
         }
+        if (sectionName === 'notifications'){
+            redrawNotifications();
+        }
 
     };
 
@@ -487,8 +425,8 @@ module.exports = function($, FISLParser, templates){
             template = templates.notifications;
         destinationElement.html(
             template({
-                updates_user: devFakeUserUpdates,
-                updates_all: updatesLog
+                updates_user: _.filter(updatesLog, isSessionFavorite),
+                updates_all: _.filter(updatesLog, isSessionNotFavorite)
             })
         );
     };
@@ -562,7 +500,7 @@ module.exports = function($, FISLParser, templates){
         });
 
         console.log('latest changes: '+JSON.stringify(recentChanges, null, '  '));
-        updatesLog = _.union(updatesLog, recentChanges);
+        updatesLog = _.union(recentChanges.reverse(), updatesLog);
 
         companionStore.saveUpdatesLog(updatesLog, function(dataSaved){
             console.log('all changes saved: '+JSON.stringify(dataSaved, null, '  '));
