@@ -13,6 +13,9 @@ Stored records:
                       where each key is a session id.
                       The values are session objects.
 
+- updatesLog: Array with the history of all schedule updates since the user
+installed the app (or cleared the data)
+
 */
 
 module.exports = {
@@ -40,6 +43,10 @@ module.exports = {
     saveBookmarks: function(bookmarks, cb){
         localforage.setItem('bookmarkedSessions', bookmarks, cb);
     },
+    saveUpdatesLog: function(updates, cb){
+        console.log('save locally:', updates);
+        localforage.setItem('updatesLog', updates, cb);
+    },
     getLastFetchInfo: function(cb){
         console.log('getLatestUpdateMetadata');
         localforage.getItem('updateInfo').then(cb);
@@ -50,6 +57,10 @@ module.exports = {
     bookmarks: function(cb){
         localforage.getItem('bookmarkedSessions', cb);
     },
+    updates: function(cb){
+        console.log('get local updatesLog');
+        localforage.getItem('updatesLog', cb);
+    },
     eraseXML: function(cb){
         localforage.removeItem('latestFeed', function(){
             localforage.removeItem('updateInfo', cb);
@@ -57,6 +68,9 @@ module.exports = {
     },
     eraseBookmarks: function(cb){
         localforage.removeItem('bookmarkedSessions', cb);
+    },
+    eraseUpdates: function(cb){
+        localforage.removeItem('updatesLog', cb);
     },
     nuke: function(cb){
         localforage.clear(cb);

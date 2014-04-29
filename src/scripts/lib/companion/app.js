@@ -468,6 +468,13 @@ module.exports = function($, FISLParser, templates){
                 bookmarkedSessions = {};
             });
         });
+        $('#erase-notifications').click(function(){
+            companionStore.eraseUpdates(function(){
+                console.log('notifications erased');
+                updatesLog = [];
+                redrawNotifications();
+            });
+        });
         $('#erase-all').click(function(){
             companionStore.nuke(function(){
                 console.log('all local data erased');
@@ -556,9 +563,11 @@ module.exports = function($, FISLParser, templates){
 
         console.log('latest changes: '+JSON.stringify(recentChanges, null, '  '));
         updatesLog = _.union(updatesLog, recentChanges);
-        console.log('all changes: '+JSON.stringify(updatesLog, null, '  '));
-        redrawNotifications();
 
+        companionStore.saveUpdatesLog(updatesLog, function(dataSaved){
+            console.log('all changes saved: '+JSON.stringify(dataSaved, null, '  '));
+        });
+        redrawNotifications();
     };
 
     var updateLocalFeed = function(){
@@ -680,20 +689,25 @@ module.exports = function($, FISLParser, templates){
         companionStore.bookmarks(function(storedBookmarks){
             console.log('stored bookmarks:'+JSON.stringify(storedBookmarks));
             bookmarkedSessions = (storedBookmarks !== null) ? storedBookmarks : {};
-            //then load information about last fetched xml
-            companionStore.getLastFetchInfo(function(info){
-                console.log('local updateInfo loaded:',info);
-                updateInfo = info;
-                if (info === null){
-                    //no feed information was found, this is the first run
-                    loadFeed();
-                }else{
-                    //load the stored xml
-                    companionStore.cachedXML(loadCached);
-                    if (Date.now() - info.time > POLL_INTERVAL){
-                        console.log('needs to poll, latest fetch: '+info.time);
+            //then load stored notifications history
+            companionStore.updates(function(storedUpdates){
+                updatesLog = (storedUpdates !== null) ? storedUpdates : [];
+                console.log('stored Updates Log:'+JSON.stringify(storedUpdates));
+                //then load information about last fetched xml
+                companionStore.getLastFetchInfo(function(info){
+                    console.log('local updateInfo loaded:',info);
+                    updateInfo = info;
+                    if (info === null){
+                        //no feed information was found, this is the first run
+                        loadFeed();
+                    }else{
+                        //load the stored xml
+                        companionStore.cachedXML(loadCached);
+                        if (Date.now() - info.time > POLL_INTERVAL){
+                            console.log('needs to poll, latest fetch: '+info.time);
+                        }
                     }
-                }
+                });
             });
         });
     };
