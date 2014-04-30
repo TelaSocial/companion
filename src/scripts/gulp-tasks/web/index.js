@@ -62,13 +62,14 @@ module.exports = function(paths){
         });
     };
 
-    this.copyFonts = function(){
+    this.copyAssets = function(){
         return gulp.src([
-                    './**/*.*'
+                        './' + paths.sources.fonts + '/**/*.*',
+                        './' + paths.sources.images + '/**/*.*',
                 ],{
-                    cwd: paths.sources.fonts + '**'
+                    cwd: paths.sources.root + '**'
                 })
-            .pipe(gulp.dest(paths.build.fonts));
+            .pipe(gulp.dest(paths.build.www));
     };
 
     this.bundleScripts = function(){

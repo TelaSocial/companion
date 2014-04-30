@@ -49,6 +49,7 @@ module.exports = function($, FISLParser, templates){
                 title: 'Companion App',
                 version: 'v0.4.3',
                 schedule: scheduleData,
+                map_image: $('#app').data('map-url'),
                 updates_user: _.filter(updatesLog, isSessionFavorite),
                 updates_all: _.filter(updatesLog, isSessionNotFavorite),
                 lastFetchTime: updateInfo ? updateInfo.time : null
@@ -343,6 +344,8 @@ module.exports = function($, FISLParser, templates){
         }
         if (sectionName === 'notifications'){
             redrawNotifications();
+        } else if (sectionName === 'map'){
+            console.log('Map tab clicked');
         }
 
     };
