@@ -2,7 +2,7 @@
 
 * The build system was tested with node.js version v0.10.15.
 * You will need to have android sdk (./tools) in your PATH.
-* You will need [Gulp installed globally](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md#1-install-gulp-globally)
+* You will need Gulp installed globally ```npm install -g gulp```
 
 ## install dev dependencies
 
