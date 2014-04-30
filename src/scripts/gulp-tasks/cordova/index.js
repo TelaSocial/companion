@@ -21,7 +21,10 @@ module.exports = function(paths, pkg){
     cordova.on('log', cordovaLog);
     cordova.on('verbose', cordovaLog);
     var cordovaCdToRoot = function(){
-        process.env.PWD = path.join(paths.root, paths.build.cordova);
+        // process.env.PWD = path.join(paths.root, paths.build.cordova);
+        process.chdir(path.join(paths.root, paths.build.cordova));
+        console.log(':o '+path.join(paths.root, paths.build.cordova));
+        // process.exit();
     };
 
     //catch CordovaErrors
