@@ -4,7 +4,7 @@
   "description": "Companion is a mobile application to track schedules of conferences and events.",
   "scripts": {
     "cordova-setup": "./node_modules/.bin/gulp cordova:setup",
-    "test": "./node_modules/.bin/gulp web:build && ./node_modules/.bin/gulp cordova:build && ./node_modules/.bin/gulp cordova:release && cat dist/www/index.html && cat dist/cordova/platforms/android/assets/www/index.html"
+    "test": "./node_modules/.bin/gulp web:build"
   },
   "author": "Tela Social",
   "contributors": [
