@@ -1,5 +1,6 @@
 companion
 =========
+[![Build Status](https://travis-ci.org/TelaSocial/companion.svg?branch=master)](https://travis-ci.org/TelaSocial/companion)
 
 ## About
 
