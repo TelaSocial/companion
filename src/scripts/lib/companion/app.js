@@ -153,6 +153,10 @@ module.exports = function($, FISLParser, templates){
         });
         //apply filters
         applyBookmarksFilter();
+
+        // map links
+        $('.room-link').click(mapLinkClicked);
+
         //setup collapsable sessions in and out events
         $('.session .collapse').off('show.bs.collapse');
         $('.session .collapse').on('show.bs.collapse', function () {
@@ -294,6 +298,23 @@ module.exports = function($, FISLParser, templates){
             session.addClass('favorite');
             addBookmark(sessionId);
         }
+    };
+
+    var openMapTab = function(roomID){
+        //select map panel
+        $('#app-menu .navbar-nav > li.active').removeClass('active');
+        $('#map-tab').addClass('active');
+        $('.app-panel').removeClass('selected');
+        $('#map-view').addClass('selected');
+        console.log('openMapTab roomID='+roomID);
+    };
+
+    var mapLinkClicked = function(event){
+        var sessionElement = $(this).parents('.session').first(),
+            roomID = sessionElement.data('room');
+        console.log('mapLinkClicked, roomID='+roomID);
+        event.preventDefault();
+        openMapTab(roomID);
     };
 
     var applyBookmarksFilter = function(){

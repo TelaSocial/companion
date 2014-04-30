@@ -107,7 +107,7 @@ module.exports = function(paths){
             partials: paths.sources.partials,
             data: paths.sources.data + '*.json',
             log: {
-                level: 'verbose' // verbose, debug, info, warning, error, critical
+                level: 'warning' // verbose, debug, info, warning, error, critical
             }
         };
         return gulp.src(paths.sources.pages)
