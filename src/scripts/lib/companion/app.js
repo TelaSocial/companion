@@ -1,8 +1,8 @@
 'use strict';
 
 var cordovaCalendarHelper = require('./cordova_calendar');
-
 var companionStore = require('./store');
+var panZoom = require('../jquery.panzoom/jquery.panzoom');
 
 //custom lodash
 var _ = {
@@ -28,7 +28,9 @@ module.exports = function($, FISLParser, templates){
         bookmarkedSessions,
         devSyncMode,
         updateInfo,
-        updatesLog = [];
+        updatesLog = [],
+        mapPan,
+        mapMinScale;
 
     var isSessionFavorite = function(session){
         return bookmarkedSessions[session.sessionId] !== undefined;
@@ -300,6 +302,18 @@ module.exports = function($, FISLParser, templates){
         }
     };
 
+    var initMapPanZoom = function(){
+        var imageWidth = 2135;
+        var containerWidth = $('body').width() * 0.9;
+        console.log(containerWidth);
+        mapMinScale = containerWidth / imageWidth;
+        console.log('initMapPanZoom, minscale = '+mapMinScale);
+        mapPan = new panZoom($('.map-base')[0],{
+            minScale: mapMinScale,
+            contain: 'invert'
+        });
+    };
+
     var openMapTab = function(roomID){
         //select map panel
         $('#app-menu .navbar-nav > li.active').removeClass('active');
@@ -307,6 +321,10 @@ module.exports = function($, FISLParser, templates){
         $('.app-panel').removeClass('selected');
         $('#map-view').addClass('selected');
         console.log('openMapTab roomID='+roomID);
+        // mapPan.reset();
+        // mapPan.resetDimensions();
+        console.log('MapPanZoom, zoom = '+mapMinScale);
+        mapPan.zoom(mapMinScale * 2);
     };
 
     var mapLinkClicked = function(event){
@@ -367,6 +385,7 @@ module.exports = function($, FISLParser, templates){
             redrawNotifications();
         } else if (sectionName === 'map'){
             console.log('Map tab clicked');
+            openMapTab();
         }
 
     };
@@ -381,6 +400,9 @@ module.exports = function($, FISLParser, templates){
                 '#notifications-section-link'
             ];
         $(mainSections.join(',')).click(appTabClicked);
+
+        //map pan and zoom setup
+        initMapPanZoom();
 
         //update sync time on each dropdown open
         $('#app-menu').on('show.bs.dropdown', function(){
