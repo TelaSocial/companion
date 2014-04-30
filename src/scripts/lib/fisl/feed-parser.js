@@ -26,6 +26,7 @@ var FeedParser = function($, eventDate){
             authorElements = $xml.find('authorship person'),
             slotElements = $xml.find('slots slot'),
             roomElements = $xml.find('rooms room'),
+            zoneElements = $xml.find('zones zone'),
             minimumInterval = Number($xml.find('hours').first().attr('minimum_interval')),
             // endOfDay = '00:00:00.000Z',
             // startOfDay = '23:59:59.000Z',
@@ -33,6 +34,7 @@ var FeedParser = function($, eventDate){
             presenters = {}, // for each session the group of people giving that talk
             sessions = {},
             rooms = {},
+            zones = {},
             days = [],
             roomOrder = [];
 
@@ -100,7 +102,16 @@ var FeedParser = function($, eventDate){
 
 
         //- TBD Fill the areas dictionary
-        //- TBD Fill the zones dictionary
+        //Fill the zones dictionary
+        zoneElements.each(function(){
+            var zone = $(this),
+                id = zone.attr('id'),
+                name = zone.find('name').first().text();
+            zones[id] = {
+                id: id,
+                name: name
+            };
+        });
 
 
         // In the xml session information are stored under slot elements
@@ -258,7 +269,8 @@ var FeedParser = function($, eventDate){
                     days: days,
                     presenters: presenters,
                     rooms: rooms,
-                    sessions: sessions
+                    sessions: sessions,
+                    zones: zones
                 };
     };
 };

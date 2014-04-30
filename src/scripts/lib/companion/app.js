@@ -141,7 +141,11 @@ module.exports = function($, FISLParser, templates){
 
         // add to calendar buttons
         $('.calendar-add-button').click(function(event){
-            cordovaFunctions.addToCalendarButtonClicked(event, scheduleData.rooms);
+            cordovaFunctions.addToCalendarButtonClicked(
+                    event,
+                    scheduleData.rooms,
+                    scheduleData.zones
+            );
         });
 
         // bookmark buttons

@@ -8254,5 +8254,43 @@
       "duration": 180,
       "roomID": "721"
     }
+  },
+  "zones": {
+    "13": {
+      "id": "13",
+      "name": "Admin"
+    },
+    "14": {
+      "id": "14",
+      "name": "Desenvolvimento"
+    },
+    "15": {
+      "id": "15",
+      "name": "Desktop"
+    },
+    "16": {
+      "id": "16",
+      "name": "Ecossistema"
+    },
+    "17": {
+      "id": "17",
+      "name": "Educação"
+    },
+    "18": {
+      "id": "18",
+      "name": "Enc. Comunitários"
+    },
+    "19": {
+      "id": "19",
+      "name": "Tópicos Emergentes"
+    },
+    "20": {
+      "id": "20",
+      "name": "Organização"
+    },
+    "21": {
+      "id": "21",
+      "name": "Oficinas"
+    }
   }
 }

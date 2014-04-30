@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = function($){
-    this.addToCalendarButtonClicked = function (event, rooms){
+    this.addToCalendarButtonClicked = function (event, rooms, zones){
         var button = $(event.target),
             sessionItem = button.parents('.session').first(),
             sessionTitle = sessionItem.find('.session-title-link').text().trim(),
@@ -14,7 +14,7 @@ module.exports = function($){
             roomId = sessionItem.data('room'),
             roomName = rooms[roomId].name,
             zoneID = sessionItem.data('zone'),
-            zoneName = zoneID, // replace this with the zone name later
+            zoneName = zones[zoneID].name,
             zoneString = 'Zona: '+zoneName,
             title = sessionTitle,
             location = 'Sala: ' + roomName + ' (FISL 15)',
