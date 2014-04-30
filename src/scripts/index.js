@@ -17,6 +17,7 @@ Handlebars.registerPartial('day_table_rows', require('../templates/partials/day_
 Handlebars.registerPartial('session', require('../templates/partials/session.hbs'));
 Handlebars.registerPartial('notifications', notificationsTemplate);
 Handlebars.registerPartial('update_item', require('../templates/partials/update_item.hbs'));
+Handlebars.registerPartial('map', require('../templates/partials/map.hbs'));
 
 var templates = {
     app: require('../templates/partials/app.hbs'),

@@ -10,13 +10,15 @@ var pkg = require('./package.json'),
 var paths = {
         root: __dirname,
         sources: {
+            root: 'src/',
             layouts: 'src/templates/layouts/',
             partials: 'src/templates/partials/*.hbs',
             pages: 'src/templates/pages/*.hbs',
             data: 'src/data/',
             scripts: 'src/scripts/',
             styles: 'src/styles/',
-            fonts: 'src/fonts/'
+            fonts: 'fonts/',        // src/fonts/
+            images: 'img/'          // src/img/
         },
         build: {
             root: 'dist',
@@ -25,6 +27,7 @@ var paths = {
             js: 'dist/www/js/',
             css: 'dist/www/css',
             fonts: 'dist/www/fonts/',
+            images: 'dist/www/img/',
             scss: 'dist/www/css/src/styles/',
             cordova: 'dist/cordova/',
             cordova_www: 'dist/cordova/www/'
@@ -72,10 +75,10 @@ gulp.task('web:buildScripts',
         'web:copyExtraLibraries'
     ]
 );
-gulp.task('web:copyFonts', tasks.web.copyFonts);
+gulp.task('web:copyAssets', tasks.web.copyAssets);
 gulp.task('web:buildStyles',
     [
-        'web:copyFonts'
+        'web:copyAssets'
     ], tasks.web.buildStyles);
 gulp.task('web:buildPages', tasks.web.buildPages);
 gulp.task('web:build',

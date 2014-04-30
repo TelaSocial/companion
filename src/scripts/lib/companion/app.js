@@ -1,8 +1,8 @@
 'use strict';
 
 var cordovaCalendarHelper = require('./cordova_calendar');
-
 var companionStore = require('./store');
+var panZoom = require('../jquery.panzoom/jquery.panzoom');
 
 //custom lodash
 var _ = {
@@ -28,7 +28,9 @@ module.exports = function($, FISLParser, templates){
         bookmarkedSessions,
         devSyncMode,
         updateInfo,
-        updatesLog = [];
+        updatesLog = [],
+        mapPan,
+        mapMinScale;
 
     var isSessionFavorite = function(session){
         return bookmarkedSessions[session.sessionId] !== undefined;
@@ -49,6 +51,7 @@ module.exports = function($, FISLParser, templates){
                 title: 'Companion App',
                 version: 'v0.4.3',
                 schedule: scheduleData,
+                map_image: $('#app').data('map-url'),
                 updates_user: _.filter(updatesLog, isSessionFavorite),
                 updates_all: _.filter(updatesLog, isSessionNotFavorite),
                 lastFetchTime: updateInfo ? updateInfo.time : null
@@ -152,6 +155,10 @@ module.exports = function($, FISLParser, templates){
         });
         //apply filters
         applyBookmarksFilter();
+
+        // map links
+        $('.room-link').click(mapLinkClicked);
+
         //setup collapsable sessions in and out events
         $('.session .collapse').off('show.bs.collapse');
         $('.session .collapse').on('show.bs.collapse', function () {
@@ -295,6 +302,39 @@ module.exports = function($, FISLParser, templates){
         }
     };
 
+    var initMapPanZoom = function(){
+        var imageWidth = 2135;
+        var containerWidth = $('body').width() * 0.9;
+        console.log(containerWidth);
+        mapMinScale = containerWidth / imageWidth;
+        console.log('initMapPanZoom, minscale = '+mapMinScale);
+        mapPan = new panZoom($('.map-base')[0],{
+            minScale: mapMinScale,
+            contain: 'invert'
+        });
+    };
+
+    var openMapTab = function(roomID){
+        //select map panel
+        $('#app-menu .navbar-nav > li.active').removeClass('active');
+        $('#map-tab').addClass('active');
+        $('.app-panel').removeClass('selected');
+        $('#map-view').addClass('selected');
+        console.log('openMapTab roomID='+roomID);
+        // mapPan.reset();
+        // mapPan.resetDimensions();
+        console.log('MapPanZoom, zoom = '+mapMinScale);
+        mapPan.zoom(mapMinScale * 2);
+    };
+
+    var mapLinkClicked = function(event){
+        var sessionElement = $(this).parents('.session').first(),
+            roomID = sessionElement.data('room');
+        console.log('mapLinkClicked, roomID='+roomID);
+        event.preventDefault();
+        openMapTab(roomID);
+    };
+
     var applyBookmarksFilter = function(){
         var isFilterOn = $('#favorites-tab').hasClass('active');
         if (isFilterOn){
@@ -343,6 +383,9 @@ module.exports = function($, FISLParser, templates){
         }
         if (sectionName === 'notifications'){
             redrawNotifications();
+        } else if (sectionName === 'map'){
+            console.log('Map tab clicked');
+            openMapTab();
         }
 
     };
@@ -357,6 +400,9 @@ module.exports = function($, FISLParser, templates){
                 '#notifications-section-link'
             ];
         $(mainSections.join(',')).click(appTabClicked);
+
+        //map pan and zoom setup
+        initMapPanZoom();
 
         //update sync time on each dropdown open
         $('#app-menu').on('show.bs.dropdown', function(){

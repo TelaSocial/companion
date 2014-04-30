@@ -62,13 +62,14 @@ module.exports = function(paths){
         });
     };
 
-    this.copyFonts = function(){
+    this.copyAssets = function(){
         return gulp.src([
-                    './**/*.*'
+                        './' + paths.sources.fonts + '/**/*.*',
+                        './' + paths.sources.images + '/**/*.*',
                 ],{
-                    cwd: paths.sources.fonts + '**'
+                    cwd: paths.sources.root + '**'
                 })
-            .pipe(gulp.dest(paths.build.fonts));
+            .pipe(gulp.dest(paths.build.www));
     };
 
     this.bundleScripts = function(){
@@ -106,7 +107,7 @@ module.exports = function(paths){
             partials: paths.sources.partials,
             data: paths.sources.data + '*.json',
             log: {
-                level: 'verbose' // verbose, debug, info, warning, error, critical
+                level: 'warning' // verbose, debug, info, warning, error, critical
             }
         };
         return gulp.src(paths.sources.pages)
