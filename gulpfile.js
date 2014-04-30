@@ -93,8 +93,7 @@ gulp.task('cordova:addAndroid', ['cordova:create'], tasks.cordova.addAndroid);
 gulp.task('cordova:addPlugins', ['cordova:addAndroid'], tasks.cordova.addPlugins);
 gulp.task('cordova:setup',['cordova:addPlugins'], tasks.cordova.setup);
 
-gulp.task('cordova:copyWeb', ['web:build'], tasks.cordova.copyWeb);
-gulp.task('cordova:build', ['cordova:copyWeb'], tasks.cordova.build);
+gulp.task('cordova:build', ['web:build'], tasks.cordova.build);
 gulp.task('cordova:run', tasks.cordova.run);
 gulp.task('cordova:release', tasks.cordova.release);
 

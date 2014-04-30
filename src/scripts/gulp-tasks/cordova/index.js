@@ -1,6 +1,5 @@
 'use strict';
 var path = require('path'),
-    gulp = require('gulp'),
     gutil = require('gulp-util'),
     cordova = require('cordova'),
     CordovaError = require('cordova/src/CordovaError'),
@@ -59,6 +58,9 @@ module.exports = function(paths, pkg){
             cfg = pkg.cordovaConfig.extra,
             promise;
 
+        if (cfg && cfg.lib && cfg.lib.www && cfg.lib.www.uri){
+            cfg.lib.www.uri = path.resolve(dir, cfg.lib.www.uri);
+        }
         promise = new Q(cordova.create(dir, id, name, cfg));
         promise.then(cb);
     };
@@ -80,23 +82,6 @@ module.exports = function(paths, pkg){
         cordovaCdToRoot();
         promise = new Q(cordova.plugin('add', pluginsToInstall));
         promise.then(cb);
-    };
-
-    this.copyWeb = function(){
-        return gulp.src([
-                            './**/*.html',
-                            './js/**/*.js',
-                            './css/**/*.css',
-                            '!./css/src/**/*.*', //no need for sourcemap on the app build
-                            './img/**/*.*',
-                            './fonts/**/*.*',
-                            './data/**/*.*'
-                        ], {
-                            cwd: paths.build.www + '**'
-                        })
-                    .pipe(gulp.dest(
-                        paths.build.cordova_www
-                    ));
     };
 
     this.build = function(cb){

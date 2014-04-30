@@ -62,6 +62,13 @@
   },
   "cordovaConfig": {
     "id": "com.telasocial.companion",
-    "extra": {}
+    "extra": {
+      "lib":{
+        "www":{
+          "uri": "../www",
+          "link": true
+        }
+      }
+    }
   }
 }
