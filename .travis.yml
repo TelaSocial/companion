@@ -4,4 +4,4 @@ node_js:
 before_script:
     - "./node_modules/.bin/gulp cordova:setup"
 after_scripts:
-    - "tree dist"
+    - "ls -lR dist"
