@@ -3,3 +3,7 @@ node_js:
     - "0.10"
 after_success:
     - ls -lhaR dist
+branches:
+  only:
+    - master
+    - maps-section
