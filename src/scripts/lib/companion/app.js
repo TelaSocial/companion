@@ -140,7 +140,9 @@ module.exports = function($, FISLParser, templates){
         $('#time-nav li a').click(timeNavClicked);
 
         // add to calendar buttons
-        $('.calendar-add-button').click(cordovaFunctions.addToCalendarButtonClicked);
+        $('.calendar-add-button').click(function(event){
+            cordovaFunctions.addToCalendarButtonClicked(event, scheduleData.rooms);
+        });
 
         // bookmark buttons
         $('.bookmark-button').click(bookmarkButtonClicked);

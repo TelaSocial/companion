@@ -8,6 +8,7 @@
     data-start="{{this.start}}"
     data-duration="{{this.duration}}"
     data-room="{{this.roomID}}"
+    data-zone="{{this.zoneID}}"
     {{#is session_tag 'td'}}
         colspan="{{durationColspan}}"
     {{/is}}
@@ -62,7 +63,9 @@
             <li class="author {{#if this.main}}main{{/if}}">
                 <a href="#" class="author-link">
                     <span class="author-icon"></span>
-                    {{this.name}}
+                    <span class="author-name">
+                        {{this.name}}
+                    </span>
                 </a>
             </li>
         {{/each}}
