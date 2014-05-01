@@ -44,11 +44,9 @@ module.exports = {
         localforage.setItem('bookmarkedSessions', bookmarks, cb);
     },
     saveUpdatesLog: function(updates, cb){
-        console.log('save locally:', updates);
         localforage.setItem('updatesLog', updates, cb);
     },
     getLastFetchInfo: function(cb){
-        console.log('getLatestUpdateMetadata');
         localforage.getItem('updateInfo').then(cb);
     },
     cachedXML: function(cb){
@@ -58,7 +56,6 @@ module.exports = {
         localforage.getItem('bookmarkedSessions', cb);
     },
     updates: function(cb){
-        console.log('get local updatesLog');
         localforage.getItem('updatesLog', cb);
     },
     eraseXML: function(cb){

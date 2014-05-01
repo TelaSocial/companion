@@ -667,12 +667,12 @@ module.exports = function($, FISLParser, templates){
         console.log('device ready, debug:'+devSyncMode);
         //load stored bookmarks
         companionStore.bookmarks(function(storedBookmarks){
-            console.log('stored bookmarks:'+JSON.stringify(storedBookmarks));
+            // console.log('stored bookmarks:'+JSON.stringify(storedBookmarks));
             bookmarkedSessions = (storedBookmarks !== null) ? storedBookmarks : {};
             //then load stored notifications history
             companionStore.updates(function(storedUpdates){
                 updatesLog = (storedUpdates !== null) ? storedUpdates : [];
-                console.log('stored Updates Log:'+JSON.stringify(storedUpdates));
+                // console.log('stored Updates Log:'+JSON.stringify(storedUpdates));
                 //then load information about last fetched xml
                 companionStore.getLastFetchInfo(function(info){
                     console.log('local updateInfo loaded:',info);
