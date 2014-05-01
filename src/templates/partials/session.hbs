@@ -42,7 +42,21 @@
         <p class="session-abstract panel-body">
             {{this.abstract}}
         </p>
-
+        <h5>Autores</h5>
+        <ul>
+        {{#withItem @root.schedule.presenters key=this.id}}
+        {{#each this}}
+            <li class="author {{#if this.main}}main{{/if}}">
+                <span href="#" class="author-link">
+                    <span class="author-icon"></span>
+                    <span class="author-name">
+                        {{this.name}}
+                    </span>
+                </span>
+            </li>
+        {{/each}}
+        {{/withItem}}
+        </ul>
         <ul class="nav nav-pills">
             <li>
                 <a class="room-link" href="#">
@@ -58,18 +72,6 @@
                     Add to calendar
                 </a>
             </li>
-        {{#withItem @root.schedule.presenters key=this.id}}
-        {{#each this}}
-            <li class="author {{#if this.main}}main{{/if}}">
-                <a href="#" class="author-link">
-                    <span class="author-icon"></span>
-                    <span class="author-name">
-                        {{this.name}}
-                    </span>
-                </a>
-            </li>
-        {{/each}}
-        {{/withItem}}
         </ul>
     </dd>
 </{{session_tag}}>
