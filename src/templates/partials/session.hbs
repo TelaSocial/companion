@@ -42,12 +42,22 @@
         <p class="session-abstract panel-body">
             {{this.abstract}}
         </p>
-        <h5>Autores</h5>
-        <ul>
         {{#withItem @root.schedule.presenters key=this.id}}
+        {{#if this.length}}
+        <h5>
+            Apresentação
+{{!--
+            {{#is this.length '<' 2}}
+            Responsável
+            {{else}}
+            Responsáveis
+            {{/is}}
+ --}}
+        </h5>
+        <ul>
         {{#each this}}
             <li class="author {{#if this.main}}main{{/if}}">
-                <span href="#" class="author-link">
+                <span href="#" class="author-link" data-id="{{this.id}}">
                     <span class="author-icon"></span>
                     <span class="author-name">
                         {{this.name}}
@@ -55,8 +65,9 @@
                 </span>
             </li>
         {{/each}}
-        {{/withItem}}
         </ul>
+        {{/if}}
+        {{/withItem}}
         <ul class="nav nav-pills">
             <li>
                 <a class="room-link" href="#">
