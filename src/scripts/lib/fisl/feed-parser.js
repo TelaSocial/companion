@@ -27,8 +27,8 @@ var FeedParser = function($, eventDate){
             // cheerio fixed it, but jQuery still has trouble with it,
             // hence the hackedData workaround… we replace
             // <area> and </area> with <barea> and </barea> first :)
-        var hackedData = data.replace(/(<\/?)area([^>]*>)/ig,'$1barea$2'),
-            isJQuery = (typeof data === 'string'),
+        var isJQuery = (typeof data === 'string'),
+            hackedData = isJQuery ? data.replace(/(<\/?)area([^>]*>)/ig,'$1barea$2') : null,
             $xml = isJQuery ? $(hackedData) : $('response'),
             areaSelector = isJQuery ? 'bareas barea' : 'areas area',
             authorElements = $xml.find('authorship person'),
