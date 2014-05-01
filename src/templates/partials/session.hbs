@@ -68,6 +68,12 @@
         </ul>
         {{/if}}
         {{/withItem}}
+        <h5>Horário</h5>
+        <p class="session-time-text">
+            das {{formatDate this.start "HH:MM"}} às
+            {{formatEndDate this.start this.duration "HH:MM"}}
+            — <span class="time-icon"></span> {{this.duration}} min
+        </p>
         <ul class="nav nav-pills">
             <li>
                 <a class="room-link" href="#">

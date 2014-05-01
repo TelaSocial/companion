@@ -1,6 +1,7 @@
 #app-menu .icon,
 .bookmark-button .icon,
 .place-icon,
+.time-icon,
 .author-icon,
 .calendar-add-icon,
 .collapse-caret{
@@ -25,6 +26,9 @@
 }
 .place-icon{
     @extend .fa-map-marker;
+}
+.time-icon{
+    @extend .fa-clock-o;
 }
 body[data-view-mode="list"] #schedule-section-link > .icon,
 .list-view-button .icon{

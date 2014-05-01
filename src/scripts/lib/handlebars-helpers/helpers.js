@@ -1,7 +1,19 @@
 'use strict';
+var dateFormat = require('dateformat');
+
 module.exports = function(Handlebars){
 
 //my helpers
+
+Handlebars.registerHelper('withItem', function(object, options) {
+    return options.fn(object[options.hash.key]);
+});
+
+Handlebars.registerHelper('formatEndDate', function(date, duration, format){
+    var startDate = new Date(date),
+        endDate = new Date(startDate.getTime() + duration * 60 * 1000);
+    return dateFormat(endDate, format);
+});
 
 /*
 {{#each someArrayOfKeys}}
@@ -14,6 +26,10 @@ Handlebars.registerHelper('withItem', function(object, options) {
     return options.fn(object[options.hash.key]);
 });
 
+Handlebars.registerHelper('formatDate', function (date, format) {
+    date = new Date(date);
+    return dateFormat(date, format);
+});
 
 //from https://github.com/danharper/Handlebars-Helpers/blob/master/src/helpers.js
     var isArray = function(value) {
