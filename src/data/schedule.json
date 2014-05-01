@@ -9227,5 +9227,145 @@
       "id": "21",
       "name": "Oficinas"
     }
+  },
+  "areas": {
+    "3": {
+      "id": "3",
+      "name": "criptoparty",
+      "zoneID": "21",
+      "color": "FFC9C9"
+    },
+    "6": {
+      "id": "6",
+      "name": "Hackaton",
+      "zoneID": "21",
+      "color": "FFD7C9"
+    },
+    "38": {
+      "id": "38",
+      "name": "Administração de Sistemas e VoIP",
+      "zoneID": "13",
+      "color": "FFE5C9"
+    },
+    "41": {
+      "id": "41",
+      "name": "Gerenciamento de Dados",
+      "zoneID": "13",
+      "color": "FFF3C9"
+    },
+    "44": {
+      "id": "44",
+      "name": "Hardware, Sistemas Embarcados e Robótica",
+      "zoneID": "13",
+      "color": "FCFFC9"
+    },
+    "47": {
+      "id": "47",
+      "name": "Kernel, Sistemas de Arquivos e Sistemas Operacionais",
+      "zoneID": "13",
+      "color": "EEFFC9"
+    },
+    "50": {
+      "id": "50",
+      "name": "Segurança",
+      "zoneID": "13",
+      "color": "E0FFC9"
+    },
+    "53": {
+      "id": "53",
+      "name": "Ferramentas, Metodologias e Padrões",
+      "zoneID": "14",
+      "color": "D2FFC9"
+    },
+    "56": {
+      "id": "56",
+      "name": "Gerência de Conteúdo",
+      "zoneID": "14",
+      "color": "C9FFCE"
+    },
+    "59": {
+      "id": "59",
+      "name": "Outras linguagens",
+      "zoneID": "14",
+      "color": "C9FFDC"
+    },
+    "62": {
+      "id": "62",
+      "name": "PHP e Java",
+      "zoneID": "14",
+      "color": "C9FFEA"
+    },
+    "65": {
+      "id": "65",
+      "name": "Python, Ruby e Perl",
+      "zoneID": "14",
+      "color": "C9FFF8"
+    },
+    "68": {
+      "id": "68",
+      "name": "Visual/GUI",
+      "zoneID": "14",
+      "color": "C9F8FF"
+    },
+    "71": {
+      "id": "71",
+      "name": "Desktop e Distribuições",
+      "zoneID": "15",
+      "color": "C9EAFF"
+    },
+    "74": {
+      "id": "74",
+      "name": "Jogos, Multimídia e Streaming",
+      "zoneID": "15",
+      "color": "C9DCFF"
+    },
+    "77": {
+      "id": "77",
+      "name": "Ecossistema / Cultura",
+      "zoneID": "16",
+      "color": "C9CEFF"
+    },
+    "80": {
+      "id": "80",
+      "name": "Negócios, Implementações e Casos",
+      "zoneID": "16",
+      "color": "D2C9FF"
+    },
+    "83": {
+      "id": "83",
+      "name": "Educação e Inclusão Digital",
+      "zoneID": "17",
+      "color": "E0C9FF"
+    },
+    "86": {
+      "id": "86",
+      "name": "Eventos Comunitários",
+      "zoneID": "18",
+      "color": "EEC9FF"
+    },
+    "89": {
+      "id": "89",
+      "name": "Tópicos Emergentes",
+      "zoneID": "19",
+      "color": "FCC9FF"
+    },
+    "92": {
+      "id": "92",
+      "name": "Organização",
+      "zoneID": "20",
+      "color": "FFC9F3"
+    },
+    "95": {
+      "id": "95",
+      "name": "Oficinas",
+      "zoneID": "21",
+      "color": "FFC9E5"
+    },
+    "98": {
+      "id": "98",
+      "name": "WSL",
+      "zoneID": "20",
+      "color": "FFC9D7"
+    }
   }
 }

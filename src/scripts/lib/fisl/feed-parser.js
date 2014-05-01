@@ -22,11 +22,20 @@ var FeedParser = function($, eventDate){
     this.parse = function (data){
         //on nodejs data will be null because the xml was passed to cheerio and is already the doc in $
         //on the browser, data will be the xml text string returned from an ajax dataType:'text' call
-        var $xml = (typeof data === 'string') ? $(data) : $('response'),
+
+            // Also xml parsers have bugs when it comes to elements named <area>
+            // cheerio fixed it, but jQuery still has trouble with it,
+            // hence the hackedData workaround… we replace
+            // <area> and </area> with <barea> and </barea> first :)
+        var hackedData = data.replace(/(<\/?)area([^>]*>)/ig,'$1barea$2'),
+            isJQuery = (typeof data === 'string'),
+            $xml = isJQuery ? $(hackedData) : $('response'),
+            areaSelector = isJQuery ? 'bareas barea' : 'areas area',
             authorElements = $xml.find('authorship person'),
             slotElements = $xml.find('slots slot'),
             roomElements = $xml.find('rooms room'),
             zoneElements = $xml.find('zones zone'),
+            areaElements = $xml.find('bareas barea'),
             minimumInterval = Number($xml.find('hours').first().attr('minimum_interval')),
             // endOfDay = '00:00:00.000Z',
             // startOfDay = '23:59:59.000Z',
@@ -35,6 +44,7 @@ var FeedParser = function($, eventDate){
             sessions = {},
             rooms = {},
             zones = {},
+            areas = {},
             days = [],
             roomOrder = [];
 
@@ -101,7 +111,6 @@ var FeedParser = function($, eventDate){
         // process.exit();
 
 
-        //- TBD Fill the areas dictionary
         //Fill the zones dictionary
         zoneElements.each(function(){
             var zone = $(this),
@@ -113,6 +122,21 @@ var FeedParser = function($, eventDate){
             };
         });
 
+
+        //Fill the areas dictionary
+        areaElements.each(function(){
+            var area = $(this),
+                id = area.attr('id'),
+                name = area.find('name').first().text(),
+                zoneID = area.find('zone').first().text(),
+                color = area.find('color').first().text();
+            areas[id] = {
+                id: id,
+                name: name,
+                zoneID: zoneID,
+                color: color
+            };
+        });
 
         // In the xml session information are stored under slot elements
         // which are 'slots in the schedule calendar'
@@ -270,7 +294,8 @@ var FeedParser = function($, eventDate){
                     presenters: presenters,
                     rooms: rooms,
                     sessions: sessions,
-                    zones: zones
+                    zones: zones,
+                    areas: areas
                 };
     };
 };
