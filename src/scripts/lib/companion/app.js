@@ -32,7 +32,8 @@ module.exports = function($, FISLParser, templates){
         updateInfo,
         updatesLog = [],
         mapPan,
-        mapMinScale;
+        mapMinScale,
+        firstFetchFailed = true;
 
     var isSessionFavorite = function(session){
         return bookmarkedSessions[session.sessionId] !== undefined;
@@ -571,6 +572,7 @@ module.exports = function($, FISLParser, templates){
         previousScheduleData = scheduleData;
         scheduleData = parser.parse(data);
         feedData = data;
+        firstFetchFailed = false;
 
         console.log('XML size='+data.length);
         if (xhr !== null){
@@ -600,7 +602,7 @@ module.exports = function($, FISLParser, templates){
         initSessions();
     };
 
-    var loadFeed = function(){
+    var loadFeed = function(anotherURL){
         console.log('loadFeed');
         var appElement = $('#app'),
             feedURL = appElement.data('feed-url'),
@@ -612,6 +614,9 @@ module.exports = function($, FISLParser, templates){
         }
         if (isRefresh && devSyncMode){
             feedURL = 'data/schedule2.xml';
+        }
+        if (anotherURL) {
+            feedURL = anotherURL;
         }
         //1. fetch feed
 
@@ -645,7 +650,14 @@ module.exports = function($, FISLParser, templates){
         //2. parse feed
         .done(feedLoaded)
         .fail(function() {
-            console.log('error');
+            console.log('request failed:'+this.url);
+            if (firstFetchFailed && this.url !== localFeed){
+                console.log('fetch packaged backup at '+ localFeed);
+                loadFeed(localFeed);
+            }else{
+                console.log('the request failed but the user should have something cached');
+                console.log('some kind of visual hint might be useful');
+            }
         }).always(function() {
             $('#refresh-feed').removeClass('loading');
         });
