@@ -39,9 +39,38 @@
         id="session-info-{{this.id}}"
         class="session-info collapse"
         >
+        <h5 class="area-{{this.areaID}}">
+            <span class="zone-name">
+            {{#withItem @root.schedule.zones key=this.zoneID}}
+                {{this.name}}
+            {{/withItem}}
+            </span>
+             >
+            <span class="area-name">
+            {{#withItem @root.schedule.areas key=this.areaID}}
+                {{this.name}}
+            {{/withItem}}
+            </span>
+        </h5>
         <p class="session-abstract panel-body">
             {{this.abstract}}
         </p>
+        <ul class="nav nav-pills">
+            <li>
+                <a class="room-link" href="#">
+                    <span class="place-icon"></span>
+                    {{#withItem @root.schedule.rooms key=this.roomID}}
+                        {{this.name}}
+                    {{/withItem}}
+                </a>
+            </li>
+            <li>
+                <a class="calendar-add-button" href="#">
+                    <span class="calendar-add-icon"></span>
+                    Add to calendar
+                </a>
+            </li>
+        </ul>
         {{#withItem @root.schedule.presenters key=this.id}}
         {{#if this.length}}
         <h5>
@@ -74,21 +103,6 @@
             {{formatEndDate this.start this.duration "HH:MM"}}
             — <span class="time-icon"></span> {{this.duration}} min
         </p>
-        <ul class="nav nav-pills">
-            <li>
-                <a class="room-link" href="#">
-                    <span class="place-icon"></span>
-                    {{#withItem @root.schedule.rooms key=this.roomID}}
-                        {{this.name}}
-                    {{/withItem}}
-                </a>
-            </li>
-            <li>
-                <a class="calendar-add-button" href="#">
-                    <span class="calendar-add-icon"></span>
-                    Add to calendar
-                </a>
-            </li>
-        </ul>
+
     </dd>
 </{{session_tag}}>
