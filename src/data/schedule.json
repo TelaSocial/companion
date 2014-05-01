@@ -15,10 +15,11 @@
             "611",
             "608",
             "452",
+            "410",
             "653",
             "370",
-            "670",
-            "714"
+            "714",
+            "670"
           ],
           "colspan": 3
         },
@@ -27,6 +28,7 @@
           "label": "10:00",
           "shortLabel": "10",
           "sessions": [
+            "738",
             "490",
             "601",
             "671"
@@ -44,6 +46,7 @@
             "315",
             "631",
             "655",
+            "717",
             "672"
           ],
           "colspan": 3
@@ -60,10 +63,10 @@
             "86",
             "711",
             "221",
+            "742",
             "543",
             "259",
-            "253",
-            "717"
+            "253"
           ],
           "colspan": 3
         },
@@ -94,8 +97,8 @@
             "619",
             "708",
             "203",
-            "650",
-            "167"
+            "167",
+            "650"
           ],
           "colspan": 3
         },
@@ -114,8 +117,7 @@
             "656",
             "600",
             "438",
-            "673",
-            "718"
+            "673"
           ],
           "colspan": 3
         },
@@ -138,11 +140,13 @@
           "shortLabel": "17",
           "sessions": [
             "278",
+            "741",
             "597",
             "304",
             "435",
             "497",
             "72",
+            "718",
             "675"
           ],
           "colspan": 3
@@ -159,11 +163,17 @@
               "colspan": 3
             },
             {
+              "sessionID": "738",
+              "startTime": 1399467600000,
+              "endTime": 1399471200000,
+              "colspan": 3
+            },
+            {
               "sessionID": "337",
               "startTime": 1399474800000,
               "endTime": 1399478400000,
               "colspan": 3,
-              "emptyBefore": 6
+              "emptyBefore": 3
             },
             {
               "sessionID": "481",
@@ -229,8 +239,14 @@
               "startTime": 1399485600000,
               "endTime": 1399489200000,
               "colspan": 3,
-              "emptyBefore": 6,
-              "emptyAfter": 6
+              "emptyBefore": 6
+            },
+            {
+              "sessionID": "741",
+              "startTime": 1399492800000,
+              "endTime": 1399496400000,
+              "colspan": 3,
+              "emptyBefore": 3
             }
           ]
         },
@@ -474,11 +490,24 @@
           "id": "7",
           "sessions": [
             {
+              "sessionID": "410",
+              "startTime": 1399464000000,
+              "endTime": 1399467600000,
+              "colspan": 3
+            },
+            {
+              "sessionID": "742",
+              "startTime": 1399474800000,
+              "endTime": 1399478400000,
+              "colspan": 3,
+              "emptyBefore": 6
+            },
+            {
               "sessionID": "203",
               "startTime": 1399482000000,
               "endTime": 1399485600000,
               "colspan": 3,
-              "emptyBefore": 15
+              "emptyBefore": 3
             },
             {
               "sessionID": "281",
@@ -566,15 +595,25 @@
           ]
         },
         {
-          "id": "717",
+          "id": "721",
           "sessions": [
             {
-              "sessionID": "650",
-              "startTime": 1399482000000,
-              "endTime": 1399489200000,
-              "colspan": 6,
-              "emptyBefore": 15,
-              "emptyAfter": 6
+              "sessionID": "714",
+              "startTime": 1399464000000,
+              "endTime": 1399471200000,
+              "colspan": 6
+            },
+            {
+              "sessionID": "717",
+              "startTime": 1399471200000,
+              "endTime": 1399492800000,
+              "colspan": 18
+            },
+            {
+              "sessionID": "718",
+              "startTime": 1399492800000,
+              "endTime": 1399496400000,
+              "colspan": 3
             }
           ]
         },
@@ -638,25 +677,15 @@
           ]
         },
         {
-          "id": "721",
+          "id": "717",
           "sessions": [
             {
-              "sessionID": "714",
-              "startTime": 1399464000000,
-              "endTime": 1399474800000,
-              "colspan": 9
-            },
-            {
-              "sessionID": "717",
-              "startTime": 1399474800000,
-              "endTime": 1399485600000,
-              "colspan": 9
-            },
-            {
-              "sessionID": "718",
-              "startTime": 1399485600000,
-              "endTime": 1399496400000,
-              "colspan": 9
+              "sessionID": "650",
+              "startTime": 1399482000000,
+              "endTime": 1399489200000,
+              "colspan": 6,
+              "emptyBefore": 15,
+              "emptyAfter": 6
             }
           ]
         }
@@ -672,18 +701,18 @@
           "label": "09:00",
           "shortLabel": "09",
           "sessions": [
-            "55",
             "712",
             "614",
             "615",
             "609",
             "378",
             "613",
+            "737",
             "698",
             "283",
-            "703",
+            "635",
             "676",
-            "635"
+            "703"
           ],
           "colspan": 3
         },
@@ -694,6 +723,7 @@
           "sessions": [
             "258",
             "157",
+            "746",
             "677"
           ],
           "colspan": 2
@@ -716,6 +746,8 @@
             "559",
             "623",
             "424",
+            "728",
+            "747",
             "658",
             "678"
           ],
@@ -727,11 +759,13 @@
           "shortLabel": "12",
           "sessions": [
             "634",
+            "725",
             "317",
             "603",
             "561",
             "521",
             "295",
+            "758",
             "351",
             "101",
             "694"
@@ -754,9 +788,11 @@
           "sessions": [
             "607",
             "34",
+            "729",
             "267",
             "217",
             "380",
+            "748",
             "659",
             "77"
           ],
@@ -771,9 +807,11 @@
             "622",
             "248",
             "85",
-            "704",
+            "743",
+            "750",
+            "638",
             "679",
-            "638"
+            "704"
           ],
           "colspan": 3
         },
@@ -788,6 +826,7 @@
             "43",
             "695",
             "404",
+            "751",
             "660",
             "555",
             "550",
@@ -814,6 +853,7 @@
             "302",
             "189",
             "630",
+            "752",
             "595"
           ],
           "colspan": 3
@@ -829,6 +869,7 @@
             "279",
             "177",
             "512",
+            "753",
             "640"
           ],
           "colspan": 3
@@ -877,23 +918,24 @@
           "id": "1",
           "sessions": [
             {
-              "sessionID": "55",
-              "startTime": 1399550400000,
-              "endTime": 1399554000000,
-              "colspan": 3
-            },
-            {
               "sessionID": "258",
               "startTime": 1399554000000,
               "endTime": 1399561200000,
-              "colspan": 6
+              "colspan": 6,
+              "emptyBefore": 3
+            },
+            {
+              "sessionID": "725",
+              "startTime": 1399561200000,
+              "endTime": 1399564800000,
+              "colspan": 3
             },
             {
               "sessionID": "622",
               "startTime": 1399568400000,
               "endTime": 1399572000000,
               "colspan": 3,
-              "emptyBefore": 6
+              "emptyBefore": 3
             },
             {
               "sessionID": "475",
@@ -997,11 +1039,16 @@
               "colspan": 3
             },
             {
+              "sessionID": "729",
+              "startTime": 1399564800000,
+              "endTime": 1399568400000,
+              "colspan": 3
+            },
+            {
               "sessionID": "85",
               "startTime": 1399568400000,
               "endTime": 1399572000000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "colspan": 3
             },
             {
               "sessionID": "583",
@@ -1047,11 +1094,16 @@
               "colspan": 3
             },
             {
+              "sessionID": "743",
+              "startTime": 1399568400000,
+              "endTime": 1399572000000,
+              "colspan": 3
+            },
+            {
               "sessionID": "43",
               "startTime": 1399572000000,
               "endTime": 1399575600000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "colspan": 3
             },
             {
               "sessionID": "189",
@@ -1077,11 +1129,16 @@
               "colspan": 6
             },
             {
+              "sessionID": "728",
+              "startTime": 1399557600000,
+              "endTime": 1399561200000,
+              "colspan": 3
+            },
+            {
               "sessionID": "521",
               "startTime": 1399561200000,
               "endTime": 1399564800000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "colspan": 3
             },
             {
               "sessionID": "217",
@@ -1155,8 +1212,55 @@
               "sessionID": "613",
               "startTime": 1399550400000,
               "endTime": 1399554000000,
-              "colspan": 3,
-              "emptyAfter": 24
+              "colspan": 3
+            },
+            {
+              "sessionID": "746",
+              "startTime": 1399554000000,
+              "endTime": 1399557600000,
+              "colspan": 3
+            },
+            {
+              "sessionID": "747",
+              "startTime": 1399557600000,
+              "endTime": 1399561200000,
+              "colspan": 3
+            },
+            {
+              "sessionID": "758",
+              "startTime": 1399561200000,
+              "endTime": 1399564800000,
+              "colspan": 3
+            },
+            {
+              "sessionID": "748",
+              "startTime": 1399564800000,
+              "endTime": 1399568400000,
+              "colspan": 3
+            },
+            {
+              "sessionID": "750",
+              "startTime": 1399568400000,
+              "endTime": 1399572000000,
+              "colspan": 3
+            },
+            {
+              "sessionID": "751",
+              "startTime": 1399572000000,
+              "endTime": 1399575600000,
+              "colspan": 3
+            },
+            {
+              "sessionID": "752",
+              "startTime": 1399575600000,
+              "endTime": 1399579200000,
+              "colspan": 3
+            },
+            {
+              "sessionID": "753",
+              "startTime": 1399579200000,
+              "endTime": 1399582800000,
+              "colspan": 3
             }
           ]
         },
@@ -1164,11 +1268,16 @@
           "id": "10",
           "sessions": [
             {
+              "sessionID": "737",
+              "startTime": 1399550400000,
+              "endTime": 1399557600000,
+              "colspan": 6
+            },
+            {
               "sessionID": "658",
               "startTime": 1399557600000,
               "endTime": 1399564800000,
-              "colspan": 6,
-              "emptyBefore": 6
+              "colspan": 6
             },
             {
               "sessionID": "659",
@@ -1231,25 +1340,43 @@
           ]
         },
         {
-          "id": "717",
+          "id": "721",
           "sessions": [
             {
-              "sessionID": "703",
+              "sessionID": "635",
               "startTime": 1399550400000,
+              "endTime": 1399556400000,
+              "colspan": 5
+            },
+            {
+              "sessionID": "636",
+              "startTime": 1399556400000,
+              "endTime": 1399562400000,
+              "colspan": 5
+            },
+            {
+              "sessionID": "637",
+              "startTime": 1399562400000,
               "endTime": 1399568400000,
-              "colspan": 15
+              "colspan": 5
             },
             {
-              "sessionID": "704",
+              "sessionID": "638",
               "startTime": 1399568400000,
-              "endTime": 1399575600000,
-              "colspan": 6
+              "endTime": 1399574400000,
+              "colspan": 5
             },
             {
-              "sessionID": "595",
-              "startTime": 1399575600000,
+              "sessionID": "639",
+              "startTime": 1399574400000,
+              "endTime": 1399579200000,
+              "colspan": 4
+            },
+            {
+              "sessionID": "640",
+              "startTime": 1399579200000,
               "endTime": 1399582800000,
-              "colspan": 6
+              "colspan": 3
             }
           ]
         },
@@ -1301,43 +1428,25 @@
           ]
         },
         {
-          "id": "721",
+          "id": "717",
           "sessions": [
             {
-              "sessionID": "635",
+              "sessionID": "703",
               "startTime": 1399550400000,
-              "endTime": 1399556400000,
-              "colspan": 5
-            },
-            {
-              "sessionID": "636",
-              "startTime": 1399556400000,
-              "endTime": 1399562400000,
-              "colspan": 5
-            },
-            {
-              "sessionID": "637",
-              "startTime": 1399562400000,
               "endTime": 1399568400000,
-              "colspan": 5
+              "colspan": 15
             },
             {
-              "sessionID": "638",
+              "sessionID": "704",
               "startTime": 1399568400000,
-              "endTime": 1399574400000,
-              "colspan": 5
+              "endTime": 1399575600000,
+              "colspan": 6
             },
             {
-              "sessionID": "639",
-              "startTime": 1399574400000,
-              "endTime": 1399579200000,
-              "colspan": 4
-            },
-            {
-              "sessionID": "640",
-              "startTime": 1399579200000,
+              "sessionID": "595",
+              "startTime": 1399575600000,
               "endTime": 1399582800000,
-              "colspan": 3
+              "colspan": 6
             }
           ]
         }
@@ -1362,11 +1471,20 @@
             "397",
             "661",
             "388",
-            "668",
+            "713",
             "681",
-            "713"
+            "668"
           ],
-          "colspan": 3
+          "colspan": 2
+        },
+        {
+          "start": "2014-05-09T09:40:00-03:00",
+          "label": "09:40",
+          "shortLabel": "09:40",
+          "sessions": [
+            "715"
+          ],
+          "colspan": 1
         },
         {
           "start": "2014-05-09T10:00:00-03:00",
@@ -1377,10 +1495,21 @@
             "483",
             "513",
             "707",
+            "721",
             "696",
+            "716",
             "682"
           ],
-          "colspan": 3
+          "colspan": 2
+        },
+        {
+          "start": "2014-05-09T10:40:00-03:00",
+          "label": "10:40",
+          "shortLabel": "10:40",
+          "sessions": [
+            "731"
+          ],
+          "colspan": 1
         },
         {
           "start": "2014-05-09T11:00:00-03:00",
@@ -1396,7 +1525,16 @@
             "662",
             "683"
           ],
-          "colspan": 3
+          "colspan": 1
+        },
+        {
+          "start": "2014-05-09T11:20:00-03:00",
+          "label": "11:20",
+          "shortLabel": "11:20",
+          "sessions": [
+            "732"
+          ],
+          "colspan": 2
         },
         {
           "start": "2014-05-09T12:00:00-03:00",
@@ -1410,8 +1548,7 @@
             "618",
             "186",
             "474",
-            "300",
-            "715"
+            "300"
           ],
           "colspan": 3
         },
@@ -1426,7 +1563,9 @@
             "301",
             "556",
             "237",
+            "754",
             "666",
+            "736",
             "286"
           ],
           "colspan": 3
@@ -1440,11 +1579,23 @@
             "633",
             "541",
             "705",
+            "730",
             "628",
             "486",
+            "755",
+            "733",
             "684"
           ],
-          "colspan": 3
+          "colspan": 2
+        },
+        {
+          "start": "2014-05-09T14:40:00-03:00",
+          "label": "14:40",
+          "shortLabel": "14:40",
+          "sessions": [
+            "734"
+          ],
+          "colspan": 1
         },
         {
           "start": "2014-05-09T15:00:00-03:00",
@@ -1453,13 +1604,14 @@
           "sessions": [
             "496",
             "10",
+            "745",
             "649",
             "91",
             "204",
+            "756",
             "664",
             "697",
-            "685",
-            "716"
+            "685"
           ],
           "colspan": 3
         },
@@ -1468,9 +1620,11 @@
           "label": "16:00",
           "shortLabel": "16",
           "sessions": [
+            "328",
             "514",
             "98",
-            "652"
+            "652",
+            "757"
           ],
           "colspan": 3
         },
@@ -1485,6 +1639,8 @@
             "627",
             "250",
             "192",
+            "749",
+            "735",
             "686"
           ],
           "colspan": 3
@@ -1586,11 +1742,16 @@
               "colspan": 3
             },
             {
+              "sessionID": "328",
+              "startTime": 1399662000000,
+              "endTime": 1399665600000,
+              "colspan": 3
+            },
+            {
               "sessionID": "646",
               "startTime": 1399665600000,
               "endTime": 1399669200000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "colspan": 3
             }
           ]
         },
@@ -1623,11 +1784,16 @@
               "emptyBefore": 3
             },
             {
+              "sessionID": "745",
+              "startTime": 1399658400000,
+              "endTime": 1399662000000,
+              "colspan": 3
+            },
+            {
               "sessionID": "514",
               "startTime": 1399662000000,
               "endTime": 1399665600000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "colspan": 3
             },
             {
               "sessionID": "529",
@@ -1701,11 +1867,16 @@
               "colspan": 3
             },
             {
+              "sessionID": "730",
+              "startTime": 1399654800000,
+              "endTime": 1399658400000,
+              "colspan": 3
+            },
+            {
               "sessionID": "649",
               "startTime": 1399658400000,
               "endTime": 1399662000000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "colspan": 3
             },
             {
               "sessionID": "627",
@@ -1779,11 +1950,16 @@
               "colspan": 3
             },
             {
+              "sessionID": "721",
+              "startTime": 1399640400000,
+              "endTime": 1399644000000,
+              "colspan": 3
+            },
+            {
               "sessionID": "392",
               "startTime": 1399644000000,
               "endTime": 1399647600000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "colspan": 3
             },
             {
               "sessionID": "186",
@@ -1843,8 +2019,37 @@
               "startTime": 1399647600000,
               "endTime": 1399651200000,
               "colspan": 3,
-              "emptyBefore": 3,
-              "emptyAfter": 15
+              "emptyBefore": 3
+            },
+            {
+              "sessionID": "754",
+              "startTime": 1399651200000,
+              "endTime": 1399654800000,
+              "colspan": 3
+            },
+            {
+              "sessionID": "755",
+              "startTime": 1399654800000,
+              "endTime": 1399658400000,
+              "colspan": 3
+            },
+            {
+              "sessionID": "756",
+              "startTime": 1399658400000,
+              "endTime": 1399662000000,
+              "colspan": 3
+            },
+            {
+              "sessionID": "757",
+              "startTime": 1399662000000,
+              "endTime": 1399665600000,
+              "colspan": 3
+            },
+            {
+              "sessionID": "749",
+              "startTime": 1399665600000,
+              "endTime": 1399669200000,
+              "colspan": 3
             }
           ]
         },
@@ -1900,14 +2105,61 @@
           ]
         },
         {
-          "id": "717",
+          "id": "721",
           "sessions": [
             {
-              "sessionID": "668",
+              "sessionID": "713",
               "startTime": 1399636800000,
-              "endTime": 1399647600000,
-              "colspan": 9,
-              "emptyAfter": 18
+              "endTime": 1399639200000,
+              "colspan": 2
+            },
+            {
+              "sessionID": "715",
+              "startTime": 1399639200000,
+              "endTime": 1399640400000,
+              "colspan": 1
+            },
+            {
+              "sessionID": "716",
+              "startTime": 1399640400000,
+              "endTime": 1399642800000,
+              "colspan": 2
+            },
+            {
+              "sessionID": "731",
+              "startTime": 1399642800000,
+              "endTime": 1399645200000,
+              "colspan": 2
+            },
+            {
+              "sessionID": "732",
+              "startTime": 1399645200000,
+              "endTime": 1399651200000,
+              "colspan": 5
+            },
+            {
+              "sessionID": "736",
+              "startTime": 1399651200000,
+              "endTime": 1399654800000,
+              "colspan": 3
+            },
+            {
+              "sessionID": "733",
+              "startTime": 1399654800000,
+              "endTime": 1399657200000,
+              "colspan": 2
+            },
+            {
+              "sessionID": "734",
+              "startTime": 1399657200000,
+              "endTime": 1399665600000,
+              "colspan": 7
+            },
+            {
+              "sessionID": "735",
+              "startTime": 1399665600000,
+              "endTime": 1399669200000,
+              "colspan": 3
             }
           ]
         },
@@ -1965,25 +2217,14 @@
           ]
         },
         {
-          "id": "721",
+          "id": "717",
           "sessions": [
             {
-              "sessionID": "713",
+              "sessionID": "668",
               "startTime": 1399636800000,
               "endTime": 1399647600000,
-              "colspan": 9
-            },
-            {
-              "sessionID": "715",
-              "startTime": 1399647600000,
-              "endTime": 1399658400000,
-              "colspan": 9
-            },
-            {
-              "sessionID": "716",
-              "startTime": 1399658400000,
-              "endTime": 1399669200000,
-              "colspan": 9
+              "colspan": 9,
+              "emptyAfter": 18
             }
           ]
         }
@@ -2018,6 +2259,7 @@
           "sessions": [
             "272",
             "477",
+            "722",
             "518",
             "224",
             "688"
@@ -2033,6 +2275,7 @@
             "604",
             "709",
             "330",
+            "744",
             "9",
             "632",
             "176",
@@ -2081,6 +2324,7 @@
           "sessions": [
             "509",
             "593",
+            "726",
             "280",
             "690"
           ],
@@ -2091,6 +2335,7 @@
           "label": "15:00",
           "shortLabel": "15",
           "sessions": [
+            "739",
             "579",
             "68",
             "211",
@@ -2099,8 +2344,8 @@
             "183",
             "667",
             "158",
-            "596",
-            "691"
+            "691",
+            "596"
           ],
           "colspan": 3
         },
@@ -2113,7 +2358,6 @@
             "651",
             "201",
             "700",
-            "340",
             "369",
             "525",
             "701"
@@ -2155,11 +2399,16 @@
               "emptyBefore": 6
             },
             {
+              "sessionID": "739",
+              "startTime": 1399744800000,
+              "endTime": 1399748400000,
+              "colspan": 3
+            },
+            {
               "sessionID": "605",
               "startTime": 1399748400000,
               "endTime": 1399752000000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "colspan": 3
             },
             {
               "sessionID": "644",
@@ -2331,24 +2580,36 @@
               "colspan": 3
             },
             {
+              "sessionID": "722",
+              "startTime": 1399726800000,
+              "endTime": 1399730400000,
+              "colspan": 3
+            },
+            {
+              "sessionID": "744",
+              "startTime": 1399730400000,
+              "endTime": 1399734000000,
+              "colspan": 3
+            },
+            {
               "sessionID": "485",
               "startTime": 1399734000000,
               "endTime": 1399737600000,
-              "colspan": 3,
-              "emptyBefore": 6
+              "colspan": 3
             },
             {
-              "sessionID": "340",
-              "startTime": 1399748400000,
-              "endTime": 1399752000000,
+              "sessionID": "726",
+              "startTime": 1399741200000,
+              "endTime": 1399744800000,
               "colspan": 3,
-              "emptyBefore": 9
+              "emptyBefore": 3
             },
             {
               "sessionID": "20",
               "startTime": 1399752000000,
               "endTime": 1399755600000,
-              "colspan": 3
+              "colspan": 3,
+              "emptyBefore": 6
             }
           ]
         },
@@ -2566,23 +2827,8 @@
           "sessions": []
         },
         {
-          "id": "717",
-          "sessions": [
-            {
-              "sessionID": "706",
-              "startTime": 1399723200000,
-              "endTime": 1399737600000,
-              "colspan": 12
-            },
-            {
-              "sessionID": "596",
-              "startTime": 1399744800000,
-              "endTime": 1399752000000,
-              "colspan": 6,
-              "emptyBefore": 6,
-              "emptyAfter": 3
-            }
-          ]
+          "id": "721",
+          "sessions": []
         },
         {
           "id": "718",
@@ -2633,8 +2879,23 @@
           ]
         },
         {
-          "id": "721",
-          "sessions": []
+          "id": "717",
+          "sessions": [
+            {
+              "sessionID": "706",
+              "startTime": 1399723200000,
+              "endTime": 1399737600000,
+              "colspan": 12
+            },
+            {
+              "sessionID": "596",
+              "startTime": 1399744800000,
+              "endTime": 1399752000000,
+              "colspan": 6,
+              "emptyBefore": 6,
+              "emptyAfter": 3
+            }
+          ]
         }
       ],
       "maxColspan": 27
@@ -2702,13 +2963,6 @@
         "main": true
       }
     ],
-    "55": [
-      {
-        "id": "39",
-        "name": "Matheus Carvalho",
-        "main": true
-      }
-    ],
     "57": [
       {
         "id": "29",
@@ -2746,6 +3000,11 @@
       {
         "id": "394",
         "name": "Joel Martins Grigolo Júnior",
+        "main": false
+      },
+      {
+        "id": "396",
+        "name": "Lisardo Sallaberry Kist",
         "main": false
       },
       {
@@ -2896,6 +3155,11 @@
         "id": "69",
         "name": "Francisco Prates Junior",
         "main": true
+      },
+      {
+        "id": "1079",
+        "name": "Rafael Buratto",
+        "main": false
       }
     ],
     "173": [
@@ -3116,9 +3380,19 @@
     ],
     "224": [
       {
-        "id": "553",
-        "name": "Marcos da Paz",
+        "id": "585",
+        "name": "Alex Garcia Smith Angelo",
         "main": true
+      },
+      {
+        "id": "462",
+        "name": "Elton",
+        "main": false
+      },
+      {
+        "id": "553",
+        "name": "Elton Santolin e Alex Garcia",
+        "main": false
       }
     ],
     "230": [
@@ -3419,6 +3693,13 @@
         "main": false
       }
     ],
+    "328": [
+      {
+        "id": "664",
+        "name": "Marcio Galli",
+        "main": true
+      }
+    ],
     "330": [
       {
         "id": "662",
@@ -3442,13 +3723,6 @@
       {
         "id": "667",
         "name": "Diane Carol Mueller",
-        "main": true
-      }
-    ],
-    "340": [
-      {
-        "id": "665",
-        "name": "Antonio Fernando Santos Ladeia",
         "main": true
       }
     ],
@@ -3624,6 +3898,13 @@
       {
         "id": "715",
         "name": "José Francisco Nunes Fernandez",
+        "main": true
+      }
+    ],
+    "410": [
+      {
+        "id": "714",
+        "name": "Davis Victor Feitosa de Oliveira",
         "main": true
       }
     ],
@@ -4610,8 +4891,8 @@
     ],
     "653": [
       {
-        "id": "856",
-        "name": "menoni",
+        "id": "860",
+        "name": "Diego Bouvier",
         "main": true
       }
     ],
@@ -5041,31 +5322,311 @@
         "main": true
       }
     ],
+    "713": [
+      {
+        "id": "1069",
+        "name": "Henrique Andrade",
+        "main": false
+      }
+    ],
     "714": [
       {
-        "id": "3",
-        "name": "Organização 0",
+        "id": "1090",
+        "name": " RodAda Hacker",
+        "main": true
+      },
+      {
+        "id": "1087",
+        "name": "Fernanda Shirakawa",
+        "main": false
+      }
+    ],
+    "716": [
+      {
+        "id": "1069",
+        "name": "Henrique Andrade",
         "main": true
       }
     ],
     "717": [
       {
-        "id": "3",
-        "name": "Organização 0",
+        "id": "1090",
+        "name": " RodAda Hacker",
         "main": true
+      },
+      {
+        "id": "1088",
+        "name": "Patricia Jordão",
+        "main": false
       }
     ],
     "718": [
       {
-        "id": "3",
-        "name": "Organização 0",
+        "id": "1090",
+        "name": " RodAda Hacker",
         "main": true
+      },
+      {
+        "id": "668",
+        "name": "Fabrício Zuardi",
+        "main": false
       }
     ],
     "719": [
       {
         "id": "3",
         "name": "Organização 0",
+        "main": true
+      }
+    ],
+    "721": [
+      {
+        "id": "1066",
+        "name": "Moacyr Perche",
+        "main": true
+      }
+    ],
+    "722": [
+      {
+        "id": "1066",
+        "name": "Moacyr Perche",
+        "main": true
+      }
+    ],
+    "724": [
+      {
+        "id": "1068",
+        "name": "Marcelo Pimenta",
+        "main": true
+      }
+    ],
+    "725": [
+      {
+        "id": "1069",
+        "name": "Henrique Andrade",
+        "main": true
+      }
+    ],
+    "726": [
+      {
+        "id": "1070",
+        "name": "Jomar Silva",
+        "main": true
+      }
+    ],
+    "728": [
+      {
+        "id": "1071",
+        "name": "Juliana Botelho Foernges",
+        "main": true
+      },
+      {
+        "id": "1072",
+        "name": "Domingos Secco Junior",
+        "main": false
+      }
+    ],
+    "729": [
+      {
+        "id": "1075",
+        "name": "Leonardo Lazarte",
+        "main": true
+      }
+    ],
+    "730": [
+      {
+        "id": "1076",
+        "name": "Luís Fernando Barbosa Lins",
+        "main": true
+      }
+    ],
+    "731": [
+      {
+        "id": "912",
+        "name": "Álvaro Justen",
+        "main": true
+      },
+      {
+        "id": "804",
+        "name": "Alexandre Hannud Abdo",
+        "main": false
+      },
+      {
+        "id": "1069",
+        "name": "Henrique Andrade",
+        "main": false
+      }
+    ],
+    "732": [
+      {
+        "id": "804",
+        "name": "Alexandre Hannud Abdo",
+        "main": true
+      },
+      {
+        "id": "1069",
+        "name": "Henrique Andrade",
+        "main": false
+      },
+      {
+        "id": "912",
+        "name": "Álvaro Justen",
+        "main": false
+      }
+    ],
+    "733": [
+      {
+        "id": "1069",
+        "name": "Henrique Andrade",
+        "main": true
+      },
+      {
+        "id": "804",
+        "name": "Alexandre Hannud Abdo",
+        "main": false
+      },
+      {
+        "id": "912",
+        "name": "Álvaro Justen",
+        "main": false
+      }
+    ],
+    "734": [
+      {
+        "id": "912",
+        "name": "Álvaro Justen",
+        "main": true
+      },
+      {
+        "id": "804",
+        "name": "Alexandre Hannud Abdo",
+        "main": false
+      },
+      {
+        "id": "1069",
+        "name": "Henrique Andrade",
+        "main": false
+      }
+    ],
+    "735": [
+      {
+        "id": "804",
+        "name": "Alexandre Hannud Abdo",
+        "main": true
+      },
+      {
+        "id": "1069",
+        "name": "Henrique Andrade",
+        "main": false
+      },
+      {
+        "id": "912",
+        "name": "Álvaro Justen",
+        "main": false
+      }
+    ],
+    "737": [
+      {
+        "id": "1080",
+        "name": "Bruno Sperb",
+        "main": true
+      }
+    ],
+    "738": [
+      {
+        "id": "1082",
+        "name": "Torsten Grote",
+        "main": true
+      }
+    ],
+    "739": [
+      {
+        "id": "1082",
+        "name": "Torsten Grote",
+        "main": true
+      }
+    ],
+    "740": [
+      {
+        "id": "1083",
+        "name": "Fridrich Strba",
+        "main": true
+      }
+    ],
+    "741": [
+      {
+        "id": "1083",
+        "name": "Fridrich Strba",
+        "main": true
+      }
+    ],
+    "742": [
+      {
+        "id": "1086",
+        "name": "kamila Brito ",
+        "main": true
+      }
+    ],
+    "746": [
+      {
+        "id": "1092",
+        "name": "Breno Gonçalves Bragatti Neves",
+        "main": true
+      }
+    ],
+    "747": [
+      {
+        "id": "1093",
+        "name": "Diego Pasqualin",
+        "main": true
+      }
+    ],
+    "748": [
+      {
+        "id": "1094",
+        "name": "Filipe Saraiva",
+        "main": true
+      }
+    ],
+    "749": [
+      {
+        "id": "655",
+        "name": "Marcos Vinicius Scholl",
+        "main": true
+      }
+    ],
+    "751": [
+      {
+        "id": "1096",
+        "name": "Matheus Guimarães Mello",
+        "main": true
+      }
+    ],
+    "752": [
+      {
+        "id": "1027",
+        "name": "Rafaela da Silva Melo",
+        "main": true
+      }
+    ],
+    "753": [
+      {
+        "id": "1097",
+        "name": "Sara Schoonmaker",
+        "main": true
+      }
+    ],
+    "756": [
+      {
+        "id": "1098",
+        "name": "Leandro Soriano Ferreira",
+        "main": true
+      }
+    ],
+    "758": [
+      {
+        "id": "1100",
+        "name": "Andre Noel",
         "main": true
       }
     ]
@@ -5157,7 +5718,7 @@
       "capacity": 40,
       "translation": false,
       "name": "Reuniões 710",
-      "position": 16
+      "position": 18
     },
     "718": {
       "id": "718",
@@ -5181,7 +5742,7 @@
       "capacity": 40,
       "translation": false,
       "name": "714 - OF3",
-      "position": 18
+      "position": 16
     }
   },
   "sessions": {
@@ -5272,17 +5833,6 @@
       "start": "2014-05-08T15:00:00-03:00",
       "duration": 60,
       "roomID": "4"
-    },
-    "55": {
-      "id": "55",
-      "title": "Quebrando o Android no Meio",
-      "abstract": "Formas básicas de invadir e proteger seu Android.",
-      "areaID": "50",
-      "zoneID": "13",
-      "level": "starter",
-      "start": "2014-05-08T09:00:00-03:00",
-      "duration": 60,
-      "roomID": "1"
     },
     "57": {
       "id": "57",
@@ -6109,6 +6659,17 @@
       "duration": 60,
       "roomID": "5"
     },
+    "328": {
+      "id": "328",
+      "title": "Boot para a Web com Gecko: Desktop, dispositivos móveis, TVs e mais ",
+      "abstract": "São mais de 15 anos de Gecko e hoje a Mozilla carrega um dos projetos mais importantes que levam a Web além do desktop — para as pessoas. O Boot 2 Gecko [1],  e suas camadas, Gecko, Gaia e Gonk; levaram o Firefox para a experiência de usuário de um moderno sistema operacional. Assim se consolida a Web, primeiro em dispositivos móveis, mas surgem grandes desafios e oportunidades da Web ter maior impacto.\r\n",
+      "areaID": "89",
+      "zoneID": "19",
+      "level": "intermediate",
+      "start": "2014-05-09T16:00:00-03:00",
+      "duration": 60,
+      "roomID": "1"
+    },
     "330": {
       "id": "330",
       "title": "Introdução ao Git",
@@ -6141,17 +6702,6 @@
       "start": "2014-05-07T12:00:00-03:00",
       "duration": 60,
       "roomID": "8"
-    },
-    "340": {
-      "id": "340",
-      "title": "Raul Hacker Club, o início de um Hacker Space",
-      "abstract": "Nesta apresentação será abordada os trâmites e procedimentos tomados para a criação de um Hacker Space. Serão apresentados os problemas, as iniciativas e as coisas boas de trabalhar em coletividade.",
-      "areaID": "80",
-      "zoneID": "16",
-      "level": "starter",
-      "start": "2014-05-10T16:00:00-03:00",
-      "duration": 60,
-      "roomID": "4"
     },
     "345": {
       "id": "345",
@@ -6317,6 +6867,17 @@
       "start": "2014-05-08T15:00:00-03:00",
       "duration": 60,
       "roomID": "6"
+    },
+    "410": {
+      "id": "410",
+      "title": "Infraestrutura Livre: Redes de Data Center compartilhado.",
+      "abstract": "Em busca de padrões e interoperabilidade de comutadores e roteadores, um protocolo livre vem chamando atenção. Esse protocolo é o Openflow e junto com sua implementação surgiu um novo paradigma de redes, denominado Redes Definidas por Software (SDN). Com esse paradigma e o conceito de computação em nuvem (data centers virtualizados) é possível criar as redes de data center (Data Center Networks  - DCN) livres.",
+      "areaID": "80",
+      "zoneID": "16",
+      "level": "intermediate",
+      "start": "2014-05-07T09:00:00-03:00",
+      "duration": 60,
+      "roomID": "7"
     },
     "422": {
       "id": "422",
@@ -8113,8 +8674,8 @@
     },
     "705": {
       "id": "705",
-      "title": "Invest Fórum",
-      "abstract": "Invest Fórum",
+      "title": "InvestForum",
+      "abstract": "O InvestForum é uma projeto do FISL para  aqueles que tem uma empresa, ideia ou projeto e precisam de apoio para  se estruturar e ganhar o mercado.",
       "areaID": "92",
       "zoneID": "20",
       "level": "",
@@ -8190,69 +8751,443 @@
     },
     "713": {
       "id": "713",
-      "title": "Hackathon Wikipédia 0",
-      "abstract": "Hackathon Wikipédia 0",
+      "title": "Hackathon Wikipédia - Recepção dos participantes",
+      "abstract": "O Hackathon Wikipédia é um espaço do FISL 15 onde programadores e curiosos poderão aprender na prática como funcionam as ferramentas e os dados que estão por trás do maior site colaborativo do mundo, desenvolvendo suas próprias ideias e/ou aprimorando implementações já existentes. Mais detalhes em https://pt.wikipedia.org/wiki/Wikipédia:Hackathon/Atividades_em_português/FISL_15",
       "areaID": "6",
       "zoneID": "21",
       "level": "",
       "start": "2014-05-09T09:00:00-03:00",
-      "duration": 180,
+      "duration": 40,
       "roomID": "721"
     },
     "714": {
       "id": "714",
-      "title": "RodAda Hacker 0",
+      "title": "RodAda Hacker Abertura + light talkings de iniciação à programação",
       "abstract": "Programação para meninas ...",
       "areaID": "53",
       "zoneID": "14",
       "level": "",
       "start": "2014-05-07T09:00:00-03:00",
-      "duration": 180,
+      "duration": 120,
       "roomID": "721"
     },
     "715": {
       "id": "715",
-      "title": "Hackathon Wikipédia 1",
-      "abstract": "Hackathon Wikipédia 1",
+      "title": "Hackathon Wikipédia - Abertura",
+      "abstract": "HO Hackathon Wikipédia é um espaço do FISL 15 onde programadores e curiosos poderão aprender na prática como funcionam as ferramentas e os dados que estão por trás do maior site colaborativo do mundo, desenvolvendo suas próprias ideias e/ou aprimorando implementações já existentes. Mais detalhes em https://pt.wikipedia.org/wiki/Wikipédia:Hackathon/Atividades_em_português/FISL_15ackathon Wikipédia 1",
       "areaID": "6",
       "zoneID": "21",
       "level": "",
-      "start": "2014-05-09T12:00:00-03:00",
-      "duration": 180,
+      "start": "2014-05-09T09:40:00-03:00",
+      "duration": 20,
       "roomID": "721"
     },
     "716": {
       "id": "716",
-      "title": "Hackathon Wikipédia 2",
-      "abstract": "Hackathon 2",
+      "title": "Hackathon Wikipédia - Como hackear a Wikipédia",
+      "abstract": "Apresentação de potencialidades de desenvolvimento dentro dos projetos Wikimedia: MediaWiki, Extensions, JS Gadgets, API, tool labs, bots, etc.\r\nO Hackathon Wikipédia é um espaço do FISL 15 onde programadores e curiosos poderão aprender na prática como funcionam as ferramentas e os dados que estão por trás do maior site colaborativo do mundo, desenvolvendo suas próprias ideias e/ou aprimorando implementações já existentes. Mais detalhes em https://pt.wikipedia.org/wiki/Wikipédia:Hackathon/Ativid",
       "areaID": "6",
       "zoneID": "21",
       "level": "",
-      "start": "2014-05-09T15:00:00-03:00",
-      "duration": 180,
+      "start": "2014-05-09T10:00:00-03:00",
+      "duration": 40,
       "roomID": "721"
     },
     "717": {
       "id": "717",
-      "title": "RodAda Hacker 1",
+      "title": "RodAda Hacker Divisão dos grupos e mentoração",
       "abstract": "RodAda Hacker 1",
       "areaID": "53",
       "zoneID": "14",
       "level": "",
-      "start": "2014-05-07T12:00:00-03:00",
-      "duration": 180,
+      "start": "2014-05-07T11:00:00-03:00",
+      "duration": 360,
       "roomID": "721"
     },
     "718": {
       "id": "718",
-      "title": "RodAda Hacker 2",
-      "abstract": "RodAda Hacker 0",
+      "title": "RodAda Hacker Encerramento e apresentação dos projetos",
+      "abstract": "Encerramento e apresentação dos projetos",
       "areaID": "53",
       "zoneID": "14",
       "level": "",
-      "start": "2014-05-07T15:00:00-03:00",
-      "duration": 180,
+      "start": "2014-05-07T17:00:00-03:00",
+      "duration": 60,
       "roomID": "721"
+    },
+    "721": {
+      "id": "721",
+      "title": "e-SAÚDE: Estratégia para o Brasil",
+      "abstract": "A e-Saúde tem como objetivo aumentar a qualidade e ampliar o acesso à atenção à saúde por meio do uso das tecnologias de informação e comunicação (TIC). O Brasil possui uma larga experiência na produção, implantação e uso de Sistemas de Informação em Saúde [MS, 2009]. Nos últimos anos, com o acelerado avanço das TICs, tem sido desenvolvido esforços de abrangência nacional para viabilizar uma arquitetura nacional de e-Saúde.",
+      "areaID": "80",
+      "zoneID": "16",
+      "level": "",
+      "start": "2014-05-09T10:00:00-03:00",
+      "duration": 60,
+      "roomID": "6"
+    },
+    "722": {
+      "id": "722",
+      "title": "Política Nacional de Informação e Informática do SUS (PNIIS)",
+      "abstract": "A Política apresenta como propósito a promoção do uso das Tecnologias de Informação e Comunicação (TICs) para a melhoria da situação de saúde da população. ",
+      "areaID": "80",
+      "zoneID": "16",
+      "level": "",
+      "start": "2014-05-10T10:00:00-03:00",
+      "duration": 60,
+      "roomID": "4"
+    },
+    "725": {
+      "id": "725",
+      "title": "Hackeie a Wikipédia 2 - Agora com Echo!",
+      "abstract": "Todos conhecem a Wikipédia, enciclopédia livre escrita por voluntários que é o quinto site mais acessado do mundo, mas poucos sabem do mar de possibilidades existentes no projeto para programadores e pesquisadores de dados.\r\n\r\nApós a boa receptividade no FISL14, essa palestra volta ao evento para apresentar exemplos práticos de desenvolvimento e convidar os ouvintes a participar do Hackathon Wikipédia na sexta-feira para exercitarem na prática as potencialidades de desenvolvimento apresentadas.",
+      "areaID": "6",
+      "zoneID": "21",
+      "level": "",
+      "start": "2014-05-08T12:00:00-03:00",
+      "duration": 60,
+      "roomID": "1"
+    },
+    "726": {
+      "id": "726",
+      "title": "Desenvolvimento de Apps multiplataforma com HTML5",
+      "abstract": "O HTML5 tem se consolidado como linguagem de programação com elevado grau de portabilidade e compatibilidade crescente entre diferentes navegadores, sistemas operacionais e tipos de dispositivos computacionais suportados. Vamos falar sobre os desafios no desenvolvimento móvel e mostrar ferramentas e bibliotecas para o desenvolvimento de Apps para dispositivos móveis.",
+      "areaID": "59",
+      "zoneID": "14",
+      "level": "",
+      "start": "2014-05-10T14:00:00-03:00",
+      "duration": 60,
+      "roomID": "4"
+    },
+    "728": {
+      "id": "728",
+      "title": "Os dados estão abertos, e agora?",
+      "abstract": "A partir do lançamento do novo portal de dados abertos do Governo do Estado do RS, que tem por objetivo catalogar e publicar dados públicos em formato aberto, o painel promoverá um debate com a sociedade, especialmente na temática de economia e jornalismo de dados.",
+      "areaID": "80",
+      "zoneID": "16",
+      "level": "starter",
+      "start": "2014-05-08T11:00:00-03:00",
+      "duration": 60,
+      "roomID": "5"
+    },
+    "729": {
+      "id": "729",
+      "title": "Por uma cultura de dados abertos",
+      "abstract": "Abordaremos a questão de disponibilidade de dados abertos, no âmbito das ciências e no âmbito de dados de interesse social. Discutiremos questões relativas a privacidade, à necessidade de estabelecer políticas de disponibilidade, transparência e padrões de acesso.",
+      "areaID": "77",
+      "zoneID": "16",
+      "level": "",
+      "start": "2014-05-08T13:00:00-03:00",
+      "duration": 60,
+      "roomID": "3"
+    },
+    "730": {
+      "id": "730",
+      "title": "A REVOLUÇÃO DAS NOVAS TECNOLOGIAS DE GERAÇÃO DE ENERGIA LIVRE",
+      "abstract": "Histórico da importância da energia. A energia é imprescindível a todas as formas de vida. A Civilização começou com o domínio do fogo. A Evolução da Humanidade deve-se ao domínio de novas formas de obtenção de energia. Resumo das diversas formas de obtenção de energia desenvolvidas desde a pré-história aos dias de hoje. O custo dos bens e serviços é ligado ao consumo de energia. Os monopólios de energia e a dominação. A descoberta da Energia Livre e a supressão. As perspectivas de futuro.",
+      "areaID": "89",
+      "zoneID": "19",
+      "level": "intermediate",
+      "start": "2014-05-09T14:00:00-03:00",
+      "duration": 60,
+      "roomID": "4"
+    },
+    "731": {
+      "id": "731",
+      "title": "Hackathon Wikipédia - Brainstorm de ideias para desenvolvimento",
+      "abstract": "O Hackathon Wikipédia é um espaço do FISL 15 onde programadores e curiosos poderão aprender na prática como funcionam as ferramentas e os dados que estão por trás do maior site colaborativo do mundo, desenvolvendo suas próprias ideias e/ou aprimorando implementações já existentes. Mais detalhes em https://pt.wikipedia.org/wiki/Wikipédia:Hackathon/Atividades_em_português/FISL_15",
+      "areaID": "6",
+      "zoneID": "21",
+      "level": "",
+      "start": "2014-05-09T10:40:00-03:00",
+      "duration": 40,
+      "roomID": "721"
+    },
+    "732": {
+      "id": "732",
+      "title": "Hackathon Wikipédia - Mão na Massa e Lightning Talks",
+      "abstract": "O Hackathon Wikipédia é um espaço do FISL 15 onde programadores e curiosos poderão aprender na prática como funcionam as ferramentas e os dados que estão por trás do maior site colaborativo do mundo, desenvolvendo suas próprias ideias e/ou aprimorando implementações já existentes. Mais detalhes em https://pt.wikipedia.org/wiki/Wikipédia:Hackathon/Atividades_em_português/FISL_15",
+      "areaID": "6",
+      "zoneID": "21",
+      "level": "",
+      "start": "2014-05-09T11:20:00-03:00",
+      "duration": 100,
+      "roomID": "721"
+    },
+    "733": {
+      "id": "733",
+      "title": "Hackathon Wikipédia - Brainstorm de ideias para desenvolvimento 1",
+      "abstract": " Hackathon Wikipédia é um espaço do FISL 15 onde programadores e curiosos poderão aprender na prática como funcionam as ferramentas e os dados que estão por trás do maior site colaborativo do mundo, desenvolvendo suas próprias ideias e/ou aprimorando implementações já existentes. Mais detalhes em https://pt.wikipedia.org/wiki/Wikipédia:Hackathon/Atividades_em_português/FISL_15",
+      "areaID": "6",
+      "zoneID": "21",
+      "level": "",
+      "start": "2014-05-09T14:00:00-03:00",
+      "duration": 40,
+      "roomID": "721"
+    },
+    "734": {
+      "id": "734",
+      "title": "Hackathon Wikipédia - Mão na Massa e Lightning talks 1",
+      "abstract": "Henrique Andrade, Álvaro Justen e Alexandre Abdo\r\nResumo: O Hackathon Wikipédia é um espaço do FISL 15 onde programadores e curiosos poderão aprender na prática como funcionam as ferramentas e os dados que estão por trás do maior site colaborativo do mundo, desenvolvendo suas próprias ideias e/ou aprimorando implementações já existentes. Mais detalhes em https://pt.wikipedia.org/wiki/Wikipédia:Hackathon/Atividades_em_português/FISL_15",
+      "areaID": "6",
+      "zoneID": "21",
+      "level": "",
+      "start": "2014-05-09T14:40:00-03:00",
+      "duration": 140,
+      "roomID": "721"
+    },
+    "735": {
+      "id": "735",
+      "title": "Hackathon Wikipédia Apresentação de Ferramentas desenvolvidas e Próximos Passos",
+      "abstract": "Apresentação dos resultados obtidos, documentação e encaminhamentos para continuidade do desenvolvimento junto da comunidade Wikimedia.\r\nO Hackathon Wikipédia é um espaço do FISL 15 onde programadores e curiosos poderão aprender na prática como funcionam as ferramentas e os dados que estão por trás do maior site colaborativo do mundo, desenvolvendo suas próprias ideias e/ou aprimorando implementações já existentes. Mais detalhes em https://pt.wikipedia.org/wiki/Wikipédia:Hackathon/Atividades_em_",
+      "areaID": "6",
+      "zoneID": "21",
+      "level": "",
+      "start": "2014-05-09T17:00:00-03:00",
+      "duration": 60,
+      "roomID": "721"
+    },
+    "736": {
+      "id": "736",
+      "title": "Intervalo Hackathon Wikipédia",
+      "abstract": "Intervalo Hackathon Wikipédia",
+      "areaID": "6",
+      "zoneID": "21",
+      "level": "",
+      "start": "2014-05-09T13:00:00-03:00",
+      "duration": 60,
+      "roomID": "721"
+    },
+    "737": {
+      "id": "737",
+      "title": "Etoys",
+      "abstract": "...",
+      "areaID": "95",
+      "zoneID": "21",
+      "level": "",
+      "start": "2014-05-08T09:00:00-03:00",
+      "duration": 120,
+      "roomID": "10"
+    },
+    "738": {
+      "id": "738",
+      "title": "Liberte seu Android! How to regain control over your mobile device",
+      "abstract": "Mobile devices are small computers that we carry around all the time. They \r\nknow our current location and contain private pictures. We use them to \r\ncommunicate with our friends, our family and maybe our secret love. They also \r\nprovide access to the internet and have built-in camera and microphone. Being \r\nsuch powerful tools, they can bring great risks to privacy, but at the same \r\ntime we can achieve great things with them: it depends on who controls them.\r\n\r\nThis talk will tell the story of the F",
+      "areaID": "89",
+      "zoneID": "19",
+      "level": "",
+      "start": "2014-05-07T10:00:00-03:00",
+      "duration": 60,
+      "roomID": "8"
+    },
+    "739": {
+      "id": "739",
+      "title": "Kolab - Privacy Retreat and Collaboration Software",
+      "abstract": "This talk will show you how to regain control of your personal information and \r\nstill have it available on all your (mobile) devices. Your data can remain \r\nunder your control without it being send to and stored in the United States on \r\nGoogle's servers for example.\r\n\r\nThe main Free Software tool for this is Kolab: a secure, scalable and reliable \r\ngroupware server that allows you to collaborate with others while using all \r\nsorts of different client programs. Besides the standard features such emai",
+      "areaID": "38",
+      "zoneID": "13",
+      "level": "",
+      "start": "2014-05-10T15:00:00-03:00",
+      "duration": 60,
+      "roomID": "8"
+    },
+    "741": {
+      "id": "741",
+      "title": "Flat ODF: the under-estimated flavour of Open Document",
+      "abstract": "Flat ODF: the under-estimated flavour of Open Document",
+      "areaID": "56",
+      "zoneID": "14",
+      "level": "",
+      "start": "2014-05-07T17:00:00-03:00",
+      "duration": 60,
+      "roomID": "1"
+    },
+    "742": {
+      "id": "742",
+      "title": "Barco Hacker: Sustentabilidade e Tecnologia Social na Amazônia",
+      "abstract": "Projeto de Cultura Digital que promove intecâmbio nas ilhas ribeirinhas do Pará, com o propósito de levar cultura digital, cidadania, sustentabilidade e tecnologia social a comunidades ribeirinhas.",
+      "areaID": "83",
+      "zoneID": "17",
+      "level": "",
+      "start": "2014-05-07T12:00:00-03:00",
+      "duration": 60,
+      "roomID": "7"
+    },
+    "743": {
+      "id": "743",
+      "title": "Cidades Digitais - Construção de um ecossistema de colaboração e inovação",
+      "abstract": "Uma avaliação sobre o programa Cidades Digitais do MC, e os desafios de levar a internet ultra banda larga para os municípios pequenos para a criação do mercado local da internet, junto com serviços de governo eletrônico e formação de profissionais para a governança de TI Municipal.",
+      "areaID": "80",
+      "zoneID": "16",
+      "level": "",
+      "start": "2014-05-08T14:00:00-03:00",
+      "duration": 60,
+      "roomID": "4"
+    },
+    "744": {
+      "id": "744",
+      "title": "Avanços nas políticas de Inclusão Digital  por meio do Recondicionamento de PCs",
+      "abstract": "Os avanços nas políticas de Inclusão Digital  por meio do Recondicionamento de Computadores",
+      "areaID": "80",
+      "zoneID": "16",
+      "level": "",
+      "start": "2014-05-10T11:00:00-03:00",
+      "duration": 60,
+      "roomID": "4"
+    },
+    "745": {
+      "id": "745",
+      "title": "A aprovação do Marco Civil e as consequências para a Sociedade",
+      "abstract": "A aprovação do Marco Civil e as consequências para a Sociedade",
+      "areaID": "89",
+      "zoneID": "19",
+      "level": "",
+      "start": "2014-05-09T15:00:00-03:00",
+      "duration": 60,
+      "roomID": "2"
+    },
+    "746": {
+      "id": "746",
+      "title": "Universo Móvel: um Aplicativo Educacional Livre para Dispositivos Móveis",
+      "abstract": "Universo Móvel: um Aplicativo Educacional Livre para Dispositivos Móveis",
+      "areaID": "98",
+      "zoneID": "20",
+      "level": "",
+      "start": "2014-05-08T10:00:00-03:00",
+      "duration": 60,
+      "roomID": "7"
+    },
+    "747": {
+      "id": "747",
+      "title": "Linux Educacional 5 - Software Livre nas Escolas Públicas",
+      "abstract": "Linux Educacional 5 - Software Livre nas Escolas Públicas",
+      "areaID": "98",
+      "zoneID": "20",
+      "level": "",
+      "start": "2014-05-08T11:00:00-03:00",
+      "duration": 60,
+      "roomID": "7"
+    },
+    "748": {
+      "id": "748",
+      "title": "Cantor: Ambiente Integrado de Desenvolvimento Voltado à Computação Científica",
+      "abstract": "Cantor: Ambiente Integrado de Desenvolvimento Voltado à Computação Científica Utilizando Python",
+      "areaID": "98",
+      "zoneID": "20",
+      "level": "",
+      "start": "2014-05-08T13:00:00-03:00",
+      "duration": 60,
+      "roomID": "7"
+    },
+    "749": {
+      "id": "749",
+      "title": "Sistm Acompanhamento de Missão Para Uma Plataforma Exper Em Robótica Subaquática",
+      "abstract": "Sistema de Acompanhamento de Missão Para Uma Plataforma Experimental Em Robótica Subaquática",
+      "areaID": "98",
+      "zoneID": "20",
+      "level": "",
+      "start": "2014-05-09T17:00:00-03:00",
+      "duration": 60,
+      "roomID": "7"
+    },
+    "750": {
+      "id": "750",
+      "title": "Sistema de Reputação e Ranqueamento para Redes Sociais Aplicado ao Particip.",
+      "abstract": "Sistema de Reputação e Ranqueamento para Redes Sociais Aplicado ao Participatório",
+      "areaID": "98",
+      "zoneID": "20",
+      "level": "",
+      "start": "2014-05-08T14:00:00-03:00",
+      "duration": 60,
+      "roomID": "7"
+    },
+    "751": {
+      "id": "751",
+      "title": "Identidade hacker e cultura do trabalho de desenvolvedores de software livre",
+      "abstract": "Identidade hacker e cultura do trabalho de desenvolvedores de software livre",
+      "areaID": "98",
+      "zoneID": "20",
+      "level": "",
+      "start": "2014-05-08T15:00:00-03:00",
+      "duration": 60,
+      "roomID": "7"
+    },
+    "752": {
+      "id": "752",
+      "title": "Aplicativos Educacionais Livres para Mobile Learning",
+      "abstract": "Aplicativos Educacionais Livres para Mobile Learning",
+      "areaID": "98",
+      "zoneID": "20",
+      "level": "",
+      "start": "2014-05-08T16:00:00-03:00",
+      "duration": 60,
+      "roomID": "7"
+    },
+    "753": {
+      "id": "753",
+      "title": "Forking Toward the Commons: From OpenOffice to LibreOffice",
+      "abstract": "Forking Toward the Commons: From OpenOffice to LibreOffice and The Document Foundation",
+      "areaID": "98",
+      "zoneID": "20",
+      "level": "",
+      "start": "2014-05-08T17:00:00-03:00",
+      "duration": 60,
+      "roomID": "7"
+    },
+    "754": {
+      "id": "754",
+      "title": "SCADA Pampa - Um Sistem de Superv e Aquisição de Dados Livre com fins didáticos",
+      "abstract": "SCADA Pampa - Um Sistema de Supervisão e Aquisição de Dados Livre com fins didáticos",
+      "areaID": "98",
+      "zoneID": "20",
+      "level": "",
+      "start": "2014-05-09T13:00:00-03:00",
+      "duration": 60,
+      "roomID": "7"
+    },
+    "755": {
+      "id": "755",
+      "title": "Cultura e Comunicação com Softwre Livre: A Experiência das Produtoras Culturais",
+      "abstract": "Cultura e Comunicação com Softwre Livre: A Experiência das Produtoras Culturais Colaborativas para o Desenvolvimento Local",
+      "areaID": "98",
+      "zoneID": "20",
+      "level": "",
+      "start": "2014-05-09T14:00:00-03:00",
+      "duration": 60,
+      "roomID": "7"
+    },
+    "756": {
+      "id": "756",
+      "title": "Sfohart: Um Sistema de Recomendaçãao Multicritério para Adoção de Software Livre",
+      "abstract": "Sfohart: Um Sistema de Recomendaçãao Multicritério para Adoção de Software Livre",
+      "areaID": "98",
+      "zoneID": "20",
+      "level": "",
+      "start": "2014-05-09T15:00:00-03:00",
+      "duration": 60,
+      "roomID": "7"
+    },
+    "757": {
+      "id": "757",
+      "title": "Padrões de Socialização de Novatos em Projetos de Software Livre",
+      "abstract": "Padrões de Socialização de Novatos em Projetos de Software Livre",
+      "areaID": "98",
+      "zoneID": "20",
+      "level": "",
+      "start": "2014-05-09T16:00:00-03:00",
+      "duration": 60,
+      "roomID": "7"
+    },
+    "758": {
+      "id": "758",
+      "title": "Humor, Arte e Software Livre com o Vida de Programador",
+      "abstract": "Como o Vida de Programador é feito, usando apenas software livre, e dicas para trabalhar com conteúdo aproveitando a \"era social\".",
+      "areaID": "80",
+      "zoneID": "16",
+      "level": "",
+      "start": "2014-05-08T12:00:00-03:00",
+      "duration": 60,
+      "roomID": "7"
     }
   },
   "zones": {
