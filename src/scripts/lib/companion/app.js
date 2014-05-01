@@ -16,6 +16,7 @@ var _ = {
     };
 
 var POLL_INTERVAL = 1 * 60 * 1000; //1 minute
+var fakeTotal = 201680;  //FISL XML has around 200KB
 
 module.exports = function($, FISLParser, templates){
     var isCordova = document.URL.substring(0,4) === 'file',
@@ -623,13 +624,11 @@ module.exports = function($, FISLParser, templates){
                 xhr.addEventListener('progress', function(evt) {
                     var percentComplete,
                         total,
-                        fakeTotal,
                         percentString;
                     if (evt.lengthComputable) {
                         total = evt.total;
                     }else{
                         //FISL server reports 18446744073709552000 as total, which is probably wrong
-                        fakeTotal = 173893;  //FISL XML has around 173893 bytes -> less than 200KB
                         total = fakeTotal;
                     }
                     percentComplete = Math.min((evt.loaded / total), 1);
