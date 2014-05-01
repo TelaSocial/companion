@@ -18,6 +18,19 @@ var _ = {
 var POLL_INTERVAL = 1 * 60 * 1000; //1 minute
 var fakeTotal = 201680;  //FISL XML has around 200KB
 
+
+//from http://stackoverflow.com/a/20392392/2052311
+function tryParseJSON (jsonString){
+    try {
+        var o = JSON.parse(jsonString);
+        if (o && typeof o === 'object' && o !== null) {
+            return o;
+        }
+    }catch (e) {
+    }
+    return false;
+}
+
 module.exports = function($, FISLParser, templates){
     var isCordova = document.URL.substring(0,4) === 'file',
         cordovaFunctions = new cordovaCalendarHelper($),
@@ -570,10 +583,14 @@ module.exports = function($, FISLParser, templates){
         var isRefresh = $('#schedule-view').length > 0,
             view = isRefresh ? $('body').attr('data-view-mode') : defaultView;
         previousScheduleData = scheduleData;
-        scheduleData = parser.parse(data);
+        scheduleData = tryParseJSON(data);
         feedData = data;
         firstFetchFailed = false;
 
+        if (scheduleData === false){
+            console.log('the loaded feed is not a json, parse the xml');
+            scheduleData = parser.parse(data);
+        }
         console.log('XML size='+data.length);
         if (xhr !== null){
             console.log('XML all headers='+xhr.getAllResponseHeaders());
