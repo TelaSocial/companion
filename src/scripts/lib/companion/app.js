@@ -1,5 +1,6 @@
 'use strict';
 
+var pkg = require('../../../../package.json');
 var cordovaCalendarHelper = require('./cordova_calendar');
 var companionStore = require('./store');
 var panZoom = require('../jquery.panzoom/jquery.panzoom');
@@ -49,7 +50,7 @@ module.exports = function($, FISLParser, templates){
             templateData = {
                 schedule_type: view,
                 title: 'Companion App',
-                version: 'v0.4.3',
+                version: pkg.version,
                 schedule: scheduleData,
                 map_image: $('#app').data('map-url'),
                 updates_user: _.filter(updatesLog, isSessionFavorite),
