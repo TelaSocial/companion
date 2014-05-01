@@ -32,6 +32,9 @@ $lightyellow: #FAFE6F;
             color: $gray;
         }
     }
+    &.opened .session-title{
+        background-color: $lightyellow;
+    }
     .bookmark-button .icon{
         color: $gray;
     }
