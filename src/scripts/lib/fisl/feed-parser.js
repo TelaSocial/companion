@@ -295,7 +295,8 @@ var FeedParser = function($, eventDate){
                     rooms: rooms,
                     sessions: sessions,
                     zones: zones,
-                    areas: areas
+                    areas: areas,
+                    parsed_date: Date.now()
                 };
     };
 };
