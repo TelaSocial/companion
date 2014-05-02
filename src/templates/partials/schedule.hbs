@@ -1,3 +1,11 @@
+<div class="sync-info well">
+    Progamacão sincronizada em {{formatDate schedule.parsed_date "dd/mm HH:MM"}}
+    —
+    <a class="refresh-feed">
+        <span class="icon"></span>
+        Atualizar
+    </a>
+</div>
 {{#is schedule_type 'list'}}
     {{> time_nav}}
     {{> day_list}}

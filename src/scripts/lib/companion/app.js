@@ -164,6 +164,10 @@ module.exports = function($, FISLParser, templates){
             );
         });
 
+        //refresh buttons
+        $('.refresh-feed').off();
+        $('.refresh-feed').click(manualFetchClicked);
+
         // bookmark buttons
         $('.bookmark-button').click(bookmarkButtonClicked);
 
@@ -446,8 +450,6 @@ module.exports = function($, FISLParser, templates){
             affectedItems.toggleClass('collapse');
             e.stopPropagation();
         });
-        //refresh button
-        $('#refresh-feed').click(manualFetchClicked);
 
         //list view toggle (lists vs tables)
         $('#list-view-toggle input[type="radio"]').on('change', scheduleViewSwitchClicked);
@@ -676,7 +678,7 @@ module.exports = function($, FISLParser, templates){
                 console.log('some kind of visual hint might be useful');
             }
         }).always(function() {
-            $('#refresh-feed').removeClass('loading');
+            $('.refresh-feed').removeClass('loading');
         });
     };
 

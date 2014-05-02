@@ -1,4 +1,5 @@
 #app-menu .icon,
+.refresh-feed .icon,
 .bookmark-button .icon,
 .place-icon,
 .time-icon,
@@ -51,10 +52,10 @@ body[data-view-mode="table"] #schedule-section-link > .icon,
 #notifications-section-link .icon{
     @extend .fa-bell;
 }
-#refresh-feed .icon{
+.refresh-feed .icon{
     @extend .fa-refresh;
     @extend .fa-fw;
 }
-#refresh-feed.loading .icon{
+.refresh-feed.loading .icon{
     @extend .fa-spin;
 }
