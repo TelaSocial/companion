@@ -501,7 +501,7 @@ module.exports = function($, FISLParser, templates){
             timestamp = Date.now();
 
         //removed sessions
-        console.log('Removed sessions:'+removedSessions);
+        // console.log('Removed sessions:'+removedSessions);
         _.forEach(removedSessions, function(sessionID){
             recentChanges.push({
                 sessionId: sessionID,
@@ -517,7 +517,7 @@ module.exports = function($, FISLParser, templates){
                 var oldSession = previousScheduleData.sessions[session.id],
                     changed = !_.isEqual(session, oldSession);
                 if (changed){
-                    console.log(oldSession.title + ' has changed');
+                    // console.log(oldSession.title + ' has changed');
                     if (oldSession.title !== session.title){
                         recentChanges.push({
                             sessionId: session.id,
@@ -550,7 +550,7 @@ module.exports = function($, FISLParser, templates){
                     }
                 }
             }else{
-                console.log('Session '+session.id+' is a new one!');
+                // console.log('Session '+session.id+' is a new one!');
                 recentChanges.push({
                     sessionId: session.id,
                     sessionTitle: session.title,
@@ -560,11 +560,11 @@ module.exports = function($, FISLParser, templates){
             }
         });
 
-        console.log('latest changes: '+JSON.stringify(recentChanges, null, '  '));
+        // console.log('latest changes: '+JSON.stringify(recentChanges, null, '  '));
         updatesLog = _.union(recentChanges.reverse(), updatesLog);
 
         companionStore.saveUpdatesLog(updatesLog, function(dataSaved){
-            console.log('all changes saved: '+JSON.stringify(dataSaved, null, '  '));
+            // console.log('all changes saved: '+JSON.stringify(dataSaved, null, '  '));
         });
         redrawNotifications();
     };
