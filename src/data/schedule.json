@@ -16,10 +16,10 @@
             "608",
             "452",
             "410",
-            "653",
             "370",
             "714",
-            "670"
+            "670",
+            "653"
           ],
           "colspan": 3
         },
@@ -45,9 +45,9 @@
             "69",
             "315",
             "631",
-            "655",
             "717",
-            "672"
+            "672",
+            "655"
           ],
           "colspan": 3
         },
@@ -81,8 +81,8 @@
             "536",
             "17",
             "624",
-            "657",
-            "516"
+            "516",
+            "657"
           ],
           "colspan": 3
         },
@@ -97,8 +97,8 @@
             "619",
             "708",
             "203",
-            "167",
-            "650"
+            "650",
+            "167"
           ],
           "colspan": 3
         },
@@ -114,10 +114,11 @@
             "97",
             "35",
             "193",
-            "656",
+            "762",
             "600",
             "438",
-            "673"
+            "673",
+            "656"
           ],
           "colspan": 3
         },
@@ -510,46 +511,22 @@
               "emptyBefore": 3
             },
             {
+              "sessionID": "762",
+              "startTime": 1399485600000,
+              "endTime": 1399489200000,
+              "colspan": 3
+            },
+            {
               "sessionID": "281",
               "startTime": 1399489200000,
               "endTime": 1399492800000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "colspan": 3
             },
             {
               "sessionID": "72",
               "startTime": 1399492800000,
               "endTime": 1399496400000,
               "colspan": 3
-            }
-          ]
-        },
-        {
-          "id": "10",
-          "sessions": [
-            {
-              "sessionID": "653",
-              "startTime": 1399464000000,
-              "endTime": 1399471200000,
-              "colspan": 6
-            },
-            {
-              "sessionID": "655",
-              "startTime": 1399471200000,
-              "endTime": 1399478400000,
-              "colspan": 6
-            },
-            {
-              "sessionID": "657",
-              "startTime": 1399478400000,
-              "endTime": 1399485600000,
-              "colspan": 6
-            },
-            {
-              "sessionID": "656",
-              "startTime": 1399485600000,
-              "endTime": 1399496400000,
-              "colspan": 9
             }
           ]
         },
@@ -618,6 +595,19 @@
           ]
         },
         {
+          "id": "717",
+          "sessions": [
+            {
+              "sessionID": "650",
+              "startTime": 1399482000000,
+              "endTime": 1399489200000,
+              "colspan": 6,
+              "emptyBefore": 15,
+              "emptyAfter": 6
+            }
+          ]
+        },
+        {
           "id": "718",
           "sessions": [
             {
@@ -677,15 +667,31 @@
           ]
         },
         {
-          "id": "717",
+          "id": "10",
           "sessions": [
             {
-              "sessionID": "650",
-              "startTime": 1399482000000,
-              "endTime": 1399489200000,
-              "colspan": 6,
-              "emptyBefore": 15,
-              "emptyAfter": 6
+              "sessionID": "653",
+              "startTime": 1399464000000,
+              "endTime": 1399471200000,
+              "colspan": 6
+            },
+            {
+              "sessionID": "655",
+              "startTime": 1399471200000,
+              "endTime": 1399478400000,
+              "colspan": 6
+            },
+            {
+              "sessionID": "657",
+              "startTime": 1399478400000,
+              "endTime": 1399485600000,
+              "colspan": 6
+            },
+            {
+              "sessionID": "656",
+              "startTime": 1399485600000,
+              "endTime": 1399496400000,
+              "colspan": 9
             }
           ]
         }
@@ -707,12 +713,12 @@
             "609",
             "378",
             "613",
-            "737",
             "698",
             "283",
             "635",
+            "703",
             "676",
-            "703"
+            "737"
           ],
           "colspan": 3
         },
@@ -723,6 +729,7 @@
           "sessions": [
             "258",
             "157",
+            "766",
             "746",
             "677"
           ],
@@ -748,8 +755,8 @@
             "424",
             "728",
             "747",
-            "658",
-            "678"
+            "678",
+            "658"
           ],
           "colspan": 3
         },
@@ -764,8 +771,7 @@
             "603",
             "561",
             "521",
-            "295",
-            "758",
+            "76",
             "351",
             "101",
             "694"
@@ -793,8 +799,8 @@
             "217",
             "380",
             "748",
-            "659",
-            "77"
+            "77",
+            "659"
           ],
           "colspan": 3
         },
@@ -808,10 +814,11 @@
             "248",
             "85",
             "743",
+            "724",
             "750",
             "638",
-            "679",
-            "704"
+            "704",
+            "679"
           ],
           "colspan": 3
         },
@@ -820,17 +827,16 @@
           "label": "15:00",
           "shortLabel": "15",
           "sessions": [
-            "475",
+            "758",
             "586",
-            "583",
             "43",
             "695",
             "404",
             "751",
-            "660",
             "555",
             "550",
-            "680"
+            "680",
+            "660"
           ],
           "colspan": 2
         },
@@ -938,7 +944,7 @@
               "emptyBefore": 3
             },
             {
-              "sessionID": "475",
+              "sessionID": "758",
               "startTime": 1399572000000,
               "endTime": 1399575600000,
               "colspan": 3
@@ -1026,11 +1032,16 @@
               "colspan": 3
             },
             {
+              "sessionID": "766",
+              "startTime": 1399554000000,
+              "endTime": 1399557600000,
+              "colspan": 3
+            },
+            {
               "sessionID": "623",
               "startTime": 1399557600000,
               "endTime": 1399561200000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "colspan": 3
             },
             {
               "sessionID": "603",
@@ -1051,17 +1062,11 @@
               "colspan": 3
             },
             {
-              "sessionID": "583",
-              "startTime": 1399572000000,
-              "endTime": 1399575600000,
-              "colspan": 3
-            },
-            {
               "sessionID": "479",
               "startTime": 1399579200000,
               "endTime": 1399582800000,
               "colspan": 3,
-              "emptyBefore": 3
+              "emptyBefore": 6
             }
           ]
         },
@@ -1147,11 +1152,16 @@
               "colspan": 3
             },
             {
+              "sessionID": "724",
+              "startTime": 1399568400000,
+              "endTime": 1399572000000,
+              "colspan": 3
+            },
+            {
               "sessionID": "695",
               "startTime": 1399572000000,
               "endTime": 1399575600000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "colspan": 3
             },
             {
               "sessionID": "630",
@@ -1177,7 +1187,7 @@
               "colspan": 6
             },
             {
-              "sessionID": "295",
+              "sessionID": "76",
               "startTime": 1399561200000,
               "endTime": 1399564800000,
               "colspan": 3,
@@ -1227,16 +1237,11 @@
               "colspan": 3
             },
             {
-              "sessionID": "758",
-              "startTime": 1399561200000,
-              "endTime": 1399564800000,
-              "colspan": 3
-            },
-            {
               "sessionID": "748",
               "startTime": 1399564800000,
               "endTime": 1399568400000,
-              "colspan": 3
+              "colspan": 3,
+              "emptyBefore": 3
             },
             {
               "sessionID": "750",
@@ -1261,35 +1266,6 @@
               "startTime": 1399579200000,
               "endTime": 1399582800000,
               "colspan": 3
-            }
-          ]
-        },
-        {
-          "id": "10",
-          "sessions": [
-            {
-              "sessionID": "737",
-              "startTime": 1399550400000,
-              "endTime": 1399557600000,
-              "colspan": 6
-            },
-            {
-              "sessionID": "658",
-              "startTime": 1399557600000,
-              "endTime": 1399564800000,
-              "colspan": 6
-            },
-            {
-              "sessionID": "659",
-              "startTime": 1399564800000,
-              "endTime": 1399572000000,
-              "colspan": 6
-            },
-            {
-              "sessionID": "660",
-              "startTime": 1399572000000,
-              "endTime": 1399582800000,
-              "colspan": 9
             }
           ]
         },
@@ -1381,6 +1357,29 @@
           ]
         },
         {
+          "id": "717",
+          "sessions": [
+            {
+              "sessionID": "703",
+              "startTime": 1399550400000,
+              "endTime": 1399568400000,
+              "colspan": 15
+            },
+            {
+              "sessionID": "704",
+              "startTime": 1399568400000,
+              "endTime": 1399575600000,
+              "colspan": 6
+            },
+            {
+              "sessionID": "595",
+              "startTime": 1399575600000,
+              "endTime": 1399582800000,
+              "colspan": 6
+            }
+          ]
+        },
+        {
           "id": "718",
           "sessions": [
             {
@@ -1428,25 +1427,31 @@
           ]
         },
         {
-          "id": "717",
+          "id": "10",
           "sessions": [
             {
-              "sessionID": "703",
+              "sessionID": "737",
               "startTime": 1399550400000,
-              "endTime": 1399568400000,
-              "colspan": 15
-            },
-            {
-              "sessionID": "704",
-              "startTime": 1399568400000,
-              "endTime": 1399575600000,
+              "endTime": 1399557600000,
               "colspan": 6
             },
             {
-              "sessionID": "595",
-              "startTime": 1399575600000,
+              "sessionID": "658",
+              "startTime": 1399557600000,
+              "endTime": 1399564800000,
+              "colspan": 6
+            },
+            {
+              "sessionID": "659",
+              "startTime": 1399564800000,
+              "endTime": 1399572000000,
+              "colspan": 6
+            },
+            {
+              "sessionID": "660",
+              "startTime": 1399572000000,
               "endTime": 1399582800000,
-              "colspan": 6
+              "colspan": 9
             }
           ]
         }
@@ -1469,11 +1474,12 @@
             "610",
             "617",
             "397",
-            "661",
+            "767",
             "388",
             "713",
+            "668",
             "681",
-            "668"
+            "661"
           ],
           "colspan": 2
         },
@@ -1495,8 +1501,8 @@
             "483",
             "513",
             "707",
-            "721",
             "696",
+            "721",
             "716",
             "682"
           ],
@@ -1522,8 +1528,8 @@
             "230",
             "308",
             "392",
-            "662",
-            "683"
+            "683",
+            "662"
           ],
           "colspan": 1
         },
@@ -1548,6 +1554,7 @@
             "618",
             "186",
             "474",
+            "761",
             "300"
           ],
           "colspan": 3
@@ -1564,9 +1571,9 @@
             "556",
             "237",
             "754",
-            "666",
             "736",
-            "286"
+            "286",
+            "666"
           ],
           "colspan": 3
         },
@@ -1609,9 +1616,9 @@
             "91",
             "204",
             "756",
-            "664",
             "697",
-            "685"
+            "685",
+            "664"
           ],
           "colspan": 3
         },
@@ -1620,8 +1627,10 @@
           "label": "16:00",
           "shortLabel": "16",
           "sessions": [
+            "740",
             "328",
             "514",
+            "719",
             "98",
             "652",
             "757"
@@ -1688,11 +1697,16 @@
               "colspan": 3
             },
             {
+              "sessionID": "740",
+              "startTime": 1399662000000,
+              "endTime": 1399665600000,
+              "colspan": 3
+            },
+            {
               "sessionID": "498",
               "startTime": 1399665600000,
               "endTime": 1399669200000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "colspan": 3
             }
           ]
         },
@@ -1879,11 +1893,16 @@
               "colspan": 3
             },
             {
+              "sessionID": "719",
+              "startTime": 1399662000000,
+              "endTime": 1399665600000,
+              "colspan": 3
+            },
+            {
               "sessionID": "627",
               "startTime": 1399665600000,
               "endTime": 1399669200000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "colspan": 3
             }
           ]
         },
@@ -1950,7 +1969,7 @@
               "colspan": 3
             },
             {
-              "sessionID": "721",
+              "sessionID": "696",
               "startTime": 1399640400000,
               "endTime": 1399644000000,
               "colspan": 3
@@ -2009,7 +2028,7 @@
               "colspan": 3
             },
             {
-              "sessionID": "696",
+              "sessionID": "721",
               "startTime": 1399640400000,
               "endTime": 1399644000000,
               "colspan": 3
@@ -2054,37 +2073,22 @@
           ]
         },
         {
-          "id": "10",
+          "id": "714",
           "sessions": [
             {
-              "sessionID": "661",
+              "sessionID": "767",
               "startTime": 1399636800000,
-              "endTime": 1399644000000,
-              "colspan": 6
-            },
-            {
-              "sessionID": "662",
-              "startTime": 1399644000000,
-              "endTime": 1399651200000,
-              "colspan": 6
-            },
-            {
-              "sessionID": "666",
-              "startTime": 1399651200000,
-              "endTime": 1399658400000,
-              "colspan": 6
-            },
-            {
-              "sessionID": "664",
-              "startTime": 1399658400000,
-              "endTime": 1399669200000,
+              "endTime": 1399647600000,
               "colspan": 9
+            },
+            {
+              "sessionID": "761",
+              "startTime": 1399647600000,
+              "endTime": 1399658400000,
+              "colspan": 9,
+              "emptyAfter": 9
             }
           ]
-        },
-        {
-          "id": "714",
-          "sessions": []
         },
         {
           "id": "720",
@@ -2164,6 +2168,18 @@
           ]
         },
         {
+          "id": "717",
+          "sessions": [
+            {
+              "sessionID": "668",
+              "startTime": 1399636800000,
+              "endTime": 1399647600000,
+              "colspan": 9,
+              "emptyAfter": 18
+            }
+          ]
+        },
+        {
           "id": "718",
           "sessions": [
             {
@@ -2217,14 +2233,31 @@
           ]
         },
         {
-          "id": "717",
+          "id": "10",
           "sessions": [
             {
-              "sessionID": "668",
+              "sessionID": "661",
               "startTime": 1399636800000,
-              "endTime": 1399647600000,
-              "colspan": 9,
-              "emptyAfter": 18
+              "endTime": 1399644000000,
+              "colspan": 6
+            },
+            {
+              "sessionID": "662",
+              "startTime": 1399644000000,
+              "endTime": 1399651200000,
+              "colspan": 6
+            },
+            {
+              "sessionID": "666",
+              "startTime": 1399651200000,
+              "endTime": 1399658400000,
+              "colspan": 6
+            },
+            {
+              "sessionID": "664",
+              "startTime": 1399658400000,
+              "endTime": 1399669200000,
+              "colspan": 9
             }
           ]
         }
@@ -2246,9 +2279,9 @@
             "156",
             "175",
             "616",
-            "665",
             "356",
-            "706"
+            "706",
+            "665"
           ],
           "colspan": 3
         },
@@ -2258,7 +2291,7 @@
           "shortLabel": "10",
           "sessions": [
             "272",
-            "477",
+            "641",
             "722",
             "518",
             "224",
@@ -2274,13 +2307,13 @@
             "467",
             "604",
             "709",
-            "330",
+            "759",
             "744",
             "9",
             "632",
             "176",
-            "654",
-            "693"
+            "693",
+            "654"
           ],
           "colspan": 3
         },
@@ -2291,7 +2324,6 @@
           "sessions": [
             "577",
             "620",
-            "578",
             "485",
             "57",
             "182",
@@ -2309,11 +2341,12 @@
             "379",
             "454",
             "371",
+            "578",
             "702",
             "209",
             "171",
-            "663",
-            "396"
+            "396",
+            "663"
           ],
           "colspan": 3
         },
@@ -2324,6 +2357,7 @@
           "sessions": [
             "509",
             "593",
+            "330",
             "726",
             "280",
             "690"
@@ -2342,10 +2376,10 @@
             "505",
             "507",
             "183",
-            "667",
             "158",
+            "596",
             "691",
-            "596"
+            "667"
           ],
           "colspan": 3
         },
@@ -2370,7 +2404,7 @@
           "shortLabel": "17",
           "sessions": [
             "644",
-            "641",
+            "763",
             "434",
             "20",
             "326",
@@ -2477,7 +2511,7 @@
               "colspan": 3
             },
             {
-              "sessionID": "477",
+              "sessionID": "641",
               "startTime": 1399726800000,
               "endTime": 1399730400000,
               "colspan": 3
@@ -2514,7 +2548,7 @@
               "colspan": 3
             },
             {
-              "sessionID": "641",
+              "sessionID": "763",
               "startTime": 1399752000000,
               "endTime": 1399755600000,
               "colspan": 3
@@ -2531,17 +2565,11 @@
               "colspan": 3
             },
             {
-              "sessionID": "330",
+              "sessionID": "759",
               "startTime": 1399730400000,
-              "endTime": 1399734000000,
-              "colspan": 3,
-              "emptyBefore": 3
-            },
-            {
-              "sessionID": "578",
-              "startTime": 1399734000000,
               "endTime": 1399737600000,
-              "colspan": 3
+              "colspan": 6,
+              "emptyBefore": 3
             },
             {
               "sessionID": "371",
@@ -2550,11 +2578,16 @@
               "colspan": 3
             },
             {
+              "sessionID": "330",
+              "startTime": 1399741200000,
+              "endTime": 1399744800000,
+              "colspan": 3
+            },
+            {
               "sessionID": "211",
               "startTime": 1399744800000,
               "endTime": 1399748400000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "colspan": 3
             },
             {
               "sessionID": "700",
@@ -2598,11 +2631,16 @@
               "colspan": 3
             },
             {
+              "sessionID": "578",
+              "startTime": 1399737600000,
+              "endTime": 1399741200000,
+              "colspan": 3
+            },
+            {
               "sessionID": "726",
               "startTime": 1399741200000,
               "endTime": 1399744800000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "colspan": 3
             },
             {
               "sessionID": "20",
@@ -2771,35 +2809,6 @@
           ]
         },
         {
-          "id": "10",
-          "sessions": [
-            {
-              "sessionID": "665",
-              "startTime": 1399723200000,
-              "endTime": 1399730400000,
-              "colspan": 6
-            },
-            {
-              "sessionID": "654",
-              "startTime": 1399730400000,
-              "endTime": 1399737600000,
-              "colspan": 6
-            },
-            {
-              "sessionID": "663",
-              "startTime": 1399737600000,
-              "endTime": 1399744800000,
-              "colspan": 6
-            },
-            {
-              "sessionID": "667",
-              "startTime": 1399744800000,
-              "endTime": 1399755600000,
-              "colspan": 9
-            }
-          ]
-        },
-        {
           "id": "714",
           "sessions": [
             {
@@ -2829,6 +2838,25 @@
         {
           "id": "721",
           "sessions": []
+        },
+        {
+          "id": "717",
+          "sessions": [
+            {
+              "sessionID": "706",
+              "startTime": 1399723200000,
+              "endTime": 1399737600000,
+              "colspan": 12
+            },
+            {
+              "sessionID": "596",
+              "startTime": 1399744800000,
+              "endTime": 1399752000000,
+              "colspan": 6,
+              "emptyBefore": 6,
+              "emptyAfter": 3
+            }
+          ]
         },
         {
           "id": "718",
@@ -2879,21 +2907,31 @@
           ]
         },
         {
-          "id": "717",
+          "id": "10",
           "sessions": [
             {
-              "sessionID": "706",
+              "sessionID": "665",
               "startTime": 1399723200000,
-              "endTime": 1399737600000,
-              "colspan": 12
+              "endTime": 1399730400000,
+              "colspan": 6
             },
             {
-              "sessionID": "596",
+              "sessionID": "654",
+              "startTime": 1399730400000,
+              "endTime": 1399737600000,
+              "colspan": 6
+            },
+            {
+              "sessionID": "663",
+              "startTime": 1399737600000,
+              "endTime": 1399744800000,
+              "colspan": 6
+            },
+            {
+              "sessionID": "667",
               "startTime": 1399744800000,
-              "endTime": 1399752000000,
-              "colspan": 6,
-              "emptyBefore": 6,
-              "emptyAfter": 3
+              "endTime": 1399755600000,
+              "colspan": 9
             }
           ]
         }
@@ -3011,6 +3049,13 @@
         "id": "393",
         "name": "Lucas Fialho Zawacki",
         "main": false
+      }
+    ],
+    "76": [
+      {
+        "id": "390",
+        "name": "Klaibson Ribeiro",
+        "main": true
       }
     ],
     "77": [
@@ -3608,13 +3653,6 @@
         "main": true
       }
     ],
-    "295": [
-      {
-        "id": "631",
-        "name": "Emerson Luiz Florentino Borges",
-        "main": true
-      }
-    ],
     "298": [
       {
         "id": "550",
@@ -4013,20 +4051,6 @@
         "id": "630",
         "name": "João Avelino Bellomo Filho",
         "main": false
-      }
-    ],
-    "475": [
-      {
-        "id": "796",
-        "name": "Antonio Terceiro",
-        "main": true
-      }
-    ],
-    "477": [
-      {
-        "id": "796",
-        "name": "Antonio Terceiro",
-        "main": true
       }
     ],
     "479": [
@@ -5567,6 +5591,13 @@
         "main": true
       }
     ],
+    "745": [
+      {
+        "id": "940",
+        "name": "ORGANIZAÇÃO",
+        "main": true
+      }
+    ],
     "746": [
       {
         "id": "1092",
@@ -5627,6 +5658,63 @@
       {
         "id": "1100",
         "name": "Andre Noel",
+        "main": true
+      }
+    ],
+    "759": [
+      {
+        "id": "940",
+        "name": "ORGANIZAÇÃO",
+        "main": true
+      }
+    ],
+    "760": [
+      {
+        "id": "3",
+        "name": "Organização 0",
+        "main": true
+      }
+    ],
+    "761": [
+      {
+        "id": "62",
+        "name": "Thiago Avelino",
+        "main": true
+      }
+    ],
+    "762": [
+      {
+        "id": "1101",
+        "name": "OLIVIER HALLOT",
+        "main": true
+      }
+    ],
+    "763": [
+      {
+        "id": "1102",
+        "name": "Valdir Barbosa",
+        "main": true
+      }
+    ],
+    "764": [
+      {
+        "id": "3",
+        "name": "Organização 0",
+        "main": true
+      }
+    ],
+    "765": [
+      {
+        "id": "3",
+        "name": "Organização 0",
+        "main": true
+      }
+    ],
+    "766": [],
+    "767": [
+      {
+        "id": "1103",
+        "name": "Jose Damico",
         "main": true
       }
     ]
@@ -5702,7 +5790,7 @@
       "capacity": 50,
       "translation": false,
       "name": "F12 Robotica Livre",
-      "position": 10
+      "position": 20
     },
     "714": {
       "id": "714",
@@ -5710,15 +5798,15 @@
       "capacity": 40,
       "translation": false,
       "name": "701 - OF1",
-      "position": 14
+      "position": 11
     },
     "717": {
       "id": "717",
       "venue": "1",
       "capacity": 40,
       "translation": false,
-      "name": "Reuniões 710",
-      "position": 18
+      "name": "710 Reuniões",
+      "position": 14
     },
     "718": {
       "id": "718",
@@ -5726,7 +5814,7 @@
       "capacity": 50,
       "translation": false,
       "name": "F10 Espaço Paulo Freire",
-      "position": 17
+      "position": 18
     },
     "720": {
       "id": "720",
@@ -5734,7 +5822,7 @@
       "capacity": 40,
       "translation": false,
       "name": "702 - OF2",
-      "position": 15
+      "position": 12
     },
     "721": {
       "id": "721",
@@ -5742,7 +5830,7 @@
       "capacity": 40,
       "translation": false,
       "name": "714 - OF3",
-      "position": 16
+      "position": 13
     }
   },
   "sessions": {
@@ -5888,6 +5976,17 @@
       "start": "2014-05-07T15:00:00-03:00",
       "duration": 60,
       "roomID": "1"
+    },
+    "76": {
+      "id": "76",
+      "title": "Integração do Zotero com LibreOffice",
+      "abstract": "A palestra abordará a integração do Zotero com o LibreOffice. O Zotero é um gerenciador de referência open-source, desenvolvido para gerenciar dados bibliográficos e materiais relacionados à pesquisa.",
+      "areaID": "56",
+      "zoneID": "14",
+      "level": "intermediate",
+      "start": "2014-05-08T12:00:00-03:00",
+      "duration": 60,
+      "roomID": "6"
     },
     "77": {
       "id": "77",
@@ -6549,17 +6648,6 @@
       "duration": 60,
       "roomID": "1"
     },
-    "295": {
-      "id": "295",
-      "title": "Projeto de Adaptação ao Software Livre - Mozilla Firefox e LibreOffice em EaD",
-      "abstract": "PASOL - Projeto de Adaptação ao Software Livre com o curso Mozilla Firefox e LibreOffice na modalidade EaD para servidores técnico-administrativos e docentes da Universidade Federal do Rio de Janeiro.",
-      "areaID": "83",
-      "zoneID": "17",
-      "level": "starter",
-      "start": "2014-05-08T12:00:00-03:00",
-      "duration": 60,
-      "roomID": "6"
-    },
     "298": {
       "id": "298",
       "title": "Criação automática de aplicativos móveis Android",
@@ -6677,7 +6765,7 @@
       "areaID": "53",
       "zoneID": "14",
       "level": "starter",
-      "start": "2014-05-10T11:00:00-03:00",
+      "start": "2014-05-10T14:00:00-03:00",
       "duration": 60,
       "roomID": "3"
     },
@@ -6999,28 +7087,6 @@
       "start": "2014-05-09T12:00:00-03:00",
       "duration": 60,
       "roomID": "7"
-    },
-    "475": {
-      "id": "475",
-      "title": "Como (e por quê) colaborar com o Debian",
-      "abstract": "O Debian é um dois maiores e mais importantes projetos de software livre, e oference muitas oportunidades de colaboração. O objetivo desta palestra é mostrar um pouco de como o Debian funciona, e informar pessoas interessadas em contribuir com o Debian sobre como começar.",
-      "areaID": "71",
-      "zoneID": "15",
-      "level": "starter",
-      "start": "2014-05-08T15:00:00-03:00",
-      "duration": 60,
-      "roomID": "1"
-    },
-    "477": {
-      "id": "477",
-      "title": "Quem precisa de RVM? Suporte a Ruby nativo no Debian",
-      "abstract": "Quando, por quê e como usar os pacotes Ruby nativos do Debian ao invés de soluções como RVM, rbenv etc.",
-      "areaID": "65",
-      "zoneID": "14",
-      "level": "starter",
-      "start": "2014-05-10T10:00:00-03:00",
-      "duration": 60,
-      "roomID": "2"
     },
     "479": {
       "id": "479",
@@ -7425,9 +7491,9 @@
       "areaID": "44",
       "zoneID": "13",
       "level": "starter",
-      "start": "2014-05-10T12:00:00-03:00",
+      "start": "2014-05-10T13:00:00-03:00",
       "duration": 60,
-      "roomID": "3"
+      "roomID": "4"
     },
     "579": {
       "id": "579",
@@ -7439,17 +7505,6 @@
       "start": "2014-05-10T15:00:00-03:00",
       "duration": 60,
       "roomID": "1"
-    },
-    "583": {
-      "id": "583",
-      "title": "Mesa: Empoderamento de Mulheres no Software Livre",
-      "abstract": "Considerando importante a participação as mulheres em toda cadeia de planejamento, produção e consumo do SL, principalmente, na posição de tomada de decisão, a ideia da mesa é relacionar as noções de equidade com os princípios do software livre, dando voz às colaboradoras de alguns grupos de mulheres e projetos de SL.",
-      "areaID": "77",
-      "zoneID": "16",
-      "level": "starter",
-      "start": "2014-05-08T15:00:00-03:00",
-      "duration": 60,
-      "roomID": "3"
     },
     "584": {
       "id": "584",
@@ -8019,7 +8074,7 @@
       "areaID": "80",
       "zoneID": "16",
       "level": "starter",
-      "start": "2014-05-10T17:00:00-03:00",
+      "start": "2014-05-10T10:00:00-03:00",
       "duration": 60,
       "roomID": "2"
     },
@@ -8582,7 +8637,7 @@
       "level": "",
       "start": "2014-05-09T10:00:00-03:00",
       "duration": 60,
-      "roomID": "7"
+      "roomID": "6"
     },
     "697": {
       "id": "697",
@@ -8815,6 +8870,17 @@
       "duration": 60,
       "roomID": "721"
     },
+    "719": {
+      "id": "719",
+      "title": "Dbate energia Livre",
+      "abstract": ".",
+      "areaID": "92",
+      "zoneID": "20",
+      "level": "",
+      "start": "2014-05-09T16:00:00-03:00",
+      "duration": 60,
+      "roomID": "4"
+    },
     "721": {
       "id": "721",
       "title": "e-SAÚDE: Estratégia para o Brasil",
@@ -8824,7 +8890,7 @@
       "level": "",
       "start": "2014-05-09T10:00:00-03:00",
       "duration": 60,
-      "roomID": "6"
+      "roomID": "7"
     },
     "722": {
       "id": "722",
@@ -8836,6 +8902,17 @@
       "start": "2014-05-10T10:00:00-03:00",
       "duration": 60,
       "roomID": "4"
+    },
+    "724": {
+      "id": "724",
+      "title": "Comunicação Unificada São Paulo",
+      "abstract": "...",
+      "areaID": "50",
+      "zoneID": "13",
+      "level": "",
+      "start": "2014-05-08T14:00:00-03:00",
+      "duration": 60,
+      "roomID": "5"
     },
     "725": {
       "id": "725",
@@ -8988,6 +9065,17 @@
       "zoneID": "13",
       "level": "",
       "start": "2014-05-10T15:00:00-03:00",
+      "duration": 60,
+      "roomID": "8"
+    },
+    "740": {
+      "id": "740",
+      "title": "Document Liberation: trying to achive freedom from vendor lock",
+      "abstract": "Document Liberation: trying to achive freedom from vendor lock",
+      "areaID": "77",
+      "zoneID": "16",
+      "level": "",
+      "start": "2014-05-09T16:00:00-03:00",
       "duration": 60,
       "roomID": "8"
     },
@@ -9185,9 +9273,75 @@
       "areaID": "80",
       "zoneID": "16",
       "level": "",
-      "start": "2014-05-08T12:00:00-03:00",
+      "start": "2014-05-08T15:00:00-03:00",
+      "duration": 60,
+      "roomID": "1"
+    },
+    "759": {
+      "id": "759",
+      "title": "Marco Civil ",
+      "abstract": "Marco Civil ",
+      "areaID": "92",
+      "zoneID": "20",
+      "level": "",
+      "start": "2014-05-10T11:00:00-03:00",
+      "duration": 120,
+      "roomID": "3"
+    },
+    "761": {
+      "id": "761",
+      "title": "Sprint de Open Mining (Sistema Open Source de BI)",
+      "abstract": "O core commiter do Open Mining ira coordenar um sprint, vamos corrigindo bugs, adicionando features e melhorando a documentação, fazendo isso em time todos aprende junto como implementar uma melhor solução em um software real!\r\n\r\nEssa é a hora de você começar contribuir com um projeto open source, como qual quer software precisa de desenvolvedor, tradutor, gerente de projeto, marketing e etc, entre no mundo open source de pé direito.",
+      "areaID": "65",
+      "zoneID": "14",
+      "level": "starter",
+      "start": "2014-05-09T12:00:00-03:00",
+      "duration": 180,
+      "roomID": "714"
+    },
+    "762": {
+      "id": "762",
+      "title": "LibreOffice, show me the code!",
+      "abstract": "Nesta apresentação mostraremos os passos a seguir para iniciar-se no desenvolvimento do LibreOffice - a melhor suite livre para escritórios em código aberto e auditável. Mostraremos como baixar o código fonte,  preparar o computador para a compilação e iniciar no trabalho. Mostraremos também os imperdíveis \"easy-hacks\", ou hacks fáceis do código, elaborados para os iniciantes na aventura de contribuir para o projeto em código aberto e auditável de maior alcance no mundo.",
+      "areaID": "59",
+      "zoneID": "14",
+      "level": "",
+      "start": "2014-05-07T15:00:00-03:00",
       "duration": 60,
       "roomID": "7"
+    },
+    "763": {
+      "id": "763",
+      "title": "O LibreOffice chega a Universidade - O case da Unesp de Ilha Solteira",
+      "abstract": "A Unesp está espalhada em 34 unidades universitárias no estado de São Paulo. A unidade de Ilha Solteira foi a primeira na utilização de software livre que teve inicio em 2007, na administração da faculdade. Iniciou-se com as ferramentas de escritório BrOffice.Org, Firefox, Thunderbird. Após um ano migrou-se para o sistema operacional Ubuntu Linux. Atualmente a migração para software livre é uma plano institucional e está sendo disseminado e implantado gradativamente nas 34 unidades universitária",
+      "areaID": "80",
+      "zoneID": "16",
+      "level": "",
+      "start": "2014-05-10T17:00:00-03:00",
+      "duration": 60,
+      "roomID": "2"
+    },
+    "766": {
+      "id": "766",
+      "title": "O hoje e o amanhã do LibreOffice, novidades de lançamento da versão 4.2",
+      "abstract": "Nesta palestra será abordado as novidades de lançamento do LibreOffice 4.2, o futuro e crescimento do projeto . ",
+      "areaID": "53",
+      "zoneID": "14",
+      "level": "",
+      "start": "2014-05-08T10:00:00-03:00",
+      "duration": 60,
+      "roomID": "3"
+    },
+    "767": {
+      "id": "767",
+      "title": "Como construir um proxy para anonimizar a navegação na Internet?",
+      "abstract": "O objetivo dessa oficina é apresentar de forma prática, como desenvolver um proxy seguro, com encriptação de dados, para anonimização de navegação HTTP na web.",
+      "areaID": "50",
+      "zoneID": "13",
+      "level": "",
+      "start": "2014-05-09T09:00:00-03:00",
+      "duration": 180,
+      "roomID": "714"
     }
   },
   "zones": {
@@ -9368,5 +9522,5 @@
       "color": "FFC9D7"
     }
   },
-  "parsed_date": 1398984055464
+  "parsed_date": 1398989088442
 }
