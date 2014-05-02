@@ -2273,6 +2273,7 @@
           "label": "09:00",
           "shortLabel": "09",
           "sessions": [
+            "769",
             "173",
             "199",
             "181",
@@ -2456,11 +2457,16 @@
           "id": "1",
           "sessions": [
             {
+              "sessionID": "769",
+              "startTime": 1399723200000,
+              "endTime": 1399726800000,
+              "colspan": 3
+            },
+            {
               "sessionID": "272",
               "startTime": 1399726800000,
               "endTime": 1399730400000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "colspan": 3
             },
             {
               "sessionID": "604",
@@ -5717,6 +5723,20 @@
         "name": "Jose Damico",
         "main": true
       }
+    ],
+    "768": [
+      {
+        "id": "3",
+        "name": "Organização 0",
+        "main": true
+      }
+    ],
+    "769": [
+      {
+        "id": "1105",
+        "name": "Fernando Alves",
+        "main": true
+      }
     ]
   },
   "rooms": {
@@ -8015,7 +8035,7 @@
     "636": {
       "id": "636",
       "title": "Boas práticas do OpenPGP (OpenPGP best practices)",
-      "abstract": "Descrição: Há uma série de boas práticas na gestão de chaves OpenPGP que\r\nsão necessárias para manter sua comunicação segura e privada. Aprenda\r\nquais são essas práticas e como você pode implementar no seu dia a dia.",
+      "abstract": "Do you use OpenPGP for encrypted mail, for distributing signed\r\nsoftware, or for other purposes?  Do you want to start using it?\r\n\r\nThis workshop will start with a few fundamental OpenPGP concepts, and\r\ncover common workflows for using OpenPGP with its most common free\r\nsoftware implementation (GnuPG).  Some relevant topics:\r\n\r\n * key generation and maintenance\r\n * keysigning practices\r\n * \"role keys\" for organizational use\r\n * expiration and revocation\r\n * subkeys, offline primary keys, smartcards\r\n * fin",
       "areaID": "3",
       "zoneID": "21",
       "level": "",
@@ -8037,7 +8057,7 @@
     "638": {
       "id": "638",
       "title": "Radical Protocol Design",
-      "abstract": "O desenvolvimento de protocolos não é sobre programação, mas\r\nsim sobre os seus aspectos comunitários. Ao escolhermos determinadas\r\ninfraestruturas, elas afetam as funções da nossa sociedade que nós nem\r\nmesmo consideramos possívies. Algumas dessas decisões são invisíveis\r\npara a maioria das pessoas, mas elas tem um grande impacto social.\r\n",
+      "abstract": "The infrastructure we build and use shapes the social reality we live\r\nin.  Consider the complex choices made by road builders, public\r\nsanitation departments, and electricity grid engineers -- the\r\ninfrastructure they create and maintain defines much of our life.  If\r\nthey made their design decisions differently, our lives would change.\r\n\r\nThe same is true for telecommunications protocols, for reasons ranging\r\nfrom which TV shows people are able to watch, to who is subject to\r\nwholesale surveillance b",
       "areaID": "3",
       "zoneID": "21",
       "level": "",
@@ -9342,6 +9362,17 @@
       "start": "2014-05-09T09:00:00-03:00",
       "duration": 180,
       "roomID": "714"
+    },
+    "769": {
+      "id": "769",
+      "title": "Continuously serving the OSS community with Continuous Integration and Delivery",
+      "abstract": "Snap CI now enables public GitHub repositories to do Continuous Integration and Continuous Delivery for free. When doing CD, the goal is to automate the process of deployment and build software in a way that can be deployed to production anytime.\r\n\r\nIn this talk we will touch upon some common deployment pipelines. We will cover in detail about how we changed Snap to do deployments that didn't affect our customers, the challenges we faced and some patterns that helped us overcome them.",
+      "areaID": "53",
+      "zoneID": "14",
+      "level": "starter",
+      "start": "2014-05-10T09:00:00-03:00",
+      "duration": 60,
+      "roomID": "1"
     }
   },
   "zones": {
@@ -9522,5 +9553,5 @@
       "color": "FFC9D7"
     }
   },
-  "parsed_date": 1398989088442
+  "parsed_date": 1399044886068
 }
