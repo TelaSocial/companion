@@ -340,12 +340,19 @@ module.exports = function($, FISLParser, templates){
         });
     };
 
+    var displayPanel = function(panelName){
+        var tabName = '#'+panelName+'-tab',
+            viewName = '#'+panelName+'-view';
+        $('#app-menu .navbar-nav > li.active').removeClass('active');
+        $(tabName).addClass('active');
+        $('.app-panel').removeClass('selected');
+        $(viewName).addClass('selected');
+
+    };
+
     var openMapTab = function(roomID){
         //select map panel
-        $('#app-menu .navbar-nav > li.active').removeClass('active');
-        $('#map-tab').addClass('active');
-        $('.app-panel').removeClass('selected');
-        $('#map-view').addClass('selected');
+        displayPanel('map');
         console.log('openMapTab roomID='+roomID);
         // mapPan.reset();
         // mapPan.resetDimensions();
@@ -375,6 +382,19 @@ module.exports = function($, FISLParser, templates){
         event.preventDefault();
         buttonElement.addClass('loading');
         loadFeed();
+    };
+
+    var updateMenuSyncMessage = function(){
+        console.log('updateMenuSyncMessage')
+        //update sync time on each dropdown open
+        var updateInfoContainer = $('#last-sync-menu-header'),
+                template = templates.last_sync_time;
+        updateInfoContainer.html(
+            template({
+                lastFetchTime: updateInfo.time
+            })
+        );
+        console.log('sync display updated');
     };
 
     var appTabClicked = function (event){
@@ -412,8 +432,10 @@ module.exports = function($, FISLParser, templates){
         } else if (sectionName === 'map'){
             console.log('Map tab clicked');
             openMapTab();
+        } else if (sectionName === 'menu'){
+            displayPanel('menu');
+            updateMenuSyncMessage();
         }
-
     };
 
     var setupAppHeaderBar = function(){
@@ -423,24 +445,13 @@ module.exports = function($, FISLParser, templates){
                 '#schedule-section-link',
                 '#favorites-section-link',
                 '#map-section-link',
-                '#notifications-section-link'
+                '#notifications-section-link',
+                '#menu-section-link'
             ];
         $(mainSections.join(',')).click(appTabClicked);
 
         //map pan and zoom setup
         initMapPanZoom();
-
-        //update sync time on each dropdown open
-        $('#app-menu').on('show.bs.dropdown', function(){
-            var updateInfoContainer = $('#last-sync-menu-header'),
-                template = templates.last_sync_time;
-            updateInfoContainer.html(
-                template({
-                    lastFetchTime: updateInfo.time
-                })
-            );
-            console.log('sync display updated');
-        });
 
         //developer submenu toggle
         $('#developer-submenu-toggle').click(function(e){
@@ -573,6 +584,7 @@ module.exports = function($, FISLParser, templates){
         var timestamp = Date.now();
         companionStore.updateXML(feedData, timestamp, function(){
             console.log('feed updated locally');
+            updateMenuSyncMessage();
         });
         companionStore.getLastFetchInfo(function(info){
             console.log('local updateInfo loaded:',info);
