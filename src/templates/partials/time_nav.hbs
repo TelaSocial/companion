@@ -1,13 +1,13 @@
 <nav
     id="time-nav"
-    class="navbar navbar-default navbar-fixed-bottom"
+    class="navbar navbar-default navbar-fixed-bottom navbar-inverse"
     >
     <ul
         class="nav navbar-nav"
         role="navigation"
         >
         {{#each schedule.days}}
-            <li>{{this.shortLabel}}</li>
+            <li class="day-label">{{this.shortLabel}}</li>
             {{> timenav_day_times dayIndex=@index}}
         {{/each}}
     </ul>

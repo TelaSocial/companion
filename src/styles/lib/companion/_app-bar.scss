@@ -3,7 +3,7 @@
         width: 100%;
     }
     .nav > li{
-        width: 15%;
+        width: 18%;
         text-align: center;
         > a > .icon{
             display: block;
@@ -26,11 +26,11 @@
             text-align: left;
         }
         &.active{
-            width: 40%;
-            text-align: left;
+            width: 28%;
+            // text-align: left;
             .icon{
-                display: inline;
-                clear:none;
+                // display: inline;
+                // clear:none;
             }
             // button{
             //     display:block;
@@ -44,9 +44,9 @@
                 // background-color: #fae206;
                 // color: black;
                 .tab-name{
-                    font-size: 1.2em;
-                    display: inline;
-                    margin-left: 10px;
+                    // font-size: 1.2em;
+                    // display: inline;
+                    // margin-left: 10px;
                 }
             }
         }

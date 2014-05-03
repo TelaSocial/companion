@@ -87,7 +87,7 @@ module.exports = function($, FISLParser, templates){
             oneLineWidth = 0;
         listItems.each(function(){
             var liElement = $(this);
-            oneLineWidth += liElement.width();
+            oneLineWidth += liElement.outerWidth();
         });
         list.width(oneLineWidth + 20);
     };

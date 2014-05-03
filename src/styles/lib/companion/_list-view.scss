@@ -3,6 +3,18 @@ $lightyellow: #FAFE6F;
 #time-nav{
     height: 50px;
     overflow-x: scroll;
+    li > a{
+        padding-left: 7px;
+        padding-right: 7px;
+    }
+    li.active > a{
+        background-color: $gray-lighter;
+        color: $gray-darker;
+    }
+    .day-label{
+        color: $gray-lighter;
+        padding: 7px;
+    }
 }
 .time-break{
     display: block;

@@ -31,11 +31,14 @@
 .time-icon{
     @extend .fa-clock-o;
 }
-body[data-view-mode="list"] #schedule-section-link > .icon,
+#schedule-section-link > .icon{
+    @extend .fa-asterisk;
+}
+// body[data-view-mode="list"] #schedule-section-link > .icon,
 .list-view-button .icon{
     @extend .fa-list;
 }
-body[data-view-mode="table"] #schedule-section-link > .icon,
+// body[data-view-mode="table"] #schedule-section-link > .icon,
 .table-view-button .icon{
     @extend .fa-table;
 }
