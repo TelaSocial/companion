@@ -1,6 +1,12 @@
 {{#each this.times}}
 {{#is this.shortLabel.length '<' 3}}
-<li>
+<li
+{{#unless ../../dayIndex}}
+    {{#unless @index}}
+        class="active"
+    {{/unless}}
+{{/unless}}
+    >
     <a href="#day-{{../../dayIndex}}-time-{{../shortLabel}}">
         {{../shortLabel}}
     </a>
