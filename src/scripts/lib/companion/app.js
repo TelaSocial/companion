@@ -705,6 +705,7 @@ module.exports = function($, FISLParser, templates){
     };
 
     var onDeviceReady = function(){
+        $('#splash-version').text(pkg.version);
         devSyncMode = ($('#app').data('sync-dev-mode') === 'on');
         console.log('device ready, debug:'+devSyncMode);
         //load stored bookmarks

@@ -1,6 +1,6 @@
 {
   "name": "companion",
-  "version": "0.5.0-alpha.1",
+  "version": "0.5.0-alpha.2",
   "description": "Companion is a mobile application to track schedules of conferences and events.",
   "scripts": {
     "cordova-setup": "./node_modules/.bin/gulp cordova:setup",
