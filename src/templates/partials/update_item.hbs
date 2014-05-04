@@ -5,7 +5,6 @@
         "
     >
     <dt>
-        {{this.sessionTitle}}
         <span class="change-text">
         {{#is this.updateType 'rename'}}
             foi renomeada
@@ -22,6 +21,9 @@
         {{#is this.updateType 'new'}}
             entrou na grade
         {{/is}}
+        </span>
+        <span class="update-title">
+            {{this.sessionTitle}}
         </span>
         {{#if this.time}}
         <span class="time-ago">
