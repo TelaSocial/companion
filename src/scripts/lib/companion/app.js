@@ -134,15 +134,21 @@ module.exports = function($, FISLParser, templates){
         var body = $('body');
         console.log('initListView');
         body.attr('data-view-mode', 'list');
-        setupTimeNav();
-        // enable scrollspy!
-        body.scrollspy({
-            target: '#time-nav',
-            offset: boddyPaddingTop
-        });
-        //bind on nav update event
-        body.off('activate.bs.scrollspy');
-        body.on('activate.bs.scrollspy', timeNavUpdated);
+        if ($('#favorites-tab.active').length){
+            $('#time-nav').hide();
+        }else{
+            $('#time-nav').show();
+            setupTimeNav();
+            // enable scrollspy!
+            body.scrollspy({
+                target: '#time-nav',
+                offset: boddyPaddingTop
+            });
+            //bind on nav update event
+            body.off('activate.bs.scrollspy');
+            body.on('activate.bs.scrollspy', timeNavUpdated);
+            body.scrollspy('refresh');
+        }
     };
 
     var initTableView = function(){
@@ -196,7 +202,8 @@ module.exports = function($, FISLParser, templates){
         $('.session .collapse').on('shown.bs.collapse', function () {
             console.log('shown.bs.collapse');
             var colapseElement = $(this),
-                body = $('html,body'),
+                body = $('body'),
+                view = body.attr('data-view-mode'),
                 sessionElement = colapseElement.parents('.session').first(),
                 sessionOffsetTop = sessionElement.offset().top,
                 //using body.scrollTop() to get current position of the main scroll doesnt work on android webview
@@ -211,12 +218,20 @@ module.exports = function($, FISLParser, templates){
                     animationTime
                 );
             }
+            if (view === 'list'){
+                body.scrollspy('refresh');
+            }
         });
         $('.session .collapse').off('hidden.bs.collapse');
         $('.session .collapse').on('hidden.bs.collapse', function () {
             var colapseElement = $(this),
+                body = $('body'),
+                view = body.attr('data-view-mode'),
                 sessionElement = colapseElement.parents('.session').first();
             sessionElement.removeClass('opened');
+            if (view === 'list'){
+                body.scrollspy('refresh');
+            }
         });
     };
 
@@ -275,11 +290,8 @@ module.exports = function($, FISLParser, templates){
         console.log('nextView in',nextView);
             destinationElement.html(html);
             if (nextView === 'list') {
-                console.log('a');
                 initListView();
-                // body.scrollspy('refresh');
             }else{
-                console.log('a2');
                 initTableView();
             }
             //refresh this dom element so Android browser can display the new icon
