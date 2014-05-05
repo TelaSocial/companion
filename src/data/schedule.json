@@ -142,6 +142,7 @@
             "589",
             "510",
             "281",
+            "813",
             "674"
           ],
           "colspan": 3
@@ -576,8 +577,14 @@
               "sessionID": "807",
               "startTime": 1399485600000,
               "endTime": 1399489200000,
+              "colspan": 3
+            },
+            {
+              "sessionID": "813",
+              "startTime": 1399489200000,
+              "endTime": 1399492800000,
               "colspan": 3,
-              "emptyAfter": 6
+              "emptyAfter": 3
             }
           ]
         },
@@ -5377,7 +5384,7 @@
       },
       {
         "id": "1042",
-        "name": "Juliana Martins",
+        "name": "Juliana Martins de Oliveira Santos",
         "main": false
       },
       {
@@ -5689,6 +5696,11 @@
         "id": "1072",
         "name": "Domingos Secco Junior",
         "main": false
+      },
+      {
+        "id": "1074",
+        "name": "Karen Maria Gross Lopes",
+        "main": false
       }
     ],
     "729": [
@@ -5919,6 +5931,11 @@
         "id": "1105",
         "name": "Fernando Alves",
         "main": true
+      },
+      {
+        "id": "1106",
+        "name": "Akshay Karle",
+        "main": false
       }
     ],
     "770": [
@@ -6093,6 +6110,13 @@
         "main": true
       }
     ],
+    "796": [
+      {
+        "id": "1137",
+        "name": "Antonio Carlos Tiboni",
+        "main": true
+      }
+    ],
     "797": [
       {
         "id": "1138",
@@ -6232,6 +6256,16 @@
         "main": true
       },
       {
+        "id": "1157",
+        "name": "Isabela Fernandes",
+        "main": false
+      },
+      {
+        "id": "882",
+        "name": "Jeremie Zimmermann",
+        "main": false
+      },
+      {
         "id": "827",
         "name": "pedro rezende",
         "main": false
@@ -6242,6 +6276,11 @@
         "id": "918",
         "name": "Ricardo Poppi",
         "main": true
+      },
+      {
+        "id": "882",
+        "name": "Jeremie Zimmermann",
+        "main": false
       },
       {
         "id": "1152",
@@ -6275,6 +6314,18 @@
       {
         "id": "1065",
         "name": "Bruno Souza",
+        "main": true
+      },
+      {
+        "id": "1156",
+        "name": "Edson Yanaga",
+        "main": false
+      }
+    ],
+    "813": [
+      {
+        "id": "1158",
+        "name": "Pablo J. Etcheverry",
         "main": true
       }
     ]
@@ -9928,7 +9979,7 @@
     "790": {
       "id": "790",
       "title": "Social Coding y el Proyecto Mono",
-      "abstract": "Social Coding y el Proyecto Mono\r\n",
+      "abstract": "Este término surgió a partir del auge de las redes sociales y se\r\nextiende a una comunidad virtual, variada y distribuida de personas. Con\r\nel \"social coding\" se abre la posibilidad de que sea la comunidad quien\r\nse autodirija en el desarrollo del proyecto, pues cualquier idea puede\r\nser materializada, mejorada y revisada por cualquier miembro. Esto\r\npermite crear productos de software en corto tiempo. ¿Quieres formar\r\nparte del desarrollo de software trabajando mano a mano con cientos de\r\npersonas? ",
       "areaID": "59",
       "zoneID": "14",
       "level": "",
@@ -9950,7 +10001,7 @@
     "792": {
       "id": "792",
       "title": "Mozilla y sus proyectos sociales con Software Libre en México",
-      "abstract": "Mozilla y sus proyectos sociales con Software Libre en México",
+      "abstract": "*Ayudando a cortar la brecha digital, Mozilla México y la Localización*.\r\nActualmente el acceso a las tecnologías y a Internet ha ido en aumento,\r\npero a pesar de este crecimiento México no a crecido lo suficiente y en\r\ncomparación con otros países México va en retroceso según estudios de la\r\nOCDE. A pesar de este pequeño crecimiento que hemos tenido, por desgracia,\r\nno ha sido equitativo, solo ha sido en ciertos sectores de la sociedad.",
       "areaID": "77",
       "zoneID": "16",
       "level": "",
@@ -10177,6 +10228,17 @@
       "start": "2014-05-09T11:00:00-03:00",
       "duration": 60,
       "roomID": "1"
+    },
+    "813": {
+      "id": "813",
+      "title": "Agenda Digital: Gestão Pública em Rede",
+      "abstract": "Agenda Digital: Gestão Pública em Rede",
+      "areaID": "89",
+      "zoneID": "19",
+      "level": "",
+      "start": "2014-05-07T16:00:00-03:00",
+      "duration": 60,
+      "roomID": "7"
     }
   },
   "zones": {
@@ -10357,5 +10419,5 @@
       "color": "FFC9D7"
     }
   },
-  "parsed_date": 1399247470774
+  "parsed_date": 1399298227732
 }
