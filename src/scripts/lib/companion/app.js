@@ -414,7 +414,7 @@ module.exports = function($, FISLParser, templates){
     };
 
     var updateMenuSyncMessage = function(){
-        console.log('updateMenuSyncMessage')
+        console.log('updateMenuSyncMessage');
         //update sync time on each dropdown open
         var updateInfoContainer = $('#last-sync-menu-header'),
                 template = templates.last_sync_time;
@@ -444,6 +444,7 @@ module.exports = function($, FISLParser, templates){
         //hide all app panels
         $('.app-panel').removeClass('selected');
 
+        window.setTimeout(function(){
         //different actions depending on which tab selected
         if ( (sectionName === 'schedule') || (sectionName === 'favorites') ){
             applyBookmarksFilter();
@@ -465,6 +466,7 @@ module.exports = function($, FISLParser, templates){
             displayPanel('menu');
             updateMenuSyncMessage();
         }
+        }, 0);
     };
 
     var setupAppHeaderBar = function(){
@@ -624,8 +626,7 @@ module.exports = function($, FISLParser, templates){
     };
 
     var feedLoaded = function(data, textStatus, xhr, fromCache) {
-        var isRefresh = $('#schedule-view').length > 0,
-            view = isRefresh ? $('body').attr('data-view-mode') : defaultView;
+        var isRefresh = $('#schedule-view').length > 0;
         previousScheduleData = scheduleData;
         scheduleData = tryParseJSON(data);
         feedData = data;
