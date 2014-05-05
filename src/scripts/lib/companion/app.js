@@ -358,10 +358,10 @@ module.exports = function($, FISLParser, templates){
     };
 
     var initMapPanZoom = function(){
-        var imageWidth = 2135;
+        var imageWidth = 533;
         var containerWidth = $('body').width() * 0.9;
         console.log(containerWidth);
-        mapMinScale = containerWidth / imageWidth;
+        mapMinScale = (containerWidth / imageWidth) * 0.8;
         console.log('initMapPanZoom, minscale = '+mapMinScale);
         mapPan = new panZoom($('.map-base')[0],{
             minScale: mapMinScale,
@@ -386,7 +386,7 @@ module.exports = function($, FISLParser, templates){
         // mapPan.reset();
         // mapPan.resetDimensions();
         console.log('MapPanZoom, zoom = '+mapMinScale);
-        mapPan.zoom(mapMinScale * 2);
+        mapPan.zoom(mapMinScale * 1.2);
     };
 
     var mapLinkClicked = function(event){
