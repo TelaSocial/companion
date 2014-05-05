@@ -12,10 +12,12 @@
             "590",
             "94",
             "422",
+            "786",
             "611",
             "608",
             "452",
-            "410",
+            "772",
+            "811",
             "370",
             "714",
             "670",
@@ -28,10 +30,12 @@
           "label": "10:00",
           "shortLabel": "10",
           "sessions": [
-            "738",
             "490",
+            "410",
             "601",
-            "671"
+            "771",
+            "801",
+            "799"
           ],
           "colspan": 3
         },
@@ -40,11 +44,14 @@
           "label": "11:00",
           "shortLabel": "11",
           "sessions": [
+            "738",
             "468",
             "18",
             "69",
             "315",
             "631",
+            "795",
+            "803",
             "717",
             "672",
             "655"
@@ -64,7 +71,7 @@
             "711",
             "221",
             "742",
-            "543",
+            "802",
             "259",
             "253"
           ],
@@ -76,11 +83,13 @@
           "shortLabel": "13",
           "sessions": [
             "481",
+            "390",
             "287",
             "122",
             "536",
             "17",
             "624",
+            "203",
             "516",
             "657"
           ],
@@ -92,11 +101,12 @@
           "shortLabel": "14",
           "sessions": [
             "643",
+            "762",
             "585",
             "642",
             "619",
             "708",
-            "203",
+            "72",
             "650",
             "167"
           ],
@@ -114,7 +124,7 @@
             "97",
             "35",
             "193",
-            "762",
+            "807",
             "600",
             "438",
             "673",
@@ -128,6 +138,7 @@
           "shortLabel": "16",
           "sessions": [
             "625",
+            "797",
             "589",
             "510",
             "281",
@@ -146,7 +157,6 @@
             "304",
             "435",
             "497",
-            "72",
             "718",
             "675"
           ],
@@ -165,16 +175,16 @@
             },
             {
               "sessionID": "738",
-              "startTime": 1399467600000,
-              "endTime": 1399471200000,
-              "colspan": 3
+              "startTime": 1399471200000,
+              "endTime": 1399474800000,
+              "colspan": 3,
+              "emptyBefore": 3
             },
             {
               "sessionID": "337",
               "startTime": 1399474800000,
               "endTime": 1399478400000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "colspan": 3
             },
             {
               "sessionID": "481",
@@ -236,18 +246,34 @@
               "colspan": 3
             },
             {
+              "sessionID": "390",
+              "startTime": 1399478400000,
+              "endTime": 1399482000000,
+              "colspan": 3
+            },
+            {
+              "sessionID": "762",
+              "startTime": 1399482000000,
+              "endTime": 1399485600000,
+              "colspan": 3
+            },
+            {
               "sessionID": "75",
               "startTime": 1399485600000,
               "endTime": 1399489200000,
-              "colspan": 3,
-              "emptyBefore": 6
+              "colspan": 3
+            },
+            {
+              "sessionID": "797",
+              "startTime": 1399489200000,
+              "endTime": 1399492800000,
+              "colspan": 3
             },
             {
               "sessionID": "741",
               "startTime": 1399492800000,
               "endTime": 1399496400000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "colspan": 3
             }
           ]
         },
@@ -261,11 +287,16 @@
               "colspan": 3
             },
             {
+              "sessionID": "410",
+              "startTime": 1399467600000,
+              "endTime": 1399471200000,
+              "colspan": 3
+            },
+            {
               "sessionID": "18",
               "startTime": 1399471200000,
               "endTime": 1399474800000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "colspan": 3
             },
             {
               "sessionID": "298",
@@ -303,11 +334,16 @@
           "id": "3",
           "sessions": [
             {
+              "sessionID": "786",
+              "startTime": 1399464000000,
+              "endTime": 1399467600000,
+              "colspan": 3
+            },
+            {
               "sessionID": "601",
               "startTime": 1399467600000,
               "endTime": 1399471200000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "colspan": 3
             },
             {
               "sessionID": "69",
@@ -442,11 +478,16 @@
               "colspan": 3
             },
             {
+              "sessionID": "281",
+              "startTime": 1399489200000,
+              "endTime": 1399492800000,
+              "colspan": 3
+            },
+            {
               "sessionID": "435",
               "startTime": 1399492800000,
               "endTime": 1399496400000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "colspan": 3
             }
           ]
         },
@@ -460,11 +501,16 @@
               "colspan": 6
             },
             {
+              "sessionID": "795",
+              "startTime": 1399471200000,
+              "endTime": 1399474800000,
+              "colspan": 3
+            },
+            {
               "sessionID": "221",
               "startTime": 1399474800000,
               "endTime": 1399478400000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "colspan": 3
             },
             {
               "sessionID": "624",
@@ -491,42 +537,47 @@
           "id": "7",
           "sessions": [
             {
-              "sessionID": "410",
+              "sessionID": "772",
               "startTime": 1399464000000,
               "endTime": 1399467600000,
+              "colspan": 3
+            },
+            {
+              "sessionID": "771",
+              "startTime": 1399467600000,
+              "endTime": 1399471200000,
+              "colspan": 3
+            },
+            {
+              "sessionID": "803",
+              "startTime": 1399471200000,
+              "endTime": 1399474800000,
               "colspan": 3
             },
             {
               "sessionID": "742",
               "startTime": 1399474800000,
               "endTime": 1399478400000,
-              "colspan": 3,
-              "emptyBefore": 6
-            },
-            {
-              "sessionID": "203",
-              "startTime": 1399482000000,
-              "endTime": 1399485600000,
-              "colspan": 3,
-              "emptyBefore": 3
-            },
-            {
-              "sessionID": "762",
-              "startTime": 1399485600000,
-              "endTime": 1399489200000,
               "colspan": 3
             },
             {
-              "sessionID": "281",
-              "startTime": 1399489200000,
-              "endTime": 1399492800000,
+              "sessionID": "203",
+              "startTime": 1399478400000,
+              "endTime": 1399482000000,
               "colspan": 3
             },
             {
               "sessionID": "72",
-              "startTime": 1399492800000,
-              "endTime": 1399496400000,
+              "startTime": 1399482000000,
+              "endTime": 1399485600000,
               "colspan": 3
+            },
+            {
+              "sessionID": "807",
+              "startTime": 1399485600000,
+              "endTime": 1399489200000,
+              "colspan": 3,
+              "emptyAfter": 6
             }
           ]
         },
@@ -534,11 +585,22 @@
           "id": "714",
           "sessions": [
             {
-              "sessionID": "543",
+              "sessionID": "811",
+              "startTime": 1399464000000,
+              "endTime": 1399467600000,
+              "colspan": 3
+            },
+            {
+              "sessionID": "801",
+              "startTime": 1399467600000,
+              "endTime": 1399474800000,
+              "colspan": 6
+            },
+            {
+              "sessionID": "802",
               "startTime": 1399474800000,
               "endTime": 1399485600000,
-              "colspan": 9,
-              "emptyBefore": 9
+              "colspan": 9
             },
             {
               "sessionID": "600",
@@ -617,7 +679,7 @@
               "colspan": 3
             },
             {
-              "sessionID": "671",
+              "sessionID": "799",
               "startTime": 1399467600000,
               "endTime": 1399471200000,
               "colspan": 3
@@ -707,7 +769,8 @@
           "label": "09:00",
           "shortLabel": "09",
           "sessions": [
-            "712",
+            "764",
+            "796",
             "614",
             "615",
             "609",
@@ -727,10 +790,11 @@
           "label": "10:00",
           "shortLabel": "10",
           "sessions": [
+            "793",
             "258",
             "157",
             "766",
-            "746",
+            "790",
             "677"
           ],
           "colspan": 2
@@ -750,11 +814,12 @@
           "shortLabel": "11",
           "sessions": [
             "645",
-            "559",
-            "623",
+            "648",
+            "777",
             "424",
             "728",
-            "747",
+            "770",
+            "559",
             "678",
             "658"
           ],
@@ -768,10 +833,11 @@
             "634",
             "725",
             "317",
-            "603",
+            "623",
             "561",
             "521",
             "76",
+            "792",
             "351",
             "101",
             "694"
@@ -793,12 +859,13 @@
           "shortLabel": "13",
           "sessions": [
             "607",
+            "789",
             "34",
             "729",
             "267",
             "217",
             "380",
-            "748",
+            "810",
             "77",
             "659"
           ],
@@ -815,7 +882,7 @@
             "85",
             "743",
             "724",
-            "750",
+            "791",
             "638",
             "704",
             "679"
@@ -832,7 +899,7 @@
             "43",
             "695",
             "404",
-            "751",
+            "780",
             "555",
             "550",
             "680",
@@ -854,12 +921,14 @@
           "label": "16:00",
           "shortLabel": "16",
           "sessions": [
-            "598",
+            "808",
             "293",
             "302",
+            "603",
             "189",
             "630",
-            "752",
+            "774",
+            "783",
             "595"
           ],
           "colspan": 3
@@ -875,7 +944,7 @@
             "279",
             "177",
             "512",
-            "753",
+            "785",
             "640"
           ],
           "colspan": 3
@@ -886,11 +955,17 @@
           "id": "8",
           "sessions": [
             {
+              "sessionID": "793",
+              "startTime": 1399554000000,
+              "endTime": 1399557600000,
+              "colspan": 3,
+              "emptyBefore": 3
+            },
+            {
               "sessionID": "645",
               "startTime": 1399557600000,
               "endTime": 1399561200000,
-              "colspan": 3,
-              "emptyBefore": 6
+              "colspan": 3
             },
             {
               "sessionID": "634",
@@ -911,12 +986,11 @@
               "colspan": 3
             },
             {
-              "sessionID": "598",
+              "sessionID": "808",
               "startTime": 1399575600000,
-              "endTime": 1399579200000,
-              "colspan": 3,
-              "emptyBefore": 3,
-              "emptyAfter": 3
+              "endTime": 1399582800000,
+              "colspan": 6,
+              "emptyBefore": 3
             }
           ]
         },
@@ -924,11 +998,16 @@
           "id": "1",
           "sessions": [
             {
+              "sessionID": "764",
+              "startTime": 1399550400000,
+              "endTime": 1399554000000,
+              "colspan": 3
+            },
+            {
               "sessionID": "258",
               "startTime": 1399554000000,
               "endTime": 1399561200000,
-              "colspan": 6,
-              "emptyBefore": 3
+              "colspan": 6
             },
             {
               "sessionID": "725",
@@ -937,11 +1016,16 @@
               "colspan": 3
             },
             {
+              "sessionID": "789",
+              "startTime": 1399564800000,
+              "endTime": 1399568400000,
+              "colspan": 3
+            },
+            {
               "sessionID": "622",
               "startTime": 1399568400000,
               "endTime": 1399572000000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "colspan": 3
             },
             {
               "sessionID": "758",
@@ -967,7 +1051,7 @@
           "id": "2",
           "sessions": [
             {
-              "sessionID": "712",
+              "sessionID": "796",
               "startTime": 1399550400000,
               "endTime": 1399554000000,
               "colspan": 3
@@ -979,7 +1063,7 @@
               "colspan": 3
             },
             {
-              "sessionID": "559",
+              "sessionID": "648",
               "startTime": 1399557600000,
               "endTime": 1399561200000,
               "colspan": 3
@@ -1038,13 +1122,13 @@
               "colspan": 3
             },
             {
-              "sessionID": "623",
+              "sessionID": "777",
               "startTime": 1399557600000,
               "endTime": 1399561200000,
               "colspan": 3
             },
             {
-              "sessionID": "603",
+              "sessionID": "623",
               "startTime": 1399561200000,
               "endTime": 1399564800000,
               "colspan": 3
@@ -1062,11 +1146,17 @@
               "colspan": 3
             },
             {
+              "sessionID": "603",
+              "startTime": 1399575600000,
+              "endTime": 1399579200000,
+              "colspan": 3,
+              "emptyBefore": 3
+            },
+            {
               "sessionID": "479",
               "startTime": 1399579200000,
               "endTime": 1399582800000,
-              "colspan": 3,
-              "emptyBefore": 6
+              "colspan": 3
             }
           ]
         },
@@ -1187,11 +1277,16 @@
               "colspan": 6
             },
             {
+              "sessionID": "770",
+              "startTime": 1399557600000,
+              "endTime": 1399561200000,
+              "colspan": 3
+            },
+            {
               "sessionID": "76",
               "startTime": 1399561200000,
               "endTime": 1399564800000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "colspan": 3
             },
             {
               "sessionID": "380",
@@ -1200,18 +1295,28 @@
               "colspan": 3
             },
             {
+              "sessionID": "791",
+              "startTime": 1399568400000,
+              "endTime": 1399572000000,
+              "colspan": 3
+            },
+            {
               "sessionID": "404",
               "startTime": 1399572000000,
               "endTime": 1399575600000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "colspan": 3
+            },
+            {
+              "sessionID": "774",
+              "startTime": 1399575600000,
+              "endTime": 1399579200000,
+              "colspan": 3
             },
             {
               "sessionID": "512",
               "startTime": 1399579200000,
               "endTime": 1399582800000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "colspan": 3
             }
           ]
         },
@@ -1225,44 +1330,43 @@
               "colspan": 3
             },
             {
-              "sessionID": "746",
+              "sessionID": "790",
               "startTime": 1399554000000,
               "endTime": 1399557600000,
               "colspan": 3
             },
             {
-              "sessionID": "747",
+              "sessionID": "559",
               "startTime": 1399557600000,
               "endTime": 1399561200000,
               "colspan": 3
             },
             {
-              "sessionID": "748",
-              "startTime": 1399564800000,
-              "endTime": 1399568400000,
-              "colspan": 3,
-              "emptyBefore": 3
-            },
-            {
-              "sessionID": "750",
-              "startTime": 1399568400000,
-              "endTime": 1399572000000,
+              "sessionID": "792",
+              "startTime": 1399561200000,
+              "endTime": 1399564800000,
               "colspan": 3
             },
             {
-              "sessionID": "751",
+              "sessionID": "810",
+              "startTime": 1399564800000,
+              "endTime": 1399572000000,
+              "colspan": 6
+            },
+            {
+              "sessionID": "780",
               "startTime": 1399572000000,
               "endTime": 1399575600000,
               "colspan": 3
             },
             {
-              "sessionID": "752",
+              "sessionID": "783",
               "startTime": 1399575600000,
               "endTime": 1399579200000,
               "colspan": 3
             },
             {
-              "sessionID": "753",
+              "sessionID": "785",
               "startTime": 1399579200000,
               "endTime": 1399582800000,
               "colspan": 3
@@ -1523,11 +1627,12 @@
           "shortLabel": "11",
           "sessions": [
             "621",
-            "648",
+            "812",
             "569",
             "230",
             "308",
             "392",
+            "474",
             "683",
             "662"
           ],
@@ -1553,8 +1658,9 @@
             "197",
             "618",
             "186",
-            "474",
+            "784",
             "761",
+            "805",
             "300"
           ],
           "colspan": 3
@@ -1570,7 +1676,7 @@
             "301",
             "556",
             "237",
-            "754",
+            "514",
             "736",
             "286",
             "666"
@@ -1589,7 +1695,7 @@
             "730",
             "628",
             "486",
-            "755",
+            "529",
             "733",
             "684"
           ],
@@ -1609,13 +1715,13 @@
           "label": "15:00",
           "shortLabel": "15",
           "sessions": [
-            "496",
+            "498",
             "10",
             "745",
             "649",
             "91",
             "204",
-            "756",
+            "778",
             "697",
             "685",
             "664"
@@ -1629,11 +1735,11 @@
           "sessions": [
             "740",
             "328",
-            "514",
+            "809",
             "719",
             "98",
             "652",
-            "757"
+            "782"
           ],
           "colspan": 3
         },
@@ -1642,13 +1748,12 @@
           "label": "17:00",
           "shortLabel": "17",
           "sessions": [
-            "498",
+            "496",
             "646",
-            "529",
             "627",
             "250",
             "192",
-            "749",
+            "781",
             "735",
             "686"
           ],
@@ -1691,7 +1796,7 @@
               "colspan": 3
             },
             {
-              "sessionID": "496",
+              "sessionID": "498",
               "startTime": 1399658400000,
               "endTime": 1399662000000,
               "colspan": 3
@@ -1703,7 +1808,7 @@
               "colspan": 3
             },
             {
-              "sessionID": "498",
+              "sessionID": "496",
               "startTime": 1399665600000,
               "endTime": 1399669200000,
               "colspan": 3
@@ -1726,7 +1831,7 @@
               "colspan": 3
             },
             {
-              "sessionID": "648",
+              "sessionID": "812",
               "startTime": 1399644000000,
               "endTime": 1399647600000,
               "colspan": 3
@@ -1804,16 +1909,10 @@
               "colspan": 3
             },
             {
-              "sessionID": "514",
+              "sessionID": "809",
               "startTime": 1399662000000,
-              "endTime": 1399665600000,
-              "colspan": 3
-            },
-            {
-              "sessionID": "529",
-              "startTime": 1399665600000,
               "endTime": 1399669200000,
-              "colspan": 3
+              "colspan": 6
             }
           ]
         },
@@ -2035,37 +2134,42 @@
             },
             {
               "sessionID": "474",
-              "startTime": 1399647600000,
-              "endTime": 1399651200000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "startTime": 1399644000000,
+              "endTime": 1399647600000,
+              "colspan": 3
             },
             {
-              "sessionID": "754",
+              "sessionID": "784",
+              "startTime": 1399647600000,
+              "endTime": 1399651200000,
+              "colspan": 3
+            },
+            {
+              "sessionID": "514",
               "startTime": 1399651200000,
               "endTime": 1399654800000,
               "colspan": 3
             },
             {
-              "sessionID": "755",
+              "sessionID": "529",
               "startTime": 1399654800000,
               "endTime": 1399658400000,
               "colspan": 3
             },
             {
-              "sessionID": "756",
+              "sessionID": "778",
               "startTime": 1399658400000,
               "endTime": 1399662000000,
               "colspan": 3
             },
             {
-              "sessionID": "757",
+              "sessionID": "782",
               "startTime": 1399662000000,
               "endTime": 1399665600000,
               "colspan": 3
             },
             {
-              "sessionID": "749",
+              "sessionID": "781",
               "startTime": 1399665600000,
               "endTime": 1399669200000,
               "colspan": 3
@@ -2100,11 +2204,16 @@
               "colspan": 9
             },
             {
+              "sessionID": "805",
+              "startTime": 1399647600000,
+              "endTime": 1399658400000,
+              "colspan": 9
+            },
+            {
               "sessionID": "697",
               "startTime": 1399658400000,
               "endTime": 1399669200000,
-              "colspan": 9,
-              "emptyBefore": 9
+              "colspan": 9
             }
           ]
         },
@@ -2273,8 +2382,6 @@
           "label": "09:00",
           "shortLabel": "09",
           "sessions": [
-            "769",
-            "173",
             "199",
             "181",
             "156",
@@ -2282,6 +2389,7 @@
             "616",
             "356",
             "706",
+            "800",
             "665"
           ],
           "colspan": 3
@@ -2291,11 +2399,13 @@
           "label": "10:00",
           "shortLabel": "10",
           "sessions": [
+            "520",
             "272",
             "641",
             "722",
             "518",
             "224",
+            "798",
             "688"
           ],
           "colspan": 3
@@ -2324,12 +2434,12 @@
           "shortLabel": "12",
           "sessions": [
             "577",
-            "620",
+            "500",
             "485",
             "57",
             "182",
             "119",
-            "599",
+            "806",
             "387"
           ],
           "colspan": 3
@@ -2341,7 +2451,7 @@
           "sessions": [
             "379",
             "454",
-            "371",
+            "330",
             "578",
             "702",
             "209",
@@ -2358,8 +2468,9 @@
           "sessions": [
             "509",
             "593",
-            "330",
+            "371",
             "726",
+            "804",
             "280",
             "690"
           ],
@@ -2374,6 +2485,7 @@
             "579",
             "68",
             "211",
+            "794",
             "505",
             "507",
             "183",
@@ -2393,6 +2505,7 @@
             "651",
             "201",
             "700",
+            "776",
             "369",
             "525",
             "701"
@@ -2405,10 +2518,12 @@
           "shortLabel": "17",
           "sessions": [
             "644",
+            "769",
             "763",
             "434",
             "20",
             "326",
+            "173",
             "241",
             "692"
           ],
@@ -2420,11 +2535,17 @@
           "id": "8",
           "sessions": [
             {
+              "sessionID": "520",
+              "startTime": 1399726800000,
+              "endTime": 1399730400000,
+              "colspan": 3,
+              "emptyBefore": 3
+            },
+            {
               "sessionID": "467",
               "startTime": 1399730400000,
               "endTime": 1399734000000,
-              "colspan": 3,
-              "emptyBefore": 6
+              "colspan": 3
             },
             {
               "sessionID": "509",
@@ -2457,16 +2578,11 @@
           "id": "1",
           "sessions": [
             {
-              "sessionID": "769",
-              "startTime": 1399723200000,
-              "endTime": 1399726800000,
-              "colspan": 3
-            },
-            {
               "sessionID": "272",
               "startTime": 1399726800000,
               "endTime": 1399730400000,
-              "colspan": 3
+              "colspan": 3,
+              "emptyBefore": 3
             },
             {
               "sessionID": "604",
@@ -2502,8 +2618,13 @@
               "sessionID": "651",
               "startTime": 1399748400000,
               "endTime": 1399752000000,
-              "colspan": 3,
-              "emptyAfter": 3
+              "colspan": 3
+            },
+            {
+              "sessionID": "769",
+              "startTime": 1399752000000,
+              "endTime": 1399755600000,
+              "colspan": 3
             }
           ]
         },
@@ -2511,16 +2632,11 @@
           "id": "2",
           "sessions": [
             {
-              "sessionID": "173",
-              "startTime": 1399723200000,
-              "endTime": 1399726800000,
-              "colspan": 3
-            },
-            {
               "sessionID": "641",
               "startTime": 1399726800000,
               "endTime": 1399730400000,
-              "colspan": 3
+              "colspan": 3,
+              "emptyBefore": 3
             },
             {
               "sessionID": "709",
@@ -2529,7 +2645,7 @@
               "colspan": 3
             },
             {
-              "sessionID": "620",
+              "sessionID": "500",
               "startTime": 1399734000000,
               "endTime": 1399737600000,
               "colspan": 3
@@ -2578,13 +2694,13 @@
               "emptyBefore": 3
             },
             {
-              "sessionID": "371",
+              "sessionID": "330",
               "startTime": 1399737600000,
               "endTime": 1399741200000,
               "colspan": 3
             },
             {
-              "sessionID": "330",
+              "sessionID": "371",
               "startTime": 1399741200000,
               "endTime": 1399744800000,
               "colspan": 3
@@ -2649,11 +2765,22 @@
               "colspan": 3
             },
             {
+              "sessionID": "794",
+              "startTime": 1399744800000,
+              "endTime": 1399748400000,
+              "colspan": 3
+            },
+            {
+              "sessionID": "776",
+              "startTime": 1399748400000,
+              "endTime": 1399752000000,
+              "colspan": 3
+            },
+            {
               "sessionID": "20",
               "startTime": 1399752000000,
               "endTime": 1399755600000,
-              "colspan": 3,
-              "emptyBefore": 6
+              "colspan": 3
             }
           ]
         },
@@ -2667,11 +2794,16 @@
               "colspan": 3
             },
             {
+              "sessionID": "518",
+              "startTime": 1399726800000,
+              "endTime": 1399730400000,
+              "colspan": 3
+            },
+            {
               "sessionID": "9",
               "startTime": 1399730400000,
               "endTime": 1399734000000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "colspan": 3
             },
             {
               "sessionID": "57",
@@ -2712,14 +2844,8 @@
             {
               "sessionID": "175",
               "startTime": 1399723200000,
-              "endTime": 1399726800000,
-              "colspan": 3
-            },
-            {
-              "sessionID": "518",
-              "startTime": 1399726800000,
               "endTime": 1399730400000,
-              "colspan": 3
+              "colspan": 6
             },
             {
               "sessionID": "632",
@@ -2740,18 +2866,28 @@
               "colspan": 3
             },
             {
+              "sessionID": "804",
+              "startTime": 1399741200000,
+              "endTime": 1399744800000,
+              "colspan": 3
+            },
+            {
               "sessionID": "507",
               "startTime": 1399744800000,
               "endTime": 1399748400000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "colspan": 3
             },
             {
               "sessionID": "525",
               "startTime": 1399748400000,
               "endTime": 1399752000000,
-              "colspan": 3,
-              "emptyAfter": 3
+              "colspan": 3
+            },
+            {
+              "sessionID": "173",
+              "startTime": 1399752000000,
+              "endTime": 1399755600000,
+              "colspan": 3
             }
           ]
         },
@@ -2824,7 +2960,7 @@
               "colspan": 9
             },
             {
-              "sessionID": "599",
+              "sessionID": "806",
               "startTime": 1399734000000,
               "endTime": 1399744800000,
               "colspan": 9
@@ -2843,7 +2979,16 @@
         },
         {
           "id": "721",
-          "sessions": []
+          "sessions": [
+            {
+              "sessionID": "798",
+              "startTime": 1399726800000,
+              "endTime": 1399752000000,
+              "colspan": 21,
+              "emptyBefore": 3,
+              "emptyAfter": 3
+            }
+          ]
         },
         {
           "id": "717",
@@ -2868,11 +3013,16 @@
           "id": "718",
           "sessions": [
             {
+              "sessionID": "800",
+              "startTime": 1399723200000,
+              "endTime": 1399726800000,
+              "colspan": 3
+            },
+            {
               "sessionID": "688",
               "startTime": 1399726800000,
               "endTime": 1399730400000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "colspan": 3
             },
             {
               "sessionID": "693",
@@ -3225,6 +3375,21 @@
         "id": "486",
         "name": "Morvana Bonin",
         "main": true
+      },
+      {
+        "id": "1126",
+        "name": "Maricy Scaff Padilha",
+        "main": false
+      },
+      {
+        "id": "1125",
+        "name": "Pedro Padilha Farroco",
+        "main": false
+      },
+      {
+        "id": "1128",
+        "name": "Ricardo da Silva Ogliari",
+        "main": false
       }
     ],
     "176": [
@@ -3271,7 +3436,7 @@
       },
       {
         "id": "524",
-        "name": "Jatobá",
+        "name": "Pedro Henrique Jatobá",
         "main": false
       }
     ],
@@ -3292,7 +3457,7 @@
     "186": [
       {
         "id": "524",
-        "name": "Jatobá",
+        "name": "Pedro Henrique Jatobá",
         "main": true
       },
       {
@@ -3614,7 +3779,7 @@
       },
       {
         "id": "524",
-        "name": "Jatobá",
+        "name": "Pedro Henrique Jatobá",
         "main": false
       },
       {
@@ -3892,6 +4057,18 @@
         "main": false
       }
     ],
+    "390": [
+      {
+        "id": "630",
+        "name": "João Avelino Bellomo Filho",
+        "main": true
+      },
+      {
+        "id": "703",
+        "name": "Leonardo Menezes Vaz",
+        "main": false
+      }
+    ],
     "392": [
       {
         "id": "72",
@@ -3904,6 +4081,11 @@
         "id": "565",
         "name": "Cleiton Galvão Santana",
         "main": true
+      },
+      {
+        "id": "1009",
+        "name": "Felipe Corrêa da Silva Sanches",
+        "main": false
       },
       {
         "id": "391",
@@ -3930,6 +4112,11 @@
       {
         "id": "565",
         "name": "Cleiton Galvão Santana",
+        "main": false
+      },
+      {
+        "id": "1114",
+        "name": "José Pedro Cavalcante Maioli Menezes",
         "main": false
       },
       {
@@ -4139,6 +4326,23 @@
         "main": true
       }
     ],
+    "500": [
+      {
+        "id": "800",
+        "name": "Moisés Souto",
+        "main": true
+      },
+      {
+        "id": "1116",
+        "name": "Adorilson Bezerra",
+        "main": false
+      },
+      {
+        "id": "831",
+        "name": "Max Miller da Silveira",
+        "main": false
+      }
+    ],
     "505": [
       {
         "id": "817",
@@ -4204,6 +4408,18 @@
       {
         "id": "861",
         "name": "Tiago Zonta",
+        "main": false
+      }
+    ],
+    "520": [
+      {
+        "id": "703",
+        "name": "Leonardo Menezes Vaz",
+        "main": true
+      },
+      {
+        "id": "864",
+        "name": "Harold Miller",
         "main": false
       }
     ],
@@ -4285,13 +4501,6 @@
         "main": true
       }
     ],
-    "543": [
-      {
-        "id": "883",
-        "name": "Gustavo Rocha Pereira de Souza",
-        "main": true
-      }
-    ],
     "550": [
       {
         "id": "411",
@@ -4352,17 +4561,32 @@
         "id": "913",
         "name": "Fr3d Vázquez",
         "main": true
+      },
+      {
+        "id": "936",
+        "name": "Deivi Lopes Kuhn",
+        "main": false
       }
     ],
     "577": [
       {
-        "id": "921",
-        "name": "Rafael Reggiani Manzo",
+        "id": "924",
+        "name": "Diego Martinez",
         "main": true
       },
       {
-        "id": "924",
-        "name": "Diego Martinez",
+        "id": "1115",
+        "name": "Arthur de Moura Del Esposte",
+        "main": false
+      },
+      {
+        "id": "443",
+        "name": "Paulo Meirelles",
+        "main": false
+      },
+      {
+        "id": "921",
+        "name": "Rafael Reggiani Manzo",
         "main": false
       }
     ],
@@ -4479,13 +4703,6 @@
       {
         "id": "947",
         "name": "Sandro S. Andrade",
-        "main": true
-      }
-    ],
-    "598": [
-      {
-        "id": "948",
-        "name": "Nancy Michelle Torres Villanueva",
         "main": true
       }
     ],
@@ -4627,13 +4844,6 @@
       {
         "id": "18",
         "name": "Ismael Castagnet Lacuesta",
-        "main": true
-      }
-    ],
-    "620": [
-      {
-        "id": "973",
-        "name": "Moisés Souto",
         "main": true
       }
     ],
@@ -4966,6 +5176,13 @@
         "main": false
       }
     ],
+    "662": [
+      {
+        "id": "1009",
+        "name": "Felipe Corrêa da Silva Sanches",
+        "main": true
+      }
+    ],
     "663": [
       {
         "id": "1010",
@@ -5023,10 +5240,10 @@
         "main": false
       }
     ],
-    "671": [
+    "670": [
       {
-        "id": "12",
-        "name": "JOCEMAR DO NASCIMENTO",
+        "id": "946",
+        "name": "Felipe Santos",
         "main": true
       }
     ],
@@ -5105,6 +5322,11 @@
       }
     ],
     "681": [
+      {
+        "id": "1031",
+        "name": "Maristela Luisa Stolz Brizzi",
+        "main": true
+      },
       {
         "id": "1032",
         "name": "Eliane Soares da Silva",
@@ -5194,6 +5416,11 @@
       {
         "id": "1047",
         "name": "Fernando Schel Pereira",
+        "main": false
+      },
+      {
+        "id": "1045",
+        "name": "Lucas K. da Rocha",
         "main": false
       }
     ],
@@ -5287,13 +5514,28 @@
         "id": "1057",
         "name": "Rodolfo Avelino",
         "main": true
+      },
+      {
+        "id": "1152",
+        "name": "Sergio Amadeu",
+        "main": false
+      },
+      {
+        "id": "1059",
+        "name": "Tiago Pimentel",
+        "main": false
       }
     ],
     "703": [
       {
+        "id": "1111",
+        "name": "Gabriela Fonseca Silva de Oliveira",
+        "main": true
+      },
+      {
         "id": "940",
         "name": "ORGANIZAÇÃO",
-        "main": true
+        "main": false
       }
     ],
     "704": [
@@ -5342,13 +5584,6 @@
       {
         "id": "1064",
         "name": "Alberto J. Azevedo",
-        "main": true
-      }
-    ],
-    "712": [
-      {
-        "id": "1065",
-        "name": "Bruno Souza",
         "main": true
       }
     ],
@@ -5404,8 +5639,8 @@
     ],
     "719": [
       {
-        "id": "3",
-        "name": "Organização 0",
+        "id": "945",
+        "name": "Thomas Soares",
         "main": true
       }
     ],
@@ -5597,66 +5832,24 @@
         "main": true
       }
     ],
+    "743": [
+      {
+        "id": "1091",
+        "name": "Diego Aguilera",
+        "main": true
+      }
+    ],
+    "744": [
+      {
+        "id": "1091",
+        "name": "Diego Aguilera",
+        "main": true
+      }
+    ],
     "745": [
       {
         "id": "940",
         "name": "ORGANIZAÇÃO",
-        "main": true
-      }
-    ],
-    "746": [
-      {
-        "id": "1092",
-        "name": "Breno Gonçalves Bragatti Neves",
-        "main": true
-      }
-    ],
-    "747": [
-      {
-        "id": "1093",
-        "name": "Diego Pasqualin",
-        "main": true
-      }
-    ],
-    "748": [
-      {
-        "id": "1094",
-        "name": "Filipe Saraiva",
-        "main": true
-      }
-    ],
-    "749": [
-      {
-        "id": "655",
-        "name": "Marcos Vinicius Scholl",
-        "main": true
-      }
-    ],
-    "751": [
-      {
-        "id": "1096",
-        "name": "Matheus Guimarães Mello",
-        "main": true
-      }
-    ],
-    "752": [
-      {
-        "id": "1027",
-        "name": "Rafaela da Silva Melo",
-        "main": true
-      }
-    ],
-    "753": [
-      {
-        "id": "1097",
-        "name": "Sara Schoonmaker",
-        "main": true
-      }
-    ],
-    "756": [
-      {
-        "id": "1098",
-        "name": "Leandro Soriano Ferreira",
         "main": true
       }
     ],
@@ -5669,8 +5862,8 @@
     ],
     "759": [
       {
-        "id": "940",
-        "name": "ORGANIZAÇÃO",
+        "id": "1110",
+        "name": "Vinicius Wu",
         "main": true
       }
     ],
@@ -5700,23 +5893,20 @@
         "id": "1102",
         "name": "Valdir Barbosa",
         "main": true
+      },
+      {
+        "id": "1104",
+        "name": "Douglas Vigliazzi",
+        "main": false
       }
     ],
-    "764": [
+    "766": [
       {
-        "id": "3",
-        "name": "Organização 0",
+        "id": "753",
+        "name": "Eliane Domingos",
         "main": true
       }
     ],
-    "765": [
-      {
-        "id": "3",
-        "name": "Organização 0",
-        "main": true
-      }
-    ],
-    "766": [],
     "767": [
       {
         "id": "1103",
@@ -5724,17 +5914,367 @@
         "main": true
       }
     ],
-    "768": [
-      {
-        "id": "3",
-        "name": "Organização 0",
-        "main": true
-      }
-    ],
     "769": [
       {
         "id": "1105",
         "name": "Fernando Alves",
+        "main": true
+      }
+    ],
+    "770": [
+      {
+        "id": "1107",
+        "name": "Leonardo Cezar",
+        "main": true
+      }
+    ],
+    "771": [
+      {
+        "id": "940",
+        "name": "ORGANIZAÇÃO",
+        "main": true
+      }
+    ],
+    "772": [
+      {
+        "id": "940",
+        "name": "ORGANIZAÇÃO",
+        "main": true
+      }
+    ],
+    "774": [
+      {
+        "id": "1109",
+        "name": "Uirá Porã",
+        "main": true
+      }
+    ],
+    "776": [
+      {
+        "id": "1009",
+        "name": "Felipe Corrêa da Silva Sanches",
+        "main": true
+      }
+    ],
+    "777": [
+      {
+        "id": "897",
+        "name": "Luis Felipe Coimbra Costa",
+        "main": true
+      }
+    ],
+    "778": [
+      {
+        "id": "1117",
+        "name": "Hilmer Neri",
+        "main": true
+      }
+    ],
+    "780": [
+      {
+        "id": "1118",
+        "name": "Daniel M. German",
+        "main": true
+      }
+    ],
+    "781": [
+      {
+        "id": "1118",
+        "name": "Daniel M. German",
+        "main": true
+      },
+      {
+        "id": "1096",
+        "name": "Matheus Guimarães Mello",
+        "main": false
+      },
+      {
+        "id": "524",
+        "name": "Pedro Henrique Jatobá",
+        "main": false
+      },
+      {
+        "id": "1120",
+        "name": "Rodrigo Rocha G. Souza",
+        "main": false
+      }
+    ],
+    "782": [
+      {
+        "id": "1113",
+        "name": "Marco Aurélio Graciotto Silva",
+        "main": true
+      },
+      {
+        "id": "1094",
+        "name": "Filipe Saraiva",
+        "main": false
+      },
+      {
+        "id": "655",
+        "name": "Marcos Vinicius Scholl",
+        "main": false
+      },
+      {
+        "id": "1155",
+        "name": "Sandro da Silva Camargo",
+        "main": false
+      }
+    ],
+    "783": [
+      {
+        "id": "443",
+        "name": "Paulo Meirelles",
+        "main": true
+      },
+      {
+        "id": "1095",
+        "name": "\tMateus Rambo Strey",
+        "main": false
+      },
+      {
+        "id": "1098",
+        "name": "Leandro Soriano Ferreira",
+        "main": false
+      },
+      {
+        "id": "1113",
+        "name": "Marco Aurélio Graciotto Silva",
+        "main": false
+      }
+    ],
+    "784": [
+      {
+        "id": "1119",
+        "name": "André Deak",
+        "main": true
+      }
+    ],
+    "785": [
+      {
+        "id": "1120",
+        "name": "Rodrigo Rocha G. Souza",
+        "main": true
+      },
+      {
+        "id": "1093",
+        "name": "Diego Pasqualin",
+        "main": false
+      },
+      {
+        "id": "1027",
+        "name": "Rafaela da Silva Melo",
+        "main": false
+      }
+    ],
+    "786": [
+      {
+        "id": "1124",
+        "name": "Alex Correa",
+        "main": false
+      },
+      {
+        "id": "1122",
+        "name": "Johnny Salazar Reidel",
+        "main": false
+      }
+    ],
+    "791": [
+      {
+        "id": "936",
+        "name": "Deivi Lopes Kuhn",
+        "main": false
+      }
+    ],
+    "795": [
+      {
+        "id": "1136",
+        "name": "Rodrigo Dias",
+        "main": true
+      }
+    ],
+    "797": [
+      {
+        "id": "1138",
+        "name": "Luciana Fujii",
+        "main": true
+      }
+    ],
+    "798": [
+      {
+        "id": "702",
+        "name": "RONALD EMERSON SCHEROLT DA COSTA",
+        "main": true
+      },
+      {
+        "id": "1143",
+        "name": "Wellington Jonathan de Souza Rodrigues",
+        "main": false
+      }
+    ],
+    "799": [
+      {
+        "id": "946",
+        "name": "Felipe Santos",
+        "main": true
+      },
+      {
+        "id": "1140",
+        "name": "Juliano Nascimento",
+        "main": false
+      },
+      {
+        "id": "1139",
+        "name": "Nederson Menezes",
+        "main": false
+      }
+    ],
+    "800": [
+      {
+        "id": "23",
+        "name": "Raniere Gaia Costa da Silva",
+        "main": true
+      }
+    ],
+    "801": [
+      {
+        "id": "965",
+        "name": "Daniela Feitosa",
+        "main": true
+      },
+      {
+        "id": "967",
+        "name": "Daniel Costa Bucher",
+        "main": false
+      },
+      {
+        "id": "1141",
+        "name": "Luiz Mattos",
+        "main": false
+      },
+      {
+        "id": "702",
+        "name": "RONALD EMERSON SCHEROLT DA COSTA",
+        "main": false
+      }
+    ],
+    "802": [
+      {
+        "id": "976",
+        "name": "Julio Neves",
+        "main": true
+      }
+    ],
+    "803": [
+      {
+        "id": "1144",
+        "name": " Igor Oliveira",
+        "main": true
+      },
+      {
+        "id": "1145",
+        "name": "Denise Ries Russo ",
+        "main": false
+      }
+    ],
+    "804": [
+      {
+        "id": "1147",
+        "name": "Cezar Busatto",
+        "main": true
+      },
+      {
+        "id": "1148",
+        "name": "Jones Silva",
+        "main": false
+      },
+      {
+        "id": "1149",
+        "name": "Luis Carlos Pinto",
+        "main": false
+      }
+    ],
+    "805": [
+      {
+        "id": "390",
+        "name": "Klaibson Ribeiro",
+        "main": true
+      },
+      {
+        "id": "753",
+        "name": "Eliane Domingos",
+        "main": false
+      }
+    ],
+    "806": [
+      {
+        "id": "753",
+        "name": "Eliane Domingos",
+        "main": true
+      }
+    ],
+    "807": [
+      {
+        "id": "1150",
+        "name": "Deborah Pila Vilella",
+        "main": true
+      },
+      {
+        "id": "1151",
+        "name": "Carla Zitto",
+        "main": false
+      }
+    ],
+    "808": [
+      {
+        "id": "1075",
+        "name": "Leonardo Lazarte",
+        "main": true
+      },
+      {
+        "id": "827",
+        "name": "pedro rezende",
+        "main": false
+      }
+    ],
+    "809": [
+      {
+        "id": "918",
+        "name": "Ricardo Poppi",
+        "main": true
+      },
+      {
+        "id": "1152",
+        "name": "Sergio Amadeu",
+        "main": false
+      }
+    ],
+    "810": [
+      {
+        "id": "443",
+        "name": "Paulo Meirelles",
+        "main": true
+      },
+      {
+        "id": "1115",
+        "name": "Arthur de Moura Del Esposte",
+        "main": false
+      },
+      {
+        "id": "967",
+        "name": "Daniel Costa Bucher",
+        "main": false
+      },
+      {
+        "id": "1154",
+        "name": "David Carlos",
+        "main": false
+      }
+    ],
+    "812": [
+      {
+        "id": "1065",
+        "name": "Bruno Souza",
         "main": true
       }
     ]
@@ -5982,7 +6522,7 @@
       "areaID": "83",
       "zoneID": "17",
       "level": "starter",
-      "start": "2014-05-07T17:00:00-03:00",
+      "start": "2014-05-07T14:00:00-03:00",
       "duration": 60,
       "roomID": "7"
     },
@@ -6202,9 +6742,9 @@
       "areaID": "59",
       "zoneID": "14",
       "level": "starter",
-      "start": "2014-05-10T09:00:00-03:00",
+      "start": "2014-05-10T17:00:00-03:00",
       "duration": 60,
-      "roomID": "2"
+      "roomID": "6"
     },
     "175": {
       "id": "175",
@@ -6214,7 +6754,7 @@
       "zoneID": "18",
       "level": "starter",
       "start": "2014-05-10T09:00:00-03:00",
-      "duration": 60,
+      "duration": 120,
       "roomID": "6"
     },
     "176": {
@@ -6378,7 +6918,7 @@
       "areaID": "74",
       "zoneID": "15",
       "level": "intermediate",
-      "start": "2014-05-07T14:00:00-03:00",
+      "start": "2014-05-07T13:00:00-03:00",
       "duration": 60,
       "roomID": "7"
     },
@@ -6622,7 +7162,7 @@
       "level": "starter",
       "start": "2014-05-07T16:00:00-03:00",
       "duration": 60,
-      "roomID": "7"
+      "roomID": "5"
     },
     "283": {
       "id": "283",
@@ -6785,7 +7325,7 @@
       "areaID": "53",
       "zoneID": "14",
       "level": "starter",
-      "start": "2014-05-10T14:00:00-03:00",
+      "start": "2014-05-10T13:00:00-03:00",
       "duration": 60,
       "roomID": "3"
     },
@@ -6873,7 +7413,7 @@
       "areaID": "59",
       "zoneID": "14",
       "level": "starter",
-      "start": "2014-05-10T13:00:00-03:00",
+      "start": "2014-05-10T14:00:00-03:00",
       "duration": 60,
       "roomID": "3"
     },
@@ -6932,6 +7472,17 @@
       "duration": 180,
       "roomID": "720"
     },
+    "390": {
+      "id": "390",
+      "title": "Systemd: welcome to the brave new world",
+      "abstract": "Será apresentado o que é o systemd, quais os novos conceitos que apresenta, quais são as suas funcionalidades que oferece e o potencial que oferece ao usuário e administrador do sistema.",
+      "areaID": "38",
+      "zoneID": "13",
+      "level": "intermediate",
+      "start": "2014-05-07T13:00:00-03:00",
+      "duration": 60,
+      "roomID": "1"
+    },
     "392": {
       "id": "392",
       "title": "Inteligência Artificial na prática - Criando uma Rede Neural ",
@@ -6983,9 +7534,9 @@
       "areaID": "80",
       "zoneID": "16",
       "level": "intermediate",
-      "start": "2014-05-07T09:00:00-03:00",
+      "start": "2014-05-07T10:00:00-03:00",
       "duration": 60,
-      "roomID": "7"
+      "roomID": "2"
     },
     "422": {
       "id": "422",
@@ -7104,7 +7655,7 @@
       "areaID": "38",
       "zoneID": "13",
       "level": "intermediate",
-      "start": "2014-05-09T12:00:00-03:00",
+      "start": "2014-05-09T11:00:00-03:00",
       "duration": 60,
       "roomID": "7"
     },
@@ -7192,7 +7743,7 @@
       "areaID": "50",
       "zoneID": "13",
       "level": "advanced",
-      "start": "2014-05-09T15:00:00-03:00",
+      "start": "2014-05-09T17:00:00-03:00",
       "duration": 60,
       "roomID": "8"
     },
@@ -7214,9 +7765,20 @@
       "areaID": "89",
       "zoneID": "19",
       "level": "advanced",
-      "start": "2014-05-09T17:00:00-03:00",
+      "start": "2014-05-09T15:00:00-03:00",
       "duration": 60,
       "roomID": "8"
+    },
+    "500": {
+      "id": "500",
+      "title": "CCSL-IFRN: Educação colaborativa no IFRN",
+      "abstract": "Este palestra analisa a construção de centros de competências em software livre no sentido de aperfeiçoar e promover a disseminação de cultura do conhecimento livre; e melhor direcionar os estudantes dos cursos de computação. Para tanto, apresentar-se-á ensaios sobre uma abordagem metodológica de ensino que não seja baseada no modelo tradicional (punitivo e repressor). Nessa perspectiva, a metodologia que se apresenta através desses centros, embora não seja nova, rompe com o modelo tradicional.",
+      "areaID": "83",
+      "zoneID": "17",
+      "level": "intermediate",
+      "start": "2014-05-10T12:00:00-03:00",
+      "duration": 60,
+      "roomID": "2"
     },
     "505": {
       "id": "505",
@@ -7291,9 +7853,9 @@
       "areaID": "44",
       "zoneID": "13",
       "level": "advanced",
-      "start": "2014-05-09T16:00:00-03:00",
+      "start": "2014-05-09T13:00:00-03:00",
       "duration": 60,
-      "roomID": "2"
+      "roomID": "7"
     },
     "516": {
       "id": "516",
@@ -7315,7 +7877,18 @@
       "level": "starter",
       "start": "2014-05-10T10:00:00-03:00",
       "duration": 60,
-      "roomID": "6"
+      "roomID": "5"
+    },
+    "520": {
+      "id": "520",
+      "title": "Building an inexpensive and scalable storage system powered by ARM and GlusterF",
+      "abstract": "In this presentation, we walk through the process of building an inexpensive and scalable storage system powered by ARM, commodity hard drivers powered by Linux and GlusterFS.",
+      "areaID": "47",
+      "zoneID": "13",
+      "level": "starter",
+      "start": "2014-05-10T10:00:00-03:00",
+      "duration": 60,
+      "roomID": "8"
     },
     "521": {
       "id": "521",
@@ -7368,9 +7941,9 @@
       "areaID": "44",
       "zoneID": "13",
       "level": "starter",
-      "start": "2014-05-09T17:00:00-03:00",
+      "start": "2014-05-09T14:00:00-03:00",
       "duration": 60,
-      "roomID": "2"
+      "roomID": "7"
     },
     "531": {
       "id": "531",
@@ -7416,17 +7989,6 @@
       "duration": 60,
       "roomID": "2"
     },
-    "543": {
-      "id": "543",
-      "title": "Oficina de instalação, configuração e utilização do CKAN",
-      "abstract": "Compartilhar os conhecimentos necessários para instalação, configuração e utilização do CKAN um poderoso sistema de gerenciamento de dados que torna os dados acessíveis -, fornecendo ferramentas para agilizar a publicação, compartilhar, encontrar e utilizar dados. Visando editores de dados (governos nacionais e regionais, empresas e organizações) que querem fazer os seus dados abertos e disponíveis.",
-      "areaID": "95",
-      "zoneID": "21",
-      "level": "intermediate",
-      "start": "2014-05-07T12:00:00-03:00",
-      "duration": 180,
-      "roomID": "714"
-    },
     "550": {
       "id": "550",
       "title": "Mineração de Texto com Python e NLTK",
@@ -7469,7 +8031,7 @@
       "level": "intermediate",
       "start": "2014-05-08T11:00:00-03:00",
       "duration": 60,
-      "roomID": "2"
+      "roomID": "7"
     },
     "561": {
       "id": "561",
@@ -7484,7 +8046,7 @@
     },
     "569": {
       "id": "569",
-      "title": "Soberania Política e Tecnológica brasileria em um mundo cibernético",
+      "title": "Soberania Política e Tecnológica brasileira em um mundo cibernético",
       "abstract": "Mesa de debate com figuras públicas e de relevância no debate sobre o desenvolvimento do Software Livre brasileiro e suas salvaguardas e mecanismos de fomento.",
       "areaID": "89",
       "zoneID": "19",
@@ -7636,28 +8198,6 @@
       "duration": 60,
       "roomID": "3"
     },
-    "598": {
-      "id": "598",
-      "title": "How to be a great hacker",
-      "abstract": "Spech about the steps to follow after finishing school and how to become in a great hacker, focusing about the philosophy and the good practices.",
-      "areaID": "53",
-      "zoneID": "14",
-      "level": "",
-      "start": "2014-05-08T16:00:00-03:00",
-      "duration": 60,
-      "roomID": "8"
-    },
-    "599": {
-      "id": "599",
-      "title": "Del código spaghetti al MVC en PHP",
-      "abstract": "Conocimientos de programación Web Objetivo: Creación de su propio ModeloVistaControlador sin usar frameworks",
-      "areaID": "95",
-      "zoneID": "21",
-      "level": "",
-      "start": "2014-05-10T12:00:00-03:00",
-      "duration": 180,
-      "roomID": "714"
-    },
     "600": {
       "id": "600",
       "title": "Pitch Day - A arte de Engajar, Entreter e Encantar.",
@@ -7698,7 +8238,7 @@
       "areaID": "80",
       "zoneID": "16",
       "level": "",
-      "start": "2014-05-08T12:00:00-03:00",
+      "start": "2014-05-08T16:00:00-03:00",
       "duration": 60,
       "roomID": "3"
     },
@@ -7856,17 +8396,6 @@
       "duration": 60,
       "roomID": "4"
     },
-    "620": {
-      "id": "620",
-      "title": "CCSL-IFRN: Educação colaborativa no IFRN",
-      "abstract": "Este palestra analisa a construção de centros de competências em software livre no sentido de aperfeiçoar e promover a disseminação de cultura do conhecimento livre; e melhor direcionar os estudantes dos cursos de computação. Para tanto, apresentar-se-á ensaios sobre uma abordagem metodológica de ensino que não seja baseada no modelo tradicional (punitivo e repressor). Nessa perspectiva, a metodologia que se apresenta através desses centros, embora não seja nova, rompe com o modelo tradicional.",
-      "areaID": "83",
-      "zoneID": "17",
-      "level": "",
-      "start": "2014-05-10T12:00:00-03:00",
-      "duration": 60,
-      "roomID": "2"
-    },
     "621": {
       "id": "621",
       "title": "Designing for Mobile and Surviving",
@@ -7896,13 +8425,13 @@
       "areaID": "53",
       "zoneID": "14",
       "level": "",
-      "start": "2014-05-08T11:00:00-03:00",
+      "start": "2014-05-08T12:00:00-03:00",
       "duration": 60,
       "roomID": "3"
     },
     "624": {
       "id": "624",
-      "title": "Debate de abertura: As perspectivas e os desafios da comunicação segura",
+      "title": "Abertura CriptoPArty: As perspectivas e os desafios da comunicação segura",
       "abstract": "Recentemente, houve um crescente interesse por projetos e softwares que trabalham com  comunicação segura. No entanto, todas essas tecnologia lidam com uma série de problemas da própria comunicação segura. Esses problemas são difíceis e desafiam soluções existentes, não havendo assim soluções rápidas.",
       "areaID": "3",
       "zoneID": "21",
@@ -8160,9 +8689,9 @@
       "areaID": "89",
       "zoneID": "19",
       "level": "",
-      "start": "2014-05-09T11:00:00-03:00",
+      "start": "2014-05-08T11:00:00-03:00",
       "duration": 60,
-      "roomID": "1"
+      "roomID": "2"
     },
     "649": {
       "id": "649",
@@ -8310,7 +8839,7 @@
     "662": {
       "id": "662",
       "title": "Impressão 3D e Robótica com OpenScad",
-      "abstract": "...",
+      "abstract": "Impressão 3D e Robótica com OpenScad",
       "areaID": "95",
       "zoneID": "21",
       "level": "",
@@ -8386,23 +8915,12 @@
     },
     "670": {
       "id": "670",
-      "title": "Reunião da equipe de cobertura jovem e educomunicação do GT de Educação no fisl",
+      "title": "Reunião de organização da cobertura de educomunicação do evento",
       "abstract": "Reunião GT de Educação",
       "areaID": "83",
       "zoneID": "17",
       "level": "",
       "start": "2014-05-07T09:00:00-03:00",
-      "duration": 60,
-      "roomID": "718"
-    },
-    "671": {
-      "id": "671",
-      "title": "Scratch: Linguagem de programação para crianças e iniciantes",
-      "abstract": "O Scratch é uma ferramenta que possibilita ao aluno e ao professor desenvolver suas habilidades na área da informática sem deixar de lado o seu uso como ferramenta educacional.",
-      "areaID": "83",
-      "zoneID": "17",
-      "level": "",
-      "start": "2014-05-07T10:00:00-03:00",
       "duration": 60,
       "roomID": "718"
     },
@@ -8551,7 +9069,7 @@
     },
     "685": {
       "id": "685",
-      "title": "Calaboca Já Morreu, pois temos muita coisa pra dizer! ",
+      "title": "Roda de troca de experiências entre jovens educomunicadres no FISL",
       "abstract": "Calaboca Já Morreu, pois temos muita coisa pra dizer! (Roda de conversa entre coletivos  jovens de educomunicação)",
       "areaID": "83",
       "zoneID": "17",
@@ -8584,7 +9102,7 @@
     },
     "690": {
       "id": "690",
-      "title": "Padre Landell, nas ondas da educomunicação",
+      "title": "Padre Landell e um toque de história no ar",
       "abstract": "O rádio e a rádio escolar: perspectivas sociais e históricas",
       "areaID": "83",
       "zoneID": "17",
@@ -8813,17 +9331,6 @@
       "duration": 60,
       "roomID": "5"
     },
-    "712": {
-      "id": "712",
-      "title": "Java 8: a nova versão de Java, totalmente Livre",
-      "abstract": "Há poucas semanas foi lancada a nova versao da plataforma Java, o Java 8. Totalmente desenvolvida atraves do projeto livre OpenJDK, com a participacao de uma forte comunidade, a nova versao de Java traz novidades importantes para a tecnologia.",
-      "areaID": "62",
-      "zoneID": "14",
-      "level": "",
-      "start": "2014-05-08T09:00:00-03:00",
-      "duration": 60,
-      "roomID": "2"
-    },
     "713": {
       "id": "713",
       "title": "Hackathon Wikipédia - Recepção dos participantes",
@@ -8892,8 +9399,8 @@
     },
     "719": {
       "id": "719",
-      "title": "Dbate energia Livre",
-      "abstract": ".",
+      "title": "Debate energia Livre",
+      "abstract": "Debate energia Livre",
       "areaID": "92",
       "zoneID": "20",
       "level": "",
@@ -8926,7 +9433,7 @@
     "724": {
       "id": "724",
       "title": "Comunicação Unificada São Paulo",
-      "abstract": "...",
+      "abstract": "Projeto de Comunicação Unificada, utilizando protocolos XMPP e SIP, para prover serviços de mensagens instantâneas, voz, videoconferência e compartilhamento de desktop para a prefeitura e demais órgãos da cidade de São Paulo.",
       "areaID": "50",
       "zoneID": "13",
       "level": "",
@@ -9073,7 +9580,7 @@
       "areaID": "89",
       "zoneID": "19",
       "level": "",
-      "start": "2014-05-07T10:00:00-03:00",
+      "start": "2014-05-07T11:00:00-03:00",
       "duration": 60,
       "roomID": "8"
     },
@@ -9154,138 +9661,6 @@
       "duration": 60,
       "roomID": "2"
     },
-    "746": {
-      "id": "746",
-      "title": "Universo Móvel: um Aplicativo Educacional Livre para Dispositivos Móveis",
-      "abstract": "Universo Móvel: um Aplicativo Educacional Livre para Dispositivos Móveis",
-      "areaID": "98",
-      "zoneID": "20",
-      "level": "",
-      "start": "2014-05-08T10:00:00-03:00",
-      "duration": 60,
-      "roomID": "7"
-    },
-    "747": {
-      "id": "747",
-      "title": "Linux Educacional 5 - Software Livre nas Escolas Públicas",
-      "abstract": "Linux Educacional 5 - Software Livre nas Escolas Públicas",
-      "areaID": "98",
-      "zoneID": "20",
-      "level": "",
-      "start": "2014-05-08T11:00:00-03:00",
-      "duration": 60,
-      "roomID": "7"
-    },
-    "748": {
-      "id": "748",
-      "title": "Cantor: Ambiente Integrado de Desenvolvimento Voltado à Computação Científica",
-      "abstract": "Cantor: Ambiente Integrado de Desenvolvimento Voltado à Computação Científica Utilizando Python",
-      "areaID": "98",
-      "zoneID": "20",
-      "level": "",
-      "start": "2014-05-08T13:00:00-03:00",
-      "duration": 60,
-      "roomID": "7"
-    },
-    "749": {
-      "id": "749",
-      "title": "Sistm Acompanhamento de Missão Para Uma Plataforma Exper Em Robótica Subaquática",
-      "abstract": "Sistema de Acompanhamento de Missão Para Uma Plataforma Experimental Em Robótica Subaquática",
-      "areaID": "98",
-      "zoneID": "20",
-      "level": "",
-      "start": "2014-05-09T17:00:00-03:00",
-      "duration": 60,
-      "roomID": "7"
-    },
-    "750": {
-      "id": "750",
-      "title": "Sistema de Reputação e Ranqueamento para Redes Sociais Aplicado ao Particip.",
-      "abstract": "Sistema de Reputação e Ranqueamento para Redes Sociais Aplicado ao Participatório",
-      "areaID": "98",
-      "zoneID": "20",
-      "level": "",
-      "start": "2014-05-08T14:00:00-03:00",
-      "duration": 60,
-      "roomID": "7"
-    },
-    "751": {
-      "id": "751",
-      "title": "Identidade hacker e cultura do trabalho de desenvolvedores de software livre",
-      "abstract": "Identidade hacker e cultura do trabalho de desenvolvedores de software livre",
-      "areaID": "98",
-      "zoneID": "20",
-      "level": "",
-      "start": "2014-05-08T15:00:00-03:00",
-      "duration": 60,
-      "roomID": "7"
-    },
-    "752": {
-      "id": "752",
-      "title": "Aplicativos Educacionais Livres para Mobile Learning",
-      "abstract": "Aplicativos Educacionais Livres para Mobile Learning",
-      "areaID": "98",
-      "zoneID": "20",
-      "level": "",
-      "start": "2014-05-08T16:00:00-03:00",
-      "duration": 60,
-      "roomID": "7"
-    },
-    "753": {
-      "id": "753",
-      "title": "Forking Toward the Commons: From OpenOffice to LibreOffice",
-      "abstract": "Forking Toward the Commons: From OpenOffice to LibreOffice and The Document Foundation",
-      "areaID": "98",
-      "zoneID": "20",
-      "level": "",
-      "start": "2014-05-08T17:00:00-03:00",
-      "duration": 60,
-      "roomID": "7"
-    },
-    "754": {
-      "id": "754",
-      "title": "SCADA Pampa - Um Sistem de Superv e Aquisição de Dados Livre com fins didáticos",
-      "abstract": "SCADA Pampa - Um Sistema de Supervisão e Aquisição de Dados Livre com fins didáticos",
-      "areaID": "98",
-      "zoneID": "20",
-      "level": "",
-      "start": "2014-05-09T13:00:00-03:00",
-      "duration": 60,
-      "roomID": "7"
-    },
-    "755": {
-      "id": "755",
-      "title": "Cultura e Comunicação com Softwre Livre: A Experiência das Produtoras Culturais",
-      "abstract": "Cultura e Comunicação com Softwre Livre: A Experiência das Produtoras Culturais Colaborativas para o Desenvolvimento Local",
-      "areaID": "98",
-      "zoneID": "20",
-      "level": "",
-      "start": "2014-05-09T14:00:00-03:00",
-      "duration": 60,
-      "roomID": "7"
-    },
-    "756": {
-      "id": "756",
-      "title": "Sfohart: Um Sistema de Recomendaçãao Multicritério para Adoção de Software Livre",
-      "abstract": "Sfohart: Um Sistema de Recomendaçãao Multicritério para Adoção de Software Livre",
-      "areaID": "98",
-      "zoneID": "20",
-      "level": "",
-      "start": "2014-05-09T15:00:00-03:00",
-      "duration": 60,
-      "roomID": "7"
-    },
-    "757": {
-      "id": "757",
-      "title": "Padrões de Socialização de Novatos em Projetos de Software Livre",
-      "abstract": "Padrões de Socialização de Novatos em Projetos de Software Livre",
-      "areaID": "98",
-      "zoneID": "20",
-      "level": "",
-      "start": "2014-05-09T16:00:00-03:00",
-      "duration": 60,
-      "roomID": "7"
-    },
     "758": {
       "id": "758",
       "title": "Humor, Arte e Software Livre com o Vida de Programador",
@@ -9326,9 +9701,9 @@
       "areaID": "59",
       "zoneID": "14",
       "level": "",
-      "start": "2014-05-07T15:00:00-03:00",
+      "start": "2014-05-07T14:00:00-03:00",
       "duration": 60,
-      "roomID": "7"
+      "roomID": "1"
     },
     "763": {
       "id": "763",
@@ -9336,10 +9711,21 @@
       "abstract": "A Unesp está espalhada em 34 unidades universitárias no estado de São Paulo. A unidade de Ilha Solteira foi a primeira na utilização de software livre que teve inicio em 2007, na administração da faculdade. Iniciou-se com as ferramentas de escritório BrOffice.Org, Firefox, Thunderbird. Após um ano migrou-se para o sistema operacional Ubuntu Linux. Atualmente a migração para software livre é uma plano institucional e está sendo disseminado e implantado gradativamente nas 34 unidades universitária",
       "areaID": "80",
       "zoneID": "16",
-      "level": "",
+      "level": "starter",
       "start": "2014-05-10T17:00:00-03:00",
       "duration": 60,
       "roomID": "2"
+    },
+    "764": {
+      "id": "764",
+      "title": "Estrategias hacia Innovación y Soberania Tecnológica ",
+      "abstract": "Estrategias hacia Innovación y Soberania Tecnológica ",
+      "areaID": "80",
+      "zoneID": "16",
+      "level": "",
+      "start": "2014-05-08T09:00:00-03:00",
+      "duration": 60,
+      "roomID": "1"
     },
     "766": {
       "id": "766",
@@ -9370,7 +9756,425 @@
       "areaID": "53",
       "zoneID": "14",
       "level": "starter",
+      "start": "2014-05-10T17:00:00-03:00",
+      "duration": 60,
+      "roomID": "1"
+    },
+    "770": {
+      "id": "770",
+      "title": " Internalização de software livre na DATAPREV",
+      "abstract": " Internalização de software livre na DATAPREV – Casos de uso: Cache para portais web, automação de infraestrutura e processo de integração contínua. ",
+      "areaID": "80",
+      "zoneID": "16",
+      "level": "",
+      "start": "2014-05-08T11:00:00-03:00",
+      "duration": 60,
+      "roomID": "6"
+    },
+    "771": {
+      "id": "771",
+      "title": "Coletiva de Imprensa",
+      "abstract": "...",
+      "areaID": "92",
+      "zoneID": "20",
+      "level": "",
+      "start": "2014-05-07T10:00:00-03:00",
+      "duration": 60,
+      "roomID": "7"
+    },
+    "772": {
+      "id": "772",
+      "title": "Reservado Organização",
+      "abstract": "Reservado Organização",
+      "areaID": "92",
+      "zoneID": "20",
+      "level": "",
+      "start": "2014-05-07T09:00:00-03:00",
+      "duration": 60,
+      "roomID": "7"
+    },
+    "774": {
+      "id": "774",
+      "title": "Login Cidadão: Uma conta. Tudo o que o governo oferece",
+      "abstract": "O governo estadual está lançando o Login Cidadão, que tem o objetivo de unificar o cadastro e autenticação do cidadão junto às ferramentas e Serviços Digitais de Governo, abrindo caminho para a adoção de uma Identidade Digital para os cidadãos gaúchos. Nessa sessão técnica, apresentaremos a estratégia e o código desenvolvido até aqui e convidamos os desenvolvedores e ativistas a contribuir com críticas e sugestões.",
+      "areaID": "80",
+      "zoneID": "16",
+      "level": "",
+      "start": "2014-05-08T16:00:00-03:00",
+      "duration": 60,
+      "roomID": "6"
+    },
+    "776": {
+      "id": "776",
+      "title": "MAME/MESS: Engenharia Reversa e Emulação de Dispositivos Digitais",
+      "abstract": "Nesta palestra será apresentada uma visão geral da abordagem modular do código fonte dos sistemas MAME (Multiple Arcade Machine Emulator) e MESS (Multi Emulator Super System) de emulação de dispositivos eletrônicos digitais.\r\n\r\nSerão também apresentadas técnicas de engenharia reversa úteis para a investigação e aprendizado a respeito do funcionamento de equipamentos, mesmo quando os designers do hardware não tenham colaborado formalmente com documentação técnica oficial.",
+      "areaID": "44",
+      "zoneID": "13",
+      "level": "starter",
+      "start": "2014-05-10T16:00:00-03:00",
+      "duration": 60,
+      "roomID": "4"
+    },
+    "777": {
+      "id": "777",
+      "title": "A Nova Geração do Software Público Brasileiro ",
+      "abstract": "A nova Geração do oftware Público Brasileiro (SPB) está andamento. Serão abordados alguns elementos que fazem parte do estágio atual do projeto e uma visão de futuro.",
+      "areaID": "77",
+      "zoneID": "16",
+      "level": "starter",
+      "start": "2014-05-08T11:00:00-03:00",
+      "duration": 60,
+      "roomID": "3"
+    },
+    "778": {
+      "id": "778",
+      "title": "O Gerente Morreu!? Caso não, Saiba Como e Porquê!",
+      "abstract": "A palestra procurará conduzir a uma reflexão partindo das correntes de pensamento que motivaram a criação de diferentes métodos de gerenciamento, como isso ajudou a \"moldar\" o papel do gerente de projetos e alguns efeitos ao longo da história, observando as perspectivas da indústria da manufatura e da indústria de software. Nesse sentido, como exemplo, serão abordadas algumas implicações práticas e vigentes, sobre o desenvolvimento de software, do ponto de vista do Governo Federal Brasileiro.",
+      "areaID": "89",
+      "zoneID": "19",
+      "level": "",
+      "start": "2014-05-09T15:00:00-03:00",
+      "duration": 60,
+      "roomID": "7"
+    },
+    "780": {
+      "id": "780",
+      "title": "The adoption of FOSS workflows in commercial software development: Git/GitHub",
+      "abstract": "Opening Session of the Free Software Workshok (WSL 2014) - Keynote speak with Daniel M. German talking about  The adoption of FOSS workflows in commercial software development: the case of Git and Github",
+      "areaID": "98",
+      "zoneID": "20",
+      "level": "",
+      "start": "2014-05-08T15:00:00-03:00",
+      "duration": 60,
+      "roomID": "7"
+    },
+    "781": {
+      "id": "781",
+      "title": "Free Software Workshop - Section 4: Culture",
+      "abstract": "Sessão técnica para apresentação dos artigos científicos: (1) Forking Toward the Commons: From OpenOffice to LibreOffice and The Document Foundation; (2) Cultura e Comunicação com Softwre Livre: A Experiência das Produtoras Culturais Colaborativas para o Desenvolvimento Local; (3) Identidade hacker e cultura do trabalho de desenvolvedores de software livre.",
+      "areaID": "98",
+      "zoneID": "20",
+      "level": "",
+      "start": "2014-05-09T17:00:00-03:00",
+      "duration": 60,
+      "roomID": "7"
+    },
+    "782": {
+      "id": "782",
+      "title": "Free Software Workshop - Section 3: Computer Science",
+      "abstract": "Sessão técnica para apresentação dos artigos científicos: (1) Cantor: Ambiente Integrado de Desenvolvimento Voltado à Computação Científica Utilizando Python; (2) Sistema de Acompanhamento de Missão Para Uma Plataforma Experimental Em Robótica Subaquática; (3) SCADA Pampa - Um Sistema de Supervisão e Aquisição de Dados Livre com fins didáticos.",
+      "areaID": "98",
+      "zoneID": "20",
+      "level": "",
+      "start": "2014-05-09T16:00:00-03:00",
+      "duration": 60,
+      "roomID": "7"
+    },
+    "783": {
+      "id": "783",
+      "title": "Free Software Workshop - Section 1: Computer Science",
+      "abstract": "Sessão técnica para apresentação dos artigos científicos: (1) Sfohart: Um Sistema de Recomendaçãao Multicritério para Adoção de Software Livre; (2) Padrões de Socialização de Novatos em Projetos de Software Livre; (3) Sistema de Reputação e Ranqueamento para Redes Sociais Aplicado ao Participatório.",
+      "areaID": "98",
+      "zoneID": "20",
+      "level": "",
+      "start": "2014-05-08T16:00:00-03:00",
+      "duration": 60,
+      "roomID": "7"
+    },
+    "784": {
+      "id": "784",
+      "title": "Cartografias Colaborativas de Cultura - os mapas como disputa de territórios",
+      "abstract": "Cartografias Colaborativas de Cultura - os mapas como disputa de territórios",
+      "areaID": "89",
+      "zoneID": "19",
+      "level": "",
+      "start": "2014-05-09T12:00:00-03:00",
+      "duration": 60,
+      "roomID": "7"
+    },
+    "785": {
+      "id": "785",
+      "title": "Free Software Workshop - Section 2: Education",
+      "abstract": "Sessão técnica para apresentação dos artigos científicos: (1) Universo Móvel: um Aplicativo Educacional Livre para Dispositivos Móveis; (2) Aplicativos Educacionais Livres para Mobile Learning; (3) Linux Educacional 5 - Software Livre nas Escolas Públicas.",
+      "areaID": "98",
+      "zoneID": "20",
+      "level": "",
+      "start": "2014-05-08T17:00:00-03:00",
+      "duration": 60,
+      "roomID": "7"
+    },
+    "786": {
+      "id": "786",
+      "title": "Encontro Comunitário do Joomla (Joomleiros)",
+      "abstract": "Encontro comunitário dos Joomleiros (grupos de usuários do Joomla).\r\n\r\nEsta atividade será composta por 3 \"mini-palestras\", ministradas por membros da comunidade Joomla, para divulgação deste CMS. As demais conversas e discussão poderão ser realizadas no espaços de Grupo de Usuários que os Joomleiros terão no fisl.",
+      "areaID": "86",
+      "zoneID": "18",
+      "level": "",
+      "start": "2014-05-07T09:00:00-03:00",
+      "duration": 60,
+      "roomID": "3"
+    },
+    "789": {
+      "id": "789",
+      "title": "Software Libre como Plataforma de Innovación Académica en México",
+      "abstract": "Software Libre como Plataforma de Innovación Académica en México",
+      "areaID": "83",
+      "zoneID": "17",
+      "level": "",
+      "start": "2014-05-08T13:00:00-03:00",
+      "duration": 60,
+      "roomID": "1"
+    },
+    "790": {
+      "id": "790",
+      "title": "Social Coding y el Proyecto Mono",
+      "abstract": "Social Coding y el Proyecto Mono\r\n",
+      "areaID": "59",
+      "zoneID": "14",
+      "level": "",
+      "start": "2014-05-08T10:00:00-03:00",
+      "duration": 60,
+      "roomID": "7"
+    },
+    "791": {
+      "id": "791",
+      "title": "Proyectos de Open Data con Software Libre desde la Estrategia Digital Nacional",
+      "abstract": "Proyectos de Open Data con Software Libre desde la Estrategia Digital Nacional",
+      "areaID": "80",
+      "zoneID": "16",
+      "level": "",
+      "start": "2014-05-08T14:00:00-03:00",
+      "duration": 60,
+      "roomID": "6"
+    },
+    "792": {
+      "id": "792",
+      "title": "Mozilla y sus proyectos sociales con Software Libre en México",
+      "abstract": "Mozilla y sus proyectos sociales con Software Libre en México",
+      "areaID": "77",
+      "zoneID": "16",
+      "level": "",
+      "start": "2014-05-08T12:00:00-03:00",
+      "duration": 60,
+      "roomID": "7"
+    },
+    "793": {
+      "id": "793",
+      "title": "Software Livre na Venezuela",
+      "abstract": "Software Livre na Venezuela",
+      "areaID": "80",
+      "zoneID": "16",
+      "level": "",
+      "start": "2014-05-08T10:00:00-03:00",
+      "duration": 60,
+      "roomID": "8"
+    },
+    "794": {
+      "id": "794",
+      "title": "Cluster de Software Libre de Zacatecas",
+      "abstract": "Cluster de Software Libre de Zacatecas",
+      "areaID": "80",
+      "zoneID": "16",
+      "level": "",
+      "start": "2014-05-10T15:00:00-03:00",
+      "duration": 60,
+      "roomID": "4"
+    },
+    "795": {
+      "id": "795",
+      "title": "Inovação no Expresso v3: mobilidade, escalabilidade e integração",
+      "abstract": "Inovação no Expresso v3: mobilidade, escalabilidade e integração",
+      "areaID": "38",
+      "zoneID": "13",
+      "level": "",
+      "start": "2014-05-07T11:00:00-03:00",
+      "duration": 60,
+      "roomID": "6"
+    },
+    "796": {
+      "id": "796",
+      "title": "Demoiselle",
+      "abstract": "demoiselle",
+      "areaID": "62",
+      "zoneID": "14",
+      "level": "",
+      "start": "2014-05-08T09:00:00-03:00",
+      "duration": 60,
+      "roomID": "2"
+    },
+    "797": {
+      "id": "797",
+      "title": "GLib, GObject... a praticidade do mundo G*",
+      "abstract": "É frequente que pessoas tentando aprender GTK+ ou GStreamer tenham dúvidas em relação ao funcionamento de GObjects, GMainLoops, sinais, etc. Essa é uma introdução a GLib e GObject para tirar essas dúvidas e também aprender a usar outras facilidades dessas bibliotecas para programação de aplicações e bibliotecas.",
+      "areaID": "71",
+      "zoneID": "15",
+      "level": "",
+      "start": "2014-05-07T16:00:00-03:00",
+      "duration": 60,
+      "roomID": "1"
+    },
+    "798": {
+      "id": "798",
+      "title": "Flisol no Fisl15",
+      "abstract": "Flisol no Fisl15",
+      "areaID": "86",
+      "zoneID": "18",
+      "level": "",
+      "start": "2014-05-10T10:00:00-03:00",
+      "duration": 420,
+      "roomID": "721"
+    },
+    "799": {
+      "id": "799",
+      "title": "Rádio Maleta: Captando e editando áudio em Software Livre",
+      "abstract": "Rádio Maleta: Captando e editando áudio em Software Livre",
+      "areaID": "83",
+      "zoneID": "17",
+      "level": "",
+      "start": "2014-05-07T10:00:00-03:00",
+      "duration": 60,
+      "roomID": "718"
+    },
+    "800": {
+      "id": "800",
+      "title": "Matemática e Educação Digital",
+      "abstract": "Matemática e Educação Digital",
+      "areaID": "83",
+      "zoneID": "17",
+      "level": "",
       "start": "2014-05-10T09:00:00-03:00",
+      "duration": 60,
+      "roomID": "718"
+    },
+    "801": {
+      "id": "801",
+      "title": "Oficina Noosfero/Participa.Br: Participação Social se faz com Software Livre",
+      "abstract": "Oficina Noosfero/Participa.Br: Participação Social se faz com Software Livre",
+      "areaID": "95",
+      "zoneID": "21",
+      "level": "",
+      "start": "2014-05-07T10:00:00-03:00",
+      "duration": 120,
+      "roomID": "714"
+    },
+    "802": {
+      "id": "802",
+      "title": "Expressões Regulares",
+      "abstract": "As Expressões Regulares são usadas em todas as linguagens atuais e em todos os\r\nbons editores. São ferramentas poderosíssimas que auxiliam sobremaneira à\r\nprogramação, encurtando o tempo necessário para desenvolvimento de aplicativos.\r\nEste mini curso será executado em ambiente Shell e para tal, além de Expressões\r\nRegulares, o instrutor irá ensinar também o uso das instruções sed e grep.\r\nAo final do treinamento, o aluno terá capacidade de pesquisar, alterar valores e\r\ncriticar dados de arquivos via",
+      "areaID": "95",
+      "zoneID": "21",
+      "level": "",
+      "start": "2014-05-07T12:00:00-03:00",
+      "duration": 180,
+      "roomID": "714"
+    },
+    "803": {
+      "id": "803",
+      "title": "Empreendedorismo colaborativo",
+      "abstract": " Como o processo de ações colaborativas pode  potencializar atitudes empreendedoras",
+      "areaID": "80",
+      "zoneID": "16",
+      "level": "",
+      "start": "2014-05-07T11:00:00-03:00",
+      "duration": 60,
+      "roomID": "7"
+    },
+    "804": {
+      "id": "804",
+      "title": "Povos resilientes, planeta resiliente",
+      "abstract": "Construindo uma cultura de resiliência",
+      "areaID": "77",
+      "zoneID": "16",
+      "level": "",
+      "start": "2014-05-10T14:00:00-03:00",
+      "duration": 60,
+      "roomID": "6"
+    },
+    "805": {
+      "id": "805",
+      "title": "Oficina LibreOffice Calc",
+      "abstract": "Oficina LibreOffice Calc",
+      "areaID": "95",
+      "zoneID": "21",
+      "level": "",
+      "start": "2014-05-09T12:00:00-03:00",
+      "duration": 180,
+      "roomID": "720"
+    },
+    "806": {
+      "id": "806",
+      "title": " Oficina LibreOffice Writer",
+      "abstract": " Oficina LibreOffice Writer",
+      "areaID": "95",
+      "zoneID": "21",
+      "level": "",
+      "start": "2014-05-10T12:00:00-03:00",
+      "duration": 180,
+      "roomID": "714"
+    },
+    "807": {
+      "id": "807",
+      "title": "Ações colaborativas contribuindo para uma cidade mais criativa",
+      "abstract": "A economia criativa como alternativa de desenvolvimento e inovação",
+      "areaID": "77",
+      "zoneID": "16",
+      "level": "",
+      "start": "2014-05-07T15:00:00-03:00",
+      "duration": 60,
+      "roomID": "7"
+    },
+    "808": {
+      "id": "808",
+      "title": " Software livre e a era da espionagem",
+      "abstract": "A proposta deste painel é explicar as informações reveladas por Edward\r\nSnowden e explicar a tecnologia utilizada pela NSA para a espionagem de\r\nmassa. As implicações deste sistema, principalmente em relação a criminalização dos movimentos sociais, a ativadade de jornalismo e o direito a privacidade. E por fim, reinforçar a importância do software livre para combater essa ameaça e garantir os nossos direitos.",
+      "areaID": "77",
+      "zoneID": "16",
+      "level": "",
+      "start": "2014-05-08T16:00:00-03:00",
+      "duration": 120,
+      "roomID": "8"
+    },
+    "809": {
+      "id": "809",
+      "title": "Cypherpunks e a Militarização do ciberespaço",
+      "abstract": "O que é Soberania Digital? Há a Militarização do Ciberespaço? Quem são os Cypherpunks?",
+      "areaID": "89",
+      "zoneID": "19",
+      "level": "",
+      "start": "2014-05-09T16:00:00-03:00",
+      "duration": 120,
+      "roomID": "2"
+    },
+    "810": {
+      "id": "810",
+      "title": "Como estamos desenvolvendo a Nova Plataforma do Software Público Brasileiro",
+      "abstract": "A equipe de Engenheiro de Software da Universidade de Brasília irá compartilhar com o público, através de demonstração dos ambientes e códigos, como está sendo desenvolvido a nova plataforma do Software Público Brasileiro, que é um integração de alto nível dos ambientes livres para colaboração.",
+      "areaID": "53",
+      "zoneID": "14",
+      "level": "",
+      "start": "2014-05-08T13:00:00-03:00",
+      "duration": 120,
+      "roomID": "7"
+    },
+    "811": {
+      "id": "811",
+      "title": "Organização",
+      "abstract": "sem atividades",
+      "areaID": "92",
+      "zoneID": "20",
+      "level": "",
+      "start": "2014-05-07T09:00:00-03:00",
+      "duration": 60,
+      "roomID": "714"
+    },
+    "812": {
+      "id": "812",
+      "title": "Escalando o Pé de Feijão -- uma História na Nuvem",
+      "abstract": "Versão em Português da apresentação \"Jack, the Giant Slayer\" feita durante o JavaOne 2013: Cloud Computing, Nuvem Pública, Nuvem Privada, IaaS, PaaS, SaaS, Virtualização, Elasticidade, Agilidade, Otimização, Automação ...",
+      "areaID": "89",
+      "zoneID": "19",
+      "level": "",
+      "start": "2014-05-09T11:00:00-03:00",
       "duration": 60,
       "roomID": "1"
     }
@@ -9553,5 +10357,5 @@
       "color": "FFC9D7"
     }
   },
-  "parsed_date": 1399044886068
+  "parsed_date": 1399247470774
 }
