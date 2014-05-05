@@ -61,6 +61,29 @@ module.exports = function($, FISLParser, templates){
         return bookmarkedSessions[session.sessionId] === undefined;
     };
 
+    //updates splash screen loading message
+    var loadingMessage = function(text){
+        console.log('[Loading message] '+text);
+        $('#loading-message').html(text);
+    };
+
+    var schedulePopulated = function(isRefresh){
+        var view = isRefresh ? $('body').attr('data-view-mode') : defaultView;
+        console.log('schedulePopulated');
+        loadingMessage('Aguarde, inicializando interfaces ');
+        if (view === 'list'){
+            initListView();
+        }else{
+            initTableView();
+        }
+        //setup App main bar buttons
+        if (!isRefresh){
+            setupAppHeaderBar();
+        }
+        //bind session element events
+        initSessions();
+    };
+
     var populateSchedule = function(isRefresh){
         // this function is also used for rendering the apps UI on first load
         // (template app.hbs instead of just the partial schedule.hbs)
@@ -79,10 +102,14 @@ module.exports = function($, FISLParser, templates){
             },
             html;
         console.log('populateSchedule '+view);
+        loadingMessage('Aguarde, montando a grade ');
         html = template(templateData);
-        // console.log(html);
-        destinationElement.html(html);
+        window.setTimeout(function(){
+            destinationElement.html(html);
+            schedulePopulated(isRefresh);
+        }, 0);
     };
+
 
     //the time nav must fit into 1 single line, so we sum the width of all
     //li's and make it the with of the container ul
@@ -620,20 +647,7 @@ module.exports = function($, FISLParser, templates){
             //store fetched data and metadata
             updateLocalFeed();
         }
-        //3. render schedule
         populateSchedule(isRefresh);
-        //4. start framework - example: $(document).foundation()
-        if (view === 'list'){
-            initListView();
-        }else{
-            initTableView();
-        }
-        //setup App main bar buttons
-        if (!isRefresh){
-            setupAppHeaderBar();
-        }
-        //bind session element events
-        initSessions();
     };
 
     var loadFeed = function(anotherURL){
@@ -642,6 +656,8 @@ module.exports = function($, FISLParser, templates){
             feedURL = appElement.data('feed-url'),
             localFeed = appElement.data('local-feed-url'),
             isRefresh = $('#schedule-view').length > 0;
+
+        loadingMessage('Aguarde, atualizando a grade ');
 
         if (!isCordova) {
             feedURL = localFeed;
