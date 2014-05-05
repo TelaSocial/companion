@@ -21,6 +21,9 @@ var fakeTotal = 201680;  //FISL XML has around 200KB
 
 //from http://stackoverflow.com/a/20392392/2052311
 function tryParseJSON (jsonString){
+    if (typeof jsonString === 'object'){
+        return jsonString;
+    }
     try {
         var o = JSON.parse(jsonString);
         if (o && typeof o === 'object' && o !== null) {
@@ -580,8 +583,8 @@ module.exports = function($, FISLParser, templates){
     var updateLocalFeed = function(){
         var timestamp = scheduleData.parsed_date ? scheduleData.parsed_date : Date.now();
 
-        companionStore.updateXML(feedData, timestamp, function(){
-            console.log('feed updated locally');
+        companionStore.updateFeed(scheduleData, timestamp, function(storedData){
+            console.log('feed updated locally ',storedData);
             updateMenuSyncMessage();
         });
         companionStore.getLastFetchInfo(function(info){
@@ -724,8 +727,8 @@ module.exports = function($, FISLParser, templates){
                         loadFeed();
                     }else{
                         //load the stored xml
-                        console.log('loading stored xml');
-                        companionStore.cachedXML(loadCached);
+                        console.log('loading stored feed');
+                        companionStore.cachedFeed(loadCached);
                         if (Date.now() - info.time > POLL_INTERVAL){
                             console.log('needs to poll, latest fetch: '+info.time);
                         }

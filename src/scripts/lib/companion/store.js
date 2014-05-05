@@ -28,7 +28,7 @@ module.exports = {
             description : 'some description'
         });
     },
-    updateXML: function(data, timestamp, cb){
+    updateFeed: function(data, timestamp, cb){
         var metadata = {
                 time: timestamp,
                 size: data.length
@@ -49,7 +49,7 @@ module.exports = {
     getLastFetchInfo: function(cb){
         localforage.getItem('updateInfo').then(cb);
     },
-    cachedXML: function(cb){
+    cachedFeed: function(cb){
         localforage.getItem('latestFeed',cb);
     },
     bookmarks: function(cb){
