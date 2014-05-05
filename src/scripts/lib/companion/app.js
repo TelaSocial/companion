@@ -4,6 +4,8 @@ var pkg = require('../../../../package.json');
 var cordovaCalendarHelper = require('./cordova_calendar');
 var companionStore = require('./store');
 var panZoom = require('../jquery.panzoom/jquery.panzoom');
+var attachFastClick = require('fastclick');
+
 
 //custom lodash
 var _ = {
@@ -709,6 +711,10 @@ module.exports = function($, FISLParser, templates){
         $('#splash-version').text(pkg.version);
         devSyncMode = ($('#app').data('sync-dev-mode') === 'on');
         console.log('device ready, debug:'+devSyncMode);
+        loadingMessage('Aguarde, carregando dados locais ');
+
+        attachFastClick(document.body);
+
         //load stored bookmarks
         companionStore.bookmarks(function(storedBookmarks){
             // console.log('stored bookmarks:'+JSON.stringify(storedBookmarks));
