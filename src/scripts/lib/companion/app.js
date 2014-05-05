@@ -252,11 +252,6 @@ module.exports = function($, FISLParser, templates){
 
     var scheduleViewSwitchClicked = function(){
         var radioElement = $(this),
-            // radioValue = radioElement.val(),
-            // activeButton = switchElement.find('.active'),
-            // isListActive = activeButton.hasClass('list-view-button'),
-            // inactiveButton = isListActive ? switchElement.find('.table-view-button') : switchElement.find('.list-view-button'),
-            // nextView = isListActive ? 'table' : 'list',
             nextView = radioElement.val(),
             destinationElement = $('#schedule-view'),
             templateData = {
@@ -274,13 +269,6 @@ module.exports = function($, FISLParser, templates){
             destinationElement.removeClass('schedule--list');
             destinationElement.addClass('schedule--table');
         }
-
-        // console.log('scheduleViewSwitchClicked ',nextView, activeButton, inactiveButton);
-        // activeButton.removeAttr('disabled');
-        // activeButton.removeClass('active');
-        // inactiveButton.addClass('active');
-        // inactiveButton.attr('disabled','true');
-
 
         destinationElement.html('Aguarde…');
         window.setTimeout(function(){
@@ -590,7 +578,8 @@ module.exports = function($, FISLParser, templates){
     };
 
     var updateLocalFeed = function(){
-        var timestamp = Date.now();
+        var timestamp = scheduleData.parsed_date ? scheduleData.parsed_date : Date.now();
+
         companionStore.updateXML(feedData, timestamp, function(){
             console.log('feed updated locally');
             updateMenuSyncMessage();
@@ -708,7 +697,7 @@ module.exports = function($, FISLParser, templates){
         if (xmlData !== null){
             feedLoaded(xmlData, 200, null, true);
         }else{
-            console.log('local storage has update nfo but not the actual feed');
+            console.log('local storage has update info but not the actual feed');
             loadFeed();
         }
     };
@@ -731,9 +720,11 @@ module.exports = function($, FISLParser, templates){
                     updateInfo = info;
                     if (info === null){
                         //no feed information was found, this is the first run
+                        console.log('no feed information was found, this is the first run');
                         loadFeed();
                     }else{
                         //load the stored xml
+                        console.log('loading stored xml');
                         companionStore.cachedXML(loadCached);
                         if (Date.now() - info.time > POLL_INTERVAL){
                             console.log('needs to poll, latest fetch: '+info.time);
