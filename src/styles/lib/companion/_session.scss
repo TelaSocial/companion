@@ -1,0 +1,86 @@
+$lightyellow: #FAFE6F;
+
+.session{
+    border-left-width: 5px !important;
+    .session-title-link{
+        color: #111111;
+    }
+}
+.time-break{
+    display: block;
+}
+.day-title{
+    color:$gray-light;
+}
+.session-title{
+    margin-right: 30px;
+}
+.bookmark-button{
+    @extend .btn-lg;
+}
+.bookmark-button{
+    position: absolute;
+    top: 7px;
+    right: 0px;
+    background: none;
+    &:hover .icon{
+        color: $gray-dark;
+    }
+}
+.session.favorite{
+    .session-title{
+        background-color: $lightyellow;
+    }
+    .bookmark-button .icon{
+        color: $gray;
+    }
+}
+.session.filtered-out{
+    display: none;
+}
+.session-info{
+    font-size: 1.2em;
+}
+
+/*
+http://www.colourlovers.com/palette/254301/%5BChic%5D_-_Mellow
++
+http://www.colourlovers.com/palette/660522/i_will_wait_for_you.
+*/
+$c1: #11644D;
+$c2: #A0B046;
+$c3: #F2C94E;
+$c4: #F78145;
+$c5: #F24E4E;
+$c6: #C78933;
+$c7: #D6CEAA;
+$c8: #79B5AC;
+$c9: #5E2F46;
+
+.session[data-zone="13"]{
+    border-left-color: $c1;
+}
+.session[data-zone="14"]{
+    border-left-color: $c2;
+}
+.session[data-zone="15"]{
+    border-left-color: $c3;
+}
+.session[data-zone="16"]{
+    border-left-color: $c4;
+}
+.session[data-zone="17"]{
+    border-left-color: $c5;
+}
+.session[data-zone="18"]{
+    border-left-color: $c6;
+}
+.session[data-zone="19"]{
+    border-left-color: $c7;
+}
+.session[data-zone="20"]{
+    border-left-color: $c8;
+}
+.session[data-zone="21"]{
+    border-left-color: $c9;
+}

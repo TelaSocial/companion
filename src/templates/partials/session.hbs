@@ -9,6 +9,7 @@
     data-duration="{{this.duration}}"
     data-room="{{this.roomID}}"
     data-zone="{{this.zoneID}}"
+    data-area="{{this.areaID}}"
     {{#is session_tag 'td'}}
         colspan="{{durationColspan}}"
     {{/is}}
@@ -80,13 +81,6 @@
         {{#if this.length}}
         <h5>
             Apresentação
-{{!--
-            {{#is this.length '<' 2}}
-            Responsável
-            {{else}}
-            Responsáveis
-            {{/is}}
- --}}
         </h5>
         <ul>
         {{#each this}}
