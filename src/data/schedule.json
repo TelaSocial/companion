@@ -17,7 +17,6 @@
             "608",
             "452",
             "772",
-            "811",
             "370",
             "714",
             "670",
@@ -34,7 +33,6 @@
             "410",
             "601",
             "771",
-            "801",
             "799"
           ],
           "colspan": 3
@@ -71,7 +69,6 @@
             "711",
             "221",
             "742",
-            "802",
             "259",
             "253"
           ],
@@ -90,6 +87,7 @@
             "17",
             "624",
             "203",
+            "802",
             "516",
             "657"
           ],
@@ -104,7 +102,7 @@
             "762",
             "585",
             "642",
-            "619",
+            "773",
             "708",
             "72",
             "650",
@@ -141,6 +139,7 @@
             "797",
             "589",
             "510",
+            "340",
             "281",
             "813",
             "674"
@@ -158,6 +157,7 @@
             "304",
             "435",
             "497",
+            "823",
             "718",
             "675"
           ],
@@ -175,11 +175,16 @@
               "colspan": 3
             },
             {
+              "sessionID": "490",
+              "startTime": 1399467600000,
+              "endTime": 1399471200000,
+              "colspan": 3
+            },
+            {
               "sessionID": "738",
               "startTime": 1399471200000,
               "endTime": 1399474800000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "colspan": 3
             },
             {
               "sessionID": "337",
@@ -229,7 +234,7 @@
               "colspan": 3
             },
             {
-              "sessionID": "490",
+              "sessionID": "410",
               "startTime": 1399467600000,
               "endTime": 1399471200000,
               "colspan": 3
@@ -288,7 +293,7 @@
               "colspan": 3
             },
             {
-              "sessionID": "410",
+              "sessionID": "601",
               "startTime": 1399467600000,
               "endTime": 1399471200000,
               "colspan": 3
@@ -341,16 +346,11 @@
               "colspan": 3
             },
             {
-              "sessionID": "601",
-              "startTime": 1399467600000,
-              "endTime": 1399471200000,
-              "colspan": 3
-            },
-            {
               "sessionID": "69",
               "startTime": 1399471200000,
               "endTime": 1399474800000,
-              "colspan": 3
+              "colspan": 3,
+              "emptyBefore": 3
             },
             {
               "sessionID": "484",
@@ -419,7 +419,7 @@
               "colspan": 3
             },
             {
-              "sessionID": "619",
+              "sessionID": "773",
               "startTime": 1399482000000,
               "endTime": 1399485600000,
               "colspan": 3
@@ -431,11 +431,16 @@
               "colspan": 3
             },
             {
+              "sessionID": "340",
+              "startTime": 1399489200000,
+              "endTime": 1399492800000,
+              "colspan": 3
+            },
+            {
               "sessionID": "304",
               "startTime": 1399492800000,
               "endTime": 1399496400000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "colspan": 3
             }
           ]
         },
@@ -583,31 +588,29 @@
               "sessionID": "813",
               "startTime": 1399489200000,
               "endTime": 1399492800000,
-              "colspan": 3,
-              "emptyAfter": 3
+              "colspan": 3
+            },
+            {
+              "sessionID": "823",
+              "startTime": 1399492800000,
+              "endTime": 1399496400000,
+              "colspan": 3
             }
           ]
+        },
+        {
+          "id": "602",
+          "sessions": []
         },
         {
           "id": "714",
           "sessions": [
             {
-              "sessionID": "811",
-              "startTime": 1399464000000,
-              "endTime": 1399467600000,
-              "colspan": 3
-            },
-            {
-              "sessionID": "801",
-              "startTime": 1399467600000,
-              "endTime": 1399474800000,
-              "colspan": 6
-            },
-            {
               "sessionID": "802",
-              "startTime": 1399474800000,
+              "startTime": 1399478400000,
               "endTime": 1399485600000,
-              "colspan": 9
+              "colspan": 6,
+              "emptyBefore": 12
             },
             {
               "sessionID": "600",
@@ -777,7 +780,7 @@
           "shortLabel": "09",
           "sessions": [
             "764",
-            "796",
+            "820",
             "614",
             "615",
             "609",
@@ -801,7 +804,9 @@
             "258",
             "157",
             "766",
+            "822",
             "790",
+            "815",
             "677"
           ],
           "colspan": 2
@@ -890,6 +895,7 @@
             "743",
             "724",
             "791",
+            "816",
             "638",
             "704",
             "679"
@@ -901,8 +907,10 @@
           "label": "15:00",
           "shortLabel": "15",
           "sessions": [
+            "712",
             "758",
             "586",
+            "796",
             "43",
             "695",
             "404",
@@ -936,6 +944,7 @@
             "630",
             "774",
             "783",
+            "817",
             "595"
           ],
           "colspan": 3
@@ -993,11 +1002,16 @@
               "colspan": 3
             },
             {
+              "sessionID": "712",
+              "startTime": 1399572000000,
+              "endTime": 1399575600000,
+              "colspan": 3
+            },
+            {
               "sessionID": "808",
               "startTime": 1399575600000,
               "endTime": 1399582800000,
-              "colspan": 6,
-              "emptyBefore": 3
+              "colspan": 6
             }
           ]
         },
@@ -1058,7 +1072,7 @@
           "id": "2",
           "sessions": [
             {
-              "sessionID": "796",
+              "sessionID": "820",
               "startTime": 1399550400000,
               "endTime": 1399554000000,
               "colspan": 3
@@ -1153,11 +1167,16 @@
               "colspan": 3
             },
             {
+              "sessionID": "796",
+              "startTime": 1399572000000,
+              "endTime": 1399575600000,
+              "colspan": 3
+            },
+            {
               "sessionID": "603",
               "startTime": 1399575600000,
               "endTime": 1399579200000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "colspan": 3
             },
             {
               "sessionID": "479",
@@ -1177,11 +1196,16 @@
               "colspan": 3
             },
             {
+              "sessionID": "822",
+              "startTime": 1399554000000,
+              "endTime": 1399557600000,
+              "colspan": 3
+            },
+            {
               "sessionID": "424",
               "startTime": 1399557600000,
               "endTime": 1399561200000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "colspan": 3
             },
             {
               "sessionID": "561",
@@ -1377,6 +1401,31 @@
               "startTime": 1399579200000,
               "endTime": 1399582800000,
               "colspan": 3
+            }
+          ]
+        },
+        {
+          "id": "602",
+          "sessions": [
+            {
+              "sessionID": "815",
+              "startTime": 1399554000000,
+              "endTime": 1399561200000,
+              "colspan": 6,
+              "emptyBefore": 3
+            },
+            {
+              "sessionID": "816",
+              "startTime": 1399568400000,
+              "endTime": 1399575600000,
+              "colspan": 6,
+              "emptyBefore": 6
+            },
+            {
+              "sessionID": "817",
+              "startTime": 1399575600000,
+              "endTime": 1399582800000,
+              "colspan": 6
             }
           ]
         },
@@ -1679,6 +1728,7 @@
           "sessions": [
             "629",
             "336",
+            "814",
             "527",
             "301",
             "556",
@@ -1729,6 +1779,7 @@
             "91",
             "204",
             "778",
+            "801",
             "697",
             "685",
             "664"
@@ -1903,11 +1954,16 @@
               "colspan": 6
             },
             {
+              "sessionID": "814",
+              "startTime": 1399651200000,
+              "endTime": 1399654800000,
+              "colspan": 3
+            },
+            {
               "sessionID": "541",
               "startTime": 1399654800000,
               "endTime": 1399658400000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "colspan": 3
             },
             {
               "sessionID": "745",
@@ -2184,6 +2240,10 @@
           ]
         },
         {
+          "id": "602",
+          "sessions": []
+        },
+        {
           "id": "714",
           "sessions": [
             {
@@ -2196,8 +2256,13 @@
               "sessionID": "761",
               "startTime": 1399647600000,
               "endTime": 1399658400000,
-              "colspan": 9,
-              "emptyAfter": 9
+              "colspan": 9
+            },
+            {
+              "sessionID": "801",
+              "startTime": 1399658400000,
+              "endTime": 1399669200000,
+              "colspan": 9
             }
           ]
         },
@@ -2409,6 +2474,7 @@
             "520",
             "272",
             "641",
+            "819",
             "722",
             "518",
             "224",
@@ -2442,6 +2508,7 @@
           "sessions": [
             "577",
             "500",
+            "821",
             "485",
             "57",
             "182",
@@ -2456,6 +2523,7 @@
           "label": "13:00",
           "shortLabel": "13",
           "sessions": [
+            "509",
             "379",
             "454",
             "330",
@@ -2473,8 +2541,9 @@
           "label": "14:00",
           "shortLabel": "14",
           "sessions": [
-            "509",
+            "739",
             "593",
+            "818",
             "371",
             "726",
             "804",
@@ -2488,7 +2557,7 @@
           "label": "15:00",
           "shortLabel": "15",
           "sessions": [
-            "739",
+            "605",
             "579",
             "68",
             "211",
@@ -2508,7 +2577,7 @@
           "label": "16:00",
           "shortLabel": "16",
           "sessions": [
-            "605",
+            "644",
             "651",
             "201",
             "700",
@@ -2524,7 +2593,6 @@
           "label": "17:00",
           "shortLabel": "17",
           "sessions": [
-            "644",
             "769",
             "763",
             "434",
@@ -2555,29 +2623,35 @@
               "colspan": 3
             },
             {
+              "sessionID": "577",
+              "startTime": 1399734000000,
+              "endTime": 1399737600000,
+              "colspan": 3
+            },
+            {
               "sessionID": "509",
-              "startTime": 1399741200000,
-              "endTime": 1399744800000,
-              "colspan": 3,
-              "emptyBefore": 6
+              "startTime": 1399737600000,
+              "endTime": 1399741200000,
+              "colspan": 3
             },
             {
               "sessionID": "739",
+              "startTime": 1399741200000,
+              "endTime": 1399744800000,
+              "colspan": 3
+            },
+            {
+              "sessionID": "605",
               "startTime": 1399744800000,
               "endTime": 1399748400000,
               "colspan": 3
             },
             {
-              "sessionID": "605",
+              "sessionID": "644",
               "startTime": 1399748400000,
               "endTime": 1399752000000,
-              "colspan": 3
-            },
-            {
-              "sessionID": "644",
-              "startTime": 1399752000000,
-              "endTime": 1399755600000,
-              "colspan": 3
+              "colspan": 3,
+              "emptyAfter": 3
             }
           ]
         },
@@ -2598,7 +2672,7 @@
               "colspan": 3
             },
             {
-              "sessionID": "577",
+              "sessionID": "500",
               "startTime": 1399734000000,
               "endTime": 1399737600000,
               "colspan": 3
@@ -2652,7 +2726,7 @@
               "colspan": 3
             },
             {
-              "sessionID": "500",
+              "sessionID": "821",
               "startTime": 1399734000000,
               "endTime": 1399737600000,
               "colspan": 3
@@ -2664,11 +2738,16 @@
               "colspan": 3
             },
             {
+              "sessionID": "818",
+              "startTime": 1399741200000,
+              "endTime": 1399744800000,
+              "colspan": 3
+            },
+            {
               "sessionID": "68",
               "startTime": 1399744800000,
               "endTime": 1399748400000,
-              "colspan": 3,
-              "emptyBefore": 3
+              "colspan": 3
             },
             {
               "sessionID": "201",
@@ -2694,11 +2773,16 @@
               "colspan": 3
             },
             {
+              "sessionID": "819",
+              "startTime": 1399726800000,
+              "endTime": 1399730400000,
+              "colspan": 3
+            },
+            {
               "sessionID": "759",
               "startTime": 1399730400000,
               "endTime": 1399737600000,
-              "colspan": 6,
-              "emptyBefore": 3
+              "colspan": 6
             },
             {
               "sessionID": "330",
@@ -2956,6 +3040,10 @@
               "colspan": 3
             }
           ]
+        },
+        {
+          "id": "602",
+          "sessions": []
         },
         {
           "id": "714",
@@ -3942,6 +4030,23 @@
         "main": true
       }
     ],
+    "340": [
+      {
+        "id": "665",
+        "name": "Antonio Fernando Santos Ladeia",
+        "main": true
+      },
+      {
+        "id": "1081",
+        "name": "Rafael Gomes",
+        "main": false
+      },
+      {
+        "id": "997",
+        "name": "VJ pixel",
+        "main": false
+      }
+    ],
     "345": [
       {
         "id": "449",
@@ -4616,13 +4721,6 @@
         "main": false
       }
     ],
-    "583": [
-      {
-        "id": "931",
-        "name": "Mônica Paz",
-        "main": true
-      }
-    ],
     "584": [
       {
         "id": "854",
@@ -5254,6 +5352,13 @@
         "main": true
       }
     ],
+    "673": [
+      {
+        "id": "712",
+        "name": "Fa Conti",
+        "main": true
+      }
+    ],
     "674": [
       {
         "id": "1022",
@@ -5540,8 +5645,8 @@
         "main": true
       },
       {
-        "id": "940",
-        "name": "ORGANIZAÇÃO",
+        "id": "1160",
+        "name": "Marisa Rublescki Silveira",
         "main": false
       }
     ],
@@ -5591,6 +5696,13 @@
       {
         "id": "1064",
         "name": "Alberto J. Azevedo",
+        "main": true
+      }
+    ],
+    "712": [
+      {
+        "id": "1065",
+        "name": "Bruno Souza",
         "main": true
       }
     ],
@@ -5877,13 +5989,16 @@
         "id": "1110",
         "name": "Vinicius Wu",
         "main": true
-      }
-    ],
-    "760": [
+      },
       {
-        "id": "3",
-        "name": "Organização 0",
-        "main": true
+        "id": "1166",
+        "name": "Marcelo Branco",
+        "main": false
+      },
+      {
+        "id": "918",
+        "name": "Ricardo Poppi",
+        "main": false
       }
     ],
     "761": [
@@ -5956,6 +6071,13 @@
       {
         "id": "940",
         "name": "ORGANIZAÇÃO",
+        "main": true
+      }
+    ],
+    "773": [
+      {
+        "id": "936",
+        "name": "Deivi Lopes Kuhn",
         "main": true
       }
     ],
@@ -6086,8 +6208,18 @@
     ],
     "786": [
       {
+        "id": "1121",
+        "name": "Jônatas Medeiros",
+        "main": true
+      },
+      {
         "id": "1124",
         "name": "Alex Correa",
+        "main": false
+      },
+      {
+        "id": "1164",
+        "name": "Felipe Barth",
         "main": false
       },
       {
@@ -6108,6 +6240,11 @@
         "id": "1136",
         "name": "Rodrigo Dias",
         "main": true
+      },
+      {
+        "id": "1162",
+        "name": "Guilherme Funchal",
+        "main": false
       }
     ],
     "796": [
@@ -6278,6 +6415,11 @@
         "main": true
       },
       {
+        "id": "983",
+        "name": "Felipe Cabral",
+        "main": false
+      },
+      {
         "id": "882",
         "name": "Jeremie Zimmermann",
         "main": false
@@ -6326,6 +6468,81 @@
       {
         "id": "1158",
         "name": "Pablo J. Etcheverry",
+        "main": true
+      }
+    ],
+    "814": [
+      {
+        "id": "1159",
+        "name": "Pedro Paranaguá",
+        "main": true
+      }
+    ],
+    "815": [
+      {
+        "id": "940",
+        "name": "ORGANIZAÇÃO",
+        "main": true
+      }
+    ],
+    "816": [
+      {
+        "id": "940",
+        "name": "ORGANIZAÇÃO",
+        "main": true
+      }
+    ],
+    "817": [
+      {
+        "id": "1054",
+        "name": "Jorge Cabezas",
+        "main": true
+      }
+    ],
+    "818": [
+      {
+        "id": "795",
+        "name": "Sergio Oliveira Campos",
+        "main": true
+      }
+    ],
+    "819": [
+      {
+        "id": "1163",
+        "name": "Carlos Eduardo Meine Morais",
+        "main": true
+      }
+    ],
+    "820": [
+      {
+        "id": "936",
+        "name": "Deivi Lopes Kuhn",
+        "main": false
+      }
+    ],
+    "821": [
+      {
+        "id": "1063",
+        "name": "Otavio Salvador",
+        "main": true
+      },
+      {
+        "id": "987",
+        "name": "Jomar Silva",
+        "main": false
+      }
+    ],
+    "822": [
+      {
+        "id": "1167",
+        "name": " Ricardo Strusberg",
+        "main": true
+      }
+    ],
+    "823": [
+      {
+        "id": "594",
+        "name": "Tania Silva",
         "main": true
       }
     ]
@@ -6402,6 +6619,14 @@
       "translation": false,
       "name": "F12 Robotica Livre",
       "position": 20
+    },
+    "602": {
+      "id": "602",
+      "venue": "1",
+      "capacity": 140,
+      "translation": false,
+      "name": "602",
+      "position": 9
     },
     "714": {
       "id": "714",
@@ -7402,6 +7627,17 @@
       "duration": 60,
       "roomID": "8"
     },
+    "340": {
+      "id": "340",
+      "title": "Raul Hacker Club, o início de um Hacker Space",
+      "abstract": "Nesta apresentação será abordada os trâmites e procedimentos tomados para a criação de um Hacker Space. Serão apresentados os problemas, as iniciativas e as coisas boas de trabalhar em coletividade.",
+      "areaID": "80",
+      "zoneID": "16",
+      "level": "starter",
+      "start": "2014-05-07T16:00:00-03:00",
+      "duration": 60,
+      "roomID": "4"
+    },
     "345": {
       "id": "345",
       "title": "Painel: Dá pra ganhar dinheiro com Software Livre? SIM! (edição: mulheres)",
@@ -7587,7 +7823,7 @@
       "level": "intermediate",
       "start": "2014-05-07T10:00:00-03:00",
       "duration": 60,
-      "roomID": "2"
+      "roomID": "1"
     },
     "422": {
       "id": "422",
@@ -7785,7 +8021,7 @@
       "level": "intermediate",
       "start": "2014-05-07T10:00:00-03:00",
       "duration": 60,
-      "roomID": "1"
+      "roomID": "8"
     },
     "496": {
       "id": "496",
@@ -7829,7 +8065,7 @@
       "level": "intermediate",
       "start": "2014-05-10T12:00:00-03:00",
       "duration": 60,
-      "roomID": "2"
+      "roomID": "1"
     },
     "505": {
       "id": "505",
@@ -7860,7 +8096,7 @@
       "areaID": "89",
       "zoneID": "19",
       "level": "intermediate",
-      "start": "2014-05-10T14:00:00-03:00",
+      "start": "2014-05-10T13:00:00-03:00",
       "duration": 60,
       "roomID": "8"
     },
@@ -8115,7 +8351,7 @@
       "level": "intermediate",
       "start": "2014-05-10T12:00:00-03:00",
       "duration": 60,
-      "roomID": "1"
+      "roomID": "8"
     },
     "578": {
       "id": "578",
@@ -8269,7 +8505,7 @@
       "level": "",
       "start": "2014-05-07T10:00:00-03:00",
       "duration": 60,
-      "roomID": "3"
+      "roomID": "2"
     },
     "602": {
       "id": "602",
@@ -8311,7 +8547,7 @@
       "areaID": "89",
       "zoneID": "19",
       "level": "",
-      "start": "2014-05-10T16:00:00-03:00",
+      "start": "2014-05-10T15:00:00-03:00",
       "duration": 60,
       "roomID": "8"
     },
@@ -8435,17 +8671,6 @@
       "start": "2014-05-09T12:00:00-03:00",
       "duration": 60,
       "roomID": "5"
-    },
-    "619": {
-      "id": "619",
-      "title": "Uruguai já tem Lei de uso do Software Livre na Administração Pública! ",
-      "abstract": "Em dezembro de 2013 terminou o processo de aprovação da Lei de Software Livre e Formatos Abertos na Administração Pública após muitos anos de luta pela comunidade uruguaia de Software Livre. \r\n\r\nNesta palestra apresentaré os detalhes do processo para a aprovação da lei, os problemas que tivemos que enfrentar, a maneira em que os resolvemos, as críticas que temos, a auto-crítica que fazemos e as expectativas que temos olhando para frente.",
-      "areaID": "77",
-      "zoneID": "16",
-      "level": "",
-      "start": "2014-05-07T14:00:00-03:00",
-      "duration": 60,
-      "roomID": "4"
     },
     "621": {
       "id": "621",
@@ -8707,7 +8932,7 @@
       "areaID": "77",
       "zoneID": "16",
       "level": "",
-      "start": "2014-05-10T17:00:00-03:00",
+      "start": "2014-05-10T16:00:00-03:00",
       "duration": 60,
       "roomID": "8"
     },
@@ -9296,8 +9521,8 @@
     },
     "703": {
       "id": "703",
-      "title": "CISL",
-      "abstract": "Reunião CISL",
+      "title": "Reunião do Comitê Técnico de Implementação de Software Livre",
+      "abstract": "O comitê técnico de implementação de Software Livre foi criado em 2003 para definir as diretrizes de adoção de Software Livre no Governo Federal.\r\nNesta reunião aberta serão discutidas propostas e linhas de ação para adoção de Software Livre no Governo.",
       "areaID": "92",
       "zoneID": "20",
       "level": "",
@@ -9381,6 +9606,17 @@
       "start": "2014-05-07T12:00:00-03:00",
       "duration": 60,
       "roomID": "5"
+    },
+    "712": {
+      "id": "712",
+      "title": "Java 8: a nova versão de Java, totalmente Livre",
+      "abstract": "Há poucas semanas foi lancada a nova versao da plataforma Java, o Java 8. Totalmente desenvolvida atraves do projeto livre OpenJDK, com a participacao de uma forte comunidade, a nova versao de Java traz novidades importantes para a tecnologia.",
+      "areaID": "62",
+      "zoneID": "14",
+      "level": "",
+      "start": "2014-05-08T15:00:00-03:00",
+      "duration": 60,
+      "roomID": "8"
     },
     "713": {
       "id": "713",
@@ -9642,7 +9878,7 @@
       "areaID": "38",
       "zoneID": "13",
       "level": "",
-      "start": "2014-05-10T15:00:00-03:00",
+      "start": "2014-05-10T14:00:00-03:00",
       "duration": 60,
       "roomID": "8"
     },
@@ -9726,7 +9962,7 @@
     "759": {
       "id": "759",
       "title": "Marco Civil ",
-      "abstract": "Marco Civil ",
+      "abstract": "Debate sobre  o Marco Civil ",
       "areaID": "92",
       "zoneID": "20",
       "level": "",
@@ -9843,6 +10079,17 @@
       "start": "2014-05-07T09:00:00-03:00",
       "duration": 60,
       "roomID": "7"
+    },
+    "773": {
+      "id": "773",
+      "title": "Software Livre e Segurança em Governo",
+      "abstract": "Desde 2003 o Governo Federal do Brasil realiza um grande esforço através do Comitê Técnico de Implementação de Software Livre em impulsionar o uso de Software Livre na administração pública.\r\n\r\nCom a publicação dos casos de espionagem contra o Governo Brasileiro a discussão e autonomia tecnológica foi reforçada e o Software Livre aparece como a única opção viável de utilização de software plenamente auditável pelo governo e pela sociedade.\r\n\r\n",
+      "areaID": "77",
+      "zoneID": "16",
+      "level": "",
+      "start": "2014-05-07T14:00:00-03:00",
+      "duration": 60,
+      "roomID": "4"
     },
     "774": {
       "id": "774",
@@ -10034,7 +10281,7 @@
     "795": {
       "id": "795",
       "title": "Inovação no Expresso v3: mobilidade, escalabilidade e integração",
-      "abstract": "Inovação no Expresso v3: mobilidade, escalabilidade e integração",
+      "abstract": "Novidades do Expresso v3: interface para dispositivos móveis em HTML5; escalabilidade e processamento distribuído via software; e profissionalização dos processos de desenvolvimento colaborativo com integração contínua.",
       "areaID": "38",
       "zoneID": "13",
       "level": "",
@@ -10044,14 +10291,14 @@
     },
     "796": {
       "id": "796",
-      "title": "Demoiselle",
-      "abstract": "demoiselle",
+      "title": "Framework Demoiselle: Soluções para desenvolvimento ágil e flexível com Java",
+      "abstract": "Apresentação do Framework Demoiselle que é a solução para desenvolvimento Java EE padrão do SERPRO, produzida de forma totalmente livre e em comunidade. Também serão apresentados outros facilitadores para apoio ao desenvolvedor que também são produzido pela comunidade, os resultados obtidos e a organização e a forma como a comunidade trabalha.",
       "areaID": "62",
       "zoneID": "14",
       "level": "",
-      "start": "2014-05-08T09:00:00-03:00",
+      "start": "2014-05-08T15:00:00-03:00",
       "duration": 60,
-      "roomID": "2"
+      "roomID": "3"
     },
     "797": {
       "id": "797",
@@ -10104,19 +10351,19 @@
       "areaID": "95",
       "zoneID": "21",
       "level": "",
-      "start": "2014-05-07T10:00:00-03:00",
-      "duration": 120,
+      "start": "2014-05-09T15:00:00-03:00",
+      "duration": 180,
       "roomID": "714"
     },
     "802": {
       "id": "802",
       "title": "Expressões Regulares",
-      "abstract": "As Expressões Regulares são usadas em todas as linguagens atuais e em todos os\r\nbons editores. São ferramentas poderosíssimas que auxiliam sobremaneira à\r\nprogramação, encurtando o tempo necessário para desenvolvimento de aplicativos.\r\nEste mini curso será executado em ambiente Shell e para tal, além de Expressões\r\nRegulares, o instrutor irá ensinar também o uso das instruções sed e grep.\r\nAo final do treinamento, o aluno terá capacidade de pesquisar, alterar valores e\r\ncriticar dados de arquivos via",
+      "abstract": "As Expressões Regulares são usadas em todas as linguagens atuais e em todos os bons editores. São ferramentas poderosíssimas que auxiliam sobremaneira à programação, encurtando o tempo necessário para desenvolvimento de aplicativos. Este mini curso será executado em ambiente Shell e para tal, além de Expressões Regulares, o instrutor irá ensinar também o uso das instruções sed e grep.\r\n\r\nObservação: A oficina iniciará às 13 horas.",
       "areaID": "95",
       "zoneID": "21",
       "level": "",
-      "start": "2014-05-07T12:00:00-03:00",
-      "duration": 180,
+      "start": "2014-05-07T13:00:00-03:00",
+      "duration": 120,
       "roomID": "714"
     },
     "803": {
@@ -10207,17 +10454,6 @@
       "duration": 120,
       "roomID": "7"
     },
-    "811": {
-      "id": "811",
-      "title": "Organização",
-      "abstract": "sem atividades",
-      "areaID": "92",
-      "zoneID": "20",
-      "level": "",
-      "start": "2014-05-07T09:00:00-03:00",
-      "duration": 60,
-      "roomID": "714"
-    },
     "812": {
       "id": "812",
       "title": "Escalando o Pé de Feijão -- uma História na Nuvem",
@@ -10237,6 +10473,116 @@
       "zoneID": "19",
       "level": "",
       "start": "2014-05-07T16:00:00-03:00",
+      "duration": 60,
+      "roomID": "7"
+    },
+    "814": {
+      "id": "814",
+      "title": "A Reforma da Lei de Direitos Autorais - por que você deve participar?",
+      "abstract": "Passando as eleições, o governo enviará o projeto para reforma da Lei de Dir. Autorais. A atual lei, de 1998, está ultrapassada. ",
+      "areaID": "77",
+      "zoneID": "16",
+      "level": "",
+      "start": "2014-05-09T13:00:00-03:00",
+      "duration": 60,
+      "roomID": "2"
+    },
+    "815": {
+      "id": "815",
+      "title": "O sistema de patentes nacional e internacional",
+      "abstract": "O sistema de patentes nacional e internacional, com ênfase no funcionamento do sistema",
+      "areaID": "38",
+      "zoneID": "13",
+      "level": "",
+      "start": "2014-05-08T10:00:00-03:00",
+      "duration": 120,
+      "roomID": "602"
+    },
+    "816": {
+      "id": "816",
+      "title": "Debate sobre inovação e propriedade intelectual",
+      "abstract": "Debate sobre inovação e propriedade intelectual",
+      "areaID": "80",
+      "zoneID": "16",
+      "level": "",
+      "start": "2014-05-08T14:00:00-03:00",
+      "duration": 120,
+      "roomID": "602"
+    },
+    "817": {
+      "id": "817",
+      "title": "Propriedade intelectual na América Latina",
+      "abstract": "Propriedade intelectual na América Latina",
+      "areaID": "80",
+      "zoneID": "16",
+      "level": "",
+      "start": "2014-05-08T16:00:00-03:00",
+      "duration": 120,
+      "roomID": "602"
+    },
+    "818": {
+      "id": "818",
+      "title": "Django e Diazo - Integração visual e Single Sign-On para aplicações Web",
+      "abstract": "Nesta palestra serão apresentadas as tecnologias criadas para facilitar a integração de autenticação (Single Sign-On) e visual de aplicativos Web em geral. Para a demonstração será apresentado o caso da ferramenta livre Colab, criada para apoiar as atividades da comunidade do legislativo brasileiro. ",
+      "areaID": "59",
+      "zoneID": "14",
+      "level": "",
+      "start": "2014-05-10T14:00:00-03:00",
+      "duration": 60,
+      "roomID": "2"
+    },
+    "819": {
+      "id": "819",
+      "title": "Vídeos na plataforma Moodle -  Construindo uma alternativa em Software Livre",
+      "abstract": "Apresenta a solução encontrada pelo Banrisul para a transmissão de vídeos na plataforma MOODLE, de forma que não cause impacto ou interrupção de outros serviços. Em situação em que os recursos de transmissão de dados são escassos e limitados.",
+      "areaID": "80",
+      "zoneID": "16",
+      "level": "",
+      "start": "2014-05-10T10:00:00-03:00",
+      "duration": 60,
+      "roomID": "3"
+    },
+    "820": {
+      "id": "820",
+      "title": " Escalabilidade via Software no ExpressoV3",
+      "abstract": "Arquitetura de soluções de escalabilidade para o ExpressoV3. Como o projeto ExpressoV3 pretende entregar uma solução escalável para um milhão de usuários com configuração de multidomínios,  sharding de bancos de dados e segmentação de serviços.\r\n",
+      "areaID": "38",
+      "zoneID": "13",
+      "level": "",
+      "start": "2014-05-08T09:00:00-03:00",
+      "duration": 60,
+      "roomID": "2"
+    },
+    "821": {
+      "id": "821",
+      "title": "Projeto Yocto - Como turbinar o seu Galileo!",
+      "abstract": "Pretendemos apresentar o projeto Yocto, mostrar a sua história e apresentar a suas principais aplicações. Vamos ainda falar sobre as formas de compilação e utilização dele, além dos mecanismos de contribuição para a comunidade e o projeto. Como exemplo prático de utilização e personalização do Yocto, vamos mostrar como baixar, configurar, alterar, compilar e instalar o Yocto em uma placa Galileo da Intel (que estará no palco, rodando Yocto)",
+      "areaID": "44",
+      "zoneID": "13",
+      "level": "",
+      "start": "2014-05-10T12:00:00-03:00",
+      "duration": 60,
+      "roomID": "2"
+    },
+    "822": {
+      "id": "822",
+      "title": "Latinux",
+      "abstract": "...",
+      "areaID": "77",
+      "zoneID": "16",
+      "level": "",
+      "start": "2014-05-08T10:00:00-03:00",
+      "duration": 60,
+      "roomID": "4"
+    },
+    "823": {
+      "id": "823",
+      "title": "Meta programação em Java",
+      "abstract": "Meta programação em Java",
+      "areaID": "62",
+      "zoneID": "14",
+      "level": "",
+      "start": "2014-05-07T17:00:00-03:00",
       "duration": 60,
       "roomID": "7"
     }
@@ -10419,5 +10765,5 @@
       "color": "FFC9D7"
     }
   },
-  "parsed_date": 1399298227732
+  "parsed_date": 1399339811511
 }
