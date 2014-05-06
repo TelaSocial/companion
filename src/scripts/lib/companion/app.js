@@ -102,6 +102,7 @@ module.exports = function($, FISLParser, templates){
             },
             html;
         console.log('populateSchedule '+view);
+        $('body').attr('data-view-mode', view);
         loadingMessage('Aguarde, montando a grade ');
         html = template(templateData);
         window.setTimeout(function(){
