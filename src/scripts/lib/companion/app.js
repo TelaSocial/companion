@@ -137,35 +137,19 @@ module.exports = function($, FISLParser, templates){
 
     var setupTableLine = function(){
         var tablesContainer = $('.schedule--table'),
-            tables = tablesContainer.find('table'),
-            tdMaxWidth = 300, //px
-            tableBordersWidth = 2,
-            dayMarginRight = 150,
-            paddingRight = 15,
-            widthSum = 0,
-            columnCount;
-        tables.each(function(){
-            var rows = $(this).find('tr');
-            columnCount = 0;
-            rows.each(function(){
-                var cells = $(this).find('td');
-                columnCount = Math.max(columnCount, cells.length);
-            });
-            console.log('add: '+(columnCount * tdMaxWidth));
-            widthSum += columnCount * tdMaxWidth + tableBordersWidth;
+            days = tablesContainer.find('.day'),
+            dayMarginRight = 150 + 50,
+            widthSum = 0;
+        days.each(function(){
+            var width = $(this).outerWidth();
+            widthSum += width + dayMarginRight;
         });
-        console.log('setupTableLine:'+widthSum);
-        tablesContainer.width(
-            widthSum +
-            paddingRight +
-            (tables.length - 1) * dayMarginRight
-        );
+        tablesContainer.width(widthSum + 15);
     };
 
     var initListView = function(){
         var body = $('body');
         console.log('initListView');
-        body.attr('data-view-mode', 'list');
         if ($('#favorites-tab.active').length){
             $('#time-nav').hide();
         }else{
@@ -185,7 +169,6 @@ module.exports = function($, FISLParser, templates){
 
     var initTableView = function(){
         console.log('initTableView');
-        $('body').attr('data-view-mode', 'table');
         setupTableLine();
     };
 
@@ -310,11 +293,10 @@ module.exports = function($, FISLParser, templates){
         console.log('nextView in',nextView);
             destinationElement.html(html);
             if (nextView === 'list') {
-                initListView();
+                $('body').attr('data-view-mode', 'list');
             }else{
-                initTableView();
+                $('body').attr('data-view-mode', 'table');
             }
-            initSessions();
         }, 1);
     };
 
@@ -454,6 +436,7 @@ module.exports = function($, FISLParser, templates){
             }else{
                 initTableView();
             }
+            initSessions();
         } else {
             $('#'+ sectionName +'-view').addClass('selected');
         }
