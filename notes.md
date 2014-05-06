@@ -1,3 +1,18 @@
+## Feedback
+
+- carregar do cache mesmo quando online no app open se houver cache
+    - se precisar carregar, pelo menos abre com o hardcoded para a splash
+    ficar menos tempo visivel
+- substituir mapa
+- bug do mapa - investigar
+    - app travou 2 vezes: troian
+- icone de lista parece menu, mudar
+- chevron pode ser do lado direito e para baixo
+- zebrar os dias
+- pontinho na tamenav nos horarios que vc tem escolhas
+- timenav bug: scroll para cima esconde
+
+
 ## Tag 0.2.0
 
 - [x] list view is the app index
