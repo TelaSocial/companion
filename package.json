@@ -36,7 +36,7 @@
     "fastclick": "^1.0.1",
     "glob": "^3.2.9",
     "gulp": "^3.6.0",
-    "gulp-assemble": "^0.1.4",
+    "gulp-assemble": "0.1.5",
     "gulp-autoprefixer": "0.0.6",
     "gulp-sass": "^0.7.1",
     "gulp-util": "^2.2.14",
