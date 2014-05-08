@@ -52,8 +52,7 @@ module.exports = function($, FISLParser, templates){
         updatesLog = [],
         mapPan,
         mapMinScale,
-        firstFetchFailed = true,
-        appLoadFinished = false;
+        firstFetchFailed = true;
 
     var isSessionFavorite = function(session){
         return bookmarkedSessions[session.sessionId] !== undefined;
@@ -70,6 +69,7 @@ module.exports = function($, FISLParser, templates){
     };
 
     var scrollToCurrentTime = function(){
+        console.log('scrollToCurrentTime');
         var now = new Date(),
             timestamp = now.getTime(),
             hour = now.getHours(),
@@ -86,6 +86,7 @@ module.exports = function($, FISLParser, templates){
             }
         }
         timeAnchor = $('#day-'+ currentDayIndex +'-time-' + hour);
+        console.log('#day-'+ currentDayIndex +'-time-' + hour);
         body.animate(
             {
                 scrollTop: timeAnchor.offset().top - boddyPaddingTop + 1
@@ -100,9 +101,6 @@ module.exports = function($, FISLParser, templates){
         loadingMessage('Aguarde, inicializando interfaces ');
         if (view === 'list'){
             initListView();
-            if (!appLoadFinished){
-                scrollToCurrentTime();
-            }
         }else{
             initTableView();
         }
@@ -112,7 +110,9 @@ module.exports = function($, FISLParser, templates){
         }
         //bind session element events
         initSessions();
-        appLoadFinished = true;
+        if (!isRefresh){
+            scrollToCurrentTime();
+        }
     };
 
     var populateSchedule = function(isRefresh){
