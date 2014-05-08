@@ -214,9 +214,11 @@ module.exports = function($, FISLParser, templates){
 
     var initSessions = function(){
         // time navigation buttons (list view)
+        $('#time-nav li a').off();
         $('#time-nav li a').click(timeNavClicked);
 
         // add to calendar buttons
+        $('.calendar-add-button').off();
         $('.calendar-add-button').click(function(event){
             cordovaFunctions.addToCalendarButtonClicked(
                     event,
@@ -230,6 +232,7 @@ module.exports = function($, FISLParser, templates){
         $('.refresh-feed').click(manualFetchClicked);
 
         // bookmark buttons
+        $('.bookmark-button').off();
         $('.bookmark-button').click(bookmarkButtonClicked);
 
         //add favorite class to all bookmarked sessions
@@ -244,6 +247,7 @@ module.exports = function($, FISLParser, templates){
         applyBookmarksFilter();
 
         // map links
+        $('.room-link').off();
         $('.room-link').click(mapLinkClicked);
 
         //setup collapsable sessions in and out events
