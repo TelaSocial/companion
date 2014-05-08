@@ -11,6 +11,7 @@ var attachFastClick = require('fastclick');
 var _ = {
         forEach: require('lodash-node/modern/collections/forEach'),
         filter: require('lodash-node/modern/collections/filter'),
+        pluck: require('lodash-node/modern/collections/pluck'),
         difference: require('lodash-node/modern/arrays/difference'),
         union: require('lodash-node/modern/arrays/union'),
         isEqual: require('lodash-node/modern/objects/isEqual'),
@@ -51,7 +52,8 @@ module.exports = function($, FISLParser, templates){
         updatesLog = [],
         mapPan,
         mapMinScale,
-        firstFetchFailed = true;
+        firstFetchFailed = true,
+        appLoadFinished = false;
 
     var isSessionFavorite = function(session){
         return bookmarkedSessions[session.sessionId] !== undefined;
@@ -67,12 +69,40 @@ module.exports = function($, FISLParser, templates){
         $('#loading-message').html(text);
     };
 
+    var scrollToCurrentTime = function(){
+        var now = new Date(),
+            timestamp = now.getTime(),
+            hour = now.getHours(),
+            closingTimes = _.pluck(scheduleData.days, 'closingTime'),
+            currentDayIndex = 0,
+            timeAnchor,
+            animationTime = 700, //miliseconds
+            body = $('html, body');
+        for (var i = 0; i < closingTimes.length; i++) {
+            var closingTime = closingTimes[i];
+            if (timestamp < closingTime){
+                currentDayIndex = i;
+                break;
+            }
+        }
+        timeAnchor = $('#day-'+ currentDayIndex +'-time-' + hour);
+        body.animate(
+            {
+                scrollTop: timeAnchor.offset().top - boddyPaddingTop + 1
+            },
+            animationTime
+        );
+    };
+
     var schedulePopulated = function(isRefresh){
         var view = isRefresh ? $('body').attr('data-view-mode') : defaultView;
         console.log('schedulePopulated');
         loadingMessage('Aguarde, inicializando interfaces ');
         if (view === 'list'){
             initListView();
+            if (!appLoadFinished){
+                scrollToCurrentTime();
+            }
         }else{
             initTableView();
         }
@@ -82,6 +112,7 @@ module.exports = function($, FISLParser, templates){
         }
         //bind session element events
         initSessions();
+        appLoadFinished = true;
     };
 
     var populateSchedule = function(isRefresh){
@@ -434,6 +465,7 @@ module.exports = function($, FISLParser, templates){
             $('#schedule-view').addClass('selected');
             if (view === 'list'){
                 initListView();
+                scrollToCurrentTime();
             }else{
                 initTableView();
             }
