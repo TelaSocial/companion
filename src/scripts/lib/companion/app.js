@@ -76,6 +76,7 @@ module.exports = function($, FISLParser, templates){
             closingTimes = _.pluck(scheduleData.days, 'closingTime'),
             currentDayIndex = 0,
             timeAnchor,
+            anchorOffset,
             animationTime = 700, //miliseconds
             body = $('html, body');
         for (var i = 0; i < closingTimes.length; i++) {
@@ -87,12 +88,19 @@ module.exports = function($, FISLParser, templates){
         }
         timeAnchor = $('#day-'+ currentDayIndex +'-time-' + hour);
         console.log('#day-'+ currentDayIndex +'-time-' + hour);
-        body.animate(
-            {
-                scrollTop: timeAnchor.offset().top - boddyPaddingTop + 1
-            },
-            animationTime
-        );
+        if (!timeAnchor.length){
+            timeAnchor = $('#day-'+ currentDayIndex);
+            console.log('#day-'+ currentDayIndex);
+        }
+        anchorOffset = timeAnchor.offset();
+        if (anchorOffset.top) {
+            body.animate(
+                {
+                    scrollTop: timeAnchor.offset().top - boddyPaddingTop + 1
+                },
+                animationTime
+            );
+        }
     };
 
     var schedulePopulated = function(isRefresh){
